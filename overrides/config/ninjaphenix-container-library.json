@@ -1,0 +1,10 @@
+{
+	/* 
+	   Prefered container type, set to expandedstorage:auto to reuse selection screen.
+	*/
+	"preferred_container_type": "expandedstorage:auto",
+	/* 
+	   Only allows scrolling in scrollable screen whilst hovering over the scrollbar region.
+	*/
+	"restrictive_scrolling": false
+}

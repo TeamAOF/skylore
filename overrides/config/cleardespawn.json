@@ -1,0 +1,10 @@
+{
+  "cleardespawn.config.timeleft": {
+    "key": "cleardespawn.config.timeleft",
+    "toolTip": "cleardespawn.config.tt.timeleft",
+    "value": 20,
+    "defaultValue": 20,
+    "minValue": 0,
+    "maxValue": 300
+  }
+}
