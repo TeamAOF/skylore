@@ -1,0 +1,14 @@
+name = "Chicken Nerf"
+filename = "chicken-nerf-1.0.5+MC1.16.2-1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3170/201/chicken-nerf-1.0.5+MC1.16.2-1.16.5.jar"
+hash-format = "murmur2"
+hash = "3667617960"
+
+[update]
+[update.curseforge]
+file-id = 3170201
+project-id = 396238
+release-channel = "beta"

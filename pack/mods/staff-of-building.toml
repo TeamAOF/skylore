@@ -1,0 +1,14 @@
+name = "Staff of Building"
+filename = "staffofbuilding-1.2.6-1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3284/852/staffofbuilding-1.2.6-1.16.5.jar"
+hash-format = "murmur2"
+hash = "3423466923"
+
+[update]
+[update.curseforge]
+file-id = 3284852
+project-id = 382694
+release-channel = "beta"

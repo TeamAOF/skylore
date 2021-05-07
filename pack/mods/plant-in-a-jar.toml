@@ -1,0 +1,14 @@
+name = "Plant In A Jar"
+filename = "plantinajar-1.8.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3103/262/plantinajar-1.8.1.jar"
+hash-format = "murmur2"
+hash = "979338130"
+
+[update]
+[update.curseforge]
+file-id = 3103262
+project-id = 397183
+release-channel = "beta"

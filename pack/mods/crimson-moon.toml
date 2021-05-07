@@ -1,0 +1,14 @@
+name = "Crimson Moon"
+filename = "crimson-moon-2.0.4-1.16.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3256/117/crimson-moon-2.0.4-1.16.5.jar"
+hash-format = "murmur2"
+hash = "327502052"
+
+[update]
+[update.curseforge]
+file-id = 3256117
+project-id = 380356
+release-channel = "beta"

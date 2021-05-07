@@ -1,0 +1,8 @@
+.git/**
+.gitattributes
+.gitignore
+
+.DS_Store
+
+README.md
+LICENSE.md

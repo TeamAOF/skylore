@@ -1,0 +1,14 @@
+name = "MaLiLib"
+filename = "malilib-fabric-1.16.4-0.10.0-dev.21+arne.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3252/979/malilib-fabric-1.16.4-0.10.0-dev.21+arne.5.jar"
+hash-format = "murmur2"
+hash = "1385954312"
+
+[update]
+[update.curseforge]
+file-id = 3252979
+project-id = 303119
+release-channel = "beta"
