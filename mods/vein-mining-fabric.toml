@@ -1,0 +1,14 @@
+name = "Vein Mining (Fabric)"
+filename = "veinmining-fabric-0.0.10-1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3366/229/veinmining-fabric-0.0.10-1.17.jar"
+hash-format = "murmur2"
+hash = "309278958"
+
+[update]
+[update.curseforge]
+file-id = 3366229
+project-id = 431910
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "[Fabric] Fat Experience Orbs"
+filename = "FatExperienceOrbs-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3390/15/FatExperienceOrbs-1.0.1.jar"
+hash-format = "murmur2"
+hash = "4262754899"
+
+[update]
+[update.curseforge]
+file-id = 3390015
+project-id = 334873
+release-channel = "beta"

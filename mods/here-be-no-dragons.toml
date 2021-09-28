@@ -1,0 +1,14 @@
+name = "Here be no Dragons!"
+filename = "here-be-no-dragons-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3147/277/here-be-no-dragons-1.0.0.jar"
+hash-format = "murmur2"
+hash = "1784267607"
+
+[update]
+[update.curseforge]
+file-id = 3147277
+project-id = 429291
+release-channel = "beta"

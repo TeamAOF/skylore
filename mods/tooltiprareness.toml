@@ -1,0 +1,14 @@
+name = "TooltipRareness"
+filename = "tooltiprareness-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3456/201/tooltiprareness-1.0.2.jar"
+hash-format = "murmur2"
+hash = "2438710989"
+
+[update]
+[update.curseforge]
+file-id = 3456201
+project-id = 472795
+release-channel = "beta"

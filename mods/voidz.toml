@@ -1,0 +1,14 @@
+name = "VoidZ"
+filename = "voidz-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3396/945/voidz-1.0.5.jar"
+hash-format = "murmur2"
+hash = "2144483080"
+
+[update]
+[update.curseforge]
+file-id = 3396945
+project-id = 486971
+release-channel = "beta"

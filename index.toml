@@ -1,0 +1,1313 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/Adorn.json5"
+
+[[files]]
+file = "config/Lakeside.properties"
+
+[[files]]
+file = "config/LoadingTimer.properties"
+
+[[files]]
+file = "config/MythicMounts.txt"
+
+[[files]]
+file = "config/RPG-HUD"
+
+[[files]]
+file = "config/StarrySky.json5"
+
+[[files]]
+file = "config/Taterzens/config.json"
+
+[[files]]
+file = "config/Taterzens/permissions.toml"
+
+[[files]]
+file = "config/adventurez.json5"
+
+[[files]]
+file = "config/antiqueatlas.json5"
+
+[[files]]
+file = "config/appleskin.json5"
+
+[[files]]
+file = "config/axesareweapons.json5"
+
+[[files]]
+file = "config/backslot.json5"
+
+[[files]]
+file = "config/blur.json"
+
+[[files]]
+file = "config/bosses_of_mass_destruction.json5"
+
+[[files]]
+file = "config/campanion.json"
+
+[[files]]
+file = "config/craftpresence.properties"
+
+[[files]]
+file = "config/creeperaiupdated.json"
+
+[[files]]
+file = "config/croptopia/options.json"
+
+[[files]]
+file = "config/dark-enchanting.json5"
+
+[[files]]
+file = "config/darkness.properties"
+
+[[files]]
+file = "config/dashloader.yaml"
+
+[[files]]
+file = "config/dawn/debug.json"
+
+[[files]]
+file = "config/dawn/features.json"
+
+[[files]]
+file = "config/dehydration.json5"
+
+[[files]]
+file = "config/dynamicfps.toml"
+
+[[files]]
+file = "config/dynamicmusic.json"
+
+[[files]]
+file = "config/earthtojavamobs.json"
+
+[[files]]
+file = "config/eldritch_mobs.json5"
+
+[[files]]
+file = "config/enchant_giver/config.json"
+
+[[files]]
+file = "config/enchant_giver/enchants.json"
+
+[[files]]
+file = "config/enchant_giver/example.yaml"
+
+[[files]]
+file = "config/environmentz.json5"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+
+[[files]]
+file = "config/fallingleaves.json"
+
+[[files]]
+file = "config/fancymenu/config.txt"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+
+[[files]]
+file = "config/fancymenu/locals/de_de.local"
+
+[[files]]
+file = "config/fancymenu/locals/en_us.local"
+
+[[files]]
+file = "config/fancymenu/locals/pl_pl.local"
+
+[[files]]
+file = "config/fancymenu/locals/pt_br.local"
+
+[[files]]
+file = "config/flonters.properties"
+
+[[files]]
+file = "config/fluidphysics.conf"
+
+[[files]]
+file = "config/health_config.json"
+
+[[files]]
+file = "config/illuminations.properties"
+
+[[files]]
+file = "config/indium-renderer.properties"
+
+[[files]]
+file = "config/inventorysorter/blacklist.json5"
+
+[[files]]
+file = "config/inventorysorter/config.json5"
+
+[[files]]
+file = "config/iris.properties"
+
+[[files]]
+file = "config/kibe.json"
+
+[[files]]
+file = "config/konkrete/locals/de_de.local"
+
+[[files]]
+file = "config/konkrete/locals/en_us.local"
+
+[[files]]
+file = "config/konkrete/locals/pl_pl.local"
+
+[[files]]
+file = "config/konkrete/locals/pt_br.local"
+
+[[files]]
+file = "config/lambdynlights.toml"
+
+[[files]]
+file = "config/levelz.json5"
+
+[[files]]
+file = "config/libcd.json"
+
+[[files]]
+file = "config/libgui.json5"
+
+[[files]]
+file = "config/mcda.json5"
+
+[[files]]
+file = "config/mcdar.json5"
+
+[[files]]
+file = "config/medievalweapons.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/attack_speed_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/config.json"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/damage_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/draw_speed_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/enchants_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/loot_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/materials_config.json5"
+
+[[files]]
+file = "config/minecraft_dungeon_weapons/range_config.json5"
+
+[[files]]
+file = "config/mobs_attempt_parkour/config.json"
+
+[[files]]
+file = "config/modern_beta/biome_config.json"
+
+[[files]]
+file = "config/modern_beta/compat_config.json"
+
+[[files]]
+file = "config/modern_beta/generation_config.json"
+
+[[files]]
+file = "config/modern_beta/rendering_config.json"
+
+[[files]]
+file = "config/modmenu.json"
+
+[[files]]
+file = "config/mostructures-config-v2.json5"
+
+[[files]]
+file = "config/nyfsquivers.json"
+
+[[files]]
+file = "config/particlerain.json5"
+
+[[files]]
+file = "config/paxi/datapack_load_order.json"
+
+[[files]]
+file = "config/pehkui/config.json"
+
+[[files]]
+file = "config/promenade/biomes.json"
+
+[[files]]
+file = "config/promenade/creatures.json"
+
+[[files]]
+file = "config/promenade/features.json"
+
+[[files]]
+file = "config/promenade/structures.json"
+
+[[files]]
+file = "config/quitconfirm.json"
+
+[[files]]
+file = "config/repurposed_structures-fabric/biome_dimension_allow_disallow_configs.json5"
+
+[[files]]
+file = "config/repurposed_structures-fabric/general_configs.json5"
+
+[[files]]
+file = "config/repurposed_structures-fabric/natural_mob_spawning_configs.json5"
+
+[[files]]
+file = "config/rpgdifficulty.json5"
+
+[[files]]
+file = "config/rpgz.json5"
+
+[[files]]
+file = "config/rrp.properties"
+
+[[files]]
+file = "config/skyutils.json"
+
+[[files]]
+file = "config/slightguimodifications/config.json5"
+
+[[files]]
+file = "config/slightguimodifications/cts.groovy"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+
+[[files]]
+file = "config/sodium-options.json"
+
+[[files]]
+file = "config/sound_physics.json5"
+
+[[files]]
+file = "config/traverse/biomes.json"
+
+[[files]]
+file = "config/veinmining.json5"
+
+[[files]]
+file = "config/voidz.json5"
+
+[[files]]
+file = "config/waila/waila.json"
+
+[[files]]
+file = "config/waila/waila_plugins.json"
+
+[[files]]
+file = "config/world_blender-fabric-omega_configs.json5"
+
+[[files]]
+file = "config/world_blender-identifier_dump.txt"
+
+[[files]]
+file = "config/world_blender.json5"
+
+[[files]]
+file = "config/xaerominimap.txt"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+
+[[files]]
+file = "kubejs/README.txt"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+
+[[files]]
+file = "kubejs/client_scripts/script.js"
+
+[[files]]
+file = "kubejs/config/client.properties"
+
+[[files]]
+file = "kubejs/config/common.properties"
+
+[[files]]
+file = "kubejs/data/minecraft/dimension/overworld.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/badlands_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/bamboo_jungle.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/bamboo_jungle_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/basalt_deltas.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/beach.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/birch_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/birch_forest_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/cold_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/crimson_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dark_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dark_forest_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_cold_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_frozen_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_lukewarm_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_warm_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/desert.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/desert_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/desert_lakes.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dripstone_caves.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/flower_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/frozen_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/frozen_river.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/giant_spruce_taiga.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/giant_spruce_taiga_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/giant_tree_taiga.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/giant_tree_taiga_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/gravelly_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/ice_spikes.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/jungle.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/jungle_edge.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/jungle_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/lukewarm_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/lush_caves.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/modified_badlands_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/modified_gravelly_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/modified_jungle.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/modified_jungle_edge.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/modified_wooded_badlands_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mountain_edge.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mushroom_field_shore.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/mushroom_fields.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/nether_wastes.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/plains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/savanna.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/savanna_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/shattered_savanna.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/shattered_savanna_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_beach.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_taiga.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_taiga_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_taiga_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/snowy_tundra.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/soul_sand_valley.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/stone_shore.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/sunflower_plains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/swamp.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/swamp_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/taiga.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/taiga_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/taiga_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/tall_birch_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/tall_birch_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/the_void.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/warm_ocean.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/warped_forest.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/wooded_badlands_plateau.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/wooded_hills.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/wooded_mountains.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_andesite.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_coal.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_copper.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_diamond.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_diorite.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_dirt.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_emerald.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_gold.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_gold_extra.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_granite.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_gravel.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_infested.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_iron.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_lapis.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_redstone.json"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/noise_settings/floating_islands.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/alpha.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/alpha_winter.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/cold_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/desert.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/frozen_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/ice_desert.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/indev_hell.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/indev_normal.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/indev_paradise.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/indev_snowy.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/indev_woods.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/infdev_227.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/infdev_227_winter.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/infdev_415.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/infdev_415_winter.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/lukewarm_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_cold_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_desert.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_frozen_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_ice_desert.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_lukewarm_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_plains.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_rainforest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_savanna.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_seasonal_forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_shrubland.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_swampland.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_taiga.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_tundra.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/pe_warm_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/plains.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/rainforest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/savanna.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/seasonal_forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/shrubland.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/sky.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/swampland.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/taiga.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/tundra.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/biome/warm_ocean.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_carver/old_beta_cave.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/beta_freeze_top_layer.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/flower_infdev_227.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/flower_paradise.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/mushroom_hell.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/old_fancy_oak.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/ore_clay.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/ore_emerald_y95.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_cactus.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_cactus_pe.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_2.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_3.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_4.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_alpha_2.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_plains_10.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_rainforest_10.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_taiga_1.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_poppy.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_alpha.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_alpha_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_forest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_rainforest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_rainforest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_seasonal_forest.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_seasonal_forest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_sparse.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_sparse_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_taiga.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_woods.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_woods_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_227.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_227_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_415.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_415_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_forest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_rainforest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_seasonal_forest_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_sparse.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_sparse_bees.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_taiga.json"
+
+[[files]]
+file = "kubejs/data/modern_beta/worldgen/configured_structure_feature/ocean_shrine.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/achromatopsian_gallery.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/dark_amaranth_forest.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/protanopian_gallery.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/tall_crimson_forest.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/tall_dark_amaranth_forest.json"
+
+[[files]]
+file = "kubejs/data/promenade/worldgen/biome/tall_warped_forest.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/autumnal_woods.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/coniferous_forest.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/lush_swamp.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/meadow.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/wooded_island.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/wooded_plateau.json"
+
+[[files]]
+file = "kubejs/data/traverse/worldgen/biome/woodlands.json"
+
+[[files]]
+file = "kubejs/data/vanillaplusbiomes/worldgen/biome/ancient_dark_forest.json"
+
+[[files]]
+file = "kubejs/data/vanillaplusbiomes/worldgen/biome/barren_desert.json"
+
+[[files]]
+file = "kubejs/data/world_blender/worldgen/biome/general_blended.json"
+
+[[files]]
+file = "kubejs/startup_scripts/script.js"
+
+[[files]]
+file = "mods/adorn.toml"
+metafile = true
+
+[[files]]
+file = "mods/advancements-enlarger.toml"
+metafile = true
+
+[[files]]
+file = "mods/adventurez.toml"
+metafile = true
+
+[[files]]
+file = "mods/alloy-forgery.toml"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.toml"
+metafile = true
+
+[[files]]
+file = "mods/architectury-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/axes-are-weapons.toml"
+metafile = true
+
+[[files]]
+file = "mods/backslot.toml"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.toml"
+metafile = true
+
+[[files]]
+file = "mods/blame-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/blockus.toml"
+metafile = true
+
+[[files]]
+file = "mods/blur-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/bosses-of-mass-destruction.toml"
+metafile = true
+
+[[files]]
+file = "mods/campanion.toml"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-api.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.toml"
+metafile = true
+
+[[files]]
+file = "mods/craftpresence.toml"
+metafile = true
+
+[[files]]
+file = "mods/crawl.toml"
+metafile = true
+
+[[files]]
+file = "mods/creeper-ai-updated.toml"
+metafile = true
+
+[[files]]
+file = "mods/croptopia-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/custom-crosshair-mod.toml"
+metafile = true
+
+[[files]]
+file = "mods/custom-player-models-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/dark-enchanting.toml"
+metafile = true
+
+[[files]]
+file = "mods/dashloader.toml"
+metafile = true
+
+[[files]]
+file = "mods/dawn.toml"
+metafile = true
+
+[[files]]
+file = "mods/dehydration.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.toml"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-music.toml"
+metafile = true
+
+[[files]]
+file = "mods/earth2java-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/eldritch-mobs.toml"
+metafile = true
+
+[[files]]
+file = "mods/environmentz.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-scala.toml"
+metafile = true
+
+[[files]]
+file = "mods/falling-leaves-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/fast-furnace-for-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/fat-experience-orbs.toml"
+metafile = true
+
+[[files]]
+file = "mods/flonters.toml"
+metafile = true
+
+[[files]]
+file = "mods/fluid-physics.toml"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.toml"
+metafile = true
+
+[[files]]
+file = "mods/harvest-scythes.toml"
+metafile = true
+
+[[files]]
+file = "mods/healthcare.toml"
+metafile = true
+
+[[files]]
+file = "mods/here-be-no-dragons.toml"
+metafile = true
+
+[[files]]
+file = "mods/illuminations.toml"
+metafile = true
+
+[[files]]
+file = "mods/impaled.toml"
+metafile = true
+
+[[files]]
+file = "mods/improved-stations.toml"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorting.toml"
+metafile = true
+
+[[files]]
+file = "mods/irisshaders.toml"
+metafile = true
+
+[[files]]
+file = "mods/kibe.toml"
+metafile = true
+
+[[files]]
+file = "mods/konkrete-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/krypton.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.toml"
+metafile = true
+
+[[files]]
+file = "mods/levelz.toml"
+metafile = true
+
+[[files]]
+file = "mods/loading-timer.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcda.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcdar.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcdw.toml"
+metafile = true
+
+[[files]]
+file = "mods/medievalweapons.toml"
+metafile = true
+
+[[files]]
+file = "mods/mo-structures.toml"
+metafile = true
+
+[[files]]
+file = "mods/mobs-attempt-parkour.toml"
+metafile = true
+
+[[files]]
+file = "mods/modern-beta.toml"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.toml"
+metafile = true
+
+[[files]]
+file = "mods/moreboots-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/mythic-mounts.toml"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-eoka-pistol.toml"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-quivers.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.toml"
+metafile = true
+
+[[files]]
+file = "mods/paxi-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.toml"
+metafile = true
+
+[[files]]
+file = "mods/promenade.toml"
+metafile = true
+
+[[files]]
+file = "mods/quitconfirm.toml"
+metafile = true
+
+[[files]]
+file = "mods/rats-mischief.toml"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/rhino.toml"
+metafile = true
+
+[[files]]
+file = "mods/rpg-hud-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/rpgdifficulty.toml"
+metafile = true
+
+[[files]]
+file = "mods/rpgz.toml"
+metafile = true
+
+[[files]]
+file = "mods/slight-gui-modifications.toml"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/taterzens.toml"
+metafile = true
+
+[[files]]
+file = "mods/tellme.toml"
+metafile = true
+
+[[files]]
+file = "mods/tooltiprareness.toml"
+metafile = true
+
+[[files]]
+file = "mods/traverse.toml"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/true-darkness.toml"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-biomes.toml"
+metafile = true
+
+[[files]]
+file = "mods/vein-mining-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/voidz.toml"
+metafile = true
+
+[[files]]
+file = "mods/woods-and-mires.toml"
+metafile = true
+
+[[files]]
+file = "mods/world-blender-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-fabric.toml"
+metafile = true

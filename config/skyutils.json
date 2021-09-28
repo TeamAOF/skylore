@@ -1,0 +1,8 @@
+{
+  "nether_bedrock": false,
+  "spawn_island_radius": 100.0,
+  "villages": true,
+  "geode_rareness": 200,
+  "generate_islands_below_structs": true,
+  "generate_small_islands": true
+}

@@ -1,0 +1,14 @@
+name = "RpgZ"
+filename = "rpgz-0.4.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3347/800/rpgz-0.4.8.jar"
+hash-format = "murmur2"
+hash = "3084203378"
+
+[update]
+[update.curseforge]
+file-id = 3347800
+project-id = 404828
+release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "MC Dungeons Weapons"
+filename = "mcdw-3.5.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3474/709/mcdw-3.5.1.jar"
+hash-format = "murmur2"
+hash = "4204769684"
+
+[update]
+[update.curseforge]
+file-id = 3474709
+project-id = 407311
+release-channel = "beta"

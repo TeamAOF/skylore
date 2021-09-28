@@ -1,0 +1,11 @@
+{
+	"drop_unlooted": false,
+	"hopper_extracting": false,
+	// Default: 2400ticks = 2min
+	"drop_after_ticks": 2400,
+	"despawn_corps_after_ticks": 4800,
+	"despawn_immediately_when_empty": true,
+	"surfacing_in_water": true,
+	// Example: minecraft:zombie or adventurez.brown_fungus
+	"excluded_entities": []
+}

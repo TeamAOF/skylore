@@ -1,0 +1,14 @@
+name = "Nyf's Eoka Pistol"
+filename = "nyfseoka-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3420/786/nyfseoka-0.1.0.jar"
+hash-format = "murmur2"
+hash = "86218666"
+
+[update]
+[update.curseforge]
+file-id = 3420786
+project-id = 513994
+release-channel = "beta"

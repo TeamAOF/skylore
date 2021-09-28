@@ -1,0 +1,14 @@
+name = "Earth2Java"
+filename = "Earth2Java-1.7.3+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3443/946/Earth2Java-1.7.3+1.17.jar"
+hash-format = "murmur2"
+hash = "3949821387"
+
+[update]
+[update.curseforge]
+file-id = 3443946
+project-id = 398022
+release-channel = "beta"

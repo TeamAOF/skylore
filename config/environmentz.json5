@@ -1,0 +1,43 @@
+{
+	"acclimatize_biome_temp": 1.0,
+	"wet_effect_time": 609,
+	// Wet modificator - every other second
+	"wet_bonus_malus": 2,
+	"icon_x": 7,
+	"icon_y": 52,
+	"allow_all_armor": false,
+	"cold_damage": 1.0,
+	// How often/fast you get the freezing effect in seconds
+	"cold_tick_interval": 60,
+	// How long the freezing effects last in ticks
+	"cold_damage_effect_time": 2400,
+	"cold_tick_snowing_bonus": 600,
+	// How often you take freeze damage in ticks
+	"cold_damage_interval": 400,
+	// Increases the time for freezing in seconds
+	"warm_armor_tick_modifier": 20,
+	// Time for heating up in seconds
+	"heating_up_interval": 4,
+	// Substracting freeze effect ticks while heating
+	"heating_up_cold_tick_decrease": 400,
+	// Caution! This could decrease performance
+	"heating_up_block_range": 2,
+	// Below this biome temp - start freezing
+	"biome_freeze_temp": 0.20000000298023224,
+	// Players listed here won't have thirst
+	"excluded_cold_names": [],
+	"disable_armor_debuff": false,
+	// Time after overheating occurs in seconds
+	"overheating_tick_interval": 40,
+	"overheating_damage_effect_time": 2400,
+	"overheating_damage_interval": 400,
+	"cooling_down_interval": 5,
+	"cooling_down_tick_decrease": 400,
+	// Above this biome temp - start overheating
+	"biome_overheat_temp": 2.0,
+	// Players listed here won't overheat
+	"excluded_heat_names": [],
+	// Thirst timer while overheating
+	"overheating_dehydration_timer": 4,
+	"overheating_dehydration_thirst": 0.5
+}

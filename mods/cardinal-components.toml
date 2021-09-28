@@ -1,0 +1,14 @@
+name = "Cardinal Components"
+filename = "Cardinal-Components-API-3.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3397/538/Cardinal-Components-API-3.1.1.jar"
+hash-format = "murmur2"
+hash = "695677335"
+
+[update]
+[update.curseforge]
+file-id = 3397538
+project-id = 318449
+release-channel = "beta"

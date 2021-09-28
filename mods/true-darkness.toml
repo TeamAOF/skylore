@@ -1,0 +1,14 @@
+name = "True Darkness"
+filename = "darkness-mc117-1.6.74.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3399/880/darkness-mc117-1.6.74.jar"
+hash-format = "murmur2"
+hash = "2752397202"
+
+[update]
+[update.curseforge]
+file-id = 3399880
+project-id = 337243
+release-channel = "beta"

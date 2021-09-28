@@ -1,0 +1,37 @@
+{
+  "_comment_blacklistedEntities": "// Which entities shouldn't have a healthbar above their name.",
+  "blacklisted_entities": [
+    "taterzens:npc",
+    "specialmobs:mob_with_hidden_health"
+  ],
+  "_comment_activationRange": "// When to activate the healthbar.",
+  "activationRange": 8.0,
+  "perms": {
+    "_comment": "// Enabled only if LuckPerms is loaded.",
+    "healthcare_reloadConfig": "healthcare.reloadConfig",
+    "_comment_playerPermissions": "// Player permissions",
+    "healthbar_toggle": "healthcare.healthbar.toggle",
+    "healthbar_edit_style": "healthcare.healthbar.edit.style",
+    "healthbar_edit_visibility": "healthcare.healthbar.edit.visibility",
+    "healthbar_edit_custom_length": "healthcare.healthbar.edit.custom.length",
+    "healthbar_edit_custom_symbols_full": "healthcare.healthbar.edit.symbol.full",
+    "healthbar_edit_custom_symbols_empty": "healthcare.healthbar.edit.symbol.empty"
+  },
+  "_comment_maxHealthbarLength": "// Max length of healthbar a player can use.",
+  "maxHealthbarLength": 20,
+  "_comment_defaultStyle1": "// The default style of healthbar.",
+  "_comment_defaultStyle2": "// Styles: [PERCENTAGE, HEARTS, NUMBER, LINES, SKYBLOCK, CUSTOM]",
+  "defaultStyle": "PERCENTAGE",
+  "lang": {
+    "noPermission": "You don't have permission to run this command.",
+    "configReloaded": "Config was reloaded successfully.",
+    "customLengthSet": "Length of healthbar was set to %s.",
+    "customSymbolSet": "%s healthbar symbol was set to %s.",
+    "visibilitySet": "Always-visible property of healthbar was set to: %s",
+    "styleSet": "Style of your healthbar has been set to %s.",
+    "useCustomStyle": "Make sure to use style CUSTOM to have your settings applied.",
+    "healthbarEnabled": "Healthbars are now enabled.",
+    "healthbarDisabled": "Healthbars are now disabled.",
+    "reloadRequired": "Changes will be visible after relogging or entity update."
+  }
+}

@@ -1,0 +1,14 @@
+name = "QuitConfirm"
+filename = "[1.17]QuitConfirm-1.13.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3349/114/[1.17]QuitConfirm-1.13.1.jar"
+hash-format = "murmur2"
+hash = "1372907677"
+
+[update]
+[update.curseforge]
+file-id = 3349114
+project-id = 431448
+release-channel = "beta"

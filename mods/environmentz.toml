@@ -1,0 +1,14 @@
+name = "EnvironmentZ"
+filename = "environmentz-1.1.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3454/893/environmentz-1.1.6.jar"
+hash-format = "murmur2"
+hash = "3692431286"
+
+[update]
+[update.curseforge]
+file-id = 3454893
+project-id = 410224
+release-channel = "beta"

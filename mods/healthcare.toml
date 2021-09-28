@@ -1,0 +1,14 @@
+name = "HealthCare"
+filename = "healthcare-1.0.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3429/253/healthcare-1.0.8.jar"
+hash-format = "murmur2"
+hash = "513848204"
+
+[update]
+[update.curseforge]
+file-id = 3429253
+project-id = 466750
+release-channel = "beta"

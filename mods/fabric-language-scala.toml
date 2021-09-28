@@ -1,0 +1,14 @@
+name = "Fabric Language Scala"
+filename = "fabric-language-scala-1.1.0+scala.2.13.6-fat.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3392/902/fabric-language-scala-1.1.0+scala.2.13.6-fat.jar"
+hash-format = "murmur2"
+hash = "387535719"
+
+[update]
+[update.curseforge]
+file-id = 3392902
+project-id = 309275
+release-channel = "beta"

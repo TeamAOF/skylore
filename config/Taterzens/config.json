@@ -1,0 +1,76 @@
+{
+  "// Language file to use.": "",
+  "language": "en_us",
+  "// Whether to remove Taterzens from registry sync. Auto applied in Fabric.": "",
+  "// If using Forge however, this will disable WHOLE registry sync. Proceed with CAUTION.": "",
+  "disable_registry_sync": false,
+  "// After how many ticks Taterzens should be cleared from tablist.": "",
+  "// Some delay is needed, otherwise clients don't fetch their skins.": "",
+  "// If you want them to stay on the tablist, set this to -1.": "",
+  "taterzen_tablist_timeout": 30,
+  "// Whether to remind you that if FabricTailor mod is installed,": "",
+  "// it has some built-in skin swapping functionality for Taterzens as well.": "",
+  "post_fabrictailor_advert": false,
+  "// Whether to save all permissions into permissions.toml file if LuckPerms is loaded.": "",
+  "save_permissions_file": true,
+  "// Whether to cancel sending info that Taterzen has executed a command to ops.": "",
+  "hide_ops_message": true,
+  "defaults": {
+    "// Default settings for new Taterzens.": "",
+    "name": "Taterzen",
+    "leashable": false,
+    "pushable": false,
+    "// Default command permission level of Taterzen.": "",
+    "command_permission_level": 4,
+    "// Default sounds for Taterzens. Set to [] to mute them.": "",
+    "death_sounds": [
+      "entity.player.death"
+    ],
+    "hurt_sounds": [
+      "entity.player.hurt"
+    ],
+    "ambient_sounds": [],
+    "// Whether Taterzen is invulnerable by default.": "",
+    "invulnerable": true,
+    "// Enable jumps when Taterzen is in attack mode.": "",
+    "jump_while_attacking": true
+  },
+  "path": {
+    "color": {
+      "// Which color of particles to use in path editor. Use RGB values ( 0 - 255 ).": "",
+      "red": 0.0,
+      "green": 255.0,
+      "blue": 255.0
+    }
+  },
+  "messages": {
+    "// Default delay between each message, in ticks.": "",
+    "message_delay": 100,
+    "// Whether to exit message editor mode after editing a message.": "",
+    "exit_editor_after_msg_edit": true,
+    "// Message format. First %s is replaced with name, second one with message.": "",
+    "structure": "%s -> you: %s"
+  },
+  "perms": {
+    "// Permission level required to execute /npc command.": "",
+    "// Valid only if LuckPerms isn't present.": "",
+    "npc_command_permission_level": 2,
+    "// Permission level required to execute / taterzens command.": "",
+    "// Again, valid only if LuckPerms isn't present.": "",
+    "taterzens_command_permission_level": 4,
+    "// Whether to allow players to set the permission level": "",
+    "// of Taterzen higher than their own. Careful! This could": "",
+    "// enable players to bypass their permission level with NPC.": "",
+    "allow_setting_higher_perm_level": false
+  },
+  "bungee": {
+    "// Whether to enable bungee commands feature fo NPCs.": "",
+    "enable_commands": false,
+    "// Bungee servers to be listed in command suggestions.": "",
+    "servers": [
+      "lobby",
+      "minigames",
+      "factions"
+    ]
+  }
+}

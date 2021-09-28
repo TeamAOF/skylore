@@ -1,0 +1,14 @@
+name = "Fluid Physics [Fabric]"
+filename = "fluidphysics-1.5.0+fabric-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3388/790/fluidphysics-1.5.0+fabric-1.17.1.jar"
+hash-format = "murmur2"
+hash = "2473644628"
+
+[update]
+[update.curseforge]
+file-id = 3388790
+project-id = 394044
+release-channel = "beta"

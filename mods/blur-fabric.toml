@@ -1,0 +1,14 @@
+name = "Blur (Fabric)"
+filename = "Blur-2.3.0-1.17+fabric.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3470/787/Blur-2.3.0-1.17+fabric.jar"
+hash-format = "murmur2"
+hash = "331619283"
+
+[update]
+[update.curseforge]
+file-id = 3470787
+project-id = 393563
+release-channel = "beta"

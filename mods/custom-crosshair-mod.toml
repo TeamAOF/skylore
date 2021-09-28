@@ -1,0 +1,14 @@
+name = "Custom Crosshair Mod"
+filename = "custom-crosshair-mod-v1.3.5-fabric-mc1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3462/144/custom-crosshair-mod-v1.3.5-fabric-mc1.17.1.jar"
+hash-format = "murmur2"
+hash = "776606886"
+
+[update]
+[update.curseforge]
+file-id = 3462144
+project-id = 242995
+release-channel = "beta"

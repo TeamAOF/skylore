@@ -1,0 +1,14 @@
+{
+  "miscellaneousModule": {
+    "tanksChangeLights": true,
+    "cursedDirtMobCap": 25,
+    "cursedDirtBlacklist": [],
+    "xpDrainSpeedMultiplier": 1.0,
+    "xpShowerSpeedMultiplier": 1.0
+  },
+  "chunkLoaderModule": {
+    "checkForPlayer": false,
+    "maxPerPlayer": -1,
+    "maxOfflineTime": -1
+  }
+}

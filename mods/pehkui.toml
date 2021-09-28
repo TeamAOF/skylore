@@ -1,0 +1,14 @@
+name = "Pehkui"
+filename = "Pehkui-2.4.0+1.14.4-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3457/608/Pehkui-2.4.0+1.14.4-1.17.1.jar"
+hash-format = "murmur2"
+hash = "3588784318"
+
+[update]
+[update.curseforge]
+file-id = 3457608
+project-id = 319596
+release-channel = "beta"

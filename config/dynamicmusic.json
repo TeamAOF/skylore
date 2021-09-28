@@ -1,0 +1,15 @@
+{
+  "searchRange": 5,
+  "darknessCap": 8,
+  "darknessPercent": 0.3,
+  "stonePercent": 0.15,
+  "pseudoMineshaftSearchRange": 2,
+  "pseudoMineshaftPercent": 0.1,
+  "coldMusic": true,
+  "hotMusic": true,
+  "niceMusic": true,
+  "downMusic": true,
+  "dynamicPitch": true,
+  "dynamicPitchAnchor": 18000,
+  "dynamicPitchFaster": false
+}

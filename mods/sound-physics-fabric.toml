@@ -1,0 +1,14 @@
+name = "Sound Physics Fabric"
+filename = "soundphysics-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3387/437/soundphysics-2.0.0.jar"
+hash-format = "murmur2"
+hash = "1528664122"
+
+[update]
+[update.curseforge]
+file-id = 3387437
+project-id = 501539
+release-channel = "beta"

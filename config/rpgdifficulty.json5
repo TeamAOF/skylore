@@ -1,0 +1,48 @@
+{
+	// Distance in Blocks
+	"increasingDistance": 300,
+	// 0.1 = 10%
+	"distanceFactor": 0.1,
+	// in minutes
+	"increasingTime": 30,
+	// 0.1 = 10%
+	"timeFactor": 0.1,
+	// 2.0 = 200% = double
+	"maxFactorHealth": 2.0,
+	"maxFactorDamage": 2.0,
+	"maxFactorProtection": 1.5,
+	// Applies only to special zombie
+	"maxFactorSpeed": 2.0,
+	"allowRandomValues": false,
+	// in %
+	"randomChance": 10,
+	// in %
+	"randomFactor": 10,
+	// Based on other settings
+	"extraXp": true,
+	"maxXPFactor": 2.0,
+	"affectBosses": true,
+	// Applies only for dimensions other than Overworld
+	"excludeDistanceInOtherDimension": true,
+	// Hud for testing purpose only
+	"hudTesting": false,
+	// Exluded Entity List Bsp: minecraft.villager
+	"excluded_entity": [],
+	"allowSpecialZombie": true,
+	// in %
+	"bigZombieChance": 10,
+	"bigZombieSlownessFactor": 0.699999988079071,
+	"bigZombieBonusLifePoints": 10,
+	"bigZombieBonusDamage": 2,
+	// in %
+	"speedZombieChance": 10,
+	"speedZombieSpeedFactor": 1.3,
+	"speedZombieMalusLifePoints": 10,
+	// Each player increases boss attributes
+	"dynamicBossModification": true,
+	// 0.2 = 20% per player
+	"dynamicBossModificator": 0.3,
+	"bossMaxFactor": 3.0,
+	"bossDistanceFactor": 0.0,
+	"bossTimeFactor": 0.1
+}

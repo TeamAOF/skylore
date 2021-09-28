@@ -1,0 +1,14 @@
+name = "Konkrete [Fabric]"
+filename = "konkrete_fabric_1.3.0_MC_1.17-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3467/884/konkrete_fabric_1.3.0_MC_1.17-1.17.1.jar"
+hash-format = "murmur2"
+hash = "3370454110"
+
+[update]
+[update.curseforge]
+file-id = 3467884
+project-id = 416797
+release-channel = "beta"

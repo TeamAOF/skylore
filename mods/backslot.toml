@@ -1,0 +1,14 @@
+name = "BackSlot"
+filename = "backslot-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3398/685/backslot-1.2.0.jar"
+hash-format = "murmur2"
+hash = "2336233726"
+
+[update]
+[update.curseforge]
+file-id = 3398685
+project-id = 402739
+release-channel = "beta"

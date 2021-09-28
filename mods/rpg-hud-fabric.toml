@@ -1,0 +1,14 @@
+name = "RPG-Hud [Fabric]"
+filename = "[1.17.1][Fabric] RPG-HUD-3.9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3472/954/[1.17.1][Fabric] RPG-HUD-3.9.jar"
+hash-format = "murmur2"
+hash = "2433363006"
+
+[update]
+[update.curseforge]
+file-id = 3472954
+project-id = 397179
+release-channel = "beta"

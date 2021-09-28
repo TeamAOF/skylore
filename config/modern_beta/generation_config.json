@@ -1,0 +1,30 @@
+{
+  "generalGenConfig": {
+    "worldType": "beta"
+  },
+  "infGenConfig": {
+    "generateOceans": true,
+    "generateOceanShrines": true
+  },
+  "inf227GenConfig": {
+    "generateInfdevPyramid": true,
+    "generateInfdevWall": true
+  },
+  "indevGenConfig": {
+    "indevLevelType": "island",
+    "indevLevelTheme": "normal",
+    "indevLevelWidth": 256,
+    "indevLevelLength": 256,
+    "indevLevelHeight": 128,
+    "indevCaveRadius": 1.0
+  },
+  "islandGenConfig": {
+    "generateOuterIslands": true,
+    "centerIslandRadius": 16,
+    "centerIslandFalloff": 4.0,
+    "centerOceanLerpDistance": 16,
+    "centerOceanRadius": 64,
+    "outerIslandNoiseScale": 300.0,
+    "outerIslandNoiseOffset": 0.25
+  }
+}
