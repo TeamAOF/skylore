@@ -59,17 +59,24 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:spring_water"
+      "minecraft:spring_water",
+	  "woods_and_mires:plains_flowers",
+	  "vanillaplusbiomes:grass_2",
+	  "traverse:oak_shrub",
+	  "minecraft:lush_caves_ceiling_vegetation",
+	  "minecraft:lush_caves_vegetation",
+	  "minecraft:spore_blossom",
+	  "vanillaplusbiomes:fallen_oak_1",
+	  "vanillaplusbiomes:fallen_oak_2",
+	  "vanillaplusbiomes:forest_bush",
+      "vanillaplusbiomes:forest_rock"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:village_plains",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
+    "starts": [
+    "minecraft:mineshaft"
   ],
   "spawners": {
     "monster": [

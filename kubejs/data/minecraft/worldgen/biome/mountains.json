@@ -73,6 +73,8 @@
   ],
   "starts": [
     "minecraft:mineshaft",
+	"awesomedungeon:abandoned_oak_palace",
+	"mostructures:configured_pirate_ship",
     "minecraft:stronghold"
   ],
   "spawners": {

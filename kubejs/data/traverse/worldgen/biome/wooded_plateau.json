@@ -63,11 +63,6 @@
       "modern_beta:beta_freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
-  ],
   "spawners": {
     "monster": [
       {

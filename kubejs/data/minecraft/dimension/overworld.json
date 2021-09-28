@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "biome_source": {
-	  "seed": 0,
+	  "seed": 324324,
       "large_biomes": false,
       "type": "minecraft:multi_noise",
 	  "humidity_noise": {
@@ -240,7 +240,7 @@
 				"temperature": -0.5,
 				"humidity": 0.7,
 				"altitude": 0.0,
-				"weirdness": 0.8,
+				"weirdness": 0.2,
 				"offset": 0.0
 			}
 		},
@@ -250,7 +250,7 @@
 				"temperature": -0.5,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.4,
+				"weirdness": 0.1,
 				"offset": 0.0
 			}
 		},
@@ -260,7 +260,7 @@
 				"temperature": -0.5,
 				"humidity": -0.7,
 				"altitude": 0.0,
-				"weirdness": 0.8,
+				"weirdness": 0.1,
 				"offset": 0.0
 			}
 		},
@@ -270,7 +270,7 @@
 				"temperature": -0.1,
 				"humidity": -0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -280,7 +280,7 @@
 				"temperature": 0.0,
 				"humidity": -0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -290,7 +290,7 @@
 				"temperature": 0.2,
 				"humidity": 1.0,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -310,7 +310,7 @@
 				"temperature": 0.2,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -320,7 +320,7 @@
 				"temperature": 0.1,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -330,7 +330,7 @@
 				"temperature": 1.0,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -340,7 +340,7 @@
 				"temperature": 1.0,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},
@@ -350,7 +350,57 @@
 				"temperature": 1.0,
 				"humidity": 0.1,
 				"altitude": 0.0,
-				"weirdness": 0.1,
+				"weirdness": 0.0,
+				"offset": 0.0
+			}
+		},
+									{
+			"biome": "vanillaplusbiomes:taiga_lake",
+			"parameters": {
+				"temperature": 0.1,
+				"humidity": 0.1,
+				"altitude": 0.0,
+				"weirdness": 0.0,
+				"offset": 0.0
+			}
+		},
+											{
+			"biome": "vanillaplusbiomes:tall_forest",
+			"parameters": {
+				"temperature": 1.0,
+				"humidity": 0.1,
+				"altitude": 0.0,
+				"weirdness": 0.0,
+				"offset": 0.0
+			}
+		},
+											{
+			"biome": "vanillaplusbiomes:tall_pine_taiga",
+			"parameters": {
+				"temperature": 1.0,
+				"humidity": 0.1,
+				"altitude": 0.0,
+				"weirdness": 0.0,
+				"offset": 0.0
+			}
+		},
+													{
+			"biome": "vanillaplusbiomes:tall_snowy_pine_taiga",
+			"parameters": {
+				"temperature": -0.1,
+				"humidity": 0.1,
+				"altitude": 0.0,
+				"weirdness": 0.0,
+				"offset": 0.0
+			}
+		},
+															{
+			"biome": "vanillaplusbiomes:berry_fields",
+			"parameters": {
+				"temperature": -0.1,
+				"humidity": 0.1,
+				"altitude": 0.0,
+				"weirdness": 0.0,
 				"offset": 0.0
 			}
 		},

@@ -72,8 +72,8 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft_mesa",
+    "starts": [
+    "minecraft:mineshaft",
     "minecraft:stronghold"
   ],
   "spawners": {

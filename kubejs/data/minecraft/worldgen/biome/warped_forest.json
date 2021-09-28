@@ -32,7 +32,7 @@
   "surface_builder": "minecraft:warped_forest",
   "carvers": {
     "air": [
-      "minecraft:nether_cave"
+      "modern_beta:old_beta_cave"
     ]
   },
   "features": [
@@ -67,19 +67,29 @@
       "minecraft:ore_copper"
     ],
     [
-      "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:warped_fungi",
       "minecraft:warped_forest_vegetation",
       "minecraft:nether_sprouts",
-      "minecraft:twisting_vines"
+      "minecraft:twisting_vines",
+	  "promenade:tall_warped_fungi",
+	  "repurposed_structures:warped_mineshaft_dense_plants",
+	  "repurposed_structures:warped_mineshaft_plants",
+	  "minecraft:crimson_fungi",
+	  "promenade:huge_nether_mushroom_pink",
+	  "promenade:huge_nether_mushroom_yellow",
+	  "promenade:tall_warped_fungi"
     ]
   ],
   "starts": [
     "minecraft:fortress",
     "minecraft:bastion_remnant",
-    "minecraft:ruined_portal_nether"
+    "minecraft:ruined_portal_nether",
+	"repurposed_structures:nether_warped_temple",
+	"repurposed_structures:warped_mineshaft",
+	"repurposed_structures:warped_outpost",
+	"repurposed_structures:warped_shipwreck"
   ],
   "spawners": {
     "monster": [
@@ -114,5 +124,5 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "nether",
-  "depth": 0.1
+  "depth": 1.2
 }

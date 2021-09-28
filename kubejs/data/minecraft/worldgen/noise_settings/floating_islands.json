@@ -20,9 +20,9 @@
     },
     "noise": {
         "min_y": 0,
-        "height": 112,
+        "height": 128,
         "density_factor": -0.001,
-        "density_offset": -0.26,
+        "density_offset": -0.28,
         "size_horizontal": 1,
         "size_vertical": 1,
         "simplex_surface_noise": true,
@@ -30,7 +30,7 @@
         "sampling": {
             "xz_scale": 0.44,
             "y_scale": 0.35,
-            "xz_factor": 100,
+            "xz_factor": 50,
             "y_factor": 64
         },
         "bottom_slide": {
