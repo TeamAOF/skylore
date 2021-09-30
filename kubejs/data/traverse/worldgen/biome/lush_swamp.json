@@ -64,9 +64,6 @@
     ]
   ],
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
   ],
   "spawners": {
     "monster": [

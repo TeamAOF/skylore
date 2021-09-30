@@ -73,8 +73,6 @@
     ]
   ],
   "starts": [
-    "minecraft:jungle_pyramid",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [

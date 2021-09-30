@@ -83,13 +83,6 @@
     ]
   ],
   "starts": [
-    "minecraft:fortress",
-    "minecraft:bastion_remnant",
-    "minecraft:ruined_portal_nether",
-	"repurposed_structures:nether_warped_temple",
-	"repurposed_structures:warped_mineshaft",
-	"repurposed_structures:warped_outpost",
-	"repurposed_structures:warped_shipwreck"
   ],
   "spawners": {
     "monster": [
@@ -124,5 +117,5 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "nether",
-  "depth": 1.2
-}
+  "depth": 1.3
+}   

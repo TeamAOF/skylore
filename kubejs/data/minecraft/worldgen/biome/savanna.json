@@ -71,10 +71,6 @@
     ]
   ],
   "starts": [
-    "minecraft:village_savanna",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [
@@ -197,5 +193,5 @@
   "temperature": 1.2,
   "downfall": 0.0,
   "category": "savanna",
-  "depth": 1.2
+  "depth": 0.9
 }

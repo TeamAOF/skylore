@@ -76,8 +76,6 @@
     ]
   ],
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [
@@ -206,5 +204,5 @@
   "temperature": 0.3,
   "downfall": 0.8,
   "category": "taiga",
-  "depth": 1.2
+  "depth": 1.8
 }

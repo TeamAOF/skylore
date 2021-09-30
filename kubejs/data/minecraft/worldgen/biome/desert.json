@@ -64,18 +64,15 @@
       "minecraft:patch_sugar_cane_desert",
       "minecraft:patch_pumpkin",
       "minecraft:patch_cactus_desert",
-      "minecraft:spring_water"
+      "minecraft:spring_water",
+	  "valley:tumbleweed_patch",
+	  "vanillaplusbiomes:dead_bush_2"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "starts": [
-    "minecraft:village_desert",
-    "minecraft:pillager_outpost",
-    "minecraft:desert_pyramid",
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [
@@ -174,5 +171,5 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "desert",
-  "depth": 1.2
+  "depth": 1.9
 }

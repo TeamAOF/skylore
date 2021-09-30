@@ -48,25 +48,48 @@
       "minecraft:rare_small_dripstone"
     ],
     [
+      "minecraft:patch_tall_grass_2",
       "minecraft:glow_lichen",
+      "minecraft:plain_vegetation",
+      "minecraft:flower_plain_decorated",
+      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:spring_water",
-      "modern_beta:patch_dandelion_3",
-      "modern_beta:patch_grass_plains_10",
-      "modern_beta:patch_poppy",
-      "minecraft:flower_plain_decorated",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+	  "woods_and_mires:plains_flowers",
+	  "traverse:woodlands_trees",
+	  "minecraft:lush_caves_ceiling_vegetation",
+	  "minecraft:lush_caves_vegetation",
+	  "minecraft:spore_blossom",
+	  "vanillaplusbiomes:fallen_oak_1",
+	  "vanillaplusbiomes:fallen_oak_2",
+	  "vanillaplusbiomes:forest_bush",
+      "vanillaplusbiomes:forest_rock",
+	  "valley:peony_patch",
+	  "valley:potato_patch",
+	  "valley:rose_patch",
+	  "valley:small_patch",
+	  "valley:tomato_patch",
+	  "valley:sprout_patch",
+	  "valley:sorrel_patch",
+	  "valley:rock_patch",
+	  "valley:carrot_patch",
+	  "valley:bush_patch",
+	  "valley:beet_patch",
+	  "valley:alive_patch",
+	  "valley:alive_patch_tall",
+	  "valley:willow_patch",
+	  "valley:wheat_patch"
     ],
     [
       "modern_beta:beta_freeze_top_layer"
     ]
   ],
     "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
+	"minecraft:desert_pyramid",
+    "minecraft:mineshaft"
   ],
   "spawners": {
     "monster": [

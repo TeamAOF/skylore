@@ -48,25 +48,41 @@
       "minecraft:rare_small_dripstone"
     ],
     [
+      "minecraft:patch_tall_grass_2",
       "minecraft:glow_lichen",
+      "minecraft:plain_vegetation",
+      "minecraft:flower_plain_decorated",
+      "minecraft:patch_grass_plain",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:spring_water",
-      "modern_beta:patch_dandelion_3",
-      "modern_beta:patch_grass_plains_10",
-      "modern_beta:patch_poppy",
-      "minecraft:flower_plain_decorated",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+	  "vanillaplusbiomes:grass_2",
+	  "minecraft:lush_caves_ceiling_vegetation",
+	  "minecraft:lush_caves_vegetation",
+	  "minecraft:spore_blossom",
+	  "minecraft:lush_caves_ceiling_vegetation",
+	  "minecraft:lush_caves_vegetation",
+	  "minecraft:spore_blossom",
+      "vanillaplusbiomes:forest_rock",
+	  "valley:peony_patch",
+	  "valley:potato_patch",
+	  "valley:rose_patch",
+	  "valley:small_patch",
+	  "valley:tomato_patch",
+	  "valley:sprout_patch",
+	  "valley:sorrel_patch",
+	  "valley:rock_patch",
+	  "valley:carrot_patch",
+	  "valley:bush_patch",
+	  "valley:beet_patch"
     ],
     [
       "modern_beta:beta_freeze_top_layer"
     ]
   ],
     "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
   ],
   "spawners": {
     "monster": [

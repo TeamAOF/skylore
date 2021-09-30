@@ -59,21 +59,19 @@
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
-      "minecraft:ore_copper",
-	  "promenade:protanopian_gallery_generation_1",
-	  "promenade:protanopian_gallery_generation_2",
-	  "promenade:protanopian_gallery_generation_3",
-	  "promenade:protanopian_gallery_generation_4"
+      "minecraft:ore_copper"
     ],
     [
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+	  "promenade:protanopian_gallery_generation_1",
+	  "promenade:protanopian_gallery_generation_2",
+	  "promenade:protanopian_gallery_generation_3",
+	  "promenade:protanopian_gallery_generation_4"
     ]
   ],
   "starts": [
-    "minecraft:fortress",
-    "minecraft:bastion_remnant"
   ],
   "spawners": {
     "monster": [
@@ -81,31 +79,31 @@
         "type": "minecraft:zombified_piglin",
         "weight": 100,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:magma_cube",
         "weight": 2,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:enderman",
         "weight": 1,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:piglin",
         "weight": 15,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
 	  {
         "type": "minecraft:ghast",
         "weight": 50,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       }
     ],
     "creature": [
@@ -113,7 +111,7 @@
         "type": "minecraft:strider",
         "weight": 60,
         "minCount": 1,
-        "maxCount": 12
+        "maxCount": 1
       }
     ],
     "ambient": [],

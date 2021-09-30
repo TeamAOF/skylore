@@ -72,8 +72,6 @@
     ]
   ],
   "starts": [
-    "minecraft:mansion",
-    "minecraft:mineshaft"
   ],
   "spawners": {
     "monster": [

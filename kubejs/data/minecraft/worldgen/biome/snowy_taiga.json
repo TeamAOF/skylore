@@ -74,9 +74,6 @@
     ]
   ],
   "starts": [
-    "minecraft:igloo",
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [

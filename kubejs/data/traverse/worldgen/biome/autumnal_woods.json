@@ -57,16 +57,31 @@
       "modern_beta:patch_poppy",
       "minecraft:flower_plain_decorated",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+	  "traverse:autumnal_trees",
+	  "traverse:brown_autumnal_tree",
+	  "traverse:coniferous_trees",
+	  "valley:peony_patch",
+	  "valley:potato_patch",
+	  "valley:rose_patch",
+	  "valley:small_patch",
+	  "valley:tomato_patch",
+	  "valley:sprout_patch",
+	  "valley:sorrel_patch",
+	  "valley:rock_patch",
+	  "valley:carrot_patch",
+	  "valley:bush_patch",
+	  "valley:beet_patch",
+	  "valley:alive_patch",
+	  "valley:alive_patch_tall",
+	  "valley:willow_patch",
+	  "valley:wheat_patch"
     ],
     [
       "modern_beta:beta_freeze_top_layer"
     ]
   ],
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
   ],
   "spawners": {
     "monster": [

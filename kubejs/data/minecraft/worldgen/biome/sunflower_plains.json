@@ -72,8 +72,6 @@
     ]
   ],
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [
@@ -196,5 +194,5 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "category": "plains",
-  "depth": 1.2
+  "depth": 1.9
 }

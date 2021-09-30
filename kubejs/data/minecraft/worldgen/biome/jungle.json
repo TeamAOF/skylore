@@ -73,7 +73,6 @@
     ]
   ],
   "starts": [
-    "minecraft:jungle_pyramid"
   ],
   "spawners": {
     "monster": [

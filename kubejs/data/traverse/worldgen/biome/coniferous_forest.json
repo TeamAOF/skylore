@@ -57,16 +57,21 @@
       "modern_beta:patch_poppy",
       "minecraft:flower_plain_decorated",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+	  "traverse:rocky_edge_boulder",
+	  "traverse:coniferous_trees",
+	  "traverse:fir_tree",
+	  "traverse:meadow_grass",
+	  "valley:rose_patch",
+	  "valley:small_patch",
+	  "valley:tomato_patch",
+	  "valley:bush_patch"
     ],
     [
       "modern_beta:beta_freeze_top_layer"
     ]
   ],
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:pillager_outpost",
   ],
   "spawners": {
     "monster": [
@@ -202,5 +207,5 @@
   "temperature": 1.0,
   "downfall": 0.4,
   "category": "forest",
-  "depth": 1.2
+  "depth": 1.4
 }

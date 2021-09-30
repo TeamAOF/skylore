@@ -73,8 +73,6 @@
     ]
   ],
     "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [

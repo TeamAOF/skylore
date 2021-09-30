@@ -1,7 +1,13 @@
 {
-  "scale": 0.3,
+  "scale": 0.0,
   "effects": {
-    "sky_color": 6733055,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 7972607,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -40,48 +46,35 @@
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
       "minecraft:ore_copper",
-      "modern_beta:ore_clay",
-      "modern_beta:ore_emerald_y95"
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [
       "minecraft:rare_dripstone_cluster",
       "minecraft:rare_small_dripstone"
     ],
     [
-      "minecraft:patch_tall_grass_2",
+      "minecraft:forest_flower_vegetation",
       "minecraft:glow_lichen",
-      "minecraft:plain_vegetation",
-      "minecraft:flower_plain_decorated",
-      "minecraft:patch_grass_plain",
+      "minecraft:birch_other",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "traverse:rolling_hills_trees",
-	  "minecraft:lush_caves_ceiling_vegetation",
-	  "minecraft:lush_caves_vegetation",
-	  "minecraft:spore_blossom",
-	  "vanillaplusbiomes:fallen_oak_1",
-      "vanillaplusbiomes:forest_rock",
-	  "valley:potato_patch",
-	  "valley:rose_patch",
-	  "valley:small_patch",
-	  "valley:tomato_patch",
-	  "valley:sprout_patch",
-	  "valley:sorrel_patch",
-	  "valley:rock_patch",
-	  "valley:carrot_patch",
-	  "valley:bush_patch",
-	  "valley:alive_patch",
-	  "valley:alive_patch_tall",
-	  "valley:wheat_patch"
+	  "promenade:white_cherry_oak",
+	  "promenade:fancy_white_cherry_oak",
+	  "promenade:white_cherry_oak_forest_trees",
+      "promenade:fancy_white_cherry_oak_bees_005"
     ],
     [
-      "modern_beta:beta_freeze_top_layer"
+      "minecraft:freeze_top_layer"
     ]
   ],
-    "starts": [
+  "starts": [
   ],
   "spawners": {
     "monster": [
@@ -160,22 +153,10 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:horse",
+        "type": "minecraft:wolf",
         "weight": 5,
-        "minCount": 2,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:donkey",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:turtle",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 5
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "ambient": [
@@ -200,22 +181,15 @@
         "maxCount": 6
       }
     ],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      }
-    ],
+    "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
+  "player_spawn_friendly": true,
   "precipitation": "rain",
-  "temperature": 1.0,
-  "downfall": 0.4,
+  "temperature": 0.7,
+  "downfall": 0.8,
   "category": "forest",
   "depth": 1.2
 }

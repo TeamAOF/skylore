@@ -74,10 +74,6 @@
     ]
   ],
   "starts": [
-    "minecraft:village_taiga",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
   ],
   "spawners": {
     "monster": [
