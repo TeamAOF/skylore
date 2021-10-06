@@ -1,5 +1,5 @@
 {
-    "scale": 0.3,
+    "scale": 0.1,
     "effects": {
       "sky_color": 6733055,
       "fog_color": 12638463,
@@ -74,7 +74,7 @@
           "maxCount": 2
         },
         {
-          "type": "minecraft:zombie_villager",
+          "type": "adventurez:dragon",
           "weight": 5,
           "minCount": 1,
           "maxCount": 1

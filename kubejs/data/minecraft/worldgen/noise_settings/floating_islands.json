@@ -22,7 +22,7 @@
         "min_y": -64,
         "height": 512,
         "density_factor": -0.001,
-        "density_offset": -0.287,
+        "density_offset": -0.255,
         "size_horizontal": 1,
         "size_vertical": 1,
         "simplex_surface_noise": true,

@@ -1,5 +1,5 @@
 {
-  "scale": 0.05,
+  "scale": 0.01,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,12 +7,14 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 11015434,
-    "fog_color": 16760767,
-    "water_color": 16711680,
-    "water_fog_color": 16741184
+    "sky_color": 0,
+    "foliage_color": 0,
+    "grass_color": 0,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "promenade:amaranth_dylium",
   "carvers": {
     "air": [
       "skylore:no_cave"
@@ -21,14 +23,11 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "minecraft:lake_water",
-      "minecraft:lake_water"
+
     ],
+    [],
     [
-      "minecraft:amethyst_geode"
-    ],
-    [
+      "minecraft:amethyst_geode",
       "minecraft:monster_room"
     ],
     [],
@@ -49,96 +48,78 @@
       "minecraft:ore_copper",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel"  
     ],
     [],
     [
-      "minecraft:plain_vegetation",
-      "minecraft:patch_grass_plain",
-      "minecraft:pile_pumpkin",
-      "minecraft:patch_pumpkin",
-      "promenade:pumpkin_pastures_trees",
-      "vanillaplusbiomes:pumpkin_patch",
-      "promenade:autumn_birch",
-      "promenade:autumn_birch_bees_002",
-      "promenade:autumn_oak",
-      "minecraft:spring_lava"
+   "promenade:tall_amaranth_fungi",
+   "promenade:amaranth_fungi",
+   "promenade:amaranth_forest_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
     "starts": [
+      "dungeons_arise:configured_wishing_well"
   ],
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:spider",
-        "weight": 100,
+        "type": "betterend:shadow_walker",
+        "weight": 10,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "minecraft:zombie",
-        "weight": 95,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "minecraft:zombie_villager",
+        "type": "adventurez:summoner",
         "weight": 5,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "minecraft:skeleton",
+        "type": "earthtojavamobs:skeleton_wolf",
         "weight": 100,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "minecraft:creeper",
-        "weight": 100,
+        "type": "adventurez:dragon",
+        "weight": 1,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:slime",
         "weight": 100,
         "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "earthtojavamobs:tropical_slime",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:enderman",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:witch",
         "weight": 5,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       }
     ],
     "creature": [
       {
-        "type": "earthtojavamobs:inky_sheep",
+        "type": "minecraft:sheep",
         "weight": 12,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:piebald_pig",
+        "type": "minecraft:pig",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
         "type": "minecraft:chicken",
@@ -147,22 +128,22 @@
         "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:sunset_cow",
+        "type": "minecraft:cow",
         "weight": 8,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:jolly_llama",
+        "type": "minecraft:horse",
         "weight": 5,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:amber_chicken",
+        "type": "minecraft:donkey",
         "weight": 1,
         "minCount": 1,
-        "maxCount": 2
+        "maxCount": 1
       }
     ],
     "ambient": [
@@ -178,10 +159,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
+  "player_spawn_friendly": false,
   "precipitation": "rain",
   "temperature": 0.8,
   "downfall": 0.4,
   "category": "plains",
-  "depth": 1.8
+  "depth": 1.7
 }

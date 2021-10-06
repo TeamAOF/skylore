@@ -118,13 +118,13 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:zombie",
+        "type": "minecraft:giant",
         "weight": 95,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "minecraft:zombie_villager",
+        "type": "earthtojavamobs:bouldering_zombie",
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
@@ -162,7 +162,7 @@
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
+        "type": "earthtojavamobs:fuzzy_sheep",
         "weight": 12,
         "minCount": 1,
         "maxCount": 1
@@ -180,19 +180,19 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:cow",
+        "type": "earthtojavamobs:cookie_cow",
         "weight": 8,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "minecraft:horse",
+        "type": "earthtojavamobs:jumbo_rabbit",
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "minecraft:donkey",
+        "type": "earthtojavamobs:pink_footed_pig",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
@@ -200,10 +200,10 @@
     ],
     "ambient": [
       {
-        "type": "minecraft:bat",
+        "type": "betterend:dragonfly",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 3
       }
     ],
     "water_creature": [],

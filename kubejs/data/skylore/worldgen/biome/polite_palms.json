@@ -1,5 +1,5 @@
 {
-  "scale": 0.5,
+  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,12 +7,12 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 11015434,
-    "fog_color": 16760767,
-    "water_color": 16711680,
-    "water_fog_color": 16741184
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:desert",
   "carvers": {
     "air": [
       "skylore:no_cave"
@@ -21,11 +21,15 @@
   "features": [
     [],
     [
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
       "minecraft:lake_water"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
+      "minecraft:amethyst_geode"
+    ],
+    [
       "minecraft:monster_room"
     ],
     [],
@@ -36,71 +40,70 @@
       "minecraft:ore_granite",
       "minecraft:ore_diorite",
       "minecraft:ore_andesite",
+      "minecraft:ore_tuff",
+      "minecraft:ore_deepslate",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
-	  "minecraft:ore_emerald",
       "minecraft:ore_lapis",
       "minecraft:ore_copper",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [],
     [
-      "minecraft:patch_tall_grass_2",
+      "minecraft:rare_dripstone_cluster",
+      "minecraft:rare_small_dripstone"
+    ],
+    [
       "minecraft:glow_lichen",
-      "minecraft:plain_vegetation",
-      "minecraft:flower_plain_decorated",
-      "minecraft:patch_grass_plain",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-	  "woods_and_mires:plains_flowers",
-	  "vanillaplusbiomes:grass_2",
-	  "minecraft:lush_caves_ceiling_vegetation",
-	  "minecraft:lush_caves_vegetation",
-	  "minecraft:spore_blossom",
-	  "valley:peony_patch",
-	  "valley:potato_patch",
-	  "valley:rose_patch",
-	  "valley:small_patch",
-	  "valley:tomato_patch",
-	  "valley:sprout_patch",
-	  "valley:sorrel_patch",
-	  "valley:rock_patch",
-	  "valley:carrot_patch",
-	  "valley:bush_patch",
-	  "valley:beet_patch",
-	  "valley:alive_patch",
-	  "valley:alive_patch_tall",
-	  "valley:willow_patch",
-	  "valley:wheat_patch",
-    "minecraft:spring_lava"
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "promenade:palm",
+      "promenade:palm_trees",
+      "valley:tumbleweed_patch",
+      "valley:ore_saltpeter_overworld",
+      "traverse:desert_shrubs"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-    "starts": [
+  "starts": [
+"minecraft:buried_treasure"
   ],
   "spawners": {
     "monster": [
       {
         "type": "minecraft:spider",
         "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "minecraft:zombie",
         "weight": 95,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "minecraft:zombie_villager",
@@ -111,26 +114,26 @@
       {
         "type": "minecraft:skeleton",
         "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "minecraft:creeper",
         "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "minecraft:slime",
         "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 4
       },
       {
         "type": "minecraft:witch",
@@ -141,48 +144,44 @@
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 12,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "earthtojavamobs:dairy_cow",
-        "weight": 8,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:horse",
+        "type": "earthtojavamobs:freckled_rabbit",
         "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 2,
+        "maxCount": 5
       },
       {
-        "type": "minecraft:donkey",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
+        "type": "earthtojavamobs:patched_sheep",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "earthtojavamobs:pinto_cow",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "ambient": [
       {
         "type": "minecraft:bat",
         "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
       }
     ],
     "water_creature": [],
@@ -190,10 +189,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
+  "player_spawn_friendly": false,
   "precipitation": "rain",
   "temperature": 0.8,
   "downfall": 0.4,
-  "category": "plains",
-  "depth": 1.4
+  "category": "beach",
+  "depth": 1.6
 }

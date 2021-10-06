@@ -1,5 +1,5 @@
 {
-  "scale": 0.4,
+  "scale": 0.0,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,7 +7,7 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 7842047,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -15,7 +15,7 @@
   "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "skylore:no_cave"
+      "modern_beta:old_beta_cave"
     ]
   },
   "features": [
@@ -49,29 +49,31 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "valley:ore_mixed_overworld",
-      "valley:ore_scalding_overworld",
-      "valley:small_patch"
+      "valley:ore_jungle_mossy_overworld",
+      "valley:ore_jungle_sporey_overworld",
+      "valley:ore_jungle_stone_overworld"
     ],
     [
       "minecraft:rare_dripstone_cluster",
       "minecraft:rare_small_dripstone"
     ],
     [
-      "valley:alive_patch",
-      "valley:alive_patch_tall",
-      "minecraft:patch_tall_grass_2",
-"vanillaplusbiomes:ancient_dark_forest_vegetation",
-"vanillaplusbiomes:decaying_dark_oak_vegetation",
-"vanillaplusbiomes:flooded_forest_trees",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:oak_thicket_vegetation",
-"vanillaplusbiomes:tall_dark_forest_vegetation",
-"vanillaplusbiomes:tall_forest_trees",
-"woods_and_mires:clearing_flowers",
-"woods_and_mires:clearing_meadow",
-"croptopia:random_crop"
+      "minecraft:glow_lichen",
+      "minecraft:bamboo",
+      "minecraft:bamboo_vegetation",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_jungle",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:patch_melon",
+      "betterend:dense_vine",
+      "betterend:dense_vine",
+      "valley:jungle_cap_patch",
+      "promenade:patch_orange_mushroom",
+      "vanillaplusbiomes:jungle_clearing_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -118,7 +120,7 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:enderman",
+        "type": "earthtojavamobs:viler_witch",
         "weight": 10,
         "minCount": 1,
         "maxCount": 4
@@ -128,38 +130,56 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
+      },
+      {
+        "type": "minecraft:ocelot",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [
       {
         "type": "mcdar:enchanted_green_sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:mottled_pig",
+        "type": "earthtojavamobs:sooty_pig",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:gold_crested_chicken",
+        "type": "earthtojavamobs:bronzed_chicken",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:dairy_cow",
+        "type": "earthtojavamobs:ashen_cow",
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:jolly_llama",
-        "weight": 5,
+        "type": "earthtojavamobs:amber_chicken",
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "earthtojavamobs:vested_rabbit",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:panda",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [
@@ -189,10 +209,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
+  "player_spawn_friendly": false,
   "precipitation": "rain",
-  "temperature": 0.7,
-  "downfall": 0.8,
-  "category": "forest",
-  "depth": 0.9
+  "temperature": 0.95,
+  "downfall": 0.9,
+  "category": "jungle",
+  "depth": 1.6
 }

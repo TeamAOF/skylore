@@ -1,5 +1,5 @@
 {
-  "scale": 0.4,
+  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,20 +7,29 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 7254527,
+    "foliage_color": 10387789,
+    "grass_color": 9470285,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:badlands",
   "carvers": {
     "air": [
-      "skylore:no_cave"
+      "modern_beta:old_beta_cave"
     ]
   },
   "features": [
     [],
     [
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
       "minecraft:lake_water"
     ],
     [
@@ -44,48 +53,53 @@
       "minecraft:ore_gold",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond",
+      "vanillaplusbiomes:dead_bush_2",
+      "vanillaplusbiomes:dead_bush_5",
+      "valley:tumbleweed_patch",
       "minecraft:ore_lapis",
       "minecraft:ore_copper",
+      "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "valley:ore_mixed_overworld",
-      "valley:ore_scalding_overworld",
-      "valley:small_patch"
+      "valley:ore_redsand",
+      "valley:ore_redsandstone"
     ],
     [
       "minecraft:rare_dripstone_cluster",
       "minecraft:rare_small_dripstone"
     ],
     [
-      "valley:alive_patch",
-      "valley:alive_patch_tall",
-      "minecraft:patch_tall_grass_2",
-"vanillaplusbiomes:ancient_dark_forest_vegetation",
-"vanillaplusbiomes:decaying_dark_oak_vegetation",
-"vanillaplusbiomes:flooded_forest_trees",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:oak_thicket_vegetation",
-"vanillaplusbiomes:tall_dark_forest_vegetation",
-"vanillaplusbiomes:tall_forest_trees",
-"woods_and_mires:clearing_flowers",
-"woods_and_mires:clearing_meadow",
-"croptopia:random_crop"
+      "minecraft:glow_lichen",
+      "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_badlands",
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_cactus_decorated",
+      "minecraft:spring_water",
+      "valley:miner_patch",
+      "traverse:arid_shrubs",
+      "promenade:palm_trees"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
+    "starts": [
   ],
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:spider",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "adventurez:soul_reaper",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:zombie",
@@ -132,34 +146,16 @@
     ],
     "creature": [
       {
-        "type": "mcdar:enchanted_green_sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "earthtojavamobs:mottled_pig",
+        "type": "earthtojavamobs:rocky_sheep",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 2
       },
       {
-        "type": "earthtojavamobs:gold_crested_chicken",
+        "type": "earthtojavamobs:bronzed_chicken",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "earthtojavamobs:dairy_cow",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "earthtojavamobs:jolly_llama",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 2
       }
     ],
     "ambient": [
@@ -189,10 +185,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
-  "precipitation": "rain",
-  "temperature": 0.7,
-  "downfall": 0.8,
-  "category": "forest",
-  "depth": 0.9
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "category": "mesa",
+  "depth": 1.8
 }

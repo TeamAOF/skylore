@@ -1,5 +1,5 @@
 {
-  "scale": 0.4,
+  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,12 +7,12 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 8168447,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:giant_tree_taiga",
   "carvers": {
     "air": [
       "skylore:no_cave"
@@ -24,7 +24,8 @@
       "minecraft:lake_water"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:forest_rock"
     ],
     [
       "minecraft:monster_room"
@@ -49,29 +50,30 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "valley:ore_mixed_overworld",
-      "valley:ore_scalding_overworld",
-      "valley:small_patch"
+      "valley:ore_taiga_overworld"
     ],
     [
       "minecraft:rare_dripstone_cluster",
       "minecraft:rare_small_dripstone"
     ],
     [
-      "valley:alive_patch",
-      "valley:alive_patch_tall",
-      "minecraft:patch_tall_grass_2",
-"vanillaplusbiomes:ancient_dark_forest_vegetation",
-"vanillaplusbiomes:decaying_dark_oak_vegetation",
-"vanillaplusbiomes:flooded_forest_trees",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:jungle_clearing_vegetation",
-"vanillaplusbiomes:oak_thicket_vegetation",
-"vanillaplusbiomes:tall_dark_forest_vegetation",
-"vanillaplusbiomes:tall_forest_trees",
-"woods_and_mires:clearing_flowers",
-"woods_and_mires:clearing_meadow",
-"croptopia:random_crop"
+      "minecraft:patch_large_fern",
+      "minecraft:glow_lichen",
+      "valley:ribbon_patch",
+      "valley:fern_patch",
+      "woods_and_mires:clearing_pine_shrub",
+      "vanillaplusbiomes:tall_spruce",
+      "vanillaplusbiomes:tall_pine",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga",
+      "minecraft:patch_dead_bush",
+      "minecraft:brown_mushroom_giant",
+      "minecraft:red_mushroom_giant",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -89,13 +91,13 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 95,
+        "weight": 100,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
+        "type": "minecraft:vindicator",
+        "weight": 25,
         "minCount": 1,
         "maxCount": 1
       },
@@ -132,34 +134,46 @@
     ],
     "creature": [
       {
-        "type": "mcdar:enchanted_green_sheep",
+        "type": "earthtojavamobs:horned_sheep",
         "weight": 12,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:mottled_pig",
+        "type": "earthtojavamobs:piebald_pig",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:gold_crested_chicken",
+        "type": "earthtojavamobs:midnight_chicken",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:dairy_cow",
+        "type": "earthtojavamobs:wooly_cow",
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "earthtojavamobs:jolly_llama",
-        "weight": 5,
+        "type": "earthtojavamobs:skeleton_wolf",
+        "weight": 8,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "earthtojavamobs:bold_striped_rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "ratsmischief:rat",
+        "weight": 8,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "ambient": [
@@ -189,10 +203,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": true,
+  "player_spawn_friendly": false,
   "precipitation": "rain",
-  "temperature": 0.7,
+  "temperature": 0.3,
   "downfall": 0.8,
-  "category": "forest",
-  "depth": 0.9
+  "category": "taiga",
+  "depth": 1.8
 }

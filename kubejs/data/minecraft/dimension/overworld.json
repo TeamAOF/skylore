@@ -57,9 +57,49 @@
 				{
 					"biome": "skylore:overgrown_forest",
 					"parameters": {
-						"temperature": 1.0,
-						"humidity": 1.0,
-						"altitude": 1.0,
+						"temperature": 0.4,
+						"humidity": 0.4,
+						"altitude": 0.2,
+						"weirdness": 0.0,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:false_oasis",
+					"parameters": {
+						"temperature": 0.6,
+						"humidity": 0.4,
+						"altitude": 0.2,
+						"weirdness": 0.0,
+						"offset": 0.1
+					}
+				},
+				{
+					"biome": "skylore:ak_nights",
+					"parameters": {
+						"temperature": 0.1,
+						"humidity": 0.1,
+						"altitude": 0.1,
+						"weirdness": 0.5,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:trainsylvania",
+					"parameters": {
+						"temperature": -0.3,
+						"humidity": 0.1,
+						"altitude": 0.4,
+						"weirdness": 0.0,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:overgrown_forest",
+					"parameters": {
+						"temperature": 0.6,
+						"humidity": 0.1,
+						"altitude": 0.2,
 						"weirdness": 0.0,
 						"offset": 0.0
 					}
@@ -70,6 +110,46 @@
 						"temperature": 0.2,
 						"humidity": 0.4,
 						"altitude": 0.0,
+						"weirdness": 0.0,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:bullet_bluffs",
+					"parameters": {
+						"temperature": 0.1,
+						"humidity": 0.6,
+						"altitude": 0.1,
+						"weirdness": 0.1,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:87_bamboo",
+					"parameters": {
+						"temperature": 0.4,
+						"humidity": 0.7,
+						"altitude": 0.1,
+						"weirdness": 0.1,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:verde_plains",
+					"parameters": {
+						"temperature": 0.2,
+						"humidity": 0.4,
+						"altitude": 0.0,
+						"weirdness": 0.0,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:kepler_forest",
+					"parameters": {
+						"temperature": -0.1,
+						"humidity": 0.4,
+						"altitude": 0.3,
 						"weirdness": 0.0,
 						"offset": 0.0
 					}
@@ -95,7 +175,27 @@
 					}
 				},
 				{
-					"biome": "skylore:white_cherry_oak_meadow",
+					"biome": "skylore:anam_woods",
+					"parameters": {
+						"temperature": 0.0,
+						"humidity": 0.2,
+						"altitude": 0.1,
+						"weirdness": 0.0,
+						"offset": 0.3
+					}
+				},
+				{
+					"biome": "skylore:polite_palms",
+					"parameters": {
+						"temperature": 0.4,
+						"humidity": 0.2,
+						"altitude": 0.0,
+						"weirdness": 0.1,
+						"offset": 0.1
+					}
+				},
+				{
+					"biome": "skylore:up_meadows",
 					"parameters": {
 						"temperature": 0.5,
 						"humidity": 0.2,
@@ -137,7 +237,7 @@
 				{
 					"biome": "skylore:ice_escapades",
 					"parameters": {
-						"temperature": 0.0,
+						"temperature": -0.5,
 						"humidity": 0.0,
 						"altitude": 0.6,
 						"weirdness": 0.7,
@@ -145,12 +245,32 @@
 					}
 				},
 				{
-					"biome": "skylore:anomaly",
+					"biome": "skylore:project_anomaly",
 					"parameters": {
 						"temperature": 0.0,
 						"humidity": 0.0,
 						"altitude": 0.0,
 						"weirdness": 1.2,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:snowy_grunt",
+					"parameters": {
+						"temperature": -0.1,
+						"humidity": 0.0,
+						"altitude": 0.0,
+						"weirdness": 1.2,
+						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:ruby_range",
+					"parameters": {
+						"temperature": 0.4,
+						"humidity": 0.0,
+						"altitude": 0.1,
+						"weirdness": 0.1,
 						"offset": 0.0
 					}
 				},
