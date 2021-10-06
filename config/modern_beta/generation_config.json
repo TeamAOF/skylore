@@ -4,7 +4,8 @@
   },
   "infGenConfig": {
     "generateOceans": true,
-    "generateOceanShrines": true
+    "generateOceanShrines": true,
+    "generateMonuments": false
   },
   "inf227GenConfig": {
     "generateInfdevPyramid": true,

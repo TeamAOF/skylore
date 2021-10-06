@@ -12,6 +12,8 @@
 	"fungus_spawn_weight": 8,
 	"orc_spawn_weight": 10,
 	"mammoth_spawn_weight": 1,
+	"ender_whale_spawn_weight": 5,
+	"iguana_spawn_weight": 10,
 	"allow_stone_golem_summoning": true,
 	"allow_the_eye_summoning": true,
 	"allow_dragon_hatching": true,
@@ -19,5 +21,7 @@
 	"allow_source_stone_tp": true,
 	"disable_armor_bonus": false,
 	"resummoned_ender_dragon_drops_egg": false,
-	"allow_ender_dragon_nether_portal": false
+	"allow_ender_dragon_nether_portal": false,
+	"heavy_dragon_flight": true,
+	"allow_special_enchant_loot": true
 }

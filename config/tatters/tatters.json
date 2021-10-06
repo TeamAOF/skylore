@@ -1,0 +1,10 @@
+{
+  "spacingComment": "The size of the skyblock grid",
+  "spacing": 1000,
+  "defaultYComment": "The height of the bottom block of the skyblock",
+  "defaultY": 80,
+  "skyblockComment": "The name of the skyblock to use by default",
+  "skyblock": "default.json",
+  "lobbyComment": "The name of the config to use for the lobby, no value means use the skyblock config",
+  "lobby": "default.json"
+}

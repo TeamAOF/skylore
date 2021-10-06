@@ -1,0 +1,14 @@
+name = "Boats and Beeps"
+filename = "boats-and-beeps-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3406/827/boats-and-beeps-1.0.3.jar"
+hash-format = "murmur2"
+hash = "3645385637"
+
+[update]
+[update.curseforge]
+file-id = 3406827
+project-id = 503042
+release-channel = "beta"

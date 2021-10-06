@@ -1,9 +1,10 @@
 {
 	"backslot_sounds": true,
-	// Use for mod compatibility
+	// Use for mod compatibility : Turn of when using advanced settings
 	"change_slot_arrangement": false,
 	"disable_backslot_hud": false,
 	"switch_beltslot_side": false,
+	"offhand_switch": false,
 	"backSlot_x": 0,
 	// Example: -18 on Y to move up one slot
 	"backSlot_y": 0,

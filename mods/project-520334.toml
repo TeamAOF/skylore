@@ -1,0 +1,14 @@
+name = "project-520334"
+filename = "cascade.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3438/114/cascade.jar"
+hash-format = "murmur2"
+hash = "191940847"
+
+[update]
+[update.curseforge]
+file-id = 3438114
+project-id = 520334
+release-channel = "beta"

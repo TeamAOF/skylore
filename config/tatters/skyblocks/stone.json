@@ -1,0 +1,97 @@
+{
+  "enabledComment": "Set to false to not load this skyblock",
+  "enabled": true,
+  "nameComment": "The name to display to the user, can be a translation key",
+  "name": "Stone",
+  "layersComment": "layers, rows, columns of characters specifying block keys, blank is air",
+  "layers": [
+    [
+      "ggg",
+      "gdg",
+      "ggg"
+    ],
+    [
+      "     ",
+      "     ",
+      " !wt ",
+      "     ",
+      "     "
+    ],
+    [
+      "       ",
+      "       ",
+      "       ",
+      "   w   ",
+      "       ",
+      "       ",
+      "       "
+    ],
+    [
+      "       ",
+      " lllll ",
+      " lllll ",
+      " llwll ",
+      " lllll ",
+      " lllll ",
+      "       "
+    ],
+    [
+      "       ",
+      "  lll  ",
+      " lllll ",
+      " llwll ",
+      " lllll ",
+      "  lll  ",
+      "       "
+    ],
+    [
+      "       ",
+      "       ",
+      "  lll  ",
+      "  lll  ",
+      "  lll  ",
+      "       ",
+      "       "
+    ],
+    [
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ],
+  "mappingComment": "block key definitions: key -> block, properties, nbt",
+  "mapping": {
+    "d": {
+      "block": "minecraft:dirt"
+    },
+    "g": {
+      "block": "minecraft:grass_block"
+    },
+    "w": {
+      "block": "minecraft:oak_log"
+    },
+    "l": {
+      "block": "minecraft:oak_leaves"
+    },
+    "t": {
+      "block": "minecraft:torch"
+    }
+  },
+  "fillersComment": "list of block and thickness (default 1)",
+  "fillers": [
+    {
+      "block": "minecraft:bedrock",
+      "thickness": 1
+    },
+    {
+      "block": "minecraft:stone",
+      "thickness": 250
+    },
+    {
+      "block": "minecraft:lava",
+      "thickness": 5
+    }
+  ]
+}

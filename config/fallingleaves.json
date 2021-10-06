@@ -204,6 +204,42 @@
     "croptopia:lime_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "ecotones:larch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "ecotones:hazel_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "ecotones:maple_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:tenanea_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:pythadendron_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:dragon_tree_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:lucernia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:lacugrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "betterend:cave_bush": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   }
 }

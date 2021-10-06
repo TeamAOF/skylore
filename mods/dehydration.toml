@@ -1,14 +1,14 @@
 name = "Dehydration"
-filename = "dehydration-1.2.3.jar"
+filename = "dehydration-1.2.4.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3457/879/dehydration-1.2.3.jar"
+url = "https://edge.forgecdn.net/files/3475/882/dehydration-1.2.4.jar"
 hash-format = "murmur2"
-hash = "3588210873"
+hash = "2069540494"
 
 [update]
 [update.curseforge]
-file-id = 3457879
+file-id = 3475882
 project-id = 410830
 release-channel = "beta"

@@ -1,0 +1,14 @@
+name = "Sky Utils"
+filename = "SkyUtils-1.0.5_beta4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3380/695/SkyUtils-1.0.5_beta4.jar"
+hash-format = "murmur2"
+hash = "2033123763"
+
+[update]
+[update.curseforge]
+file-id = 3380695
+project-id = 478970
+release-channel = "beta"

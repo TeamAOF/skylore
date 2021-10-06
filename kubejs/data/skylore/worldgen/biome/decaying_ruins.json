@@ -1,0 +1,225 @@
+{
+    "scale": 0.3,
+    "effects": {
+      "sky_color": 6733055,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011,
+      "grass_color_modifier": "swamp",
+      "particle": {
+        "options": {
+          "type": "minecraft:falling_dust"
+        },
+        "probability": 0.3
+      }
+    },
+    "surface_builder": "minecraft:grass",
+    "carvers": {
+      "air": [
+        "skylore:no_cave"
+      ]
+    },
+    "features": [
+      [],
+      [
+        "woods_and_mires:fell_lake"
+      ],
+      [
+        "minecraft:amethyst_geode"
+      ],
+      [
+        "minecraft:monster_room"
+      ],
+      [],
+      [],
+      [
+        "minecraft:ore_dirt",
+        "minecraft:ore_gravel",
+        "minecraft:ore_granite",
+        "minecraft:ore_diorite",
+        "minecraft:ore_andesite",
+        "minecraft:ore_tuff",
+        "minecraft:ore_deepslate",
+        "minecraft:ore_coal",
+        "minecraft:ore_iron",
+        "minecraft:ore_gold",
+        "minecraft:ore_redstone",
+        "minecraft:ore_diamond",
+        "minecraft:ore_lapis",
+        "minecraft:ore_copper",
+        "modern_beta:ore_clay"
+      ],
+      [
+        "minecraft:rare_dripstone_cluster",
+        "minecraft:rare_small_dripstone"
+      ],
+      [
+        "traverse:rocky_edge_boulder",
+        "valley:dead_patch_tall",
+        "vanillaplusbiomes:dead_bush_2",
+        "vanillaplusbiomes:decaying_tree",
+        "vanillaplusbiomes:fallen_oak_1",
+        "vanillaplusbiomes:fallen_oak_2",
+        "vanillaplusbiomes:weathered_tree",
+        "vanillaplusbiomes:small_weathered_tree",
+        "minecraft:patch_dead_bush",
+        "valley:mud_overworld",
+        "promenade:huge_nether_mushroom_gray_upside",
+        "minecraft:patch_grass_badlands",
+        "minecraft:patch_tall_grass_2",
+        "minecraft:glow_lichen",
+        "minecraft:lush_caves_ceiling_vegetation",
+        "minecraft:cave_vines",
+        "minecraft:lush_caves_clay",
+        "minecraft:lush_caves_vegetation",
+        "minecraft:rooted_azalea_trees",
+        "minecraft:spore_blossom",
+        "minecraft:classic_vines_cave_feature",
+        "vanillaplusbiomes:forest_rock",
+        "woods_and_mires:clearing_snag",
+        "woods_and_mires:kettle_pond_pine_shrub",
+        "woods_and_mires:pine_forest_boulder"
+
+      ],
+      [
+        "modern_beta:beta_freeze_top_layer"
+      ]
+    ],
+      "starts": [
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:spider",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 95,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:skeleton",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:creeper",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:slime",
+          "weight": 100,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:enderman",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:witch",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:sheep",
+          "weight": 12,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:pig",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:chicken",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:cow",
+          "weight": 8,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:horse",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:donkey",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:turtle",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "ambient": [
+        {
+          "type": "minecraft:bat",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "underground_water_creature": [
+        {
+          "type": "minecraft:glow_squid",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:axolotl",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "water_creature": [
+        {
+          "type": "minecraft:squid",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
+      "water_ambient": [],
+      "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false,
+    "precipitation": "rain",
+    "temperature": 1.0,
+    "downfall": 0.4,
+    "category": "swamp",
+    "depth": 1.6
+  }

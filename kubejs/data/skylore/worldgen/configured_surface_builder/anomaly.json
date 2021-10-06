@@ -1,0 +1,15 @@
+{
+    "config":{
+        "top_material":{
+            "Name": "betterend:shadow_grass"
+        },
+        "under_material":{
+            "Name": "minecraft:end_stone"
+        },
+        "underwater_material":{
+            "Name": "minecraft:end_stone"
+        }
+
+    },
+    "type": "default"
+}

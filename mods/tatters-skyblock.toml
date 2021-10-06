@@ -1,0 +1,14 @@
+name = "Tatters Skyblock"
+filename = "tatters-1.1.0+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3347/995/tatters-1.1.0+1.17.jar"
+hash-format = "murmur2"
+hash = "4048931639"
+
+[update]
+[update.curseforge]
+file-id = 3347995
+project-id = 456796
+release-channel = "beta"

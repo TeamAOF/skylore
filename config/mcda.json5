@@ -42,6 +42,16 @@
 		"WATER_BREATHING": true,
 		"WITHERED": true
 	},
+	"maxDropAmounts": {
+		"PHANTOM_SKIN_AND_BONES": 1.0,
+		"OCELOT_PELTS": 1.0,
+		"WOLF_PELTS": 1.0,
+		"FOX_PELTS": 1.0,
+		"GOAT_PELT": 1.0,
+		"FROST_CRYSTAL": 1.0,
+		"EVOCATION_ROBE": 1.0,
+		"SKELETON_SKULL": 1.0
+	},
 	"armorStats": {
 		"ARCHER": {
 			"protection": {
@@ -1023,5 +1033,31 @@
 			"movementSpeedBoost": 0.0,
 			"durabilityMultiplier": 36
 		}
-	}
+	},
+	// Controlled Teleportation for Teleportation and Unstable Robes, default = false
+	"controlledTeleportation": false,
+	// Armor Set Spawn Rates
+	"ghostlyArmor": 0.05000000074505806,
+	"ghostlyKindler": 0.009999999776482582,
+	"grimArmor": 0.05000000074505806,
+	"darkArmor": 0.10000000149011612,
+	"thiefArmor": 0.10000000149011612,
+	"royalArmor": 0.05000000074505806,
+	"titansShroud": 0.02500000037252903,
+	"plateArmor": 0.05000000074505806,
+	"fullMetalArmor": 0.009999999776482582,
+	"snowArmor": 0.029999999329447746,
+	"wolfArmor": 0.05000000074505806,
+	"foxArmor": 0.009999999776482582,
+	"reinforcedMail": 0.05000000074505806,
+	"stalwartMail": 0.009999999776482582,
+	"scaleMail": 0.05000000074505806,
+	"mercenaryArmor": 0.05000000074505806,
+	"spelunkerArmor": 0.05000000074505806,
+	"caveCrawler": 0.009999999776482582,
+	"heroArmor": 0.10000000149011612,
+	"gildedArmor": 0.10000000149011612,
+	"teleportationRobes": 0.10000000149011612,
+	"unstableRobes": 0.009999999776482582,
+	"mysteryArmors": 0.05000000074505806
 }

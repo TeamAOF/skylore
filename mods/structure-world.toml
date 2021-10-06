@@ -1,0 +1,14 @@
+name = "Structure World"
+filename = "structure-world-1.1.1-BETA+1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3342/155/structure-world-1.1.1-BETA+1.17.jar"
+hash-format = "murmur2"
+hash = "1899463813"
+
+[update]
+[update.curseforge]
+file-id = 3342155
+project-id = 457395
+release-channel = "beta"

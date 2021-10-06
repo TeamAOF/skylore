@@ -1,0 +1,47 @@
+
+# Configuration for async io system
+[asyncIO]
+	# (Default: true) Whether to enable this feature
+	enabled = true
+	# (Default: 2) IO worker executor parallelism
+	serializerParallelism = 2
+
+# Configuration for threaded world generation
+[threadedWorldGen]
+	# (Default: true) Whether to enable this feature
+	enabled = true
+	# (Default: 4) World generation worker executor parallelism
+	parallelism = 6
+	# (Default: false) Whether to allow feature generation (world decorations like trees, ores and etc.) run in parallel 
+	# (may cause incompatibility with other mods)
+	allowThreadedFeatures = false
+	# (Default: false) Whether to allow reducing lock radius (faster but UNSAFE) (YOU HAVE BEEN WARNED) 
+	# (may cause incompatibility with other mods)
+	reduceLockRadius = false
+	# (Default: false) (Experimental) Whether to enable global BiomeCache to accelerate worldgen 
+	# This increases memory allocation 
+	useGlobalBiomeCache = false
+
+# Configuration for general optimizations
+[vanillaWorldGenOptimizations]
+	# (Default: true) Whether to let async chunk request no longer block server thread 
+	# (may cause incompatibility with other mods) 
+	optimizeAsyncChunkRequest = true
+
+# Configuration for no-tick view distance
+[noTickViewDistance]
+	# (Default: false) Weather to enable no-tick view distance
+	enabled = false
+	# (Default: 12) No-tick view distance value
+	viewDistance = 12
+	# (Default: 6) No-tick view distance updates per tick 
+	# Lower this for a better latency and higher this for a faster loading
+	updatesPerTick = 6
+
+# Configuration for clientside functions
+[clientSide]
+	# (Default: true) Weather to enable c2me clientside features
+	enabled = true
+	# (Default: 64) Max render distance allowed in game options
+	maxViewDistance = 64
+

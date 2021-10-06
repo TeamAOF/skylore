@@ -1,0 +1,14 @@
+name = "Nyf's Expert Tweaks"
+filename = "nyfsexpertweaks-0.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3478/72/nyfsexpertweaks-0.0.5.jar"
+hash-format = "murmur2"
+hash = "981740194"
+
+[update]
+[update.curseforge]
+file-id = 3478072
+project-id = 507130
+release-channel = "beta"

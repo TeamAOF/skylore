@@ -32,7 +32,7 @@
   "surface_builder": "minecraft:warped_forest",
   "carvers": {
     "air": [
-      "modern_beta:old_beta_cave"
+      "skylore:no_cave"
     ]
   },
   "features": [
@@ -74,10 +74,8 @@
       "minecraft:nether_sprouts",
       "minecraft:twisting_vines",
 	  "promenade:tall_warped_fungi",
-	  "repurposed_structures:warped_mineshaft_dense_plants",
-	  "repurposed_structures:warped_mineshaft_plants",
 	  "minecraft:crimson_fungi",
-	  "promenade:huge_nether_mushroom_pink",
+      "promenade:huge_nether_mushroom_pink",
 	  "promenade:huge_nether_mushroom_yellow",
 	  "promenade:tall_warped_fungi"
     ]

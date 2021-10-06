@@ -1,0 +1,14 @@
+name = "Day Dream"
+filename = "day-dream-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3456/169/day-dream-1.0.3.jar"
+hash-format = "murmur2"
+hash = "1202757460"
+
+[update]
+[update.curseforge]
+file-id = 3456169
+project-id = 480724
+release-channel = "beta"

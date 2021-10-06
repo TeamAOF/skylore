@@ -1,0 +1,14 @@
+name = "Camera Utils"
+filename = "camerautils-1.17.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3461/126/camerautils-1.17.1-1.0.5.jar"
+hash-format = "murmur2"
+hash = "21701120"
+
+[update]
+[update.curseforge]
+file-id = 3461126
+project-id = 510234
+release-channel = "beta"

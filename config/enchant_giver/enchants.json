@@ -85,6 +85,9 @@
   "mcdw:staff_growing_staff": {
     "mcdw:committed": 1
   },
+  "mcdw:sword_sinister": {
+    "mcdw:critical_hit": 1
+  },
   "mcdw:dagger_swift_striker": {
     "mcdw:echo": 1,
     "mcdw:ambush": 1

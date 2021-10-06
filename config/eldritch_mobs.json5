@@ -1,6 +1,6 @@
 {
 	// Enable Boss Mobs with Eldritch Modifiers
-	"toggleEldritchBossMobs": false,
+	"toggleEldritchBossMobs": true,
 	// Turn off custom names
 	"turnOffNames": false,
 	// Turn off boss bars

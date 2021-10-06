@@ -11,12 +11,10 @@
   "// Whether to remind you that if FabricTailor mod is installed,": "",
   "// it has some built-in skin swapping functionality for Taterzens as well.": "",
   "post_fabrictailor_advert": false,
-  "// Whether to save all permissions into permissions.toml file if LuckPerms is loaded.": "",
-  "save_permissions_file": true,
   "// Whether to cancel sending info that Taterzen has executed a command to ops.": "",
   "hide_ops_message": true,
+  "// Default settings for new Taterzens.": "",
   "defaults": {
-    "// Default settings for new Taterzens.": "",
     "name": "Taterzen",
     "leashable": false,
     "pushable": false,
@@ -36,8 +34,8 @@
     "jump_while_attacking": true
   },
   "path": {
+    "// Which color of particles to use in path editor. Use RGB values ( 0 - 255 ).": "",
     "color": {
-      "// Which color of particles to use in path editor. Use RGB values ( 0 - 255 ).": "",
       "red": 0.0,
       "green": 255.0,
       "blue": 255.0
@@ -52,6 +50,8 @@
     "structure": "%s -> you: %s"
   },
   "perms": {
+    "// Whether to save all permissions into permissions.toml file if LuckPerms is loaded.": "",
+    "save_permissions_file": true,
     "// Permission level required to execute /npc command.": "",
     "// Valid only if LuckPerms isn't present.": "",
     "npc_command_permission_level": 2,
@@ -64,13 +64,7 @@
     "allow_setting_higher_perm_level": false
   },
   "bungee": {
-    "// Whether to enable bungee commands feature fo NPCs.": "",
-    "enable_commands": false,
-    "// Bungee servers to be listed in command suggestions.": "",
-    "servers": [
-      "lobby",
-      "minigames",
-      "factions"
-    ]
+    "// Whether to enable bungee commands feature for NPCs.": "",
+    "enable_commands": false
   }
 }

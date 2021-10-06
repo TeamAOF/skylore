@@ -12,6 +12,7 @@
   },
   "otherConfig": {
     "renderAlphaSunset": false,
-    "renderGameVersion": false
+    "renderGameVersion": false,
+    "renderLowClouds": false
   }
 }

@@ -4,19 +4,7 @@ hash-format = "sha256"
 file = "config/Adorn.json5"
 
 [[files]]
-file = "config/Lakeside.properties"
-
-[[files]]
-file = "config/LoadingTimer.properties"
-
-[[files]]
 file = "config/MythicMounts.txt"
-
-[[files]]
-file = "config/RPG-HUD"
-
-[[files]]
-file = "config/StarrySky.json5"
 
 [[files]]
 file = "config/Taterzens/config.json"
@@ -26,6 +14,9 @@ file = "config/Taterzens/permissions.toml"
 
 [[files]]
 file = "config/adventurez.json5"
+
+[[files]]
+file = "config/altlore.mcfg"
 
 [[files]]
 file = "config/antiqueatlas.json5"
@@ -40,13 +31,76 @@ file = "config/axesareweapons.json5"
 file = "config/backslot.json5"
 
 [[files]]
+file = "config/bclib/recipes.json"
+
+[[files]]
+file = "config/betterend/biomes.json"
+
+[[files]]
+file = "config/betterend/blocks.json"
+
+[[files]]
+file = "config/betterend/client.json"
+
+[[files]]
+file = "config/betterend/entities.json"
+
+[[files]]
+file = "config/betterend/generator.json"
+
+[[files]]
+file = "config/betterend/items.json"
+
+[[files]]
+file = "config/betterend/portals.json"
+
+[[files]]
+file = "config/betterend/recipes.json"
+
+[[files]]
+file = "config/betternether/biomes.json"
+
+[[files]]
+file = "config/betternether/blocks.json"
+
+[[files]]
+file = "config/betternether/generator.json"
+
+[[files]]
+file = "config/betternether/items.json"
+
+[[files]]
+file = "config/betternether/main.json"
+
+[[files]]
+file = "config/betternether/mobs.json"
+
+[[files]]
+file = "config/betternether/recipes.json"
+
+[[files]]
 file = "config/blur.json"
 
 [[files]]
 file = "config/bosses_of_mass_destruction.json5"
 
 [[files]]
+file = "config/c2me-bstats.json"
+
+[[files]]
+file = "config/c2me-compat.toml"
+
+[[files]]
+file = "config/c2me.toml"
+
+[[files]]
+file = "config/camerautils/camerautils.properties"
+
+[[files]]
 file = "config/campanion.json"
+
+[[files]]
+file = "config/collective-fabric.json"
 
 [[files]]
 file = "config/craftpresence.properties"
@@ -73,7 +127,13 @@ file = "config/dawn/debug.json"
 file = "config/dawn/features.json"
 
 [[files]]
-file = "config/dehydration.json5"
+file = "config/day_dream.json"
+
+[[files]]
+file = "config/doom.json"
+
+[[files]]
+file = "config/dungeons_arise.json5"
 
 [[files]]
 file = "config/dynamicfps.toml"
@@ -97,7 +157,13 @@ file = "config/enchant_giver/enchants.json"
 file = "config/enchant_giver/example.yaml"
 
 [[files]]
+file = "config/entityculling.json"
+
+[[files]]
 file = "config/environmentz.json5"
+
+[[files]]
+file = "config/erodingstoneentities-fabric.json"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
@@ -112,6 +178,9 @@ file = "config/fancymenu/config.txt"
 file = "config/fancymenu/customizablemenus.txt"
 
 [[files]]
+file = "config/fancymenu/customization/homeskylore.txt"
+
+[[files]]
 file = "config/fancymenu/locals/de_de.local"
 
 [[files]]
@@ -122,6 +191,15 @@ file = "config/fancymenu/locals/pl_pl.local"
 
 [[files]]
 file = "config/fancymenu/locals/pt_br.local"
+
+[[files]]
+file = "config/fancymenu/locals/zh_cn.local"
+
+[[files]]
+file = "config/ferritecore.mixin.properties"
+
+[[files]]
+file = "config/figura.json"
 
 [[files]]
 file = "config/flonters.properties"
@@ -146,6 +224,9 @@ file = "config/inventorysorter/config.json5"
 
 [[files]]
 file = "config/iris.properties"
+
+[[files]]
+file = "config/jmx.properties"
 
 [[files]]
 file = "config/kibe.json"
@@ -175,6 +256,9 @@ file = "config/libcd.json"
 file = "config/libgui.json5"
 
 [[files]]
+file = "config/magicfungi.json"
+
+[[files]]
 file = "config/mcda.json5"
 
 [[files]]
@@ -182,6 +266,12 @@ file = "config/mcdar.json5"
 
 [[files]]
 file = "config/medievalweapons.json5"
+
+[[files]]
+file = "config/mesh.json5"
+
+[[files]]
+file = "config/midnightlib.json"
 
 [[files]]
 file = "config/minecraft_dungeon_weapons/attack_speed_config.json5"
@@ -229,10 +319,16 @@ file = "config/modmenu.json"
 file = "config/mostructures-config-v2.json5"
 
 [[files]]
+file = "config/nyfsexperttweaks.json"
+
+[[files]]
 file = "config/nyfsquivers.json"
 
 [[files]]
 file = "config/particlerain.json5"
+
+[[files]]
+file = "config/patchouli.json5"
 
 [[files]]
 file = "config/paxi/datapack_load_order.json"
@@ -265,6 +361,9 @@ file = "config/repurposed_structures-fabric/general_configs.json5"
 file = "config/repurposed_structures-fabric/natural_mob_spawning_configs.json5"
 
 [[files]]
+file = "config/roughlyenoughitems/config.json5"
+
+[[files]]
 file = "config/rpgdifficulty.json5"
 
 [[files]]
@@ -272,6 +371,9 @@ file = "config/rpgz.json5"
 
 [[files]]
 file = "config/rrp.properties"
+
+[[files]]
+file = "config/seasons.json"
 
 [[files]]
 file = "config/skyutils.json"
@@ -292,6 +394,42 @@ file = "config/sodium-options.json"
 file = "config/sound_physics.json5"
 
 [[files]]
+file = "config/structureworld/structures/classic_skyblock.nbt"
+
+[[files]]
+file = "config/structureworld/structures/simple_tree.nbt"
+
+[[files]]
+file = "config/structureworld/structures/stoneblock.nbt"
+
+[[files]]
+file = "config/structureworld/structureworld.json"
+
+[[files]]
+file = "config/tatters/skyblocks/default.json"
+
+[[files]]
+file = "config/tatters/skyblocks/example-lobby.json"
+
+[[files]]
+file = "config/tatters/skyblocks/stone.json"
+
+[[files]]
+file = "config/tatters/skyblocks/traditional.json"
+
+[[files]]
+file = "config/tatters/tatters.json"
+
+[[files]]
+file = "config/tellme/biome-sources_2021-10-05_08.40.46.csv"
+
+[[files]]
+file = "config/tellme/biomes-basic_2021-10-05_08.39.15.csv"
+
+[[files]]
+file = "config/tellme/biomes-with-feature-valid_2021-10-05_08.39.53.csv"
+
+[[files]]
 file = "config/traverse/biomes.json"
 
 [[files]]
@@ -307,6 +445,9 @@ file = "config/waila/waila.json"
 file = "config/waila/waila_plugins.json"
 
 [[files]]
+file = "config/wands.json"
+
+[[files]]
 file = "config/world_blender-fabric-omega_configs.json5"
 
 [[files]]
@@ -316,7 +457,364 @@ file = "config/world_blender-identifier_dump.txt"
 file = "config/world_blender.json5"
 
 [[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/af/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ar/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ast/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/az/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ba/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/be/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/bg/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/br-FR/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/brb/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/bs/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ca/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/cs/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/cy/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/da/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/de-AT/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/de-CH/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/de/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/el/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/en-AU/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/en-CA/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/en-NZ/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/en-PT/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/en-UD/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/enp/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/eo/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-AR/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-CL/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-ES/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-MX/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-UY/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/es-VE/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/et/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/eu/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fa/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fi/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fil/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fo/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fr-CA/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fr/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fra-DE/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/fy-NL/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ga-IE/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/gd/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/gl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/got/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/gv/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/haw/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/he/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/hi/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/hr/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/hu/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/hy-AM/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/id/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ido/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ig/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/is/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/it/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ja/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/jbo/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ka/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/kab/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/kk/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/kn/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ko/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ksh/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/kw/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/la-LA/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/lb/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/li/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/lol/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/lt/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/lv/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/mi/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/mk/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/mn/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/moh/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ms/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/mt/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/nds/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/nl-BE/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/nl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/nn-NO/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/no/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/nuk/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/oc/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/oj/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/pl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/pt-BR/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/pt-PT/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/qya-AA/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ro/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ru/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/se/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/sk/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/sl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/so/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/sq/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/sr/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/sv-SE/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/swg/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/szl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/ta/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/th/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/tlh-AA/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/tr/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/tt-RU/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/tzl/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/uk/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/val-ES/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/vec/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/vi/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/yi/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/yo/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/zh-CN/strings.json"
+
+[[files]]
+file = "config/worldedit/.archive-unpack/2e1dd752/zh-TW/strings.json"
+
+[[files]]
+file = "config/worldedit/worldedit.properties"
+
+[[files]]
 file = "config/xaerominimap.txt"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -619,319 +1117,85 @@ file = "kubejs/data/minecraft/worldgen/configured_feature/ore_redstone.json"
 file = "kubejs/data/minecraft/worldgen/noise_settings/floating_islands.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/alpha.json"
+file = "kubejs/data/skylore/worldgen/biome/anomaly.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/alpha_winter.json"
+file = "kubejs/data/skylore/worldgen/biome/bountiful_bonanza.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/cold_ocean.json"
+file = "kubejs/data/skylore/worldgen/biome/decaying_ruins.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/desert.json"
+file = "kubejs/data/skylore/worldgen/biome/dry_dunes.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/forest.json"
+file = "kubejs/data/skylore/worldgen/biome/ice_escapades.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/frozen_ocean.json"
+file = "kubejs/data/skylore/worldgen/biome/infected_dunes.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/ice_desert.json"
+file = "kubejs/data/skylore/worldgen/biome/infected_fields.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/indev_hell.json"
+file = "kubejs/data/skylore/worldgen/biome/monsters_mushrooms.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/indev_normal.json"
+file = "kubejs/data/skylore/worldgen/biome/overgrown_forest.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/indev_paradise.json"
+file = "kubejs/data/skylore/worldgen/biome/prominent_pumpkin_pastures.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/indev_snowy.json"
+file = "kubejs/data/skylore/worldgen/biome/scarlet_sanctuary.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/indev_woods.json"
+file = "kubejs/data/skylore/worldgen/biome/verde_plains.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/infdev_227.json"
+file = "kubejs/data/skylore/worldgen/biome/warped_wallows.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/infdev_227_winter.json"
+file = "kubejs/data/skylore/worldgen/biome/white_cherry_oak_meadow.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/infdev_415.json"
+file = "kubejs/data/skylore/worldgen/configured_carver/no_cave.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/infdev_415_winter.json"
+file = "kubejs/data/skylore/worldgen/configured_surface_builder/anomaly.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/lukewarm_ocean.json"
+file = "kubejs/data/skylore/worldgen/configured_surface_builder/infected_dunes.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/ocean.json"
+file = "kubejs/data/skylore/worldgen/configured_surface_builder/infected_fields.json"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_cold_ocean.json"
+file = "kubejs/data/workspace.code-workspace"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_desert.json"
+file = "kubejs/exported/tags/biomes.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_forest.json"
+file = "kubejs/exported/tags/blocks.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_frozen_ocean.json"
+file = "kubejs/exported/tags/entity_types.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_ice_desert.json"
+file = "kubejs/exported/tags/fluids.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_lukewarm_ocean.json"
+file = "kubejs/exported/tags/functions.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_ocean.json"
+file = "kubejs/exported/tags/game_events.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_plains.json"
+file = "kubejs/exported/tags/items.txt"
 
 [[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_rainforest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_savanna.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_seasonal_forest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_shrubland.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_swampland.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_taiga.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_tundra.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/pe_warm_ocean.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/plains.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/rainforest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/savanna.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/seasonal_forest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/shrubland.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/sky.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/swampland.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/taiga.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/tundra.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/biome/warm_ocean.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_carver/old_beta_cave.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/beta_freeze_top_layer.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/flower_infdev_227.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/flower_paradise.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/mushroom_hell.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/old_fancy_oak.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/ore_clay.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/ore_emerald_y95.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_cactus.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_cactus_pe.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_2.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_3.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_dandelion_4.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_alpha_2.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_plains_10.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_rainforest_10.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_grass_taiga_1.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/patch_poppy.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_alpha.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_alpha_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_forest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_forest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_rainforest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_rainforest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_seasonal_forest.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_seasonal_forest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_sparse.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_sparse_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_beta_taiga.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_woods.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_indev_woods_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_227.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_227_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_415.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_infdev_415_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_forest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_rainforest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_seasonal_forest_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_sparse.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_sparse_bees.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_feature/trees_pe_taiga.json"
-
-[[files]]
-file = "kubejs/data/modern_beta/worldgen/configured_structure_feature/ocean_shrine.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/achromatopsian_gallery.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/dark_amaranth_forest.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/protanopian_gallery.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/tall_crimson_forest.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/tall_dark_amaranth_forest.json"
-
-[[files]]
-file = "kubejs/data/promenade/worldgen/biome/tall_warped_forest.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/autumnal_woods.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/coniferous_forest.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/lush_swamp.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/meadow.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/wooded_island.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/wooded_plateau.json"
-
-[[files]]
-file = "kubejs/data/traverse/worldgen/biome/woodlands.json"
-
-[[files]]
-file = "kubejs/data/vanillaplusbiomes/worldgen/biome/ancient_dark_forest.json"
-
-[[files]]
-file = "kubejs/data/vanillaplusbiomes/worldgen/biome/barren_desert.json"
-
-[[files]]
-file = "kubejs/data/world_blender/worldgen/biome/general_blended.json"
+file = "kubejs/server_scripts/script.js"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
@@ -953,6 +1217,10 @@ file = "mods/alloy-forgery.toml"
 metafile = true
 
 [[files]]
+file = "mods/altlore.toml"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.toml"
 metafile = true
 
@@ -961,11 +1229,27 @@ file = "mods/architectury-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/awesome-dungeon-fabric.toml"
+metafile = true
+
+[[files]]
 file = "mods/axes-are-weapons.toml"
 metafile = true
 
 [[files]]
 file = "mods/backslot.toml"
+metafile = true
+
+[[files]]
+file = "mods/bclib.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-biome-blend.toml"
+metafile = true
+
+[[files]]
+file = "mods/betterend.toml"
 metafile = true
 
 [[files]]
@@ -985,7 +1269,19 @@ file = "mods/blur-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/boats-and-beeps.toml"
+metafile = true
+
+[[files]]
 file = "mods/bosses-of-mass-destruction.toml"
+metafile = true
+
+[[files]]
+file = "mods/building-wands.toml"
+metafile = true
+
+[[files]]
+file = "mods/camera-utils.toml"
 metafile = true
 
 [[files]]
@@ -997,11 +1293,23 @@ file = "mods/cardinal-components.toml"
 metafile = true
 
 [[files]]
+file = "mods/chunk-pregenerator-fabric.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-api.toml"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.toml"
+metafile = true
+
+[[files]]
+file = "mods/collective-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/consistency.toml"
 metafile = true
 
 [[files]]
@@ -1033,11 +1341,22 @@ file = "mods/dark-enchanting.toml"
 metafile = true
 
 [[files]]
+file = "mods/dashloader-2.0.jar.disabled"
+
+[[files]]
 file = "mods/dashloader.toml"
 metafile = true
 
 [[files]]
+file = "mods/data-attributes.toml"
+metafile = true
+
+[[files]]
 file = "mods/dawn.toml"
+metafile = true
+
+[[files]]
+file = "mods/day-dream.toml"
 metafile = true
 
 [[files]]
@@ -1061,7 +1380,15 @@ file = "mods/eldritch-mobs.toml"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.toml"
+metafile = true
+
+[[files]]
 file = "mods/environmentz.toml"
+metafile = true
+
+[[files]]
+file = "mods/eroding-stone-entities-fabric.toml"
 metafile = true
 
 [[files]]
@@ -1077,7 +1404,15 @@ file = "mods/fabric-language-scala.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons.toml"
+metafile = true
+
+[[files]]
 file = "mods/falling-leaves-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.toml"
 metafile = true
 
 [[files]]
@@ -1086,6 +1421,14 @@ metafile = true
 
 [[files]]
 file = "mods/fat-experience-orbs.toml"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/figura.toml"
 metafile = true
 
 [[files]]
@@ -1098,6 +1441,10 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
+metafile = true
+
+[[files]]
+file = "mods/golden-hoppers.toml"
 metafile = true
 
 [[files]]
@@ -1161,6 +1508,10 @@ file = "mods/loading-timer.toml"
 metafile = true
 
 [[files]]
+file = "mods/magic-fungi.toml"
+metafile = true
+
+[[files]]
 file = "mods/mcda.toml"
 metafile = true
 
@@ -1174,6 +1525,10 @@ metafile = true
 
 [[files]]
 file = "mods/medievalweapons.toml"
+metafile = true
+
+[[files]]
+file = "mods/mesh.toml"
 metafile = true
 
 [[files]]
@@ -1205,6 +1560,10 @@ file = "mods/nyfs-eoka-pistol.toml"
 metafile = true
 
 [[files]]
+file = "mods/nyfs-expert-tweaks.toml"
+metafile = true
+
+[[files]]
 file = "mods/nyfs-quivers.toml"
 metafile = true
 
@@ -1218,6 +1577,10 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.toml"
+metafile = true
+
+[[files]]
+file = "mods/project-520334.toml"
 metafile = true
 
 [[files]]
@@ -1241,6 +1604,10 @@ file = "mods/rhino.toml"
 metafile = true
 
 [[files]]
+file = "mods/roughly-enough-items.toml"
+metafile = true
+
+[[files]]
 file = "mods/rpg-hud-fabric.toml"
 metafile = true
 
@@ -1253,6 +1620,14 @@ file = "mods/rpgz.toml"
 metafile = true
 
 [[files]]
+file = "mods/simpletransport-for-fabric.toml"
+metafile = true
+
+[[files]]
+file = "mods/skyutils.toml"
+metafile = true
+
+[[files]]
 file = "mods/slight-gui-modifications.toml"
 metafile = true
 
@@ -1261,7 +1636,19 @@ file = "mods/sound-physics-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/starlight.toml"
+metafile = true
+
+[[files]]
+file = "mods/structure-world.toml"
+metafile = true
+
+[[files]]
 file = "mods/taterzens.toml"
+metafile = true
+
+[[files]]
+file = "mods/tatters-skyblock.toml"
 metafile = true
 
 [[files]]
@@ -1285,6 +1672,10 @@ file = "mods/true-darkness.toml"
 metafile = true
 
 [[files]]
+file = "mods/valleycraft.toml"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-biomes.toml"
 metafile = true
 
@@ -1293,7 +1684,19 @@ file = "mods/vein-mining-fabric.toml"
 metafile = true
 
 [[files]]
+file = "mods/visuality.toml"
+metafile = true
+
+[[files]]
 file = "mods/voidz.toml"
+metafile = true
+
+[[files]]
+file = "mods/walkways.toml"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-fabric.toml"
 metafile = true
 
 [[files]]
@@ -1309,5 +1712,16 @@ file = "mods/wthit.toml"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.toml"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api-fabric.toml"
 metafile = true
+
+[[files]]
+file = "packwiz.exe"

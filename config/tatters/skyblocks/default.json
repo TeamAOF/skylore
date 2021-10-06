@@ -1,0 +1,68 @@
+{
+  "enabledComment": "Set to false to not load this skyblock",
+  "enabled": true,
+  "nameComment": "The name to display to the user, can be a translation key",
+  "name": "Default",
+  "layersComment": "layers, rows, columns of characters specifying block keys, blank is air",
+  "layers": [
+    [
+      "bbb",
+      "bbb",
+      "bbb"
+    ],
+    [
+      "ddd",
+      "ddd",
+      "ddd"
+    ],
+    [
+      "ggg",
+      "ggg",
+      "ggg"
+    ],
+    [
+      "!w "
+    ],
+    [
+      "w"
+    ],
+    [
+      "lllll",
+      "lllll",
+      "llwll",
+      "lllll",
+      "lllll"
+    ],
+    [
+      " lll ",
+      "lllll",
+      "llwll",
+      "lllll",
+      " lll "
+    ],
+    [
+      "lll",
+      "lll",
+      "lll"
+    ]
+  ],
+  "mappingComment": "block key definitions: key -> block, properties, nbt",
+  "mapping": {
+    "b": {
+      "block": "minecraft:bedrock"
+    },
+    "d": {
+      "block": "minecraft:dirt"
+    },
+    "g": {
+      "block": "minecraft:grass_block"
+    },
+    "w": {
+      "block": "minecraft:oak_log"
+    },
+    "l": {
+      "block": "minecraft:oak_leaves"
+    }
+  },
+  "fillersComment": "list of block and thickness (default 1)"
+}

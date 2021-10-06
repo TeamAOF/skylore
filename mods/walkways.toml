@@ -1,0 +1,14 @@
+name = "Walkways"
+filename = "Walkways-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3377/875/Walkways-1.0.1.jar"
+hash-format = "murmur2"
+hash = "1442574861"
+
+[update]
+[update.curseforge]
+file-id = 3377875
+project-id = 498228
+release-channel = "beta"

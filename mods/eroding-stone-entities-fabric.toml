@@ -1,0 +1,14 @@
+name = "Eroding Stone Entities (Fabric)"
+filename = "erodingstoneentities-fabric_1.17.x-2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3469/136/erodingstoneentities-fabric_1.17.x-2.4.jar"
+hash-format = "murmur2"
+hash = "3083522490"
+
+[update]
+[update.curseforge]
+file-id = 3469136
+project-id = 530619
+release-channel = "beta"

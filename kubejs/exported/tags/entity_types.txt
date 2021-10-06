@@ -1,0 +1,144 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 27, 2021, 7:55:55 PM
+
+#c:skeletons
+- earthtojavamobs:skeleton_wolf
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- promenade:duck
+
+#waila:blacklist
+- minecraft:experience_orb
+- minecraft:area_effect_cloud
+
+#eldritch_mobs:always_eldritch
+
+#eldritch_mobs:always_ultra
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- earthtojavamobs:skeleton_wolf
+
+#requiem:inventory/item_users
+- ratsmischief:rat
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#requiem:inventory/inventory_carriers
+- ratsmischief:rat
+
+#rpgz:excluded_entities
+
+#requiem:behavior/regular_eaters
+- ratsmischief:rat
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#eldritch_mobs:always_elite
+
+#eldritch_mobs:eldritch_blacklist
+
+#requiem:inventory/armor_users
+- ratsmischief:rat
+
+#c:raiders
+- earthtojavamobs:viler_witch
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- earthtojavamobs:viler_witch
+
+#eldritch_mobs:eldritch_allowed
+- minecraft:zombie
+- minecraft:skeleton
+- minecraft:creeper
+- minecraft:blaze
+- minecraft:drowned
+- minecraft:elder_guardian
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:husk
+- minecraft:illusioner
+- minecraft:magma_cube
+- minecraft:ravager
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:slime
+- minecraft:stray
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:wither_skeleton
+- minecraft:zombie_villager
+- minecraft:hoglin
+- minecraft:zoglin
+- minecraft:wolf
+- minecraft:fox
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:enderman
+- minecraft:spider
+- minecraft:cave_spider
+- minecraft:piglin
+- minecraft:zombified_piglin
+- minecraft:polar_bear
+- minecraft:llama
+- minecraft:bee
+- minecraft:panda
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:phantom
+- minecraft:zombie_villager
+- minecraft:axolotl
+- ratsmischief:rat
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid

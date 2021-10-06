@@ -165,77 +165,77 @@
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"badlandsDungeonMinHeight": 2,
+			"badlandsDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"darkForestDungeonMinHeight": 2,
+			"darkForestDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"desertDungeonMinHeight": 2,
+			"desertDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"jungleDungeonMinHeight": 2,
+			"jungleDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"mushroomDungeonMinHeight": 2,
+			"mushroomDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"snowDungeonMinHeight": 2,
+			"snowDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"icyDungeonMinHeight": 2,
+			"icyDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"swampDungeonMinHeight": 2,
+			"swampDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"endDungeonMinHeight": 2,
+			"endDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"netherDungeonMinHeight": 2,
+			"netherDungeonMinHeight": 100,
 			/* 
 			   
 			   
 			   Minimum Y height that this dungeon can spawn at.
 			   Note: The dungeon will spawn between min and max y height set in config.
 			*/
-			"oceanDungeonMinHeight": 3
+			"oceanDungeonMinHeight": 100
 		},
 		"maxHeight": {
 			/* 
@@ -559,79 +559,79 @@
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"birchMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"jungleMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"desertMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"stoneMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"savannaMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"icyMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"oceanMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"taigaMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"swampMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"darkForestMineshaftMinHeight": 8,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"netherMineshaftMinHeight": 6,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"crimsonMineshaftMinHeight": 6,
 			/* 
 			   
 			   
-			   Min Y height of Mineshaft.max = 30
+			   Min Y height of Mineshaft
 			*/
 			"warpedMineshaftMinHeight": 6
 		},
@@ -639,91 +639,91 @@
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"birchMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"jungleMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"desertMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"stoneMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"savannaMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"icyMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"oceanMineshaftMaxHeight": 26,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"taigaMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"swampMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"darkForestMineshaftMaxHeight": 45,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"netherMineshaftMaxHeight": 17,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"crimsonMineshaftMaxHeight": 14,
 			/* 
 			   
 			   
-			   Max Y height of Mineshaft.max = 30
+			   Max Y height of Mineshaft
 			   If below min height, this will be read as min.
 			*/
 			"warpedMineshaftMaxHeight": 14

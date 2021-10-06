@@ -1,0 +1,56 @@
+{
+  "enabledComment": "Set to false to not load this skyblock",
+  "enabled": true,
+  "nameComment": "The name to display to the user, can be a translation key",
+  "name": "Example Lobby",
+  "layersComment": "layers, rows, columns of characters specifying block keys, blank is air",
+  "layers": [
+    [
+      "lllllllll",
+      "ldddggggl",
+      "ldoddgcgl",
+      "ldddggggl",
+      "lllllllll"
+    ],
+    [
+      "  i  ",
+      "!   p",
+      "     "
+    ]
+  ],
+  "mappingComment": "block key definitions: key -> block, properties, nbt",
+  "mapping": {
+    "l": {
+      "block": "minecraft:glowstone"
+    },
+    "d": {
+      "block": "minecraft:diamond_block"
+    },
+    "g": {
+      "block": "minecraft:gold_block"
+    },
+    "o": {
+      "block": "minecraft:obsidian"
+    },
+    "p": {
+      "block": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "i": {
+      "block": "minecraft:oak_sign",
+      "properties": {
+        "rotation": "7",
+        "waterlogged": "false"
+      },
+      "nbt": "{Color:\"black\",Text1:'{\"text\":\"Stand On The\"}',Text2:'{\"text\":\"Pressure Plate\"}',Text3:'{\"text\":\"To Start\"}',Text4:'{\"text\":\"-*-\"}'}"
+    },
+    "c": {
+      "block": "minecraft:command_block",
+      "properties": {
+        "conditional": "false",
+        "facing": "up"
+      },
+      "nbt": "{conditionMet:0b,auto:0b,CustomName:'{\"text\":\"@\"}',powered:0b,Command:\"tatters home @p\",SuccessCount:0,TrackOutput:1b,UpdateLastExecution:1b}"
+    }
+  },
+  "fillersComment": "list of block and thickness (default 1)"
+}

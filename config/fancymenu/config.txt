@@ -11,12 +11,12 @@ B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
-I:defaultguiscale = '-1';
+I:defaultguiscale = '1';
 
 
 ##[customization]
 
-B:advancedmode = 'false';
+B:advancedmode = 'true';
 B:showcustomizationbuttons = 'true';
 
 
@@ -26,7 +26,7 @@ S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
 S:copyrightcolor = '#ffffff';
 B:hidelogo = 'false';
-B:hiderealmsnotifications = 'false';
+B:hiderealmsnotifications = 'true';
 
 
 ##[mainmenu_splash]
@@ -66,7 +66,9 @@ B:showloadingscreenpercent = 'true';
 
 ##[layouteditor]
 
+I:gridsize = '10';
 B:editordeleteconfirmation = 'true';
+B:showgrid = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
 

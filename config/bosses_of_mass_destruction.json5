@@ -45,7 +45,7 @@
 		"spawnPillarOnDeath": true,
 		"anvilAttackExplosionStrength": 4.0,
 		"arenaGeneration": {
-			"generationHeight": 90,
+			"generationHeight": 20,
 			"generationSpacing": 64,
 			"generationSeparation": 32,
 			"generationEnabled": true
@@ -60,18 +60,6 @@
 		"spawnAncientDebrisOnDeath": true,
 		"energizedPunchExplosionSize": 4.5,
 		"normalPunchExplosionMultiplier": 1.5,
-		"arenaGeneration": {
-			"generationSpacing": 32,
-			"generationSeparation": 24,
-			"generationEnabled": true
-		}
-	},
-	"voidBlossomConfig": {
-		"health": 300.0,
-		"armor": 4.0,
-		"attack": 12.0,
-		"idleHealingPerTick": 0.5,
-		"experienceDrop": 1000,
 		"arenaGeneration": {
 			"generationSpacing": 32,
 			"generationSeparation": 24,

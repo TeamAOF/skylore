@@ -50,7 +50,7 @@
       "salt": 66996840
     },
     "volcanic_vent": {
-      "activated": true,
+      "activated": false,
       "seperation": 4,
       "spacing": 8,
       "salt": 84981094
@@ -104,7 +104,7 @@
       "salt": 784939542
     },
     "big_pyramid": {
-      "activated": true,
+      "activated": false,
       "seperation": 5,
       "spacing": 25,
       "salt": 239284294

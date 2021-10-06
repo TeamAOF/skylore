@@ -1,0 +1,14 @@
+name = "Figura"
+filename = "figura-0.0.6-1.17.x.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3390/125/figura-0.0.6-1.17.x.jar"
+hash-format = "murmur2"
+hash = "4012376502"
+
+[update]
+[update.curseforge]
+file-id = 3390125
+project-id = 451616
+release-channel = "beta"

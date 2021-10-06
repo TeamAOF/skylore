@@ -1,0 +1,14 @@
+name = "Golden Hoppers"
+filename = "goldenhoppers-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3444/135/goldenhoppers-1.1.0.jar"
+hash-format = "murmur2"
+hash = "2721460390"
+
+[update]
+[update.curseforge]
+file-id = 3444135
+project-id = 442268
+release-channel = "beta"

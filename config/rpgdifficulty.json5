@@ -1,6 +1,6 @@
 {
 	// Distance in Blocks
-	"increasingDistance": 300,
+	"increasingDistance": 500,
 	// 0.1 = 10%
 	"distanceFactor": 0.1,
 	// in minutes

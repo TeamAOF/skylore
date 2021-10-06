@@ -1,0 +1,14 @@
+name = "Data Attributes"
+filename = "dataattributes-1.0.5-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3468/573/dataattributes-1.0.5-1.17.1.jar"
+hash-format = "murmur2"
+hash = "678504961"
+
+[update]
+[update.curseforge]
+file-id = 3468573
+project-id = 514734
+release-channel = "beta"

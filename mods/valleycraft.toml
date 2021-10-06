@@ -1,0 +1,14 @@
+name = "ValleyCraft"
+filename = "valley-craft-1.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3481/667/valley-craft-1.3.jar"
+hash-format = "murmur2"
+hash = "3476809838"
+
+[update]
+[update.curseforge]
+file-id = 3481667
+project-id = 527942
+release-channel = "beta"
