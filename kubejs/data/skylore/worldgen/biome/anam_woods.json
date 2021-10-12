@@ -16,8 +16,7 @@
       [],
       [
         "minecraft:lake_water",
-        "minecraft:lake_water",
-        "woods_and_mires:fell_lake"
+        "minecraft:lake_water"
       ],
       [
         "minecraft:amethyst_geode"
@@ -65,68 +64,41 @@
       ]
     ],
       "starts": [
+"mostructures:configured_boar_hat_tavern",
+"repurposed_structures:village_oak",
+"repurposed_structures:mansion_oak"
     ],
     "spawners": {
       "monster": [
         {
-          "type": "minecraft:spider",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "earthtojavamobs:lobber_zombie",
-          "weight": 95,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "adventurez:nightmare",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
           "type": "minecraft:skeleton",
           "weight": 100,
           "minCount": 1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "type": "minecraft:creeper",
           "weight": 100,
           "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "earthtojavamobs:tropical_slime",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "type": "minecraft:enderman",
           "weight": 10,
           "minCount": 1,
-          "maxCount": 1
+          "maxCount": 2
         },
         {
           "type": "minecraft:witch",
           "weight": 5,
           "minCount": 1,
-          "maxCount": 1
+          "maxCount": 2
         }
       ],
       "creature": [
         {
           "type": "earthtojavamobs:horned_sheep",
           "weight": 12,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "earthtojavamobs:mottled_pig",
-          "weight": 10,
           "minCount": 1,
           "maxCount": 2
         },
@@ -147,18 +119,6 @@
           "weight": 5,
           "minCount": 1,
           "maxCount": 2
-        },
-        {
-          "type": "promenade:duck",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "mythicmounts:moth",
-          "weight": 1,
-          "minCount": 1,
-          "maxCount": 1
         }
       ],
       "ambient": [
@@ -170,26 +130,6 @@
         }
       ],
       "underground_water_creature": [
-        {
-          "type": "minecraft:glow_squid",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:axolotl",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "water_creature": [
-        {
-          "type": "minecraft:squid",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        }
       ],
       "water_ambient": [],
       "misc": []
@@ -200,6 +140,6 @@
     "temperature": 1.0,
     "downfall": 0.4,
     "category": "forest",
-    "depth": 1.6
+    "depth": 1.5
 
   }

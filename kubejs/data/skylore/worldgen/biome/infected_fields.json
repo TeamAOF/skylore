@@ -82,6 +82,7 @@
     ]
   ],
     "starts": [
+      "mostructures:configured_tcits"
   ],
   "spawners": {
     "monster": [
@@ -178,5 +179,5 @@
   "temperature": 0.8,
   "downfall": 0.4,
   "category": "plains",
-  "depth": 1.6
+  "depth": 1.7
 }

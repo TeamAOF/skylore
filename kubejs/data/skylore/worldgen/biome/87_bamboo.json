@@ -80,7 +80,9 @@
     ]
   ],
   "starts": [
-  ],
+"mostructures:configured_air_balloon",
+"dungeons_arise:configured_illager_campsite"
+],
   "spawners": {
     "monster": [
       {

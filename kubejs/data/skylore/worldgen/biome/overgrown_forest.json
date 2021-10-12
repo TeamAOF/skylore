@@ -78,6 +78,7 @@
     ]
   ],
   "starts": [
+    "mostructures:configured_light_house"
   ],
   "spawners": {
     "monster": [

@@ -89,7 +89,8 @@
     ]
   ],
   "starts": [
-"minecraft:buried_treasure"
+"minecraft:buried_treasure",
+"mostructures:configured_moai"
   ],
   "spawners": {
     "monster": [

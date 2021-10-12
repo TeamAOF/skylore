@@ -83,6 +83,7 @@
     ]
   ],
     "starts": [
+      "mostructures:configured_killer_bunny_castle"
   ],
   "spawners": {
     "monster": [
@@ -133,12 +134,6 @@
       {
         "type": "minecraft:sheep",
         "weight": 12,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
         "minCount": 1,
         "maxCount": 1
       },

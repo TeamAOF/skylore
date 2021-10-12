@@ -1,5 +1,5 @@
 {
-  "scale": 0.0,
+  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -73,27 +73,35 @@
       "vanillaplusbiomes:acacia_bush",
       "valley:onion_patch",
       "valley:rock_patch",
-      "valley:rock_patch"
+      "valley:rock_patch",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "starts": [
+    "mostructures:configured_savanna_village_tower",
+    "dungeons_arise:configured_small_blimp",
+    "dungeons_arise:configured_lighthouse",
+    "repurposed_structures:savanna_mineshaft"
   ],
   "spawners": {
     "monster": [
       {
         "type": "minecraft:spider",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:zombie",
         "weight": 95,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:zombie_villager",
@@ -104,26 +112,26 @@
       {
         "type": "minecraft:skeleton",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:creeper",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:slime",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:enderman",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 4
+        "maxCount": 1
       },
       {
         "type": "minecraft:witch",
@@ -142,26 +150,26 @@
       {
         "type": "earthtojavamobs:muddy_pig",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "earthtojavamobs:gold_crested_chicken",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:albino_cow",
+        "type": "outvoted:ostrich",
         "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "earthtojavamobs:freckled_rabbit",
         "weight": 1,
-        "minCount": 2,
-        "maxCount": 6
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "earthtojavamobs:muddy_foot_rabbit",
@@ -208,5 +216,5 @@
   "temperature": 1.2,
   "downfall": 0.0,
   "category": "savanna",
-  "depth": 1.5
+  "depth": 1.8
 }

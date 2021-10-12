@@ -22,7 +22,7 @@
         "min_y": -64,
         "height": 512,
         "density_factor": -0.001,
-        "density_offset": -0.255,
+        "density_offset": -0.311,
         "size_horizontal": 1,
         "size_vertical": 1,
         "simplex_surface_noise": true,
@@ -140,22 +140,7 @@
                 "spacing": 32,
                 "separation": 5,
                 "salt": 10387313
-            },
-			    "bosses_of_mass_destruction:gauntlet_arena": {
-                "spacing": 32,
-                "separation": 5,
-                "salt": 0
-            },
-			    "bosses_of_mass_destruction:lich_tower": {
-                "spacing": 32,
-                "separation": 5,
-                "salt": 0
-            },
-			    "bosses_of_mass_destruction:obsidilith_arena": {
-                "spacing": 32,
-                "separation": 5,
-                "salt": 0
-				}
+            }
         }
     }
 }

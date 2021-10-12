@@ -74,6 +74,7 @@
     ]
   ],
   "starts": [
+    "mostructures:configured_snowy_abandoned_church"
   ],
   "spawners": {
     "monster": [
@@ -128,13 +129,13 @@
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
+        "type": "earthtojavamobs:patched_sheep",
         "weight": 12,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:pig",
+        "type": "earthtojavamobs:pink_footed_pig",
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
@@ -146,7 +147,7 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:cow",
+        "type": "earthtojavamobs:wooly_cow",
         "weight": 8,
         "minCount": 4,
         "maxCount": 4

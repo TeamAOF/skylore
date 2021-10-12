@@ -108,6 +108,8 @@
     ]
   ],
     "starts": [
+      "mostructures:configured_desert_abandoned_church",
+      "repurposed_structures:birch_village"
   ],
   "spawners": {
     "monster": [
@@ -124,7 +126,7 @@
         "maxCount": 1
       },
       {
-        "type": "earthtojavamobs:bouldering_zombie",
+        "type": "outvoted:glutton",
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
@@ -168,12 +170,6 @@
         "maxCount": 1
       },
       {
-        "type": "minecraft:pig",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "minecraft:chicken",
         "weight": 10,
         "minCount": 1,
@@ -190,21 +186,10 @@
         "weight": 5,
         "minCount": 1,
         "maxCount": 1
-      },
-      {
-        "type": "earthtojavamobs:pink_footed_pig",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
       }
     ],
     "ambient": [
-      {
-        "type": "betterend:dragonfly",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      }
+
     ],
     "water_creature": [],
     "water_ambient": [],

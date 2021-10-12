@@ -73,7 +73,6 @@
   ],
   "starts": [
     "minecraft:mineshaft",
-	"awesomedungeon:abandoned_oak_palace",
     "minecraft:stronghold"
   ],
   "spawners": {

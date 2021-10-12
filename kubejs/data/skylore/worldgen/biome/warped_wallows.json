@@ -76,6 +76,8 @@
     ]
   ],
   "starts": [
+    "dungeons_arise:configured_typhon",
+    "repurposed_structures:warped_village"
   ],
   "spawners": {
     "monster": [

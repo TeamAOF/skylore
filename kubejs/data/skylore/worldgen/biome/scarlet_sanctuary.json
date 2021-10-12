@@ -87,9 +87,17 @@
     ]
   ],
   "starts": [
+    "mostructures:configured_barnhouse"
   ],
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "outvoted:wildfire",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "water_creature": [],

@@ -68,8 +68,9 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-    "starts": [
-  ],
+  "starts": [
+    "morevillagesmod:mushroom_house"
+],
   "spawners": {
     "monster": [
       {

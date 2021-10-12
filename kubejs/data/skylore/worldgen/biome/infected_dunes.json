@@ -58,6 +58,8 @@
       ]
     ],
       "starts": [
+        "mostructures:configured_pillager_factory",
+        "dungeons_arise:configured_shiraz_palace"
     ],
     "spawners": {
       "monster": [
@@ -157,5 +159,5 @@
     "temperature": 1.0,
     "downfall": 0.4,
     "category": "desert",
-    "depth": 1.1
+    "depth": 1.9
   }

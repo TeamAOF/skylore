@@ -85,6 +85,7 @@
       ]
     ],
       "starts": [
+        "mostructures:configured_plains_abandoned_church"
     ],
     "spawners": {
       "monster": [
@@ -97,12 +98,6 @@
         {
           "type": "earthtojavamobs:lobber_zombie",
           "weight": 95,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "adventurez:nightmare",
-          "weight": 5,
           "minCount": 1,
           "maxCount": 1
         },
@@ -220,6 +215,6 @@
     "temperature": 1.0,
     "downfall": 0.4,
     "category": "jungle",
-    "depth": 0.8
+    "depth": 1.7
 
   }

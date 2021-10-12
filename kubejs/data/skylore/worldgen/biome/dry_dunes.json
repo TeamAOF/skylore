@@ -60,6 +60,8 @@
       ]
     ],
       "starts": [
+        "mostructures:configured_desert_abandoned_church",
+        "repurposed_structures:desert_mineshaft"
     ],
     "spawners": {
       "monster": [

@@ -1,0 +1,29 @@
+{
+    "id": 3,
+    "title": "Fourth Test Quest",
+    "level": 0,
+    "type": "fight",
+    "profession": "toolsmith",
+    "task": [
+        "kill",
+        "minecraft:zombie",
+        5,
+        "kill",
+        "minecraft:skeleton",
+        3,
+        "farm",
+        "minecraft:wheat",
+        20,
+        "submit",
+        "minecraft:creeper_head",
+        1
+    ],
+    "description": "This is a test description for the first quest",
+    "experience": 10,
+    "reward": [
+        "minecraft:stick",
+        10,
+        "minecraft:bucket",
+        1
+    ]
+}

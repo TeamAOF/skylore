@@ -92,6 +92,10 @@
     ]
   ],
     "starts": [
+      "mostructures:configured_pyramid",
+      "dungeons_arise:configured_lighthouse",
+      "repurposed_structures:mansion_savanna",
+      "repurposed_structures:badlands_village"
   ],
   "spawners": {
     "monster": [
@@ -146,7 +150,7 @@
     ],
     "creature": [
       {
-        "type": "earthtojavamobs:rocky_sheep",
+        "type": "outvoted:meerkat",
         "weight": 10,
         "minCount": 1,
         "maxCount": 2

@@ -76,6 +76,7 @@
     ]
   ],
   "starts": [
+    "mostructures:configured_pirate_ship"
   ],
   "spawners": {
     "monster": [
@@ -132,12 +133,6 @@
       {
         "type": "minecraft:sheep",
         "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },

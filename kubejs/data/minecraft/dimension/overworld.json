@@ -2,7 +2,7 @@
 	"type": "minecraft:overworld",
 	"generator": {
 		"biome_source": {
-			"seed": 12345645,
+			"seed": 8456621235,
 			"large_biomes": false,
 			"type": "minecraft:multi_noise",
 			"humidity_noise": {
@@ -41,7 +41,7 @@
 						"humidity": 0.4,
 						"altitude": 0.0,
 						"weirdness": 0.0,
-						"offset": 0.0
+						"offset": 0.1
 					}
 				},
 				{
@@ -91,7 +91,7 @@
 						"humidity": 0.1,
 						"altitude": 0.4,
 						"weirdness": 0.0,
-						"offset": 0.0
+						"offset": 0.6
 					}
 				},
 				{
@@ -121,7 +121,7 @@
 						"humidity": 0.6,
 						"altitude": 0.1,
 						"weirdness": 0.1,
-						"offset": 0.0
+						"offset": 0.5
 					}
 				},
 				{
@@ -187,9 +187,9 @@
 				{
 					"biome": "skylore:polite_palms",
 					"parameters": {
-						"temperature": 0.4,
-						"humidity": 0.2,
-						"altitude": 0.0,
+						"temperature": 0.8,
+						"humidity": 0.1,
+						"altitude": 0.2,
 						"weirdness": 0.1,
 						"offset": 0.1
 					}
@@ -271,7 +271,7 @@
 						"humidity": 0.0,
 						"altitude": 0.1,
 						"weirdness": 0.1,
-						"offset": 0.0
+						"offset": 0.3
 					}
 				},
 				{
@@ -281,16 +281,16 @@
 						"humidity": 0.1,
 						"altitude": 0.1,
 						"weirdness": 1.5,
-						"offset": 0.0
+						"offset": 0.1
 					}
 				},
 				{
 					"biome": "skylore:dry_dunes",
 					"parameters": {
-						"temperature": 0.6,
-						"humidity": 0.0,
+						"temperature": 0.8,
+						"humidity": 0.1,
 						"altitude": 0.0,
-						"weirdness": 0.0,
+						"weirdness": 0.5,
 						"offset": 0.0
 					}
 				}

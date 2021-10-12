@@ -86,6 +86,8 @@
       ]
     ],
       "starts": [
+        "mostructures:configured_taiga_abandoned_church",
+        "mostructures:configured_plains_abandoned_church"
     ],
     "spawners": {
       "monster": [

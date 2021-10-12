@@ -80,7 +80,9 @@
     ]
   ],
   "starts": [
-  ],
+    "morevillagesmod:city",
+    "repurposed_structures:mansion_taiga"
+],
   "spawners": {
     "monster": [
       {
@@ -142,8 +144,8 @@
       {
         "type": "earthtojavamobs:piebald_pig",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "earthtojavamobs:midnight_chicken",

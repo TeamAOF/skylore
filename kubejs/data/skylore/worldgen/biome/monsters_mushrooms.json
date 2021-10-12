@@ -126,6 +126,8 @@
     ]
   ],
   "starts": [
+    "mostructures:configured_villager_bazaar",
+    "dungeons_arise:configured_mushroom_village"
   ],
   "spawners": {
     "monster": [],
