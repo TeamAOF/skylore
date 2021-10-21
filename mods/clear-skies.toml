@@ -1,0 +1,13 @@
+name = "Clear Skies"
+filename = "clear-skies-mc117-1.5.70.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3399/879/clear-skies-mc117-1.5.70.jar"
+hash-format = "murmur2"
+hash = "871592578"
+
+[update]
+[update.curseforge]
+file-id = 3399879
+project-id = 332523

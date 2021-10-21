@@ -1,14 +1,13 @@
 name = "MC Dungeons Armors"
-filename = "mcda-1.7.12.jar"
+filename = "mcda-1.7.13.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3482/448/mcda-1.7.12.jar"
+url = "https://edge.forgecdn.net/files/3487/159/mcda-1.7.13.jar"
 hash-format = "murmur2"
-hash = "2744654865"
+hash = "3552476950"
 
 [update]
 [update.curseforge]
-file-id = 3482448
+file-id = 3487159
 project-id = 426206
-release-channel = "beta"

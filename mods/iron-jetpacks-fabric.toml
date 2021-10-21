@@ -1,0 +1,13 @@
+name = "Iron Jetpacks Fabric"
+filename = "iron-jetpacks-0.4.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3484/64/iron-jetpacks-0.4.0.jar"
+hash-format = "murmur2"
+hash = "1706073753"
+
+[update]
+[update.curseforge]
+file-id = 3484064
+project-id = 386892

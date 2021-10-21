@@ -2,7 +2,7 @@
 	"type": "minecraft:overworld",
 	"generator": {
 		"biome_source": {
-			"seed": 8456621235,
+			"seed": -1,
 			"large_biomes": false,
 			"type": "minecraft:multi_noise",
 			"humidity_noise": {
@@ -37,19 +37,19 @@
 				{
 					"biome": "skylore:bountiful_bonanza",
 					"parameters": {
-						"temperature": 0.1,
-						"humidity": 0.4,
-						"altitude": 0.0,
+						"temperature": 0.0,
+						"humidity": 0.0,
+						"altitude": 0.2,
 						"weirdness": 0.0,
-						"offset": 0.1
+						"offset": 0.0
 					}
 				},
 				{
 					"biome": "skylore:warped_wallows",
 					"parameters": {
-						"temperature": 1.0,
+						"temperature": 0.0,
 						"humidity": 0.0,
-						"altitude": 0.0,
+						"altitude": 0.1,
 						"weirdness": 0.0,
 						"offset": 0.0
 					}
@@ -57,9 +57,9 @@
 				{
 					"biome": "skylore:overgrown_forest",
 					"parameters": {
-						"temperature": 0.4,
-						"humidity": 0.4,
-						"altitude": 0.2,
+						"temperature": 0.0,
+						"humidity": 0.0,
+						"altitude": 0.3,
 						"weirdness": 0.0,
 						"offset": 0.0
 					}
@@ -67,9 +67,9 @@
 				{
 					"biome": "skylore:false_oasis",
 					"parameters": {
-						"temperature": 0.6,
-						"humidity": 0.4,
-						"altitude": 0.2,
+						"temperature": 0.0,
+						"humidity": 0.0,
+						"altitude": 0.4,
 						"weirdness": 0.0,
 						"offset": 0.1
 					}
@@ -217,21 +217,31 @@
 				{
 					"biome": "skylore:infected_fields",
 					"parameters": {
-						"temperature": 0.5,
+						"temperature": 0.1,
 						"humidity": 0.1,
-						"altitude": 0.1,
-						"weirdness": 1.0,
+						"altitude": 0.0,
+						"weirdness": 0.0,
 						"offset": 0.0
 					}
 				},
 				{
 					"biome": "skylore:infected_dunes",
 					"parameters": {
-						"temperature": 0.8,
-						"humidity": 0.1,
-						"altitude": 0.1,
-						"weirdness": 1.0,
+						"temperature": 0.1,
+						"humidity": 0.0,
+						"altitude": 0.0,
+						"weirdness": 0.0,
 						"offset": 0.0
+					}
+				},
+				{
+					"biome": "skylore:infected_dunes",
+					"parameters": {
+						"temperature": 0.5,
+						"humidity": 0.0,
+						"altitude": 0.0,
+						"weirdness": 0.3,
+						"offset": 1.0
 					}
 				},
 				{

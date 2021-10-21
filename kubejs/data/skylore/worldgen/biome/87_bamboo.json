@@ -7,7 +7,7 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7842047,
+    "sky_color": 8168447,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -81,7 +81,9 @@
   ],
   "starts": [
 "mostructures:configured_air_balloon",
-"dungeons_arise:configured_illager_campsite"
+"dungeons_arise:configured_illager_campsite",
+"custom:sky_village",
+"repurposed_structures:outpost_jungle"
 ],
   "spawners": {
     "monster": [

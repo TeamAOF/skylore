@@ -7,10 +7,10 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 11015434,
-    "fog_color": 16760767,
-    "water_color": 16711680,
-    "water_fog_color": 16741184
+    "sky_color": 8233727,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "surface_builder": "minecraft:grass",
   "carvers": {

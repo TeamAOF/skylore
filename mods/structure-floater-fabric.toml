@@ -1,0 +1,13 @@
+name = "Structure Floater Fabric"
+filename = "structure_floaters_fabric-1.3.0+1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3486/966/structure_floaters_fabric-1.3.0+1.17.1.jar"
+hash-format = "murmur2"
+hash = "1607262175"
+
+[update]
+[update.curseforge]
+file-id = 3486966
+project-id = 535399

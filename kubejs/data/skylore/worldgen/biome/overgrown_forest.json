@@ -78,7 +78,8 @@
     ]
   ],
   "starts": [
-    "mostructures:configured_light_house"
+    "mostructures:configured_light_house",
+    "custom:sky_village"
   ],
   "spawners": {
     "monster": [

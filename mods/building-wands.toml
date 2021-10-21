@@ -1,14 +1,13 @@
 name = "Building Wands"
-filename = "BuildingWands-2.2.5_mc1.17.1-fabric.jar"
+filename = "BuildingWands-2.2.6_mc1.17.1-fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3476/120/BuildingWands-2.2.5_mc1.17.1-fabric.jar"
+url = "https://edge.forgecdn.net/files/3497/152/BuildingWands-2.2.6_mc1.17.1-fabric.jar"
 hash-format = "murmur2"
-hash = "2559667169"
+hash = "2304317073"
 
 [update]
 [update.curseforge]
-file-id = 3476120
+file-id = 3497152
 project-id = 363392
-release-channel = "beta"

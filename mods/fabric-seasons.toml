@@ -1,14 +1,13 @@
 name = "Fabric Seasons"
-filename = "fabric-seasons-1.3-BETA+1.17.jar"
+filename = "fabric-seasons-1.3.1-BETA+1.17.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3477/300/fabric-seasons-1.3-BETA+1.17.jar"
+url = "https://edge.forgecdn.net/files/3487/409/fabric-seasons-1.3.1-BETA+1.17.jar"
 hash-format = "murmur2"
-hash = "3638193282"
+hash = "726286249"
 
 [update]
 [update.curseforge]
-file-id = 3477300
+file-id = 3487409
 project-id = 413523
-release-channel = "beta"

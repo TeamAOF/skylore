@@ -61,7 +61,10 @@
     ],
       "starts": [
         "mostructures:configured_desert_abandoned_church",
-        "repurposed_structures:desert_mineshaft"
+        "repurposed_structures:desert_mineshaft",
+        "repurposed_structures:ruins_land_hot",
+        "repurposed_structures:outpost_desert",
+        "minecraft:village_desert"
     ],
     "spawners": {
       "monster": [

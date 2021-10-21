@@ -59,7 +59,9 @@
     ],
       "starts": [
         "mostructures:configured_pillager_factory",
-        "dungeons_arise:configured_shiraz_palace"
+        "dungeons_arise:configured_shiraz_palace",
+        "repurposed_structures:desert_mineshaft",
+        "bosses_of_mass_destruction:configured_gauntlet_arena"
     ],
     "spawners": {
       "monster": [
@@ -74,12 +76,6 @@
           "weight": 95,
           "minCount": 1,
           "maxCount": 2
-        },
-        {
-          "type": "adventurez:dragon",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 1
         },
         {
           "type": "minecraft:skeleton",
@@ -113,6 +109,12 @@
         }
       ],
       "creature": [
+        {
+          "type": "adventurez:dragon",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        },
         {
           "type": "earthtojavamobs:umbra_cow",
           "weight": 8,
@@ -159,5 +161,5 @@
     "temperature": 1.0,
     "downfall": 0.4,
     "category": "desert",
-    "depth": 1.9
+    "depth": 1.4
   }

@@ -90,7 +90,11 @@
   ],
   "starts": [
 "minecraft:buried_treasure",
-"mostructures:configured_moai"
+"mostructures:configured_moai",
+"dungeons_arise:configured_infested_temple",
+"mostructures:configured_desert_abandoned_church",
+"repurposed_structures:desert_mineshaft",
+"repurposed_structures:outpost_desert"
   ],
   "spawners": {
     "monster": [

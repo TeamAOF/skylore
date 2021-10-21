@@ -82,7 +82,9 @@
     ]
   ],
     "starts": [
-      "mostructures:configured_tcits"
+      "repurposed_structures:end_mineshaft",
+      "repurposed_structures:end_shipwreck",
+      "bosses_of_mass_destruction:configured_obsidilith_arena"
   ],
   "spawners": {
     "monster": [
@@ -95,18 +97,6 @@
       {
         "type": "minecraft:zombie_villager",
         "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "adventurez:skeleton_vanguard",
-        "weight": 4,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "adventurez:void_shade",
-        "weight": 2,
         "minCount": 1,
         "maxCount": 1
       },

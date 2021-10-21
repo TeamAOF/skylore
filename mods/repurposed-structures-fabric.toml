@@ -1,14 +1,13 @@
 name = "Repurposed Structures (Fabric)"
-filename = "repurposed_structures_fabric-2.3.5+1.17.1.jar"
+filename = "repurposed_structures_fabric-2.4.2+1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3482/505/repurposed_structures_fabric-2.3.5+1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3497/669/repurposed_structures_fabric-2.4.2+1.17.1.jar"
 hash-format = "murmur2"
-hash = "789100875"
+hash = "1235875972"
 
 [update]
 [update.curseforge]
-file-id = 3482505
+file-id = 3497669
 project-id = 391366
-release-channel = "beta"

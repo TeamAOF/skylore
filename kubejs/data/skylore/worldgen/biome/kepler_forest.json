@@ -81,7 +81,8 @@
   ],
   "starts": [
     "morevillagesmod:city",
-    "repurposed_structures:mansion_taiga"
+    "repurposed_structures:mansion_taiga",
+    "repurposed_structures:outpost_giant_tree_taiga"
 ],
   "spawners": {
     "monster": [

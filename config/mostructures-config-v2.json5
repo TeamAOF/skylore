@@ -50,7 +50,7 @@
       "salt": 66996840
     },
     "volcanic_vent": {
-      "activated": false,
+      "activated": true,
       "seperation": 4,
       "spacing": 8,
       "salt": 84981094
@@ -63,8 +63,8 @@
     },
     "pirate_ship": {
       "activated": true,
-      "seperation": 16,
-      "spacing": 40,
+      "seperation": 32,
+      "spacing": 80,
       "salt": 583957395
     },
     "tavern": {
@@ -104,7 +104,7 @@
       "salt": 784939542
     },
     "big_pyramid": {
-      "activated": false,
+      "activated": true,
       "seperation": 5,
       "spacing": 25,
       "salt": 239284294

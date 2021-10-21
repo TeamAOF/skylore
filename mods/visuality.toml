@@ -1,14 +1,13 @@
 name = "Visuality"
-filename = "visuality-mc1.17.1-0.1.3.jar"
+filename = "visuality-mc1.17.1-0.2.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3457/324/visuality-mc1.17.1-0.1.3.jar"
+url = "https://edge.forgecdn.net/files/3492/73/visuality-mc1.17.1-0.2.0.jar"
 hash-format = "murmur2"
-hash = "1897118515"
+hash = "2877199911"
 
 [update]
 [update.curseforge]
-file-id = 3457324
+file-id = 3492073
 project-id = 521126
-release-channel = "beta"

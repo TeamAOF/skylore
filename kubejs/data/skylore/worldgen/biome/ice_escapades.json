@@ -77,7 +77,10 @@
     ]
   ],
   "starts": [
-    "mostructures:configured_ice_tower"
+    "mostructures:configured_ice_tower",
+    "repurposed_structures:icy_mineshaft",
+    "repurposed_structures:pyramid_icy",
+    "minecraft:village_snowy"
   ],
   "creature_spawn_probability": 0.07,
   "spawners": {
@@ -195,5 +198,5 @@
   "temperature": 0.0,
   "downfall": 0.5,
   "category": "icy",
-  "depth": 1.6
+  "depth": 1.9
 }

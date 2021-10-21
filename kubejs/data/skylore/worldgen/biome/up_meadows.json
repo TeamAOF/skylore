@@ -85,7 +85,9 @@
       ]
     ],
       "starts": [
-        "mostructures:configured_plains_abandoned_church"
+        "mostructures:configured_plains_abandoned_church",
+        "dungeons_arise:configured_lighthouse",
+        "morevillagesmod:city"
     ],
     "spawners": {
       "monster": [
@@ -215,6 +217,6 @@
     "temperature": 1.0,
     "downfall": 0.4,
     "category": "jungle",
-    "depth": 1.7
+    "depth": 1.6
 
   }

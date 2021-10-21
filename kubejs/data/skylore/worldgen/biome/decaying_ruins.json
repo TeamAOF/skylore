@@ -87,7 +87,9 @@
     ],
       "starts": [
         "mostructures:configured_taiga_abandoned_church",
-        "mostructures:configured_plains_abandoned_church"
+        "mostructures:configured_plains_abandoned_church",
+        "repurposed_structures:ruins_land_warm",
+        "repurposed_structures:birch_village"
     ],
     "spawners": {
       "monster": [

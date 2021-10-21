@@ -1,14 +1,13 @@
 name = "MC Dungeons Artifacts"
-filename = "mcdar-1.4.1.jar"
+filename = "mcdar-1.4.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3399/827/mcdar-1.4.1.jar"
+url = "https://edge.forgecdn.net/files/3494/181/mcdar-1.4.2.jar"
 hash-format = "murmur2"
-hash = "3562878143"
+hash = "2305642566"
 
 [update]
 [update.curseforge]
-file-id = 3399827
+file-id = 3494181
 project-id = 476788
-release-channel = "beta"

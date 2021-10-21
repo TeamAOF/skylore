@@ -1,0 +1,13 @@
+name = "Cycle Paintings (Fabric)"
+filename = "cyclepaintings-fabric_1.17.x-2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3472/243/cyclepaintings-fabric_1.17.x-2.0.jar"
+hash-format = "murmur2"
+hash = "3206656318"
+
+[update]
+[update.curseforge]
+file-id = 3472243
+project-id = 531272

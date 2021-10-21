@@ -30,6 +30,27 @@
       "minecraft:lake_water",
       "minecraft:lake_water",
       "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
+      "minecraft:lake_water",
       "minecraft:lake_water"
     ],
     [
@@ -95,7 +116,9 @@
       "mostructures:configured_pyramid",
       "dungeons_arise:configured_lighthouse",
       "repurposed_structures:mansion_savanna",
-      "repurposed_structures:badlands_village"
+      "repurposed_structures:badlands_village",
+      "repurposed_structures:outpost_badlands",
+      "betterend:megalake"
   ],
   "spawners": {
     "monster": [
@@ -194,5 +217,5 @@
   "temperature": 2.0,
   "downfall": 0.0,
   "category": "mesa",
-  "depth": 1.8
+  "depth": 1.5
 }

@@ -1,0 +1,13 @@
+name = "VillagerQuests"
+filename = "villagerquests-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3493/692/villagerquests-1.0.1.jar"
+hash-format = "murmur2"
+hash = "3157657403"
+
+[update]
+[update.curseforge]
+file-id = 3493692
+project-id = 534368

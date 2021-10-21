@@ -76,7 +76,9 @@
     ]
   ],
   "starts": [
-    "mostructures:configured_pirate_ship"
+    "mostructures:configured_pirate_ship",
+    "repurposed_structures:outpost_giant_tree_taiga",
+    "dungeons_arise:configured_illager_corsair"
   ],
   "spawners": {
     "monster": [

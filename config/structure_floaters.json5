@@ -1,0 +1,24 @@
+{
+	/*  Attempts to remove any nbt piece being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeWorldBottomPieces": true,
+	/*  Attempts to remove any structure being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeStructuresOffIslands": true,
+	/*  Attempts to remove the pillars from nether fortress and desert temples and the likes.
+	    Best for floating island terrain
+	*/
+	"removeStructurePillars": true,
+	/*  Attempts to move structure to a specific height. Only applies if removeWorldBottomStructures is false.
+	*/
+	"snapStructureToHeight": 60,
+	/*  structures to ignore modifying the height of
+	*/
+	"structureToIgnore": "minecraft:stronghold,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument",
+	/*  Raises up the pieces of the structure to the snapStructureToHeight without affecting the pieces already or above snapStructureToHeight.
+	    Think villages where each house is separate from each other and can be at different heights.
+	*/
+	"structureToRaiseEachPieceSeparately": "minecraft:village,minecraft:pillager_outpost"
+}
