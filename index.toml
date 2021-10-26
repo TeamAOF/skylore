@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bosses_of_mass_destruction.json5"
+hash = "dd9f02dcf51b48c279d7f630fa8507675c42ae21a334c7e732bde8b8f90f9c09"
+
+[[files]]
+file = "config/creeperaiupdated.json"
+hash = "d6bcbcb7b609aab4aa5d0b357a3be8b4a81d3696ca2c902d482dd2cf9cc61e24"
+
+[[files]]
+file = "config/customvoid.json"
+hash = "f618c5ec5d78c0d06542e55b96d2fc347019266753a07527624ecd18cd34e0dc"
+
+[[files]]
 file = "config/dungeons_arise.json5"
 hash = "181ae1657562a501eeeff82bd20e01eb68db56f5b65b1663d81e8659d91f8984"
 
@@ -9,40 +21,8 @@ file = "config/fabric_loader_dependencies.json"
 hash = "7146cdf8fa448d8ae0e3c85d23bb265972add7e77b083c3a9a436c8d1454cc0e"
 
 [[files]]
-file = "config/hqm/config.json5"
-hash = "61a3e1dfd00cce78b580ba1bdc0e7594f375dcee66b12d97885d2bfe5963954e"
-
-[[files]]
-file = "config/hqm/default/bags.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
-file = "config/hqm/default/description.txt"
-hash = "bcd8cc53f40e3d4eb34694e37dfb1e220f1f1d3bdbaa9c8e7d7f43639b95318e"
-
-[[files]]
-file = "config/hqm/default/reputations.json"
-hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-
-[[files]]
-file = "config/hqm/default/sets.json"
-hash = "830e296ca36e7e170629b95cafb0106387107cc4c22b021fe9b43f9641aa527d"
-
-[[files]]
-file = "config/hqm/default/sets/The_Start.json"
-hash = "189ffe0a606d33a70b776702ddbe2fd3dcd457a373d302ba363a7bbac9ef338d"
-
-[[files]]
 file = "config/levelz.json5"
 hash = "3f7c722c09016074ccf5c6f024454184bae658bed1ec4f8d60d3230b692a8e27"
-
-[[files]]
-file = "config/mostructures-config-v2.json5"
-hash = "7924f595b26dbf5f9862591ea5a8da81b38a51ca3319bc1f04f86986f28c110c"
-
-[[files]]
-file = "config/nyfsexperttweaks.json"
-hash = "680547c8b119076bf6ae912513ed56ed759360384888dcd424a238ba1dc6b0bf"
 
 [[files]]
 file = "config/repurposed_structures-fabric/biome_dimension_allow_disallow_configs.json5"
@@ -57,16 +37,16 @@ file = "config/repurposed_structures-fabric/natural_mob_spawning_configs.json5"
 hash = "33d7f9eca99feea0ee9f6266fd17fbadb9b118b4374954cf8780f7e63bac7991"
 
 [[files]]
-file = "config/rpgdifficulty.json5"
-hash = "0d9c04abc754f9b3b251f7ba19f570ef280f63d0c1e559b1cb410696aff5de10"
+file = "config/sound_physics.json5"
+hash = "7bf50df9d470b5acca35be2ea563376a5f21b46b9293d5b391e920e142618258"
 
 [[files]]
-file = "config/structure_floaters.json5"
-hash = "dd116a602d7b766577c8a87c2991dd4f6e3a3e061a3833973725d088d2b1dc8e"
+file = "config/starterkit/starterkit-old.txt"
+hash = "7fc740b7f13dac0786851435c01d89681d00a9fbef7872a3dd67d36af3ae6d62"
 
 [[files]]
-file = "config/villagerquests.json5"
-hash = "9a1c14147da6b8ce95aedc62109c44f04de0314bbafec292fe2f4c0402eed1f8"
+file = "config/starterkit/starterkit.txt"
+hash = "ad48486b3f10846fdca472ed07efc022ed2832fc74a3fbe6415da2f86e15e9ce"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -82,7 +62,7 @@ hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
 file = "kubejs/assets/skylore/lang/en_us.json"
-hash = "539c891f181cba86454d282143364ca85aa36763a06d8ed2cecf38ae654d73aa"
+hash = "81227f1bc9dd31469aa0a1b91cc748541b1d40bd2827b97cb553db6a4e6fea26"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -95,82 +75,6 @@ hash = "5b92dad98f94ecf3d5d2e84646db263543146662839d9451c0cff74977449097"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "908ca2996c30ef0322eec88f8f02291ef50b9c8c1d1d44284f09fff75884f788"
-
-[[files]]
-file = "kubejs/data/custom/structures/air1.nbt"
-hash = "b3c83797aa8ed1a2030109d7a159ef6e7378ba05b060f80560fc678874b4277f"
-
-[[files]]
-file = "kubejs/data/custom/structures/air2.nbt"
-hash = "715e0fb71873544cf7fe113d35a2a839f8439278d769cd47d4ad3528cf6f0387"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_center1.nbt"
-hash = "de6482129ec4fad54956f2a358e2cee16b34c076839959ebd04e230fb9e4595c"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_center2.nbt"
-hash = "866980706e3b8506e0f7ec657905fabcd5db6bafe5a995bfc6a5ba77d867b46c"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island1.nbt"
-hash = "682913b0adf9c981965a26d26eeb9fd4dc6efb7a7d1a4f5284f65dd9119dbe10"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island2.nbt"
-hash = "a9c0f49d0c72ddc6e56a5648e3fe00776241d95b8168918a3236b04bfdb723f9"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island3.nbt"
-hash = "97dfc26655528f3564580112ae194ff31f5101e79fef0ba9d2de8523b36f864e"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island4.nbt"
-hash = "149caf4478cbcb944039fc08e7b41b11056646b25d40d2368504b948f675c842"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island5.nbt"
-hash = "1d0e684d7a43df1ffe74bee177306d7948bef2a4cfee288e2262ab73bb71cc76"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island6.nbt"
-hash = "5517fedbd1d2a7bb21243f458cfca2bb6cc96ac92ebd548930ef35fcfe533292"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island7.nbt"
-hash = "1934ceb43f5cf9c7d2d18734e80b0040acf8b5dc697d71206ef806d4fd93bb80"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_island8.nbt"
-hash = "337b4630bfdd3a8f886a44b31a4dc50fa3f72834ddcae7695f65169946f2f446"
-
-[[files]]
-file = "kubejs/data/custom/structures/sky_village_start.nbt"
-hash = "b9cb0a18dba7ff378429fd082f4bcedde6045b108cbb42a58b72bb9b11ed7da1"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/configured_structure_feature/sky_village.json"
-hash = "5742e20b7bfea527ba25586c6bcb5997d66a0c88eb83aa25e2d35e45b97c15e4"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/template_pool/air_pool1.json"
-hash = "1cb142f2314ee665b5dd98e7b7c70a66c9bbb6158b19ad501d550eff93f34b8d"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/template_pool/air_pool2.json"
-hash = "c0abff9406e24d60155b8c6b6507a062a0610fbfdbfaae717a9cd62ffe76065e"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/template_pool/sky_center_pool.json"
-hash = "b66ab2bedea08afdee41bf1179151cf0b750d5332bbad389b628d14702164920"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/template_pool/sky_islands_pool.json"
-hash = "e9b7237a37443a9fccef5359a90fcc8f4874c69ebca69cb565e8cfbc9ed83b39"
-
-[[files]]
-file = "kubejs/data/custom/worldgen/template_pool/sky_start_pool.json"
-hash = "47be36a25007368432d3c407547465ca3ce2293f65bd19c612af0544894c9840"
 
 [[files]]
 file = "kubejs/data/levelz/item/diamond_armor.json"
@@ -198,7 +102,7 @@ hash = "3a1e57a04382a55b561f32dad1181aa9616a177be0f698a28020c03b775f190a"
 
 [[files]]
 file = "kubejs/data/minecraft/dimension/overworld.json"
-hash = "fd8c6fd06ee550fe4c8c2dbfc49410dba5b33fa5ed687c4d94192257ce145226"
+hash = "79723912bc3233a71e755d1558837d6ad9818f2911907cc4c34f364ef506cc53"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
@@ -562,7 +466,7 @@ hash = "564ee094d4ae60523bc5f26739e2fee06932028bcbe288a56202c6924b15d985"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/floating_islands.json"
-hash = "79fe09a049c8888bc4d41910a59a5446278a64b9213b8e528d2204fc3b3441e8"
+hash = "1b3b3750eb7628965a9a6f4ef4fcd4412daa1efbc0a2b6948ef500ec9d784886"
 
 [[files]]
 file = "kubejs/data/skylore/structures/air1.nbt"
@@ -618,119 +522,115 @@ hash = "b9cb0a18dba7ff378429fd082f4bcedde6045b108cbb42a58b72bb9b11ed7da1"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/87_bamboo.json"
-hash = "1ca7b7200865a954ded1a787a02e6883b5fec50dc7da23723e7e99c2dedca4c8"
+hash = "a3a060dfadf141fee726f2eff9c9183065e02ec95e9a521aeedc7cc162631975"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/ak_nights.json"
-hash = "3363b7b68ba031f296bb046dd12d34707ee26519fc615df46874a7c55d77312f"
+hash = "8bc02bd635a9f89d162b3c2396b7b639243cfd80e4040b8999a9803c03746cfe"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/anam_woods.json"
-hash = "1e278314748057e58c15d501d775ab5e08eaebba763def47f6f25cf88f03edd5"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/biome/anomaly.json"
-hash = "13e8a6fbd936a4ae35d280a8056b52286a347dfbf8bc2eefabacc253add91ee7"
+hash = "acd7ac618f078b5f7540ed57ed7c71aa8c6e2be58c0c9b2180fa6d80c9bce8fa"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/bountiful_bonanza.json"
-hash = "14d9b7a5409cec48879ac62fce34814697438acef08278b83fb33fbf10765324"
+hash = "6a2914ad77b3503010efffa121b12cbf1f9ca429725f97078f079ad63896a562"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/bullet_bluffs.json"
-hash = "778f86650391413bbe3ab09b81f5315a24ce251e8688df3924a299d934a24415"
+hash = "87d18b64ce31d0e68469b4fe50d73bc12fa94b3166cdda8b96eb0f3fe650168c"
+
+[[files]]
+file = "kubejs/data/skylore/worldgen/biome/dead_acres.json"
+hash = "eaf8049bf9fbb653342d60e22cd1d3d100fd4806bfd511511707dee26761eca0"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/decaying_ruins.json"
-hash = "074f9347d1b51bfc7cc648078086119cbf7e7c4405b6de615933763bbfbe6a77"
+hash = "7c13b0813dcea908e640c90eaf32a1561c9f2142cd138130c560cbba4b5bfdde"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/dry_dunes.json"
-hash = "8e04cbe7807ea5034822d13526b474c19f1b2f96796b0124006a91fcd47fee7d"
+hash = "8eeef8ee5d05ffa1e418cc19ac24fbc66f813b4dbac04f2b9a3455ef8f9fbff8"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/false_oasis.json"
-hash = "78bd9391f2bf1f27b46d19b220b01c25a02cd6d1b4ce1a2fbe2aa99719d5414a"
+hash = "8a2d36fa1aafa3344c81fb51609fc657c74a31b582d3db4cc831804125e12045"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/ice_escapades.json"
-hash = "571505807e589321934eb2443b7ab47747ff22e905ad2178068bfe6c51027166"
+hash = "d3b79817fbc8b6e2ca052629d1b08f808752bbc96ba68512610b0cf8376b97a0"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/infected_dunes.json"
-hash = "2f8840ae8415afec3b8853268b62e8fa4ab0f691afce6f07fb4333cd71c35ec1"
+hash = "457f0ddb158629636639afb242e0cba0a81eb7a0e794d118e732d1e2d448421d"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/infected_fields.json"
-hash = "96aa0e780550adccbbc4a3662f13da9630e24de82df99dd7c4dd1f40da38ce93"
+hash = "1ed0d7ad31f084c23971aefa16d2a3e58966c130b7685e1c3850c0a7283a596a"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/kepler_forest.json"
-hash = "237ca5e1c26f4a7de61af1e118fd7fa5908e32024f2e72671c9e0d9214e3b77e"
+hash = "56e0aaaab6be0aecd841bd2e5ecec7e0e60ca43dcddd5d8d8313b1eb881993fc"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/monsters_mushrooms.json"
-hash = "a1292c2c4a3d511af5b0c177bbb1e13379302a4b50c7cab5b47933164dc88043"
+hash = "95ae9d2b33ec66695199e8a43c69eceddbdad09ac62dba35140540d0c351f5a5"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/overgrown_forest.json"
-hash = "1cca487e4e17cc99be4caa5f62a97f3bb9a3782344a1a1fe01b0591b4d7a1e7e"
+hash = "d27caa4782286e494dc831910016e932e74204d9f36808659a978497a6184213"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/polite_palms.json"
-hash = "314171fe10ff2a862b131a74d29defb8858566b51c2edc513b8a573389388421"
+hash = "31a210c269a26c1c1c89c3ec534fa77cf0654a526737c111b960291f1ad91f1c"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/project_anomaly.json"
-hash = "3945a87e7fdee5689026ef3c5f37a599932261d5c1157d4c48a433075b8c1cc3"
+hash = "54580593d4ddb6d9cc63137c1ed22030440b6c4721cc717dc9644b371d3df3b8"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/prominent_pumpkin_pastures.json"
-hash = "987db72b79243d850e9d9daefd152839333b075b005127776a13a91c79b9e392"
+hash = "11cf61dc5f2fa000c34395904cad0fa1588f169ff374146d430917f6373a824b"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/ruby_range.json"
-hash = "0ac10805cf771f7056339bfbd79a4ed31753d97853fdc57dd00e9bf7e77016a8"
+hash = "9c97b85dd820014e86a13d63706fa0e067169b857d78539c0b1c52738b588de5"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/scarlet_sanctuary.json"
-hash = "c08f117a10849afa70c8b29198d33074e7cb77ffaf684bf3e5850fd78cf3c191"
+hash = "beb5e3176cc3d556bf3d444a0dbdb505a440b932fa739ad050929308b2745afa"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/snowy_grunt.json"
-hash = "c4fe98a4b215044d15321dd452d2944f0d4057bb16251d364088c2562f225b25"
+hash = "f65aeb480def4573892c4fa752c120c2077023b712af08b7a4217c3df007ec76"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/trainsylvania.json"
-hash = "5b8866469a705a48747c2a3ab3791048e842b75465445b91cff9348de2b268bb"
+hash = "254e6828e96ea3bbd896feee89b7e31c510a7b19be58d68ed1cc7ae811455b9a"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/up_meadows.json"
-hash = "cd9a43bad965fe9705df6f8f16bacb2fbf1ab11536d09707fec597fc1b0e9945"
+hash = "df74cadf87a750d2dfd0acb79d956d0953b56b7919684657c09a3b4bfc0a7fe6"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/verde_plains.json"
-hash = "81060a5e8ffa9def8d72aeb15fdd48157bbac165fa645d222d6c1ca9f839e51d"
+hash = "7cbbc2409692da7a128f3887dc4b139fd897d677411af34eab3e4af9be3bcce8"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/biome/warped_wallows.json"
-hash = "b1f75d69a77191bc62e8b4647c595c8f3e0f08c301d216a75066a321b9847391"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/biome/white_cherry_oak_meadow.json"
-hash = "7b549383500d771439ae8719d15ce5319e12645ca627fa53e700c36d2ad9e5e0"
+hash = "8fd88c6783e9116454e898d1c8d9c8bf942b8dc4baca58172615ab85fb79e378"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/configured_carver/no_cave.json"
-hash = "e902694531fcf9b691315ac6cffbc14433918e61395a1fe125730b82f21603ae"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/configured_structure_feature/sky_village.json"
-hash = "5742e20b7bfea527ba25586c6bcb5997d66a0c88eb83aa25e2d35e45b97c15e4"
+hash = "3decf8467daf8b88b87fc3cb8f8322b1d9fd4d5ee567e4a0df9f9bb525c5036f"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/configured_surface_builder/anomaly.json"
 hash = "f5dc3ca5ba7fb74f3bd796d2c4701e3942821a825da286c5823e915cf1552fb3"
+
+[[files]]
+file = "kubejs/data/skylore/worldgen/configured_surface_builder/dead_acres.json"
+hash = "c9fd95872b179542c5a953c95f9e7a6baac1a92110da60f3077c903cdad7107a"
 
 [[files]]
 file = "kubejs/data/skylore/worldgen/configured_surface_builder/infected_dunes.json"
@@ -741,44 +641,100 @@ file = "kubejs/data/skylore/worldgen/configured_surface_builder/infected_fields.
 hash = "f0561ade151b46f6653746067da51a480203156444196b6d339752274c452ab3"
 
 [[files]]
-file = "kubejs/data/skylore/worldgen/template_pool/air_pool1.json"
-hash = "1cb142f2314ee665b5dd98e7b7c70a66c9bbb6158b19ad501d550eff93f34b8d"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/template_pool/air_pool2.json"
-hash = "c0abff9406e24d60155b8c6b6507a062a0610fbfdbfaae717a9cd62ffe76065e"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/template_pool/sky_center_pool.json"
-hash = "b66ab2bedea08afdee41bf1179151cf0b750d5332bbad389b628d14702164920"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/template_pool/sky_islands_pool.json"
-hash = "e2b99eb01fa64ad70f4ea610e5ddf726dce3eb08616cd0e308695fecf09055e6"
-
-[[files]]
-file = "kubejs/data/skylore/worldgen/template_pool/sky_start_pool.json"
-hash = "47be36a25007368432d3c407547465ca3ce2293f65bd19c612af0544894c9840"
-
-[[files]]
 file = "kubejs/data/villagerquests/quests/87_bamboo.json"
-hash = "b59556b33f0356c4ca26ab0a956bde4969d51e2a72605e4cf485df454c3aa155"
+hash = "64a103fbc1ca4ae89b368c757cc656376b567d324c7baab47f0f4d4280d0af0d"
 
 [[files]]
 file = "kubejs/data/villagerquests/quests/ak_nights.json"
-hash = "f54ab2068924a56c86bf8ab7b249413da4cd00a3ef2ee8418b4f595aee7b00cd"
+hash = "b95fc0b58aad5c60b402adaeca1f7709e6f0daddf39fd7a843c52423f22e47b9"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/anam_woods.json"
+hash = "a4f9a587c53e93b19a9656a233e351f7e06a7f8030e9c3c64fdf51ba5c8cd725"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/bountiful_bonanza.json"
+hash = "5bf244ae2541cac8981e5dbed0b5fb8d64498839cfce1ca5814634da6bb807b2"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/bullet_bluffs.json"
+hash = "f16ceb031eb82f190429a79c786b97ba1bfd7f9417bff18c559c217fd9381b70"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/decaying_ruins.json"
+hash = "47531716fa45d2a677b65a7c6680de2cbc6df8a05b73b73237f17fad5c113c88"
 
 [[files]]
 file = "kubejs/data/villagerquests/quests/dry_dunes.json"
-hash = "72737bcb680ca5053d44d6768c4b148235b0c9cdeb7d2caf05c241d0813f243f"
+hash = "8974d3fda85e41675d1c9e3c1b5786eaef853d8574d765da291b35eb20467751"
 
 [[files]]
-file = "kubejs/data/villagerquests/quests/farmme.json"
-hash = "34c59c0edfad14bf38f1c1a5d2fc2cef495fb0365cbab870c6abe5311b19d2cb"
+file = "kubejs/data/villagerquests/quests/false_oasis.json"
+hash = "20134921d13f377df0075baa7dcc132f494cf11f6adb40e8775d119c2c6ba701"
 
 [[files]]
-file = "kubejs/data/villagerquests/quests/sheep_kill.json"
-hash = "8731882a9d6fd957775261f4b82200b44ab6d4f855400910b3e8477f4df485c5"
+file = "kubejs/data/villagerquests/quests/ice_escapades.json"
+hash = "192856fc673ef9475f6c5739eb089038015a9138ec4b310b2433f26277b65880"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/infected_dunes.json"
+hash = "087a40ed698baf0818a1d727953349d4c6a87fa76f174cb80564f138e712946f"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/infected_fields.json"
+hash = "70d218c6370e74bdc2848737cb7ff3568af8e81b4bd152dd5526a71f0df7af2e"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/kepler_forest.json"
+hash = "e46f43223e0f813414765c39f954917d76b5415b5d595a9c3df8ac54f2ec3e4a"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/monsters_mushrooms.json"
+hash = "4cb4b0b2d55fa85ab549419fcbf020f3e64167058420a3731d382c34069e349c"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/overgrown_forest.json"
+hash = "120dcc5aef2ec53876ba680807d3af7519e8815649431d659dd9fd6e9a30beb1"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/polite_palms.json"
+hash = "cea08b0083a7cc5650d22f8e6847832ca1fffd9c52f212d177bae34f7de7f884"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/project_anomaly.json"
+hash = "d75e026dc90b5aca4698aadb79ec81aceb5c743ef15dba440e33f90db42708b0"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/prominent_pumpkin_pastures.json"
+hash = "19b8632861721e89677ea17571a40ee8dca06e5d7b0a27e2d481a022ac59284a"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/ruby_range.json"
+hash = "962d8d58b2b4ea568c5a4238cc18d7471b4c56719e2111795cfb40f62024639f"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/scarlet_sanctuary.json"
+hash = "6418f5f381223567b08f4ed99d9e8942dfa87637162322b1929ede15a875b7b5"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/snowy_grunt.json"
+hash = "b960c1e262536d3b91b95885e33dba0d4ac2c06109b25c19c080ad3f6e27053d"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/trainsylvania.json"
+hash = "5fed1412a9fc9b1489a2e3c0ad717e1be7de517b553b448f4de0218f82b62d14"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/up_meadows.json"
+hash = "7a123cad32b6055926bad2b5101856d46d20596f1a203b265a3844287ef14a8e"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/verde_plains.json"
+hash = "bc86dfaba8c4af68209084caaf23d1fb993653e6deb12d4361b24f1e92c8b5f1"
+
+[[files]]
+file = "kubejs/data/villagerquests/quests/warped_wallows.json"
+hash = "94aa027f70bec1d6990ffcee987f73444130a5d8fb75f9c65afb4ccfd81a7aab"
 
 [[files]]
 file = "kubejs/data/workspace.code-workspace"
@@ -846,13 +802,23 @@ hash = "55d8f50cccbd5e0a1c2bfb755928a043521dc0c72bec0b76a7625e65431018e4"
 metafile = true
 
 [[files]]
+file = "mods/annotated-di.toml"
+hash = "2058a340c02eb81070053ae0e1db43254ff27d1406930df6c13689c4c8408db3"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.toml"
 hash = "684e76a8486eb5b2d19c23ff5e7bbc37580fc9885037694ea935bfd2571532e3"
 metafile = true
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "6d759c7b44bcbf6dd77a63d5fd82ff7cb1aa6005b6f3732032f51a421d859698"
+hash = "0cb15ecf2dbcd17db7d220f4dea657b79419d0c1dbab7a26b4d569d4752a1981"
+metafile = true
+
+[[files]]
+file = "mods/art-of-alchemy-continued.toml"
+hash = "254744eeab2d096cb23ce1f4b34c3dbbfd04a489ab505c0af7b1c556bf414a25"
 metafile = true
 
 [[files]]
@@ -867,7 +833,7 @@ metafile = true
 
 [[files]]
 file = "mods/backslot.toml"
-hash = "3cee00d38ddb3919cc7cc7895424aed48a528c881ee6df4bcce1397cc2ccc5b8"
+hash = "f6c66455e5261bb42bfc9364e749fe2da44e756b0255b8785bee4aa4f92c5bf3"
 metafile = true
 
 [[files]]
@@ -888,6 +854,11 @@ metafile = true
 [[files]]
 file = "mods/betterend.toml"
 hash = "ee5662740c22c0f7187d9bd122c84307aec9eff8f4c82a9fb4699ea887165cd6"
+metafile = true
+
+[[files]]
+file = "mods/bits-and-chisels.toml"
+hash = "fe95020ad27e14b11a70ffc5caa93396c3e843d9985ab58f7d1799aeff7aa084"
 metafile = true
 
 [[files]]
@@ -916,13 +887,18 @@ hash = "4d3a113f485d709085b9a37ce9533f6aac49d1306deee49e854fb94b8d169ebe"
 metafile = true
 
 [[files]]
-file = "mods/bountiful-fabric.toml"
-hash = "dfbcb7afaa7ecace79b90ab3fff964aee602ef3267f21f4e8b08fa4955ef2740"
+file = "mods/brb.toml"
+hash = "81149a50765f77a6c84ebefc6b8831c534a3f7bfeb45b047dadff3e921a19f32"
 metafile = true
 
 [[files]]
 file = "mods/building-wands.toml"
 hash = "2599acbdf13fd644e80f4d1017d1d6118a053bb1bf137a7701e050a7ff32c886"
+metafile = true
+
+[[files]]
+file = "mods/caelus-fabric.toml"
+hash = "4920f379ebf6abdae52b8547051424a6fa03ca85da70d73e0b762914a7882d37"
 metafile = true
 
 [[files]]
@@ -967,12 +943,17 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "b8b331f44fe3f062639be7302263aa70e65a20de7f18fa43fa5b234d67ce562b"
+hash = "ff4194efd2ff7307a8f5151298f8b8cc0ceed452b811ea039176ff87d1282885"
 metafile = true
 
 [[files]]
 file = "mods/consistency.toml"
 hash = "45b9bdd14a189046de9a0d1e5ee24b6951db6ec48e0e1e8accc7d9b733a4fa0e"
+metafile = true
+
+[[files]]
+file = "mods/cpas.toml"
+hash = "e70a77902b0fd587283242a105fc48dd0dbd6821e0ee57fdb535b4ec451d2ab4"
 metafile = true
 
 [[files]]
@@ -1026,6 +1007,16 @@ hash = "084d11db0fc1d1824f21aafa496a12f938985580104d672357338aad1f32a61f"
 metafile = true
 
 [[files]]
+file = "mods/desolation.toml"
+hash = "461cfd28575c30e502ea6fe6b429c2a0de3e0ec083a1131caaacd5958a29de2a"
+metafile = true
+
+[[files]]
+file = "mods/dihydrogen-monoxide-reloaded.toml"
+hash = "0192aa2249a7a46db18997aea54445ef6caa5c036a0db6ed6d67d933251650bd"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.toml"
 hash = "a3c3d4f35494103eb96d62ad1e63932d4407c90b7878fdb1d2d1f75e26da1ce4"
 metafile = true
@@ -1052,7 +1043,17 @@ metafile = true
 
 [[files]]
 file = "mods/environmentz.toml"
-hash = "a6defafcba6ba5c33cfd73881a38718e0bdab904282b3aa6cbe88a4a66e135be"
+hash = "17cdbdf8afc91ed3326484e76a9063ebab38f163b5710ccb5f0c50da0cf7ab38"
+metafile = true
+
+[[files]]
+file = "mods/erroring-entity-remover.toml"
+hash = "01e21b3d64bcb5a23be8247a37617432c39d0fbdc1d3cbc8cbe75150bca92e60"
+metafile = true
+
+[[files]]
+file = "mods/expanded-storage-fabric.toml"
+hash = "643c29845ce8b32798abb34e605685cdd220be4e0f9ea765a540b8fd8527077d"
 metafile = true
 
 [[files]]
@@ -1068,6 +1069,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-scala.toml"
 hash = "b948c83b519dceea906133d34369ead2974ecefd2fd54981e41c61633c660e54"
+metafile = true
+
+[[files]]
+file = "mods/fabric-loot-crates.toml"
+hash = "6202ebca67d56bf2c1c17c972b995b3b1ac5fb6f41a562f01e43f239350926f9"
 metafile = true
 
 [[files]]
@@ -1106,6 +1112,11 @@ hash = "77050081a0004a878d1fc073fb1b09326d93eb5fde9666e5a33bd91315a44b52"
 metafile = true
 
 [[files]]
+file = "mods/fireplace-lib.toml"
+hash = "f4f8196235b836658ab5848343797976cd78c9efb9d5a9de29d75b2d01c19fb8"
+metafile = true
+
+[[files]]
 file = "mods/flonters.toml"
 hash = "dd70e85a1f487a35984083b0299acd132888aefdf0adc066814df092218a499f"
 metafile = true
@@ -1117,22 +1128,17 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "def6123d0678cd4c3951002e8735db631a2892cd73bb64e1bb605b0935d0765c"
+hash = "ef2c740fed4718afd1d3df0b9e3b232e21bffee9bf82e5cdbc588c2680d8c2e6"
+metafile = true
+
+[[files]]
+file = "mods/give-me-hats.toml"
+hash = "adc5018de2bacc57d03e28e93823b8856cbc3f208bf78515c7394c092c5b735d"
 metafile = true
 
 [[files]]
 file = "mods/golden-hoppers.toml"
 hash = "bce292090f55d05c5830ab0e11b57959fc9b18dfec6212ebfe63ee381f0ca6cd"
-metafile = true
-
-[[files]]
-file = "mods/guild.toml"
-hash = "ee07d8149fb37861ec93cb37d372a7d48871d197963a3af10bb9a677062d2a63"
-metafile = true
-
-[[files]]
-file = "mods/hardcore-questing-mode.toml"
-hash = "835c5d5e73d776d6139a469a461158966b274e7f0b431818104569d5a2667233"
 metafile = true
 
 [[files]]
@@ -1142,12 +1148,17 @@ metafile = true
 
 [[files]]
 file = "mods/healthcare.toml"
-hash = "037b32cdb92841057ed43c1ff7cc21fdbe8f25742e1c23915a15c972a19fd814"
+hash = "14bdd3fa58424e3b6c10dc0b8397eb5940126fe8ea4257a74123ec12b7c79d56"
 metafile = true
 
 [[files]]
 file = "mods/here-be-no-dragons.toml"
 hash = "51924f2ccf08b83a071bd15d96cb175c86648b2f7e1e09038b336b5375e0c814"
+metafile = true
+
+[[files]]
+file = "mods/icarus-fabric.toml"
+hash = "291cfefaffc8a81595320edbb249353c477f7bb65726694e4eb8a032e860fb9b"
 metafile = true
 
 [[files]]
@@ -1168,6 +1179,11 @@ metafile = true
 [[files]]
 file = "mods/indium.toml"
 hash = "425236cb0111a91a12ebe0fabeef9143563a642885bf208dc11070729668ac54"
+metafile = true
+
+[[files]]
+file = "mods/industrial-revolution.toml"
+hash = "6cde6938a7bfc4a3c56c8d4363c804c2becf42fd0f0cc2b7927302612ded516f"
 metafile = true
 
 [[files]]
@@ -1227,17 +1243,17 @@ metafile = true
 
 [[files]]
 file = "mods/magic-fungi.toml"
-hash = "ede26f65f9d3a4fc95516128076516135a9724c12427dc97bba9bc74331df3e2"
+hash = "757478f36052ea99a0083dbc308e3a924259f7eb8815a85d757d073e7212a68b"
 metafile = true
 
 [[files]]
 file = "mods/malilib.toml"
-hash = "37b76567582768f85067467b2d7b6d554b0b79961d3e7b70d3cbcf53b5ad5f31"
+hash = "dcdd17b6d97c865f14b8359a073cc70830016e91152b7214cf5f18f388e328fe"
 metafile = true
 
 [[files]]
 file = "mods/mcda.toml"
-hash = "6780699ebd09fb846350b6b9d16b0fc89c9a9afc069f5cb4e08af748152c9618"
+hash = "52e59a7562c5fa33069ea08ae0e014121cda0b3daa228aab61aa85c0f72af5aa"
 metafile = true
 
 [[files]]
@@ -1251,13 +1267,18 @@ hash = "981d43bdee662f758161ca7eec1622fdcb378ec15073d5e432501685d0e89d69"
 metafile = true
 
 [[files]]
+file = "mods/mcsa.toml"
+hash = "04e0d1055d26716817bb5e28441957faa4585ff128f38e634ff512810c5fe1df"
+metafile = true
+
+[[files]]
 file = "mods/medievalweapons.toml"
 hash = "c33b27ae9358310f303270426a4f283dbedbf548b480a30a0e57acd088b6d7fa"
 metafile = true
 
 [[files]]
 file = "mods/mesh.toml"
-hash = "cc941a803717dff1e17ce8683287c4bc94a6a94f041304a64195af7d2ab05c33"
+hash = "be51f6857c1c7ea1568e5a8ffa723912cd987e68ecb8dfdde4a6937f56327876"
 metafile = true
 
 [[files]]
@@ -1272,7 +1293,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-beta.toml"
-hash = "7d1ba9cf1eedf2e8a7184eedfcad061da2b7d5014a918d9f1e07e1f5a2747b38"
+hash = "3619f387f767c9fad6b1171b88a19c9829cb4fb86336c5aab94b65742ed33c35"
 metafile = true
 
 [[files]]
@@ -1287,7 +1308,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreboots-fabric.toml"
-hash = "04d409624fa2df55a8b2892b2b670e3fec8415dde191758ce077db018fdad335"
+hash = "3feb276832fc3ebb614cd6a3536540226aa48832120adc244514208421dfe3ee"
 metafile = true
 
 [[files]]
@@ -1298,6 +1319,11 @@ metafile = true
 [[files]]
 file = "mods/mythic-mounts.toml"
 hash = "22b1c7ba3b50207a735d14cab831d1249e56adb55b2314cc3172d8723a465054"
+metafile = true
+
+[[files]]
+file = "mods/ninjaphenixs-container-library.toml"
+hash = "90d0710afefac6bc1a2f1c0a59e85b82662797199e4583a100f85ec93a7ebf91"
 metafile = true
 
 [[files]]
@@ -1327,7 +1353,12 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.toml"
-hash = "270288707249eeee02d0de4dce79dfd5b928f76fca9525cb5bd61710aa978904"
+hash = "25bfd89f09e2ce954d28fad8117da91f0ae2527730134e6ba9e862f3602da36c"
+metafile = true
+
+[[files]]
+file = "mods/plant-in-a-jar.toml"
+hash = "550479273695452a393dae4963e41145d8f9144d6910fbd81cbf0dd2ff05f7bb"
 metafile = true
 
 [[files]]
@@ -1362,7 +1393,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.toml"
-hash = "0a3a53ce240b116ae2d5a887c470f8a4707a185fe75e18bd6d902c41429021b5"
+hash = "4efe5419a3eca0db1a06530c3823a14b3bcb3564b207bd99fea7ac900c50fbfc"
 metafile = true
 
 [[files]]
@@ -1372,7 +1403,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "d6414687727b792820d5826c5fed4894992ff2f478ad9059bda7af8c8d837698"
+hash = "2328c6eb415a875ce41397571ccba97c15e306b8036bb6fa4cc6774962384c4f"
 metafile = true
 
 [[files]]
@@ -1416,6 +1447,11 @@ hash = "db3149534a6ae08ffde31519b35b19cf3afdda1a28ab33bf7d2dec302b9c3e08"
 metafile = true
 
 [[files]]
+file = "mods/starter-kit-fabric.toml"
+hash = "cd9a1185cea031c1b01058c802de0619a1621c97f0a09104a34776c8e6c519d6"
+metafile = true
+
+[[files]]
 file = "mods/structure-floater-fabric.toml"
 hash = "7a4938417c69f3ce8bb170ca9abc35f24d78d66c30c18e79d8901aafe0a8744c"
 metafile = true
@@ -1441,6 +1477,11 @@ hash = "69c7577874a9f8a43149fd8a624f0770e9c8d82755b6e5c458c314dc24852ccc"
 metafile = true
 
 [[files]]
+file = "mods/terrarian-slimes.toml"
+hash = "4b702e534332c658dc42b056807d6ccbc1767ea6a4a11b29e89964f48c8736f8"
+metafile = true
+
+[[files]]
 file = "mods/tooltiprareness.toml"
 hash = "43170510f96bb59a402fd5bcedfbcceedff022a70ee746a88fad872b8b8aa6cf"
 metafile = true
@@ -1461,6 +1502,11 @@ hash = "8546e3ccab455551cb9398f3fbe17e16413557e0ffe8b7f0d48a13cc63e93f0f"
 metafile = true
 
 [[files]]
+file = "mods/unforgiving-void.toml"
+hash = "2a3b969d0916e5b858020aa2420f168351446ddd281587d9bd912bb5b616bc29"
+metafile = true
+
+[[files]]
 file = "mods/valleycraft.toml"
 hash = "166471bf64015e7deb240b665b7fe56b802c70a0bd00a336778be9cda613c39c"
 metafile = true
@@ -1477,7 +1523,7 @@ metafile = true
 
 [[files]]
 file = "mods/villagerquests.toml"
-hash = "93f2e86387dd9143a10d443694ecff91d14c53e08d3478228cdd1f3e10a309ed"
+hash = "38ebd27fac9824355b4262efeb9c0700d1551301313ec880d8f5d05aaf2e0e2b"
 metafile = true
 
 [[files]]
@@ -1511,23 +1557,8 @@ hash = "36fcf0e5434ccacada3b27f0a61d09174dfc1527f0f2b3c177834058f09abaaa"
 metafile = true
 
 [[files]]
-file = "mods/worldedit.toml"
-hash = "df9693155b1ac6b1eeb8505654e23300fb62661032018b67595603546e2133f7"
-metafile = true
-
-[[files]]
 file = "mods/wthit.toml"
-hash = "1bcf28cdd69152d0d610bf61ef1de197c801304e3787df45de25ea32f682d4bd"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.toml"
-hash = "d6fb0d120993dd5737ec2d45166b3b7744bdc2cdc6ac120fc5f85fddc4f6f81c"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.toml"
-hash = "1563bf5680d9a4e3b103d78d6ccae60339ae4e3a8fc608af6473fea0b0b86819"
+hash = "3180ff99eb9081881ab05dd8b09dde648612e9a26157a5b53cb9c8d23eeec9eb"
 metafile = true
 
 [[files]]

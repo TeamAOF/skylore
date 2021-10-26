@@ -1,0 +1,20 @@
+{
+    "id": 21,
+    "title": "Dry Dunes",
+    "level": 0,
+    "type": "explore",
+    "profession": "cartographer",
+    "task": [
+        "travel",
+        "skylore:dry_dunes",
+        1
+    ],
+    "description": "Discover Dry Dunes",
+    "experience": 30,
+    "reward": [
+        "minecraft:stick",
+        10,
+        "minecraft:bucket",
+        1
+    ]
+}

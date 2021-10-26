@@ -82,7 +82,6 @@
   "starts": [
 "mostructures:configured_air_balloon",
 "dungeons_arise:configured_illager_campsite",
-"custom:sky_village",
 "repurposed_structures:outpost_jungle"
 ],
   "spawners": {

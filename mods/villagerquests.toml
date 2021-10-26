@@ -1,13 +1,13 @@
 name = "VillagerQuests"
-filename = "villagerquests-1.0.1.jar"
+filename = "villagerquests-1.0.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3493/692/villagerquests-1.0.1.jar"
+url = "https://edge.forgecdn.net/files/3497/886/villagerquests-1.0.2.jar"
 hash-format = "murmur2"
-hash = "3157657403"
+hash = "2646936946"
 
 [update]
 [update.curseforge]
-file-id = 3493692
+file-id = 3497886
 project-id = 534368

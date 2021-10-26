@@ -1,12 +1,12 @@
 {
-    "id": 6,
+    "id": 2,
     "title": "Ak Nights",
     "level": 0,
     "type": "explore",
     "profession": "cartographer",
     "task": [
         "travel",
-        "skylore:bullet_bluffs",
+        "skylore:ak_nights",
         1
     ],
     "description": "Discover Ak Nights",

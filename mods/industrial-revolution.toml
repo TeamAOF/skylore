@@ -1,0 +1,13 @@
+name = "Industrial Revolution"
+filename = "indrev-1.11.0-alpha.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3491/975/indrev-1.11.0-alpha.3.jar"
+hash-format = "murmur2"
+hash = "99921589"
+
+[update]
+[update.curseforge]
+file-id = 3491975
+project-id = 391708

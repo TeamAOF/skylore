@@ -1,0 +1,13 @@
+name = "conveniently placed armor slots"
+filename = "cpas-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3481/12/cpas-2.0.1.jar"
+hash-format = "murmur2"
+hash = "1543655969"
+
+[update]
+[update.curseforge]
+file-id = 3481012
+project-id = 422447

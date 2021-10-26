@@ -1,0 +1,10 @@
+{
+  "fireExplosions": false,
+  "canBreach": false,
+  "canLeap": true,
+  "followingRadius": 16,
+  "breachingRadius": 30,
+  "maxY": 200,
+  "minY": 0,
+  "poweredChance": 0.1
+}

@@ -1,173 +1,171 @@
 {
-  "scale": 0.01,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
+    "scale": 0.01,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "sky_color": 11015434,
+        "foliage_color": 5635925,
+        "grass_color": 5635925,
+        "fog_color": 16760767,
+        "water_color": 16711680,
+        "water_fog_color": 16741184
     },
-    "sky_color": 11015434,
-    "foliage_color": 5635925,
-    "grass_color": 5635925,
-    "fog_color": 16760767,
-    "water_color": 16711680,
-    "water_fog_color": 16741184
-  },
-  "surface_builder": "skylore:infected_fields",
-  "carvers": {
-    "air": [
-      "skylore:no_cave"
-    ]
-  },
-  "features": [
-    [],
-    [
-
+    "surface_builder": "skylore:infected_fields",
+    "carvers": {
+        "air": [
+            "skylore:no_cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [
+            "minecraft:amethyst_geode",
+            "minecraft:monster_room"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_emerald",
+            "minecraft:ore_lapis",
+            "minecraft:ore_copper",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:lush_caves_ceiling_vegetation",
+            "minecraft:cave_vines",
+            "minecraft:lush_caves_clay",
+            "minecraft:lush_caves_vegetation",
+            "minecraft:rooted_azalea_trees",
+            "minecraft:spore_blossom",
+            "minecraft:classic_vines_cave_feature",
+            "minecraft:spring_lava",
+            "betterend:crashed_ship",
+            "betterend:end_lake_rare",
+            "betterend:lumecorn",
+            "betterend:blooming_cooksonia",
+            "betterend:salteago",
+            "betterend:vaiolush_fern",
+            "betterend:fracturn",
+            "betterend:umbrella_moss_rare",
+            "betterend:creeping_moss_rare",
+            "betterend:twisted_umbrella_moss_rare",
+            "betterend:charnia_cyan",
+            "betterend:charnia_green",
+            "betterend:charnia_light_blue",
+            "betterend:charnia_red_rare",
+            "betterend:mossy_glowshroom"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ],
-    [],
-    [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-	  "minecraft:ore_emerald",
-      "minecraft:ore_lapis",
-      "minecraft:ore_copper",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"  
-    ],
-    [],
-    [
-              "minecraft:glow_lichen",
-        "minecraft:lush_caves_ceiling_vegetation",
-        "minecraft:cave_vines",
-        "minecraft:lush_caves_clay",
-        "minecraft:lush_caves_vegetation",
-        "minecraft:rooted_azalea_trees",
-        "minecraft:spore_blossom",
-        "minecraft:classic_vines_cave_feature",
-      "minecraft:spring_lava",
-      "betterend:crashed_ship",
-      "betterend:end_lake_rare",
-      "betterend:lumecorn",
-      "betterend:blooming_cooksonia",
-      "betterend:salteago",
-      "betterend:vaiolush_fern",
-      "betterend:fracturn",
-      "betterend:umbrella_moss_rare",
-      "betterend:creeping_moss_rare",
-      "betterend:twisted_umbrella_moss_rare",
-      "betterend:charnia_cyan",
-      "betterend:charnia_green",
-      "betterend:charnia_light_blue",
-      "betterend:charnia_red_rare",
-      "betterend:mossy_glowshroom"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
     "starts": [
-      "repurposed_structures:end_mineshaft",
-      "repurposed_structures:end_shipwreck",
-      "bosses_of_mass_destruction:configured_obsidilith_arena"
-  ],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:zombie",
-        "weight": 95,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:slime",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      }
+        "repurposed_structures:end_mineshaft",
+        "repurposed_structures:end_shipwreck",
+        "bosses_of_mass_destruction:configured_obsidilith_arena"
     ],
-    "creature": [
-      {
-        "type": "earthtojavamobs:fuzzy_sheep",
-        "weight": 12,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "betterend:cubozoa",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "earthtojavamobs:skewbald_chicken",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "adventurez:ender_whale",
-        "weight": 8,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "earthtojavamobs:bronzed_chicken",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "earthtojavamobs:pale_pig",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
-    "ambient": [
-      {
-        "type": "betterend:silk_moth",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "rain",
-  "temperature": 0.8,
-  "downfall": 0.4,
-  "category": "plains",
-  "depth": 1.7
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:zombie",
+                "weight": 95,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [
+            {
+                "type": "earthtojavamobs:fuzzy_sheep",
+                "weight": 12,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "betterend:cubozoa",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "earthtojavamobs:skewbald_chicken",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "adventurez:ender_whale",
+                "weight": 8,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "earthtojavamobs:bronzed_chicken",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "earthtojavamobs:pale_pig",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [
+            {
+                "type": "betterend:silk_moth",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false,
+    "precipitation": "rain",
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "category": "plains",
+    "depth": 1.7
 }

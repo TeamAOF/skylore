@@ -1,0 +1,13 @@
+name = "Dihydrogen Monoxide Reloaded"
+filename = "dihydrogen-monoxide-reloaded-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3338/169/dihydrogen-monoxide-reloaded-2.1.1.jar"
+hash-format = "murmur2"
+hash = "1784281229"
+
+[update]
+[update.curseforge]
+file-id = 3338169
+project-id = 373536

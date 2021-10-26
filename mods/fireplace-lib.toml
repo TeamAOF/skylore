@@ -1,0 +1,13 @@
+name = "Fireplace Lib"
+filename = "Fireplace-Lib-6.0.6+1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3479/380/Fireplace-Lib-6.0.6+1.17.1.jar"
+hash-format = "murmur2"
+hash = "902457589"
+
+[update]
+[update.curseforge]
+file-id = 3479380
+project-id = 432845

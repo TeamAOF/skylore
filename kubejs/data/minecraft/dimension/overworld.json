@@ -303,6 +303,16 @@
 						"weirdness": 0.5,
 						"offset": 0.0
 					}
+				},
+				{
+					"biome": "skylore:dead_acres",
+					"parameters": {
+						"temperature": 0.9,
+						"humidity": 0.1,
+						"altitude": 0.0,
+						"weirdness": 0.5,
+						"offset": 0.0
+					}
 				}
 			]
 		},

@@ -1,13 +1,13 @@
 name = "Mesh"
-filename = "Mesh-0.15.0-alpha.jar"
+filename = "Mesh-0.16.0-alpha.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3476/793/Mesh-0.15.0-alpha.jar"
+url = "https://edge.forgecdn.net/files/3498/593/Mesh-0.16.0-alpha.jar"
 hash-format = "murmur2"
-hash = "2771438744"
+hash = "1518008789"
 
 [update]
 [update.curseforge]
-file-id = 3476793
+file-id = 3498593
 project-id = 320211

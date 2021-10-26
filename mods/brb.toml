@@ -1,0 +1,13 @@
+name = "Better Recipe Book"
+filename = "better-recipe-book-1.5.4-1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3501/936/better-recipe-book-1.5.4-1.17.jar"
+hash-format = "murmur2"
+hash = "2099568466"
+
+[update]
+[update.curseforge]
+file-id = 3501936
+project-id = 486485

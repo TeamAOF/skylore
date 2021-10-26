@@ -1,13 +1,13 @@
 name = "MoreBoots Fabric"
-filename = "moreboots-1.0.0.jar"
+filename = "moreboots-1.1.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3411/638/moreboots-1.0.0.jar"
+url = "https://edge.forgecdn.net/files/3499/988/moreboots-1.1.0.jar"
 hash-format = "murmur2"
-hash = "1378312286"
+hash = "2733589046"
 
 [update]
 [update.curseforge]
-file-id = 3411638
+file-id = 3499988
 project-id = 510884

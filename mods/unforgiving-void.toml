@@ -1,0 +1,13 @@
+name = "Unforgiving Void"
+filename = "Unforgiving-Void-3.1.0+1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3479/156/Unforgiving-Void-3.1.0+1.17.1.jar"
+hash-format = "murmur2"
+hash = "3138866677"
+
+[update]
+[update.curseforge]
+file-id = 3479156
+project-id = 274863

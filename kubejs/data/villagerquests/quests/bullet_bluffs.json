@@ -1,0 +1,20 @@
+{
+    "id": 5,
+    "title": "Bullet Bluffs",
+    "level": 0,
+    "type": "explore",
+    "profession": "cartographer",
+    "task": [
+        "travel",
+        "skylore:bullet_bluffs",
+        1
+    ],
+    "description": "Discover Bullet Bluffs",
+    "experience": 30,
+    "reward": [
+        "minecraft:stick",
+        10,
+        "minecraft:bucket",
+        1
+    ]
+}

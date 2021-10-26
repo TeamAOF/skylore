@@ -1,0 +1,13 @@
+name = "Art of Alchemy - Continued"
+filename = "artofalchemy-1.3.4+1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3480/596/artofalchemy-1.3.4+1.17.1.jar"
+hash-format = "murmur2"
+hash = "1971500038"
+
+[update]
+[update.curseforge]
+file-id = 3480596
+project-id = 531799

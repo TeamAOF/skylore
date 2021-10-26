@@ -1,0 +1,13 @@
+name = "MC Story Mode Armors [Forge / Fabric]"
+filename = "mcsa-2.3.2-1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3348/97/mcsa-2.3.2-1.17.jar"
+hash-format = "murmur2"
+hash = "1254771315"
+
+[update]
+[update.curseforge]
+file-id = 3348097
+project-id = 442332

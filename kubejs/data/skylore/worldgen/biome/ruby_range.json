@@ -1,184 +1,187 @@
 {
-  "scale": 0.05,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
+    "scale": 0.05,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "sky_color": 11015434,
+        "fog_color": 16760767,
+        "water_color": 16711680,
+        "water_fog_color": 16741184
     },
-    "sky_color": 11015434,
-    "fog_color": 16760767,
-    "water_color": 16711680,
-    "water_fog_color": 16741184
-  },
-  "surface_builder": "minecraft:grass",
-  "carvers": {
-    "air": [
-      "skylore:no_cave"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "minecraft:lake_water"
+    "surface_builder": "minecraft:grass",
+    "carvers": {
+        "air": [
+            "skylore:no_cave"
+        ]
+    },
+    "features": [
+        [],
+        [
+            "minecraft:lake_water"
+        ],
+        [],
+        [
+            "minecraft:amethyst_geode",
+            "minecraft:monster_room"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_emerald",
+            "minecraft:ore_lapis",
+            "minecraft:ore_copper",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:patch_tall_grass_2",
+            "minecraft:glow_lichen",
+            "minecraft:patch_grass_plain",
+            "minecraft:red_mushroom_normal",
+            "minecraft:spring_water",
+            "traverse:red_autumnal_tree",
+            "minecraft:lush_caves_ceiling_vegetation",
+            "minecraft:lush_caves_vegetation",
+            "minecraft:spore_blossom",
+            "valley:rose_patch",
+            "valley:tomato_patch",
+            "valley:beet_patch",
+            "farmersdelight:patch_wild_tomatoes",
+            "croptopia:cherry_tree_configured",
+            "earthtojavamobs:lake_mud",
+            "vanillaplusbiomes:tall_forest_trees"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ],
-    [],
-    [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-	  "minecraft:ore_emerald",
-      "minecraft:ore_lapis",
-      "minecraft:ore_copper",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [],
-    [
-      "minecraft:patch_tall_grass_2",
-      "minecraft:glow_lichen",
-      "minecraft:patch_grass_plain",
-      "minecraft:red_mushroom_normal",
-      "minecraft:spring_water",
-	  "traverse:red_autumnal_tree",
-	  "minecraft:lush_caves_ceiling_vegetation",
-	  "minecraft:lush_caves_vegetation",
-	  "minecraft:spore_blossom",
-	  "valley:rose_patch",
-	  "valley:tomato_patch",
-	  "valley:beet_patch",
-    "farmersdelight:patch_wild_tomatoes",
-    "croptopia:cherry_tree_configured",
-    "earthtojavamobs:lake_mud",
-    "vanillaplusbiomes:tall_forest_trees"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
     "starts": [
-  ],
-  "spawners": {
-    "monster": [
-      {
-        "type": "earthtojavamobs:bone_spider",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "earthtojavamobs:bouldering_zombie",
-        "weight": 95,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:slime",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      }
+        "dungeons_arise:configured_typhon",
+        "mostructures:configured_tcits",
+        "mostructures:configured_villager_tower"
     ],
-    "creature": [
-      {
-        "type": "earthtojavamobs:horned_sheep",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "earthtojavamobs:cream_cow",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "adventurez:mammoth",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:fox",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "adventurez:red_fungus",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {},
-  "player_spawn_friendly": true,
-  "precipitation": "rain",
-  "temperature": 0.8,
-  "downfall": 0.4,
-  "category": "plains",
-  "depth": 1.4
+    "spawners": {
+        "monster": [
+            {
+                "type": "earthtojavamobs:bone_spider",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "earthtojavamobs:bouldering_zombie",
+                "weight": 95,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:witch",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [
+            {
+                "type": "earthtojavamobs:horned_sheep",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "earthtojavamobs:cream_cow",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "adventurez:mammoth",
+                "weight": 8,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:fox",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "adventurez:red_fungus",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": true,
+    "precipitation": "rain",
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "category": "plains",
+    "depth": 1.4
 }

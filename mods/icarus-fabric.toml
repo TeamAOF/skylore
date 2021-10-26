@@ -1,0 +1,13 @@
+name = "Icarus (Fabric)"
+filename = "icarus-1.8.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3498/121/icarus-1.8.jar"
+hash-format = "murmur2"
+hash = "1163216771"
+
+[update]
+[update.curseforge]
+file-id = 3498121
+project-id = 428151

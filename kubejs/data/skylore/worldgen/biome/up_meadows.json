@@ -1,222 +1,223 @@
 {
     "scale": 0.3,
     "effects": {
-      "sky_color": 6733055,
-      "fog_color": 12638463,
-      "water_color": 4159204,
-      "water_fog_color": 329011
+        "sky_color": 6733055,
+        "fog_color": 12638463,
+        "water_color": 4159204,
+        "water_fog_color": 329011
     },
     "surface_builder": "minecraft:grass",
     "carvers": {
-      "air": [
-        "skylore:no_cave"
-      ]
+        "air": [
+            "skylore:no_cave"
+        ]
     },
     "features": [
-      [],
-      [
-        "minecraft:lake_water",
-        "minecraft:lake_water"
-      ],
-      [
-        "minecraft:amethyst_geode"
-      ],
-      [
-        "minecraft:monster_room"
-      ],
-      [],
-      [],
-      [
-        "minecraft:ore_dirt",
-        "minecraft:ore_gravel",
-        "minecraft:ore_granite",
-        "minecraft:ore_diorite",
-        "minecraft:ore_andesite",
-        "minecraft:ore_tuff",
-        "minecraft:ore_deepslate",
-        "minecraft:ore_coal",
-        "minecraft:ore_iron",
-        "minecraft:ore_gold",
-        "minecraft:ore_redstone",
-        "minecraft:ore_diamond",
-        "minecraft:ore_lapis",
-        "minecraft:ore_copper",
-        "modern_beta:ore_clay",
-        "modern_beta:ore_emerald_y95"
-      ],
-      [
-        "minecraft:rare_dripstone_cluster",
-        "minecraft:rare_small_dripstone"
-      ],
-      [
-        "minecraft:lush_caves_ceiling_vegetation",
-        "minecraft:lush_caves_vegetation",
-        "minecraft:glow_lichen",
-        "minecraft:patch_tall_grass_2",
-        "minecraft:plain_vegetation",
-        "minecraft:patch_grass_plain",
-        "minecraft:patch_sugar_cane",
-        "minecraft:patch_pumpkin",
-        "minecraft:spring_water",
-        "woods_and_mires:plains_flowers",
-        "minecraft:lush_caves_ceiling_vegetation",
-        "minecraft:lush_caves_vegetation",
-        "minecraft:spore_blossom",
-        "valley:alive_patch",
-        "valley:alive_patch_tall",
-        "minecraft:prototype_glow_lichen",
-        "woods_and_mires:mire_flowers",
-        "traverse:lush_flowers",
-        "minecraft:warped_fungi",
-        "vanillaplusbiomes:decaying_tree",
-        "vanillaplusbiomes:forest_trees_20",
-        "promenade:white_cherry_oak",
-        "promenade:white_cherry_oak_bees_005",
-        "minecraft:cave_vines",
-        "minecraft:lush_caves_clay",
-        "minecraft:rooted_azalea_trees",
-        "minecraft:classic_vines_cave_feature",
-        "promenade:white_cherry_oak_forest_trees",
-        "minecraft:spring_lava",
-        "earthtojavamobs:flower_buttercup"
-      ],
-      [
-        "modern_beta:beta_freeze_top_layer"
-      ]
+        [],
+        [
+            "minecraft:lake_water",
+            "minecraft:lake_water"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [
+            "minecraft:monster_room"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite",
+            "minecraft:ore_diorite",
+            "minecraft:ore_andesite",
+            "minecraft:ore_tuff",
+            "minecraft:ore_deepslate",
+            "minecraft:ore_coal",
+            "minecraft:ore_iron",
+            "minecraft:ore_gold",
+            "minecraft:ore_redstone",
+            "minecraft:ore_diamond",
+            "minecraft:ore_lapis",
+            "minecraft:ore_copper",
+            "modern_beta:ore_clay",
+            "modern_beta:ore_emerald_y95"
+        ],
+        [
+            "minecraft:rare_dripstone_cluster",
+            "minecraft:rare_small_dripstone"
+        ],
+        [
+            "minecraft:lush_caves_ceiling_vegetation",
+            "minecraft:lush_caves_vegetation",
+            "minecraft:glow_lichen",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:plain_vegetation",
+            "minecraft:patch_grass_plain",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin",
+            "minecraft:spring_water",
+            "woods_and_mires:plains_flowers",
+            "minecraft:lush_caves_ceiling_vegetation",
+            "minecraft:lush_caves_vegetation",
+            "minecraft:spore_blossom",
+            "valley:alive_patch",
+            "valley:alive_patch_tall",
+            "minecraft:prototype_glow_lichen",
+            "woods_and_mires:mire_flowers",
+            "traverse:lush_flowers",
+            "minecraft:warped_fungi",
+            "vanillaplusbiomes:decaying_tree",
+            "vanillaplusbiomes:forest_trees_20",
+            "promenade:white_cherry_oak",
+            "promenade:white_cherry_oak_bees_005",
+            "minecraft:cave_vines",
+            "minecraft:lush_caves_clay",
+            "minecraft:rooted_azalea_trees",
+            "minecraft:classic_vines_cave_feature",
+            "promenade:white_cherry_oak_forest_trees",
+            "minecraft:spring_lava",
+            "earthtojavamobs:flower_buttercup"
+        ],
+        [
+            "modern_beta:beta_freeze_top_layer"
+        ]
     ],
-      "starts": [
+    "starts": [
         "mostructures:configured_plains_abandoned_church",
         "dungeons_arise:configured_lighthouse",
-        "morevillagesmod:city"
+        "morevillagesmod:city",
+        "bosses_of_mass_destruction:configured_void_blossom_arena",
+        "dungeons_arise:configured_foundry"
     ],
     "spawners": {
-      "monster": [
-        {
-          "type": "minecraft:spider",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "earthtojavamobs:lobber_zombie",
-          "weight": 95,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:skeleton",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:creeper",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "earthtojavamobs:tropical_slime",
-          "weight": 100,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:enderman",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:witch",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "creature": [
-        {
-          "type": "earthtojavamobs:horned_sheep",
-          "weight": 12,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "earthtojavamobs:mottled_pig",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "earthtojavamobs:stormy_chicken",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 3
-        },
-        {
-          "type": "earthtojavamobs:moolip",
-          "weight": 8,
-          "minCount": 1,
-          "maxCount": 3
-        },
-        {
-          "type": "earthtojavamobs:fancy_chicken",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "promenade:duck",
-          "weight": 5,
-          "minCount": 1,
-          "maxCount": 2
-        },
-        {
-          "type": "mythicmounts:moth",
-          "weight": 1,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "ambient": [
-        {
-          "type": "minecraft:bat",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "underground_water_creature": [
-        {
-          "type": "minecraft:glow_squid",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        },
-        {
-          "type": "minecraft:axolotl",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "water_creature": [
-        {
-          "type": "minecraft:squid",
-          "weight": 10,
-          "minCount": 1,
-          "maxCount": 1
-        }
-      ],
-      "water_ambient": [],
-      "misc": []
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "earthtojavamobs:lobber_zombie",
+                "weight": 95,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "earthtojavamobs:tropical_slime",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:witch",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [
+            {
+                "type": "earthtojavamobs:horned_sheep",
+                "weight": 12,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "earthtojavamobs:mottled_pig",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "earthtojavamobs:stormy_chicken",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "earthtojavamobs:moolip",
+                "weight": 8,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "earthtojavamobs:fancy_chicken",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "promenade:duck",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "mythicmounts:moth",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "underground_water_creature": [
+            {
+                "type": "minecraft:glow_squid",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:axolotl",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "water_creature": [
+            {
+                "type": "minecraft:squid",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "water_ambient": [],
+        "misc": []
     },
     "spawn_costs": {},
     "player_spawn_friendly": true,
     "precipitation": "rain",
-    "temperature": 1.0,
+    "temperature": 1,
     "downfall": 0.4,
     "category": "jungle",
     "depth": 1.6
-
-  }
+}

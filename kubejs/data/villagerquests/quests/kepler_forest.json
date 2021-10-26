@@ -1,0 +1,20 @@
+{
+    "id": 12,
+    "title": "Kepler Forest",
+    "level": 0,
+    "type": "explore",
+    "profession": "cartographer",
+    "task": [
+        "travel",
+        "skylore:kepler_forest",
+        1
+    ],
+    "description": "Discover Kepler Forest",
+    "experience": 30,
+    "reward": [
+        "minecraft:stick",
+        10,
+        "minecraft:bucket",
+        1
+    ]
+}
