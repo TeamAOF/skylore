@@ -49,6 +49,10 @@ file = "config/starterkit/starterkit.txt"
 hash = "ad48486b3f10846fdca472ed07efc022ed2832fc74a3fbe6415da2f86e15e9ce"
 
 [[files]]
+file = "config/unforgivingvoid_defaultdimensionconfig.json"
+hash = "61c895505c56b79b9c0dda381c4a52bafef97569ac3fd5af89a832596a1ac8ff"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "801703f280e4ff26fb4be02067cb583a79f7618bc0966b11d55b80492fddb56b"
 
@@ -1183,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/industrial-revolution.toml"
-hash = "6cde6938a7bfc4a3c56c8d4363c804c2becf42fd0f0cc2b7927302612ded516f"
+hash = "232422bfd759e6474fcf709dc5457f9d64cdc5ff6d672ccb321816d54d3aec48"
 metafile = true
 
 [[files]]
