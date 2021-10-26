@@ -5,6 +5,6 @@
   "fireResistanceSeconds": 5,
   "slowFallingSeconds": 45,
   "horizontalDistanceOffset": 128,
-  "targetDimension": "the_overworld",
+  "targetDimension": "overworld",
   "transferPositionMode": "FALL_FROM_SKY"
 }
