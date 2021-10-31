@@ -1,13 +1,13 @@
 name = "Taterzens [Fabric]"
-filename = "taterzens-1.4.2-fabric.jar"
+filename = "taterzens-1.5.0-fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3496/868/taterzens-1.4.2-fabric.jar"
+url = "https://edge.forgecdn.net/files/3505/755/taterzens-1.5.0-fabric.jar"
 hash-format = "murmur2"
-hash = "792962025"
+hash = "3896247499"
 
 [update]
 [update.curseforge]
-file-id = 3496868
+file-id = 3505755
 project-id = 446499

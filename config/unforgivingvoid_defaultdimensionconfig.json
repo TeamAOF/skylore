@@ -1,6 +1,6 @@
 {
   "isEnabled": true,
-  "triggerDistance": 32,
+  "triggerDistance": 48,
   "dropObsidian": false,
   "fireResistanceSeconds": 5,
   "slowFallingSeconds": 45,

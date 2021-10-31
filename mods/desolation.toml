@@ -1,13 +1,13 @@
 name = "Desolation (Fabric)"
-filename = "desolation-1.1.3.1.jar"
+filename = "desolation-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3504/645/desolation-1.1.3.1.jar"
+url = "https://edge.forgecdn.net/files/3508/198/desolation-1.1.5.jar"
 hash-format = "murmur2"
-hash = "3182318321"
+hash = "2034976865"
 
 [update]
 [update.curseforge]
-file-id = 3504645
+file-id = 3508198
 project-id = 414851

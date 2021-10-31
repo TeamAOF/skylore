@@ -1,0 +1,13 @@
+name = "No Hostiles Around Campfire (Fabric)"
+filename = "nohostilesaroundcampfire-fabric_1.17.x-3.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3505/223/nohostilesaroundcampfire-fabric_1.17.x-3.7.jar"
+hash-format = "murmur2"
+hash = "2332831442"
+
+[update]
+[update.curseforge]
+file-id = 3505223
+project-id = 539639

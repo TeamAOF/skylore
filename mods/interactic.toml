@@ -1,0 +1,13 @@
+name = "Interactic"
+filename = "interactic-0.1.6-1.17.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3490/244/interactic-0.1.6-1.17.jar"
+hash-format = "murmur2"
+hash = "2546517739"
+
+[update]
+[update.curseforge]
+file-id = 3490244
+project-id = 510974
