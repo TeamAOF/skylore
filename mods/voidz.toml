@@ -3,11 +3,11 @@ filename = "voidz-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3396/945/voidz-1.0.5.jar"
+url = "https://edge.forgecdn.net/files/3543/534/voidz-1.0.5.jar"
 hash-format = "murmur2"
-hash = "2144483080"
+hash = "2075589551"
 
 [update]
 [update.curseforge]
-file-id = 3396945
+file-id = 3543534
 project-id = 486971

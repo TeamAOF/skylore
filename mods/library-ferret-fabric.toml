@@ -1,0 +1,13 @@
+name = "Library Ferret - Fabric"
+filename = "LibraryFerret-Fabric-1.18.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3597/889/LibraryFerret-Fabric-1.18.1-1.0.3.jar"
+hash-format = "murmur2"
+hash = "351875582"
+
+[update]
+[update.curseforge]
+file-id = 3597889
+project-id = 532730

@@ -1,0 +1,13 @@
+name = "Mystical Index"
+filename = "mystical_index-1.18.1-0.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3630/906/mystical_index-1.18.1-0.0.7.jar"
+hash-format = "murmur2"
+hash = "1095320512"
+
+[update]
+[update.curseforge]
+file-id = 3630906
+project-id = 567009

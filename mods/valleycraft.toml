@@ -1,13 +1,13 @@
 name = "ValleyCraft"
-filename = "valley-craft-1.3.2.jar"
+filename = "valley-craft-2.2.1-1.18.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3483/710/valley-craft-1.3.2.jar"
+url = "https://edge.forgecdn.net/files/3625/265/valley-craft-2.2.1-1.18.1.jar"
 hash-format = "murmur2"
-hash = "47293862"
+hash = "4111476645"
 
 [update]
 [update.curseforge]
-file-id = 3483710
+file-id = 3625265
 project-id = 527942

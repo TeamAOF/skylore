@@ -1,0 +1,96 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				item = true
+				stray = true
+				chest_minecart = true
+				skeleton = true
+				rabbit = true
+				zombie = true
+				witch = true
+				glow_item_frame = false
+				drowned = true
+				parrot = true
+				spider = true
+				creeper = true
+				player = true
+				enderman = true
+
+			[light_sources.settings.entities.terrarianslimes]
+				green_slime = true
+
+			[light_sources.settings.entities.bewitchment]
+				owl = true
+
+			[light_sources.settings.entities.mythicmounts]
+				geckotoalizard = true
+
+			[light_sources.settings.entities.promenade]
+				duck = true
+
+			[light_sources.settings.entities.earthtojavamobs]
+				umbra_cow = true
+				jolly_llama = true
+				gold_crested_chicken = true
+				stormy_chicken = true
+				muddy_pig = true
+				pinto_cow = true
+				flecked_sheep = true
+				sooty_pig = true
+				pale_pig = true
+
+			[light_sources.settings.entities.adventurez]
+				amethyst_golem = true
+
+			[light_sources.settings.entities.wildlife]
+				snail = true
+				rhino_beetle = true
+				spicebush_butterfly = true
+				possum = true
+				ladybug = true
+				cottonbird = true
+				hermitcrab = true
+				king_snake = true
+				staghorn_beetle = true
+				glasswing_butterfly = true
+				sparrow = true
+				porcupine = true
+				lark = true
+				tiger_butterfly = true
+				phoebe = true
+				june_beetle = true
+				ant = true
+				stickbug = true
+				monarch_butterfly = true
+				grass_snake = true
+				towhee = true
+				sunflowerbeetle = true
+				badger = true
+				chickadee = true
+				goldfinch = true
+				hedgehog = true
+				cricket = true
+				ferret = true
+				meadowlark = true
+				crab = true
+

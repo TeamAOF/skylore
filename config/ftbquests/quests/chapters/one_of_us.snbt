@@ -1,0 +1,19 @@
+{
+	id: "7ADFE8CF9BD5CC68"
+	group: "23B3C5F6AB1A7000"
+	order_index: 0
+	filename: "one_of_us"
+	title: "John the woken"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -3.0d
+		y: -1.0d
+		id: "0128EEA13D9207FC"
+		tasks: [{
+			id: "442ED96516128ABC"
+			type: "checkmark"
+			title: "test"
+		}]
+	}]
+}

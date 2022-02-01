@@ -1,0 +1,10 @@
+{
+  "powers": [
+"botanist:farm"
+  ],
+  "icon": "minecraft:stone",
+  "name": "Botanist",
+  "description": "plants man",
+  "order": 8,
+  "impact": 2
+}

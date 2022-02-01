@@ -1,0 +1,13 @@
+name = "[Fabric/Forge] Market Crates 1.16/1.17/1.18"
+filename = "marketcrates-fabric-1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3564/781/marketcrates-fabric-1.4.1.jar"
+hash-format = "murmur2"
+hash = "1229324032"
+
+[update]
+[update.curseforge]
+file-id = 3564781
+project-id = 443591

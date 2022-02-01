@@ -1,13 +1,13 @@
 name = "Mobs Attempt Parkour"
-filename = "mobs-attempt-parkour-0.2.3-1.17-pre1.jar"
+filename = "mobs-attempt-parkour-0.2.4-1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3343/282/mobs-attempt-parkour-0.2.3-1.17-pre1.jar"
+url = "https://edge.forgecdn.net/files/3544/680/mobs-attempt-parkour-0.2.4-1.18.jar"
 hash-format = "murmur2"
-hash = "634671533"
+hash = "1901170046"
 
 [update]
 [update.curseforge]
-file-id = 3343282
+file-id = 3544680
 project-id = 391812

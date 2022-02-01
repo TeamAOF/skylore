@@ -1,13 +1,13 @@
 name = "Data Attributes"
-filename = "dataattributes-1.0.6-1.17.1.jar"
+filename = "dataattributes-1.1.4-1.18.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3484/768/dataattributes-1.0.6-1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3624/177/dataattributes-1.1.4-1.18.1.jar"
 hash-format = "murmur2"
-hash = "3831123539"
+hash = "1815196198"
 
 [update]
 [update.curseforge]
-file-id = 3484768
+file-id = 3624177
 project-id = 514734

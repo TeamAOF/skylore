@@ -1,13 +1,13 @@
 name = "Clear Skies"
-filename = "clear-skies-mc117-1.5.70.jar"
+filename = "clear-skies-fabric-mc118-2.0.88.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3399/879/clear-skies-mc117-1.5.70.jar"
+url = "https://edge.forgecdn.net/files/3565/213/clear-skies-fabric-mc118-2.0.88.jar"
 hash-format = "murmur2"
-hash = "871592578"
+hash = "106121401"
 
 [update]
 [update.curseforge]
-file-id = 3399879
+file-id = 3565213
 project-id = 332523

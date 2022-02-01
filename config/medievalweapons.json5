@@ -1,0 +1,7 @@
+{
+	// Only for double handed weapons
+	"auto_switch": false,
+	"weapon_blocking_cooldown": 60,
+	// 20 ticks = 1 second
+	"shield_blocking_cooldown": 40
+}

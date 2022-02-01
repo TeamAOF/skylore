@@ -1,0 +1,13 @@
+name = "Lankaster's Origins"
+filename = "lank.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3595/744/lank.jar"
+hash-format = "murmur2"
+hash = "4079272698"
+
+[update]
+[update.curseforge]
+file-id = 3595744
+project-id = 534461

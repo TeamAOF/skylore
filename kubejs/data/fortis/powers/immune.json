@@ -1,0 +1,19 @@
+{
+  "name": "§eImmune",
+  "description": "You are immune to any virus, on wake any virus you have will be removed.",
+  "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+		"command": "setinfectionprogress @p 0"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.chicken.egg",
+		"pitch": "4"
+      }
+    ]
+  }
+}

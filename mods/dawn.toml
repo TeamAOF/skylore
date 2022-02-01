@@ -1,13 +1,13 @@
 name = "Dawn API"
-filename = "dawn-2.0.6.jar"
+filename = "dawn-3.2.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3438/648/dawn-2.0.6.jar"
+url = "https://edge.forgecdn.net/files/3575/28/dawn-3.2.0.jar"
 hash-format = "murmur2"
-hash = "276235526"
+hash = "1261846344"
 
 [update]
 [update.curseforge]
-file-id = 3438648
+file-id = 3575028
 project-id = 399309

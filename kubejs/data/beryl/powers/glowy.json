@@ -1,0 +1,9 @@
+{
+    "name": "§eGlow Skin",
+    "description": "Crystals tend to glow",
+    "type": "origins:self_glow",
+    "use_teams": false,
+    "red": 0.56862745098,
+    "green": 0.0,
+    "blue": 0.65098039215
+}

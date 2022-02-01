@@ -1,0 +1,10 @@
+{
+  "powers": [
+
+  ],
+  "icon": "minecraft:stone",
+  "name": "Engineer",
+  "description": "Machines are your thing",
+  "order": 9,
+  "impact": 3
+}

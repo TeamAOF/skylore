@@ -1,13 +1,13 @@
 name = "Skylore"
-author = "Team Aof"
-version = "Alpha4"
+author = "TeamAOF"
+version = "0.0.6"
 pack-format = "packwiz:1.0.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4809dd9b6d2a8fcef7f4d34d8563f285ca28bf8f70af6292fa27a5da7ec0b795"
+hash = "3fc5a55de75a22d69d7acc165ad777731881e64f992b8937d7472bc797e74691"
 
 [versions]
-fabric = "0.12.3"
-minecraft = "1.17.1"
+fabric = "0.12.12"
+minecraft = "1.18.1"

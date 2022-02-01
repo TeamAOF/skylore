@@ -1,0 +1,18 @@
+{
+  "client": {
+    "disableColoredCableRecipesInJEI": true,
+    "enableEffects": true,
+    "useTerminalUseLargeFont": false,
+    "useColoredCraftingStatus": true,
+    "__comment": "Show a preview of part and facade placement",
+    "PowerUnit": "ae",
+    "showDebugGuiOverlays": false,
+    "showPlacementPreview": true
+  },
+  "terminals": {
+    "__comment": "Should tooltips be searched. Performance impact",
+    "searchTooltips": "yes",
+    "terminalStyle": "tall",
+    "terminalSearchMode": "default"
+  }
+}

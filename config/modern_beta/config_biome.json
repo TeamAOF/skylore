@@ -1,0 +1,120 @@
+{
+  "biomeType": "beta",
+  "generateOceans": true,
+  "singleBiome": "modern_beta:alpha",
+  "vanillaLargeBiomes": false,
+  "betaClimates": {
+    "tundra": {
+      "biome": "modern_beta:beta_tundra",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "swampland": {
+      "biome": "modern_beta:beta_swampland",
+      "oceanBiome": "modern_beta:beta_cold_ocean",
+      "deepOceanBiome": "modern_beta:beta_cold_ocean"
+    },
+    "desert": {
+      "biome": "modern_beta:beta_desert",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "taiga": {
+      "biome": "modern_beta:beta_taiga",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "seasonal_forest": {
+      "biome": "modern_beta:beta_seasonal_forest",
+      "oceanBiome": "modern_beta:beta_lukewarm_ocean",
+      "deepOceanBiome": "modern_beta:beta_lukewarm_ocean"
+    },
+    "shrubland": {
+      "biome": "modern_beta:beta_shrubland",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "savanna": {
+      "biome": "modern_beta:beta_savanna",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "plains": {
+      "biome": "modern_beta:beta_plains",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    },
+    "ice_desert": {
+      "biome": "modern_beta:beta_tundra",
+      "oceanBiome": "modern_beta:beta_frozen_ocean",
+      "deepOceanBiome": "modern_beta:beta_frozen_ocean"
+    },
+    "rainforest": {
+      "biome": "modern_beta:beta_rainforest",
+      "oceanBiome": "modern_beta:beta_warm_ocean",
+      "deepOceanBiome": "modern_beta:beta_warm_ocean"
+    },
+    "forest": {
+      "biome": "modern_beta:beta_forest",
+      "oceanBiome": "modern_beta:beta_ocean",
+      "deepOceanBiome": "modern_beta:beta_ocean"
+    }
+  },
+  "peClimates": {
+    "tundra": {
+      "biome": "modern_beta:pe_tundra",
+      "oceanBiome": "modern_beta:pe_frozen_ocean",
+      "deepOceanBiome": "modern_beta:pe_frozen_ocean"
+    },
+    "swampland": {
+      "biome": "modern_beta:pe_swampland",
+      "oceanBiome": "modern_beta:pe_cold_ocean",
+      "deepOceanBiome": "modern_beta:pe_cold_ocean"
+    },
+    "desert": {
+      "biome": "modern_beta:pe_desert",
+      "oceanBiome": "modern_beta:pe_ocean",
+      "deepOceanBiome": "modern_beta:pe_ocean"
+    },
+    "taiga": {
+      "biome": "modern_beta:pe_taiga",
+      "oceanBiome": "modern_beta:pe_frozen_ocean",
+      "deepOceanBiome": "modern_beta:pe_frozen_ocean"
+    },
+    "seasonal_forest": {
+      "biome": "modern_beta:pe_seasonal_forest",
+      "oceanBiome": "modern_beta:pe_lukewarm_ocean",
+      "deepOceanBiome": "modern_beta:pe_lukewarm_ocean"
+    },
+    "shrubland": {
+      "biome": "modern_beta:pe_shrubland",
+      "oceanBiome": "modern_beta:pe_ocean",
+      "deepOceanBiome": "modern_beta:pe_ocean"
+    },
+    "savanna": {
+      "biome": "modern_beta:pe_savanna",
+      "oceanBiome": "modern_beta:pe_ocean",
+      "deepOceanBiome": "modern_beta:pe_ocean"
+    },
+    "plains": {
+      "biome": "modern_beta:pe_plains",
+      "oceanBiome": "modern_beta:pe_ocean",
+      "deepOceanBiome": "modern_beta:pe_ocean"
+    },
+    "ice_desert": {
+      "biome": "modern_beta:pe_tundra",
+      "oceanBiome": "modern_beta:pe_frozen_ocean",
+      "deepOceanBiome": "modern_beta:pe_frozen_ocean"
+    },
+    "rainforest": {
+      "biome": "modern_beta:pe_rainforest",
+      "oceanBiome": "modern_beta:pe_warm_ocean",
+      "deepOceanBiome": "modern_beta:pe_warm_ocean"
+    },
+    "forest": {
+      "biome": "modern_beta:pe_forest",
+      "oceanBiome": "modern_beta:pe_ocean",
+      "deepOceanBiome": "modern_beta:pe_ocean"
+    }
+  }
+}

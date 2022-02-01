@@ -1,0 +1,13 @@
+name = "Forgiving Void (Fabric Edition)"
+filename = "forgivingvoid-fabric-1.18.1-6.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3606/212/forgivingvoid-fabric-1.18.1-6.0.1.jar"
+hash-format = "murmur2"
+hash = "2212691841"
+
+[update]
+[update.curseforge]
+file-id = 3606212
+project-id = 547687

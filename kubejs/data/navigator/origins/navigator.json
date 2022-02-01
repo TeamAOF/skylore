@@ -1,0 +1,10 @@
+{
+  "powers": [
+
+  ],
+  "icon": "minecraft:map",
+  "name": "Navigator",
+  "description": "Navigation is your game. Although finding Atmos was not possible, your skills still got us close enough to crash land here.",
+  "order": 4,
+  "impact": 1
+}

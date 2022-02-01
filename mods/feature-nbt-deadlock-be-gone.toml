@@ -1,0 +1,13 @@
+name = "Feature NBT Deadlock Be Gone"
+filename = "feature_nbt_deadlock_be_gone_fabric-1.0.1+1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3618/462/feature_nbt_deadlock_be_gone_fabric-1.0.1+1.18.1.jar"
+hash-format = "murmur2"
+hash = "2676508700"
+
+[update]
+[update.curseforge]
+file-id = 3618462
+project-id = 560323

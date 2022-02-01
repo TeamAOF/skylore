@@ -1,0 +1,13 @@
+name = "Observed"
+filename = "observed-1.2.3-1.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3570/878/observed-1.2.3-1.18.jar"
+hash-format = "murmur2"
+hash = "1276770715"
+
+[update]
+[update.curseforge]
+file-id = 3570878
+project-id = 534540

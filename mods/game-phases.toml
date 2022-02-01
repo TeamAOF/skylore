@@ -1,0 +1,13 @@
+name = "Game Phases"
+filename = "game-phases-1.2.2-1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3625/75/game-phases-1.2.2-1.18.1.jar"
+hash-format = "murmur2"
+hash = "505621110"
+
+[update]
+[update.curseforge]
+file-id = 3625075
+project-id = 472839

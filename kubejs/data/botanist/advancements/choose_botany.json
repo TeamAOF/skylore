@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Steve\"}"
+        },
+        "title": "Botanist",
+        "description": "You chose the Botanist profession.",
+        "announce_to_chat": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "chose_enoki": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "botanist:botanist"
+            }
+        }
+    }
+}

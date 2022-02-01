@@ -1,0 +1,13 @@
+name = "Besmirchment 2"
+filename = "besmirchment-1.18-6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3602/249/besmirchment-1.18-6.jar"
+hash-format = "murmur2"
+hash = "3409534449"
+
+[update]
+[update.curseforge]
+file-id = 3602249
+project-id = 542196

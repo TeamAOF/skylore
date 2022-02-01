@@ -1,0 +1,38 @@
+{
+  "caveBiomeType": "single",
+  "singleBiome": "minecraft:lush_caves",
+  "horizontalNoiseScale": 32,
+  "verticalNoiseScale": 16,
+  "voronoiPoints": [
+    {
+      "biome": "minecraft:the_void",
+      "temp": 0.0,
+      "rain": 0.5,
+      "nullBiome": true
+    },
+    {
+      "biome": "minecraft:lush_caves",
+      "temp": 0.1,
+      "rain": 0.5,
+      "nullBiome": false
+    },
+    {
+      "biome": "minecraft:the_void",
+      "temp": 0.5,
+      "rain": 0.5,
+      "nullBiome": true
+    },
+    {
+      "biome": "minecraft:dripstone_caves",
+      "temp": 0.9,
+      "rain": 0.5,
+      "nullBiome": false
+    },
+    {
+      "biome": "minecraft:the_void",
+      "temp": 1.0,
+      "rain": 0.5,
+      "nullBiome": true
+    }
+  ]
+}

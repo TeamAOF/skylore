@@ -1,0 +1,13 @@
+name = "Mossier Deepslate [Fabric]"
+filename = "mossier-deepslate-1.18-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3553/158/mossier-deepslate-1.18-1.0.0.jar"
+hash-format = "murmur2"
+hash = "2635412591"
+
+[update]
+[update.curseforge]
+file-id = 3553158
+project-id = 528100

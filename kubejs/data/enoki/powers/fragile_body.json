@@ -1,0 +1,14 @@
+{
+    "name": "§eFragile Body",
+    "description": "You body is made of sensitive mycelium. Your health is lower than normal.",
+    "type": "apoli:attribute",
+    "modifiers": [
+      {
+          "name": "Mycelium Body",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "addition",
+          "value": -4
+      }
+    ]
+  
+  }

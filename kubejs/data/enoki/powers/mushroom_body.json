@@ -1,0 +1,7 @@
+{
+    "name": "§eMushroom Body",
+    "description": "Your body emits spores",
+      "type": "origins:particle",
+      "particle": "minecraft:mycelium",
+      "frequency": 5
+  }

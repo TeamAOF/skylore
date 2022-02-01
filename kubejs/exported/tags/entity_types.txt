@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 27, 2021, 7:55:55 PM
+To refresh this file, delete it and run /reload command again! Last updated: Dec 7, 2021, 11:27:28 PM
 
 #c:skeletons
 - earthtojavamobs:skeleton_wolf
@@ -13,61 +13,57 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:polar_bear
 - minecraft:snow_golem
 - minecraft:wither
+- adventurez:summoner
 - promenade:duck
 
-#waila:blacklist
-- minecraft:experience_orb
-- minecraft:area_effect_cloud
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
 
-#eldritch_mobs:always_eldritch
-
-#eldritch_mobs:always_ultra
-
-#minecraft:impact_projectiles
-- #minecraft:arrows
-- minecraft:snowball
-- minecraft:fireball
-- minecraft:small_fireball
-- minecraft:egg
-- minecraft:trident
-- minecraft:dragon_fireball
-- minecraft:wither_skull
-
-#minecraft:beehive_inhabitors
-- minecraft:bee
-
-#minecraft:skeletons
-- minecraft:skeleton
-- minecraft:stray
-- minecraft:wither_skeleton
-- earthtojavamobs:skeleton_wolf
-
-#requiem:inventory/item_users
-- ratsmischief:rat
-
-#minecraft:arrows
-- minecraft:arrow
-- minecraft:spectral_arrow
-
-#requiem:inventory/inventory_carriers
-- ratsmischief:rat
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+- minecraft:glow_squid
 
 #rpgz:excluded_entities
 
-#requiem:behavior/regular_eaters
-- ratsmischief:rat
+#moborigins:guardians
+- minecraft:guardian
+- minecraft:elder_guardian
 
-#minecraft:freeze_hurts_extra_types
-- minecraft:strider
-- minecraft:blaze
-- minecraft:magma_cube
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
 
-#eldritch_mobs:always_elite
+#c:bosses
+- botania:doppleganger
 
-#eldritch_mobs:eldritch_blacklist
-
-#requiem:inventory/armor_users
-- ratsmischief:rat
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
 
 #c:raiders
 - earthtojavamobs:viler_witch
@@ -80,6 +76,78 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:illusioner
 - minecraft:witch
 - earthtojavamobs:viler_witch
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#eldritch_mobs:always_eldritch
+
+#moborigins:illagers
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:vex
+
+#eldritch_mobs:always_ultra
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- adventurez:void_bullet
+- adventurez:fire_breath
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- adventurez:summoner
+- earthtojavamobs:skeleton_wolf
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+- adventurez:stone_golem
+- adventurez:small_stone_golem
+
+#eldritch_mobs:always_elite
+
+#eldritch_mobs:eldritch_blacklist
 
 #eldritch_mobs:eldritch_allowed
 - minecraft:zombie
@@ -127,18 +195,3 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:phantom
 - minecraft:zombie_villager
 - minecraft:axolotl
-- ratsmischief:rat
-
-#minecraft:powder_snow_walkable_mobs
-- minecraft:rabbit
-- minecraft:endermite
-- minecraft:silverfish
-- minecraft:fox
-
-#minecraft:axolotl_hunt_targets
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:salmon
-- minecraft:cod
-- minecraft:squid
-- minecraft:glow_squid

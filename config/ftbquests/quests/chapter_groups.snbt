@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "4E03E5FEAE87C266", title: "Orders" }
+		{ id: "23B3C5F6AB1A7000", title: "Entities of interest" }
+		{ id: "21CA116C1B930190", title: "Church of Beryl" }
+	]
+}

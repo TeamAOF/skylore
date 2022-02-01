@@ -1,13 +1,13 @@
 name = "Mo' Structures (Fabric)"
-filename = "mostructures-1.3.0-pre1-1.17.1-fabric.jar"
+filename = "mostructures-1.3.0-pre1-1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3409/84/mostructures-1.3.0-pre1-1.17.1-fabric.jar"
+url = "https://edge.forgecdn.net/files/3567/77/mostructures-1.3.0-pre1-1.18.jar"
 hash-format = "murmur2"
-hash = "561788602"
+hash = "210598563"
 
 [update]
 [update.curseforge]
-file-id = 3409084
+file-id = 3567077
 project-id = 378266

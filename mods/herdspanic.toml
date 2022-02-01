@@ -1,0 +1,13 @@
+name = "HerdsPanic"
+filename = "herdspanic-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3595/863/herdspanic-1.0.4.jar"
+hash-format = "murmur2"
+hash = "1164907951"
+
+[update]
+[update.curseforge]
+file-id = 3595863
+project-id = 429383

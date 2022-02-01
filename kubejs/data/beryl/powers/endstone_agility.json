@@ -1,0 +1,42 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 5,
+    "duration_per_stack": 20,
+    "effects": [
+        {
+            "effect": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true,
+            "amplifier": 1
+        },
+        {
+            "effect": "minecraft:jump_boost",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true,
+            "amplifier": 1
+        },
+        {
+            "effect": "minecraft:strength",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true,
+            "amplifier": 1
+        }
+    ],
+    "condition": {
+        "type": "apoli:block_in_radius",
+        "block_condition": {
+          "type": "origins:block",
+          "block": "minecraft:end_stone"
+        },
+        "radius": "3",
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 3
+      },
+    "name": "§eDragon Cultist",
+    "description": "You get regeneration, strength and jump boost near end stone since you have devoted your life to the earth spirit."
+}

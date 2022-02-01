@@ -1,13 +1,13 @@
 name = "Consistency+"
-filename = "consistency_plus-0.4.1+1.17.jar"
+filename = "consistency_plus-0.5.0-RC1+1.18.1-fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3510/835/consistency_plus-0.4.1+1.17.jar"
+url = "https://edge.forgecdn.net/files/3608/48/consistency_plus-0.5.0-RC1+1.18.1-fabric.jar"
 hash-format = "murmur2"
-hash = "941139188"
+hash = "3057074217"
 
 [update]
 [update.curseforge]
-file-id = 3510835
+file-id = 3608048
 project-id = 430445

@@ -1,0 +1,13 @@
+name = "BetterF3"
+filename = "BetterF3-1.2.2-Fabric-1.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3551/264/BetterF3-1.2.2-Fabric-1.18.jar"
+hash-format = "murmur2"
+hash = "719155932"
+
+[update]
+[update.curseforge]
+file-id = 3551264
+project-id = 401648

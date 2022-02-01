@@ -1,13 +1,13 @@
 name = "Modern Beta [Fabric]"
-filename = "modern-beta-fabric-2.7+1.17.1.jar"
+filename = "modern-beta-fabric-3.0.3+1.18.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3501/683/modern-beta-fabric-2.7+1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3592/180/modern-beta-fabric-3.0.3+1.18.1.jar"
 hash-format = "murmur2"
-hash = "1929069347"
+hash = "1243797143"
 
 [update]
 [update.curseforge]
-file-id = 3501683
+file-id = 3592180
 project-id = 410423

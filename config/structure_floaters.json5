@@ -6,14 +6,14 @@
 	/*  Attempts to remove any structure being place at the bottom of the world.
 	    Best for floating island terrain
 	*/
-	"removeStructuresOffIslands": true,
+	"removeStructuresOffIslands": false,
 	/*  Attempts to remove the pillars from nether fortress and desert temples and the likes.
 	    Best for floating island terrain
 	*/
 	"removeStructurePillars": true,
 	/*  Attempts to move structure to a specific height. Only applies if removeWorldBottomStructures is false.
 	*/
-	"snapStructureToHeight": 60,
+	"snapStructureToHeight": 50,
 	/*  structures to ignore modifying the height of
 	*/
 	"structureToIgnore": "minecraft:stronghold,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument",

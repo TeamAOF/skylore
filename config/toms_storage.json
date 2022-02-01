@@ -1,0 +1,8 @@
+{
+  "onlyTrims": false,
+  "invRange": 16,
+  "wirelessRange": 16,
+  "invConnectorMaxCables": 2048,
+  "multiblockInv": [],
+  "advWirelessRange": 64
+}

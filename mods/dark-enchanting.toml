@@ -1,13 +1,13 @@
 name = "Dark Enchanting"
-filename = "dark-enchanting-0.5.0-1.17.1.jar"
+filename = "dark-enchanting-0.6.3+1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3450/228/dark-enchanting-0.5.0-1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3580/315/dark-enchanting-0.6.3+1.18.jar"
 hash-format = "murmur2"
-hash = "3876270801"
+hash = "2292305260"
 
 [update]
 [update.curseforge]
-file-id = 3450228
+file-id = 3580315
 project-id = 473553

@@ -1,0 +1,13 @@
+name = "Croptopia's Chocolaterie"
+filename = "croptopia-chocolaterie-0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3579/956/croptopia-chocolaterie-0.5.jar"
+hash-format = "murmur2"
+hash = "3712874228"
+
+[update]
+[update.curseforge]
+file-id = 3579956
+project-id = 560262

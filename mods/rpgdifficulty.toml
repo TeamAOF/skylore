@@ -1,13 +1,13 @@
 name = "RpgDifficulty"
-filename = "rpgdifficulty-1.0.7.jar"
+filename = "rpgdifficulty-1.0.9.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3399/668/rpgdifficulty-1.0.7.jar"
+url = "https://edge.forgecdn.net/files/3615/881/rpgdifficulty-1.0.9.jar"
 hash-format = "murmur2"
-hash = "2931158310"
+hash = "358937921"
 
 [update]
 [update.curseforge]
-file-id = 3399668
+file-id = 3615881
 project-id = 480786

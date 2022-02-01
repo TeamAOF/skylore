@@ -1,13 +1,13 @@
 name = "Pehkui"
-filename = "Pehkui-2.5.3+1.14.4-1.18.jar"
+filename = "Pehkui-3.1.0+1.14.4-1.18.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3501/603/Pehkui-2.5.3+1.14.4-1.18.jar"
+url = "https://edge.forgecdn.net/files/3577/68/Pehkui-3.1.0+1.14.4-1.18.1.jar"
 hash-format = "murmur2"
-hash = "2800763895"
+hash = "3400382429"
 
 [update]
 [update.curseforge]
-file-id = 3501603
+file-id = 3577068
 project-id = 319596

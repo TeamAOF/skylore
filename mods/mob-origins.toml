@@ -1,0 +1,13 @@
+name = "Mob Origins"
+filename = "moborigins-1.8.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3542/968/moborigins-1.8.0.jar"
+hash-format = "murmur2"
+hash = "2217683579"
+
+[update]
+[update.curseforge]
+file-id = 3542968
+project-id = 449974

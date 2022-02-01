@@ -3,8 +3,7 @@
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
 		"idleHealingPerTick": 0.20000000298023224,
-		"health": 200.0,
-		"generateLichTower": true,
+		"health": 300.0,
 		"missile": {
 			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 100,
@@ -34,10 +33,15 @@
 				"minecraft:zombified_piglin"
 			],
 			"numEntitiesKilledToDropSoulStar": 50
+		},
+		"towerGeneration": {
+			"generateLichTower": true,
+			"lichTowerGenerationSpacing": 100,
+			"lichTowerGenerationSeparation": 50
 		}
 	},
 	"obsidilithConfig": {
-		"health": 200.0,
+		"health": 300.0,
 		"armor": 14.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
@@ -46,8 +50,8 @@
 		"anvilAttackExplosionStrength": 4.0,
 		"arenaGeneration": {
 			"generationHeight": 90,
-			"generationSpacing": 512,
-			"generationSeparation": 128,
+			"generationSpacing": 64,
+			"generationSeparation": 32,
 			"generationEnabled": true
 		}
 	},
@@ -61,20 +65,20 @@
 		"energizedPunchExplosionSize": 4.5,
 		"normalPunchExplosionMultiplier": 1.5,
 		"arenaGeneration": {
-			"generationSpacing": 128,
-			"generationSeparation": 64,
+			"generationSpacing": 32,
+			"generationSeparation": 16,
 			"generationEnabled": true
 		}
 	},
 	"voidBlossomConfig": {
-		"health": 300.0,
+		"health": 350.0,
 		"armor": 4.0,
 		"attack": 12.0,
 		"idleHealingPerTick": 0.5,
 		"experienceDrop": 1000,
 		"arenaGeneration": {
-			"generationSpacing": 128,
-			"generationSeparation": 64,
+			"generationSpacing": 64,
+			"generationSeparation": 24,
 			"generationEnabled": true
 		}
 	}

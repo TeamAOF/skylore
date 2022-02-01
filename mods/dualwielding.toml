@@ -1,0 +1,13 @@
+name = "DualWielding"
+filename = "dualwielding-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3543/501/dualwielding-1.0.7.jar"
+hash-format = "murmur2"
+hash = "542921960"
+
+[update]
+[update.curseforge]
+file-id = 3543501
+project-id = 480911

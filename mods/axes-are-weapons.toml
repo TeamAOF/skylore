@@ -1,13 +1,13 @@
 name = "Axes Are Weapons (Fabric/Forge)"
-filename = "AxesAreWeapons-1.3-1.17.jar"
+filename = "AxesAreWeapons-1.5.1-fabric-1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3384/705/AxesAreWeapons-1.3-1.17.jar"
+url = "https://edge.forgecdn.net/files/3522/488/AxesAreWeapons-1.5.1-fabric-1.17.1.jar"
 hash-format = "murmur2"
-hash = "777362754"
+hash = "320619332"
 
 [update]
 [update.curseforge]
-file-id = 3384705
+file-id = 3522488
 project-id = 456457

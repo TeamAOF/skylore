@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:stone",
+  "name": "Captain",
+  "description": "As leader, you may have to make drastic decisions",
+  "order": 9,
+  "impact": 3
+}

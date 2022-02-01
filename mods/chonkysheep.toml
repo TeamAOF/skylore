@@ -1,0 +1,13 @@
+name = "ChonkySheep"
+filename = "chonky_sheep-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3599/625/chonky_sheep-3.0.0.jar"
+hash-format = "murmur2"
+hash = "118323986"
+
+[update]
+[update.curseforge]
+file-id = 3599625
+project-id = 521095

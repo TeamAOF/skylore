@@ -1,0 +1,13 @@
+name = "BackSlotAddon"
+filename = "backslotaddon-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3543/532/backslotaddon-1.0.7.jar"
+hash-format = "murmur2"
+hash = "3481881409"
+
+[update]
+[update.curseforge]
+file-id = 3543532
+project-id = 411621

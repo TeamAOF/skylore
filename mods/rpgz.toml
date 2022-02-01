@@ -1,13 +1,13 @@
 name = "RpgZ"
-filename = "rpgz-0.4.10.jar"
+filename = "rpgz-0.4.11.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3485/513/rpgz-0.4.10.jar"
+url = "https://edge.forgecdn.net/files/3590/931/rpgz-0.4.11.jar"
 hash-format = "murmur2"
-hash = "1479169720"
+hash = "3269896545"
 
 [update]
 [update.curseforge]
-file-id = 3485513
+file-id = 3590931
 project-id = 404828

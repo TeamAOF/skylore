@@ -1,13 +1,13 @@
 name = "Give Me Hats! [FABRIC]"
-filename = "GiveMeHats-1.6.6.jar"
+filename = "GiveMeHats-1.7.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3510/594/GiveMeHats-1.6.6.jar"
+url = "https://edge.forgecdn.net/files/3556/521/GiveMeHats-1.7.5.jar"
 hash-format = "murmur2"
-hash = "3645434260"
+hash = "2819192007"
 
 [update]
 [update.curseforge]
-file-id = 3510594
+file-id = 3556521
 project-id = 384009

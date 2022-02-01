@@ -1,0 +1,84 @@
+{
+  //Cooldown for Ignei Spell usage.
+  "igneiSpellCooldown": 12,
+  //Cooldown for Scintillam Spell usage.
+  "scintillamSpellCooldown": 22,
+  //Cooldown for Cadere Spell usage.
+  "cadereSpellCooldown": 35,
+  //Cooldown for Glacies Spell usage.
+  "glaciesSpellCooldown": 40,
+  //Cooldown for Tractabile Spell usage.
+  "tractabileSpellCooldown": 3,
+  //Cooldown for Cibus Spell usage.
+  "cibusSpellCooldown": 160,
+  //Cooldown for Fertilis Spell usage.
+  "fertilisSpellCooldown": 170,
+  //Duration of Parasitus Glyph's effects.
+  "parasitusGlyphEffectTime": 7,
+  //Duration of Cadere Spell's effects.
+  "cadereSpellEffectTime": 12,
+  //Duration of Glacies Spell's effects.
+  "glaciesSpellEffectTime": 10,
+  //Hunger satiated by Cibus Spell. 1 = half drumstick.
+  "cibusSpellHungerModifier": 9,
+  //Saturation given by Cibus Spell.
+  "cibusSpellSaturationModifier": 0.8,
+  //Utilis Pickaxe's haste effect duration in seconds.
+  "utilisPickaxeEffectDuration": 4,
+  //Utilis Pickaxe's haste effect strength. 0 = I, 1 = II, etc.
+  "utilisPickaxeEffectStrength": 2,
+  //Morbus Scythe's wither effect duration in seconds.
+  "morbusScytheEffectDuration": 8,
+  //Morbus Scythe's wither effect strength. 0 = I, 1 = II, etc.
+  "morbusScytheEffectStrength": 0,
+  //Magical Fungi Armor's Durability Multiplier. Changing this value on worlds where you already have Magical Fungi Armor is NOT recommended.
+  "magicalFungiArmorDurabilityMultiplier": 45,
+  //Magical Fungi Armor's toughness. Armor Toughness defines how much damage is absorbed by the armor.
+  "magicalFungiArmorToughness": 3.5,
+  //Magical Fungi Armor's knockback resistance. Greater values are not recommended, as they may result in no knockback whatsoever.
+  "magicalFungiKnockBackResistance": 0.15,
+  //Whether Impetus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateImpetusMushrooms": true,
+  //Whether Clypeus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateClypeusMushrooms": true,
+  //Whether Impetus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateUtilisMushrooms": true,
+  //Whether Vivifica Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateVivificaMushrooms": true,
+  //Whether Morbus Mushrooms are generated naturally. This will not impact previously generated chunks.
+  "canGenerateMorbusMushrooms": true,
+  //Impetus Mushrooms' spawn ratio at normal circumstances.
+  "impetusRegularSpawnRatio": 12,
+  //Impetus Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "impetusBiomeEnhancedSpawnRatio": 28,
+  //Clypeus Mushrooms' spawn ratio at normal circumstances.
+  "clypeusRegularSpawnRatio": 12,
+  //Clypeus Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "clypeusBiomeEnhancedSpawnRatio": 28,
+  //Utilis Mushrooms' spawn ratio at normal circumstances.
+  "utilisRegularSpawnRatio": 12,
+  //Utilis Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "utilisBiomeEnhancedSpawnRatio": 28,
+  //Vivifica Mushrooms' spawn ratio at normal circumstances.
+  "vivificaRegularSpawnRatio": 12,
+  //Vivifica Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
+  "vivificaBiomeEnhancedSpawnRatio": 28,
+  //Spawnrate for generation of the Host Biome. Increase if using any biome overhaul-styled mods, as otherwise the biome will be exceedingly rare.
+  "hostBiomeSpawnRate": 2,
+  //Whether Wither Roses will be generated on the Host Biome.
+  "canGenerateWitherRoseHostBiome": true,
+  //How often will Wither Roses generate on the Host Biome.
+  "hostBiomeWitherRoseSpawnRatio": 12,
+  //Whether Host Grass will start spreading towards non-grass blocks after X in-game days.
+  //This only affects the default gamerule value for this setting.
+  //To change this on already generated worlds, use /gamerule doMorbusSpread.
+  //Keep in mind this can be overridden by Morbus corruption items. Check canUseMorbusCorruptionItems for further information.
+  "doMorbusSpread": false,
+  //In-game days until Host Grass blocks start spreading beyond the Host Biome.
+  //This only affects the default gamerule value for this setting.
+  //To change this on already generated worlds, use /gamerule morbusSpreadStartingDay
+  "morbusSpreadStartingDay": 100,
+  //Enables the usage of the Maledictio Glyph and Heart of Morbus.
+  //If you plan to use this mod on a public server, disable this to avoid griefing.
+  "canUseMorbusCorruptionItems": false
+}

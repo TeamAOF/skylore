@@ -1,13 +1,13 @@
 name = "Spice of Fabric (Fabric)"
-filename = "spiceoffabric-1.4.1+1.17.1.jar"
+filename = "spiceoffabric-1.4.1+1.18-pre5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3446/153/spiceoffabric-1.4.1+1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3531/978/spiceoffabric-1.4.1+1.18-pre5.jar"
 hash-format = "murmur2"
-hash = "4131754699"
+hash = "3686889206"
 
 [update]
 [update.curseforge]
-file-id = 3446153
+file-id = 3531978
 project-id = 318416

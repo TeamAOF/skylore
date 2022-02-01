@@ -3,11 +3,11 @@ filename = "medievalweapons-1.1.7.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3460/407/medievalweapons-1.1.7.jar"
+url = "https://edge.forgecdn.net/files/3543/525/medievalweapons-1.1.7.jar"
 hash-format = "murmur2"
-hash = "4254422331"
+hash = "3044634639"
 
 [update]
 [update.curseforge]
-file-id = 3460407
+file-id = 3543525
 project-id = 411400

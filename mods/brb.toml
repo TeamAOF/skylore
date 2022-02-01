@@ -1,13 +1,13 @@
-name = "Better Recipe Book"
-filename = "better-recipe-book-1.5.4-1.17.jar"
+name = "Better Recipe Book (BRB)"
+filename = "brb-Fabric-1.5.6.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3501/936/better-recipe-book-1.5.4-1.17.jar"
+url = "https://edge.forgecdn.net/files/3567/48/brb-Fabric-1.5.6.jar"
 hash-format = "murmur2"
-hash = "2099568466"
+hash = "1928873412"
 
 [update]
 [update.curseforge]
-file-id = 3501936
+file-id = 3567048
 project-id = 486485

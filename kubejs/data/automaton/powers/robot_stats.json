@@ -1,0 +1,179 @@
+{
+	"type": "origins:multiple",
+	"no_swim":{
+		"type": "origins:ignore_water"
+	},
+    "prevent_elytra_exploit": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:trident"
+                    }
+                },
+                {
+                    "type": "origins:enchantment",
+                    "enchantment": "minecraft:riptide",
+                    "comparison": ">=",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "condition":{
+            "type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:equipped_item",
+					"equipment_slot": "chest",
+					"item_condition": {
+						"type": "origins:ingredient",
+						"ingredient": {
+							"item": "minecraft:elytra"
+						}
+					}
+				},
+				{
+					"type": "origins:in_rain",
+					"inverted":true
+				}
+			]
+        }
+    },
+	"10_percent_1":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:blindness",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": "<",
+			"compare_to": 3600
+		}
+	},
+	"10_percent_2":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:mining_fatigue",
+			"is_ambient": true,
+			"amplifier": 1,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": "<",
+			"compare_to": 3600
+		}
+	},
+	"10_percent_3":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:slowness",
+			"is_ambient": true,
+			"amplifier": 1,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": "<",
+			"compare_to": 3600
+		}
+	},
+	"20_percent_1":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:mining_fatigue",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": "<",
+			"compare_to": 7200
+		}
+	},
+	"20_percent_2":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:slowness",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": "<",
+			"compare_to": 7200
+		}
+	},
+	"80_percent_1":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:haste",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": ">",
+			"compare_to": 28800
+		}
+	},
+	"80_percent_2":{
+		"type": "origins:stacking_status_effect",
+		"min_stacks": 0,
+		"max_stacks": 5,
+		"duration_per_stack": 20,
+		"effect":{
+			"effect": "minecraft:speed",
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": ">",
+			"compare_to": 28800
+		}
+	},
+    "name": "§eHeavy Metal",
+    "description": "You swim 40% slower in water."
+}

@@ -1,13 +1,13 @@
 name = "Trinkets (Fabric)"
-filename = "trinkets-3.0.4.jar"
+filename = "trinkets-3.2.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3446/940/trinkets-3.0.4.jar"
+url = "https://edge.forgecdn.net/files/3629/559/trinkets-3.2.0.jar"
 hash-format = "murmur2"
-hash = "3125244973"
+hash = "5469540"
 
 [update]
 [update.curseforge]
-file-id = 3446940
+file-id = 3629559
 project-id = 341284

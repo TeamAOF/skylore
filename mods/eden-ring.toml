@@ -1,0 +1,13 @@
+name = "Eden Ring"
+filename = "eden-ring-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3616/8/eden-ring-0.2.2.jar"
+hash-format = "murmur2"
+hash = "3413979094"
+
+[update]
+[update.curseforge]
+file-id = 3616008
+project-id = 546590

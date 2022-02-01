@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Steve\"}"
+        },
+        "title": "I am Beryl!",
+        "description": "You chose the Beryl origin.",
+        "announce_to_chat": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "chose_beryl": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "beryl:beryl"
+            }
+        }
+    }
+}

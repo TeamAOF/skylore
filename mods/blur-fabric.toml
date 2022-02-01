@@ -1,13 +1,13 @@
 name = "Blur (Fabric)"
-filename = "blur-2.4.0.jar"
+filename = "blur-2.4.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3510/590/blur-2.4.0.jar"
+url = "https://edge.forgecdn.net/files/3548/709/blur-2.4.1.jar"
 hash-format = "murmur2"
-hash = "3326430759"
+hash = "3253100404"
 
 [update]
 [update.curseforge]
-file-id = 3510590
+file-id = 3548709
 project-id = 393563

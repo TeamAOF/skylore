@@ -1,0 +1,10 @@
+{
+	"enableLooting": true,
+	"enableKnockback": false,
+	"enableFireAspect": false,
+	"enableModded": false,
+	"enableForEnchantingTable": true,
+	"enableDamageInEnchantingTable": true,
+	"allowSilkTouchWithLooting": true,
+	"allToolsAreWeapons": false
+}

@@ -1,13 +1,13 @@
 name = "Erroring Entity Remover"
-filename = "Erroring-Entity-Remover-1.0.1+1.17.1.jar"
+filename = "Erroring-Entity-Remover-1.0.2+1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3424/895/Erroring-Entity-Remover-1.0.1+1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3544/111/Erroring-Entity-Remover-1.0.2+1.18.jar"
 hash-format = "murmur2"
-hash = "821143055"
+hash = "3645034562"
 
 [update]
 [update.curseforge]
-file-id = 3424895
+file-id = 3544111
 project-id = 412568

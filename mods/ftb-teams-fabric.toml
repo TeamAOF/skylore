@@ -1,0 +1,13 @@
+name = "FTB Teams (Fabric)"
+filename = "ftb-teams-fabric-1801.2.4-build.46.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3596/306/ftb-teams-fabric-1801.2.4-build.46.jar"
+hash-format = "murmur2"
+hash = "3714271656"
+
+[update]
+[update.curseforge]
+file-id = 3596306
+project-id = 438497

@@ -1,0 +1,10 @@
+{
+  "powers": [
+
+  ],
+  "icon": "minecraft:stone",
+  "name": "Pilot",
+  "description": "You crash landed us here.. but you are an expert at flying crafts.",
+  "order": 7,
+  "impact": 1
+}

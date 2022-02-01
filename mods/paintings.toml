@@ -1,0 +1,13 @@
+name = "Paintings ++"
+filename = "Paintings-fabric-1.18.1-9.1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3604/673/Paintings-fabric-1.18.1-9.1.0.0.jar"
+hash-format = "murmur2"
+hash = "3112688182"
+
+[update]
+[update.curseforge]
+file-id = 3604673
+project-id = 252042

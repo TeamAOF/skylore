@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_chestplate",
+	"minecraft:diamond_chestplate",
+	"indrev:silver_chestplate"
+  ]
+}

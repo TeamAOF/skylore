@@ -1,0 +1,35 @@
+{
+    "name": "§eOmni Stomach",
+    "description": "Using mycelium powers can consume anything. This can only be used while sneaking.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:equipped_item_action",
+                "equipment_slot": "mainhand",
+                "action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                }
+            },
+            {
+                
+                    "type": "origins:feed",
+                    "food": 4,
+                    "saturation": 2
+            }
+        ]
+    },
+    "condition":{
+        "type": "origins:sneaking"
+    },
+    "cooldown": 60,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": true
+    }
+}

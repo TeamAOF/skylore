@@ -1,0 +1,11 @@
+{
+    "name": "§eHigh Energy",
+    "description": "Crystal based bodies exhaust quicker",
+    "type": "origins:exhaust",
+    "interval": 20,
+    "exhaustion": 0.812,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:phantomize"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "name": "§eCharge Block",
+    "description": "Start with 1 redstone block to help charge yourself",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "minecraft:redstone_block",
+            "amount": 1
+        }
+    ]
+}

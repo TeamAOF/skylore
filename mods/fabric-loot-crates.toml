@@ -1,13 +1,13 @@
 name = "Modular Loot Crates and Bundles"
-filename = "lootcrates-2.1.1.jar"
+filename = "ModularLootcrates-2.7.0-1.18.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3506/482/lootcrates-2.1.1.jar"
+url = "https://edge.forgecdn.net/files/3595/836/ModularLootcrates-2.7.0-1.18.1.jar"
 hash-format = "murmur2"
-hash = "1062722083"
+hash = "1051515306"
 
 [update]
 [update.curseforge]
-file-id = 3506482
+file-id = 3595836
 project-id = 445787

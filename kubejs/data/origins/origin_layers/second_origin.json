@@ -1,0 +1,13 @@
+{
+    "order": 2,
+    "origins": [
+        "botanist:botanist",
+		"pilot:pilot",
+        "navigator:navigator",
+        "engineer:engineer",
+        "captain:captain"
+    ],
+    "name": "Profession",
+    "missing_name": "None",
+    "missing_description": "You currently don't have a profession selected."
+}

@@ -1,0 +1,13 @@
+name = "Grizzly bear Mod"
+filename = "grizzlybear-1.18-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3591/106/grizzlybear-1.18-1.2.2.jar"
+hash-format = "murmur2"
+hash = "854578876"
+
+[update]
+[update.curseforge]
+file-id = 3591106
+project-id = 494751

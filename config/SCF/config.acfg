@@ -1,0 +1,36 @@
+#cobblestone funnel tier (default 1)
+cobble-tier=1
+#cobblestone funnel speed (default 60)
+cobble-speed=60
+#copper funnel tier (default 2)
+copper-tier=2
+#copper funnel speed (default 60)
+copper-speed=60
+#tin funnel tier (default 2)
+tin-tier=2
+#tin funnel speed (default 60)
+tin-speed=60
+#bronze funnel tier (default 3)
+bronze-tier=3
+#bronze funnel speed (default 50)
+bronze-speed=50
+#silver funnel tier (default 4)
+silver-tier=4
+#silver funnel speed (default 60)
+silver-speed=60
+#iron funnel ore tier (default 4)
+iron-tier=4
+#iron funnel speed (default 50)
+iron-speed=50
+#gold funnel ore tier (default 5)
+gold-tier=5
+#gold funnel speed (default 40)
+gold-speed=40
+#diamond funnel ore tier (default 6)
+diamond-tier=6
+#diamond funnel speed (default 40)
+diamond-speed=40
+#netherite funnel ore tier (default 7)
+netherite-tier=7
+#netherite funnel speed (default 20)
+netherite-speed=20

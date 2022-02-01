@@ -1,0 +1,9 @@
+{
+    "name": "§eCrystal Aura",
+    "description": "Your crystal aura causes you to be purple and transparent",
+    "type": "origins:model_color",
+    "red": 0.9,
+    "blue": 0.8,
+    "green": 0.0,
+    "alpha": 0.7
+  }

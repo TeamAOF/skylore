@@ -1,0 +1,9 @@
+{
+  "name": "§eFanatic Capitalist",
+  "description": "You are highly motivated to gain wealth, no matter the cost.",
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+      "operation": "multiply_base",
+      "value": 1.5
+  }
+}

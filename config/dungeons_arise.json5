@@ -6,9 +6,9 @@
 	*/
 	"banditTowersGenerates": true,
 	// Base distance between Bandit Towers (in chunks). Must be higher than separation.
-	"banditTowersSpacing": 128,
+	"banditTowersSpacing": 45,
 	// Base distance between Bandit Towers (in chunks)
-	"banditTowersSeparation": 64,
+	"banditTowersSeparation": 35,
 	// Number of Jigsaw iterations when generating a structure
 	"banditTowersSize": 50,
 	/* 
@@ -30,9 +30,9 @@
 	*/
 	"illagerCorsairGenerates": true,
 	// Base distance between Illager Corsair (in chunks). Must be higher than separation.
-	"illagerCorsairSpacing": 128,
+	"illagerCorsairSpacing": 64,
 	// Base distance between Illager Corsair (in chunks)
-	"illagerCorsairSeparation": 96,
+	"illagerCorsairSeparation": 48,
 	// Number of Jigsaw iterations when generating a structure
 	"illagerCorsairSize": 10,
 	/* 
@@ -42,9 +42,9 @@
 	*/
 	"illagerGalleyGenerates": true,
 	// Base distance between Illager Galley (in chunks). Must be higher than separation.
-	"illagerGalleySpacing": 100,
+	"illagerGalleySpacing": 50,
 	// Base distance between Illager Galley (in chunks)
-	"illagerGalleySeparation": 60,
+	"illagerGalleySeparation": 30,
 	// Number of Jigsaw iterations when generating a structure
 	"illagerGalleySize": 10,
 	/* 
@@ -54,11 +54,11 @@
 	*/
 	"typhonGenerates": true,
 	// Base distance between Typhon (in chunks). Must be higher than separation.
-	"typhonSpacing": 120,
+	"typhonSpacing": 60,
 	// Base distance between Typhon (in chunks)
-	"typhonSeparation": 100,
+	"typhonSeparation": 50,
 	// Number of Jigsaw iterations when generating a structure
-	"typhonSize": 15,
+	"typhonSize": 10,
 	/* 
 	   
 	   [Undead Pirate Ships Spawning Settings]
@@ -66,9 +66,9 @@
 	*/
 	"undeadPirateShipGenerates": true,
 	// Base distance between Undead Pirate Ships (in chunks). Must be higher than separation.
-	"undeadPirateShipSpacing": 120,
+	"undeadPirateShipSpacing": 60,
 	// Base distance between Undead Pirate Ships (in chunks)
-	"undeadPirateShipSeparation": 80,
+	"undeadPirateShipSeparation": 40,
 	// Number of Jigsaw iterations when generating a structure
 	"undeadPirateShipSize": 10,
 	/* 
@@ -78,11 +78,11 @@
 	*/
 	"illagerCampsiteGenerates": true,
 	// Base distance between Illager Campsite (in chunks). Must be higher than separation.
-	"illagerCampsiteSpacing": 120,
+	"illagerCampsiteSpacing": 60,
 	// Base distance between Illager Campsite (in chunks)
-	"illagerCampsiteSeparation": 32,
+	"illagerCampsiteSeparation": 30,
 	// Number of Jigsaw iterations when generating a structure
-	"illagerCampsiteSize": 15,
+	"illagerCampsiteSize": 10,
 	/* 
 	   
 	   [Merchant Campsite Spawning Settings]
@@ -90,9 +90,9 @@
 	*/
 	"merchantCampsiteGenerates": true,
 	// Base distance between Merchant Campsite (in chunks). Must be higher than separation.
-	"merchantCampsiteSpacing": 120,
+	"merchantCampsiteSpacing": 60,
 	// Base distance between Merchant Campsite (in chunks)
-	"merchantCampsiteSeparation": 80,
+	"merchantCampsiteSeparation": 40,
 	// Number of Jigsaw iterations when generating a structure
 	"merchantCampsiteSize": 10,
 	/* 
@@ -114,7 +114,7 @@
 	*/
 	"shirazPalaceGenerates": true,
 	// Base distance between Shiraz Palaces (in chunks). Must be higher than separation.
-	"shirazPalaceSpacing": 320,
+	"shirazPalaceSpacing": 160,
 	// Base distance between Shiraz Palaces (in chunks)
 	"shirazPalaceSeparation": 140,
 	// Number of Jigsaw iterations when generating a structure
@@ -155,6 +155,18 @@
 	"heavenlyRiderSeparation": 160,
 	// Number of Jigsaw iterations when generating a structure
 	"heavenlyRiderSize": 20,
+	/* 
+	   
+	   [Aviary Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"aviaryGenerates": true,
+	// Base distance between Aviary (in chunks). Must be higher than separation.
+	"aviarySpacing": 200,
+	// Base distance between Aviary (in chunks)
+	"aviarySeparation": 160,
+	// Number of Jigsaw iterations when generating a structure
+	"aviarySize": 20,
 	/* 
 	   
 	   [Lighthouses Spawning Settings]
@@ -359,6 +371,18 @@
 	"wishingWellSeparation": 30,
 	// Number of Jigsaw iterations when generating a structure
 	"wishingWellSize": 10,
+	/* 
+	   
+	   [Illager Windmills Spawning Settings]
+	   Basic configuration options for this structure
+	*/
+	"illagerWindmillGenerates": true,
+	// Base distance between Illager Windmills (in chunks). Must be higher than separation.
+	"illagerWindmillSpacing": 40,
+	// Base distance between Illager Windmills (in chunks)
+	"illagerWindmillSeparation": 30,
+	// Number of Jigsaw iterations when generating a structure
+	"illagerWindmillSize": 5,
 	/* 
 	   
 	   [Foundries Spawning Settings]

@@ -1,0 +1,18 @@
+{
+  "configFixedSeed": {
+    "fixedSeed": "",
+    "useFixedSeed": false
+  },
+  "configBiomeColor": {
+    "renderBetaSkyColor": true,
+    "renderBetaBiomeColor": true,
+    "renderPEBetaSkyColor": false,
+    "renderPEBetaBiomeColor": false,
+    "renderOldFogColor": true
+  },
+  "configOther": {
+    "renderAlphaSunset": false,
+    "renderGameVersion": false,
+    "cloudHeight": 192
+  }
+}

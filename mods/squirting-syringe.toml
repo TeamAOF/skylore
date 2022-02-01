@@ -1,0 +1,13 @@
+name = "Squirting syringe"
+filename = "squirting-syringe-0.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3607/600/squirting-syringe-0.6.jar"
+hash-format = "murmur2"
+hash = "2947946936"
+
+[update]
+[update.curseforge]
+file-id = 3607600
+project-id = 566397

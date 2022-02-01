@@ -1,0 +1,13 @@
+name = "MoreAchievements [Fabric]"
+filename = "MoreAchievements-1.18.1-1.0.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3629/381/MoreAchievements-1.18.1-1.0.6.jar"
+hash-format = "murmur2"
+hash = "3804346612"
+
+[update]
+[update.curseforge]
+file-id = 3629381
+project-id = 560975

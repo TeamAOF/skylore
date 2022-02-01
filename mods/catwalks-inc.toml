@@ -1,0 +1,13 @@
+name = "Catwalks Inc."
+filename = "catwalks-inc-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3602/69/catwalks-inc-1.2.0.jar"
+hash-format = "murmur2"
+hash = "948755625"
+
+[update]
+[update.curseforge]
+file-id = 3602069
+project-id = 554340

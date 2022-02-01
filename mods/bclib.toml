@@ -1,13 +1,13 @@
 name = "BCLib"
-filename = "bclib-0.3.1.jar"
+filename = "bclib-1.2.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3423/841/bclib-0.3.1.jar"
+url = "https://edge.forgecdn.net/files/3613/664/bclib-1.2.5.jar"
 hash-format = "murmur2"
-hash = "697788042"
+hash = "297994372"
 
 [update]
 [update.curseforge]
-file-id = 3423841
+file-id = 3613664
 project-id = 495191

@@ -1,13 +1,13 @@
 name = "Super Cobblestone Funnels"
-filename = "SuperCobblestoneFunnels-2.1.0.jar"
+filename = "SCF118-2.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3392/144/SuperCobblestoneFunnels-2.1.0.jar"
+url = "https://edge.forgecdn.net/files/3600/340/SCF118-2.5.jar"
 hash-format = "murmur2"
-hash = "4262351129"
+hash = "2797180765"
 
 [update]
 [update.curseforge]
-file-id = 3392144
+file-id = 3600340
 project-id = 398438

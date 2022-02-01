@@ -1,0 +1,13 @@
+name = "Decorative Blocks"
+filename = "Decorative Blocks-fabric-1.18.1-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3613/618/Decorative Blocks-fabric-1.18.1-2.0.4.jar"
+hash-format = "murmur2"
+hash = "472647950"
+
+[update]
+[update.curseforge]
+file-id = 3613618
+project-id = 362528

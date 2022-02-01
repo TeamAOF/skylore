@@ -1,0 +1,285 @@
+{
+	id: "291CBB145586E36B"
+	group: ""
+	order_index: 0
+	filename: "research"
+	title: "Research"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -13.0d
+			y: -8.5d
+			id: "792E251FDC745C15"
+			tasks: [{
+				id: "482291D37CC4D1A8"
+				type: "checkmark"
+				title: "Biology"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			id: "66DFD6103753F3A3"
+			tasks: [{
+				id: "3E956716236DA49E"
+				type: "checkmark"
+				title: "Society"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			id: "1A7D2C8EFBD125BE"
+			tasks: [{
+				id: "306FFA1E4E132673"
+				type: "checkmark"
+				title: "Geography"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -8.5d
+			subtitle: "Kill a possible infection vector. Gain more research."
+			description: [
+				"Further research has found that the parasite continues to infect certain creatures and species."
+				""
+				"It appears that the blossoms are not an infection vector."
+				""
+				"But a defense mechanism."
+				""
+				"It is still unclear as to the infection vector for this parasite."
+			]
+			dependencies: [
+				"4B934E9C2965B48A"
+				"792E251FDC745C15"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "70FC8B98B4646307"
+			tasks: [{
+				id: "724F84F9B6E2D4AD"
+				type: "kill"
+				title: "Void blossom"
+				icon: "bosses_of_mass_destruction:void_blossom"
+				entity: "bosses_of_mass_destruction:void_blossom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3FC5C7E6AD54C540"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			title: "Possible second infection vector."
+			x: -13.0d
+			y: -9.5d
+			subtitle: "Night lich haunts your dreams."
+			description: ["Another possible vector seems to not be the source of the parasite."]
+			dependencies: ["70FC8B98B4646307"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7D41408673F5AE18"
+			tasks: [{
+				id: "0CCB3BEE814AC138"
+				type: "kill"
+				entity: "bosses_of_mass_destruction:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "480B43780D060E13"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			dependencies: ["66DFD6103753F3A3"]
+			id: "7861A7612BDEC11A"
+			tasks: [{
+				id: "53EAF9B954603C20"
+				type: "stat"
+				title: "Initiate contact"
+				stat: "minecraft:talked_to_villager"
+				value: 1
+			}]
+			rewards: [{
+				id: "69FA2A8066E3A6FA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -2.0d
+			y: -8.5d
+			subtitle: "Integrate into their economy."
+			dependencies: ["7861A7612BDEC11A"]
+			id: "4A74EB7C09698336"
+			tasks: [{
+				id: "0E8B77DAE3F3B706"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 5L
+			}]
+			rewards: [{
+				id: "1C5534EE6EB5374B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			title: "[Tenebris] Evaluate the local's military."
+			x: -4.0d
+			y: -9.5d
+			description: [
+				"Murder one villager of each profession with a crossbow. "
+				""
+				"To figure out thier military strength."
+			]
+			dependencies: ["66DFD6103753F3A3"]
+			id: "79384B161416E6DF"
+			tasks: [
+				{
+					id: "562EC36023CF427A"
+					type: "advancement"
+					advancement: "moreachievements:iamapillager"
+					criterion: ""
+				}
+				{
+					id: "391E81599FF1FAC8"
+					type: "advancement"
+					advancement: "tenebris:choose_tenebris"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "4A3B91F5F9898A2C"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			title: "[Enoki] Assist the villagers by creating a golem"
+			icon: "spectrum:iron_golem_head"
+			x: -3.0d
+			y: -9.5d
+			dependencies: ["7861A7612BDEC11A"]
+			id: "54BBE9FF3D3B14A0"
+			tasks: [
+				{
+					id: "33C2CCFE2974701A"
+					type: "advancement"
+					advancement: "minecraft:adventure/summon_iron_golem"
+					criterion: ""
+				}
+				{
+					id: "01775C61C1DF45B2"
+					type: "advancement"
+					advancement: "enoki:choose_enoki"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "560645A57046E329"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Possible third infection vector"
+			x: -14.0d
+			y: -10.0d
+			subtitle: "Maybe the guardian is the source."
+			dependencies: ["7D41408673F5AE18"]
+			hide: true
+			id: "2C91B4B1C72572C9"
+			tasks: [{
+				id: "6A30143F49882810"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "20C125CBBBE515A7"
+				type: "xp_levels"
+				xp_levels: 25
+			}]
+		}
+		{
+			x: -13.0d
+			y: -7.5d
+			dependencies: ["792E251FDC745C15"]
+			id: "7A257673F0769053"
+			tasks: [{
+				id: "75F9284EB048E1EA"
+				type: "advancement"
+				title: "Research human biological technology"
+				advancement: "botania:main/functional_flower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "18AA7B326EB6DA5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "[Tenebris] Summon a deathcap mushroom."
+			x: -4.0d
+			y: -10.5d
+			subtitle: "Summon a death cap mushroom"
+			dependencies: ["79384B161416E6DF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7CAC43106E439B00"
+			tasks: [{
+				id: "43EA69AFFD2A2805"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "1F2C21B8E60D4FA2"
+				type: "item"
+				item: {
+					id: "mcdar:death_cap_mushroom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			subtitle: "Enchant an item"
+			dependencies: ["66DFD6103753F3A3"]
+			id: "13BF4C1D61159AEC"
+			tasks: [{
+				id: "3DFA0D2746C2328C"
+				type: "advancement"
+				title: "Gain some knowledge"
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2E603E2A91E9C9B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			id: "0C0AA4394EF8EAFD"
+			tasks: [{
+				id: "27CBDBCF1B528F52"
+				type: "checkmark"
+				title: "Geology"
+			}]
+		}
+	]
+}

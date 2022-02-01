@@ -1,0 +1,13 @@
+name = "PlayerEx"
+filename = "playerex-3.1.3-1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3628/179/playerex-3.1.3-1.18.1.jar"
+hash-format = "murmur2"
+hash = "1249372466"
+
+[update]
+[update.curseforge]
+file-id = 3628179
+project-id = 409221

@@ -1,0 +1,13 @@
+name = "No Null Processors"
+filename = "no_null_processors_fabric-2.0.1+1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3570/785/no_null_processors_fabric-2.0.1+1.18.1.jar"
+hash-format = "murmur2"
+hash = "3792169616"
+
+[update]
+[update.curseforge]
+file-id = 3570785
+project-id = 546841

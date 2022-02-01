@@ -1,0 +1,13 @@
+name = "Spectrum"
+filename = "spectrum-1.2.8-1.18.1-midgame9.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3631/776/spectrum-1.2.8-1.18.1-midgame9.jar"
+hash-format = "murmur2"
+hash = "764319865"
+
+[update]
+[update.curseforge]
+file-id = 3631776
+project-id = 556967

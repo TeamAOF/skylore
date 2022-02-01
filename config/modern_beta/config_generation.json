@@ -1,0 +1,22 @@
+{
+  "worldType": "beta",
+  "generateOceanShrines": true,
+  "generateMonuments": false,
+  "sampleClimate": true,
+  "generateDeepslate": true,
+  "generateInfdevPyramid": true,
+  "generateInfdevWall": true,
+  "levelWidth": 256,
+  "levelLength": 256,
+  "levelHeight": 128,
+  "caveRadius": 1.0,
+  "levelType": "island",
+  "levelTheme": "normal",
+  "generateOuterIslands": true,
+  "centerIslandRadius": 16,
+  "centerIslandFalloff": 4.0,
+  "centerOceanLerpDistance": 16,
+  "centerOceanRadius": 64,
+  "outerIslandNoiseScale": 300.0,
+  "outerIslandNoiseOffset": 0.25
+}

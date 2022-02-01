@@ -1,0 +1,10 @@
+{
+  "powers": [
+
+  ],
+  "icon": "minecraft:amethyst_shard",
+  "name": "Tenebris",
+  "description": "Little is known about the Tenebris, it is hypothesized that they were once a space traveling species that somehow had their atoms phased into another plane of existence while still maintaining sentience in this plane.",
+  "order": 7,
+  "impact": 2
+}

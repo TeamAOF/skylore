@@ -1,13 +1,13 @@
 name = "Cammie's Wearable Backpacks"
-filename = "camsbackpacks-1.6.jar"
+filename = "camsbackpacks-2.8.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3507/889/camsbackpacks-1.6.jar"
+url = "https://edge.forgecdn.net/files/3625/69/camsbackpacks-2.8.jar"
 hash-format = "murmur2"
-hash = "1650760063"
+hash = "3740424122"
 
 [update]
 [update.curseforge]
-file-id = 3507889
+file-id = 3625069
 project-id = 443091

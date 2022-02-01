@@ -1,0 +1,10 @@
+{
+	id: "364759AAC536766B"
+	group: "21CA116C1B930190"
+	order_index: 1
+	filename: "destroy_all_marketing"
+	title: "Destroy all marketing"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

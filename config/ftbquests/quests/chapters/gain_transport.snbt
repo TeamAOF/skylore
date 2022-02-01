@@ -1,0 +1,20 @@
+{
+	id: "7C50EF0C95CC3F59"
+	group: "4E03E5FEAE87C266"
+	order_index: 1
+	filename: "gain_transport"
+	title: "Gain transport"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -3.0d
+		y: -1.0d
+		dependencies: ["02A79F5D650CCDD5"]
+		id: "7CAF18E42C777A5F"
+		tasks: [{
+			id: "4C0C9A96AC448AB9"
+			type: "checkmark"
+			title: "Complete \"Gather Resources\" First"
+		}]
+	}]
+}

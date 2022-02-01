@@ -1,0 +1,13 @@
+name = "Spoorn Weapon Attributes"
+filename = "spoornweaponattributes-2.3.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3629/974/spoornweaponattributes-2.3.jar"
+hash-format = "murmur2"
+hash = "3138697520"
+
+[update]
+[update.curseforge]
+file-id = 3629974
+project-id = 573200
