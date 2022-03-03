@@ -1,7 +1,8 @@
 {
   "powers": [
+  "captain:ops_panel"
   ],
-  "icon": "minecraft:stone",
+  "icon": "artis:ops_panel",
   "name": "Captain",
   "description": "As leader, you may have to make drastic decisions",
   "order": 9,

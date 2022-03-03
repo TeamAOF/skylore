@@ -1,0 +1,557 @@
+{
+	id: "7B1C7AEFA21B9390"
+	group: "4E03E5FEAE87C266"
+	order_index: 1
+	filename: "primary_orders"
+	title: "Primary Orders"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			description: [
+				"Your team has crash landed searching for the legendary Atmos."
+				""
+				"Follow protocol to ensure survival as well as continue the mission."
+				""
+			]
+			id: "08B4B8CB9C702E65"
+			tasks: [{
+				id: "4EAC8F3C62D4B66A"
+				type: "checkmark"
+				title: "Initiate \"Crash Land\" Protocol #87"
+			}]
+		}
+		{
+			title: "Gain Intel"
+			x: -3.0d
+			y: 0.0d
+			id: "09C625183CF91D8A"
+			tasks: [{
+				id: "2713A99981C26166"
+				type: "xp"
+				value: 3L
+				points: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			id: "6D44F724C0011D66"
+			tasks: [{
+				id: "6FA4176102B51A0F"
+				type: "checkmark"
+				title: "Transportation unlock"
+			}]
+		}
+		{
+			title: "Gather Materials"
+			x: -3.0d
+			y: 1.5d
+			id: "4A07C620CA066160"
+			tasks: [{
+				id: "72A493AA7C2B4DA0"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 64L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			id: "541A2009ECC98FFC"
+			tasks: [{
+				id: "5B013D135EEFDED1"
+				type: "checkmark"
+				title: "Explore general magic"
+			}]
+		}
+		{
+			title: "Basic Jetpacks"
+			x: -6.0d
+			y: 1.0d
+			id: "1501E95A3A1D2F34"
+			tasks: [{
+				id: "712652F6F62E2BC0"
+				type: "item"
+				item: {
+					id: "iron-jetpacks:stone_jetpack"
+					Count: 1b
+					tag: {
+						energy: 100000.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			id: "13AB826F84E9E36A"
+			tasks: [{
+				id: "7DB3F5BF12393198"
+				type: "item"
+				item: {
+					id: "artifality:harvest_staff"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			id: "72411C5C178405AF"
+			tasks: [{
+				id: "757A105ADC1D26DF"
+				type: "checkmark"
+				title: "Initiate Research"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			id: "726206FA01CDDA42"
+			tasks: [{
+				id: "54FD6A6059E8C410"
+				type: "checkmark"
+				title: "Investigate Possible Parasite"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			id: "7A384C40B6682B56"
+			tasks: [{
+				id: "40EBB010B95D6749"
+				type: "kill"
+				title: "Kill infected"
+				entity: "immortuoscalyx:infectedhuman"
+				value: 10L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			id: "2DFC2CDC3A0B4C17"
+			tasks: [{
+				id: "286E99F0F793E7FF"
+				type: "item"
+				item: "immortuoscalyx:healthscanner"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			id: "225A51F9B13EC7EF"
+			tasks: [{
+				id: "4F04BB295AF7695B"
+				type: "item"
+				item: "immortuoscalyx:infection_scanner"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			id: "41D5379E50B9BDFC"
+			tasks: [{
+				id: "655DDB3FC651E3FA"
+				type: "stat"
+				title: "Maintain food supply"
+				stat: "minecraft:animals_bred"
+				value: 10
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			dependencies: ["7861A7612BDEC11A"]
+			id: "6DCBE736DE81B6FB"
+			tasks: [{
+				id: "5A8DD0F1DF6AC484"
+				type: "checkmark"
+				title: "Initiate Contact"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			id: "3268EE991B33DCDA"
+			tasks: [{
+				id: "61955C1799CC962C"
+				type: "checkmark"
+				title: "Automate Resources"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			id: "6A3514C71B6FD668"
+			tasks: [{
+				id: "74C121ABD9C0A3E4"
+				type: "checkmark"
+				title: "Explore your culture"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			id: "2F2C01DDD8B7F11D"
+			tasks: [{
+				id: "1B77DCF2B0EC24ED"
+				type: "checkmark"
+				title: "Make your space better"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			id: "05A0095F120AD6AB"
+			tasks: [{
+				id: "41EEC86134AD2F04"
+				type: "item"
+				item: "croptopia:taco"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			id: "36BD044D61B1948F"
+			tasks: [{
+				id: "1D8146DEFE116F38"
+				type: "item"
+				item: "tacocraft:golden_taco"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			id: "49A1E02F4BF37C5B"
+			tasks: [{
+				id: "6737F6720DBF5DB8"
+				type: "checkmark"
+				title: "review resources"
+			}]
+		}
+		{
+			title: "Advanced jetpacks"
+			x: -4.0d
+			y: 9.5d
+			id: "6563F24CA39A39A5"
+			tasks: [{
+				id: "041825E181C2D2D4"
+				type: "item"
+				item: {
+					id: "iron-jetpacks:gold_jetpack"
+					Count: 1b
+					tag: {
+						energy: 1.0E7d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.5d
+			id: "56AE4DB007BD8EF0"
+			tasks: [{
+				id: "279F19AC371D2FE7"
+				type: "checkmark"
+				title: "Divert Resources"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "4B30630B05B7BC8D"
+			tasks: [{
+				id: "2E9460A7931C7089"
+				type: "item"
+				item: "scf:cobblestone_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "51EB0B640717D66D"
+			tasks: [{
+				id: "299506C5C66A3DEA"
+				type: "item"
+				item: "scf:copper_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "590249CA153125F6"
+			tasks: [{
+				id: "1DFE30A674F4B536"
+				type: "item"
+				item: "scf:bronze_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			id: "72E05AA8C23E28BE"
+			tasks: [{
+				id: "136E61FF305AC754"
+				type: "item"
+				item: "scf:iron_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			id: "1EA9E45E86EE3797"
+			tasks: [{
+				id: "4D94FEF862D181BD"
+				type: "item"
+				item: "scf:gold_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			id: "5B6C1D0F1A7819CB"
+			tasks: [{
+				id: "371A182532031D63"
+				type: "item"
+				item: "scf:diamond_funnel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			id: "1AA6F9B41C2C08A8"
+			tasks: [{
+				id: "79A281B0E19597CD"
+				type: "item"
+				item: "scf:netherite_funnel"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "799D458783DC18C2"
+			tasks: [{
+				id: "43A1A9D65F1F3A86"
+				type: "item"
+				item: "adorn:stone_torch"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			id: "2DDE97BB7AA74D9A"
+			tasks: [{
+				id: "6E321D6AF32E4B48"
+				type: "item"
+				item: {
+					id: "campanion:sleeping_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "19F2179B9A506D07"
+			tasks: [{
+				id: "71DCED5CA67554ED"
+				type: "item"
+				item: "croptopia:spaghetti_squash"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			id: "60F504A67F080C94"
+			tasks: [{
+				id: "4B54FE5E497D1E0E"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			id: "62032377ED0ED628"
+			tasks: [{
+				id: "21FE4C701D3C9A40"
+				type: "item"
+				item: {
+					id: "medievalweapons:iron_long_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			id: "12EAC7FB4D1379F5"
+			tasks: [{
+				id: "4C00787C2AE5AA68"
+				type: "item"
+				item: {
+					id: "minecraft:iron_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			id: "20D7F4E5F121AC57"
+			tasks: [{
+				id: "7AA5F269D340CBD5"
+				type: "biome"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "1F86B18197C93B2D"
+			tasks: [{
+				id: "34A7C81E8970E2E6"
+				type: "item"
+				item: {
+					id: "mythicmetals:adamantite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			id: "1B6B1A789AED03CB"
+			tasks: [{
+				id: "22BDB3DD942A54AC"
+				type: "item"
+				item: {
+					id: "spectrum:bedrock_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			id: "25595A045543F485"
+			tasks: [{
+				id: "30457508D887FAC0"
+				type: "advancement"
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			id: "1C7EDB2A7B24BA84"
+			tasks: [{
+				id: "1B5E606C9E3F4BE2"
+				type: "checkmark"
+				title: "Traitors afoot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			id: "03D571A6ADED43F9"
+			tasks: [{
+				id: "387839AA0D9FD224"
+				type: "checkmark"
+				title: "Asses land"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			id: "5879347524C399A9"
+			tasks: [{
+				id: "3CF6CE39CAB77C6D"
+				type: "checkmark"
+				title: "Found em"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			id: "17055A6AEA6844E5"
+			tasks: [{
+				id: "05AC396E8FE14921"
+				type: "item"
+				item: {
+					id: "arcanus:initiate_wand"
+					Count: 1b
+					tag: {
+						arcanus: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			id: "538E120540CE9748"
+			tasks: [{
+				id: "48DA1A53EBAFDAD4"
+				type: "checkmark"
+				title: "Asses Threats"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			id: "562F78CD8DA15F6A"
+			tasks: [{
+				id: "7714DA3DBC0118B4"
+				type: "checkmark"
+				title: "Locate Hermit"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			id: "455DCAEAE76FED7B"
+			tasks: [{
+				id: "31AD30632C14B00B"
+				type: "checkmark"
+				title: "Build Defense"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 9.0d
+			id: "3AEC891F4AED93A5"
+			tasks: [{
+				id: "45379792DA7A7465"
+				type: "checkmark"
+				title: "seek knowledge"
+			}]
+		}
+	]
+}

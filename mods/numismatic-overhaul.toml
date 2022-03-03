@@ -1,13 +1,13 @@
 name = "Numismatic Overhaul"
-filename = "numismatic-overhaul-0.1.6+1.18.jar"
+filename = "numismatic-overhaul-0.1.8+1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3623/651/numismatic-overhaul-0.1.6+1.18.jar"
+url = "https://edge.forgecdn.net/files/3639/383/numismatic-overhaul-0.1.8+1.18.jar"
 hash-format = "murmur2"
-hash = "3402195577"
+hash = "1250455796"
 
 [update]
 [update.curseforge]
-file-id = 3623651
+file-id = 3639383
 project-id = 568316

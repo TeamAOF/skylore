@@ -1,0 +1,24 @@
+{
+   "type": "artis:botanist_bench_shaped",
+   "pattern": [
+     "###",
+	 "#*#",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:grass_block"
+     },
+	 "*": {
+	    "item": "minecraft:glow_berries"
+	 }
+   },
+   "result": {
+     "item": "mcdar:enchanted_grass",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "harvest_scythes:diamond_scythe"
+   },
+   "cost": 1561
+}

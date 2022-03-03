@@ -1,4 +1,5 @@
 {
+  "disableAttributesGui": false,
   "resetOnDeath": false,
   "showLevelNameplates": true,
   "skillPointsPerLevelUp": 1,

@@ -1,0 +1,34 @@
+{
+	id: "0812496B1D13CA49"
+	group: ""
+	order_index: 0
+	filename: "mim"
+	title: "MIM"
+	icon: "observed:observereye"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 16.5d
+		y: -3.5d
+		description: [
+			"Company behind Modern Industrialization machines is “Meta Industries”."
+			""
+			"Due to their claims of a new life, their hiring campaign was one of the most successful after creating a VR drone game that allowed 5 year olds to mine asteroids for \"coins\" this was further brought into the the real world when they convinced the world through misinformation that \"coin\" culture was the future."
+			""
+			"This convinced the galaxy, along with genetic modification, was the future and every citizen was implanted with a connection to the “Meta Industries Market” or MIM. Albeit this implant can track your location to the nearest millimeter, strict galactic law prohibits MI from sharing this information except to the drones that drop the supplies."
+		]
+		id: "4F4F36A8F18CAE0A"
+		tasks: [{
+			id: "724F15998BA1EBD1"
+			type: "checkmark"
+			title: "Meta Industries Market"
+		}]
+		rewards: [{
+			id: "75F87F55D0036321"
+			type: "custom"
+			title: "A Galactic Market"
+			icon: "blockus:stars_block"
+			auto: "disabled"
+		}]
+	}]
+}

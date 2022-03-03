@@ -34,7 +34,7 @@
 		// Login via Mojang (or legacy)
 		"mojang": {
 			// Last used username
-			"lastUsername": ""
+			"lastUsername": "dinanj@gmail.com"
 		},
 		// Login Offline
 		"offline": {

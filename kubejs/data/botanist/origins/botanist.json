@@ -1,10 +1,10 @@
 {
-  "powers": [
-"botanist:farm"
+	  "powers": [
+    "botanist:botanist_bench"
   ],
-  "icon": "minecraft:stone",
+  "icon": "artis:botanist_bench",
   "name": "Botanist",
-  "description": "plants man",
+  "description": "As a Botanist your knowledge in plants will help in the exploration of new life.",
   "order": 8,
-  "impact": 2
+  "impact": 1
 }

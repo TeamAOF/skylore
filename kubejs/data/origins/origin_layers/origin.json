@@ -2,11 +2,13 @@
   "replace": true,
   "origins": [
   "indrevian:indrevian",
-	"fortis:fortis",
-	"booster_origins:automaton",
-	"enoki:enoki",
+  "fortis:fortis",
+  "automaton:automaton",
+  "enoki:enoki",
   "beryl:beryl",
   "laevis:laevis",
-	"origins:human"
-  ]
+  "human:human",
+  "tenebris:tenebris"
+  ],
+  "name": "Species"
 }

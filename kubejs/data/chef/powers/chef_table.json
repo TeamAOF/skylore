@@ -1,0 +1,11 @@
+{
+    "name": "§eChef Table",
+    "description": "Start with a Chef Table.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "artis:chef_table",
+            "amount": 1
+        }
+    ]
+}

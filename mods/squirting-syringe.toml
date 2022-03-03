@@ -1,13 +1,13 @@
 name = "Squirting syringe"
-filename = "squirting-syringe-0.6.jar"
+filename = "squirtingsyringe-0.7.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3607/600/squirting-syringe-0.6.jar"
+url = "https://edge.forgecdn.net/files/3635/745/squirtingsyringe-0.7.jar"
 hash-format = "murmur2"
-hash = "2947946936"
+hash = "686219941"
 
 [update]
 [update.curseforge]
-file-id = 3607600
+file-id = 3635745
 project-id = 566397

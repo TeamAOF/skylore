@@ -46,7 +46,7 @@
     },
     "scale": 1.0
   },
-  "formatting": {
+  "formatter": {
     "modName": "§9§o%s",
     "blockName": "§f%s",
     "fluidName": "§f%s",

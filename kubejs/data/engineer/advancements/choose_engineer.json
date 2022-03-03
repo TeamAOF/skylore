@@ -2,8 +2,7 @@
     "parent": "minecraft:story/root",
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"Steve\"}"
+            "item": "artis:tech_bench"
         },
         "title": "I am Engineer",
         "description": "You chose to be an Engineer.",
@@ -12,7 +11,7 @@
         "show_toast": false
     },
     "criteria": {
-        "chose_enoki": {
+        "chose_engineer": {
             "trigger": "origins:chose_origin",
             "conditions": {
                 "origin": "engineer:engineer"

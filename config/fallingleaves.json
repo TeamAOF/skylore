@@ -13,11 +13,19 @@
     "minecraft:the_nether"
   ],
   "leafSettings": {
-    "byg:orange_oak_sapling": {
+    "croptopia:nectarine_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:green_sapling": {
+    "byg:red_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:redwood_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "promenade:pink_cherry_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -33,12 +41,12 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": true
     },
-    "byg:white_cherry_leaves": {
-      "spawnRateFactor": 1.4,
+    "croptopia:lemon_crop": {
+      "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:lime_sapling": {
-      "spawnRateFactor": 1.0,
+    "byg:white_cherry_leaves": {
+      "spawnRateFactor": 1.4,
       "isConiferBlock": false
     },
     "biomemakeover:ancient_oak_leaves": {
@@ -77,23 +85,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:red_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:holly_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "croptopia:date_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:cinnamon_leaves": {
+    "byg:brown_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:purple_sapling": {
+    "croptopia:cinnamon_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -105,23 +105,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:apple_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:orange_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:green_enchanted_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:ether_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:pine_sapling": {
+    "croptopia:walnut_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -133,11 +117,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "byg:yellow_birch_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:fig_crop": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "byg:jacaranda_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:lime_sapling": {
+    "croptopia:lime_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -145,15 +137,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:yellow_sapling": {
+    "promenade:autumn_birch_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "byg:brown_birch_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:brown_birch_sapling": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -165,39 +153,43 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:nutmeg_sapling": {
+    "spectrum:brown_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:araucaria_sapling": {
+    "spectrum:white_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "croptopia:plum_crop": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:indigo_jacaranda_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:yellow_spruce_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
+    },
+    "byg:cypress_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": true
     },
     "byg:blue_spruce_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": true
     },
-    "croptopia:persimmon_sapling": {
+    "croptopia:banana_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:orange_spruce_sapling": {
+    "spectrum:cyan_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:spruce_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "valley:apple_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:banana_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:brown_sapling": {
+    "byg:willow_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -205,35 +197,23 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "spectrum:gray_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "byg:flowering_nightshade_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "promenade:autumn_birch_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:white_cherry_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:witch_hazel_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:pink_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "biomemakeover:blighted_balsa_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:red_sapling": {
+    "biomemakeover:willow_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "croptopia:orange_crop": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:firecracker_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -245,7 +225,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:palo_verde_sapling": {
+    "byg:flowering_indigo_jacaranda_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -253,11 +233,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:fir_sapling": {
+    "croptopia:peach_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:birch_sapling": {
+    "byg:ether_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:mahogany_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -269,6 +253,14 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "promenade:palm_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "spectrum:green_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "spectrum:orange_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
@@ -277,16 +269,16 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:indigo_jacaranda_sapling": {
+    "croptopia:pecan_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "biomemakeover:ancient_oak_sapling": {
+    "spectrum:purple_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:cyan_sapling": {
-      "spawnRateFactor": 1.0,
+    "byg:pink_cherry_leaves": {
+      "spawnRateFactor": 1.4,
       "isConiferBlock": false
     },
     "byg:green_apple_skyris_leaves": {
@@ -305,10 +297,6 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:orchard_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "byg:rainbow_eucalyptus_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
@@ -317,15 +305,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:blue_spruce_sapling": {
+    "byg:ebony_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:avocado_sapling": {
+    "croptopia:dragonfruit_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "biomemakeover:willow_sapling": {
+    "byg:witch_hazel_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -341,426 +329,6 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:black_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:starfruit_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:orchard_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:nutmeg_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "biomemakeover:blighted_balsa_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:gray_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:flowering_azalea_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "blockus:legacy_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:blue_enchanted_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:apricot_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:kumquat_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:autumn_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:ebony_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "bewitchment:cypress_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:coconut_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_spruce_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": true
-    },
-    "promenade:white_cherry_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:birch_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "bewitchment:juniper_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:jacaranda_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:blue_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:cika_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:blue_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:green_enchanted_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:zelkova_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:brown_zelkova_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:kumquat_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:skyris_leaves": {
-      "spawnRateFactor": 1.4,
-      "isConiferBlock": false
-    },
-    "croptopia:walnut_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:pink_cherry_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:azalea_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_birch_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:light_gray_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:apple_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:orange_birch_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "bewitchment:dragons_blood_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:date_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:rainbow_eucalyptus_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:baobab_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:nectarine_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:redwood_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": true
-    },
-    "promenade:pink_cherry_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:azalea": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:lemon_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:cypress_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:willow_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:skyris_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:pear_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:nectarine_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:pecan_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:dragonfruit_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:brown_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:walnut_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:grapefruit_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_maple_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:yellow_birch_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:starfruit_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:fig_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:lime_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:dark_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:autumn_birch_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:mangrove_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:brown_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:white_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:zelkova_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:maple_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:plum_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:lament_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:indigo_jacaranda_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "bewitchment:elder_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:yellow_spruce_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": true
-    },
-    "byg:cypress_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": true
-    },
-    "byg:palm_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:white_cherry_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:banana_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:yellow_birch_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:cyan_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:willow_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:cherry_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:gray_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "biomemakeover:willow_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "minecraft:jungle_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:firecracker_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:plum_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_birch_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:flowering_indigo_jacaranda_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:peach_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:ether_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:light_blue_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:mahogany_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:palm_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:green_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:fig_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:pecan_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:purple_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:cashew_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:pink_cherry_leaves": {
-      "spawnRateFactor": 1.4,
-      "isConiferBlock": false
-    },
-    "byg:ebony_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:dragonfruit_crop": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:witch_hazel_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:pink_cherry_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "byg:withering_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
@@ -773,15 +341,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:nightshade_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:redwood_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "croptopia:persimmon_crop": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:starfruit_crop": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:orchard_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -789,35 +357,23 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "spectrum:magenta_sapling": {
+    "croptopia:nutmeg_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:mango_sapling": {
+    "biomemakeover:blighted_balsa_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:peach_sapling": {
+    "minecraft:flowering_azalea_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:baobab_sapling": {
+    "blockus:legacy_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:flowering_azalea": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "promenade:autumn_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "spectrum:white_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "byg:red_spruce_sapling": {
+    "promenade:autumn_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -833,19 +389,23 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:aspen_sapling": {
+    "byg:red_spruce_leaves": {
       "spawnRateFactor": 1.0,
-      "isConiferBlock": false
+      "isConiferBlock": true
     },
     "minecraft:spruce_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": true
     },
-    "biomemakeover:swamp_cypress_sapling": {
+    "byg:orange_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:orange_oak_leaves": {
+    "promenade:white_cherry_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:birch_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -857,7 +417,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:orange_sapling": {
+    "minecraft:acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -865,11 +425,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "promenade:palm_sapling": {
+    "spectrum:blue_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "byg:flowering_palo_verde_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:green_enchanted_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -885,11 +449,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:withering_oak_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "croptopia:lemon_sapling": {
+    "byg:zelkova_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -905,23 +465,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:mahogany_sapling": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "spectrum:black_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "croptopia:almond_sapling": {
+    "croptopia:kumquat_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:acacia_sapling": {
-      "spawnRateFactor": 1.0,
+    "byg:skyris_leaves": {
+      "spawnRateFactor": 1.4,
       "isConiferBlock": false
     },
-    "byg:silver_maple_sapling": {
+    "minecraft:azalea_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -933,11 +489,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "byg:brown_oak_sapling": {
+    "byg:red_birch_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "blockus:white_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "croptopia:apple_crop": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -953,7 +513,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "blockus:white_oak_sapling": {
+    "minecraft:dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "byg:baobab_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     }

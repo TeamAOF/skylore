@@ -1,13 +1,13 @@
 name = "Observed"
-filename = "observed-1.2.3-1.18.jar"
+filename = "observed-1.2.4-1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3570/878/observed-1.2.3-1.18.jar"
+url = "https://edge.forgecdn.net/files/3638/201/observed-1.2.4-1.18.jar"
 hash-format = "murmur2"
-hash = "1276770715"
+hash = "2847788592"
 
 [update]
 [update.curseforge]
-file-id = 3570878
+file-id = 3638201
 project-id = 534540

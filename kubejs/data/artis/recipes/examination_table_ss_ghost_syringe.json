@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/+#",
+	 "-  "
+   ],
+   "key": {
+     "#": {
+       "item": "squirtingsyringe:syringe"
+     },
+	     "/": {
+       "item": "minecraft:sugar"
+     },
+	 	     "+": {
+       "item": "minecraft:sugar_cane"
+     },
+	 	 	     "-": {
+       "item": "minecraft:fermented_spider_eye"
+     }
+   },
+   "result": {
+     "item": "squirtingsyringe:ghost_syringe",
+     "count": 1
+   }
+}

@@ -1,13 +1,13 @@
 name = "Immortuos Calyx"
-filename = "immortuoscalyx-1.2.1.1-1.18.jar"
+filename = "immortuoscalyx-1.2.3-1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3630/474/immortuoscalyx-1.2.1.1-1.18.jar"
+url = "https://edge.forgecdn.net/files/3642/682/immortuoscalyx-1.2.3-1.18.jar"
 hash-format = "murmur2"
-hash = "843082821"
+hash = "3986532649"
 
 [update]
 [update.curseforge]
-file-id = 3630474
+file-id = 3642682
 project-id = 411857

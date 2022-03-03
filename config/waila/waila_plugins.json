@@ -3,7 +3,7 @@
     "show_blocks": true,
     "show_fluids": false,
     "show_entities": true,
-    "show_item": true,
+    "show_icon": true,
     "show_mod_name": true,
     "show_registry": false,
     "show_entity_hp": true,

@@ -1,13 +1,13 @@
 name = "Mythic Mounts"
-filename = "mythic-mounts-1.18-4.0.jar"
+filename = "mythic-mounts-1.18-5.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3570/219/mythic-mounts-1.18-4.0.jar"
+url = "https://edge.forgecdn.net/files/3666/886/mythic-mounts-1.18-5.1.jar"
 hash-format = "murmur2"
-hash = "326806096"
+hash = "3871847812"
 
 [update]
 [update.curseforge]
-file-id = 3570219
+file-id = 3666886
 project-id = 517650

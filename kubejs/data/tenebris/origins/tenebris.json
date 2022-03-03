@@ -2,9 +2,12 @@
   "powers": [
 
   ],
-  "icon": "minecraft:amethyst_shard",
+  "icon": "magicfungi:morbus_mushroom",
   "name": "Tenebris",
-  "description": "Little is known about the Tenebris, it is hypothesized that they were once a space traveling species that somehow had their atoms phased into another plane of existence while still maintaining sentience in this plane.",
+  "description": "When a Tenebris is born, it starts as a single organism. Unlike other organism's that work together or paralel, the Tenebris conqueors and feeds.
+  
+  Little is known about the Tenebris, except that they master the dark arts and that they are related to the Enoki.
+  ",
   "order": 7,
   "impact": 2
 }

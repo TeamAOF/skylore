@@ -2,8 +2,7 @@
     "parent": "minecraft:story/root",
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"Steve\"}"
+            "item": "artis:navigation_panel"
         },
         "title": "I am Navigator!",
         "description": "You chose the Navigator profession.",
@@ -12,7 +11,7 @@
         "show_toast": true
     },
     "criteria": {
-        "chose_enoki": {
+        "chose_navigator": {
             "trigger": "origins:chose_origin",
             "conditions": {
                 "origin": "navigator:navigator"

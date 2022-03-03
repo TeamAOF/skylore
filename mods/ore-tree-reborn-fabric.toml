@@ -1,0 +1,13 @@
+name = "Ore Tree:Reborn [FABRIC]"
+filename = "OreTree-fabric-1.18.1-0.2.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3634/762/OreTree-fabric-1.18.1-0.2.4.jar"
+hash-format = "murmur2"
+hash = "3550124635"
+
+[update]
+[update.curseforge]
+file-id = 3634762
+project-id = 558749

@@ -1,23 +1,14 @@
 {
 	id: "291CBB145586E36B"
 	group: ""
-	order_index: 0
+	order_index: 4
 	filename: "research"
 	title: "Research"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -13.0d
-			y: -8.5d
-			id: "792E251FDC745C15"
-			tasks: [{
-				id: "482291D37CC4D1A8"
-				type: "checkmark"
-				title: "Biology"
-			}]
-		}
-		{
+			title: "Research"
 			x: -4.0d
 			y: -8.5d
 			id: "66DFD6103753F3A3"
@@ -25,72 +16,6 @@
 				id: "3E956716236DA49E"
 				type: "checkmark"
 				title: "Society"
-			}]
-		}
-		{
-			x: -8.5d
-			y: -2.0d
-			id: "1A7D2C8EFBD125BE"
-			tasks: [{
-				id: "306FFA1E4E132673"
-				type: "checkmark"
-				title: "Geography"
-			}]
-		}
-		{
-			x: -14.0d
-			y: -8.5d
-			subtitle: "Kill a possible infection vector. Gain more research."
-			description: [
-				"Further research has found that the parasite continues to infect certain creatures and species."
-				""
-				"It appears that the blossoms are not an infection vector."
-				""
-				"But a defense mechanism."
-				""
-				"It is still unclear as to the infection vector for this parasite."
-			]
-			dependencies: [
-				"4B934E9C2965B48A"
-				"792E251FDC745C15"
-			]
-			hide: true
-			hide_text_until_complete: true
-			id: "70FC8B98B4646307"
-			tasks: [{
-				id: "724F84F9B6E2D4AD"
-				type: "kill"
-				title: "Void blossom"
-				icon: "bosses_of_mass_destruction:void_blossom"
-				entity: "bosses_of_mass_destruction:void_blossom"
-				value: 1L
-			}]
-			rewards: [{
-				id: "3FC5C7E6AD54C540"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-		}
-		{
-			title: "Possible second infection vector."
-			x: -13.0d
-			y: -9.5d
-			subtitle: "Night lich haunts your dreams."
-			description: ["Another possible vector seems to not be the source of the parasite."]
-			dependencies: ["70FC8B98B4646307"]
-			hide: true
-			hide_text_until_complete: true
-			id: "7D41408673F5AE18"
-			tasks: [{
-				id: "0CCB3BEE814AC138"
-				type: "kill"
-				entity: "bosses_of_mass_destruction:lich"
-				value: 1L
-			}]
-			rewards: [{
-				id: "480B43780D060E13"
-				type: "xp_levels"
-				xp_levels: 15
 			}]
 		}
 		{
@@ -188,44 +113,6 @@
 			}]
 		}
 		{
-			title: "Possible third infection vector"
-			x: -14.0d
-			y: -10.0d
-			subtitle: "Maybe the guardian is the source."
-			dependencies: ["7D41408673F5AE18"]
-			hide: true
-			id: "2C91B4B1C72572C9"
-			tasks: [{
-				id: "6A30143F49882810"
-				type: "kill"
-				entity: "botania:doppleganger"
-				value: 1L
-			}]
-			rewards: [{
-				id: "20C125CBBBE515A7"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
-		}
-		{
-			x: -13.0d
-			y: -7.5d
-			dependencies: ["792E251FDC745C15"]
-			id: "7A257673F0769053"
-			tasks: [{
-				id: "75F9284EB048E1EA"
-				type: "advancement"
-				title: "Research human biological technology"
-				advancement: "botania:main/functional_flower"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "18AA7B326EB6DA5D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
 			title: "[Tenebris] Summon a deathcap mushroom."
 			x: -4.0d
 			y: -10.5d
@@ -269,16 +156,6 @@
 				id: "2E603E2A91E9C9B4"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
-		}
-		{
-			x: -8.5d
-			y: 2.0d
-			id: "0C0AA4394EF8EAFD"
-			tasks: [{
-				id: "27CBDBCF1B528F52"
-				type: "checkmark"
-				title: "Geology"
 			}]
 		}
 	]

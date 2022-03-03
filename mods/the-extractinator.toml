@@ -1,13 +1,13 @@
 name = "The Extractinator (Fabric)"
-filename = "TheExtractinator-1.0.2.jar"
+filename = "TheExtractinator-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3623/52/TheExtractinator-1.0.2.jar"
+url = "https://edge.forgecdn.net/files/3668/83/TheExtractinator-1.0.5.jar"
 hash-format = "murmur2"
-hash = "1469312801"
+hash = "538836295"
 
 [update]
 [update.curseforge]
-file-id = 3623052
+file-id = 3668083
 project-id = 567114

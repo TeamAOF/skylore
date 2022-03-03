@@ -3,7 +3,7 @@
 	group: "4E03E5FEAE87C266"
 	order_index: 0
 	filename: "gear_up"
-	title: "Gear up"
+	title: "Bonuses"
 	icon: {
 		id: "minecraft:iron_pickaxe"
 		Count: 1b
@@ -14,127 +14,6 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
-		{
-			title: "Protect your surroundings."
-			x: -7.5d
-			y: -5.5d
-			id: "0B2A4536A7535C03"
-			tasks: [{
-				id: "3C897740AB2642D2"
-				type: "item"
-				item: {
-					id: "minecraft:iron_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "75EDE79182BE4F21"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
-			title: "Illuminate your surroundings."
-			x: -7.5d
-			y: -7.5d
-			id: "51F408491DFE15EC"
-			tasks: [{
-				id: "5874B352AC6F20C5"
-				type: "item"
-				item: "adorn:stone_torch"
-			}]
-			rewards: [{
-				id: "254D32BCDDE7488B"
-				type: "item"
-				item: "minecraft:coal"
-				count: 5
-			}]
-		}
-		{
-			x: -13.5d
-			y: -6.5d
-			subtitle: "Complete these three tasks to initiate the research chain."
-			dependencies: [
-				"5BD8225A6FB858D3"
-				"1DEBA2A177048110"
-				"12EC8B8AB2EFA440"
-			]
-			id: "02A79F5D650CCDD5"
-			tasks: [{
-				id: "23CF0AB6AE620644"
-				type: "checkmark"
-				title: "Gather Resources"
-			}]
-		}
-		{
-			x: -7.5d
-			y: -6.5d
-			dependencies: [
-				"0B2A4536A7535C03"
-				"4D929BD3104537C1"
-				"51F408491DFE15EC"
-			]
-			id: "0A80DC8326A2C478"
-			tasks: [{
-				id: "754107C421C95C98"
-				type: "checkmark"
-				title: "Secure your surroundings."
-			}]
-		}
-		{
-			title: "Gather materials."
-			x: -13.5d
-			y: -5.5d
-			subtitle: "what? who has ever heard of a wood pickaxe?"
-			id: "5BD8225A6FB858D3"
-			tasks: [
-				{
-					id: "0372F4DE53B6E74E"
-					type: "item"
-					item: {
-						id: "minecraft:iron_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "258BD70AC32299AD"
-					type: "item"
-					title: "Get a stack of either Iron, Copper or Gold."
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:raw_gold"
-								}
-								{
-									Count: 1b
-									id: "minecraft:raw_iron"
-								}
-								{
-									Count: 1b
-									id: "minecraft:raw_copper"
-								}
-							]
-						}
-					}
-					count: 64L
-				}
-			]
-			rewards: [{
-				id: "0924B9CEE6EFDBB7"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-		}
 		{
 			title: "[Beryl] Present your wand."
 			icon: "minecraft:amethyst_shard"
@@ -163,29 +42,6 @@
 					criterion: ""
 				}
 			]
-		}
-		{
-			title: "Gain Intel."
-			x: -13.5d
-			y: -7.5d
-			subtitle: "Maintain a steady xp flow."
-			description: [
-				"Once you get enough information about the area, you can call for an emergency drop pod."
-				""
-				"Some autmaton's roam the universe holding supplies and can drop one to you."
-			]
-			id: "1DEBA2A177048110"
-			tasks: [{
-				id: "338F01120748C40C"
-				type: "xp"
-				value: 3L
-				points: false
-			}]
-			rewards: [{
-				id: "150426FA4AE00170"
-				type: "loot"
-				table_id: 2219349179513125487L
-			}]
 		}
 		{
 			title: "[Enoki] To help others"
@@ -247,11 +103,12 @@
 			}]
 		}
 		{
-			title: "Potion of knowledge"
-			icon: "levelz:strange_potion"
+			title: "Potion of Recall"
+			icon: "things:recall_potion"
 			x: -10.5d
 			y: -2.0d
-			subtitle: "one time potion"
+			subtitle: "I don't recall this being where I put my glasses"
+			description: ["perks of being a fun guy"]
 			dependencies: ["6FF039321BA74340"]
 			id: "2A297308A0FA8EFF"
 			tasks: [{
@@ -259,6 +116,12 @@
 				type: "xp"
 				value: 5L
 				points: false
+			}]
+			rewards: [{
+				id: "2923125B924E8F12"
+				type: "item"
+				item: "things:recall_potion"
+				count: 3
 			}]
 		}
 		{
@@ -338,27 +201,6 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -6.5d
-			id: "4D929BD3104537C1"
-			tasks: [{
-				id: "0E122278F8F66719"
-				type: "item"
-				item: {
-					id: "campanion:sleeping_bag"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "170F11B5CEC4C4CD"
-				type: "item"
-				item: "campanion:small_unbuilt_tent"
-			}]
-		}
-		{
 			title: "Dream Warp"
 			icon: {
 				id: "minecraft:written_book"
@@ -396,27 +238,6 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -6.5d
-			subtitle: "Magic passed down by humans."
-			description: [
-				"Albeit humans not having genetic modification, they do accel at magic."
-				""
-				"Use this magic funnel device to produce resources."
-			]
-			id: "12EC8B8AB2EFA440"
-			tasks: [{
-				id: "755C97E3474220E3"
-				type: "item"
-				item: "scf:cobblestone_funnel"
-			}]
-			rewards: [{
-				id: "5DEF88A2B69C03FA"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-		}
-		{
 			title: "[Tenebris] Dominate"
 			icon: "magicfungi:morbus_mushroom"
 			x: -9.5d
@@ -440,6 +261,7 @@
 			]
 		}
 		{
+			title: "Species Bonuses"
 			x: -10.5d
 			y: -6.5d
 			shape: "rsquare"
@@ -490,7 +312,7 @@
 				id: "51CBBEE3A632809B"
 				type: "item"
 				item: "minecraft:redstone_block"
-				count: 5
+				count: 15
 			}]
 		}
 		{
@@ -714,7 +536,7 @@
 		}
 		{
 			title: "[Fortis] Genetic Modification"
-			icon: "squirting_syringe:syringe"
+			icon: "squirtingsyringe:syringe"
 			x: -13.5d
 			y: -3.5d
 			id: "62680C54B675B93A"
@@ -726,16 +548,17 @@
 					criterion: ""
 				}
 				{
-					id: "5AF57BB029B4D75B"
-					type: "item"
-					item: "squirting_syringe:syringe"
+					id: "731D2A1A6B556D8A"
+					type: "xp"
+					value: 5L
+					points: false
 				}
 			]
 		}
 		{
 			title: "Health performant dna"
 			icon: {
-				id: "squirting_syringe:heal_syringe"
+				id: "squirtingsyringe:heal_syringe"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -756,7 +579,7 @@
 				id: "204AC4BFC2FC174C"
 				type: "item"
 				item: {
-					id: "squirting_syringe:heal_syringe"
+					id: "squirtingsyringe:heal_syringe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -767,7 +590,7 @@
 		{
 			title: "Mass loss modification"
 			icon: {
-				id: "squirting_syringe:falling_syringe"
+				id: "squirtingsyringe:falling_syringe"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -788,8 +611,15 @@
 			rewards: [{
 				id: "501AAC442CFF389F"
 				type: "item"
+				icon: {
+					id: "squirtingsyringe:falling_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 				item: {
-					id: "squirting_syringe:falling_syringe"
+					id: "squirtingsyringe:falling_syringe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -800,7 +630,7 @@
 		{
 			title: "Mine hard"
 			icon: {
-				id: "squirting_syringe:mining_syringe"
+				id: "squirtingsyringe:mining_syringe"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -821,122 +651,12 @@
 				id: "22342F21DCC3E7F5"
 				type: "item"
 				item: {
-					id: "squirting_syringe:mining_syringe"
+					id: "squirtingsyringe:mining_syringe"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			title: "Investigate possible parasite"
-			x: -15.5d
-			y: -4.5d
-			subtitle: "initiate preliminary research"
-			description: [
-				"it appears that a parasite exists here. further research is needed. You can advance this research for a short burst."
-				""
-				"Choose whether you want a way to destroy the parasite, or to improve your immune system."
-				""
-				"whatever type of syringe you pick will limit your quests. choose carefully."
-				""
-				"save the researched item, to continue next research step."
-			]
-			dependencies: ["02A79F5D650CCDD5"]
-			hide: true
-			id: "3161FE19FF8D04F0"
-			tasks: [{
-				id: "40A4C25BA328BBAB"
-				type: "xp"
-				value: 5L
-				points: false
-			}]
-			rewards: [{
-				id: "0485E652370CC1EB"
-				type: "choice"
-				title: "Choose to boost your immune system or destroy the parasite"
-				table_id: 2517821786857065344L
-			}]
-		}
-		{
-			icon: "immortuoscalyx:healthscanner"
-			x: -15.5d
-			y: -3.0d
-			subtitle: "Cover more area"
-			description: [
-				"The parasite found seems to inhabit the area in a massive scale."
-				""
-				"It appears that the parasite can infect a host with no initial side effects."
-				""
-				"More data is needed. Tree opened in \"Research\"."
-			]
-			dependencies: ["3161FE19FF8D04F0"]
-			hide: true
-			id: "4B934E9C2965B48A"
-			tasks: [
-				{
-					id: "42933B9564FA799F"
-					type: "stat"
-					title: "Let health scanner gather data."
-					icon: "immortuoscalyx:healthscanner"
-					stat: "minecraft:walk_one_cm"
-					value: 15000
-				}
-				{
-					id: "6FE159F4E0BECAFF"
-					type: "item"
-					item: "immortuoscalyx:antiparasitic"
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "6559413210619C64"
-				type: "toast"
-				title: "More research initiated!"
-				icon: "minecraft:brewing_stand"
-				description: ""
-			}]
-		}
-		{
-			icon: {
-				id: "minecraft:iron_sword"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -17.0d
-			y: -4.5d
-			subtitle: "Kill 5 infected villagers."
-			dependencies: [
-				"792E251FDC745C15"
-				"3161FE19FF8D04F0"
-			]
-			hide: true
-			id: "45AF5F0052AEA91D"
-			tasks: [
-				{
-					id: "5E6B1104596C2EF1"
-					type: "kill"
-					title: "Kill 5 infected villagers"
-					entity: "immortuoscalyx:infectedvillager"
-					value: 5L
-				}
-				{
-					id: "54D18EDA15DF4ACB"
-					type: "item"
-					item: "immortuoscalyx:calyxanide"
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "3FD6F9F6037FC329"
-				type: "advancement"
-				title: "You have advanced research!"
-				icon: "minecraft:brewing_stand"
-				advancement: "minecraft:story/root"
-				criterion: ""
 			}]
 		}
 	]

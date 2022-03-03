@@ -1,0 +1,13 @@
+name = "Expert Weapons & Tools [Fabric]"
+filename = "expert_weapons-1.4.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3666/793/expert_weapons-1.4.6.jar"
+hash-format = "murmur2"
+hash = "2454132714"
+
+[update]
+[update.curseforge]
+file-id = 3666793
+project-id = 565640

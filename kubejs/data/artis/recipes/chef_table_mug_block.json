@@ -1,0 +1,19 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "+#+",
+	 "+#+"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:oak_planks"
+     },
+	 "+": {
+       "item": "minecraft:iron_nugget"
+     }
+   },
+   "result": {
+     "item": "valley:mug_block",
+     "count": 2
+   }
+}

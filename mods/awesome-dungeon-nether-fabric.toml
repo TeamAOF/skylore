@@ -1,0 +1,13 @@
+name = "Awesome Dungeon Nether edition - Fabric"
+filename = "AwesomeDungeonNether-Fabric-1.18.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3629/487/AwesomeDungeonNether-Fabric-1.18.1-1.0.0.jar"
+hash-format = "murmur2"
+hash = "2900173589"
+
+[update]
+[update.curseforge]
+file-id = 3629487
+project-id = 566642

@@ -1,4 +1,8 @@
 {
+	/* Reroll item.  Pair a weapon with Spoorn Weapon Attributes on it with this item (vanilla or modded)
+	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
+	*/
+	"rerollItem": "minecraft:lapis_lazuli",
 	// Critical Hit attribute config
 	"critConfig": {
 		// Chance for a weapon to have critical hit property [0 = never, 1 = always] [default = 0.1]
@@ -22,8 +26,10 @@
 	"fireConfig": {
 		// Chance for a weapon to have fire damage [0 = never, 1 = always] [default = 0.05]
 		"attributeChance": 0.05,
-		// Duration in seconds to set target on fire for [0 = don't set on fire] [default = 5]
-		"fireDuration": 5,
+		/* Expression for duration in seconds to set target on fire for based on damage
+		   (can just be a scalar value such as '5' for 5 seconds) [0 = don't set on fire] [default = (damage+7)/2]
+		*/
+		"fireDuration": "(damage+7)/2",
 		// Minimum bonus damage [default = 1.0]
 		"minDamage": 1.0,
 		// Maximum bonus damage [default = 30.0]
@@ -41,8 +47,10 @@
 	"coldConfig": {
 		// Chance for a weapon to have cold damage [0 = never, 1 = always] [default = 0.05]
 		"attributeChance": 0.05,
-		// Duration in seconds to slow target [0 = don't slow] [default = 5]
-		"slowDuration": 5,
+		// Expression for duration in seconds to slow target [0 = don't slow] [default = (damage+7)/2]
+		"slowDuration": "(damage+7)/2",
+		// Expression for duration in seconds to add frozen effect to target (deals damage over time) [0 = don't freeze] [default = (damage+7)/2]
+		"freezeDuration": "(damage+7)/2",
 		// Minimum bonus damage [default = 1.0]
 		"minDamage": 1.0,
 		// Maximum bonus damage [default = 30.0]
@@ -79,8 +87,8 @@
 	"poisonConfig": {
 		// Chance for a weapon to have poison damage [0 = never, 1 = always] [default = 0.05]
 		"attributeChance": 0.05,
-		// Duration in seconds to poison target [0 = don't poison] [default = 10]
-		"poisonDuration": 10,
+		// Expression for duration in seconds to poison target [0 = don't poison] [default = (damage+17)/2]
+		"poisonDuration": "(damage+17)/2",
 		// Minimum bonus damage [default = 1.0]
 		"minDamage": 1.0,
 		// Maximum bonus damage [default = 30.0]

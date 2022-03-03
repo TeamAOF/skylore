@@ -1,0 +1,13 @@
+name = "Artis-Recrafted"
+filename = "artis-recrafted-2.1.2+1.18.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3661/299/artis-recrafted-2.1.2+1.18.1.jar"
+hash-format = "murmur2"
+hash = "59771520"
+
+[update]
+[update.curseforge]
+file-id = 3661299
+project-id = 574404

@@ -5,7 +5,11 @@
 		"pilot:pilot",
         "navigator:navigator",
         "engineer:engineer",
-        "captain:captain"
+        "captain:captain",
+		"chef:chef",
+		"doctor:doctor",
+		"security:security",
+		"geologist:geologist"
     ],
     "name": "Profession",
     "missing_name": "None",

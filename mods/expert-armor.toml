@@ -1,0 +1,13 @@
+name = "Expert Armor [Fabric]"
+filename = "expert_armor-1.6.6.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3650/680/expert_armor-1.6.6.jar"
+hash-format = "murmur2"
+hash = "3341198844"
+
+[update]
+[update.curseforge]
+file-id = 3650680
+project-id = 561524

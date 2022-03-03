@@ -1,0 +1,13 @@
+name = "Excavated Variants"
+filename = "excavated_variants-fabric-0.3.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3659/725/excavated_variants-fabric-0.3.1.jar"
+hash-format = "murmur2"
+hash = "545658799"
+
+[update]
+[update.curseforge]
+file-id = 3659725
+project-id = 577411

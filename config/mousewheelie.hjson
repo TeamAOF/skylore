@@ -6,6 +6,12 @@
 		// default: 10
 		// Must be inclusively between 1 and 1000
 		interaction-rate: 10
+		// Enables using armor/elytra items to swap them with the currently equipped item.
+		// default: true
+		enable-quick-armor-swapping: true
+		// Enables dropping items when pressing alt and clicking on them.
+		// default: true
+		enable-alt-dropping: true
 		// Enables right-clicking in recipe books/villager trading to swiftly craft/trade.
 		// default: true
 		enable-quick-craft: true

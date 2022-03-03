@@ -1,0 +1,35 @@
+{
+	// Changing this option §c§ldeletes all existing mirrors. §rRequires restart
+	"recipe": true,
+	// Enables the mirror to spawn in chest loot. Requires restart
+	"chestLoot": false,
+	// Mirror works between dimensions
+	"interdimensional": false,
+	// XP cost (in levels) of mirror
+	"xpCost": 2,
+	// Damage inflicted by mirror in half-hearts
+	"damage": 5.0,
+	// Time it takes to use mirror in ticks. Requires restart
+	"useTime": 28,
+	// A spawn must be set for the mirror to work
+	"spawnSet": true,
+	// The minimum time in ticks between uses
+	"cooldown": 160,
+	"effectOptions": {
+		// Length (in ticks) of weakness inflicted by mirror
+		"weaknessLength": 1200,
+		"weaknessLevel": 1,
+		// Length (in ticks) of mining fatigue inflicted by mirror
+		"fatigueLength": 100,
+		"fatigueLevel": 3,
+		// Length (in ticks) of blindness inflicted by mirror
+		"blindnessLength": 100,
+		"blindnessLevel": 1,
+		// Length (in ticks) of hunger inflicted by mirror
+		"hungerLength": 0,
+		"hungerLevel": 1,
+		// Length (in ticks) of nausea inflicted by mirror
+		"nauseaLength": 0,
+		"nauseaLevel": 1
+	}
+}

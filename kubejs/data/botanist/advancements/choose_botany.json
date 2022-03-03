@@ -2,8 +2,7 @@
     "parent": "minecraft:story/root",
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"Steve\"}"
+            "item": "artis:botanist_bench"
         },
         "title": "Botanist",
         "description": "You chose the Botanist profession.",
@@ -12,7 +11,7 @@
         "show_toast": false
     },
     "criteria": {
-        "chose_enoki": {
+        "chose_botany": {
             "trigger": "origins:chose_origin",
             "conditions": {
                 "origin": "botanist:botanist"

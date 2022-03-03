@@ -1,0 +1,9 @@
+{
+	"enableEnchantmentSettings": {
+		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
+		"ENABLE_INNATE_ENCHANTMENTS": true,
+		"ENABLE_OP_ENCHANTMENT_MIXING": false,
+		"EXTRA_XP_HEALING": false,
+		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true
+	}
+}

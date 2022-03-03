@@ -1,10 +1,10 @@
 {
   "isEnabled": true,
-  "triggerDistance": 48,
+  "triggerDistance": 32,
   "dropObsidian": false,
-  "fireResistanceSeconds": 5,
-  "slowFallingSeconds": 45,
+  "fireResistanceSeconds": 180,
+  "slowFallingSeconds": 5,
   "horizontalDistanceOffset": 128,
-  "targetDimension": "overworld",
-  "transferPositionMode": "FALL_FROM_SKY"
+  "targetDimension": "the_nether",
+  "transferPositionMode": "SIMILAR"
 }

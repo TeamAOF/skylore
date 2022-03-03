@@ -1,0 +1,10 @@
+{
+  "powers": [
+	"security:security_panel"
+  ],
+  "icon": "artis:security_panel",
+  "name": "Security",
+  "description": "Keeping your crew members and yourself safe is your number one job.",
+  "order": 4,
+  "impact": 1
+}

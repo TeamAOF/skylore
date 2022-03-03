@@ -2,8 +2,7 @@
     "parent": "minecraft:story/root",
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"Steve\"}"
+            "item": "artis:ops_panel"
         },
         "title": "I am the Captain now",
         "description": "You chose the Captain origin.",
@@ -12,7 +11,7 @@
         "show_toast": false
     },
     "criteria": {
-        "chose_enoki": {
+        "chose_captain": {
             "trigger": "origins:chose_origin",
             "conditions": {
                 "origin": "captain:captain"

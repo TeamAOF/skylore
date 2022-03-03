@@ -1,0 +1,30 @@
+{
+   "type": "artis:navigation_panel_shaped",
+   "pattern": [
+     "#/#",
+	 "#*#",
+	 "#-#"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	      "/": {
+       "item": "minecraft:glass"
+     },
+	      "*": {
+       "item": "minecraft:lava_bucket"
+     },
+	      "-": {
+       "item": "minecraft:rotten_flesh"
+     }
+   },
+   "result": {
+     "item": "sextant:barometer",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:filled_map"
+   },
+   "cost": 1
+}

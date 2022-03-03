@@ -10,7 +10,7 @@
 		"automaton:redstone_block"
 	],
 	"icon": "minecraft:redstone_block",
-	"order": 10000,
+	"order": 3,
 	"impact": 3,
 	"name": "Automaton",
 	"description": "Once the keepers of humans passed. These machines now wander the world with their ever evolving programming. However, they still have the downsides of most machines, including a power source and their disdain for water."

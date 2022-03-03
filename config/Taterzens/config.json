@@ -75,7 +75,9 @@
     "// Whether to allow players to set the permission level": "",
     "// of Taterzen higher than their own. Careful! This could": "",
     "// enable players to bypass their permission level with NPC.": "",
-    "allow_setting_higher_perm_level": false
+    "allow_setting_higher_perm_level": false,
+    "// Default permission level to bypass selecting locked npcs.": "",
+    "select_bypass_level": 3
   },
   "bungee": {
     "// Whether to enable bungee commands feature for NPCs.": "",

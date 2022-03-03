@@ -1,0 +1,13 @@
+name = "Mythic Metals Decorations"
+filename = "mythicmetals-decorations-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3670/503/mythicmetals-decorations-0.1.1.jar"
+hash-format = "murmur2"
+hash = "4079745612"
+
+[update]
+[update.curseforge]
+file-id = 3670503
+project-id = 552128

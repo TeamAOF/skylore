@@ -1,0 +1,10 @@
+{
+"powers": [
+ "geologist:earth_examiner"
+  ],
+  "icon": "artis:earth_examiner",
+  "name": "Geologist",
+  "description": "You like rocks. You think they rock. Bonuses in mining and just rock stuff.",
+  "order": 8,
+  "impact": 2
+}

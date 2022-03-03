@@ -1,0 +1,11 @@
+{
+    "name": "§eNavigation Panel",
+    "description": "Start with a Navigation Panel.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "artis:navigation_panel",
+            "amount": 1
+        }
+    ]
+}

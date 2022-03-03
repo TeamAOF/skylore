@@ -1,7 +1,0 @@
-{
-  "config": {
-    "start_pool": "custom:sky_start_pool",
-    "size": 7
-  },
-  "type": "minecraft:village"
-}

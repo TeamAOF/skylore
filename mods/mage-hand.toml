@@ -1,0 +1,13 @@
+name = "Mage Hand"
+filename = "magehand-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3656/261/magehand-1.0.2.jar"
+hash-format = "murmur2"
+hash = "3761984316"
+
+[update]
+[update.curseforge]
+file-id = 3656261
+project-id = 567926

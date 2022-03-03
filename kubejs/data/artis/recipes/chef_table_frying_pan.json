@@ -1,0 +1,17 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "#  ",
+	 " ##",
+	 " ##"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     }
+   },
+   "result": {
+     "item": "croptopia:frying_pan",
+     "count": 1
+   }
+}

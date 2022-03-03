@@ -1,13 +1,13 @@
 name = "Unforgiving Void"
-filename = "Unforgiving-Void-3.1.0+1.17.1.jar"
+filename = "Unforgiving-Void-3.1.1+1.18.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3479/156/Unforgiving-Void-3.1.0+1.17.1.jar"
+url = "https://edge.forgecdn.net/files/3542/480/Unforgiving-Void-3.1.1+1.18.jar"
 hash-format = "murmur2"
-hash = "3138866677"
+hash = "65302385"
 
 [update]
 [update.curseforge]
-file-id = 3479156
+file-id = 3542480
 project-id = 274863

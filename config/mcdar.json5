@@ -54,9 +54,9 @@
 	"statusArtefactDurability": 64,
 	"summoningArtefactDurability": 8,
 	// Villager Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"villagerArtefactSpawnRate": 0.25,
+	"villagerArtefactSpawnRate": 0.0,
 	// Illager Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"illagerArtefactSpawnRate": 0.25,
+	"illagerArtefactSpawnRate": 0.0,
 	// Dungeon Artefact Spawn Rate (Percentage where 1.0 = 100%)
-	"dungeonArtefactSpawnRate": 0.10000000149011612
+	"dungeonArtefactSpawnRate": 0.0
 }

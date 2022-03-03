@@ -1,0 +1,8 @@
+{
+  "showHelp": false,
+  "entries": {
+    "com.github.clevernucleus.playerex.client.gui.AttributesPageLayer": true,
+    "com.github.clevernucleus.playerex.client.gui.ExScreen": true,
+    "net.minecraft.class_476": true
+  }
+}

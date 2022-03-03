@@ -1,13 +1,13 @@
 name = "Promenade"
-filename = "promenade-2.5.0.jar"
+filename = "promenade-2.5.1.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3631/767/promenade-2.5.0.jar"
+url = "https://edge.forgecdn.net/files/3633/936/promenade-2.5.1.jar"
 hash-format = "murmur2"
-hash = "2830717282"
+hash = "8140919"
 
 [update]
 [update.curseforge]
-file-id = 3631767
+file-id = 3633936
 project-id = 399648

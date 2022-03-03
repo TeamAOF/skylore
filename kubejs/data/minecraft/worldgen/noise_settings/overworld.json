@@ -17,18 +17,18 @@
   },
   "noise": {
     "min_y": -48,
-    "height": 336,
+    "height": 256,
     "size_horizontal": 1,
-	"size_vertical": 1,
+	"size_vertical": 2,
 	"simplex_surface_noise": true,
     "random_density_offset": true,
 	"density_factor": -0.001,
-    "density_offset": -0.365,
+    "density_offset": -2.555,
     "sampling": {
       "xz_scale": 1,
       "y_scale": 1,
-      "xz_factor": 80,
-      "y_factor": 320
+      "xz_factor": 40,
+      "y_factor": 180
     },
     "bottom_slide": {
       "target": -0.234375,
@@ -524,7 +524,11 @@
                       "type": "minecraft:biome",
                       "biome_is": [
                         "minecraft:frozen_ocean",
-                        "minecraft:deep_frozen_ocean"
+                        "minecraft:deep_frozen_ocean",
+						"minecraft:ocean",
+						"minecraft:deep_ocean",
+						"skylore:void",
+						"minecraft:warm_ocean"
                       ]
                     },
                     "then_run": {
@@ -877,7 +881,6 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "minecraft:warm_ocean",
                                 "minecraft:desert",
                                 "minecraft:beach",
                                 "minecraft:snowy_beach"
@@ -1806,44 +1809,6 @@
                     "result_state": {
                       "Name": "minecraft:stone"
                     }
-                  }
-                },
-                {
-                  "type": "minecraft:condition",
-                  "if_true": {
-                    "type": "minecraft:biome",
-                    "biome_is": [
-                      "minecraft:warm_ocean",
-                      "minecraft:lukewarm_ocean",
-                      "minecraft:deep_lukewarm_ocean"
-                    ]
-                  },
-                  "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                      {
-                        "type": "minecraft:condition",
-                        "if_true": {
-                          "type": "minecraft:stone_depth",
-                          "offset": 0,
-                          "surface_type": "ceiling",
-                          "add_surface_depth": false,
-                          "add_surface_secondary_depth": false
-                        },
-                        "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:sandstone"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "minecraft:sand"
-                        }
-                      }
-                    ]
                   }
                 },
                 {

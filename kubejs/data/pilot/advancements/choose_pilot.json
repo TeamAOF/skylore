@@ -2,8 +2,7 @@
     "parent": "minecraft:story/root",
     "display": {
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: \"Steve\"}"
+            "item": "artis:flight_planner"
         },
         "title": "I am Pilot!",
         "description": "You chose the Pilot Profession.",

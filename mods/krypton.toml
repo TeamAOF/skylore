@@ -1,13 +1,13 @@
 name = "Krypton"
-filename = "krypton-0.1.6.jar"
+filename = "krypton-0.1.7.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3559/150/krypton-0.1.6.jar"
+url = "https://edge.forgecdn.net/files/3668/215/krypton-0.1.7.jar"
 hash-format = "murmur2"
-hash = "4133565394"
+hash = "4182221349"
 
 [update]
 [update.curseforge]
-file-id = 3559150
+file-id = 3668215
 project-id = 428912

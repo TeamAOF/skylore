@@ -1,0 +1,16 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "#",
+	 "#"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     }
+   },
+   "result": {
+     "item": "catwalksinc:iron_rod",
+     "count": 1
+   }
+}

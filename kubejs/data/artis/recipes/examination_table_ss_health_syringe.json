@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "+/#",
+	 "*  "
+   ],
+   "key": {
+     "#": {
+       "item": "squirtingsyringe:syringe"
+     },
+	     "/": {
+       "item": "minecraft:sugar"
+     },
+	 	     "+": {
+       "item": "minecraft:poppy"
+     },
+	 	     "*": {
+       "item": "minecraft:beetroot"
+     }
+   },
+   "result": {
+     "item": "squirtingsyringe:heal_syringe",
+     "count": 1
+   }
+}

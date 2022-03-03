@@ -6,580 +6,944 @@ veryRareItemChance_v1 = 10.0
 extremelyRareItemChance_v1 = 2.0
 inputCooldown_v1 = 8
 outputLootMultiplier_v1 = 1.0
-extractinatorRecipe_v1 = "NONE"
-supportedMods_v1 = ["minecraft", "modern_industrialization", "techreborn", "indrev", "ae2", "mythicmetals", "numismatic_overhaul"]
+extractinatorRecipe_v2 = "MODERN_INDUSTRIALIZATION"
+supportedMods_v2 = ["minecraft", "modern_industrialization", "techreborn", "indrev", "ae2", "mythicmetals", "numismatic-overhaul", "blockus", "promenade", "unearthed", "the_extractinator"]
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "the_extractinator:silt"
 tier = "TIER_4"
 yield = 75
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "the_extractinator:slush"
+tier = "TIER_4"
+yield = 50
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:gravel"
 tier = "TIER_3"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:flint"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:sand"
 tier = "TIER_2"
 yield = 25
 disabledDrops = ["minecraft:raw_iron", "minecraft:raw_copper", "minecraft:raw_gold", "minecraft:coal", "minecraft:lapis_lazuli", "modern_industrialization:raw_tin", "modern_industrialization:lignite_coal", "modern_industrialization:silicon_dust"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:iron_dust"
 min = 1
 max = 1
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:copper_dust"
 min = 1
 max = 3
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:gold_dust"
 min = 1
 max = 1
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:coal_dust"
 min = 1
 max = 2
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:lazurite_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:diamond_tiny_dust"
 min = 1
 max = 3
 rarity = "VERY_RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:emerald_tiny_dust"
 min = 3
 max = 9
 rarity = "VERY_RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:ruby_dust"
 min = 2
 max = 4
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:sapphire_dust"
 min = 1
 max = 2
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:peridot_dust"
 min = 1
 max = 2
 rarity = "VERY_RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:lignite_coal_dust"
 min = 1
 max = 3
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:silicon_dust"
 min = 2
 max = 4
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:cobblestone"
 tier = "TIER_1"
 yield = 10
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:stone"
 tier = "TIER_1"
 yield = 15
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:cobbled_deepslate"
 tier = "TIER_2"
 yield = 10
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:deepslate"
 tier = "TIER_2"
 yield = 15
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:granite"
 tier = "TIER_2"
 yield = 20
 disabledDrops = ["modern_industrialization:uranium_dust"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:granite_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:quartz"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:uranium_dust"
 min = 2
 max = 4
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:andesite"
 tier = "TIER_2"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:andesite_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sodium_tiny_dust"
 min = 3
 max = 9
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:basalt_dust"
 min = 1
 max = 1
 rarity = "VERY_RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:diorite"
 tier = "TIER_2"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:diorite_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:quartz"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:tuff"
 tier = "TIER_2"
 yield = 25
 additionalDrops = []
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:calcite"
 tier = "TIER_2"
 yield = 20
 disabledDrops = ["minecraft:amethyst_shard"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:calcite_dust"
 min = 1
 max = 2
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:quartz"
 min = 1
 max = 3
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:amethyst_shard"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:smooth_basalt"
 tier = "TIER_3"
 yield = 25
 disabledDrops = ["minecraft:raw_iron", "minecraft:amethyst_shard"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:basalt_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:iron_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:olivine_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:amethyst_shard"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:netherrack"
 tier = "TIER_1"
 yield = 5
 disabledDrops = ["minecraft:coal"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:netherrack_dust"
 min = 10
 max = 20
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:coal_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sulfur_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:saltpeter_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:blackstone"
 tier = "TIER_2"
 yield = 25
 disabledDrops = ["minecraft:coal", "techreborn:pyrite_dust"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:coal_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sulfur_dust"
 min = 1
 max = 3
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:obsidian_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:pyrite_dust"
 min = 2
 max = 4
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:ancient_debris"
 tier = "TIER_5"
 yield = 100
 disabledDrops = ["minecraft:diamond", "minecraft:emerald", "ae2:charged_certus_quartz_crystal", "modern_industrialization:raw_antimony", "modern_industrialization:raw_lead", "modern_industrialization:raw_silver", "modern_industrialization:lignite_coal", "techreborn:zinc_dust", "techreborn:sodalite_dust", "techreborn:peridot_gem", "techreborn:sapphire_gem"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:netherite_scrap"
 min = 1
 max = 1
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:blaze_powder"
 min = 3
 max = 9
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:magma_cream"
 min = 2
 max = 4
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sulfur_dust"
 min = 10
 max = 20
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 3
 max = 9
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:diamond"
 min = 3
 max = 9
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "minecraft:end_stone"
 tier = "TIER_2"
 yield = 20
 disabledDrops = ["modern_industrialization:tungsten_dust", "techreborn:tungsten_small_dust", "modern_industrialization:platinum_tiny_dust", "techreborn:platinum_small_dust"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:endstone_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:tungsten_tiny_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:platinum_tiny_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:ender_pearl_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:ender_eye_dust"
 min = 1
 max = 3
 rarity = "VERY_RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "blockus:marble"
 tier = "TIER_2"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:marble_dust"
 min = 3
 max = 6
 rarity = "COMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:calcite_dust"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:obsidian_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "blockus:bluestone"
 tier = "TIER_1"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:blue_dye"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:lazurite_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:sapphire_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:sodalite_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sulfur_dust"
 min = 1
 max = 3
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "blockus:limestone"
 tier = "TIER_2"
 yield = 20
 disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:iron_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:calcite_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:quartz"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:pyrite_dust"
 min = 2
 max = 4
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "promenade:carbonite"
 tier = "TIER_2"
 yield = 25
 disabledDrops = ["minecraft:coal"]
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:coal_dust"
 min = 1
 max = 2
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:carbon_dust"
 min = 1
 max = 3
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1]]
+[[extractinatorConfig.supportedBlocks_v3]]
 name = "promenade:blunite"
 tier = "TIER_1"
 yield = 20
 disabledDrops = []
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "minecraft:blue_dye"
 min = 1
 max = 1
 rarity = "UNCOMMON"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:lazurite_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:sapphire_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "techreborn:sodalite_dust"
 min = 1
 max = 1
 rarity = "RARE"
 
-[[extractinatorConfig.supportedBlocks_v1.additionalDrops]]
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
 name = "modern_industrialization:sulfur_dust"
 min = 1
 max = 3
 rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:phyllite"
+tier = "TIER_1"
+yield = 20
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:cobbled_phyllite"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:slate"
+tier = "TIER_1"
+yield = 20
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:cobbled_slate"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:gabbro"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:rhyolite"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:conglomerate"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:dolerite"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:mudstone"
+tier = "TIER_1"
+yield = 15
+additionalDrops = []
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:dolerite"
+tier = "TIER_1"
+yield = 15
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "the_extractinator:silt"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:lignite"
+tier = "TIER_1"
+yield = 15
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:lignite_coal"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:quartzite"
+tier = "TIER_1"
+yield = 15
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:white_granite"
+tier = "TIER_2"
+yield = 25
+disabledDrops = ["modern_industrialization:uranium_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:granite_dust"
+min = 4
+max = 8
+rarity = "COMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:uranium_dust"
+min = 3
+max = 6
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:granodiorite"
+tier = "TIER_2"
+yield = 25
+disabledDrops = []
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:diorite_dust"
+min = 2
+max = 4
+rarity = "COMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:granite_dust"
+min = 2
+max = 4
+rarity = "COMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:limestone"
+tier = "TIER_2"
+yield = 20
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:beige_limestone"
+tier = "TIER_2"
+yield = 20
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:grey_limestone"
+tier = "TIER_2"
+yield = 20
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:cobbled_limestone"
+tier = "TIER_2"
+yield = 15
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:cobbled_beige_limestone"
+tier = "TIER_2"
+yield = 15
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3]]
+name = "unearthed:cobbled_grey_limestone"
+tier = "TIER_2"
+yield = 15
+disabledDrops = ["minecraft:raw_iron", "techreborn:pyrite_dust"]
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:iron_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:calcite_dust"
+min = 1
+max = 2
+rarity = "UNCOMMON"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "minecraft:quartz"
+min = 1
+max = 1
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "techreborn:pyrite_dust"
+min = 2
+max = 4
+rarity = "RARE"
+
+[[extractinatorConfig.supportedBlocks_v3.additionalDrops]]
+name = "modern_industrialization:carbon_dust"
+min = 1
+max = 1
+rarity = "RARE"
 [worldConfig]
 generateSiltOre_v1 = true
-siltVeinSize_v1 = 12
-siltVeinsPerChunk_v1 = 7
+siltVeinSize_v2 = 13
+siltVeinsPerChunk_v2 = 9
+siltMinSpawnHeight_v1 = -64
 siltMaxSpawnHeight_v1 = 24
-generateCabins_v1 = true
-cabinSpacing_v1 = 9
-cabinSeparation_v1 = 5
-cabinMinHeight_v1 = 0
-cabinMaxHeight_v1 = 38
-deepslateCabinMinHeight_v1 = -48
-deepslateCabinMaxHeight_v1 = -8
-oceanCabinMinHeight_v1 = 28
-oceanCabinMaxHeight_v1 = 44
-intactCabinWeight_v1 = 1
-brokenCabinWeight_v1 = 2
-moddedLootInChests_v1 = true
+generateSlushOre_v1 = true
+slushVeinSize_v1 = 13
+slushVeinsPerChunk_v1 = 12
+slushMinSpawnHeight_v1 = 25
+slushMaxSpawnHeight_v1 = 48

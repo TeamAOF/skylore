@@ -1,0 +1,15 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "#"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:bowl"
+     }
+   },
+   "result": {
+     "item": "valley:bowl_block",
+     "count": 1
+   }
+}

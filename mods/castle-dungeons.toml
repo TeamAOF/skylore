@@ -1,13 +1,13 @@
 name = "Castle Dungeons [Forge & Fabric]"
-filename = "castle_dungeons-3.2-1.18-fabric.jar"
+filename = "castle_dungeons-3.3-1.18-fabric.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3608/520/castle_dungeons-3.2-1.18-fabric.jar"
+url = "https://edge.forgecdn.net/files/3670/838/castle_dungeons-3.3-1.18-fabric.jar"
 hash-format = "murmur2"
-hash = "3518598070"
+hash = "1510394082"
 
 [update]
 [update.curseforge]
-file-id = 3608520
+file-id = 3670838
 project-id = 399213

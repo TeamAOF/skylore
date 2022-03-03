@@ -1,13 +1,13 @@
 name = "BackSlot"
-filename = "backslot-1.2.4.jar"
+filename = "backslot-1.2.5.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3592/327/backslot-1.2.4.jar"
+url = "https://edge.forgecdn.net/files/3645/151/backslot-1.2.5.jar"
 hash-format = "murmur2"
-hash = "1420168974"
+hash = "3729939519"
 
 [update]
 [update.curseforge]
-file-id = 3592327
+file-id = 3645151
 project-id = 402739
