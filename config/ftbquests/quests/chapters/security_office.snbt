@@ -1,0 +1,84 @@
+{
+	id: "0EAA560971FA63FB"
+	group: "38D73AD51340A19B"
+	order_index: 9
+	filename: "security_office"
+	title: "Security Officer"
+	icon: "artis:security_panel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "artis:security_panel"
+			x: -0.5d
+			y: 0.5d
+			description: ["You specialize in killing things with any weapon. Prove it."]
+			id: "3A533982BC1CDF3C"
+			tasks: [
+				{
+					id: "412A6FB0C73BA7D6"
+					type: "professions:profession"
+					prof: "professions:security_officer"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "6DB4CE6291576175"
+					type: "questsadditions:killnbt"
+					title: "Kill 10 Spiders With A Wooden Hoe"
+					icon: {
+						id: "mcda:spider_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					entity: "minecraft:spider"
+					value: 10L
+					nbt: { }
+					checkItem: true
+					item: {
+						id: "minecraft:wooden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "19F8B2C991257A31"
+				type: "questsadditions:repeat"
+				table_id: 6385377144004890463L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "1AA15C69F025C0A9"
+			tasks: [{
+				id: "63D8C277C9EAF7C2"
+				type: "questsadditions:killnbt"
+				title: "Kill 10 Zombies using a wood sword"
+				icon: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 10L
+				nbt: { }
+				checkItem: true
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

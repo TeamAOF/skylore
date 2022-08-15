@@ -15,6 +15,7 @@
   "hide_ops_message": true,
   "// Whether to automatically lock the taterzen after creating it.": "",
   "lock_after_creation": true,
+  "// Obsucre Taterzens' names while they are visible on the tab list.": true,
   "// Default settings for new Taterzens.": "",
   "defaults": {
     "name": "Taterzen",
@@ -41,7 +42,9 @@
     "// Whether Taterzen is able to fly.": "",
     "allow_flight": false,
     "// Whether Taterzens can be picked up by boats / minecarts.": "",
-    "allow_riding": false
+    "allow_riding": false,
+    "// Whether Taterzen is able to swim.": "",
+    "allow_swim": true
   },
   "path": {
     "// Which color of particles to use in path editor. Use RGB values ( 0 - 255 ).": "",

@@ -1,0 +1,22 @@
+{
+	id: "48CF1075C4247D7E"
+	group: ""
+	order_index: 3
+	filename: "society"
+	title: "Society"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: 0.0d
+		hide_dependency_lines: true
+		dependencies: ["6DCBE736DE81B6FB"]
+		hide: true
+		id: "74A837E6BC5CAAFE"
+		tasks: [{
+			id: "17C5C444D430DB5F"
+			type: "checkmark"
+			title: "society"
+		}]
+	}]
+}

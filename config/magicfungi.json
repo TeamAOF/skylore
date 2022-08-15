@@ -23,14 +23,26 @@
   "cibusSpellHungerModifier": 9,
   //Saturation given by Cibus Spell.
   "cibusSpellSaturationModifier": 0.8,
-  //Utilis Pickaxe's haste effect duration in seconds.
-  "utilisPickaxeEffectDuration": 4,
-  //Utilis Pickaxe's haste effect strength. 0 = I, 1 = II, etc.
-  "utilisPickaxeEffectStrength": 2,
+  //Tool durability for all Fungic Relics.
+  "relicDurability": 3046,
+  //Mining Speed for all Fungic Relics.
+  "relicMiningSpeed": 10.5,
+  //Impetus Sword's attack damage.
+  "impetusSwordAttackDamage": 10.0,
+  //Impetus Sword's maximum charge.
+  "impetusSwordMaxCharge": 96,
+  //Clypeus Shield's maximum charge.
+  "clypeusShieldMaxCharge": 72,
+  //Vivifica Elixir's maximum charge.
+  "vivificaElixirMaxCharge": 72,
+  //Morbus Scythe's attack damage.
+  "morbusScytheAttackDamage": 8.5,
   //Morbus Scythe's wither effect duration in seconds.
   "morbusScytheEffectDuration": 8,
   //Morbus Scythe's wither effect strength. 0 = I, 1 = II, etc.
   "morbusScytheEffectStrength": 0,
+  //Morbus Scythe's maximum charge.
+  "morbusScytheMaxCharge": 100,
   //Magical Fungi Armor's Durability Multiplier. Changing this value on worlds where you already have Magical Fungi Armor is NOT recommended.
   "magicalFungiArmorDurabilityMultiplier": 45,
   //Magical Fungi Armor's toughness. Armor Toughness defines how much damage is absorbed by the armor.
@@ -63,8 +75,8 @@
   "vivificaRegularSpawnRatio": 12,
   //Vivifica Mushrooms' spawn ratio on biomes with enhanced ratios (check the book guide for info on such biomes).
   "vivificaBiomeEnhancedSpawnRatio": 28,
-  //Spawnrate for generation of the Host Biome. Increase if using any biome overhaul-styled mods, as otherwise the biome will be exceedingly rare.
-  "hostBiomeSpawnRate": 2,
+  //Spawnrate for generation of the Host Biome.
+  "hostBiomeSpawnRate": 7,
   //Whether Wither Roses will be generated on the Host Biome.
   "canGenerateWitherRoseHostBiome": true,
   //How often will Wither Roses generate on the Host Biome.
@@ -80,5 +92,9 @@
   "morbusSpreadStartingDay": 100,
   //Enables the usage of the Maledictio Glyph and Heart of Morbus.
   //If you plan to use this mod on a public server, disable this to avoid griefing.
-  "canUseMorbusCorruptionItems": false
+  "canUseMorbusCorruptionItems": false,
+  //Whether part of Magic Fungi's content might be found on vanilla structures' chests.
+  "addModContentToChests": true,
+  //Whether trades including Magic Fungi's content will be available on certain types of Villagers and Wandering Traders.
+  "addModContentToTrades": true
 }

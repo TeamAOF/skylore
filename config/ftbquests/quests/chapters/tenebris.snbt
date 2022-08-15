@@ -1,0 +1,66 @@
+{
+	id: "168C1B2D8CC4C1AD"
+	group: "57DEFAC17E936D20"
+	order_index: 1
+	filename: "tenebris"
+	title: "Tenebris"
+	icon: "magicfungi:morbus_mushroom"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "magicfungi:morbus_mushroom"
+			x: -0.5d
+			y: 0.5d
+			id: "379AF559057ADFD6"
+			tasks: [{
+				id: "46B5C1F819457D67"
+				type: "advancement"
+				advancement: "tenebris:choose_tenebris"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "0C205F310CDDE5E5"
+			tasks: [{
+				id: "71F6F990A7B14EC1"
+				type: "kill"
+				title: "Murder Spree"
+				icon: {
+					id: "sandwichable:kitchen_knife"
+					Count: 1b
+					tag: {
+						KnifeData: {
+							sharpness: 850
+							maxSharpness: 850
+						}
+					}
+				}
+				entity: "minecraft:villager"
+				value: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "19C1682214BF1C34"
+			tasks: [
+				{
+					id: "74F3A222A20113D7"
+					type: "questsadditions:time"
+					title: "Tenebris death charge"
+					icon: "minecraft:tnt"
+					elapsedTime: 3600L
+				}
+				{
+					id: "5ADE4367C0E73CEC"
+					type: "advancement"
+					advancement: "tenebris:choose_tenebris"
+					criterion: ""
+				}
+			]
+		}
+	]
+}

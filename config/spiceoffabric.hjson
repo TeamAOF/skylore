@@ -1,4 +1,11 @@
 {
+	// Must be set on the server!
+	// Whether the players will be able to see how many foods ago they ate an item directly on the item.
+	// When set to SIMPLE, just this information will be shown.
+	// If set to EXTENDED, there'll also be information on how many other foods the player needs to eat to restore the nutrition value.
+	// With NONE this tooltip is hidden.
+	// default: NONE
+	show-last-eaten-tips: NONE
 	// Edit the expressions that are used for calculating the player stats after respawning.
 	// Expressions are mathematical terms with the following variables:
 	// 	hunger is the amount of hunger the player had when dying
@@ -35,7 +42,7 @@
 		consume-duration: consumeDuration * 1.3 ^ timesEaten
 		// Sets the amount of last eaten foods to use for the calculations in this category
 		// default: 20
-		// Must be greater or equal to 0
+		// 	Must be greater or equal to 0
 		history-length: 20
 	}
 	// The good ol' carrot style.
@@ -53,7 +60,7 @@
 		// When 0, carrot mode is effectively disabled. (Why would you do this? :P)
 		// When -1, you can gain a basically infinite amount of hearts.
 		// default: -1
-		// Must be inclusively between -1 and 200
+		// 	Must be inclusively between -1 and 200
 		max-health: -1
 	}
 }

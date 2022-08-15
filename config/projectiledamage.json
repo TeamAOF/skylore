@@ -1,0 +1,6 @@
+{
+  "default_bow_damage": 6.0,
+  "default_crowssbow_damage": 9.0,
+  "add_default_attributes_for_unspecified_bows": false,
+  "add_default_attributes_for_unspecified_crossbows": false
+}

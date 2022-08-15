@@ -1,0 +1,103 @@
+{
+	id: "5B8285B870661A5D"
+	group: "38D73AD51340A19B"
+	order_index: 2
+	filename: "chef"
+	title: "Chef"
+	icon: "artis:chef_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "artis:chef_table"
+			x: -0.5d
+			y: -1.0d
+			id: "2B1E87EA80F17E5B"
+			tasks: [
+				{
+					id: "485775E625435694"
+					type: "professions:profession"
+					icon: "artis:chef_table"
+					prof: "professions:chef"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "3657650652DBD447"
+					type: "item"
+					item: "minecraft:cake"
+				}
+				{
+					id: "26EA3C532A9A5A36"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+			]
+			rewards: [{
+				id: "29411E374F98783C"
+				type: "questsadditions:repeat"
+				table_id: 564014542634132921L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "61DFCB094DAA0112"
+			tasks: [{
+				id: "30FA655B614529B6"
+				type: "item"
+				item: "croptopia:guide"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			id: "3E456D62ABAC8F0A"
+			tasks: [{
+				id: "2FD5C117CAFA1948"
+				type: "item"
+				item: "croptopia:frying_pan"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			id: "5C2594315EE2855D"
+			tasks: [{
+				id: "7FFE300D3878E392"
+				type: "item"
+				item: "croptopia:cooking_pot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.5d
+			id: "47E658C5594F3181"
+			tasks: [{
+				id: "3EB0DD1ACEBB4E36"
+				type: "item"
+				item: "croptopia:knife"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			id: "35AAFA6598A313E8"
+			tasks: [{
+				id: "254F96801AEC0D21"
+				type: "item"
+				item: "croptopia:food_press"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			id: "5B038AF37220DC3E"
+			tasks: [{
+				id: "0FA174AF5FA65ED4"
+				type: "item"
+				item: "croptopia:mortar_and_pestle"
+			}]
+		}
+	]
+}

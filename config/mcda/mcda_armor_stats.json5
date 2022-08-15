@@ -1036,5 +1036,7 @@
 			"movementSpeedBoost": 0.0,
 			"durabilityMultiplier": 25
 		}
-	}
+	},
+	"setBonusTooltips": true,
+	"setBonusTooltipColors": true
 }

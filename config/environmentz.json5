@@ -19,7 +19,7 @@
 	// Above this biome temp - start overheating
 	"biome_overheat_temp": 1.600000023841858,
 	// Handles thirst when Dehydration mod is loaded
-	"overheating_exhaustion": 0.20000000298023224,
+	"overheating_exhaustion": 0.5,
 	// Protection amount is reduced every second
 	"max_heat_protection_amount": 120,
 	// Protection amount is added every second

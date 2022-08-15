@@ -3,6 +3,14 @@
 	   in an Anvil to reroll attributes [default = minecraft:lapis_lazuli]
 	*/
 	"rerollItem": "minecraft:lapis_lazuli",
+	// Reroll level cost [default = 0]
+	"rerollLevelCost": 0,
+	/* Upgrade item.  Pair a weapon with this item in an Anvil to roll bonus attributes and only adds
+	   stats onto the weapon if it is an upgrade [default = minecraft:diamond]
+	*/
+	"upgradeItem": "minecraft:diamond",
+	// Upgrade level cost [default = 1]
+	"upgradeLevelCost": 1,
 	// Critical Hit attribute config
 	"critConfig": {
 		// Chance for a weapon to have critical hit property [0 = never, 1 = always] [default = 0.1]
@@ -19,7 +27,7 @@
 		"useGaussian": true,
 		// Average crit chance [min = 0, max = 100] [default = 25]
 		"mean": 25,
-		// Standard deviation for the distribution [default = 50]
+		// Standard deviation for the distribution [default = 20]
 		"standardDeviation": 50
 	},
 	// Fire attribute config
@@ -40,8 +48,8 @@
 		"useGaussian": true,
 		// Average damage [default = 1]
 		"mean": 1,
-		// Standard deviation for the distribution [default = 4]
-		"standardDeviation": 4
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 4.0
 	},
 	// Cold attribute config
 	"coldConfig": {
@@ -61,8 +69,8 @@
 		"useGaussian": true,
 		// Average damage [default = 1]
 		"mean": 1,
-		// Standard deviation for the distribution [default = 4]
-		"standardDeviation": 4
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 4.0
 	},
 	// Lightning attribute config
 	"lightningConfig": {
@@ -80,8 +88,8 @@
 		"useGaussian": true,
 		// Average damage [default = 1]
 		"mean": 1,
-		// Standard deviation for the distribution [default = 4]
-		"standardDeviation": 4
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 4.0
 	},
 	// Poison attribute config
 	"poisonConfig": {
@@ -99,8 +107,8 @@
 		"useGaussian": true,
 		// Average damage [default = 1]
 		"mean": 1,
-		// Standard deviation for the distribution [default = 4]
-		"standardDeviation": 4
+		// Standard deviation for the distribution [default = 2.5]
+		"standardDeviation": 4.0
 	},
 	// Lifesteal attribute config
 	"lifestealConfig": {
@@ -114,14 +122,16 @@
 		   value between the minDamage and maxDamage [default = true]
 		*/
 		"useGaussian": true,
-		// Average lifesteal [default = 10]
+		// Average lifesteal [default = 5]
 		"mean": 10,
 		// Standard deviation for the distribution [default = 10]
 		"standardDeviation": 10
 	},
 	// Explosive attribute config
 	"explosiveConfig": {
-		// Chance for a weapon to be Explosive [0 = never, 1 = always] [default = 0.02]
+		/* Chance for a weapon to be Explosive [0 = never, 1 = always] [default = 0.02]
+		   The explosion by default does not hurt other players.
+		*/
 		"attributeChance": 0.02,
 		// Chance for each attack to cause an explosion [0 = never, 1 = always] [default = 1.0]
 		"explosionChance": 1.0,

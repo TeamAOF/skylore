@@ -1,10 +1,10 @@
 {
   "isEnabled": true,
-  "triggerDistance": 32,
+  "triggerDistance": 48,
   "dropObsidian": false,
-  "fireResistanceSeconds": 180,
+  "fireResistanceSeconds": 1,
   "slowFallingSeconds": 5,
-  "horizontalDistanceOffset": 128,
-  "targetDimension": "the_nether",
+  "horizontalDistanceOffset": 200,
+  "targetDimension": "overworld",
   "transferPositionMode": "SIMILAR"
 }

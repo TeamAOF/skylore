@@ -1,10 +1,11 @@
 {
     "globalSettings": {
-        "configVersion": 7,
+        "configVersion": 9,
         "printBiomes": false,
         "globalDebug": false,
         "enable3rdPersonFlying": false,
         "enableFlyingGravity": true,
+        "disableUiOverlay": false,
         "mobCap": 10,
         "mobCapRange": 192
     },
@@ -75,7 +76,7 @@
             "spawnDebug": false,
             "spawnWeight": 100,
             "spawnRandomChance": 10,
-            "chunkFreq": 5,
+            "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "subterranean",
             "minSpawnGroupSize": 1,
@@ -102,7 +103,7 @@
             "spawnYCeiling": 50000,
             "spawnYFloor": 60,
             "spawnRandomChance": 100,
-            "chunkFreq": 5,
+            "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "subterranean",
             "minSpawnGroupSize": 1,
@@ -112,13 +113,24 @@
         "MothSpawnSettings": {
             "shouldSpawn": true,
             "spawnDebug": false,
-            "spawnWeight": 15,
-            "spawnRandomChance": 100,
+            "spawnWeight": 10,
+            "spawnRandomChance": 70,
             "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "overworld",
             "minSpawnGroupSize": 1,
             "maxSpawnGroupSize": 1
+        },
+        "ColelytraSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 10,
+            "spawnRandomChance": 100,
+            "chunkFreq": 0,
+            "chunkOffset": 0,
+            "spawnType": "overworld",
+            "minSpawnGroupSize": 3,
+            "maxSpawnGroupSize": 3
         },
         "NetherBatSpawnSettings": {
             "shouldSpawn": true,
@@ -174,7 +186,7 @@
             "chunkFreq": 0,
             "chunkOffset": 0,
             "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
+            "a": 2,
             "maxSpawnGroupSize": 3
         },
         "ArchelonSpawnSettings": {
@@ -188,6 +200,20 @@
             "minSpawnGroupSize": 1,
             "maxSpawnGroupSize": 1,
             "maxIn256Region": 2
+        },
+       "FirebirdSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 1,
+            "spawnRandomChance": 2,
+            "spawnYCeiling": 50000,
+            "spawnYFloor": 60,
+            "chunkFreq": 0,
+            "chunkOffset": 0,
+            "spawnType": "village",
+            "minSpawnGroupSize": 1,
+            "maxSpawnGroupSize": 1,
+            "maxIn256Region": 1
         }
     },
     "mobConfig": {
@@ -225,7 +251,6 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "followOwner": false,
             "loudness": 75
         },
         "COURIER_BIRD": {
@@ -244,7 +269,6 @@
             "playerHostile": false,
             "fleeFromPlayer": true,
             "battleWithOwner": true,
-            "followOwner": false,
             "loudness": 100
         },
         "DIREWOLF": {
@@ -263,7 +287,6 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
             "loudness": 100
         },
         "DRAGON": {
@@ -282,8 +305,8 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
-            "loudness": 100
+            "loudness": 100,
+            "specialAbilitiesEnabled": true
         },
         "GRIFFON": {
             "health": 35,
@@ -301,7 +324,6 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
             "loudness": 50
         },
         "GECKOTOA": {
@@ -320,8 +342,8 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "followOwner": false,
-            "loudness": 50
+            "loudness": 50,
+            "specialAbilitiesEnabled": true
         },
         "MOTH": {
             "health": 10,
@@ -340,7 +362,24 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "followOwner": false,
+            "loudness": 100
+        },
+        "COLELYTRA": {
+            "health": 14,
+            "speed": 0.44999998807907104,
+            "attack": 2,
+            "inventorySize": 5,
+            "spawnCategory" : "ColelytraSpawnSettings",
+            "spawnBiomes": ["minecraft:mushroom_fields"],
+            "diet": "herbivore",
+            "tamingChance": 10,
+            "tamingItems": ["flowerItems","mushroomItems"],
+            "breedingItems": ["mushroomItems"],
+            "foodItems": ["flowerItems","mushroomItems"],
+            "hostileToMobs": [],
+            "playerHostile": false,
+            "fleeFromPlayer": false,
+            "battleWithOwner": false,
             "loudness": 100
         },
         "NETHER_BAT": {
@@ -359,7 +398,6 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
             "loudness": 100
         },
         "NUDIBRANCH": {
@@ -379,8 +417,8 @@
             "playerHostile": false,
             "fleeFromPlayer": false,
             "battleWithOwner": false,
-            "followOwner": false,
-            "loudness": 100
+            "loudness": 100,
+            "specialAbilitiesEnabled": true
         },
         "RIDING_LIZARD": {
             "health": 20,
@@ -398,7 +436,24 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
+            "loudness": 100
+        },
+        "FIREBIRD": {
+            "health": 20,
+            "speed": 0.44999998807907104,
+            "attack": 3,
+            "inventorySize": 3,
+            "spawnCategory" : "FirebirdSpawnSettings",
+            "spawnBiomes": ["all overworld"],
+            "diet": "herbivore",
+            "tamingChance": 10,
+            "tamingItems": ["golden_apple"],
+            "breedingItems": ["golden_apple"],
+            "foodItems": ["golden_apple"],
+            "hostileToMobs": [],
+            "playerHostile": false,
+            "fleeFromPlayer": false,
+            "battleWithOwner": true,
             "loudness": 100
         },
         "NIGHTMARE": {
@@ -417,7 +472,6 @@
             "playerHostile": true,
             "fleeFromPlayer": false,
             "battleWithOwner": true,
-            "followOwner": false,
             "loudness": 100
         }
     }

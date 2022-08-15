@@ -164,8 +164,8 @@
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:magic_missile"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          L-L-L\"}],\"translate\":\"book.arcanus.magic_missile.description\"}"]
+						spell: "arcanus:magic_missile"
 						title: "book.arcanus.magic_missile.title"
 						author: "book.arcanus.19.author"
 					}
@@ -192,8 +192,8 @@
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:arcane_barrier"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-R-L\"}],\"translate\":\"book.arcanus.arcane_barrier.description\"}"]
+						spell: "arcanus:arcane_barrier"
 						title: "book.arcanus.arcane_barrier.title"
 						author: "book.arcanus.06.author"
 					}
@@ -206,8 +206,8 @@
 				id: "minecraft:written_book"
 				Count: 1b
 				tag: {
-					spell: "arcanus:dream_warp"
 					pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+					spell: "arcanus:dream_warp"
 					title: "book.arcanus.dream_warp.title"
 					author: "book.arcanus.07.author"
 				}
@@ -229,8 +229,8 @@
 					id: "minecraft:written_book"
 					Count: 1b
 					tag: {
-						spell: "arcanus:dream_warp"
 						pages: ["{\"extra\":[{\"translate\":\"book.arcanus.casting_pattern\"},{\"text\":\"          R-L-R\"}],\"translate\":\"book.arcanus.dream_warp.description\"}"]
+						spell: "arcanus:dream_warp"
 						title: "book.arcanus.dream_warp.title"
 						author: "book.arcanus.07.author"
 					}

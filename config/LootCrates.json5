@@ -19,6 +19,7 @@
 	"ChestCratesKeepTheirInventory": false,
 	"LootBarrelsKeepTheirInventory": false,
 	"ShulkerCratesKeepTheirInventory": true,
+	"BlazingCratesCauseFire": true,
 	/* If all chests that generate during worldgen should be replaced by loot crates.
 	   This includes vanilla and modded structures. See the granular configuration in LootCratesWorldgenSettings.json5
 	   This is especially useful if you want new players to find treasure in structures that were

@@ -1,0 +1,37 @@
+{
+	id: "2D255A1ADDA34173"
+	group: "57DEFAC17E936D20"
+	order_index: 0
+	filename: "enoki"
+	title: "Enoki"
+	icon: "magicfungi:vivifica_mushroom"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "67FD1477B6E33338"
+			tasks: [{
+				id: "4FB996DF70F210B8"
+				type: "advancement"
+				icon: "magicfungi:vivifica_mushroom"
+				advancement: "enoki:choose_enoki"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["As Enoki is passive.. they make great tanks to absorb damage."]
+			id: "2EE895C4E7DDE632"
+			tasks: [{
+				id: "685AAFB02EDB0797"
+				type: "stat"
+				icon: "exlinefurniture:warped_window_heart"
+				stat: "minecraft:damage_absorbed"
+				value: 10000
+			}]
+		}
+	]
+}

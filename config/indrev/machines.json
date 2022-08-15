@@ -275,6 +275,12 @@
     "maxEnergyStored": 50000,
     "maxInput": 4096
   },
+  "dataCardWriter": {
+    "energyCost": 128,
+    "processSpeed": 100.0,
+    "maxEnergyStored": 2500,
+    "maxInput": 4096
+  },
   "drill": 256,
   "fishingMk2": {
     "energyCost": 8,

@@ -31,15 +31,7 @@
 		// Infection rate of your average every day zombie attacking a player
 		"ZOMBIEINFECTIONVALUE": 20,
 		// Infection rate of eating raw food
-		"RAWFOODINFECTIONVALUE": 10,
-		// Enables aerosolized infections, which allow zombies, heavily infected entities, and other entities that are infected to occasionally infect randomly, configurable by the other "AERIALRATE" configs in this group.
-		"AEROSOLIZEDINFECTION": false,
-		// Higher numbers reduces aerosol infection attempts from custom infected entities
-		"INFECTEDAERIALRATE": 5000,
-		// Higher numbers reduces aerosol infection attempts from zombies, and zombie-like mobs
-		"ZOMBIEAERIALRATE": 7500,
-		// Higher numbers reduces aerosol infection attempts from any entity with partial infections.
-		"COMMONAERIALRATE": 10000
+		"RAWFOODINFECTIONVALUE": 10
 	},
 	"playerSymptomProgression": {
 		// Changes when the first warning message for the infection will send
@@ -61,7 +53,7 @@
 		// Changes when players will start being damaged by the parasite
 		"EFFECTDAMAGE": 100,
 		// Changes when players will stop gaining infection when injected with a stablized sample.
-		"EFFECTIMPEDEMENT": 89
+		"EFFECTIMPEDIMENT": 89
 	},
 	"entityToggles": {
 		// Chance a newly generated, non-baby villager will be a follower intentionally carrying the Immortuos Calyx Parasite. Higher numbers increase rarity
@@ -97,7 +89,9 @@
 		// An alternative to blocking out chat entirely when infected. Will turn a player's chat to gibberish instead
 		"FORMATTEDINFECTCHAT": false,
 		// Enables a chance for the infection to turn a victim into an infected variant regardless of the reason of death, outside of extreme cases such as explosions.
-		"INFECTIONDEATH": true
+		"INFECTIONDEATH": true,
+		// Enables the voice chat module, which disabled voice chat when text chat is disabled via infection.
+		"VOICECHATSUPPORT": false
 	},
 	"dimensionsAndSpawnDetails": {
 		// The spawn weight of infected villagers. Higher is more frequent
@@ -108,8 +102,6 @@
 		"HUMAN": 5,
 		// EXPERIMENTAL! MUST BE ALL CHARACTERS FROM [a-z0-9/._-] OR THE GAME WILL CRASH. List the dimension names that you want the following configs to interact with. (e.g. the_bumblezone:the_bumblezone,minecraft:overworld)
 		"DIMENSIONALCLEANSE": "notadimension",
-		// Disables hostile mob aerosol infections in cleansed dimensions
-		"HOSTILEAEROSOLINFECTIONINCLEANSE": true,
 		// Disables hostile mob attack based infections in cleansed dimensions
 		"HOSTILEINFECTIONINCLEANSE": true,
 		// Disables player attack based infections in cleansed dimensions

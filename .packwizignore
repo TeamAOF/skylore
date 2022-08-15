@@ -1,9 +1,0 @@
-.git/**
-.gitattributes
-.gitignore
-packwiz.exe
-
-.DS_Store
-
-README.md
-LICENSE.md

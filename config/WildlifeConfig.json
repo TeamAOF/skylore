@@ -1,23 +1,29 @@
 {
     "globalSettings": {
-        "configVersion": 2,
+        "configVersion": 3,
         "printBiomes": false,
         "globalDebug": false,
-        "mobCap": 200,
+        "mobCap": 100,
         "mobCapRange": 192
     },
     "biomeGroups": {
         "deserts": ["mesa", "savanna", "desert"],
         "jungles": ["jungles"],
         "temperate": ["plains", "forest", "mushroom"],
-        "shores": ["beach", "minecraft:stony_shore"],
+        "shores": ["beach", "minecraft:stony_shore", "minecraft:beach"],
         "swamps": ["swamp"],
         "cold": ["mountain", "taiga", "extreme_hills"],
         "snowy": ["mountain", "icy"],
         "mountains": ["mountain", "extreme_hills"],
         "forests": ["forest", "mushroom", "taiga"],
         "warmForests": ["forest", "mushroom"],
-        "oldForests": ["Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Giant Tree Taiga Hills", "Giant Spruce Taiga Hills", "Giant Tree Taiga", "Giant Spruce Taiga"]
+        "oldForests": ["Old Growth Pine Taiga", "Old Growth Spruce Taiga", "Giant Tree Taiga Hills", "Giant Spruce Taiga Hills", "Giant Tree Taiga", "Giant Spruce Taiga"],
+        "freshWater": ["minecraft:river", "minecraft:swamp"],
+        "saltWater": ["ocean"],
+        "warmOcean": ["minecraft:deep_lukewarm_ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"],
+        "coldOcean": ["minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"],
+        "shallowOcean": ["minecraft:ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean","minecraft:lukewarm_ocean", "minecraft:warm_ocean"],
+        "deepOcean": ["minecraft:deep_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_cold_ocean","minecraft:deep_lukewarm_ocean"]
     },
     "itemGroups": {
         "flowerItems": ["sugar", "dandelion", "poppy", "blue_orchid", "allium", "azure_bluet", "red_tulip", "orange_tulip", "white_tulip", "pink_tulip", "oxeye_daisy", "cornflower", "lily_of_the_valley", "lilac", "rose_bush", "peony", "flowering_azalea_leaves"],
@@ -29,7 +35,7 @@
         "vegetableItems": ["potato", "carrot", "beetroot"],
         "fruitItems": ["sweet_berries", "melon_slice", "apple", "glow_berries"],
         "seaweedItems": ["seagrass", "kelp", "tall_seagrass"],
-        "fishItems": ["salmon", "cod", "tropical_fish", "pufferfish"],
+        "fishItems": ["salmon", "cod", "tropical_fish", "pufferfish", "wildlife.raw_anglerfish", "wildlife.raw_bettafish", "wildlife.raw_bluegill", "wildlife.raw_catfish", "wildlife.raw_goldfish", "wildlife.raw_prawn", "wildlife.raw_shrimp", "wildlife.raw_rainbow_trout"],
         "meatItems": ["rabbit", "chicken", "mutton", "beef", "porkchop", "egg"],
         "insectItems": ["wildlife:ant", "wildlife:cricket", "wildlife:dragonfly", "wildlife:glasswing_butterfly", "wildlife:monarch_butterfly", "wildlife:tiger_butterfly", "wildlife:spicebush_butterfly", "wildlife:morpho_butterfly", "wildlife:june_beetle", "wildlife:ladybug", "wildlife:rhino_beetle", "wildlife:snail", "wildlife:spider", "wildlife:staghorn_beetle", "wildlife:stickbug", "wildlife:sunflower_beetle"],
         "scavengerItems": ["egg", "rotten_flesh", "spider_eye"]
@@ -46,21 +52,92 @@
         "scavenger": ["scavengerItems", "vegetableItems", "fruitItems", "mushroomItems"],
         "oceanScavenger": ["seaweedItems", "scavengerItems", "fishItems", "vegetableItems"]
     },
-    "mobConfig": {
-        "SPARROW": {
+    "spawnCategories": {
+        "birdSpawnSettings": {
             "shouldSpawn": true,
             "spawnDebug": false,
-            "spawnBiomes": {
-                "biomeGroups": [],
-                "otherBiomeKeys": ["all"]
-            },
             "spawnWeight": 3,
             "spawnRandomChance": 50,
             "chunkFreq": 2,
             "chunkOffset": 0,
             "spawnType": "overworld",
             "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
+            "maxSpawnGroupSize": 4
+        },
+        "bugSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 3,
+            "spawnRandomChance": 50,
+            "chunkFreq": 2,
+            "chunkOffset": 1,
+            "spawnType": "overworld",
+            "minSpawnGroupSize": 2,
+            "maxSpawnGroupSize": 4
+        },
+        "smallAnimalSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 4,
+            "spawnRandomChance": 50,
+            "chunkFreq": 3,
+            "chunkOffset": 0,
+            "spawnType": "overworld",
+            "minSpawnGroupSize": 2,
+            "maxSpawnGroupSize": 4
+        },
+        "mediumAnimalSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 4,
+            "spawnRandomChance": 50,
+            "chunkFreq": 3,
+            "chunkOffset": 0,
+            "spawnType": "overworld",
+            "minSpawnGroupSize": 2,
+            "maxSpawnGroupSize": 4
+        },
+        "beachSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 40,
+            "spawnRandomChance": 100,
+            "chunkFreq": 1,
+            "chunkOffset": 0,
+            "spawnType": "overworld",
+            "minSpawnGroupSize": 4,
+            "maxSpawnGroupSize": 6
+        },
+        "seaFloorSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 30,
+            "spawnRandomChance": 100,
+            "chunkFreq": 1,
+            "chunkOffset": 0,
+            "spawnType": "water",
+            "minSpawnGroupSize": 2,
+            "maxSpawnGroupSize": 4
+        },
+        "fishSpawnSettings": {
+            "shouldSpawn": true,
+            "spawnDebug": false,
+            "spawnWeight": 50,
+            "spawnRandomChance": 100,
+            "chunkFreq": 1,
+            "chunkOffset": 0,
+            "spawnType": "water",
+            "minSpawnGroupSize": 3,
+            "maxSpawnGroupSize": 6
+        }
+    },
+    "mobConfig": {
+        "SPARROW": {
+            "spawnCategory" : "birdSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": [],
+                "otherBiomeKeys": ["all overworld"]
+            },
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -69,19 +146,11 @@
             }
         },
         "COTTONBIRD": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["mountains", "snowy"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -90,19 +159,11 @@
             }
         },
         "WHITE_EYE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -111,19 +172,11 @@
             }
         },
         "FLYCATCHER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -132,19 +185,11 @@
             }
         },
         "LARK": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": [],
-                "otherBiomeKeys": ["all"]
+                "otherBiomeKeys": ["all overworld"]
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -153,19 +198,11 @@
             }
         },
         "ROBIN": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -174,19 +211,11 @@
             }
         },
         "CHICKADEE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["forests", "cold", "snowy", "mountains"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -195,19 +224,11 @@
             }
         },
         "TOWHEE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["mountains", "snowy", "cold"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -216,19 +237,11 @@
             }
         },
         "WREN": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -237,19 +250,12 @@
             }
         },
         "MEADOWLARK": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts", "cold"],
                 "otherBiomeKeys": []
             },
             "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -258,19 +264,11 @@
             }
         },
         "ORIOLE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts", "jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -279,19 +277,11 @@
             }
         },
         "BLUEBIRD": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "mountains", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -300,19 +290,11 @@
             }
         },
         "GOLDFINCH": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "mountains", "cold"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -321,19 +303,11 @@
             }
         },
         "PHOEBE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "mountains", "cold", "snowy"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -342,19 +316,11 @@
             }
         },
         "SWALLOW": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "birdSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["swamps", "jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -363,19 +329,11 @@
             }
         },
         "CRICKET": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 3,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "loudness": 100,
             "breedingItems": {
@@ -384,19 +342,11 @@
             }
         },
         "GLASSWING_BUTTERFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["nectar"],
@@ -404,19 +354,11 @@
             }
         },
         "MONARCH_BUTTERFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "warmForests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["nectar"],
@@ -424,19 +366,11 @@
             }
         },
         "MORPHO_BUTTERFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["nectar"],
@@ -444,19 +378,11 @@
             }
         },
         "TIGER_BUTTERFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "warmForests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["nectar"],
@@ -464,19 +390,11 @@
             }
         },
         "SPICEBUSH_BUTTERFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["nectar"],
@@ -484,19 +402,11 @@
             }
         },
         "DRAGONFLY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 2,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["bug"],
@@ -504,19 +414,11 @@
             }
         },
         "LADYBUG": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["bug"],
@@ -524,19 +426,11 @@
             }
         },
         "SUNFLOWERBEETLE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["bug"],
@@ -544,19 +438,11 @@
             }
         },
         "ANT": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "deserts", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["bug"],
@@ -564,19 +450,11 @@
             }
         },
         "SPIDER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -584,19 +462,11 @@
             }
         },
         "SNAIL": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "Speed": 0.01,
             "breedingItems": {
@@ -605,19 +475,11 @@
             }
         },
         "STICKBUG": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -625,19 +487,11 @@
             }
         },
         "JUNEBEETLE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -645,19 +499,11 @@
             }
         },
         "RHINOBEETLE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -665,19 +511,11 @@
             }
         },
         "STAGHORNBEETLE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "bugSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "jungles", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 50,
-            "chunkFreq": 2,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -685,19 +523,12 @@
             }
         },
         "BADGER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["mountains", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 3,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
+            "isAggressive": true,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["omnivore"],
@@ -705,19 +536,12 @@
             }
         },
         "PORCUPINE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["mountains", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 2,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
+            "isAggressive": true,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["herbivore"],
@@ -725,19 +549,11 @@
             }
         },
         "BEAVER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["swamps"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["herbivore"],
@@ -745,19 +561,11 @@
             }
         },
         "ARMADILLO": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 3,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["scavenger"],
@@ -765,19 +573,11 @@
             }
         },
         "ANTEATER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts", "jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 2,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -785,19 +585,11 @@
             }
         },
         "POSSUM": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "mountains", "forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 3,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["scavenger"],
@@ -805,19 +597,11 @@
             }
         },
         "CAPYBARA": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 3,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 3,
-            "maxSpawnGroupSize": 5,
             "health": 15,
             "breedingItems": {
                 "itemGroups": ["grassItems", "vegetableItems", "fruitItems"],
@@ -825,19 +609,12 @@
             }
         },
         "BOAR": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["oldForests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 2,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 3,
+            "isAggressive": true,
             "health": 15,
             "breedingItems": {
                 "itemGroups": ["heartyHerbivore"],
@@ -845,19 +622,11 @@
             }
         },
         "DEER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["oldForests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 15,
             "breedingItems": {
                 "itemGroups": ["herbivore"],
@@ -865,19 +634,11 @@
             }
         },
         "MONKEY": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 15,
             "breedingItems": {
                 "itemGroups": ["fruitItems"],
@@ -885,19 +646,11 @@
             }
         },
         "IGUANA": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts","jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 4,
-            "spawnRandomChance": 100,
-            "chunkFreq": 3,
-            "chunkOffset": 1,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["leafyHerbivore","fruitItems"],
@@ -905,19 +658,11 @@
             }
         },
         "CRAB": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "beachSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["shores"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 40,
-            "spawnRandomChance": 100,
-            "chunkFreq": 1,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 4,
-            "maxSpawnGroupSize": 6,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["oceanScavenger"],
@@ -925,19 +670,11 @@
             }
         },
         "HERMITCRAB": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "beachSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["shores"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 40,
-            "spawnRandomChance": 100,
-            "chunkFreq": 1,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 4,
-            "maxSpawnGroupSize": 6,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["oceanScavenger"],
@@ -945,19 +682,11 @@
             }
         },
         "HEDGEHOG": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "smallAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate","forests"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 3,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 3,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["insectItems", "heartyHerbivore"],
@@ -965,19 +694,11 @@
             }
         },
         "FERRET": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "smallAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["temperate", "mountains", "forests", "cold","snowy"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 1,
-            "maxSpawnGroupSize": 2,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["carnivore"],
@@ -985,19 +706,11 @@
             }
         },
         "HAMSTER": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "smallAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["seedItems", "heartyHerbivore"],
@@ -1005,19 +718,11 @@
             }
         },
         "CHAMELEON": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "smallAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts", "jungles"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 2,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 7,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -1025,19 +730,11 @@
             }
         },
         "GECKO": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "smallAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["deserts", "jungles", "temperate"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 3,
-            "spawnRandomChance": 100,
-            "chunkFreq": 3,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 2,
-            "maxSpawnGroupSize": 4,
             "health": 4,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -1045,19 +742,11 @@
             }
         },
         "GRASS_SNAKE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles", "temperate"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 2,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 1,
-            "maxSpawnGroupSize": 2,
             "health": 8,
             "breedingItems": {
                 "itemGroups": ["insectItems"],
@@ -1065,19 +754,11 @@
             }
         },
         "KING_SNAKE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles", "temperate", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 2,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 1,
-            "maxSpawnGroupSize": 2,
             "health": 10,
             "breedingItems": {
                 "itemGroups": ["carnivore"],
@@ -1085,19 +766,11 @@
             }
         },
         "MILK_SNAKE": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 2,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 1,
-            "maxSpawnGroupSize": 2,
             "health": 8,
             "breedingItems": {
                 "itemGroups": ["insectItems","carnivore"],
@@ -1105,22 +778,267 @@
             }
         },
         "PYTHON": {
-            "shouldSpawn": true,
-            "spawnDebug": false,
+            "spawnCategory" : "mediumAnimalSpawnSettings",
             "spawnBiomes": {
                 "biomeGroups": ["jungles", "swamps", "deserts"],
                 "otherBiomeKeys": []
             },
-            "spawnWeight": 2,
-            "spawnRandomChance": 100,
-            "chunkFreq": 4,
-            "chunkOffset": 0,
-            "spawnType": "overworld",
-            "minSpawnGroupSize": 1,
-            "maxSpawnGroupSize": 2,
             "health": 15,
             "breedingItems": {
                 "itemGroups": ["carnivore"],
+                "otherItemKeys": []
+            }
+        },
+        "ALLIGATOR": {
+            "spawnCategory" : "mediumAnimalSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["jungles", "swamps", "deserts"],
+                "otherBiomeKeys": []
+            },
+            "isAggressive": true,
+            "health": 25,
+            "breedingItems": {
+                "itemGroups": ["carnivore"],
+                "otherItemKeys": []
+            }
+        },
+        "BLUEGILL": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "CATFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "RAINBOW_TROUT": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "KOI": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "BETTAFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "GOLDFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["insectItems"],
+                "otherItemKeys": []
+            }
+        },
+        "PRAWN": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["freshWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "SHRIMP": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["saltWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "ANGLERFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["deepOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "JELLYFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["saltWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "GLOW_JELLYFISH": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["deepOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "SEAHORSE": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["warmOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "STINGRAY": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["warmOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "MANTARAY": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["warmOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "HAMMERHEAD_SHARK": {
+            "spawnCategory" : "fishSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["warmOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 3,
+            "breedingItems": {
+                "itemGroups": ["fishItems"],
+                "otherItemKeys": []
+            }
+        },
+        "CLAM": {
+            "spawnCategory" : "seaFloorSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["shores", "saltWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 10,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "SEAURCHIN": {
+            "spawnCategory" : "seaFloorSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["shores", "saltWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 10,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "STARFISH": {
+            "spawnCategory" : "seaFloorSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["shores", "saltWater"],
+                "otherBiomeKeys": []
+            },
+            "health": 10,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "HORSESHOE_CRAB": {
+            "spawnCategory" : "seaFloorSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["shores","shallowOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 10,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
+                "otherItemKeys": []
+            }
+        },
+        "SANDDOLLAR": {
+            "spawnCategory" : "seaFloorSpawnSettings",
+            "spawnBiomes": {
+                "biomeGroups": ["shores", "shallowOcean"],
+                "otherBiomeKeys": []
+            },
+            "health": 10,
+            "breedingItems": {
+                "itemGroups": ["oceanScavenger"],
                 "otherItemKeys": []
             }
         }

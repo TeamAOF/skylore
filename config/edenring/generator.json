@@ -27,6 +27,6 @@
   "biomes": {
     "landBiomeSize [default: 256]": 256,
     "voidBiomeSize [default: 256]": 256,
-    "caveBiomeSize [default: 64]": 64
+    "caveBiomeSize [default: 128]": 128
   }
 }

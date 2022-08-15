@@ -1,0 +1,36 @@
+{
+	id: "5DD19D2786FEBF1B"
+	group: "38D73AD51340A19B"
+	order_index: 8
+	filename: "pilot"
+	title: "Pilot"
+	icon: "artis:flight_planner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Pilot"
+			icon: "artis:flight_planner"
+			x: -5.0d
+			y: -1.0d
+			id: "488024A6FE0CECFC"
+			tasks: [{
+				id: "53F55BACA427A5F7"
+				type: "professions:profession"
+				prof: "professions:pilot"
+				action: "JOIN"
+				level: -1
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			id: "49A9D6585EE3151F"
+			tasks: [{
+				id: "305A30F2F8AE323D"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+	]
+}

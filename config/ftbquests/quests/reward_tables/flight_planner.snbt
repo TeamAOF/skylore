@@ -1,0 +1,7 @@
+{
+	id: "273222AC79F33AA5"
+	order_index: 12
+	title: "flight planner"
+	loot_size: 1
+	rewards: [{ item: "artis:flight_planner" }]
+}

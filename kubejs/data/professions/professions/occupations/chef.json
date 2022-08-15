@@ -1,0 +1,2125 @@
+{
+  "type": "professions:default",
+  "actions": [
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_helmet"
+      ],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "rewards": [
+        {
+          "amount": 16.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 16.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_leggings"
+      ],
+      "rewards": [
+        {
+          "amount": 14.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 14.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_boots"
+      ],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_sword"
+      ],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_shovel"
+      ],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_pickaxe"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_axe"
+      ],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [],
+      "items": [
+        "minecraft:diamond_chestplate"
+      ],
+      "rewards": [
+        {
+          "amount": 16.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 16.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:protection#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:protection#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:protection#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:protection#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_protection#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_protection#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_protection#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_protection#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:feather_falling#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:feather_falling#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:feather_falling#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:feather_falling#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:blast_protection#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:blast_protection#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:blast_protection#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:blast_protection#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:projectile_protection#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:projectile_protection#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:projectile_protection#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:projectile_protection#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:respiration#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:respiration#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:respiration#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:aqua_affinity#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:thorns#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:thorns#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:thorns#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:depth_strider#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:depth_strider#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:depth_strider#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sharpness#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sharpness#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sharpness#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sharpness#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sharpness#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:smite#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:smite#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:smite#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:smite#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:smite#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:bane_of_arthropods#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:bane_of_arthropods#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:bane_of_arthropods#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:bane_of_arthropods#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:bane_of_arthropods#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:knockback#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:knockback#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_aspect#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fire_aspect#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:looting#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:looting#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:looting#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sweeping#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sweeping#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:sweeping#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:efficiency#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:efficiency#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:efficiency#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:efficiency#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:efficiency#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:silk_touch#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:unbreaking#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:unbreaking#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:unbreaking#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fortune#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fortune#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:fortune#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:power#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:power#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:power#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:power#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:power#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:punch#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:punch#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:flame#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:infinity#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:luck_of_the_sea#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:luck_of_the_sea#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:luck_of_the_sea#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:lure#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:lure#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:lure#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:loyalty#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:loyalty#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:loyalty#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:impaling#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:impaling#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:impaling#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:impaling#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:impaling#5"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 10.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 10.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:riptide#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:riptide#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:riptide#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:channeling#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:multishot#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:quick_charge#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:quick_charge#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:quick_charge#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:piercing#1"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 2.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 2.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:piercing#2"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 4.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 4.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:piercing#3"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 6.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 6.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:enchant",
+      "conditions": [],
+      "enchants": [
+        "minecraft:piercing#4"
+      ],
+      "items": [],
+      "rewards": [
+        {
+          "amount": 8.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 8.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    }
+  ],
+  "color": "#ff8121",
+  "description": [
+    "Earn money and experience",
+    "by dealing with foodstuffs."
+  ],
+  "descriptionColor": "#FFFFFF",
+  "displayName": "Chef",
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "maxLevel": 100,
+  "unlocks": []
+}

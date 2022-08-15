@@ -1,0 +1,94 @@
+{
+  // Welcome to Mo'Structures Config!
+  //
+  //   Take a break, rest a while, enjoy the scenery! No? Oh, well.
+  //
+  //   Here, you can turn off structures and change their generation pattern.
+  //   Since 1.4.1+1.18.2, you can also edit these values in datapacks.
+  //   However, this Config was brought back so you can easily edit these values.
+  //   It is important to note you can edit what biomes these structures spawn in
+  //   using datapacks if you want to have that configuration option.
+  //
+  //   To turn off a structure, simply go to the corresponding entry and set `activated` to false.
+  //
+  //   Mo' Structures uses the vanilla structure spawning system. That is-
+  //   - Separation is the minimum chunks between structures
+  //   - Spacing is the average chunks between structures
+  "structureConfigEntries": {
+    "villager_tower": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 100
+    },
+    "lighthouse": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    },
+    "air_balloon": {
+      "activated": true,
+      "separation": 10,
+      "spacing": 100
+    },
+    "killer_bunny_castle": {
+      "activated": true,
+      "separation": 22,
+      "spacing": 100
+    },
+    "jungle_pyramid": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    },
+    "abandoned_church": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    },
+    "barn_house": {
+      "activated": true,
+      "separation": 13,
+      "spacing": 100
+    },
+    "pirate_ship": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    },
+    "tavern": {
+      "activated": true,
+      "separation": 13,
+      "spacing": 100
+    },
+    "moai": {
+      "activated": true,
+      "separation": 15,
+      "spacing": 100
+    },
+    "the_castle_in_the_sky": {
+      "activated": true,
+      "separation": 15,
+      "spacing": 100
+    },
+    "ice_tower": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    },
+    "villager_market": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 100
+    },
+    "big_pyramid": {
+      "activated": true,
+      "separation": 16,
+      "spacing": 100
+    },
+    "pillager_factory": {
+      "activated": true,
+      "separation": 14,
+      "spacing": 100
+    }
+  }
+}

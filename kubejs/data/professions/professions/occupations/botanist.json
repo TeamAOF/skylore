@@ -1,0 +1,147 @@
+{
+  "type": "professions:default",
+  "actions": [
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "#minecraft:crops"
+      ],
+      "conditions": [
+        {
+          "condition": "professions:crop_fully_grown"
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1.0,
+          "reward": "professions:occupation_exp"
+        },
+        {
+          "amount": 1.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "minecraft:cocoa"
+      ],
+      "conditions": [
+        {
+          "condition": "professions:block_state_matches_any",
+          "properties": {
+            "age": "2"
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "amount": 1.0,
+          "reward": "professions:occupation_exp"
+        },
+        {
+          "amount": 1.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "minecraft:sugar_cane"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 0.75,
+          "reward": "professions:occupation_exp"
+        },
+        {
+          "amount": 0.75,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        }
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "blocks": [
+        "minecraft:melon",
+        "minecraft:pumpkin"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 1.3,
+          "reward": "professions:occupation_exp"
+        },
+        {
+          "amount": 1.3,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        }
+      ]
+    },
+    {
+      "action": "professions:place_block",
+      "blocks": [
+        "#minecraft:crops",
+        "minecraft:cocoa"
+      ],
+      "conditions": [],
+      "rewards": [
+        {
+          "amount": 0.85,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 0.85,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    },
+    {
+      "action": "professions:breed",
+      "conditions": [],
+      "entities": [
+        "minecraft:pig",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:sheep",
+        "minecraft:rabbit",
+        "minecraft:llama",
+        "minecraft:turtle",
+        "minecraft:ocelot",
+        "minecraft:wolf",
+        "minecraft:chicken",
+        "minecraft:horse"
+      ],
+      "rewards": [
+        {
+          "amount": 5.0,
+          "reward": "professions:occupation_exp"
+        },
+        {
+          "amount": 5.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        }
+      ]
+    }
+  ],
+  "color": "#39822b",
+  "description": [
+    "Earn money and experience",
+    "by working with plants."
+  ],
+  "descriptionColor": "#FFFFFF",
+  "displayName": "Botanist",
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "maxLevel": 100,
+  "unlocks": []
+}

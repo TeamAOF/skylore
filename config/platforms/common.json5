@@ -1,4 +1,11 @@
 {
+	/* Sets Frame climbing behaviour 
+	   NONE: Can not be climbed 
+	   LADDER: Ascend via walking. Descends automatically. Sneak holds position. 
+	   SCAFFOLD: Ascend via jumping. Descend via sneaking. Automatically holds position. 
+	   HYBRID: Ascend via walking. Descend via sneaking. Automatically holds position.
+	*/
+	"frame_climb_mode": "HYBRID",
 	// Craft Output Control
 	"CRAFTING": {
 		/* Multiplies the craft amount by the given value if a 'compressed' block is used (2x value if two are used) 

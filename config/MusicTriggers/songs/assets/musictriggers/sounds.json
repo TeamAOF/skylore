@@ -1,0 +1,86 @@
+{
+  "music.skylore-ambient1": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-ambient1",
+			"stream": true
+		}]
+	},
+  "music.skylore-bossfight": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-bossfight",
+			"stream": true
+		}]
+	},
+  "music.skylore-checkitout": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-checkitout",
+			"stream": true
+		}]
+	},
+  "music.skylore-intro-extended": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-intro-extended",
+			"stream": true
+		}]
+	},
+  "music.skylore-keep_it_going": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-keep_it_going",
+			"stream": true
+		}]
+	},
+  "music.skylore-this_means_war": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore-this_means_war",
+			"stream": true
+		}]
+	},
+  "music.skyloremcdazing": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skyloremcdazing",
+			"stream": true
+		}]
+	},
+  "music.skylorerootytootyfreshnfruity": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylorerootytootyfreshnfruity",
+			"stream": true
+		}]
+	},
+  "music.skylore_-_boss_step": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore_-_boss_step",
+			"stream": true
+		}]
+	},
+  "music.skylore_-_desert_temptation": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore_-_desert_temptation",
+			"stream": true
+		}]
+	},
+  "music.skylore_-_monster's_brain": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore_-_monster's_brain",
+			"stream": true
+		}]
+	},
+  "music.skylore_-_out_there": {
+		"category": "music",
+		"sounds": [{
+			"name": "musictriggers:music/skylore_-_out_there",
+			"stream": true
+		}]
+	}
+}

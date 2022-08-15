@@ -1,5 +1,4 @@
 {
-  "scale":1.5,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,12 +11,15 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-    "surface_builder": "skylore:skylore_air",
-  "carvers": {
-    "air": [
-	  "skylore:deeper_ravine"
+  "carvers": {    
+"air": [
+"minecraft:canyon",
+"minecraft:canyon",
+"minecraft:canyon",
+"minecraft:canyon",
+"minecraft:canyon"
     ]
-  },
+},
   "features": [
     [],
     [],
@@ -26,29 +28,26 @@
     [],
     [],
     [],
-    [
-	"skylore:void_stone"
-	],
+    [],
+    [],
     [],
     [
-      "minecraft:freeze_top_layer",
+      "minecraft:void_start_platform"
     ]
-  ],
-  "starts": [
   ],
   "spawners": {
     "monster": [],
     "creature": [],
     "ambient": [],
-	"water_ambient": [],
-    "misc": [],
-    "underground_water_creature": []
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "rain",
+  "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "ocean",
-  "depth": 2.0
+  "category": "none"
 }

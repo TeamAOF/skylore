@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"dina:lae/stats",
+		"dina:lae/glow",
+		"dina:lae/size",
+		"dina:lae/sun",
+		"dina:lae/berries"
+	],
+	"icon": "minecraft:glow_berries",
+	"impact": 3,
+	"name": "§6§l§oLaevis",
+	"description": "The 'Laevis' are a sub species of Indrevian. These are the sect of society of Indrevians that did not accept 'Indrev' as a savior of their species. Therefore did not accept technology as a main means of living life. Before the Indrevians met the Fortis, the Laevis set out into the universe to find a new home. Only to find Atmos instead. The Laevis upon coming to Atmos, centering around organics, discovered the glow berry and it’s properties."
+}

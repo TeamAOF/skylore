@@ -7,28 +7,669 @@
 	icon: "observed:observereye"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 16.5d
-		y: -3.5d
-		description: [
-			"Company behind Modern Industrialization machines is “Meta Industries”."
-			""
-			"Due to their claims of a new life, their hiring campaign was one of the most successful after creating a VR drone game that allowed 5 year olds to mine asteroids for \"coins\" this was further brought into the the real world when they convinced the world through misinformation that \"coin\" culture was the future."
-			""
-			"This convinced the galaxy, along with genetic modification, was the future and every citizen was implanted with a connection to the “Meta Industries Market” or MIM. Albeit this implant can track your location to the nearest millimeter, strict galactic law prohibits MI from sharing this information except to the drones that drop the supplies."
-		]
-		id: "4F4F36A8F18CAE0A"
-		tasks: [{
-			id: "724F15998BA1EBD1"
-			type: "checkmark"
-			title: "Meta Industries Market"
-		}]
-		rewards: [{
-			id: "75F87F55D0036321"
-			type: "custom"
-			title: "A Galactic Market"
-			icon: "blockus:stars_block"
-			auto: "disabled"
-		}]
-	}]
+	quests: [
+		{
+			x: 47.0d
+			y: 6.0d
+			description: [
+				"Company behind Modern Industrialization machines is “Meta Industries”."
+				""
+				"Due to their claims of a new life, their hiring campaign was one of the most successful after creating a VR drone game that allowed 5 year olds to mine asteroids for \"coins\" this was further brought into the the real world when they convinced the world through misinformation that \"coin\" culture was the future."
+				""
+				"This convinced the galaxy, along with genetic modification, was the future and every citizen was implanted with a connection to the “Meta Industries Market” or MIM. Albeit this implant can track your location to the nearest millimeter, strict galactic law prohibits MI from sharing this information except to the drones that drop the supplies."
+			]
+			id: "4F4F36A8F18CAE0A"
+			tasks: [{
+				id: "724F15998BA1EBD1"
+				type: "checkmark"
+				title: "Meta Industries Market"
+			}]
+			rewards: [{
+				id: "75F87F55D0036321"
+				type: "custom"
+				title: "A Galactic Market"
+				icon: "blockus:stars_block"
+				auto: "disabled"
+			}]
+		}
+		{
+			title: "Steak Sandwhich"
+			icon: "valley:steak_sandwich"
+			disable_toast: true
+			x: 46.0d
+			y: 6.0d
+			id: "61FD7464336B1D37"
+			tasks: [{
+				id: "7F7DC5F29A1898DB"
+				type: "item"
+				item: "createdeco:zinc_coin"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "28B6E5FB85CA9993"
+				type: "questsadditions:repeat"
+				table_id: 9165758987583298493L
+			}]
+		}
+		{
+			title: "Fish Taco"
+			icon: "tacocraft:fish_taco"
+			x: 45.0d
+			y: 6.0d
+			id: "43DB2EED9B29DEBA"
+			tasks: [{
+				id: "5BD120AFFDB5B9D5"
+				type: "item"
+				item: "createdeco:copper_coin"
+				count: 50L
+			}]
+			rewards: [{
+				id: "6260A5C82B2A658E"
+				type: "questsadditions:repeat"
+				table_id: 310880292066309209L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 10.5d
+			id: "083370A787324726"
+			tasks: [{
+				id: "036136400724FC2F"
+				type: "checkmark"
+				title: "Mechanic"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -4.5d
+			id: "5E93103C62570714"
+			tasks: [{
+				id: "31AB1D32F47CDCE1"
+				type: "checkmark"
+				title: "Botanist"
+			}]
+		}
+		{
+			title: "Security Officer"
+			x: 17.5d
+			y: 18.0d
+			id: "0FD5C494947D0F15"
+			tasks: [{
+				id: "4EE06A9ED1772138"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -2.0d
+			id: "4B3A52245B1AF2FF"
+			tasks: [{
+				id: "7362581DEC85E0A7"
+				type: "checkmark"
+				title: "Captain"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			id: "0D6FE0F549B771A9"
+			tasks: [{
+				id: "38C6976E93997782"
+				type: "checkmark"
+				title: "Chef"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 3.0d
+			id: "2F0D104B6A0BAF06"
+			tasks: [{
+				id: "347019DFE85C1C7C"
+				type: "checkmark"
+				title: "Doctor"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 5.5d
+			id: "5A051AF315174C4D"
+			tasks: [{
+				id: "7D4C199B03C689E3"
+				type: "checkmark"
+				title: "Engineer"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 8.0d
+			id: "74131FDEFAE0152F"
+			tasks: [{
+				id: "370656D917EB3DCB"
+				type: "checkmark"
+				title: "Geologist"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 13.0d
+			id: "3A95D65834FDD62A"
+			tasks: [{
+				id: "7F14611035621F3E"
+				type: "checkmark"
+				title: "Navigator"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 15.5d
+			id: "6D0F841C17985968"
+			tasks: [{
+				id: "6F88AE8DF8A2DE77"
+				type: "checkmark"
+				title: "Pilot"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -4.5d
+			id: "773F4CFA48708959"
+			tasks: [{
+				id: "01511ACB93201C5A"
+				type: "professions:profession"
+				title: "Botanist Level 10"
+				prof: "professions:botanist"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			title: "Captain Level 10"
+			x: 19.0d
+			y: -2.0d
+			id: "6AB16DF4A520F487"
+			tasks: [{
+				id: "0F42B09B213A4280"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			title: "Chef Level 10"
+			x: 19.0d
+			y: 0.5d
+			id: "2EF7547840533FEA"
+			tasks: [{
+				id: "41CFE8AFBC921D53"
+				type: "professions:profession"
+				prof: "professions:chef"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 3.0d
+			id: "243FAB8389807DF3"
+			tasks: [{
+				id: "2962480060AEB483"
+				type: "professions:profession"
+				title: "Doctor Level 10"
+				prof: "professions:doctor"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 5.5d
+			id: "33D621C5EC1AEA53"
+			tasks: [{
+				id: "18DA81216CCFE7B6"
+				type: "professions:profession"
+				title: "Engineer Level 10"
+				prof: "professions:engineer"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 8.0d
+			id: "1E789C81D72F9430"
+			tasks: [{
+				id: "14B1FFA8B723988C"
+				type: "professions:profession"
+				title: "Geologist Level 10"
+				prof: "professions:geologist"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 10.5d
+			id: "697B083ACDD99B29"
+			tasks: [{
+				id: "64F3976120FC5423"
+				type: "professions:profession"
+				title: "Mechanic Level 10"
+				prof: "professions:mechanic"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			title: "Navigator Level 10"
+			x: 19.0d
+			y: 13.0d
+			id: "0EB80C6EBD6E5619"
+			tasks: [{
+				id: "0522AAEC5D66C8CB"
+				type: "professions:profession"
+				prof: "professions:navigator"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 15.5d
+			id: "18F585890A3D4CFA"
+			tasks: [{
+				id: "08C0294CBA1EF24B"
+				type: "professions:profession"
+				title: "Pilot Level 10"
+				prof: "professions:pilot"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 19.0d
+			y: 18.0d
+			id: "0BF777317BED5ADB"
+			tasks: [{
+				id: "46526524D6FECC13"
+				type: "professions:profession"
+				title: "Security Officer Level 10"
+				prof: "professions:security_officer"
+				action: "JOIN"
+				level: 10
+			}]
+		}
+		{
+			x: 21.0d
+			y: -4.5d
+			id: "3DCC0B380CBCACE1"
+			tasks: [{
+				id: "48B4EC78B8ECE344"
+				type: "professions:profession"
+				prof: "professions:botanist"
+				action: "JOIN"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: -4.5d
+			id: "62362B895C0F4C0E"
+			tasks: [{
+				id: "49EC9316C505B95D"
+				type: "professions:profession"
+				prof: "professions:botanist"
+				action: "JOIN"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: -4.5d
+			id: "4A96EC105A4269EB"
+			tasks: [{
+				id: "1AE067C9867F691C"
+				type: "professions:profession"
+				prof: "professions:botanist"
+				action: "JOIN"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: -2.0d
+			id: "1CD2F19929E63FD7"
+			tasks: [{
+				id: "0511DA9472EB5E78"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: -2.0d
+			id: "18F063C664AE7A31"
+			tasks: [{
+				id: "79FDC5B8D951859C"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "JOIN"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: -2.0d
+			id: "363D492963E3B03F"
+			tasks: [{
+				id: "17C059A96B0327AB"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "JOIN"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 0.5d
+			id: "24A9669E88117170"
+			tasks: [{
+				id: "299ED235F45823D3"
+				type: "professions:profession"
+				prof: "professions:chef"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 0.5d
+			id: "6357B1623AC26219"
+			tasks: [{
+				id: "399962F8F2A3DA4F"
+				type: "professions:profession"
+				prof: "professions:chef"
+				action: "JOIN"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 0.5d
+			id: "79FE58D2471F2279"
+			tasks: [{
+				id: "21109DA9B59DDD73"
+				type: "professions:profession"
+				prof: "professions:chef"
+				action: "JOIN"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 3.0d
+			id: "4CF6F88E84178FA0"
+			tasks: [{
+				id: "6885D1087D050E1F"
+				type: "professions:profession"
+				prof: "professions:doctor"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 3.0d
+			id: "36A4A6AE5D1389DC"
+			tasks: [{
+				id: "78547F9206EF66C5"
+				type: "professions:profession"
+				prof: "professions:doctor"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 3.0d
+			id: "05568443D77BA548"
+			tasks: [{
+				id: "1E7E9FF2A1093E14"
+				type: "professions:profession"
+				prof: "professions:doctor"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 5.5d
+			id: "3E2A5F819B12DC4D"
+			tasks: [{
+				id: "706A3C7F7B34C0A0"
+				type: "professions:profession"
+				prof: "professions:engineer"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 5.5d
+			id: "470FBF35B8509F12"
+			tasks: [{
+				id: "72DD8664DA8C9901"
+				type: "professions:profession"
+				prof: "professions:engineer"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 5.5d
+			id: "75940C2B4D606676"
+			tasks: [{
+				id: "32ED2DBB861FF443"
+				type: "professions:profession"
+				prof: "professions:engineer"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 8.0d
+			id: "58DA22C63BD8C642"
+			tasks: [{
+				id: "50D0ECFF5C176FAC"
+				type: "professions:profession"
+				prof: "professions:geologist"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 8.0d
+			id: "4A6A52CA7A4472BA"
+			tasks: [{
+				id: "68116136A41C73F4"
+				type: "professions:profession"
+				prof: "professions:geologist"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 8.0d
+			id: "35256CE9C89543C1"
+			tasks: [{
+				id: "29DF1C443F786D7B"
+				type: "professions:profession"
+				prof: "professions:geologist"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 10.5d
+			id: "538427434FABAC05"
+			tasks: [{
+				id: "29DE1F56A7B4B014"
+				type: "professions:profession"
+				prof: "professions:mechanic"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 10.5d
+			id: "10F0D6751CFED6A5"
+			tasks: [{
+				id: "08496472D388B38D"
+				type: "professions:profession"
+				prof: "professions:mechanic"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 10.5d
+			id: "666367DB8B12CEDD"
+			tasks: [{
+				id: "34FBC63B88D23810"
+				type: "professions:profession"
+				prof: "professions:mechanic"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 13.0d
+			id: "0B4AFD0469682A3F"
+			tasks: [{
+				id: "7AFE9D6607845368"
+				type: "professions:profession"
+				prof: "professions:navigator"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 23.0d
+			y: 13.0d
+			id: "3016C9605B2B5EB2"
+			tasks: [{
+				id: "13A40396E13004EF"
+				type: "professions:profession"
+				prof: "professions:navigator"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 13.0d
+			id: "7F2641592E541C7D"
+			tasks: [{
+				id: "0B41FB1A6BCD5768"
+				type: "professions:profession"
+				prof: "professions:navigator"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 15.5d
+			id: "2A2372B14A019AE7"
+			tasks: [{
+				id: "1F18D70412345DA0"
+				type: "professions:profession"
+				prof: "professions:pilot"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 15.5d
+			id: "21669CC85DC64B62"
+			tasks: [{
+				id: "3BA35226DA49735E"
+				type: "professions:profession"
+				prof: "professions:pilot"
+				action: "JOIN"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 15.5d
+			id: "457FB3799B59AF63"
+			tasks: [{
+				id: "3D9E4391F78F86B5"
+				type: "professions:profession"
+				prof: "professions:pilot"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 21.0d
+			y: 18.0d
+			id: "160848907A4CD814"
+			tasks: [{
+				id: "3C6139C94F3AA771"
+				type: "professions:profession"
+				prof: "professions:security_officer"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			x: 23.0d
+			y: 18.0d
+			id: "61740D7E131EA02F"
+			tasks: [{
+				id: "15DF7C21B3A2748B"
+				type: "professions:profession"
+				prof: "professions:security_officer"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			x: 25.0d
+			y: 18.0d
+			id: "75AE1584F8F514D2"
+			tasks: [{
+				id: "732F9A7113C22E94"
+				type: "professions:profession"
+				prof: "professions:security_officer"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: 48.0d
+			y: 6.0d
+			id: "7DFC6A0548CFE1D9"
+			tasks: [{
+				id: "58D28E8EB5EF1F5F"
+				type: "item"
+				item: "createdeco:copper_coin"
+				count: 10L
+			}]
+		}
+	]
 }

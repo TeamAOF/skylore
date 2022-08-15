@@ -1,0 +1,7 @@
+{
+  "enableGloves": false,
+  "slownessLevel": 2,
+  "hungerExhaustion": 0.05,
+  "type": "BLACKLIST",
+  "list": []
+}

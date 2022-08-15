@@ -1,0 +1,62 @@
+{
+    "name": "§e§nGenetic Mutation",
+    "description": "During the day your size is large, during the night your size is small.",
+    "type": "origins:multiple",
+    "big": {
+        "condition": {
+            "type": "origins:daytime"
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle item glow_berries ~ ~0.5 ~ 0.25 0.25 0.25 0 10"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 1.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 1.5 @s"
+                }
+            ]
+        }
+    },
+    "smol": {
+        "condition": {
+            "inverted": true,
+            "type": "origins:daytime"
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle item glow_berries ~ ~0.5 ~ 0.25 0.25 0.25 0 10"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:height 0.5 @s"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale set pehkui:width 0.5 @s"
+                }
+            ]
+        }
+    },
+    "reset": {
+        "type": "origins:action_on_callback",
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "scale reset @s",
+            "permission_level": 4
+        }
+    }
+}

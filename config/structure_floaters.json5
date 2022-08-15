@@ -13,12 +13,12 @@
 	"removeStructurePillars": true,
 	/*  Attempts to move structure to a specific height. Only applies if removeWorldBottomStructures is false.
 	*/
-	"snapStructureToHeight": 50,
-	/*  structures to ignore modifying the height of
+	"snapStructureToHeight": 81,
+	/*  Configured structures to ignore modifying the height of.
 	*/
-	"structureToIgnore": "minecraft:stronghold,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument",
-	/*  Raises up the pieces of the structure to the snapStructureToHeight without affecting the pieces already or above snapStructureToHeight.
+	"configuredStructures": "minecraft:stronghold,minecraft:mineshaft_mesa,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument",
+	/*  Raises up the pieces of the configured structure to the snapStructureToHeight without affecting the pieces already or above snapStructureToHeight.
 	    Think villages where each house is separate from each other and can be at different heights.
 	*/
-	"structureToRaiseEachPieceSeparately": "minecraft:village,minecraft:pillager_outpost"
+	"configuredStructuresToRaiseEachPieceSeparately": "minecraft:village_taiga,minecraft:village_savanna,minecraft:village_desert,minecraft:village_plains,minecraft:village_snowy,minecraft:pillager_outpost"
 }

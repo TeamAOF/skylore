@@ -1,6 +1,7 @@
 {
 	  "powers": [
-    "botanist:botanist_bench"
+    "botanist:botanist_bench",
+	"botanist:botanist_profession"
   ],
   "icon": "artis:botanist_bench",
   "name": "Botanist",

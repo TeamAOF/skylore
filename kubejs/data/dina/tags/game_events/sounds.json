@@ -1,0 +1,32 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:step",
+		"minecraft:flap",
+		"minecraft:swim",
+		"minecraft:hit_ground",
+		"minecraft:block_change",
+		"minecraft:splash",
+		"minecraft:projectile_shoot",
+		"minecraft:projectile_land",
+		"minecraft:eat",
+		"minecraft:equip",
+		"minecraft:shear",
+		"minecraft:block_close",
+		"minecraft:block_detach",
+		"minecraft:dispense_fail",
+		"minecraft:block_open",
+		"minecraft:block_attach",
+		"minecraft:block_place",
+		"minecraft:entity_place",
+		"minecraft:fluid_place",
+		"minecraft:block_destroy",
+		"minecraft:fluid_pickup",
+		"minecraft:container_close",
+		"minecraft:piston_contract",
+		"minecraft:container_open",
+		"minecraft:explode",
+		"minecraft:lightning_strike",
+		"minecraft:piston_extend"
+	]
+}

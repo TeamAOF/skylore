@@ -6,9 +6,9 @@
   "automaton:automaton",
   "enoki:enoki",
   "beryl:beryl",
-  "laevis:laevis",
+  "dina:laevis",
   "human:human",
-  "tenebris:tenebris"
+  "dina:tenebris"
   ],
   "name": "Species"
 }

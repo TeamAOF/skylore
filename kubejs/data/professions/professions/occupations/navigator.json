@@ -1,0 +1,39 @@
+{
+  "type": "professions:default",
+  "actions": [
+    {
+      "action": "professions:catch_fish",
+      "conditions": [],
+      "items": [
+        "minecraft:cod",
+        "minecraft:salmon",
+        "minecraft:tropical_fish",
+        "minecraft:pufferfish"
+      ],
+      "rewards": [
+        {
+          "amount": 25.0,
+          "currency": "eights_economy:dollars",
+          "reward": "professions:payment"
+        },
+        {
+          "amount": 25.0,
+          "reward": "professions:occupation_exp"
+        }
+      ]
+    }
+  ],
+  "color": "#3e3ea8",
+  "description": [
+    "Earn money and experience",
+    "by gaining better ways to",
+	"find your way around",
+	"logistically speaking."
+  ],
+  "descriptionColor": "#FFFFFF",
+  "displayName": "Navigator",
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "maxLevel": 100,
+  "unlocks": []
+}

@@ -1,0 +1,24 @@
+{
+    "name": "§2§nPeak Physical Condition",
+    "description": "Slightly higher damage and speed.",
+    "condition": {
+        "type": "origins:resource",
+        "resource": "*:lae/sun_juice",
+        "comparison": "!=",
+        "compare_to": 1200
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "multiply_total",
+            "value": 0.5
+        },
+        {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_total",
+            "value": 0.5
+        }
+    ],
+    "update_health": false
+}

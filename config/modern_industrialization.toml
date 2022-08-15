@@ -1,4 +1,3 @@
-generateOres = true
 blacklistedOres = []
 spawnWithGuideBook = true
 respawnWithGuideBook = true
@@ -8,3 +7,5 @@ newVersionMessage = true
 enableHatchPlacementOverlay = true
 colorWaterLava = true
 enableDebugCommands = false
+enableAe2Integration = true
+generateOres = true

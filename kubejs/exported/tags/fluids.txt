@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Dec 7, 2021, 11:27:28 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 28, 2022, 7:58:40 PM
 
 #minecraft:lava
 - minecraft:lava
@@ -14,6 +14,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 #c:mud
 - earthtojavamobs:mud_fluid
 - earthtojavamobs:mud_fluid_flowing
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
 
 #earthtojavamobs:mud
 - earthtojavamobs:mud_fluid

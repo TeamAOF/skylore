@@ -1,0 +1,29 @@
+{
+    "name": "§e§nInsatiable Killer",
+    "description": "Instead of eating food, you must murder something to fill your hunger bar.",
+    "type": "origins:multiple",
+    "kill": {
+        "type": "origins:self_action_on_kill",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle soul ^ ^1.25 ^2 0.2 0.2 0.2 0 5"
+                },
+                {
+                    "type": "origins:feed",
+                    "food": 4,
+                    "saturation": 8
+                }
+            ]
+        },
+        "cooldown": 0
+    },
+    "prev": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:food"
+        }
+    }
+}

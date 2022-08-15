@@ -1,4 +1,8 @@
-To refresh this file, delete it and run /reload command again! Last updated: Dec 7, 2021, 11:27:28 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 28, 2022, 7:58:40 PM
+
+#starmute:sentry_targets
+- minecraft:player
+- minecraft:armor_stand
 
 #c:skeletons
 - earthtojavamobs:skeleton_wolf
@@ -14,103 +18,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 - minecraft:snow_golem
 - minecraft:wither
 - adventurez:summoner
-- promenade:duck
 
-#botania:cocoon/common
-- minecraft:pig
-- minecraft:cow
-- minecraft:chicken
-- minecraft:rabbit
-- minecraft:sheep
+#byg:not_hurt_by_quartz_crystals
+- minecraft:ghast
+- minecraft:hoglin
+- minecraft:enderman
 
-#botania:cocoon/rare_aquatic
-- minecraft:dolphin
-- minecraft:glow_squid
-
-#rpgz:excluded_entities
-
-#moborigins:guardians
-- minecraft:guardian
-- minecraft:elder_guardian
-
-#botania:cocoon/rare
-- minecraft:horse
-- minecraft:donkey
-- minecraft:wolf
-- minecraft:ocelot
-- minecraft:cat
-- minecraft:parrot
-- minecraft:llama
-- minecraft:fox
-- minecraft:panda
-- minecraft:turtle
-- quark:frog?
-
-#c:bosses
-- botania:doppleganger
-
-#botania:shaded_mesa_blacklist
-- minecraft:ender_dragon
-- minecraft:wither
-- minecraft:item_frame
-- minecraft:end_crystal
-- minecraft:painting
-- botania:corporea_spark
-- botania:doppleganger
-- botania:flame_ring
-- botania:magic_landmine
-- botania:magic_missile
-- botania:mana_burst
-- botania:pink_wither
-- botania:spark
-- botania:player_mover
-
-#c:raiders
-- earthtojavamobs:viler_witch
-
-#minecraft:raiders
-- minecraft:evoker
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:vindicator
-- minecraft:illusioner
-- minecraft:witch
-- earthtojavamobs:viler_witch
-
-#minecraft:powder_snow_walkable_mobs
-- minecraft:rabbit
-- minecraft:endermite
-- minecraft:silverfish
-- minecraft:fox
-
-#minecraft:axolotl_hunt_targets
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:salmon
-- minecraft:cod
-- minecraft:squid
-- minecraft:glow_squid
-
-#botania:cocoon/common_aquatic
-- minecraft:cod
-- minecraft:salmon
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:squid
-- quark:crab?
-
-#eldritch_mobs:always_eldritch
-
-#moborigins:illagers
-- minecraft:evoker
-- minecraft:illusioner
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:vindicator
-- minecraft:witch
-- minecraft:vex
-
-#eldritch_mobs:always_ultra
+#biomemakeover:lightning_bugs
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
 
 #minecraft:impact_projectiles
 - #minecraft:arrows
@@ -127,6 +43,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 #minecraft:beehive_inhabitors
 - minecraft:bee
 
+#biomemakeover:owl_targets
+- minecraft:rabbit
+- minecraft:chicken
+- minecraft:silverfish
+- minecraft:endermite
+- minecraft:bat
+- biomemakeover:toad
+- biomemakeover:blightbat
+- biomemakeover:dragonfly
+- biomemakeover:lightning_bug
+- biomemakeover:lightning_bug_alternate
+
 #minecraft:skeletons
 - minecraft:skeleton
 - minecraft:stray
@@ -138,6 +66,74 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 - minecraft:arrow
 - minecraft:spectral_arrow
 
+#starmute:mobs_no_player
+- minecraft:bat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:skeleton_horse
+- minecraft:salmon
+- minecraft:squid
+- minecraft:strider
+- minecraft:turtle
+- minecraft:tropical_fish
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:bee
+- minecraft:dolphin
+- minecraft:polar_bear
+- minecraft:wolf
+- minecraft:cave_spider
+- minecraft:enderman
+- minecraft:iron_golem
+- minecraft:spider
+- minecraft:zombified_piglin
+- minecraft:llama
+- minecraft:trader_llama
+- minecraft:pufferfish
+- minecraft:blaze
+- minecraft:creeper
+- minecraft:drowned
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+- minecraft:evoker
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:hoglin
+- minecraft:husk
+- minecraft:magma_cube
+- minecraft:phantom
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:shulker
+- minecraft:silverfish
+- minecraft:skeleton
+- minecraft:slime
+- minecraft:stray
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:witch
+- minecraft:wither
+- minecraft:wither_skeleton
+- minecraft:zoglin
+- minecraft:zombie
+- minecraft:zombie_villager
+
+#rpgz:excluded_entities
+
 #minecraft:freeze_hurts_extra_types
 - minecraft:strider
 - minecraft:blaze
@@ -145,53 +141,107 @@ To refresh this file, delete it and run /reload command again! Last updated: Dec
 - adventurez:stone_golem
 - adventurez:small_stone_golem
 
-#eldritch_mobs:always_elite
+#starmute:ghastling_enemy
+- minecraft:ghast
+- minecraft:fireball
 
-#eldritch_mobs:eldritch_blacklist
-
-#eldritch_mobs:eldritch_allowed
-- minecraft:zombie
+#starmute:wither
+- minecraft:wither
+- minecraft:wither_skeleton
 - minecraft:skeleton
-- minecraft:creeper
+- minecraft:zombified_piglin
+
+#c:raiders
+- earthtojavamobs:viler_witch
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- biomemakeover:adjudicator
+- earthtojavamobs:viler_witch
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#starmute:mobs
+- minecraft:player
+- minecraft:bat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:fox
+- minecraft:horse
+- minecraft:mooshroom
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:skeleton_horse
+- minecraft:salmon
+- minecraft:squid
+- minecraft:strider
+- minecraft:turtle
+- minecraft:tropical_fish
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:bee
+- minecraft:dolphin
+- minecraft:polar_bear
+- minecraft:wolf
+- minecraft:cave_spider
+- minecraft:enderman
+- minecraft:iron_golem
+- minecraft:spider
+- minecraft:zombified_piglin
+- minecraft:llama
+- minecraft:trader_llama
+- minecraft:pufferfish
 - minecraft:blaze
+- minecraft:creeper
 - minecraft:drowned
 - minecraft:elder_guardian
-- minecraft:endermite
+- minecraft:ender_dragon
 - minecraft:evoker
 - minecraft:ghast
 - minecraft:guardian
+- minecraft:hoglin
 - minecraft:husk
-- minecraft:illusioner
 - minecraft:magma_cube
+- minecraft:phantom
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
 - minecraft:ravager
 - minecraft:shulker
 - minecraft:silverfish
+- minecraft:skeleton
 - minecraft:slime
 - minecraft:stray
 - minecraft:vex
 - minecraft:vindicator
 - minecraft:witch
-- minecraft:wither_skeleton
-- minecraft:zombie_villager
-- minecraft:hoglin
-- minecraft:zoglin
-- minecraft:wolf
-- minecraft:fox
-- minecraft:iron_golem
-- minecraft:snow_golem
-- minecraft:enderman
-- minecraft:spider
-- minecraft:cave_spider
-- minecraft:piglin
-- minecraft:zombified_piglin
-- minecraft:polar_bear
-- minecraft:llama
-- minecraft:bee
-- minecraft:panda
-- minecraft:ender_dragon
 - minecraft:wither
-- minecraft:piglin_brute
-- minecraft:pillager
-- minecraft:phantom
+- minecraft:wither_skeleton
+- minecraft:zoglin
+- minecraft:zombie
 - minecraft:zombie_villager
-- minecraft:axolotl
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+- biomemakeover:glowfish

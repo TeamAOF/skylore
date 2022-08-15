@@ -1,0 +1,3 @@
+#Append BYG items automatically to applicable loot tables?
+append_loot_tables = true
+
