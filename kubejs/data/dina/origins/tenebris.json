@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"dina:tene/phase",
+		"dina:tene/nom",
+		"dina:tene/sun",
+		"dina:tene/peak_performance"
+	],
+	"icon": "minecraft:black_dye",
+	"impact": 2,
+	"order": 5,
+	"name": "Tenebris",
+	"description": "The Anti Species to the Enoki. This species is a collection of mycelium which animates collections of ancient wood to gain a single bipedal form. The difference to that of the Enoki is that instead of a singularity of spores that fight to work together, this is a single spore that fought for itself through rare and immense natural power. Because of this the Tenebris reject all Enoki culture and magic. The Tenebris are masters of the dark arts and have natural born abilities that are completely different from the Enoki. There are few Tenebris, however they mostly deal with the dark arts and magic."
+}

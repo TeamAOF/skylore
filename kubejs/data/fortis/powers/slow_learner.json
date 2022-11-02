@@ -1,0 +1,19 @@
+{
+  "name": "§eSlow Learner",
+  "description": "You have trouble using axes & shovels",
+  "type": "origins:modify_break_speed",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "fortis:tools"
+      }
+    }
+  },
+  "modifier": {
+      "operation": "multiply_base",
+      "value": -1.0
+  }
+}

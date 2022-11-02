@@ -1,0 +1,29 @@
+{
+   "type": "artis:tech_bench_shaped",
+   "pattern": [
+   "#+-",
+   "-o+",
+	 "p+-"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:redstone_torch"
+     },
+	      "+": {
+       "item": "minecraft:repeater"
+     },
+	      "-": {
+       "item": "minecraft:stone"
+     },
+     "o": {
+      "item": "minecraft:quartz_block"
+    },
+    "p": {
+      "item": "minecraft:redstone"
+    }
+   },
+   "result": {
+     "item": "kibe:redstone_timer",
+     "count": 1
+   }
+}

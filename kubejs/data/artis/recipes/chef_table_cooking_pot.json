@@ -1,0 +1,26 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+   "131",
+	 "424",
+   "444"
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:brick"
+     },
+     "2": {
+      "item": "minecraft:water_bucket"
+    },
+    "3": {
+      "item": "minecraft:wooden_shovel"
+    },
+	      "4": {
+       "item": "minecraft:iron_ingot"
+     }
+   },
+   "result": {
+     "item": "farmersdelight:cooking_pot",
+     "count": 2
+   }
+}

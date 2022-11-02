@@ -1,0 +1,15 @@
+{
+  "powers": [
+  "enoki:omnistomach",
+  "enoki:fast_metabolism",
+  "enoki:extroverted",
+  "enoki:passivism",
+  "enoki:love_of_alchemy",
+  "enoki:highhealth"
+  ],
+  "icon": "magicfungi:clypeus_mushroom",
+  "name": "Enoki",
+  "description": "A Passive species. The Enoki are a mycelium based species that can digest most things. They do not like combat, so when attacked they become weaker. They have massive prowess in alchemy and cooking as they are always trying to search for the best recipes. Enoki are known to be the best chef's in the universe. Their love for new flavors, ingredients and protein sources drives them to cooperate with other beings in the exploration of the universe.",
+  "order": 4,
+  "impact": 3
+}

@@ -1,0 +1,8 @@
+{
+	// The detection radius multiplier (for x and z axes). It will be multiplied by the entity's detection range. Default: 1.0
+	"radius": 1.0,
+	// The detection radius on the vertical (y) axis. Default: 10.0
+	"yRadius": 10.0,
+	// Whether all the animals shall flee regardless of their type. If set to true, only the same animals will flee. Default: false
+	"sameSpeciesOnly": false
+}

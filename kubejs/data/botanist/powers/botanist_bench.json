@@ -1,0 +1,11 @@
+{
+    "name": "§eBotanist Bench",
+    "description": "Start with a Botanist Bench.",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "artis:botanist_bench",
+            "amount": 1
+        }
+    ]
+}

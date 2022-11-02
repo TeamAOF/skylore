@@ -1,0 +1,20 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "#",
+	 "+",
+	 "#"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:piston"
+     },
+	 "+": {
+       "item": "minecraft:hopper"
+     }
+   },
+   "result": {
+     "item": "croptopia:food_press",
+     "count": 1
+   }
+}

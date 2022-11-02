@@ -1,0 +1,24 @@
+{
+   "type": "artis:navigation_panel_shaped",
+   "pattern": [
+     "/",
+	 "-",
+	 "-"
+   ],
+   "key": {
+	      "/": {
+       "item": "minecraft:amethyst_shard"
+     },
+	      "-": {
+       "item": "minecraft:copper_ingot"
+     }
+   },
+   "result": {
+     "item": "artifacts:flippers",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:filled_map"
+   },
+   "cost": 1
+}

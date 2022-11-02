@@ -1,0 +1,21 @@
+{
+	"showRarenessTooltip": true,
+	// Color in 0xHexadecimal - Incompatible with REI
+	"showFrameColor": true,
+	"common_frame_color": -5592406,
+	"uncommon_frame_color": -16733696,
+	"rare_frame_color": -43691,
+	"epic_frame_color": -5635926,
+	"legendary_frame_color": -22016,
+	"administrator_frame_color": -11184811,
+	"mythic_frame_color": -11080203,
+	"common_second_frame_color": -14013910,
+	"uncommon_second_frame_color": -16766464,
+	"rare_second_frame_color": -12446443,
+	"epic_second_frame_color": -14024662,
+	"legendary_second_frame_color": -10075648,
+	"administrator_second_frame_color": -15395563,
+	"mythic_second_frame_color": -13976377,
+	"changeBackgroundColor": false,
+	"backgroundColor": -267386864
+}

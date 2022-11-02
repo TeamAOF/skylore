@@ -1,0 +1,24 @@
+{
+   "type": "artis:botanist_bench_shaped",
+   "pattern": [
+     "###",
+	 "#*#",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_nugget"
+     },
+	 "*": {
+	    "item": "minecraft:honeycomb"
+	 }
+   },
+   "result": {
+     "item": "mcdar:buzzy_nest",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "byg:mud_block"
+   },
+   "cost": 64
+}

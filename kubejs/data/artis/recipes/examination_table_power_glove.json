@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+",
+	 "=  "
+   ],
+   "key": {
+     "#": {
+       "item": "chestcavity:muscle"
+     },
+	     "/": {
+       "item": "chestcavity:animal_muscle"
+     },
+	 	     "+": {
+       "item": "minecraft:iron_block"
+     },
+	  	     "=": {
+       "item": "minecraft:gold_block"
+     }
+   },
+   "result": {
+     "item": "artifacts:power_glove",
+     "count": 1
+   }
+}

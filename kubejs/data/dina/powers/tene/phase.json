@@ -1,0 +1,137 @@
+{
+    "name": "§5§nPhase Shift",
+    "description": "You can phase out for a few seconds, becoming transparent. While phased you are unable to attack and are invulnerable. Must have full saturation to use.",
+    "type": "origins:multiple",
+    "use": {
+        "condition": {
+            "type": "origins:food_level",
+            "comparison": "==",
+            "compare_to": 20
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle squid_ink ~ ~0.5 ~ 0.25 0.25 0.25 0 10"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "ui.toast.out",
+                    "volume": 5,
+                    "pitch": 0.7
+                },
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "*:tene/phase_dur"
+                }
+            ]
+        },
+        "cooldown": 200,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 1,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:tene/phase_dur",
+                "comparison": "==",
+                "compare_to": 0
+            }
+        },
+        "key": {
+            "key": "primary"
+        }
+    },
+    "dur": {
+        "type": "origins:cooldown",
+        "cooldown": 100,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 7
+        }
+    },
+    "resetcd": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:tene/phase_dur",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:tene/phase_use",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle squid_ink ~ ~0.5 ~ 0.25 0.25 0.25 0 10"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "ui.toast.in",
+                    "volume": 5,
+                    "pitch": 0.7
+                }
+            ]
+        }
+    },
+    "trans": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:tene/phase_dur",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:model_color",
+        "alpha": 0.3
+    },
+    "invul": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:tene/phase_dur",
+            "comparison": "!=",
+            "compare_to": 0
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:constant",
+            "value": true
+        }
+    },
+    "fade": {
+        "type": "origins:phasing",
+        "blacklist": true,
+        "render_type": "blindness",
+        "view_distance": 10,
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "origins:unphasable"
+        },
+        "phase_down_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:on_block"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:tene/phase_dur",
+            "comparison": "!=",
+            "compare_to": 0
+        }
+    }
+}

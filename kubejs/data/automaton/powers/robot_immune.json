@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison"
+    ],
+    "name": "§eMechanical Internals",
+    "description": "You are immune to hunger and poison."
+}

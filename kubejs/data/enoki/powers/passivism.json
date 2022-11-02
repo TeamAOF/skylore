@@ -1,0 +1,21 @@
+       {
+            "name": "§ePassivism",
+            "description": "Hitting any living being traumatizes you and causes you to gain weakness and speed.. so you can get outta there.",
+            "type": "origins:self_action_on_hit",
+            "entity_action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                  {
+                    "effect": "minecraft:weakness",
+                    "duration": 400,
+                    "amplifier": 2
+                  },
+                  {
+                    "effect": "minecraft:speed",
+                    "duration": 30,
+                    "amplifier": 2
+                  }
+                ]
+            },
+            "cooldown": 20
+        }

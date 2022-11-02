@@ -1,0 +1,31 @@
+{
+	"type": "origins:multiple",
+	"disable_regen":{
+		"type": "origins:disable_regen"
+	},
+	"disable_hunger":{
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:feed",
+			"food": 20,
+			"saturation": 20
+		},
+		"interval": 20
+	},
+	"slow_regen":{
+		"type": "origins:action_over_time",
+		"entity_action": {
+		  "type": "origins:heal",
+		  "amount": 1
+		},
+		"interval": 160,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "automaton:robot_charge_resource",
+			"comparison": ">",
+			"compare_to": 0
+		}
+	},
+    "name": "§eRobot man",
+    "description": "You are the robot man with the robot plan."
+}

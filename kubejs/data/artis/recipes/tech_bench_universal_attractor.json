@@ -1,0 +1,20 @@
+{
+   "type": "artis:tech_bench_shaped",
+   "pattern": [
+   "#+#",
+   "###",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	      "+": {
+       "item": "minecraft:netherite_ingot"
+     }
+   },
+   "result": {
+     "item": "artifacts:universal_attractor",
+     "count": 1
+   }
+}

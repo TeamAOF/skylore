@@ -1,0 +1,20 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "   ",
+	 "# #",
+	 "* *"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	      "*": {
+       "item": "minecraft:gold_ingot"
+     }
+   },
+   "result": {
+     "item": "mcda:titans_shroud_boots",
+     "count": 1
+   }
+}

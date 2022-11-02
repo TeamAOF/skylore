@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Steve\"}"
+        },
+        "title": "I am Enoki!",
+        "description": "You chose the Enoki origin.",
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true
+    },
+    "criteria": {
+        "chose_enoki": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "enoki:enoki"
+            }
+        }
+    }
+}

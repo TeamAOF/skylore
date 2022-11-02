@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+",
+	 "=  "
+   ],
+   "key": {
+     "#": {
+       "item": "chestcavity:liver"
+     },
+	     "/": {
+       "item": "chestcavity:animal_liver"
+     },
+	 	     "+": {
+       "item": "chestcavity:ender_liver"
+     },
+	  	     "=": {
+       "item": "minecraft:diamond_block"
+     }
+   },
+   "result": {
+     "item": "artifacts:antidote_vessel",
+     "count": 1
+   }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "artis:security_panel_shaped",
+  "pattern": [
+    "# #",
+  "###",
+  "###"
+  ],
+  "key": {
+    "#": {
+      "item": "enva:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "enva:titanium_chestplate",
+    "count": 1
+  }
+}

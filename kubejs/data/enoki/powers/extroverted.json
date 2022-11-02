@@ -1,0 +1,21 @@
+{
+    "name": "§eExtroverted",
+    "description": "You gain health regen around other people",
+      "type": "apoli:action_over_time",
+      "entity_action": {
+        "type": "apoli:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 200,
+          "amplifier": 0
+        }
+      },
+      "interval": 40,
+      "condition": {
+        "type": "moborigins:nearby_entities",
+        "entity_type": "minecraft:player",
+        "player_box_multiplier": 3.0,
+        "comparison": ">=",
+        "compare_to": 3
+      }
+    }

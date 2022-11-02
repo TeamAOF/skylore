@@ -1,0 +1,11 @@
+ {
+    "name": "§eCrystal Skin",
+    "description": "You may not be able to do well with kinetic energy, but you are naturally tough which gains you an armor bonus.",
+  "type": "origins:attribute",
+  "modifier": {
+    "name": "Natural Armor health bonus",
+    "attribute": "minecraft:generic.armor",
+    "value": 16.0,
+    "operation": "addition"
+  }
+}

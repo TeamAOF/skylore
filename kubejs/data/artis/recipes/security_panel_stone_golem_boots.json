@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "#+ ",
+	 "   ",
+   "   "
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:netherite_boots"
+     },
+	      "+": {
+       "item": "adventurez:gilded_netherite_fragment"
+     }
+   },
+   "result": {
+     "item": "adventurez:stone_golem_boots",
+     "count": 1
+   }
+}

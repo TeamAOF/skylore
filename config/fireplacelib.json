@@ -1,0 +1,5 @@
+{
+  "locale": "en_us",
+  "essentialThreadPoolSize": 16,
+  "nonEssentialThreadPoolSize": 8
+}

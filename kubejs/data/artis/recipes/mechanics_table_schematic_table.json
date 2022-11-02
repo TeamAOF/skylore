@@ -1,0 +1,19 @@
+{
+  "type": "artis:mech_bench_shaped",
+   "pattern": [
+     "###/",
+	 "////"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:smooth_stone_slab"
+     },
+	     "/": {
+       "item": "minecraft:smooth_stone"
+     }
+   },
+   "result": {
+     "item": "create:schematic_table",
+     "count": 1
+   }
+}

@@ -1,0 +1,97 @@
+{
+  "general": {
+    "block_growths": true,
+    "creative_tab": false,
+    "grass_over_mycelium": true,
+    "mycelium_over_grass": true
+  },
+  "mossy_blocks": {
+    "interest_for_face": 0.3,
+    "patchiness": 0.5,
+    "immune_chance": 0.4,
+    "needs_air": true
+  },
+  "cracked_blocks": {
+    "interest_for_face": 0.6,
+    "patchiness": 0.4,
+    "immune_chance": 0.4,
+    "needs_air": false
+  },
+  "icicle": {
+    "react_to_vibrations": true,
+    "spawn_rarity": 12
+  },
+  "freezing": {
+    "water_increment": 3,
+    "icicle": 300,
+    "permafrost_increment": 2
+  },
+  "charring": {
+    "fire_chars_wood": 0.3,
+    "ash_spawn": 0.3,
+    "soot_spawn": true,
+    "flammable_cobweb": true
+  },
+  "generation": {
+    "cryosol_feature": true,
+    "humus_feature": true,
+    "fluvisol_feature": true,
+    "silt_feature": true,
+    "vertisol_feature": true,
+    "lakebed_feature": true,
+    "icicle_feature": true,
+    "roots_feature": true
+  },
+  "item_interaction": {
+    "cauldron_washing": false,
+    "pickaxe_cracking": true,
+    "pickaxe_cracking_shift": false,
+    "brick_breaking": true,
+    "piston_sliming": true,
+    "soil_shearing": true,
+    "grass_flinting": true,
+    "azalea_shearing": true,
+    "moss_shearing": true,
+    "moss_burning": true,
+    "charred_block_igniting": true,
+    "shovel_extinguish": true,
+    "sponge_rusting": true,
+    "sponge_rust_drying": false,
+    "axe_stripping": true,
+    "axe_rusting": true,
+    "ash_item_spawn": true,
+    "drop_in_creative": false
+  },
+  "food": {
+    "icicle_food": true,
+    "icicle_fire_resistance": false,
+    "muddy_water_enabled": true
+  },
+  "misc": {
+    "mulch_grows_crops": true,
+    "composter_dirt": true,
+    "generic_bark": "",
+    "feather_falling_farmers": true,
+    "leggings_prevents_thorn_damage": true,
+    "desire_paths": false,
+    "desire_path_rate": 0.05
+  },
+  "leaf_piles": {
+    "leaf_piles_slow": true,
+    "spawn_entity_from_decay": 0.3,
+    "leaf_piles_spawn_chance": 0.005,
+    "reach": 12,
+    "max_pile_height": 3,
+    "leaf_piles_blacklist": []
+  },
+  "thin_ice": {
+    "natural_melting": true
+  },
+  "lightning_growths": {
+    "vitrified_lightning": true,
+    "fulgurite_chance": 0.4
+  },
+  "rusting": {
+    "rusting": true
+  }
+}

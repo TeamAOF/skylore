@@ -1,0 +1,24 @@
+{
+   "type": "artis:navigation_panel_shaped",
+   "pattern": [
+     "--/",
+	 "--/",
+	 "--/"
+   ],
+   "key": {
+	      "/": {
+       "item": "minecraft:obsidian"
+     },
+	      "-": {
+       "item": "minecraft:leather"
+     }
+   },
+   "result": {
+     "item": "mcdar:boots_of_swiftness",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:filled_map"
+   },
+   "cost": 1
+}

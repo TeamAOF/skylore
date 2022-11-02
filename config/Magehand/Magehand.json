@@ -1,0 +1,16 @@
+{
+  "minGroupSize": 1,
+  "maxGroupSize": 4,
+  "spawnStuff": {
+    "nether_wastes": true,
+    "spawnWeightA": 10,
+    "warped_forest": true,
+    "spawnWeightB": 2,
+    "crimson_forest": true,
+    "spawnWeightC": 4,
+    "soul_valley": true,
+    "spawnWeightD": 10,
+    "basalt_delta": true,
+    "spawnWeightE": 4
+  }
+}

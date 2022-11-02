@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "artis:ops_panel"
+        },
+        "title": "I am the Captain now",
+        "description": "You chose the Captain origin.",
+        "announce_to_chat": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "chose_captain": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "captain:captain"
+            }
+        }
+    }
+}

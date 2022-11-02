@@ -1,0 +1,25 @@
+{
+  "type": "artis:mech_bench_shaped",
+   "pattern": [
+   "1234",
+	 "4323"
+   ],
+   "key": {
+     "1": {
+       "item": "create:cogwheel"
+     },
+     "2": {
+      "item": "create:golden_sheet"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+	     "4": {
+       "item": "minecraft:chest"
+     }
+   },
+   "result": {
+     "item": "create:brown_toolbox",
+     "count": 1
+   }
+}

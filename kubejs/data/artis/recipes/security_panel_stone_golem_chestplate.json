@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "#+ ",
+	 "   ",
+   "   "
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:netherite_chestplate"
+     },
+	      "+": {
+       "item": "adventurez:gilded_netherite_fragment"
+     }
+   },
+   "result": {
+     "item": "adventurez:stone_golem_chestplate",
+     "count": 1
+   }
+}

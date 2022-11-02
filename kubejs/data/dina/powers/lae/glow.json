@@ -1,0 +1,49 @@
+{
+    "name": "§e§nReactive Glow",
+    "description": "Your body glows when a hostile creature is nearby",
+    "type": "origins:multiple",
+    "bwam": {
+        "condition": {
+            "type": "apoli:resource",
+            "resource": "*:lae/glow_check",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:self_glow",
+        "use_teams": false,
+        "red": 0.9,
+        "green": 0.55,
+        "blue": 0.15
+    },
+    "act": {
+        "condition": {
+            "type": "origins:command",
+            "command": "execute if entity @e[type=#dina:hostiles,distance=..12]",
+            "comparison": ">=",
+            "compare_to": 1
+        },
+        "type": "apoli:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "apoli:change_resource",
+            "resource": "*:lae/glow_check",
+            "operation": "set",
+            "change": 1
+        },
+        "falling_action": {
+            "type": "apoli:change_resource",
+            "resource": "*:lae/glow_check",
+            "operation": "set",
+            "change": 0
+        }
+    },
+    "check": {
+        "type": "apoli:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

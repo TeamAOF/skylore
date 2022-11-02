@@ -1,0 +1,24 @@
+{
+   "type": "artis:flight_planner_shaped",
+   "pattern": [
+     "12 ",
+	 "   ",
+	 "   "
+   ],
+   "key": {
+	      "1": {
+       "item": "create:railway_casing"
+     },
+     "2": {
+      "item": "minecraft:compass"
+    }
+   },
+   "result": {
+     "item": "create:track_station",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:string"
+   },
+   "cost": 1
+}

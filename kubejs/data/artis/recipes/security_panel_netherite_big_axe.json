@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "12 ",
+	 "   ",
+   "   "
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:netherite_ingot"
+     },
+     "2": {
+      "item": "medievalweapons:diamond_big_axe"
+    }
+   },
+   "result": {
+     "item": "medievalweapons:netherite_big_axe",
+     "count": 1
+   }
+}

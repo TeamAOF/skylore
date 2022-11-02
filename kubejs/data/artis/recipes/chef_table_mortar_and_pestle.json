@@ -1,0 +1,19 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "#",
+	 "+"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:stick"
+     },
+	 "+": {
+       "item": "minecraft:bowl"
+     }
+   },
+   "result": {
+     "item": "croptopia:mortar_and_pestle",
+     "count": 1
+   }
+}

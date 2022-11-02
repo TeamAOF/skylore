@@ -1,0 +1,27 @@
+{
+   "type": "artis:flight_planner_shaped",
+   "pattern": [
+     "111",
+	 "121",
+	 "141"
+   ],
+   "key": {
+	      "1": {
+       "item": "minecraft:cobblestone"
+     },
+	      "2": {
+       "item": "minecraft:blaze_rod"
+     },
+     "4": {
+      "item": "minecraft:snow_block"
+    }
+   },
+   "result": {
+     "item": "cloud_factory:cloud_generator",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:string"
+   },
+   "cost": 1
+}

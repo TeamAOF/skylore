@@ -1,0 +1,113 @@
+{
+	id: "5B8285B870661A5D"
+	group: "38D73AD51340A19B"
+	order_index: 2
+	filename: "chef"
+	title: "Chef"
+	icon: "kubejs:chef"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -11.5d
+		y: -8.5d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/chefdesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "artis:chef_table"
+			disable_toast: true
+			x: -0.5d
+			y: -1.0d
+			id: "2B1E87EA80F17E5B"
+			tasks: [
+				{
+					id: "485775E625435694"
+					type: "professions:profession"
+					icon: "artis:chef_table"
+					disable_toast: true
+					prof: "professions:chef"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "41C3FC253347046B"
+					type: "advancement"
+					advancement: "valley:exploration/commis"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "29411E374F98783C"
+				type: "questsadditions:repeat"
+				table_id: 564014542634132921L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["2B1E87EA80F17E5B"]
+			id: "61DFCB094DAA0112"
+			tasks: [{
+				id: "79770C7090D6854E"
+				type: "item"
+				item: "croptopia:knife"
+			}]
+			rewards: [{
+				id: "0B1D0C4410D83CA6"
+				type: "item"
+				item: "croptopia:guide"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			id: "28154B84ABD9E0B8"
+			tasks: [{
+				id: "69240C58584CEBC2"
+				type: "advancement"
+				advancement: "croptopia:getdrinks"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "4480DA5964425A59"
+			tasks: [{
+				id: "447DA254F87C8E2D"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_ham"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			id: "42DD0FF9FFECF51B"
+			tasks: [{
+				id: "7A4F023414C4DBB4"
+				type: "advancement"
+				advancement: "farmersdelight:main/plant_rice"
+				criterion: ""
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			id: "40539503A40FFF9F"
+			tasks: [{
+				id: "025601B97CD7BEE8"
+				type: "advancement"
+				advancement: "farmersdelight:main/use_cutting_board"
+				criterion: ""
+			}]
+		}
+	]
+}

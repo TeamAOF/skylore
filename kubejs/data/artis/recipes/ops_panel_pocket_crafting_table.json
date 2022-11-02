@@ -1,0 +1,19 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "#",
+	 "="
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:signs"
+     },
+     "+": {
+      "item": "minecraft:crafting_table"
+    }
+   },
+   "result": {
+     "item": "kibe:pocket_crafting_table",
+     "count": 1
+   }
+}

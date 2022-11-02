@@ -1,0 +1,12 @@
+{
+  "mobDrops": {
+    "noDropWeight": 5700,
+    "commonDropWeight": 480,
+    "uncommonDropWeight": 320,
+    "rareDropWeight": 230,
+    "epicDropWeight": 145,
+    "legendaryDropWeight": 90,
+    "mythicalDropWeight": 70
+  },
+  "persistAlbumThroughDeath": true
+}

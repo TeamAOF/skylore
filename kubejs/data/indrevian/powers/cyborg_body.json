@@ -1,0 +1,14 @@
+{
+  "name": "§eCyborg Body",
+  "description": "Your body is half machine. But only to prolong your life.",
+  "type": "apoli:attribute",
+  "modifiers": [
+    {
+        "name": "Indrevian Health Increase",
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 4
+    }
+  ]
+
+}

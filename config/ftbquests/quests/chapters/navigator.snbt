@@ -1,0 +1,344 @@
+{
+	id: "790B9CDEE00E7108"
+	group: "4E03E5FEAE87C266"
+	order_index: 2
+	filename: "navigator"
+	title: "Navigation"
+	icon: "kubejs:navigator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 13.0d
+		y: -8.5d
+		width: 5.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "graveyard:textures/block/dark_iron_bars.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Satelite network"
+			icon: "artis:navigation_panel"
+			disable_toast: true
+			x: -1.0d
+			y: -0.5d
+			description: ["Create a Satellite network in order to enable navigation."]
+			secret: true
+			id: "293B1AC85D41551F"
+			tasks: [
+				{
+					id: "3BA2EC67A552578E"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "0337152F2CEF362F"
+					type: "item"
+					item: "indrev:circuit_mk1"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2847A8CA3724C2DD"
+					type: "item"
+					item: "modern_industrialization:electronic_circuit"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "13A32426A91216B8"
+				type: "questsadditions:repeat"
+				table_id: 1679791511013133838L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "3D4EEA262A65D67D"
+			tasks: [{
+				id: "64165FAA352A4555"
+				type: "biome"
+				icon: "minecraft:oak_sapling"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "548FFCF67DCC58FB"
+			tasks: [{
+				id: "1E83230344DEB4DD"
+				type: "biome"
+				icon: "minecraft:sand"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "762FB35668EB0A5A"
+			tasks: [{
+				id: "23AC7785EF0BE15F"
+				type: "biome"
+				biome: "minecraft:jungle"
+			}]
+		}
+		{
+			icon: "minecraft:red_sand"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "2FE649E6E484FAF0"
+			tasks: [{
+				id: "43BDC162A8AE4640"
+				type: "biome"
+				biome: "minecraft:badlands"
+			}]
+		}
+		{
+			icon: "byg:aspen_sapling"
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "04DDF3DC1B35B4B8"
+			tasks: [{
+				id: "75DD78F7232615CE"
+				type: "biome"
+				biome: "byg:aspen_forest"
+			}]
+		}
+		{
+			icon: "byg:fir_sapling"
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "546317199909BD41"
+			tasks: [{
+				id: "5BDE50ED4E870238"
+				type: "biome"
+				biome: "byg:coniferous_forest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["293B1AC85D41551F"]
+			id: "48F7C8F1C072E364"
+			tasks: [{
+				id: "1B25EC8FA71C1B84"
+				type: "stat"
+				icon: {
+					id: "minecraft:chainmail_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:sprint_one_cm"
+				value: 87000
+			}]
+			rewards: [{
+				id: "151B5F89FD8061C5"
+				type: "questsadditions:repeat"
+				table_id: 4636329062508993615L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "0D22F9265BB9C9FF"
+			tasks: [{
+				id: "25118CBB8597B957"
+				type: "structure"
+				structure: "graveyard:crypt"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 10.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "0648912517B0B54A"
+			tasks: [{
+				id: "6CA6EB16E19C20AE"
+				type: "structure"
+				structure: "graveyard:haunted_house"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "67C34DC5DF5C2FA3"
+			tasks: [{
+				id: "6C0B26BF1384F882"
+				type: "structure"
+				structure: "graveyard:altar"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "54A63B0B48A2DF05"
+			tasks: [{
+				id: "4ABB46841261BE3B"
+				type: "structure"
+				structure: "graveyard:giant_mushroom"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 10.5d
+			y: -7.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "30E6AE846AA33A80"
+			tasks: [{
+				id: "27E2B6808CD1DB8E"
+				type: "structure"
+				structure: "graveyard:large_graveyard"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 15.5d
+			y: -9.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "03FC9A1A00B6488B"
+			tasks: [{
+				id: "38096EA955D2217F"
+				type: "structure"
+				structure: "graveyard:medium_graveyard"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 13.0d
+			y: -11.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "6FD73AAA7826BF37"
+			tasks: [{
+				id: "2930B0EFC48E04A5"
+				type: "structure"
+				structure: "graveyard:memorial_tree"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 10.5d
+			y: -9.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "3BFF66B20FF86763"
+			tasks: [{
+				id: "58F7BEB7E7B599BA"
+				type: "structure"
+				structure: "graveyard:mushroom_grave"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "28458B202BCA1D5F"
+			tasks: [{
+				id: "654507C13F0DD6B7"
+				type: "structure"
+				structure: "graveyard:small_desert_grave"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -6.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "6BB5674B46FE9CBB"
+			tasks: [{
+				id: "565B8B0D0341C1C4"
+				type: "structure"
+				structure: "graveyard:small_desert_graveyard"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -7.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "6D8F0A63FA93D8FB"
+			tasks: [{
+				id: "59C16950AAB430F1"
+				type: "structure"
+				structure: "graveyard:small_grave"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 10.5d
+			y: -8.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "26DA55B41BF1F3E9"
+			tasks: [{
+				id: "1CB4BC1362AE9942"
+				type: "structure"
+				structure: "graveyard:small_graveyard"
+			}]
+		}
+		{
+			icon: "graveyard:cobblestone_gravestone"
+			x: 15.5d
+			y: -8.0d
+			dependencies: ["6B0E383A72F8C473"]
+			id: "6A8C8D02D9A2EE1C"
+			tasks: [{
+				id: "038531EB56209453"
+				type: "structure"
+				structure: "graveyard:small_savanna_grave"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			dependencies: [
+				"3D4EEA262A65D67D"
+				"548FFCF67DCC58FB"
+				"04DDF3DC1B35B4B8"
+				"762FB35668EB0A5A"
+				"2FE649E6E484FAF0"
+				"546317199909BD41"
+			]
+			id: "6B0E383A72F8C473"
+			tasks: [{
+				id: "6F716EEAFBC9A73D"
+				type: "checkmark"
+				title: "General Biomes Master"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["3D4EEA262A65D67D"]
+			id: "2447B72D3667476F"
+			tasks: [{
+				id: "04DF46DBF79CBAE0"
+				type: "advancement"
+				advancement: "moreachievements:far_lands"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4AEF214DF418D046"
+				type: "item"
+				item: "relicex:tome"
+				count: 5
+			}]
+		}
+	]
+}

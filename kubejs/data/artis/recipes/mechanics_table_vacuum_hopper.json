@@ -1,0 +1,28 @@
+{
+  "type": "artis:mech_bench_shaped",
+   "pattern": [
+   "1212",
+	 "4351"
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:obsidian"
+     },
+     "2": {
+      "item": "minecraft:iron_bars"
+     },
+     "3": {
+      "item": "minecraft:ender_eye"
+     },
+     "4": {
+      "item": "minecraft:chest"
+     },
+	   "5": {
+      "item": "minecraft:bucket"
+     }
+   },
+   "result": {
+     "item": "kibe:vacuum_hopper",
+     "count": 1
+   }
+}

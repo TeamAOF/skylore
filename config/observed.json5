@@ -1,0 +1,18 @@
+{
+	"observedOptions": {
+		"observerRange": 32,
+		"observerSpawnWeight": 15,
+		"observerFollowDistance": 7.5,
+		"observersSpawnInCaves": false,
+		"closeObserverGainRate": 1.0,
+		"nearButNotCloseObserverGainRate": 0.75,
+		"farObserverGainRate": 0.375,
+		"highValueDrainRate": 0.35,
+		"mediumValueDrainRate": 0.2,
+		"lowValueDrainRate": 0.1,
+		// 1 = Reduced visibility through walls (see next item), 2 = full visibility through walls, any other = no visibility through walls
+		"wallVisionLevel": 0,
+		// If WallVisionLevel is 1, what is the new range? Recommended to be lower than observerRange
+		"wallVisionRange": 16
+	}
+}

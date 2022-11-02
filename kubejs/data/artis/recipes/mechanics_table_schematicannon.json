@@ -1,0 +1,22 @@
+{
+   "type": "artis:mech_bench_shaped",
+   "pattern": [
+     "/#/+",
+	 "+#++"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_block"
+     },
+	     "/": {
+       "item": "minecraft:smooth_stone"
+     },
+	 	     "+": {
+       "item": "minecraft:dispenser"
+     }
+   },
+   "result": {
+     "item": "create:schematicannon",
+     "count": 1
+   }
+}

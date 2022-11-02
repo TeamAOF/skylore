@@ -1,0 +1,127 @@
+{
+	id: "0EAA560971FA63FB"
+	group: "38D73AD51340A19B"
+	order_index: 8
+	filename: "security_office"
+	title: "Security Officer"
+	icon: "kubejs:security_officer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.5d
+		y: -4.0d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/securityofficedesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Become Security Officer"
+			icon: "artis:security_panel"
+			disable_toast: true
+			x: -0.5d
+			y: 0.5d
+			description: ["You specialize in killing things with any weapon. Prove it."]
+			id: "3A533982BC1CDF3C"
+			tasks: [
+				{
+					id: "30B81FF3D6BDF1E6"
+					type: "professions:profession"
+					disable_toast: true
+					prof: "professions:security"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "1A0C352C6816AC0C"
+					type: "advancement"
+					advancement: "minecraft:adventure/kill_a_mob"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "19F8B2C991257A31"
+				type: "questsadditions:repeat"
+				table_id: 6385377144004890463L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "1AA15C69F025C0A9"
+			tasks: [{
+				id: "63D8C277C9EAF7C2"
+				type: "questsadditions:killnbt"
+				title: "Kill 10 Zombies using a wood sword"
+				icon: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:zombie"
+				value: 10L
+				nbt: { }
+				checkItem: true
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["1AA15C69F025C0A9"]
+			id: "161244BD84866775"
+			tasks: [{
+				id: "5D0EAFBE75A02D20"
+				type: "questsadditions:killnbt"
+				icon: {
+					id: "gateofbabylon:golden_boomerang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:spider"
+				value: 10L
+				nbt: { }
+				checkItem: true
+				item: {
+					id: "gateofbabylon:golden_boomerang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:stick"
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["1AA15C69F025C0A9"]
+			id: "6586C58FB29953B9"
+			tasks: [{
+				id: "44E5692EE11DD4A0"
+				type: "questsadditions:killnbt"
+				entity: "friendsandfoes:glare"
+				value: 10L
+				nbt: { }
+				checkItem: true
+				item: "minecraft:stick"
+			}]
+		}
+	]
+}

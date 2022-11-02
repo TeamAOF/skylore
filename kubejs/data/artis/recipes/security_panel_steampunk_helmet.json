@@ -1,0 +1,23 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "3  ",
+	 "212",
+   "   "
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:white_stained_glass"
+     },
+     "2": {
+      "item": "minecraft:white_stained_glass"
+    },
+    "3": {
+      "item": "minecraft:redstone_torch"
+    }
+   },
+   "result": {
+     "item": "immersive_armors:steampunk_helmet",
+     "count": 1
+   }
+}

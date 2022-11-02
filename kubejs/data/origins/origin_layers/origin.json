@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "origins": [
+  "indrevian:indrevian",
+  "fortis:fortis",
+  "automaton:automaton",
+  "enoki:enoki",
+  "beryl:beryl",
+  "dina:laevis",
+  "human:human",
+  "dina:tenebris"
+  ],
+  "name": "Species"
+}

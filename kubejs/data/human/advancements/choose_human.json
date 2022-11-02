@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Steve\"}"
+        },
+        "title": "I am Human!",
+        "description": "You chose the Human origin.",
+        "announce_to_chat": true,
+        "frame": "task",
+        "show_toast": true
+    },
+    "criteria": {
+        "chose_laevis": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "human:human"
+            }
+        }
+    }
+}

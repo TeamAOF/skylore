@@ -1,0 +1,19 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "#+#",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:bamboo"
+     },
+	      "+": {
+       "item": "minecraft:red_dye"
+     }
+   },
+   "result": {
+     "item": "valley:bento_block",
+     "count": 2
+   }
+}

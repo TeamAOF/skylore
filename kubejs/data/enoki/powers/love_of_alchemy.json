@@ -1,0 +1,11 @@
+{
+    "name": "§eLove of Alchemy",
+    "description": "Start with 5 Vivifica Elixer",
+    "type": "origins:starting_equipment",
+    "stacks": [
+        {
+            "item": "magicfungi:vivifica_elixir",
+            "amount": 5
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+   "type": "artis:flight_planner_shaped",
+   "pattern": [
+     "424",
+	 "414",
+	 "3 3"
+   ],
+   "key": {
+	      "1": {
+       "item": "iron-jetpacks:emerald-jetpack"
+     },
+	      "2": {
+       "item": "iron-jetpacks:netherite_capacitor"
+     },
+     "3": {
+      "item": "iron-jetpacks:netherite_thruster"
+    },
+    "4": {
+      "item": "minecraft:netherite_ingot"
+    }
+   },
+   "result": {
+     "item": "iron-jetpacks:netherite_jetpack",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "minecraft:string"
+   },
+   "cost": 1
+}

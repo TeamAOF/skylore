@@ -1,0 +1,217 @@
+{
+	/* 
+	   The block the portal to the Starry Sky dimension needs to be built with.
+	   Build it like a nether portal & has to be activated with flint & steel
+	   Default: PACKED_ICE
+	*/
+	"starrySkyPortalFrameBlock": "PACKED_ICE",
+	/* 
+	   The height of clouds in the Starry Sky dimension.
+	   Default: 270
+	*/
+	"cloudHeight": 270.0,
+	/* 
+	   Use a fancy rainbow skybox instead of a generic one.
+	   Default: true
+	*/
+	"rainbowSkybox": true,
+	/* 
+	   If true nether portals in Starry Sky lead to Scary Sky, if false portals do not form.
+	   Default: true
+	*/
+	"enableNetherPortalsToStarryNether": true,
+	/* 
+	   If true end portals in Starry Sky lead to Scarcy Sky, if false to the vanilla end.
+	   Default: true
+	*/
+	"enableEndPortalsToStarryEnd": true,
+	/* 
+	   The '/sphere' command lists all the data of the closest sphere (position, blocks, ...)
+	   
+	   Default: 0
+	*/
+	"sphereCommandRequiredPermissionLevel": 0,
+	/* 
+	   Spheroids are generated in systems.
+	   Each system consists out of x spheroids over y chunks.
+	   How big each system should be in chunks²
+	   Higher values make the very slight 'gaps' at the border between
+	   systems less common, but since systems are generating all at once
+	   high values can result in small lag spikes every time a new system is generated. (but less spikes in total)
+	   Default: 50
+	*/
+	"systemSizeChunks": 50,
+	/* 
+	   How many spheres a system can contain max.
+	   Some will fail because of distance restrictions
+	   so it's not an exact value
+	   Default: 2000
+	*/
+	"sphereDensityOverworld": 2000,
+	/* 
+	   How much empty blocks should be enforced between individual spheres.
+	   If the distance is too low generation of that one sphere will be cancelled.
+	   Default: 10
+	*/
+	"minDistanceBetweenSpheresOverworld": 10,
+	/* 
+	   How many spheres a system can contain max.
+	   Some will fail because of distance restrictions
+	   so it's not an exact value
+	   Default: 2500
+	*/
+	"sphereDensityNether": 2500,
+	/* 
+	   How much empty blocks should be enforced between individual spheres.
+	   If the distance is too low generation of that one sphere will be cancelled.
+	   Default: 10
+	*/
+	"minDistanceBetweenSpheresNether": 7,
+	/* 
+	   How many spheres a system can contain max.
+	   Some will fail because of distance restrictions
+	   so it's not an exact value
+	   Default: 1500
+	*/
+	"sphereDensityEnd": 1500,
+	/* 
+	   How much empty blocks should be enforced between individual spheres.
+	   If the distance is too low generation of that one sphere will be cancelled.
+	   Default: 10
+	*/
+	"minDistanceBetweenSpheresEnd": 8,
+	/* 
+	   If (or how high) there should be a world floor.
+	   When set to  1 there will the specified BottomBlock at y=1 and the floor block up to the floor height
+	   When set to >1 there will the specified BottomBlock at y=1
+	   When set to  0 there will be no ground, only void
+	   Default: 3 (2 layers water, 1 layer bedrock)
+	*/
+	"floorHeightOverworld": 3,
+	/* 
+	   The block generating at y>1 (if floorHeight > 1)
+	   Default: WATER
+	*/
+	"floorBlockOverworld": "WATER",
+	/* 
+	   The block generating at y=0 (if floorHeight > 0)
+	   Default: BEDROCK
+	*/
+	"bottomBlockOverworld": "BEDROCK",
+	/* 
+	   If (or how high) there should be a world floor.
+	   When set to  1 there will the specified BottomBlock at y=1 and the floor block up to the floor height
+	   When set to >1 there will the specified BottomBlock at y=1
+	   When set to  0 there will be no ground, only void
+	   Default: 3 (2 layers water, 1 layer bedrock)
+	*/
+	"floorHeightNether": 3,
+	/* 
+	   The block generating at y>1 (if floorHeight > 1)
+	   Default: LAVA
+	*/
+	"floorBlockNether": "LAVA",
+	/* 
+	   The block generating at y=0 (if floorHeight > 0)
+	   Default: BEDROCK
+	*/
+	"bottomBlockNether": "BEDROCK",
+	/* 
+	   If (or how high) there should be a world floor.
+	   When set to  1 there will the specified BottomBlock at y=1 and the floor block up to the floor height
+	   When set to >1 there will the specified BottomBlock at y=1
+	   When set to  0 there will be no ground, only void
+	   Default: 0 (only void)
+	*/
+	"floorHeightEnd": 0,
+	/* 
+	   The block generating at y>1 (if floorHeight > 1)
+	   Default: WATER
+	*/
+	"floorBlockEnd": "WATER",
+	/* 
+	   The block generating at y=0 (if floorHeight > 0)
+	   Default: BEDROCK
+	*/
+	"bottomBlockEnd": "BEDROCK",
+	/* 
+	   Generate Pride Spheroids
+	*/
+	"generatePrideSpheroids": false,
+	/* 
+	   Enable Astromine Integration
+	*/
+	"generateAstromineSpheroids": true,
+	/* 
+	   Enable Industrial Revolution Integration
+	*/
+	"generateIndustrialRevolutionSpheroids": true,
+	/* 
+	   Enable Applied Energistics 2 Integration
+	*/
+	"generateAppliedEnergistics2Spheroids": true,
+	/* 
+	   Enable Modern Industrialization Integration
+	*/
+	"generateModernIndustrializationSpheroids": true,
+	/* 
+	   Enable Tech Reborn Integration
+	*/
+	"generateTechRebornSpheroids": true,
+	/* 
+	   Enable Sakura Rosea Integration
+	*/
+	"generateSakuraRoseaSpheroids": true,
+	/* 
+	   Enable Terrestria Integration
+	*/
+	"generateTerrestriaSpheroids": true,
+	/* 
+	   Enable Traverse Integration
+	*/
+	"generateTraverseSpheroids": true,
+	/* 
+	   Enable Sandwichable Integration
+	*/
+	"generateSandwichableSpheroids": true,
+	/* 
+	   Enable Biomes You Go Integration
+	*/
+	"generateBYGSpheroids": true,
+	/* 
+	   Enable Unearthed Integration
+	*/
+	"generateUnearthedSpheroids": true,
+	/* 
+	   Enable Blockus Integration
+	*/
+	"generateBlockusSpheroids": true,
+	/* 
+	   Enable Mythic Metals Integration
+	*/
+	"generateMythicMetalsSpheroids": true,
+	/* 
+	   Enable BetterNether Integration
+	*/
+	"generateBetterNetherSpheroids": true,
+	/* 
+	   Enable BetterEnd Integration
+	*/
+	"generateBetterEndSpheroids": true,
+	/* 
+	   Enable Cinderscapes Integration
+	*/
+	"generateCinderscapesSpheroids": true,
+	/* 
+	   Enable Ecotones Integration
+	*/
+	"generateEcotonesSpheroids": true,
+	/* 
+	   Enable Woods And Mires Integration
+	*/
+	"generateWoodsAndMiresSpheroids": true,
+	/* 
+	   Enable Biome Makeover Integration
+	*/
+	"generateBiomeMakeoverSpheroids": true
+}

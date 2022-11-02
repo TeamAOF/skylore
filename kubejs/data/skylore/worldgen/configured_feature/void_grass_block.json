@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:grass_block"
+    },
+    "state": {
+      "Name": "minecraft:air"
+    },
+    "radius": 12
+  }
+}

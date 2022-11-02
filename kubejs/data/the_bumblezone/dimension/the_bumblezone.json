@@ -1,0 +1,25 @@
+{
+  "type": "the_bumblezone:the_bumblezone",
+  "generator": {
+    "type": "hexlands:hexlands",
+	"hex_settings": {
+      "biome_scale": 9,
+      "hex_size": 150,
+      "hex_border_threshold": 0.1,
+      "bottom_border": {
+        "min_height": -128,
+        "max_height": 320,
+        "state": {
+				"Name": "minecraft:air",
+				"Properties": {}
+        }
+      }
+      // No "top_border" field indicates the border should be just air, as is in the overworld
+    },
+    "seed": 3,
+    "settings": "the_bumblezone:bz_noise_settings",
+    "biome_source": {
+      "type": "the_bumblezone:biome_source"
+    }
+  }
+}

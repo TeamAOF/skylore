@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+",
+	 "=  "
+   ],
+   "key": {
+     "#": {
+       "item": "chestcavity:intestine"
+     },
+	     "/": {
+       "item": "chestcavity:animal_intestine"
+     },
+	 	     "+": {
+       "item": "minecraft:blue_ice"
+     },
+	  	     "=": {
+       "item": "minecraft:gold_block"
+     }
+   },
+   "result": {
+     "item": "artifacts:novelty_drinking_hat",
+     "count": 1
+   }
+}

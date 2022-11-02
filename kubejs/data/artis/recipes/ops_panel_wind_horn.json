@@ -1,0 +1,20 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "  #",
+	 "###",
+	 "  /"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	     "/": {
+       "item": "minecraft:leather"
+     }
+   },
+   "result": {
+     "item": "mcdar:wind_horn",
+     "count": 1
+   }
+}

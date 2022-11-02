@@ -1,0 +1,10 @@
+{
+  "isEnabled": true,
+  "triggerDistance": -48,
+  "dropObsidian": false,
+  "fireResistanceSeconds": 1,
+  "slowFallingSeconds": 5,
+  "horizontalDistanceOffset": 200,
+  "targetDimension": "overworld",
+  "transferPositionMode": "SIMILAR"
+}

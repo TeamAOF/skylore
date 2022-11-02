@@ -1,0 +1,27 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:stone_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "modern_industrialization:tin_ore"
+        }
+      },
+      {
+        "target": {
+          "tag": "minecraft:deepslate_ore_replaceables",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "modern_industrialization:deepslate_tin_ore"
+        }
+      }
+    ],
+    "size": 17,
+    "discard_chance_on_air_exposure": 1.0
+  },
+  "type": "minecraft:ore"
+}

@@ -1,0 +1,14 @@
+#radius of blocks to be used in a single ship (default: 20)
+radius=20
+#should vehicle material use a whitelist? (default: false)
+whitelist=false
+#amount of blocks 1 Airship Balloon can lift (default: 2)
+balloon=2
+#amount of blocks 1 Water Float can lift (default: 20)
+float=20
+#amount of blocks 1 wheel can lift (default: 10)
+wheel=10
+#speed of vehicles on their correct terrain (default: 0.2)
+cspeed=0.2
+#speed of vehicles when not on their correct terrain (default: 0.05)
+nspeed=0.02

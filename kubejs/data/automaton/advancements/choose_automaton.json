@@ -1,0 +1,22 @@
+{
+    "parent": "minecraft:story/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"Steve\"}"
+        },
+        "title": "I am Automaton!",
+        "description": "You chose the Automaton origin.",
+        "announce_to_chat": false,
+        "frame": "task",
+        "show_toast": false
+    },
+    "criteria": {
+        "chose_automaton": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "origin": "automaton:automaton"
+            }
+        }
+    }
+}

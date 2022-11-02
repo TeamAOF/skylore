@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "fortis:inexperienced",
+    "fortis:peak_performance",
+    "fortis:slow_learner",
+	"fortis:immune"
+  ],
+  "icon": "mcdw:gauntlet_maulers",
+  "name": "Fortis",
+  "description": "A Race of humans that have been genetically bred to be the peak physical performance of human civilization. They banded together to create a society called \"The Fortis\". Fortis are usually amazing at physical feats, however they use this to try and over compensate for their poor motor skills. With genetic engineering throughout the centuries, Fortis have lost some of their finer motor skills, preventing them from being useful with an axe or shovel.",
+  "order": 6,
+  "impact": 2
+}

@@ -1,0 +1,26 @@
+{
+  "name": "§ePeak Performance",
+  "description": "Your body is at it's peak, you are quicker, stronger, and have more health.",
+  "type": "apoli:attribute",
+  "modifiers": [
+    {
+        "name": "Fortis Health Increase",
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": 10
+    },
+    {
+        "name": "Fortis Speed Increase",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.04
+    },
+    {
+        "name": "Fortis Speed Increase",
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 3.5
+    }
+  ]
+
+}

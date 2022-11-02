@@ -1,0 +1,5 @@
+onEvent('worldgen.remove', event => {
+  event.removeOres(ores => {
+    ores.blocks = [ 'mythicmetals:adamantite_ore', 'mythicmetals:aquarium_ore', 'mythicmetals:banglum_ore', 'blackstone_stormyx_ore', 'calcite_kyber_ore', 'calcite_starrite_ore','mythicmetals:carmot_ore','mythicmetals:deepslate_adamantite_ore','mythicmetals:deepslate_carmot_ore','mythicmetals:deepslate_morkite_ore','mythicmetals:deepslate_mythril_ore','mythicmetals:deepslate_orichalcum_ore','mythicmetals:deepslate_prometheum_ore','mythicmetals:deepslate_runite_ore','mythicmetals:deepslate_unobtainium_ore','mythicmetals:kyber_ore','mythicmetals:manganese_ore','mythicmetals:midas_gold_ore','mythicmetals:morkite_ore','mythicmetals:mythril_ore','mythicmetals:orichalcum_ore','mythicmetals:osmium_ore','mythicmetals:palladium_ore','mythicmetals:platinum_ore','mythicmetals:prometheum_ore','mythicmetals:quadrillum_ore','mythicmetals:runite_ore','mythicmetals:silver_ore','mythicmetals:starrite_ore','mythicmetals:stormyx_ore','mythicmetals:tin_ore','mythicmetals:tuff_orichalcum_ore','mythicmetals:unobtainium_ore','indrev:silver_ore','indrev:deepslate_silver_ore' ]
+  })
+})

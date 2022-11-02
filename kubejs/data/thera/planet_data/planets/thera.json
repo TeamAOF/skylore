@@ -1,0 +1,14 @@
+{
+    "translation": "Thera",
+    "galaxy": "ad_astra:milky_way",
+    "solar_system": "ad_astra:proxima_centauri",
+    "world": "twilightforest:twilight_forest",
+    "orbit_world": "thera:thera_orbit",
+    "parent_world": null,
+    "rocket_tier": 4,
+    "gravity": 9.806,
+    "days_in_year": 300,
+    "temperature": 8,
+    "has_oxygen": true,
+    "button_color": "dark_green"
+}

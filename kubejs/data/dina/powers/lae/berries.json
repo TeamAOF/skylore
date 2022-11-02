@@ -1,0 +1,61 @@
+{
+    "name": "§6§nGlowberries Addiction",
+    "description": "Regular food is fine, but you get Weakness 2 if you haven't eaten glowberries for too long.",
+    "type": "origins:multiple",
+    "berry": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 12000,
+        "start_value": 12000,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+            "bar_index": 0
+        }
+    },
+    "drain": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:lae/berries_berry",
+            "change": -1,
+            "operation": "add"
+        }
+    },
+    "act": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:lae/berries_berry",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "type": "origins:action_over_time",
+        "interval": 35,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "weakness",
+                "duration": 55,
+                "amplifier": 1,
+                "show_particles": false,
+                "show_icon": true
+            }
+        }
+    },
+    "eat": {
+        "type": "origins:modify_food",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "glow_berries"
+            }
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:lae/berries_berry",
+            "change": 12000,
+            "operation": "set"
+        }
+    }
+}

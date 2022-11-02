@@ -1,0 +1,26 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "/*o",
+	 "/#o",
+	 "/*o"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:bow"
+     },
+	     "o": {
+       "item": "minecraft:string"
+     },
+     "/": {
+      "item": "minecraft:gold_ingot"
+    },
+	     "*": {
+       "item": "minecraft:iron_ingot"
+     }
+   },
+   "result": {
+     "item": "mcdw:bow_echo_of_the_valley",
+     "count": 1
+   }
+}

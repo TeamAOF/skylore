@@ -1,0 +1,21 @@
+{
+    "name": "§4§nLight Weakness",
+    "description": "Sunlight makes you weak and slow.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+        {
+            "attribute": "generic.attack_damage",
+            "operation": "multiply_total",
+            "value": -0.2
+        },
+        {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_total",
+            "value": -0.2
+        }
+    ],
+    "update_health": false
+}

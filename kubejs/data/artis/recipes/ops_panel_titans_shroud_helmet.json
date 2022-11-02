@@ -1,0 +1,23 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "###",
+	 "#-#",
+	 "*#*"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	      "-": {
+       "item": "minecraft:netherite_ingot"
+     },
+	      "*": {
+       "item": "minecraft:gold_ingot"
+     }
+   },
+   "result": {
+     "item": "mcda:titans_shroud_helmet",
+     "count": 1
+   }
+}

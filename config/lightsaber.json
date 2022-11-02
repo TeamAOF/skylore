@@ -1,0 +1,10 @@
+{
+  "generalLightsaberDamage": 20.0,
+  "generalLightsaberSpeed": 2.8,
+  "darksaberDamage": 30.0,
+  "darksaberSpeed": 2.8,
+  "whiteLightsaberDamage": 24.0,
+  "whiteLightsaberSpeed": 2.8,
+  "purpleLightsaberDamage": 22.0,
+  "purpleLightsaberSpeed": 2.8
+}

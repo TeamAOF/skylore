@@ -1,0 +1,23 @@
+{
+   "type": "artis:tech_bench_shaped",
+   "pattern": [
+   "###",
+   "+-+",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "logicates:logicate_plate"
+     },
+	      "+": {
+       "item": "minecraft:lapis_lazuli"
+     },
+     "-": {
+      "item": "minecraft:smithing_table"
+    }
+   },
+   "result": {
+     "item": "logicates:logicate_fabricator",
+     "count": 1
+   }
+}

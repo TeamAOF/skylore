@@ -1,0 +1,14 @@
+{
+  "observedOptions": {
+    "observerRange": 32,
+    "observerSpawnWeight": 15,
+    "observerFollowDistance": 7.5,
+    "observersSpawnInCaves": false,
+    "closeObserverGainRate": 1.0,
+    "nearButNotCloseObserverGainRate": 0.75,
+    "farObserverGainRate": 0.375,
+    "highValueDrainRate": 0.35,
+    "mediumValueDrainRate": 0.2,
+    "lowValueDrainRate": 0.1
+  }
+}

@@ -1,0 +1,23 @@
+{
+   "type": "artis:ops_panel_shaped",
+   "pattern": [
+     "###",
+	 "/*/",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_ingot"
+     },
+	     "/": {
+       "item": "minecraft:leather"
+     },
+	     "*": {
+       "item": "minecraft:iron_block"
+     }
+   },
+   "result": {
+     "item": "mcdar:iron_hide_amulet",
+     "count": 1
+   }
+}

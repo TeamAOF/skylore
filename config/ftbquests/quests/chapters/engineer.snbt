@@ -1,0 +1,75 @@
+{
+	id: "0E89E29DA5C593B6"
+	group: "38D73AD51340A19B"
+	order_index: 4
+	filename: "engineer"
+	title: "Engineer"
+	icon: "kubejs:engineer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -4.5d
+		y: -2.5d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/engineerdesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "artis:tech_bench"
+			disable_toast: true
+			x: -0.5d
+			y: 0.0d
+			secret: true
+			id: "19B926D47CEA48BC"
+			tasks: [
+				{
+					id: "77A6978D7B697A11"
+					type: "professions:profession"
+					disable_toast: true
+					prof: "professions:engineer"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "1CD7972D4DA59407"
+					type: "advancement"
+					advancement: "indrev:circuit_mk1"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "2E2E5554614C8529"
+				type: "questsadditions:repeat"
+				table_id: 5908206142234555707L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "0E59CC5C049D8503"
+			tasks: [{
+				id: "7690C62E58048117"
+				type: "advancement"
+				advancement: "indrev:industrial_smelter"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "3D26E218B2054FBE"
+			tasks: [{
+				id: "50908D449AC7181D"
+				type: "advancement"
+				advancement: "modern_industrialization:vacuum_freezer"
+				criterion: ""
+			}]
+		}
+	]
+}

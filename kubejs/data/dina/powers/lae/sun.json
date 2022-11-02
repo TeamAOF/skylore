@@ -1,0 +1,116 @@
+{
+    "name": "§e§nSolar Overcharge",
+    "description": "The sun can overcharge you, giving you enhanced speed and strength, however it also increases your metabolism by 5 times.",
+    "type": "origins:multiple",
+    "juice": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1200,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+            "bar_index": 24,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:lae/sun_juice",
+                "comparison": "!=",
+                "compare_to": 0
+            }
+        }
+    },
+    "gainlossfx": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:exposed_to_sun"
+                    },
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:lae/sun_juice",
+                        "change": 1,
+                        "operation": "add"
+                    }
+                },
+                {
+                    "condition": {
+                        "inverted": true,
+                        "type": "origins:exposed_to_sun"
+                    },
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "*:lae/sun_juice",
+                        "change": -3,
+                        "operation": "add"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "*:lae/sun_juice",
+                                "comparison": "==",
+                                "compare_to": 1200
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:invisible"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:status_effect",
+                                "effect": "invisibility"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "particle wax_on ~ ~0.25 ~ 0 0 0 0 1"
+                    }
+                }
+            ]
+        }
+    },
+    "attr": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:lae/sun_juice",
+            "comparison": "==",
+            "compare_to": 1200
+        },
+        "type": "origins:conditioned_attribute",
+        "modifiers": [
+            {
+                "attribute": "generic.attack_damage",
+                "operation": "multiply_total",
+                "value": 0.5
+            },
+            {
+                "attribute": "generic.movement_speed",
+                "operation": "multiply_total",
+                "value": 0.5
+            }
+        ],
+        "tick_rate": 1,
+        "update_health": false
+    },
+    "exh": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:lae/sun_juice",
+            "comparison": "==",
+            "compare_to": 1200
+        },
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 4
+        }
+    }
+}

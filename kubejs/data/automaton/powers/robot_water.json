@@ -1,0 +1,40 @@
+{
+
+	
+	"type": "origins:multiple",
+	"water":{
+		"type": "origins:damage_over_time",
+		"interval": 30,
+		"damage": 1,
+		"damage_source": {
+			"name": "hurt_by_water",
+			"unblockable": false,
+			"bypasses_armor": true
+		},
+		"protection_enchantment": "origins:water_protection",
+		"protection_effectiveness": 0.1,
+		"condition": {
+			"type": "origins:fluid_height",
+			"fluid": "minecraft:water",
+			"comparison": ">",
+			"compare_to": 0.0
+		}
+	},
+	"rain":{
+		"type": "origins:damage_over_time",
+		"interval": 60,
+		"damage": 1,
+		"damage_source": {
+			"name": "hurt_by_water",
+			"unblockable": false,
+			"bypasses_armor": true
+		},
+		"protection_enchantment": "origins:water_protection",
+		"protection_effectiveness": 0.1,
+		"condition": {
+			"type": "origins:in_rain"
+		}
+	},
+    "name": "§eConductive",
+    "description": "You take damage and lose charge in water."
+}

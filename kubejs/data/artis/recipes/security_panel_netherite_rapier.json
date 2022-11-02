@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "12 ",
+	 "   ",
+   "   "
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:netherite_ingot"
+     },
+     "2": {
+      "item": "gateofbabylon:diamond_rapier"
+    }
+   },
+   "result": {
+     "item": "gateofbabylon:netherite_rapier",
+     "count": 1
+   }
+}

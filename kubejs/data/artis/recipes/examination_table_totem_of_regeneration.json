@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+",
+	 "=  "
+   ],
+   "key": {
+     "#": {
+       "item": "chestcavity:heart"
+     },
+	     "/": {
+       "item": "chestcavity:animal_heart"
+     },
+	 	     "+": {
+       "item": "chestcavity:ender_heart"
+     },
+	  	     "=": {
+       "item": "blockus:love_block"
+     }
+   },
+   "result": {
+     "item": "mcdar:totem_of_regeneration",
+     "count": 1
+   }
+}

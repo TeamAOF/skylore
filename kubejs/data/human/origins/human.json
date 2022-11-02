@@ -1,0 +1,7 @@
+{
+  "icon": "minecraft:player_head",
+  "name": "Human",
+  "description": "Humans, the sect of people that decided against genetic manipulation specialized in magic while having a solid foundation in industry. This is your basic minecraft experience, but also the most difficult on this mission. Humans have no bonuses, very little specific quests. This is meant to be one of the most difficult species to be.",
+  "order": 1,
+  "impact": 1
+}

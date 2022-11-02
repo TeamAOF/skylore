@@ -1,0 +1,1 @@
+execute unless score #islandspawner spawncomplete matches 1 run function islandspawn:run_once

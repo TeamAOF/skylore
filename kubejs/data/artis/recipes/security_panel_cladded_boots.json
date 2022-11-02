@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "#+ ",
+	 "   ",
+   "   "
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:leather_boots"
+     },
+	      "+": {
+       "item": "biomemakeover:crude_cladding"
+     }
+   },
+   "result": {
+     "item": "biomemakeover:cladded_boots",
+     "count": 1
+   }
+}

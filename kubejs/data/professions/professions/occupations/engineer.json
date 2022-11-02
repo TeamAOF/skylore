@@ -1,0 +1,99 @@
+{
+  "type": "professions:default",
+  "color": "#8a8a8a",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by working at the smaller scale of tech."
+  ],
+  "displayName": "Engineer",
+  "maxLevel": 100,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 5,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk1",
+        "modern_industrialization:analog_circuit",
+        "modern_industrialization:electronic_circuit_board",
+        "modern_industrialization:diode",
+        "modern_industrialization:resistor",
+        "logicates:and_logicate",
+        "logicates:logicate_fabricator",
+        "logicates:nand_logicate",
+        "logicates:nor_logicate",
+        "logicates:not_logicate",
+        "logicates:or_logicate",
+        "logicates:timer_logicate",
+        "logicates:timer_logicate_pointer",
+        "logicates:weather_logicate",
+        "logicates:xnor_logicate",
+        "logicates:xor_logicate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 10,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk2",
+        "modern_industrialization:basic_upgrade",
+        "modern_industrialization:electronic_circuit",
+        "modern_industrialization:random_access_memory"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 20,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk3",
+        "indrev:tier_upgrade_mk3",
+        "modern_industrialization:invar_gear",
+        "modern_industrialization:not_gate",
+        "modern_industrialization:and_gate",
+        "modern_industrialization:or_gate",
+        "modern_industrialization:diamond_plate",
+        "modern_industrialization:large_motor"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}

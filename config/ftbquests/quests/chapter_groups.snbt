@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "4E03E5FEAE87C266", title: "Orders" }
+		{ id: "38D73AD51340A19B", title: "Professions" }
+	]
+}

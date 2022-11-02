@@ -1,0 +1,322 @@
+{
+	id: "4EF7438DE6AC207A"
+	group: "38D73AD51340A19B"
+	order_index: 3
+	filename: "doctor"
+	title: "Doctor"
+	icon: "kubejs:doctor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.0d
+		y: 1.5d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/doctordesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "artis:examination_table"
+			disable_toast: true
+			x: 2.5d
+			y: -1.5d
+			id: "2E8711EA762548F2"
+			tasks: [
+				{
+					id: "0C0F7D22F564BA4D"
+					type: "professions:profession"
+					icon: "kubejs:doctor"
+					disable_toast: true
+					prof: "professions:doctor"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "4BE3E54A41DFCFD2"
+					type: "advancement"
+					advancement: "soaringstructures2:heavenly_tea"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "5B5CE79C28BC7605"
+				type: "questsadditions:repeat"
+				table_id: 2304669537676444054L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "556AC8A73B938089"
+			tasks: [{
+				id: "7601D0595292CA61"
+				type: "item"
+				item: "immortuoscalyx:syringe"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "08CBDE18227CF305"
+			tasks: [{
+				id: "7415C9DB991BEB0E"
+				type: "item"
+				item: "squirtingsyringe:syringe"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "25275C639A40BF15"
+			tasks: [{
+				id: "69BD2E1F736E61FD"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:heal_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "0FF9503222807B03"
+			tasks: [{
+				id: "798703BA83E60150"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:ghost_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "41D98416BC32F90F"
+			tasks: [{
+				id: "32A6B1D0B442BF93"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:warrior_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "0630DEC39202BEBA"
+			tasks: [{
+				id: "1DA5477EAFF6F03C"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:mining_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "4A44EE1FB539BD5B"
+			tasks: [{
+				id: "177358AEB32D980D"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:mushroom_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "5F9A7B30EF21FB36"
+			tasks: [{
+				id: "289DEFE681B8AC75"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:falling_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "7648385453AEC740"
+			tasks: [{
+				id: "27DBE6ECAD38030B"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:fire_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "2D025D6B22DD7939"
+			tasks: [{
+				id: "47E1CDABF6438963"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:luck_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "1CB7EA7AC9C1A6EB"
+			tasks: [{
+				id: "185D715DB1ACA611"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:remove_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "44FE5D3DB5E5EE9E"
+			tasks: [{
+				id: "38AD8CACA3A35530"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:focus_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "51B8ABC48886C04A"
+			tasks: [{
+				id: "7669A430A1E476CB"
+				type: "item"
+				item: "immortuoscalyx:immortuoseggs"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "27E63976C343CC4A"
+			tasks: [{
+				id: "7C9D444ED318EC37"
+				type: "item"
+				item: "immortuoscalyx:unstablestrand"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "2A0D3B6FA70246CC"
+			tasks: [{
+				id: "5C371AF3F53B1A29"
+				type: "item"
+				item: "immortuoscalyx:stablizedstrand"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "2B6B3FBA804B09DD"
+			tasks: [{
+				id: "3FD80627115E276F"
+				type: "item"
+				item: "immortuoscalyx:antiparasitic"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "364981504A6D6623"
+			tasks: [{
+				id: "461F5FE557FEE301"
+				type: "item"
+				item: "immortuoscalyx:calyxanide"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "4130995FD3610612"
+			tasks: [{
+				id: "4BFA2758C506199B"
+				type: "item"
+				item: "immortuoscalyx:healthscanner"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "776CFC81987232B8"
+			tasks: [{
+				id: "54618F870359F8D7"
+				type: "item"
+				item: "immortuoscalyx:infection_scanner"
+			}]
+		}
+	]
+}

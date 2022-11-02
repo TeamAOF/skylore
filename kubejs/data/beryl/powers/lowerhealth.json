@@ -1,0 +1,14 @@
+{
+    "name": "§eCrystal Health",
+    "description": "You may have higher armor, but also have less health",
+    "type": "apoli:attribute",
+    "modifiers": [
+      {
+          "name": "Crystal Health",
+          "attribute": "minecraft:generic.max_health",
+          "operation": "addition",
+          "value": -8
+      }
+    ]
+  
+  }

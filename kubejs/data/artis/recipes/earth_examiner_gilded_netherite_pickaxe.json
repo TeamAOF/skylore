@@ -1,0 +1,31 @@
+{
+   "type": "artis:earth_examiner_shaped",
+   "pattern": [
+    "12345"
+  ],
+   "key": {
+"1":{
+       "item": "minecraft:redstone_ore"
+     },
+"2":{
+       "item": "minecraft:ancient_debris"
+     },
+"3":{
+       "item": "minecraft:diamond_ore"
+     },
+"4":{
+       "item": "minecraft:lapis_ore"
+     },
+"5":{
+       "item": "minecraft:gold_ore"
+     }
+    },
+   "result": {
+     "item": "additionaladditions:gilded_netherite_pickaxe",
+     "count": 1
+   },
+      "catalyst": {
+     "item": "minecraft:netherite_pickaxe"
+   },
+   "cost": 1561
+}

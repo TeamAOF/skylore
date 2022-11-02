@@ -1,0 +1,19 @@
+{
+  "name": "§eOpulent Love",
+  "description": "You love the worlds riches.. when your wear gold, silver or diamond chestplate you gain strength as you gain the riches closer to your heart",
+  "type": "origins:modify_break_speed",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "chest",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "indrevian:chest"
+      }
+    }
+  },
+  "modifier": {
+      "operation": "multiply_base",
+      "value": 10.0
+  }
+}

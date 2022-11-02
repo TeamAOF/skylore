@@ -1,0 +1,20 @@
+{
+   "type": "artis:tech_bench_shaped",
+   "pattern": [
+   "+##",
+   "## ",
+	 "   "
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:redstone"
+     },
+	      "+": {
+       "item": "minecraft:iron_ingot"
+     }
+   },
+   "result": {
+     "item": "rswires:red_alloy_compound",
+     "count": 1
+   }
+}

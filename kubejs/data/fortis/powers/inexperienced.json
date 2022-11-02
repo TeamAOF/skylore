@@ -1,0 +1,9 @@
+{
+  "name": "§eInexperienced",
+  "description": "You gain xp two times slower",
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+      "operation": "multiply_base",
+      "value": 0.5
+  }
+}

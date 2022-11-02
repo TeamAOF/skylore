@@ -1,0 +1,817 @@
+{
+	id: "7B1C7AEFA21B9390"
+	group: "4E03E5FEAE87C266"
+	order_index: 0
+	filename: "primary_orders"
+	title: "Primary Orders"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Initiate crash land protocol #87"
+			icon: "minecraft:nether_star"
+			x: -1.5d
+			y: -3.0d
+			description: [
+				"Your team has crash landed searching for the legendary Atmos."
+				""
+				"Follow protocol to ensure survival as well as continue the mission."
+				""
+				""
+				"Enter your 3 professions into the profession panel to gain additional resources and missions for your profession."
+			]
+			id: "08B4B8CB9C702E65"
+			tasks: [
+				{
+					id: "597AECE6DEFB23D2"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03DE77243E9B6828"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A1AE9E4A9710B4D"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0D42A1271630C914"
+				type: "item"
+				item: {
+					id: "scannable:scanner"
+					Count: 1b
+					tag: {
+						energy: 5000L
+					}
+				}
+			}]
+		}
+		{
+			title: "Gain Intel"
+			x: -3.0d
+			y: 1.0d
+			description: [
+				"Submit research to gain high level information about this planet."
+				""
+				"Your next target will be a possible carrier for a disease found on this planet. It is advised you investigate."
+				""
+				"An Automaton will be providing a glider to allow better transport."
+				""
+				"The next set of orders is to build enough equipment to further research."
+				""
+				"Once you have completed a chain of tech, your research can begin."
+			]
+			dependencies: ["25595A045543F485"]
+			id: "09C625183CF91D8A"
+			tasks: [{
+				id: "2713A99981C26166"
+				type: "xp"
+				value: 25L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "540F465A484D0370"
+					type: "item"
+					item: {
+						id: "kibe:purple_glider"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "047822D155425F59"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:silver_coin"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Textiles"
+			x: -0.5d
+			y: 1.0d
+			description: ["Master a little bit of the ol' textile gathering"]
+			dependencies: ["25595A045543F485"]
+			id: "6D44F724C0011D66"
+			tasks: [
+				{
+					id: "11640108BBD3754E"
+					type: "item"
+					item: "minecraft:string"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "6A4FFAA82B267747"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 25L
+					consume_items: true
+				}
+				{
+					id: "489C7DBE78E3639B"
+					type: "item"
+					item: "minecraft:leather"
+					count: 25L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7324119594E971FF"
+				type: "item"
+				item: {
+					id: "immersive_armors:robe_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Gather Materials"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["2A267C6C28EABE89"]
+			hide: true
+			id: "4A07C620CA066160"
+			tasks: [
+				{
+					id: "72A493AA7C2B4DA0"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 64L
+				}
+				{
+					id: "3429C9620FF4C53F"
+					type: "item"
+					item: "minecraft:raw_copper"
+					count: 64L
+				}
+				{
+					id: "3821E9B1F03DE2B7"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "23273F05FE3F0201"
+				type: "item"
+				item: "scannable:common_ores_module"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: [
+				"The infected Zombies seem to be a threat. As well as a possible vector of transmission for something."
+				""
+				"You will need to focus on containing and research."
+				""
+				"Choose your path when it comes to technology. Automatons are expensive to pay to come out to Atmos."
+			]
+			dependencies: ["09C625183CF91D8A"]
+			id: "7A384C40B6682B56"
+			tasks: [{
+				id: "40EBB010B95D6749"
+				type: "kill"
+				title: "Kill infected"
+				entity: "immortuoscalyx:infectedhuman"
+				value: 3L
+			}]
+		}
+		{
+			title: "Automation"
+			x: -1.5d
+			y: 3.0d
+			description: ["Before the Alien tech of AE2 was found, Tom had an idea."]
+			dependencies: ["7E51BE5A49C4BDF5"]
+			id: "3268EE991B33DCDA"
+			tasks: [
+				{
+					id: "70EC45220FE29B60"
+					type: "item"
+					item: "toms_storage:ts.storage_terminal"
+				}
+				{
+					id: "3736F695F5D65FBB"
+					type: "item"
+					item: "toms_storage:ts.crafting_terminal"
+				}
+			]
+			rewards: [
+				{
+					id: "327330BA80EAF5D9"
+					type: "item"
+					item: "toms_storage:ts.inventory_connector"
+					count: 5
+				}
+				{
+					id: "1DFA6D305BF0905E"
+					type: "item"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					count: 5
+				}
+				{
+					id: "20FBBE5E7D72FAB6"
+					type: "item"
+					item: "toms_storage:ts.inventory_cable"
+					count: 24
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: [
+				"It is important as a sentient species to have a well equipped and productive environment."
+				""
+				"Rewards are the journey along the way. Some loot crate we got at a convention and a big knife so you can cut the big cheese."
+			]
+			dependencies: ["3268EE991B33DCDA"]
+			id: "2F2C01DDD8B7F11D"
+			tasks: [
+				{
+					id: "61463FCBE02C8262"
+					type: "item"
+					item: "pfm:purple_simple_sofa"
+					count: 4L
+				}
+				{
+					id: "473DD5F28508679D"
+					type: "item"
+					item: "pfm:acacia_classic_nightstand"
+					count: 2L
+				}
+				{
+					id: "2C4D0BE7D4B600A0"
+					type: "item"
+					item: "pfm:oak_purple_classic_bed"
+				}
+				{
+					id: "33437724183F87F1"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_counter_oven"
+				}
+				{
+					id: "38CB25F64420ED79"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_sink"
+				}
+				{
+					id: "6EC3FBBD803106D9"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_cabinet"
+				}
+				{
+					id: "5168960C7EB77859"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_drawer"
+				}
+				{
+					id: "55A6FF4253FFEBDF"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_wall_counter"
+					count: 5L
+				}
+				{
+					id: "74F7615278804072"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_wall_drawer"
+					count: 4L
+				}
+				{
+					id: "6FA9A6FA797185AC"
+					type: "item"
+					item: "pfm:dark_concrete_kitchen_wall_small_drawer"
+				}
+			]
+			rewards: [
+				{
+					id: "467D5C40FE95D4D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6E12DD6CDE71FB57"
+					type: "item"
+					item: "lootcrates:epic_loot_bag"
+				}
+				{
+					id: "563FF8B90244B248"
+					type: "item"
+					item: {
+						id: "medievalweapons:netherite_long_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 8.0d
+			dependencies: ["49A1E02F4BF37C5B"]
+			id: "05A0095F120AD6AB"
+			tasks: [{
+				id: "41EEC86134AD2F04"
+				type: "item"
+				item: "croptopia:taco"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["05A0095F120AD6AB"]
+			id: "36BD044D61B1948F"
+			tasks: [{
+				id: "1D8146DEFE116F38"
+				type: "item"
+				item: "tacocraft:golden_taco"
+			}]
+		}
+		{
+			title: "Collect for next stage"
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["455DCAEAE76FED7B"]
+			id: "49A1E02F4BF37C5B"
+			tasks: [
+				{
+					id: "7DD7BB80DC78FB1E"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 64L
+				}
+				{
+					id: "76399D57EAF35D7C"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 64L
+				}
+				{
+					id: "1947F60A876B78D1"
+					type: "item"
+					item: "minecraft:copper_block"
+					count: 64L
+				}
+				{
+					id: "2F23353C35F67BDD"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 64L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["49A1E02F4BF37C5B"]
+			id: "56AE4DB007BD8EF0"
+			tasks: [{
+				id: "279F19AC371D2FE7"
+				type: "checkmark"
+				title: "Divert Resources"
+			}]
+		}
+		{
+			title: "Light up the area"
+			x: -1.5d
+			y: -2.0d
+			description: ["Survey the area and secure it. Light up your area."]
+			dependencies: ["08B4B8CB9C702E65"]
+			hide: true
+			id: "799D458783DC18C2"
+			tasks: [{
+				id: "260780521604C122"
+				type: "item"
+				item: "minecraft:torch"
+				count: 10L
+			}]
+			rewards: [{
+				id: "0DFB21918A6DBDC5"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Create portable sleeping situation"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["799D458783DC18C2"]
+			hide: true
+			id: "2DDE97BB7AA74D9A"
+			tasks: [{
+				id: "6E321D6AF32E4B48"
+				type: "item"
+				item: {
+					id: "campanion:sleeping_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B5DF62CA806D764"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 5
+			}]
+		}
+		{
+			title: "Figure out this \"magic\" stuff"
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["4A07C620CA066160"]
+			id: "25595A045543F485"
+			tasks: [{
+				id: "30457508D887FAC0"
+				type: "advancement"
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "31DA3F122A0AABBD"
+				type: "item"
+				item: "relicex:tome"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["28D0B832673A3B1B"]
+			id: "1C7EDB2A7B24BA84"
+			tasks: [{
+				id: "1B5E606C9E3F4BE2"
+				type: "checkmark"
+				title: "Traitors afoot"
+			}]
+		}
+		{
+			title: "Asses the planet"
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["6D44F724C0011D66"]
+			id: "03D571A6ADED43F9"
+			tasks: [{
+				id: "47435EF03194E8F1"
+				type: "item"
+				item: "sextant:navigation_kit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["2F2C01DDD8B7F11D"]
+			id: "538E120540CE9748"
+			tasks: [{
+				id: "75F4C2CDF81FFABA"
+				type: "item"
+				item: "scannable:hostile_entity_module"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["538E120540CE9748"]
+			id: "455DCAEAE76FED7B"
+			tasks: [{
+				id: "31AD30632C14B00B"
+				type: "checkmark"
+				title: "Build Defense"
+			}]
+		}
+		{
+			title: "Defend yourself"
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["799D458783DC18C2"]
+			hide: true
+			id: "2A267C6C28EABE89"
+			tasks: [{
+				id: "7E18DF0A4CD46A94"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "467D599FA76EB042"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 24
+			}]
+		}
+		{
+			title: "Iron up"
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["2A267C6C28EABE89"]
+			hide: true
+			id: "28D0B832673A3B1B"
+			tasks: [
+				{
+					id: "2198DD5A61E7FC85"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1A903018180D1D10"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E7DF7678D5C8353"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A94DD6EFA2DA235"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7503861F0163E17A"
+					type: "item"
+					item: {
+						id: "relicex:ring_relic"
+						Count: 1b
+						tag: {
+							Attributes: [
+								{
+									Value: 0.19999999552965164d
+									Operation: 0b
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Value: 0.09999999776482582d
+									Operation: 0b
+									Name: "playerex:melee_crit_chance"
+								}
+							]
+							Rareness: "common"
+						}
+					}
+				}
+				{
+					id: "2817F31B03508B90"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Cook a fancy meal for yourself"
+			x: -3.5d
+			y: -2.0d
+			description: ["If you can display basic cooking skills. Some Automaton drones will send you some random food."]
+			dependencies: ["2DDE97BB7AA74D9A"]
+			hide: true
+			id: "01F06B7C9D1EFFD1"
+			tasks: [
+				{
+					id: "372F2CB63CF098DB"
+					type: "item"
+					item: "minecraft:cooked_beef"
+				}
+				{
+					id: "10500DF75D71F7E0"
+					type: "item"
+					item: "minecraft:baked_potato"
+				}
+				{
+					id: "5CBB5B3D6F921AAD"
+					type: "item"
+					item: "minecraft:carrot"
+				}
+			]
+			rewards: [
+				{
+					id: "76BEF6ABD68A99BC"
+					type: "random"
+					table_id: 8894899558278203627L
+				}
+				{
+					id: "1476F7970175C405"
+					type: "random"
+					table_id: 8894899558278203627L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["09C625183CF91D8A"]
+			id: "11ADB1EC035FB170"
+			tasks: [{
+				id: "467EE4F0A25D5AFF"
+				type: "kill"
+				entity: "immortuoscalyx:infectedig"
+				value: 1L
+			}]
+			rewards: [{
+				id: "583F27C8186F469E"
+				type: "item"
+				item: "immortuoscalyx:healthscanner"
+			}]
+		}
+		{
+			title: "Protein Procurement"
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["25595A045543F485"]
+			id: "7E51BE5A49C4BDF5"
+			tasks: [
+				{
+					id: "533A5FB5E1DE174E"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 24L
+				}
+				{
+					id: "46D043AEAA5B1A54"
+					type: "item"
+					item: "minecraft:cooked_chicken"
+					count: 24L
+				}
+				{
+					id: "4B56F81D19C378D6"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 24L
+				}
+			]
+			rewards: [{
+				id: "29AFB7FDAE004F3E"
+				type: "item"
+				item: "relicex:tome"
+				count: 5
+			}]
+		}
+		{
+			title: "Master Bio Energy"
+			x: -6.5d
+			y: 1.0d
+			description: ["An energy source that is renewable is very important to further our research."]
+			dependencies: ["5674DA871F47B012"]
+			id: "07CCCC6EAF2158D0"
+			tasks: [
+				{
+					id: "2D3E7A40B275FA21"
+					type: "advancement"
+					advancement: "indrev:biomass"
+					criterion: ""
+				}
+				{
+					id: "65498B79BD0E6AFF"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:silver_coin"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			description: [
+				"Indrevian tech is usually easier to make and less complicated."
+				""
+				"It is advised, but not required to start with Indrevian tech to further research."
+			]
+			dependencies: ["7A384C40B6682B56"]
+			id: "5674DA871F47B012"
+			tasks: [{
+				id: "0E97378AF93A9FE5"
+				type: "item"
+				item: "indrev:nikolite_dust"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: [
+				"Start your tech journey down the MI state of mind."
+				""
+				"Brought to you by MIndustries."
+			]
+			dependencies: ["09C625183CF91D8A"]
+			id: "0AC81367B6533747"
+			tasks: [{
+				id: "22CA8A45B71988BB"
+				type: "item"
+				item: "modern_industrialization:forge_hammer"
+			}]
+			rewards: [{
+				id: "5E27650DBAAA9DBD"
+				type: "item"
+				item: "minecraft:raw_gold"
+				count: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			description: ["Wait, you thought we wouldn't demand the best out of you? Build a reactor."]
+			dependencies: ["572A1F32233A0E22"]
+			id: "0F18E8D1A9B506B6"
+			tasks: [{
+				id: "730199FD3D0AFFDA"
+				type: "item"
+				item: "modern_industrialization:nuclear_reactor"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			dependencies: ["0AC81367B6533747"]
+			id: "572A1F32233A0E22"
+			tasks: [{
+				id: "68A98839EFA98A76"
+				type: "item"
+				item: "modern_industrialization:diesel_generator"
+			}]
+		}
+	]
+}

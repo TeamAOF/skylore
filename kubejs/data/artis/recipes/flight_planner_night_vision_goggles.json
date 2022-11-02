@@ -1,0 +1,30 @@
+{
+   "type": "artis:flight_planner_shaped",
+   "pattern": [
+     "222",
+	 "141",
+	 "333"
+   ],
+   "key": {
+	      "1": {
+       "item": "minecraft:iron_ingot"
+     },
+	      "2": {
+       "item": "minecraft:glow_ink_sac"
+     },
+     "4": {
+      "item": "minecraft:leather"
+    },
+    "3": {
+      "item": "modern_industrialization:titanium_ingot"
+    }
+   },
+   "result": {
+     "item": "artifacts:night_vision_goggles",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "kibe:white_glider"
+   },
+   "cost": 1
+}

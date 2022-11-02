@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "indrevian:cyborg_body",
+    "indrevian:fanatic_capitalist",
+	"indrevian:opulent_love"
+  ],
+  "icon": "indrev:energy_reader",
+  "name": "Indrevian",
+  "description": "A cyborg species with similar to human organics. This species is extremely curious and insanely materialistic. They can learn faster than most, however they covet things of value to a point that it affects their mind. This species did not become cyborg to be stronger or faster, but to live longer and experience their valued possessions for every second they can squeeze.",
+  "order": 7,
+  "impact": 2
+}

@@ -1,0 +1,31 @@
+{
+   "type": "artis:earth_examiner_shaped",
+   "pattern": [
+    "12345"
+  ],
+   "key": {
+"1":{
+       "item": "valley:marinite"
+     },
+"2":{
+       "item": "valley:mud"
+     },
+"3":{
+       "item": "the_extractinator:silt"
+     },
+"4":{
+       "item": "valley:mixed_ore"
+     },
+"5":{
+       "item": "blockus:marble"
+     }
+    },
+   "result": {
+     "item": "the_extractinator:extractinator",
+     "count": 1
+   },
+      "catalyst": {
+     "item": "minecraft:netherite_pickaxe"
+   },
+   "cost": 1561
+}

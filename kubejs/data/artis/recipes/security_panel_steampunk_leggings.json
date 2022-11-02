@@ -1,0 +1,20 @@
+{
+   "type": "artis:security_panel_shaped",
+   "pattern": [
+     "111",
+	 "2 2",
+   "1 1"
+   ],
+   "key": {
+     "1": {
+       "item": "minecraft:gold_ingot"
+     },
+     "2": {
+      "item": "minecraft:piston"
+    }
+   },
+   "result": {
+     "item": "immersive_armors:steampunk_leggings",
+     "count": 1
+   }
+}

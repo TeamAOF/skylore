@@ -1,0 +1,221 @@
+{
+	id: "6E59975B1807BD4B"
+	group: "38D73AD51340A19B"
+	order_index: 0
+	filename: "botanist"
+	title: "Botanist"
+	icon: "kubejs:botanist"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.0d
+		y: -5.0d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/botanistdesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Botanist"
+			icon: "artis:botanist_bench"
+			disable_toast: true
+			x: 0.5d
+			y: 1.0d
+			id: "46CC82F993D692F1"
+			tasks: [
+				{
+					id: "54C40F9DC5BCD98B"
+					type: "professions:profession"
+					icon: "kubejs:botanist"
+					disable_toast: true
+					prof: "professions:botanist"
+					action: "JOIN"
+					level: -1
+				}
+				{
+					id: "6D4A9138B6BCE9C6"
+					type: "advancement"
+					icon: "valley:living_mandrake"
+					advancement: "valley:exploration/mandrake"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "56B0ADAC7204A239"
+				type: "questsadditions:repeat"
+				table_id: 724288348626673165L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			description: ["Oxygen on this planet is low. Plant oak trees to counter this."]
+			dependencies: ["46CC82F993D692F1"]
+			id: "1FEDFD6F7772E0B3"
+			tasks: [{
+				id: "2A6BD4E33AB20FB9"
+				type: "questsadditions:place"
+				title: "Plant 100 Oak Saplings"
+				icon: "minecraft:oak_sapling"
+				block_type: 0
+				block: "minecraft:oak_sapling"
+				value: 100L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "6901B46DF7E7D71D"
+			tasks: [{
+				id: "5EFFDD279848522B"
+				type: "questsadditions:place"
+				title: "Plant 100 BYG Flowers"
+				block_type: 1
+				block: "c:flowers"
+				value: 100L
+				replaced: "minecraft:air"
+				replace: false
+			}]
+			rewards: [{
+				id: "342BBBD38E296B25"
+				type: "item"
+				item: "relicex:tome"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "3AE77F195E2FAA24"
+			tasks: [{
+				id: "50CC42A2D6F80D22"
+				type: "stat"
+				icon: "minecraft:flower_pot"
+				stat: "minecraft:pot_flower"
+				value: 100
+			}]
+			rewards: [{
+				id: "3ED6F238A69E4EE3"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["46CC82F993D692F1"]
+			id: "09208F4229B713D8"
+			tasks: [{
+				id: "1815632D2FC2E64E"
+				type: "advancement"
+				advancement: "valley:exploration/mycologist"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "735100152FC7BD5B"
+			tasks: [{
+				id: "3AD942CF916D1100"
+				type: "advancement"
+				advancement: "croptopia:gather_forest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0F6118A0A06F3844"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "48F32AC8FE528C0D"
+			tasks: [{
+				id: "60C105228E87BE2C"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "5BAB2C1E385C78EF"
+			tasks: [{
+				id: "4FFB8ADA2A3889EB"
+				type: "advancement"
+				advancement: "byg:husbandry/hot_diggity_not_dog"
+				criterion: ""
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["48F32AC8FE528C0D"]
+			id: "5471C7AD1BA934DB"
+			tasks: [{
+				id: "5E8BF6456E05C5E9"
+				type: "advancement"
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.5d
+			dependencies: ["48F32AC8FE528C0D"]
+			id: "68EB2B13F33783E1"
+			tasks: [{
+				id: "726FD75538B88B71"
+				type: "advancement"
+				advancement: "botania:challenge/infinite_fruit"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["48F32AC8FE528C0D"]
+			id: "42FE7A9A4E863A08"
+			tasks: [{
+				id: "66F6F0BC796E68B0"
+				type: "advancement"
+				advancement: "botania:challenge/flugel_eye"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			dependencies: ["48F32AC8FE528C0D"]
+			id: "3BD0C0D0F5BA2248"
+			tasks: [{
+				id: "09DD49856D3B1388"
+				type: "advancement"
+				advancement: "botania:challenge/king_key"
+				criterion: ""
+			}]
+		}
+	]
+}

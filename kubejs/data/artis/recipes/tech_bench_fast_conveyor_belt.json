@@ -1,0 +1,26 @@
+{
+   "type": "artis:tech_bench_shaped",
+   "pattern": [
+   "###",
+   "+-+",
+	 "ooo"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:red_dye"
+     },
+	      "+": {
+       "item": "kibe:regular_conveyor_belt"
+     },
+	      "-": {
+       "item": "minecraft:sugar"
+     },
+     "o": {
+      "item": "minecraft:iron_ingot"
+    }
+   },
+   "result": {
+     "item": "kibe:fast_conveyor_belt",
+     "count": 1
+   }
+}

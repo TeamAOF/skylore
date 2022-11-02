@@ -1,0 +1,16 @@
+{
+   "type": "artis:chef_table_shaped",
+   "pattern": [
+     "# #",
+	 " # "
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:oak_planks"
+     }
+   },
+   "result": {
+     "item": "minecraft:bowl",
+     "count": 4
+   }
+}

@@ -1,0 +1,165 @@
+{
+  "type": "professions:default",
+  "color": "#633ea8",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by maximizing transportation and research."
+  ],
+  "displayName": "Pilot",
+  "maxLevel": 100,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        },
+        {
+          "count": 15,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+		"kibe:brown_glider",
+		"kibe:blue_glider",
+		"kibe:black_glider",
+		"kibe:green_glider",
+		"kibe:gray_glider",
+		"kibe:cyan_glider",
+		"kibe:magenta_glider",
+		"kibe:lime_glider",
+		"kibe:light_gray_glider",
+		"kibe:light_blue_glider",
+		"kibe:red_glider",
+		"kibe:purple_glider",
+		"kibe:pink_glider",
+		"kibe:orange_glider"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 25.0
+        },
+        {
+          "count": 25,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+		  "iron-jetpacks:iron_jetpack",
+		  "iron-jetpacks:silver_jetpack",
+		  "iron-jetpacks:bronze_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 50.0
+        },
+        {
+          "count": 50,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "iron-jetpacks:electrum_jetpack",
+        "iron-jetpacks:gold_jetpack",
+        "iron-jetpacks:invar_jetpack",
+		"iron-jetpacks:steel_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 100.0
+        },
+        {
+          "count": 100,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "iron-jetpacks:diamond_jetpack",
+        "iron-jetpacks:platinum_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 200.0
+        },
+        {
+          "count": 200,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "iron-jetpacks:emerald_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 300.0
+        },
+        {
+          "count": 300,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "iron-jetpacks:netherite_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 600.0
+        },
+        {
+          "count": 600,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "modern_industrialization:diesel_jetpack"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}

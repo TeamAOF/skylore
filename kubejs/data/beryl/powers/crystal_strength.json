@@ -1,0 +1,14 @@
+{
+  "name": "§eCrystal Attack",
+  "description": "You are much stronger than most due to your crystal body. Enemies take more damage.",
+  "type": "apoli:attribute",
+  "modifiers": [
+    {
+        "name": "Crystal Attack Increase",
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 4.5
+    }
+  ]
+
+}

@@ -1,0 +1,14 @@
+{
+  "type": "artis:tech_bench_shapeless",
+  "ingredients": [
+    {
+      "item": "expandedstorage:obsidian_chest"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "expandedstorage:netherite_chest"
+  }
+ } 

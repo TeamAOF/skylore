@@ -1,0 +1,21 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+"
+   ],
+   "key": {
+     "#": {
+       "item": "squirtingsyringe:syringe"
+     },
+	     "/": {
+       "item": "minecraft:golden_carrot"
+     },
+	 	     "+": {
+       "item": "minecraft:blaze_powder"
+     }
+   },
+   "result": {
+     "item": "squirtingsyringe:warrior_syringe",
+     "count": 1
+   }
+}

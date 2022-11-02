@@ -1,0 +1,25 @@
+{
+   "type": "artis:examination_table_shaped",
+   "pattern": [
+     "/#+",
+	 "=  "
+   ],
+   "key": {
+     "#": {
+       "item": "chestcavity:spine"
+     },
+	     "/": {
+       "item": "chestcavity:animal_spine"
+     },
+	 	     "+": {
+       "item": "minecraft:iron_block"
+     },
+	  	     "=": {
+       "item": "minecraft:gold_block"
+     }
+   },
+   "result": {
+     "item": "mcdar:totem_of_shielding",
+     "count": 1
+   }
+}

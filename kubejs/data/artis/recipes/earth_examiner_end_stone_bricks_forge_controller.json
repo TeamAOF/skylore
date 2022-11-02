@@ -1,0 +1,31 @@
+{
+   "type": "artis:earth_examiner_shaped",
+   "pattern": [
+    "12345"
+  ],
+      "key": {
+ "1":{
+       "item": "valley:scalding_volcanic_stone"
+     },
+ "2":{
+       "item": "valley:diabase"
+     },
+ "3":{
+       "item": "valley:saltpeter_ore"
+     },
+ "4":{
+       "item": "blockus:bluestone"
+     },
+ "5":{
+       "item": "valley:green_granite"
+     }
+    },
+   "result": {
+     "item": "alloy_forgery:end_stone_bricks_forge_controller",
+     "count": 1
+   },
+      "catalyst": {
+     "item": "chestcavity:ender_heart"
+   },
+   "cost": 1
+}
