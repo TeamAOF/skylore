@@ -1,0 +1,10 @@
+[[title]]
+	triggers = [ "trigger" ]
+	title = [ ]
+	subtitle = [ ]
+
+[[title]]
+	triggers = [ ]
+	title = [ "title" ]
+	subtitle = [ ]
+
