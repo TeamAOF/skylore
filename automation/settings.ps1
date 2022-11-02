@@ -20,10 +20,10 @@ $CURSEFORGE_PROJECT_ID = 548076
 # =====================================================================//
 
 # This is the modpack name as seen in it's CurseForge url: https://www.curseforge.com/minecraft/modpacks/[all-of-fabric-5]
-$MODPACK_NAME = "all-of-fabric-6"
+$MODPACK_NAME = "aof-skylore"
 
 # Name of the Modpack in the ZIP File
-$CLIENT_NAME = "All-of-Fabric-6"
+$CLIENT_NAME = "AOF-Skylore"
 
 # Version Of The Modpack
 $MODPACK_VERSION = "0.1.0"
@@ -168,7 +168,7 @@ $CLIENT_ZIP_NAME = "$CLIENT_NAME-$MODPACK_VERSION"
 $LAST_MODPACK_ZIP_NAME = "$CLIENT_NAME-$LAST_MODPACK_VERSION"
 
 # Default: "$CLIENT_NAME $MODPACK_VERSION"
-$CLIENT_FILE_DISPLAY_NAME = "All of Fabric 6 - $MODPACK_VERSION"
+$CLIENT_FILE_DISPLAY_NAME = "AOF: Skylore - $MODPACK_VERSION"
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
@@ -186,7 +186,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 $SERVER_ZIP_NAME = "$CLIENT_NAME`-Server-$MODPACK_VERSION"
 
 # Default: $SERVER_FILENAME
-$SERVER_FILE_DISPLAY_NAME = "All of Fabric 6 Server - $MODPACK_VERSION"
+$SERVER_FILE_DISPLAY_NAME = "AOF: Skylore Server - $MODPACK_VERSION"
 
 # Path to the ModListCreators output file
 $MODLIST_PATH = "$INSTANCE_ROOT/changelogs/modlist_$MODPACK_VERSION.md"
