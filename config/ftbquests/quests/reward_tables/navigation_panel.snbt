@@ -1,7 +1,0 @@
-{
-	id: "174FD17AB6A78E0E"
-	order_index: 8
-	title: "navigation panel"
-	loot_size: 1
-	rewards: [{ item: "artis:navigation_panel" }]
-}

@@ -1,7 +1,0 @@
-{
-	id: "07D3C83CFDDCA5B9"
-	order_index: 6
-	title: "chef table"
-	loot_size: 1
-	rewards: [{ item: "artis:chef_table" }]
-}
