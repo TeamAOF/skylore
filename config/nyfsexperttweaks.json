@@ -1,5 +1,5 @@
 {
-  "WTIT_DISCOVERY": true,
+  "WTIT_DISCOVERY": false,
   "WTIT_ENTITY_DISCOVERY": true,
   "POTION_ABSORB": true,
   "POTION_ABSORB_TIME": 100,
