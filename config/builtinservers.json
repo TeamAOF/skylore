@@ -1,0 +1,10 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "Skylore Dev",
+      "address": "betty.alloffabric.com:25567",
+      "forced": false
+    }
+  ]
+}
