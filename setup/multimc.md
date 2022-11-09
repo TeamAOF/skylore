@@ -1,2 +1,2 @@
 # multimc setup
-![./images/powershelladmin.png]
+![images/powershelladmin.png]
