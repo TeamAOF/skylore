@@ -24,19 +24,19 @@ You're done!
 ## MultiMC / PrismLauncher
 
 
-1. Open powershell as admin
-![open powershell as admin](images/powershelladmin.png)
+1. Open PowerShell as Admin
+![open powershell as admin](setup/images/powershelladmin.png)
 
 2. Run **Set-ExecutionPolicy -ExecutionPolicy Bypass** command
-![run command](images/run-command.png)
+![run command](setup/images/run-command.png)
 
 3. Type **A** and press ENTER
-![sya yes](images/say-yes-to-all.png)
+![sya yes](setup/images/say-yes-to-all.png)
 
-4. Download latest relase:
+4. Download the latest release:
 https://github.com/TeamAOF/skylore/releases
 
-5. Import to multimc with the import from zip option and wait untill its done installing.
+5. Import to MultiMC/Prism Launcher with the import from the ZIP option, wait until done installing.
 
 You're done!
 
