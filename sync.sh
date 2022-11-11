@@ -27,25 +27,23 @@ lastUpdated=`jq '.lastUpdated' ./scriptData.json`
 pushed_at=`curl https://api.github.com/repos/TeamAOF/skylore | jq '.pushed_at'`
 
 if [ "$lastUpdated" == "$pushed_at" ]; then
-    echo true
-    echo "\n \n New version detected, updating! \n \n"
+    echo "Up to date!"
+    sleep 1
+else
+    echo "New version detected, updating!"
     sleep 0.5
-    echo "\n \n Downloading modpack. \n \n"
+    echo "Downloading modpack."
     curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip" --output ./skylore.zip
-    echo "\n \n Unzipping modpack. \n \n"
+    echo "Unzipping modpack."
     sleep 3
     unzip ./skylore.zip
-    echo "\n \n Copying modpack. \n \n"
+    echo "Copying modpack."
     sleep 3
     cp ./skylore/skylore-$branch/* .
-    echo "\n \n Downloading mods, please wait. \n \n"
+    echo "Downloading mods, please wait."
     sleep 3
     java -jar InstanceSync.jar
 
     jq ".lastUpdated |= ${pushed_at}" ./scriptData.json
-    echo "\n \nDone! \n \n"
-else
-    echo false
-    echo "\n \nUp to date! \n \n"
-    sleep 1
+    echo "Done!"
 fi
