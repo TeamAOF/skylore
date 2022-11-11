@@ -18,7 +18,7 @@ defaultConfig='{
 
 # config tests
 
-if ! [ test -f "./scriptData.json" ]; then
+if ! test -f "./scriptData.json"; then
     echo $defaultConfig > ./scriptData.json
 fi
 lastUpdated=`jq '.lastUpdated' ./scriptData.json`
