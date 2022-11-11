@@ -44,7 +44,7 @@ You're done!
 
 ### Linux
 
-1. install **jq**
+1. install **jq unzip**
 
     debian / ubuntu
     ```sudo apt-get install jq unzip```
