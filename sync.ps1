@@ -8,10 +8,10 @@ $defaultConfig = ConvertFrom-Json -InputObject '{
 
 
 # config tests
-if (!(Test-Path -Path ../scriptData.json -PathType Leaf)) {
-    ConvertTo-Json -InputObject $defaultConfig -depth 5 | Out-File "../scriptData.json"
+if (!(Test-Path -Path ./scriptData.json -PathType Leaf)) {
+    ConvertTo-Json -InputObject $defaultConfig -depth 5 | Out-File "./scriptData.json"
 }
-$data = Get-Content -raw ../scriptData.json | ConvertFrom-Json
+$data = Get-Content -raw ./scriptData.json | ConvertFrom-Json
 
 # code
 $res = Invoke-RestMethod -Uri https://api.github.com/repos/TeamAOF/skylore
@@ -37,7 +37,7 @@ if (Compare-Object $res.pushed_at $data.lastUpdated) {
     java -jar InstanceSync.jar
 
     $data.lastUpdated = $res.pushed_at
-    $data | ConvertTo-Json -depth 5 | Out-File "../scriptData.json"
+    $data | ConvertTo-Json -depth 5 | Out-File "./scriptData.json"
     "`n`nDone!`n`n"
 }
 else {
