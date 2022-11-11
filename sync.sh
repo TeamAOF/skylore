@@ -2,7 +2,6 @@
 
 # parameters and constants
 POSITIONAL_ARGS=()
-
 while [[ $# -gt 0 ]]; do
   case $1 in
     -b|-branch)
@@ -12,15 +11,41 @@ while [[ $# -gt 0 ]]; do
       ;;
   esac
 done
+set -- "${POSITIONAL_ARGS[@]}"
 
-defaultConfig = '{
+defaultConfig='{
     "lastUpdated": "never"
 }'
 
-set -- "${POSITIONAL_ARGS[@]}"
-
 # config tests
 
-if ! test -f "$FILE"; then
+if ! [ test -f "./scriptData.json" ]; then
+    echo $defaultConfig > ./scriptData.json
+fi
+lastUpdated=`jq '.lastUpdated' ./scriptData.json`
 
+# code
+pushed_at=`curl https://api.github.com/repos/TeamAOF/skylore | jq '.pushed_at'`
+
+if [ "$lastUpdated" == "$pushed_at" ]; then
+    echo true
+    echo "\n\nNew version detected, updating!\n\n"
+    sleep 0.5
+    echo "\n\nDownloading modpack.\n\n"
+    curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip --output some.file
+    echo "\n\nUnzipping modpack.\n\n"
+    sleep 3
+    echo "\n\nCopying modpack.\n\n"
+    sleep 3
+
+    echo "\n\nDownloading mods, please wait.\n\n"
+    sleep 3
+    java -jar InstanceSync.jar
+
+    jq ".lastUpdated |= ${pushed_at}" ./scriptData.json
+    echo "\n\nDone!\n\n"
+else
+    echo false
+    echo "\n\nUp to date!\n\n"
+    sleep 1
 fi
