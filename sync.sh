@@ -40,7 +40,7 @@ else
     rm ./skylore.zip
     echo "Copying modpack."
     sleep 3
-    cp ./skylore-$branch/* .
+    cp -r ./skylore-$branch/* .
     rm -r ./skylore-$branch
     echo "Downloading mods, please wait."
     sleep 3
