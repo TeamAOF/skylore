@@ -3,8 +3,11 @@
 A Skylands RPG pack with unique land generation and RPG Elements.
 
 ##### Table of Contents  
-[Setup](https://github.com/TeamAOF/skylore#setup)  
-
+- [Setup](https://github.com/TeamAOF/skylore#setup)  
+    - [CurseForge App (Windows / Mac)](https://github.com/TeamAOF/skylore#curseforge-app-windows--mac)
+    - [MultiMC / PrismLauncher)](https://github.com/TeamAOF/skylore#multimc--prismlauncher)
+      - [Windows](https://github.com/TeamAOF/skylore#windows)
+      - [Linux](https://github.com/TeamAOF/skylore#linux)
 # Setup
 Follow the instructions below to get your workspace setup:
 
@@ -22,8 +25,7 @@ You're done!
 
 
 ## MultiMC / PrismLauncher
-
-
+### Windows
 1. Open PowerShell as Admin
 ![open powershell as admin](setup/images/powershelladmin.png)
 
@@ -33,10 +35,28 @@ You're done!
 3. Type **A** and press ENTER
 ![sya yes](setup/images/say-yes-to-all.png)
 
-4. Download the latest release:
-https://github.com/TeamAOF/skylore/releases
+4. Download the latest windows relase:
+    https://github.com/TeamAOF/skylore/releases
 
 5. Import to MultiMC/Prism Launcher with the import from the ZIP option, wait until done installing.
 
 You're done!
 
+### Linux
+
+1. install **jq**
+
+    debian / ubuntu
+    ```sudo apt-get install jq```
+
+    fedora
+    ```sudo dnf install jq```
+
+    openSUSE
+    ```sudo zypper install jq```
+
+    arch
+    ```sudo pacman -S jq```
+2. Download the latest linux relase:
+    https://github.com/TeamAOF/skylore/releases
+3. Import to MultiMC/Prism Launcher with the import from the ZIP option, wait until done installing.
