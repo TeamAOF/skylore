@@ -39,7 +39,7 @@ else
     unzip ./skylore.zip
     echo "Copying modpack."
     sleep 3
-    cp ./skylore/skylore-$branch/* .
+    cp ./skylore-$branch/* .
     echo "Downloading mods, please wait."
     sleep 3
     java -jar InstanceSync.jar
