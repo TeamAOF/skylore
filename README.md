@@ -47,16 +47,16 @@ You're done!
 1. install **jq**
 
     debian / ubuntu
-    ```sudo apt-get install jq```
+    ```sudo apt-get install jq unzip```
 
     fedora
-    ```sudo dnf install jq```
+    ```sudo dnf install jq unzip```
 
     openSUSE
-    ```sudo zypper install jq```
+    ```sudo zypper install jq unzip```
 
     arch
-    ```sudo pacman -S jq```
+    ```sudo pacman -S jq unzip```
 2. Download the latest linux relase:
     https://github.com/TeamAOF/skylore/releases
 3. Import to MultiMC/Prism Launcher with the import from the ZIP option, wait until done installing.
