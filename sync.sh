@@ -1,16 +1,10 @@
 #!/bin/bash
 # parameters and constants
-POSITIONAL_ARGS=()
-while [[ $# -gt 0 ]]; do
-  case $1 in
-    -b|-branch)
-      branch="$2"
-      shift # past argument
-      shift # past value
-      ;;
-  esac
-done
-set -- "${POSITIONAL_ARGS[@]}"
+if [ "$1" == "-branch" ] then
+branch=$2
+else
+exit;
+fi
 
 defaultConfig='{
     "lastUpdated": "never"
