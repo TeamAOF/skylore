@@ -32,12 +32,13 @@ if [ "$lastUpdated" == "$pushed_at" ]; then
     echo "\n\nNew version detected, updating!\n\n"
     sleep 0.5
     echo "\n\nDownloading modpack.\n\n"
-    curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip --output some.file
+    curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip" --output ./skylore.zip
     echo "\n\nUnzipping modpack.\n\n"
     sleep 3
+    upzip ./skylore.zip
     echo "\n\nCopying modpack.\n\n"
     sleep 3
-
+    cp ./skylore/skylore-$branch/* .
     echo "\n\nDownloading mods, please wait.\n\n"
     sleep 3
     java -jar InstanceSync.jar

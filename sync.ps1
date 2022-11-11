@@ -28,7 +28,7 @@ if (Compare-Object $res.pushed_at $data.lastUpdated) {
     Expand-Archive skylore.zip
     "`n`nCopying modpack.`n`n"
     Start-Sleep 3
-    xcopy /s /y skylore\skylore-main\*.* .
+    xcopy /s /y skylore\skylore-$branch\*.* .
     Remove-Item -Force -Recurse skylore
     Remove-Item -Force "./skylore.zip"
 
