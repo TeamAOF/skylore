@@ -1,6 +1,6 @@
 #!/bin/bash
 # parameters and constants
-if [ "$1" == "-branch" ] then
+if [ "$1" == "-branch" ]; then
 branch=$2
 else
 exit;
