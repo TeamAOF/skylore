@@ -33,7 +33,7 @@ else
     echo "New version detected, updating!"
     sleep 0.5
     echo "Downloading modpack."
-    curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip" --output ./skylore.zip
+    wget -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
     echo "Unzipping modpack."
     sleep 3
     unzip ./skylore.zip
