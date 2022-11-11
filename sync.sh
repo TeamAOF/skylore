@@ -27,7 +27,7 @@ else
     echo "New version detected, updating!"
     sleep 0.5
     echo "Downloading modpack."
-    wget -b -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
+    wget -q --show-progress -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
     echo "Unzipping modpack."
     sleep 3
     unzip -qq -o ./skylore.zip
