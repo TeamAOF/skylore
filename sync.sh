@@ -3,7 +3,7 @@
 POSITIONAL_ARGS=()
 while [[ $# -gt 0 ]]; do
   case $1 in
-    -b|-branch|--branch)
+    -b|-branch)
       branch="$2"
       shift # past argument
       shift # past value
