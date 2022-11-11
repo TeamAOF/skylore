@@ -43,4 +43,3 @@ else
     jq ".lastUpdated |= ${pushed_at}" ./scriptData.json
     echo "Done!"
 fi
-exit;
