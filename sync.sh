@@ -33,13 +33,15 @@ else
     echo "New version detected, updating!"
     sleep 0.5
     echo "Downloading modpack."
-    wget -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
+    wget -b -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
     echo "Unzipping modpack."
     sleep 3
-    unzip ./skylore.zip
+    unzip -qq -o ./skylore.zip
+    rm ./skylore.zip
     echo "Copying modpack."
     sleep 3
     cp ./skylore-$branch/* .
+    rm -r ./skylore-$branch
     echo "Downloading mods, please wait."
     sleep 3
     java -jar InstanceSync.jar
