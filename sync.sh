@@ -35,7 +35,7 @@ if [ "$lastUpdated" == "$pushed_at" ]; then
     curl "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip" --output ./skylore.zip
     echo "\n\nUnzipping modpack.\n\n"
     sleep 3
-    upzip ./skylore.zip
+    unzip ./skylore.zip
     echo "\n\nCopying modpack.\n\n"
     sleep 3
     cp ./skylore/skylore-$branch/* .
