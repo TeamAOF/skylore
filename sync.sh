@@ -10,11 +10,27 @@ while [ $# -gt 0 ]; do
       >&2 printf "Error: Invalid argument\n"
       exit 1
       ;;
+    --repo*|-repo*|-r*)
+      if [[ "$1" != *=* ]]; then shift; fi # Value is next arg if no `=`
+      repo="${1#*=}"
+      ;;
+    --owner*|-owner*|-o*)
+      if [[ "$1" != *=* ]]; then shift; fi # Value is next arg if no `=`
+      owner="${1#*=}"
+      ;;
+    *)
+      >&2 printf "Error: Invalid argument\n"
+      exit 1
+      ;;
   esac
   shift
 done
 # defaults
 if [ -z $branch ]; then branch="main"; fi
+if [ -z $repo ]; then branch="skylore"; fi
+if [ -z $owner ]; then branch="TeamAOF"; fi
+
+
 
 
 echo $branch
@@ -40,15 +56,15 @@ else
     echo "New version detected, updating!"
     sleep 0.5
     echo "Downloading modpack."
-    wget -q --show-progress -O ./skylore.zip "https://github.com/TeamAOF/skylore/archive/refs/heads/${branch}.zip"
+    wget -q --show-progress -O ./modpack.zip "https://github.com/${owner}/${repo}/archive/refs/heads/${branch}.zip"
     echo "Unzipping modpack."
     sleep 3
-    unzip -qq -o ./skylore.zip
-    rm ./skylore.zip
+    unzip -qq -o ./modpack.zip
+    rm ./modpack.zip
     echo "Copying modpack."
     sleep 3
-    cp -r ./skylore-$branch/* .
-    rm -r ./skylore-$branch
+    cp -r ./$repo-$branch/* .
+    rm -r ./$repo-$branch
     echo "Downloading mods, please wait."
     sleep 3
     java -jar InstanceSync.jar

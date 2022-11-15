@@ -1,6 +1,8 @@
 # params and constants
 param (
-    $branch = "main"
+    $branch = "main",
+    $repo = "skylore",
+    $owner = "TeamAOF"
 )
 $defaultConfig = ConvertFrom-Json -InputObject '{
     "lastUpdated": "never"
@@ -21,16 +23,17 @@ if (Compare-Object $res.pushed_at $data.lastUpdated) {
     "`n`nNew version detected, updating!`n`n"
     Start-Sleep 0.5
     "`n`nDownloading modpack.`n`n"
-    $uri = "https://github.com/TeamAOF/skylore/archive/refs/heads/" + $branch + ".zip"
-    Invoke-WebRequest -Uri $uri -OutFile "./skylore.zip" 
+    $uri = "https://github.com/" + $owner + "/" + $repo + "/archive/refs/heads/" + $branch + ".zip"
+    Invoke-WebRequest -Uri $uri -OutFile "./modpack.zip" 
     "`n`nUnzipping modpack.`n`n"
     Start-Sleep 3
-    Expand-Archive skylore.zip
+    Expand-Archive modpack.zip
+    Remove-Item -Force "./modpack.zip"
+
     "`n`nCopying modpack.`n`n"
     Start-Sleep 3
-    xcopy /s /y skylore\skylore-$branch\*.* .
-    Remove-Item -Force -Recurse skylore
-    Remove-Item -Force "./skylore.zip"
+    xcopy /s /y modpack\$repo-$branch\*.* .
+    Remove-Item -Force -Recurse modpack
 
     "`n`nDownloading mods, please wait.`n`n"
     Start-Sleep 1
