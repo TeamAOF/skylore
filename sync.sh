@@ -1,18 +1,30 @@
 #!/bin/bash
 # parameters and constants
-if [ "$1" == "-branch" ]; then
-branch=$2
-else
-exit;
-fi
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --branch*|-branch*|-b*)
+      if [[ "$1" != *=* ]]; then shift; fi # Value is next arg if no `=`
+      branch="${1#*=}"
+      ;;
+    *)
+      >&2 printf "Error: Invalid argument\n"
+      exit 1
+      ;;
+  esac
+  shift
+done
+# defaults
+if [ -z $branch ]; then branch="main"; fi
 
+
+echo $branch
 defaultConfig='{
     "lastUpdated": "never"
 }'
 
 # config tests
-
-if ! test -f "./scriptData.json"; then
+if ! [ -f "./scriptData.json" ]
+then
     echo $defaultConfig > ./scriptData.json
 fi
 lastUpdated=`jq '.lastUpdated' ./scriptData.json`
@@ -20,7 +32,8 @@ lastUpdated=`jq '.lastUpdated' ./scriptData.json`
 # code
 pushed_at=`curl https://api.github.com/repos/TeamAOF/skylore | jq '.pushed_at'`
 
-if [ "$lastUpdated" == "$pushed_at" ]; then
+if [ "$lastUpdated" == "$pushed_at" ]
+then
     echo "Up to date!"
     sleep 1
 else
