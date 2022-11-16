@@ -1,4 +1,6 @@
 #!/bin/bash
+# functions
+
 # params and constants
 while [ $# -gt 0 ]; do
   case "$1" in
@@ -22,9 +24,9 @@ while [ $# -gt 0 ]; do
   shift
 done
 # defaults
-if [ -z $branch ]; then branch="indev"; fi
-if [ -z $repo ]; then branch="skylore"; fi
-if [ -z $owner ]; then branch="TeamAOF"; fi
+if [ -z "$branch" ]; then branch="indev"; fi
+if [ -z "$repo" ]; then repo="skylore"; fi
+if [ -z "$owner" ]; then owner="TeamAOF"; fi
 
 
 repoExists=$(git rev-parse --is-inside-work-tree > /dev/null 2>&1)
@@ -39,10 +41,9 @@ then
   java -jar InstanceSync.jar
 else
   git clone "$url" modpack
-  mv modpack/* .
-  mv modpack/.* .
-  rm -r modpack
-  git pull
-  git switch "$branch"
+  cp -a modpack/. .
+  rm -r -f modpack
+  rm sync.sh
+  git checkout "$branch"
   java -jar InstanceSync.jar
 fi
