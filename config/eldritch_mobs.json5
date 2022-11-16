@@ -1,7 +1,7 @@
 {
-	"EliteSpawnRates": 0.01,
-	"UltraSpawnRates": 0.01,
-	"EldritchSpawnRates": 0.02,
+	"EliteSpawnRates": 0.001,
+	"UltraSpawnRates": 0.001,
+	"EldritchSpawnRates": 0.002,
 	"EliteHealthMultiplier": 4.0,
 	"UltraHealthMultiplier": 6.0,
 	"EldritchHealthMultiplier": 8.0,
