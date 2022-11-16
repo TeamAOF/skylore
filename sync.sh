@@ -22,7 +22,7 @@ while [ $# -gt 0 ]; do
   shift
 done
 # defaults
-if [ -z $branch ]; then branch="main"; fi
+if [ -z $branch ]; then branch="indev"; fi
 if [ -z $repo ]; then branch="skylore"; fi
 if [ -z $owner ]; then branch="TeamAOF"; fi
 
