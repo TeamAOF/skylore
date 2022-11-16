@@ -21,7 +21,6 @@ if ($repoExists) {
     java -jar InstanceSync.jar
 }
 else {
-New-Item ../setupfiles -Type Directory -Force
 Remove-Item ./*
 git clone $url .
 git switch $branch
