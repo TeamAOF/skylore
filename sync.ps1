@@ -1,11 +1,8 @@
 # params and constants
 param (
-    [Parameter(Mandatory=$true)]
-    $owner,
-    [Parameter(Mandatory=$true)]
-    $repo,
-    [Parameter(Mandatory=$true)]
-    $branch
+    $owner = "TeamAOF",
+    $repo = "skylore",
+    $branch = "indev"
 )
 
 
