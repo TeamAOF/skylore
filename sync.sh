@@ -34,12 +34,14 @@ url="https://github.com/${owner}/${repo}.git"
 
 if [ "$repoExists" = "true" ]
 then
-    git switch "$branch"
-    git pull
-    java -jar InstanceSync.jar
+  git switch "$branch"
+  git pull
+  java -jar InstanceSync.jar
 else
-    rm -R ./* ./.* > /dev/null 2>&1
-    git clone "$url" .
-    git switch "$branch"
-    java -jar InstanceSync.jar
+  git clone "$url" modpack
+  mv modpack/* .
+  mv modpack/.* .
+  rm -r modpack
+  git switch "$branch"
+  java -jar InstanceSync.jar
 fi
