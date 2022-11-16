@@ -38,7 +38,7 @@ then
     git pull
     java -jar InstanceSync.jar
 else
-    rm -R ./* > /dev/null 2>&1
+    rm -R ./* ./.* > /dev/null 2>&1
     git clone "$url" .
     git switch "$branch"
     java -jar InstanceSync.jar
