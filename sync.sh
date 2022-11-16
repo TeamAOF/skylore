@@ -42,6 +42,7 @@ else
   mv modpack/* .
   mv modpack/.* .
   rm -r modpack
+  git pull
   git switch "$branch"
   java -jar InstanceSync.jar
 fi
