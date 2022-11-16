@@ -1,11 +1,11 @@
 # params and constants
 param (
     [Parameter(Mandatory=$true)]
-    $branch,
+    $owner,
     [Parameter(Mandatory=$true)]
     $repo,
     [Parameter(Mandatory=$true)]
-    $owner
+    $branch
 )
 
 
@@ -16,12 +16,14 @@ $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 # code
 
 if ($repoExists) {
-    git pull $url $branch
+    git switch $branch
+    git pull
     java -jar InstanceSync.jar
 }
 else {
-git init
-git remote $repo $url
-git pull $url $branch
+New-Item ../setupfiles -Type Directory -Force
+Remove-Item ./*
+git clone $url .
+git switch $branch
 java -jar InstanceSync.jar
 }
