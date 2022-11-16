@@ -29,12 +29,12 @@ if [ -z "$repo" ]; then repo="skylore"; fi
 if [ -z "$owner" ]; then owner="TeamAOF"; fi
 
 
-repoExists=$(git rev-parse --is-inside-work-tree > /dev/null 2>&1)
+repoExists=$(git rev-parse --is-inside-work-tree)
 url="https://github.com/${owner}/${repo}.git"
 
 # code
-
-if [ "$repoExists" = "true" ]
+git config pull.rebase false
+if [ "$repoExists" ]
 then
   git switch "$branch"
   git pull
