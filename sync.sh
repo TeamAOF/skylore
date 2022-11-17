@@ -22,6 +22,7 @@ else
   cp -a modpack/. .
   rm -r -f modpack
   git reset --hard
+  git pull
   git checkout "$branch"
   java -jar InstanceSync.jar
 fi
