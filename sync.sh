@@ -14,8 +14,8 @@ git config pull.rebase false
 if [ "$repoExists" ]
 then
   git reset --hard
-  git switch "$branch"
   git pull
+  git switch "$branch"
   java -jar InstanceSync.jar
 else
   git clone "$url" modpack
