@@ -21,7 +21,7 @@ else
   git clone "$url" modpack
   cp -a modpack/. .
   rm -r -f modpack
-  rm sync.sh
+  git reset --hard
   git checkout "$branch"
   java -jar InstanceSync.jar
 fi

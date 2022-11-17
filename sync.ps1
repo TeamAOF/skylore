@@ -19,8 +19,10 @@ if ($repoExists) {
     java -jar InstanceSync.jar
 }
 else {
-Remove-Item ./*
-git clone $url .
-git switch $branch
-java -jar InstanceSync.jar
+    git clone $url modpack
+    Move-Item modpack\* .
+    Remove-Item modpack -Recurse
+    git reset --hard
+    git switch $branch
+    java -jar InstanceSync.jar
 }
