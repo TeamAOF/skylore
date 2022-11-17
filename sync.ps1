@@ -14,6 +14,7 @@ $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 if ($repoExists) {
     git switch $branch
+    git reset --hard
     git pull
     java -jar InstanceSync.jar
 }

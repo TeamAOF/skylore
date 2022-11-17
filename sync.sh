@@ -37,6 +37,7 @@ git config pull.rebase false
 if [ "$repoExists" ]
 then
   git switch "$branch"
+  git reset --hard
   git pull
   java -jar InstanceSync.jar
 else
