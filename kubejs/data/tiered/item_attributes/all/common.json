@@ -1,0 +1,53 @@
+{
+  "id": "tiered:common",
+  "verifiers": [
+    {
+      "tag": "c:helmets"
+    },
+    {
+      "tag": "c:chestplates"
+    },
+    {
+      "tag": "c:leggings"
+    },
+    {
+      "tag": "c:boots"
+    },
+    {
+      "tag": "c:swords"
+    },
+    {
+      "tag": "c:shovels"
+    },
+    {
+      "tag": "c:pickaxes"
+    },
+    {
+      "tag": "c:hoes"
+    },
+    {
+      "tag": "c:axes"
+    }
+  ],
+  "weight": 50,
+  "style": {
+    "color": "gray"
+  },
+  "attributes": [
+    {
+      "type": "generic.max_health",
+      "modifier": {
+        "name": "tiered:common",
+        "operation": "ADDITION",
+        "amount": 0
+      },
+      "optional_equipment_slots": [
+        "MAINHAND",
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

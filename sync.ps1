@@ -1,46 +1,26 @@
 # params and constants
-param (
-    $branch = "main"
-)
-$defaultConfig = ConvertFrom-Json -InputObject '{
-    "lastUpdated": "never"
-}'
+. .\config.ps1
+# example config 
 
+# # used for setting the rigth url to download from.
+# $owner = "TeamAOF" # creator of the git repository.
+# $repo = "skylore" # name of the git repository.
+# $branch = "indev" # branch of the git repository. for examle main or master.
 
-# config tests
-if (!(Test-Path -Path ./scriptData.json -PathType Leaf)) {
-    ConvertTo-Json -InputObject $defaultConfig -depth 5 | Out-File "./scriptData.json"
-}
-$data = Get-Content -raw ./scriptData.json | ConvertFrom-Json
+$repoExists = git rev-parse --is-inside-work-tree
+$url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
-$res = Invoke-RestMethod -Uri https://api.github.com/repos/TeamAOF/skylore
 
-# for some reason if they match it outputs false, its so ass backwards
-if (Compare-Object $res.pushed_at $data.lastUpdated) {
-    "`n`nNew version detected, updating!`n`n"
-    Start-Sleep 0.5
-    "`n`nDownloading modpack.`n`n"
-    $uri = "https://github.com/TeamAOF/skylore/archive/refs/heads/" + $branch + ".zip"
-    Invoke-WebRequest -Uri $uri -OutFile "./skylore.zip" 
-    "`n`nUnzipping modpack.`n`n"
-    Start-Sleep 3
-    Expand-Archive skylore.zip
-    "`n`nCopying modpack.`n`n"
-    Start-Sleep 3
-    xcopy /s /y skylore\skylore-main\*.* .
-    Remove-Item -Force -Recurse skylore
-    Remove-Item -Force "./skylore.zip"
-
-    "`n`nDownloading mods, please wait.`n`n"
-    Start-Sleep 1
+if ($repoExists) {
+    git switch $branch
+    git reset --hard
+    git pull
     java -jar InstanceSync.jar
-
-    $data.lastUpdated = $res.pushed_at
-    $data | ConvertTo-Json -depth 5 | Out-File "./scriptData.json"
-    "`n`nDone!`n`n"
 }
 else {
-    "`n`nUp to date!`n`n"
-    Start-Sleep 1
+Remove-Item ./*
+git clone $url .
+git switch $branch
+java -jar InstanceSync.jar
 }
