@@ -47,3 +47,7 @@ else
   git checkout "$branch"
   java -jar InstanceSync.jar
 fi
+if [ -f "server.lock" ]
+then
+bash server.lock
+fi
