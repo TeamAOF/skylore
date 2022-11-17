@@ -21,6 +21,7 @@ if ($repoExists) {
 else {
     git clone $url modpack
     Move-Item modpack\* .
+    Move-Item modpack\.* .
     Remove-Item modpack -Recurse
     git reset --hard
     git pull
