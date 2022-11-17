@@ -13,9 +13,9 @@ url="https://github.com/${owner}/${repo}.git"
 git config pull.rebase false
 if [ "$repoExists" ]
 then
-  git switch "$branch"
   git reset --hard
   git pull
+  git switch "$branch"
   java -jar InstanceSync.jar
 else
   git clone "$url" modpack

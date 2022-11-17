@@ -1,6 +1,0 @@
-keepHatOnDeath = true
-allowUpdates = true
-seasonalBagChance = 20
-enableMobLoot = true
-enableChestLoot = true
-allowHatInHelmetSlot = false
