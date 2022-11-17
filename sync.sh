@@ -13,8 +13,8 @@ url="https://github.com/${owner}/${repo}.git"
 git config pull.rebase false
 if [ "$repoExists" ]
 then
-  git switch "$branch"
   git reset --hard
+  git switch "$branch"
   git pull
   java -jar InstanceSync.jar
 else
