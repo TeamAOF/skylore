@@ -115,3 +115,7 @@ emojiful/
 fancymenu_instance_data/
 
 resources/
+
+config.ps1
+
+config.sh
