@@ -192,7 +192,7 @@
       },
       "type": "keyselect",
       "data": {
-        "key": "playerex.key.screen",
+        "key": "key.levelz.openskillscreen",
         "releaseDelay": 25001
       }
     },
