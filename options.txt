@@ -1,6 +1,6 @@
 version:2975
 toggleCrawl:false
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -14,7 +14,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -25,13 +25,13 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:12
+renderDistance:16
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:120
-difficulty:2
+difficulty:3
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
