@@ -12,7 +12,6 @@ $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
 if ($repoExists) {
-    Remove-Item config -Recurse
     git switch $branch
     git reset --hard
     git pull

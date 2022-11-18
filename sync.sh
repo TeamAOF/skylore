@@ -13,7 +13,6 @@ url="https://github.com/${owner}/${repo}.git"
 git config pull.rebase false
 if [ "$repoExists" ]
 then
-  rm -rf config
   git reset --hard
   git pull
   git switch "$branch"
