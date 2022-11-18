@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "processingTime": 350
+}

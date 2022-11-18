@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "level": 20,
-    "block": [
-        "indrev:silver_ore",
-        "indrev:lead_block"
-    ]
-}

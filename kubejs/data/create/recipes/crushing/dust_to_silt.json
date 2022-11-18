@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:dust"
+    }
+  ],
+  "processingTime": 350
+}
