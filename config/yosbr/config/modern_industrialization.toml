@@ -1,6 +1,6 @@
 blacklistedOres = []
 spawnWithGuideBook = false
-respawnWithGuideBook = true
+respawnWithGuideBook = false
 disableFuelTooltips = false
 disableItemTagTooltips = false
 newVersionMessage = false
