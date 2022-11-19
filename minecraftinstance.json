@@ -34,7 +34,7 @@
     "cachedScans": [],
     "isValid": true,
     "lastPreviousMatchUpdate": "2022-11-19T18:03:52.9475869Z",
-    "lastRefreshAttempt": "2022-11-19T19:03:53.3069129+01:00",
+    "lastRefreshAttempt": "2022-11-19T19:03:53.4760666+01:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
     "gameVersionFlavor": null,
@@ -47008,22 +47008,22 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/402/167/256/256/637609437046217840.png",
             "tags": [],
             "installedFile": {
-                "id": 3960387,
-                "fileName": "relicex-3.1.4.jar",
-                "fileDate": "2022-08-31T13:27:45.77Z",
-                "fileLength": 253190,
+                "id": 4097998,
+                "fileName": "relicex-3.1.5.jar",
+                "fileDate": "2022-11-19T17:34:41.383Z",
+                "fileLength": 259162,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3960/387/relicex-3.1.4.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4097/998/relicex-3.1.5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 409221,
+                        "addonId": 341284,
                         "type": 3
                     },
                     {
-                        "addonId": 341284,
+                        "addonId": 409221,
                         "type": 3
                     }
                 ],
@@ -47031,7 +47031,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2226808812,
+                        "fingerprint": 4098091006,
                         "invalidFingerprint": false
                     },
                     {
@@ -47041,12 +47041,12 @@
                     },
                     {
                         "foldername": "relicex.mixins.json",
-                        "fingerprint": 2989334545,
+                        "fingerprint": 3511028823,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 931754068,
+                        "fingerprint": 1767610003,
                         "invalidFingerprint": false
                     },
                     {
@@ -47056,21 +47056,21 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 3164332173,
+                        "fingerprint": 424012960,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "relicex-refmap.json",
-                        "fingerprint": 2247689195,
+                        "fingerprint": 3506700206,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 3158986811,
+                        "fingerprint": 3142939426,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1918308459,
+                "packageFingerprint": 910815429,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -47092,13 +47092,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 439281,
-                "FileNameOnDisk": "relicex-3.1.4.jar",
-                "Hashes": []
+                "FileNameOnDisk": "relicex-3.1.5.jar",
+                "Hashes": [
+                    {
+                        "Value": "5926a4f528b3e20dff31c1c0ab081cba6b7f39a5"
+                    },
+                    {
+                        "Value": "c08f35686ce7c1c6b7486fb9f9abe43f"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-17T02:23:18.1940542Z",
-            "dateUpdated": "2022-11-17T02:23:18.1980385Z",
-            "dateLastUpdateAttempted": "2022-11-17T02:23:18.1980385Z",
-            "status": 3,
+            "dateUpdated": "2022-11-19T23:44:24.6743852Z",
+            "dateLastUpdateAttempted": "2022-11-19T23:44:24.6743852Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
