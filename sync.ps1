@@ -11,7 +11,6 @@ $repoExists = git rev-parse --is-inside-work-tree
 $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
-
 if ($repoExists) {
     git switch $branch
     git reset --hard
