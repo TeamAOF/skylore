@@ -11,3 +11,12 @@ onEvent('block.registry', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })
+onEvent('fluid.registry', event => {
+
+	event.create('gravel_slurry')
+    .thickTexture(0x5e5d61)
+    .bucketColor(0x5e5d61)
+    .displayName('Gravel Slurry')
+	.noBlock()
+
+})
