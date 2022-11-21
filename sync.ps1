@@ -16,6 +16,7 @@ if ($repoExists) {
     git reset --hard
     git pull
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 else {
     git clone $url modpack
@@ -26,6 +27,7 @@ else {
     git pull
     git switch $branch
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 if (Test-Path -Path ./server.lock) {
     . .\server.lock
