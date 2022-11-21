@@ -1,26 +1,26 @@
 {
     "type": "createsifter:sifting",
     "ingredients": [
-      {
+        {
         "item": "createsifter:string_mesh"
-      },
-      {
+        },
+        {
         "item": "fabricaeexnihilo:crushed_granite"
-      }
+        }
     ],
     "results": [
-      {
+        {
         "item": "fabricaeexnihilo:granite_pebble",
         "chance": 0.75
-      },
-      {
+        },
+        {
         "item": "modern_industrialization:copper_tiny_dust",
         "chance": 0.50
-      },
-      {
+        },
+        {
         "item": "modern_industrialization:tin_tiny_dust",
         "chance": 0.40
-      }
+        }
     ],
     "processingTime": 250
 }

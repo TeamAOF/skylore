@@ -1,26 +1,26 @@
 {
-    "type": "createsifter:sifting",
-    "ingredients": [
-      {
-        "item": "createsifter:string_mesh"
-      },
-      {
-        "item": "fabricaeexnihilo:crushed_diorite"
-      }
-    ],
-    "results": [
-      {
-        "item": "fabricaeexnihilo:diorite_pebble",
-        "chance": 0.75
-      },
-      {
-        "item": "modern_industrialization:bauxite_tiny_dust",
-        "chance": 0.35
-      },
-      {
-        "item": "modern_industrialization:nickel_tiny_dust",
-        "chance": 0.25
-      }
-    ],
-    "processingTime": 250
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_diorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:diorite_pebble",
+      "chance": 0.75
+    },
+    {
+      "item": "modern_industrialization:bauxite_tiny_dust",
+      "chance": 0.35
+    },
+    {
+      "item": "modern_industrialization:nickel_tiny_dust",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 250
 }
