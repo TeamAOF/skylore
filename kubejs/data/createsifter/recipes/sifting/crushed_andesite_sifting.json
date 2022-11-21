@@ -14,13 +14,13 @@
         "chance": 0.75
       },
       {
-        "item": "fabricaeexnihilo:tuff_pebble",
+        "item": "fabricaeexnihilo:deepslate_pebble",
         "chance": 0.25
       },
       {
-        "item": "fabricaeexnihilo:dripstone_pebble",
+        "item": "fabricaeexnihilo:tuff_pebble",
         "chance": 0.1
       }
     ],
-    "processingTime": 500
-  }
+    "processingTime": 250
+}
