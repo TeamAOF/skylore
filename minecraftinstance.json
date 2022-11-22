@@ -44533,6 +44533,199 @@
             }
         },
         {
+            "instanceID": "4a81eda5-589c-47ba-ae82-bcf7f3f89012",
+            "modSource": 0,
+            "addonID": 665532,
+            "gameID": 432,
+            "gameInstanceID": "890670aa-9089-4968-99ec-8abaebc8b6ba",
+            "name": "Roughly Enough Loot Tables",
+            "authors": [
+                {
+                    "Name": "GrigLog"
+                }
+            ],
+            "primaryAuthor": "GrigLog",
+            "primaryCategoryId": 5191,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/roughly-enough-loot-tables",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/596/552/256/256/637972680184442852.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3965904,
+                "fileName": "RoughlyEnoughLootTables-1.18-1.1.jar",
+                "fileDate": "2022-09-03T20:32:45.383Z",
+                "fileLength": 59038,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3965/904/RoughlyEnoughLootTables-1.18-1.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1762745599,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_loot_tables.accesswidener",
+                        "fingerprint": 2605750249,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1658397622,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2232102415,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "griglog",
+                        "fingerprint": 2933573371,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1743819018,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 665532,
+                "FileNameOnDisk": "RoughlyEnoughLootTables-1.18-1.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "f201de5edf082addad4dcc7217362a1badf23603"
+                    },
+                    {
+                        "Value": "5a2fe4acae4315ae260fecce0c27b1cc"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-11-22T20:45:44.1616853Z",
+            "dateUpdated": "2022-11-22T20:45:44.1636875Z",
+            "dateLastUpdateAttempted": "2022-11-22T20:45:44.1636875Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3965904,
+                "fileName": "RoughlyEnoughLootTables-1.18-1.1.jar",
+                "fileDate": "2022-09-03T20:32:45.383Z",
+                "fileLength": 59038,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3965/904/RoughlyEnoughLootTables-1.18-1.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1762745599,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_loot_tables.accesswidener",
+                        "fingerprint": 2605750249,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1658397622,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2232102415,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "griglog",
+                        "fingerprint": 2933573371,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1743819018,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 665532,
+                "FileNameOnDisk": "RoughlyEnoughLootTables-1.18-1.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "f201de5edf082addad4dcc7217362a1badf23603"
+                    },
+                    {
+                        "Value": "5a2fe4acae4315ae260fecce0c27b1cc"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "e9e4f920-c1e6-49f0-9086-2cb25b5fe7fc",
             "modSource": 0,
             "addonID": 550579,
