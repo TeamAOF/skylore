@@ -12,9 +12,9 @@ $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
 if ($repoExists) {
-    git switch $branch
     git reset --hard
     git pull
+    git switch $branch
     java -jar InstanceSync.jar
     Copy-Item .\offlineMods\* .\mods
 }
