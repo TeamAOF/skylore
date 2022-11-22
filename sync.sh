@@ -30,5 +30,6 @@ else
 fi
 if [ -f "server.lock" ]
 then
-bash server.lock
+  cp -a serverMods/. mods
+  bash server.lock
 fi

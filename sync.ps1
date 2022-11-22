@@ -30,5 +30,6 @@ else {
     Copy-Item .\offlineMods\* .\mods
 }
 if (Test-Path -Path ./server.lock) {
+    Copy-Item .\serverMods\* .\mods
     . .\server.lock
 }
