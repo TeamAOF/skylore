@@ -13112,6 +13112,281 @@
             }
         },
         {
+            "instanceID": "12e08728-c85f-448e-b9f6-77c48bd3e515",
+            "modSource": 0,
+            "addonID": 677580,
+            "gameID": 432,
+            "gameInstanceID": "890670aa-9089-4968-99ec-8abaebc8b6ba",
+            "name": "Restart Server (Fabric/Quilt)",
+            "authors": [
+                {
+                    "Name": "Steveplays28"
+                }
+            ],
+            "primaryAuthor": "Steveplays28",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/restart-server",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/609/660/256/256/637990904546606878.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4002502,
+                "fileName": "restart-server-1.0.1.jar",
+                "fileDate": "2022-09-24T09:08:21.04Z",
+                "fileLength": 35330,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4002/502/restart-server-1.0.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 348521,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4126558173,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_restart-server",
+                        "fingerprint": 3614687151,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "restart-server.mixins.json",
+                        "fingerprint": 2457953916,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2384568528,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2637345296,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 3957531441,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2424098901,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "Quilt",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Quilt",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 677580,
+                "FileNameOnDisk": "restart-server-1.0.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "874591ac15282c25b3e77071a5c6adf18b2b4475"
+                    },
+                    {
+                        "Value": "2413d1f4c83d09ce7a2dc96755812f0e"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-11-22T15:25:31.8381964Z",
+            "dateUpdated": "2022-11-22T15:25:31.8401984Z",
+            "dateLastUpdateAttempted": "2022-11-22T15:25:31.8401984Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4002502,
+                "fileName": "restart-server-1.0.1.jar",
+                "fileDate": "2022-09-24T09:08:21.04Z",
+                "fileLength": 35330,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4002/502/restart-server-1.0.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 348521,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4126558173,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_restart-server",
+                        "fingerprint": 3614687151,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "restart-server.mixins.json",
+                        "fingerprint": 2457953916,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2384568528,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2637345296,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 3957531441,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2424098901,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "Quilt",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Quilt",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 677580,
+                "FileNameOnDisk": "restart-server-1.0.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "874591ac15282c25b3e77071a5c6adf18b2b4475"
+                    },
+                    {
+                        "Value": "2413d1f4c83d09ce7a2dc96755812f0e"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "19266483-4aad-44ca-8b1f-3257273222ec",
             "modSource": 0,
             "addonID": 310111,
