@@ -8,6 +8,10 @@ onEvent('item.registry', event => {
 })
 
 onEvent('block.registry', event => {
-	// Register new blocks here
-	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+	event.create('crushed_deepslate')
+	.material('dirt')
+  .hardness(0.5)
+  .displayName('Crushed Deepslate') // No longer required in 1.18.2+
+  .tagBlock('minecraft:mineable/shovel') // Make it mine faster using a shovel in 1.18.2+
+  
 })
