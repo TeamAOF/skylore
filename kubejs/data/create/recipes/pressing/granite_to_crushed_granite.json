@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "minecraft:granite"
+      }
+    ],
+    "results": [
+      {
+        "item": "fabricaeexnihilo:crushed_granite"
+      }
+    ]
+}

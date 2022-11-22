@@ -1,0 +1,26 @@
+{
+    "type": "createsifter:sifting",
+    "ingredients": [
+      {
+        "item": "createsifter:string_mesh"
+      },
+      {
+        "item": "minecraft:gravel"
+      }
+    ],
+    "results": [
+      {
+        "item": "fabricaeexnihilo:stone_pebble",
+        "chance": 0.75
+      },
+      {
+        "item": "modern_industrialization:iron_tiny_dust",
+        "chance": 0.50
+      },
+      {
+        "item": "modern_industrialization:coal_tiny_dust",
+        "chance": 0.40
+      }
+    ],
+    "processingTime": 250
+}

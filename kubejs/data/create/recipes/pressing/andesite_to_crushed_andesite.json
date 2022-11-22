@@ -1,0 +1,13 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "minecraft:andesite"
+      }
+    ],
+    "results": [
+      {
+        "item": "fabricaeexnihilo:crushed_andesite"
+      }
+    ]
+}

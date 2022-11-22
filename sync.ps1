@@ -12,10 +12,11 @@ $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
 if ($repoExists) {
-    git switch $branch
     git reset --hard
     git pull
+    git switch $branch
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 else {
     git clone $url modpack
@@ -26,6 +27,7 @@ else {
     git pull
     git switch $branch
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 if (Test-Path -Path ./server.lock) {
     . .\server.lock

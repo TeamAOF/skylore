@@ -3,7 +3,7 @@
   "builtinServers": [
     {
       "name": "Skylore Dev",
-      "address": "dolly.alloffabric.com:25567",
+      "address": "barb.alloffabric.com:25567",
       "forced": false
     }
   ]

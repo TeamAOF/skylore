@@ -24521,187 +24521,6 @@
             }
         },
         {
-            "instanceID": "7f7c6a18-b357-41ce-91aa-ef571a4985d8",
-            "modSource": 0,
-            "addonID": 584778,
-            "gameID": 432,
-            "gameInstanceID": "890670aa-9089-4968-99ec-8abaebc8b6ba",
-            "name": "Better Fabric Console",
-            "authors": [
-                {
-                    "Name": "jmp00000"
-                }
-            ],
-            "primaryAuthor": "jmp00000",
-            "primaryCategoryId": 435,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/better-fabric-console",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/499/254/256/256/637815792510672942.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3779318,
-                "fileName": "better-fabric-console-mc1.18.2-1.0.4.jar",
-                "fileDate": "2022-05-04T01:43:53.38Z",
-                "fileLength": 2674862,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3779/318/better-fabric-console-mc1.18.2-1.0.4.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 154301103,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2984957933,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "better-fabric-console-refmap.json",
-                        "fingerprint": 2221188181,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "better-fabric-console.mixins.json",
-                        "fingerprint": 3030502094,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1557088900,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 4217199191,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "xyz",
-                        "fingerprint": 1416787567,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 158402114,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 584778,
-                "FileNameOnDisk": "better-fabric-console-mc1.18.2-1.0.4.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-17T20:22:35.9643159Z",
-            "dateUpdated": "2022-11-17T20:22:36.019174Z",
-            "dateLastUpdateAttempted": "2022-11-17T20:22:36.019174Z",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3779318,
-                "fileName": "better-fabric-console-mc1.18.2-1.0.4.jar",
-                "fileDate": "2022-05-04T01:43:53.38Z",
-                "fileLength": 2674862,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3779/318/better-fabric-console-mc1.18.2-1.0.4.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 154301103,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2984957933,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "better-fabric-console-refmap.json",
-                        "fingerprint": 2221188181,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "better-fabric-console.mixins.json",
-                        "fingerprint": 3030502094,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1557088900,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 4217199191,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "xyz",
-                        "fingerprint": 1416787567,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 158402114,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 584778,
-                "FileNameOnDisk": "better-fabric-console-mc1.18.2-1.0.4.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "15b9d113-7abd-493e-90a6-080e64ad171c",
             "modSource": 0,
             "addonID": 472657,
@@ -42012,6 +41831,285 @@
                 "projectId": 656665,
                 "FileNameOnDisk": "JadeAddons-1.18.2-fabric-2.0.1.jar",
                 "Hashes": []
+            }
+        },
+        {
+            "instanceID": "ec522395-a91d-491d-9c3c-3969af4be253",
+            "modSource": 0,
+            "addonID": 392559,
+            "gameID": 432,
+            "gameInstanceID": "890670aa-9089-4968-99ec-8abaebc8b6ba",
+            "name": "JLine for Dedicated Server",
+            "authors": [
+                {
+                    "Name": "chirs241097"
+                }
+            ],
+            "primaryAuthor": "chirs241097",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/jline-for-minecraft-dedicated-server",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/621/256/256/637289979088818807.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3958604,
+                "fileName": "jline4mcdsrv-0.3.1.jar",
+                "fileDate": "2022-08-30T12:46:54.487Z",
+                "fileLength": 1268514,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3958/604/jline4mcdsrv-0.3.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3123789263,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_jline4mcdsrv",
+                        "fingerprint": 3451269543,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jline4mcdsrv.mixins.json",
+                        "fingerprint": 979977830,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1403796693,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1064270420,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jline4mcdsrv-refmap.json",
+                        "fingerprint": 4087133978,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2811346741,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1373136624,
+                "gameVersion": [
+                    "1.17.1",
+                    "1.18.1",
+                    "1.17",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.17.1",
+                        "gameVersionName": "1.17.1",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.17",
+                        "gameVersionName": "1.17",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 392559,
+                "FileNameOnDisk": "jline4mcdsrv-0.3.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "b84d790759b98ccb8fd34f8b14b703cc79a9b9ed"
+                    },
+                    {
+                        "Value": "3b1005064d7365ad53d059d230faabdf"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-11-21T16:51:26.1449567Z",
+            "dateUpdated": "2022-11-21T16:51:26.1519633Z",
+            "dateLastUpdateAttempted": "2022-11-21T16:51:26.1519633Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3958604,
+                "fileName": "jline4mcdsrv-0.3.1.jar",
+                "fileDate": "2022-08-30T12:46:54.487Z",
+                "fileLength": 1268514,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3958/604/jline4mcdsrv-0.3.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3123789263,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_jline4mcdsrv",
+                        "fingerprint": 3451269543,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jline4mcdsrv.mixins.json",
+                        "fingerprint": 979977830,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1403796693,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1064270420,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jline4mcdsrv-refmap.json",
+                        "fingerprint": 4087133978,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2811346741,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1373136624,
+                "gameVersion": [
+                    "1.17.1",
+                    "1.18.1",
+                    "1.17",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.17.1",
+                        "gameVersionName": "1.17.1",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.17",
+                        "gameVersionName": "1.17",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 392559,
+                "FileNameOnDisk": "jline4mcdsrv-0.3.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "b84d790759b98ccb8fd34f8b14b703cc79a9b9ed"
+                    },
+                    {
+                        "Value": "3b1005064d7365ad53d059d230faabdf"
+                    }
+                ]
             }
         },
         {

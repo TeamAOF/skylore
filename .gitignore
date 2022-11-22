@@ -3,8 +3,10 @@
 !/automation/
 !/config/
 !/kubejs/
+!/offlineMods/
 !/resources/
 !/setup/
+!/mods/
 !/.gitattributes
 !/InstanceSync.jar
 !/minecraftinstance.json
