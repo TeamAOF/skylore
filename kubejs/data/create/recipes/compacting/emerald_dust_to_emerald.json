@@ -1,0 +1,14 @@
+{
+    "type": "create:compressing",
+    "ingredients": [
+      {
+        "item": "modern_industrialization:emerald_dust",
+        "count": 2
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:emerald"
+      }
+    ]
+}

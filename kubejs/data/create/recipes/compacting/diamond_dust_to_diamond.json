@@ -1,0 +1,14 @@
+{
+    "type": "create:compressing",
+    "ingredients": [
+      {
+        "item": "modern_industrialization:diamond_dust",
+        "count": 2
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:diamond"
+      }
+    ]
+}
