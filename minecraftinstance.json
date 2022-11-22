@@ -44533,6 +44533,201 @@
             }
         },
         {
+            "instanceID": "e9e4f920-c1e6-49f0-9086-2cb25b5fe7fc",
+            "modSource": 0,
+            "addonID": 550579,
+            "gameID": 432,
+            "gameInstanceID": "890670aa-9089-4968-99ec-8abaebc8b6ba",
+            "name": "ServerCore",
+            "authors": [
+                {
+                    "Name": "Wesley8081"
+                }
+            ],
+            "primaryAuthor": "Wesley8081",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/servercore",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/471/666/256/256/637760605934750397.jpeg",
+            "tags": [],
+            "installedFile": {
+                "id": 3765366,
+                "fileName": "servercore-1.2.9-1.18.2.jar",
+                "fileDate": "2022-04-23T22:09:19.26Z",
+                "fileLength": 514471,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3765/366/servercore-1.2.9-1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4192123228,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore.mixins.json",
+                        "fingerprint": 119247768,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore.accesswidener",
+                        "fingerprint": 1957256186,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1736483724,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3564688385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore-refmap.json",
+                        "fingerprint": 395963836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 397372429,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1394941376,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 550579,
+                "FileNameOnDisk": "servercore-1.2.9-1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "34aa64703ee1269b6ff3e460b5c0ea75e3a46938"
+                    },
+                    {
+                        "Value": "ab020641f4ae0cfd1e5d8cedc798fafb"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-11-22T15:24:05.3166993Z",
+            "dateUpdated": "2022-11-22T15:24:05.320703Z",
+            "dateLastUpdateAttempted": "2022-11-22T15:24:05.320703Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3765366,
+                "fileName": "servercore-1.2.9-1.18.2.jar",
+                "fileDate": "2022-04-23T22:09:19.26Z",
+                "fileLength": 514471,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3765/366/servercore-1.2.9-1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4192123228,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore.mixins.json",
+                        "fingerprint": 119247768,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore.accesswidener",
+                        "fingerprint": 1957256186,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1736483724,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3564688385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "servercore-refmap.json",
+                        "fingerprint": 395963836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 397372429,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1394941376,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 550579,
+                "FileNameOnDisk": "servercore-1.2.9-1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "34aa64703ee1269b6ff3e460b5c0ea75e3a46938"
+                    },
+                    {
+                        "Value": "ab020641f4ae0cfd1e5d8cedc798fafb"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "12f28b4b-da77-4560-9d3c-874d9dfc7988",
             "modSource": 0,
             "addonID": 461316,
