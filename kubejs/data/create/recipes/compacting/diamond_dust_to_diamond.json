@@ -2,8 +2,10 @@
     "type": "create:compacting",
     "ingredients": [
       {
-        "item": "modern_industrialization:diamond_dust",
-        "count": 2
+        "item": "modern_industrialization:diamond_dust"
+      },
+      {
+        "item": "modern_industrialization:diamond_dust"
       }
     ],
     "results": [

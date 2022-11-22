@@ -2,8 +2,10 @@
     "type": "create:compacting",
     "ingredients": [
       {
-        "item": "modern_industrialization:lapis_dust",
-        "count": 2
+        "item": "modern_industrialization:lapis_dust"
+      },
+      {
+        "item": "modern_industrialization:lapis_dust"
       }
     ],
     "results": [
