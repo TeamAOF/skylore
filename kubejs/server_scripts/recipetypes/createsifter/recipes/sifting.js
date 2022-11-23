@@ -1,6 +1,6 @@
-ServerEvents.recipes(event => {
-    const recipes = [
-        {
+onEvent('recipes', (event) => {
+    
+    event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -25,8 +25,9 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
-        {
+        })
+    
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -55,8 +56,9 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
-        {
+        }),
+
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -81,8 +83,9 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
-        {
+        }),
+
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -107,8 +110,9 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
-        {
+        }),
+
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -129,7 +133,8 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
+        }),
+
         {
             "type": "createsifter:sifting",
             "ingredients": [
@@ -156,7 +161,8 @@ ServerEvents.recipes(event => {
             ],
             "processingTime": 250
         },
-        {
+
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -177,8 +183,9 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        },
-        {
+        }),
+
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -199,12 +206,5 @@ ServerEvents.recipes(event => {
                 }
             ],
             "processingTime": 250
-        }
-    ]
-
-    recipes.forEach((recipe) => {
-        event.custom(
-            recipe
-        )
-    })
+        })
 })

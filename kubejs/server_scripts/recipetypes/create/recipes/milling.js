@@ -1,4 +1,5 @@
-ServerEvents.recipes(event => {
+onEvent('recipes', (event) => {
+  
   event.custom(
     {
       "type": "create:milling",

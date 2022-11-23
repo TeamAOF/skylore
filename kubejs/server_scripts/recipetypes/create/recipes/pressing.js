@@ -1,8 +1,9 @@
-ServerEvents.recipes(event => {
+onEvent('recipes', (event) => {
+
   const items = [
-    andesite,
-    diorite,
-    granite
+    "andesite",
+    "diorite",
+    "granite"
   ]
 
   items.forEach((item) => {

@@ -1,8 +1,8 @@
-ServerEvents.recipes(event => {
+onEvent('recipes', (event) => {
 
   const gems = [
-    diamond,
-    emerald
+    "diamond",
+    "emerald"
   ]
   gems.forEach((item) => {
     event.custom(
