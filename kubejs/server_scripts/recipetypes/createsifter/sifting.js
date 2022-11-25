@@ -1,5 +1,6 @@
 onEvent('recipes', (event) => {
-    
+
+    // crushed andesite sifting
     event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -27,6 +28,7 @@ onEvent('recipes', (event) => {
             "processingTime": 250
         })
     
+        // crushed deepslate sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -56,8 +58,9 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        }),
+        })
 
+        // crushed diorite sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -83,8 +86,9 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        }),
+        })
 
+        // crushed granite sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -110,8 +114,9 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        }),
+        })
 
+        // dust sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -133,9 +138,10 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        }),
+        })
 
-        {
+        // gravel sifting
+        event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
                 {
@@ -160,8 +166,9 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        },
+        })
 
+        // red sand sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
@@ -183,8 +190,9 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        }),
+        })
 
+        // sand sifting
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [
