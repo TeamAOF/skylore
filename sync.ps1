@@ -7,11 +7,10 @@
 # $repo = "skylore" # name of the git repository.
 # $branch = "indev" # branch of the git repository. for examle main or master.
 
-$repoExists = git rev-parse --is-inside-work-tree
 $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
-if ($repoExists) {
+if (Test-Path -Path .git) {
     git reset --hard
     git pull
     git switch $branch
