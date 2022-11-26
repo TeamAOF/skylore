@@ -213,8 +213,12 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_axe',
 		'minecraft:wooden_sword',
 		'minecraft:wooden_shovel',
-		'minecraft:wooden_hoe'
-
+		'minecraft:wooden_hoe',
+		"createsifter:sifting/gravel_brass_mesh",
+		"createsifter:sifting/gravel_zinc_mesh",
+		"createsifter:sifting/sand_zinc_mesh",
+		"createsifter:sifting/sand_andesite_mesh",
+		"createsifter:sifting/sand_brass_mesh"
     ];
 
     id.forEach((id) => {
