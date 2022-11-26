@@ -11807,13 +11807,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/548/377/256/256/637883834427445340.png",
             "tags": [],
             "installedFile": {
-                "id": 4110535,
-                "fileName": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "fileDate": "2022-11-24T20:05:16.313Z",
-                "fileLength": 15895977,
+                "id": 4011240,
+                "fileName": "create-fabric-1.18.2-0.5.0e-733.jar",
+                "fileDate": "2022-09-29T03:44:32.763Z",
+                "fileLength": 15894113,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4110/535/create-fabric-0.5.0g-792+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4011/240/create-fabric-1.18.2-0.5.0e-733.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -11825,53 +11825,43 @@
                 "isAvailable": true,
                 "modules": [
                     {
-                        "foldername": "META-INF",
-                        "fingerprint": 1859782195,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1583383705,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4124541705,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "create.accesswidener",
                         "fingerprint": 3341206328,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "create.mixins.json",
-                        "fingerprint": 458182578,
+                        "fingerprint": 3986098786,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "LICENSE_create-fabric",
+                        "foldername": "META-INF",
+                        "fingerprint": 1959850269,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "create-fabric-1.18.2-refmap.json",
+                        "fingerprint": 53010387,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 806463427,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4267287375,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_create-fabric-1.18.2",
                         "fingerprint": 1927476733,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "resourcepacks",
-                        "fingerprint": 1636862921,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "create-fabric-refmap.json",
-                        "fingerprint": 2261245755,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": ".cache",
-                        "fingerprint": 3346531877,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 3223882202,
+                        "foldername": "assets",
+                        "fingerprint": 1116056024,
                         "invalidFingerprint": false
                     },
                     {
@@ -11880,12 +11870,22 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 1116056024,
+                        "foldername": "com",
+                        "fingerprint": 3216490376,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1080739597,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 1636862921,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2553984739,
+                "packageFingerprint": 3411332097,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -11913,20 +11913,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 624165,
-                "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "e009a6c6a5d772020648863c30df7e714fe66583"
-                    },
-                    {
-                        "Value": "5d6e06a7829fda423de20ff454ab6ed3"
-                    }
-                ]
+                "FileNameOnDisk": "create-fabric-1.18.2-0.5.0e-733.jar",
+                "Hashes": []
             },
             "dateInstalled": "2022-11-17T02:07:39.3747828Z",
-            "dateUpdated": "2022-11-25T22:02:15.4091847Z",
-            "dateLastUpdateAttempted": "2022-11-25T22:02:15.4091847Z",
-            "status": 4,
+            "dateUpdated": "2022-11-17T02:07:39.3897435Z",
+            "dateLastUpdateAttempted": "2022-11-17T02:07:39.3897435Z",
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11938,13 +11931,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4110535,
-                "fileName": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "fileDate": "2022-11-24T20:05:16.313Z",
-                "fileLength": 15895977,
+                "id": 4011240,
+                "fileName": "create-fabric-1.18.2-0.5.0e-733.jar",
+                "fileDate": "2022-09-29T03:44:32.763Z",
+                "fileLength": 15894113,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4110/535/create-fabric-0.5.0g-792+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4011/240/create-fabric-1.18.2-0.5.0e-733.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -11956,53 +11949,43 @@
                 "isAvailable": true,
                 "modules": [
                     {
-                        "foldername": "META-INF",
-                        "fingerprint": 1859782195,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1583383705,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4124541705,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "create.accesswidener",
                         "fingerprint": 3341206328,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "create.mixins.json",
-                        "fingerprint": 458182578,
+                        "fingerprint": 3986098786,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "LICENSE_create-fabric",
+                        "foldername": "META-INF",
+                        "fingerprint": 1959850269,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "create-fabric-1.18.2-refmap.json",
+                        "fingerprint": 53010387,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 806463427,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4267287375,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_create-fabric-1.18.2",
                         "fingerprint": 1927476733,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "resourcepacks",
-                        "fingerprint": 1636862921,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "create-fabric-refmap.json",
-                        "fingerprint": 2261245755,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": ".cache",
-                        "fingerprint": 3346531877,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 3223882202,
+                        "foldername": "assets",
+                        "fingerprint": 1116056024,
                         "invalidFingerprint": false
                     },
                     {
@@ -12011,12 +11994,22 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 1116056024,
+                        "foldername": "com",
+                        "fingerprint": 3216490376,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1080739597,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 1636862921,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2553984739,
+                "packageFingerprint": 3411332097,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -12044,15 +12037,8 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 624165,
-                "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "e009a6c6a5d772020648863c30df7e714fe66583"
-                    },
-                    {
-                        "Value": "5d6e06a7829fda423de20ff454ab6ed3"
-                    }
-                ]
+                "FileNameOnDisk": "create-fabric-1.18.2-0.5.0e-733.jar",
+                "Hashes": []
             }
         },
         {
