@@ -216,6 +216,7 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_hoe',
 		"createsifter:sifting/gravel_brass_mesh",
 		"createsifter:sifting/gravel_zinc_mesh",
+		"createsifter:sifting/gravel_andesite_mesh",
 		"createsifter:sifting/sand_zinc_mesh",
 		"createsifter:sifting/sand_andesite_mesh",
 		"createsifter:sifting/sand_brass_mesh"
