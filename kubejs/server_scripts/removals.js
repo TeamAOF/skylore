@@ -219,7 +219,8 @@ onEvent('recipes', (event) => {
 		"createsifter:sifting/gravel_andesite_mesh",
 		"createsifter:sifting/sand_zinc_mesh",
 		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh"
+		"createsifter:sifting/sand_brass_mesh",
+		"create:crushing/tuff_recycling"
     ];
 
     id.forEach((id) => {
