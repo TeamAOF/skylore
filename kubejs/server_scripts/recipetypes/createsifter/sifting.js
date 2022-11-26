@@ -26,7 +26,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
     
         // crushed deepslate sifting
         event.custom({
@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // crushed diorite sifting
         event.custom({
@@ -86,7 +86,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // crushed granite sifting
         event.custom({
@@ -114,7 +114,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // dust sifting
         event.custom({
@@ -138,7 +138,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // gravel sifting
         event.custom({
@@ -166,7 +166,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // red sand sifting
         event.custom({
@@ -190,7 +190,7 @@ onEvent('recipes', (event) => {
                 }
             ],
             "processingTime": 250
-        })
+        }),
 
         // sand sifting
         event.custom({
