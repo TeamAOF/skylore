@@ -25577,18 +25577,18 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/566/413/256/256/637925434672465483.png",
             "tags": [],
             "installedFile": {
-                "id": 4046669,
-                "fileName": "bettercombat-fabric-1.4.5+1.18.2.jar",
-                "fileDate": "2022-10-23T20:19:19.693Z",
-                "fileLength": 736971,
+                "id": 4111400,
+                "fileName": "bettercombat-fabric-1.5.0+1.18.2.jar",
+                "fileDate": "2022-11-25T14:30:38.89Z",
+                "fileLength": 740867,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4046/669/bettercombat-fabric-1.4.5+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4111/400/bettercombat-fabric-1.5.0+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 348521,
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -25596,7 +25596,7 @@
                         "type": 3
                     },
                     {
-                        "addonId": 306612,
+                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -25614,7 +25614,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 675493619,
+                        "fingerprint": 1620521509,
                         "invalidFingerprint": false
                     },
                     {
@@ -25629,17 +25629,17 @@
                     },
                     {
                         "foldername": "bettercombat-common-common-refmap.json",
-                        "fingerprint": 3020931795,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2642428306,
+                        "fingerprint": 3574269229,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "bettercombat-fabric.mixins.json",
                         "fingerprint": 288922675,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 656824153,
                         "invalidFingerprint": false
                     },
                     {
@@ -25649,16 +25649,16 @@
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 4121220358,
+                        "fingerprint": 1547675720,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_bettercombat_common_7561c54f32d24289aaa7ef49f048f47b_5e10242dc4ec8768ad910927d7d6a12e103f60c8bd349d4c140a8b0c613391b9bettercombatcommon1451182devjar",
-                        "fingerprint": 254980923,
+                        "foldername": "architectury_inject_bettercombat_common_aa3d531473d94457a7eeeb381ee5f010_527c248900e750c2fd0ac3dd91c3467fc7a3b0728fc7239d789b0297cf3bbac2bettercombatcommon1501182devjar",
+                        "fingerprint": 2918012550,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1293985286,
+                "packageFingerprint": 4150007917,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -25680,20 +25680,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 639842,
-                "FileNameOnDisk": "bettercombat-fabric-1.4.5+1.18.2.jar",
+                "FileNameOnDisk": "bettercombat-fabric-1.5.0+1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "0c9b0296443b54daf496be908a0e4c9b71fa0662"
+                        "Value": "e1e1a81f19b3a8722406bc2bfa63491384db9e89"
                     },
                     {
-                        "Value": "0c5476a1b28c5116a2c4f196895310e7"
+                        "Value": "1f80fb7ea1ed1c2f2c8729235e12e759"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2785173Z",
-            "dateUpdated": "2022-11-27T15:59:38.2785173Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:03:22.9734137Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:03:22.9734137Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
