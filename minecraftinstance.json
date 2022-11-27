@@ -34,7 +34,7 @@
     "cachedScans": [],
     "isValid": true,
     "lastPreviousMatchUpdate": "2022-11-27T15:50:34.9080175Z",
-    "lastRefreshAttempt": "2022-11-27T16:59:38.6733547+01:00",
+    "lastRefreshAttempt": "2022-11-27T16:59:41.251854+01:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
     "gameVersionFlavor": null,
@@ -30506,13 +30506,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/19/498/256/256/635696278186178221_animated.gif",
             "tags": [],
             "installedFile": {
-                "id": 4102192,
-                "fileName": "appliedenergistics2-fabric-11.6.5.jar",
-                "fileDate": "2022-11-20T22:37:25.787Z",
-                "fileLength": 5317086,
+                "id": 4105157,
+                "fileName": "appliedenergistics2-fabric-11.6.6.jar",
+                "fileDate": "2022-11-23T00:30:09.157Z",
+                "fileLength": 5317245,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4102/192/appliedenergistics2-fabric-11.6.5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4105/157/appliedenergistics2-fabric-11.6.6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -30520,7 +30520,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 489815964,
+                        "fingerprint": 1288279580,
                         "invalidFingerprint": false
                     },
                     {
@@ -30535,7 +30535,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 811889484,
+                        "fingerprint": 3539789913,
                         "invalidFingerprint": false
                     },
                     {
@@ -30555,11 +30555,11 @@
                     },
                     {
                         "foldername": "appeng",
-                        "fingerprint": 2490750488,
+                        "fingerprint": 3055194140,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3780545055,
+                "packageFingerprint": 1179334195,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -30581,20 +30581,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 223794,
-                "FileNameOnDisk": "appliedenergistics2-fabric-11.6.5.jar",
+                "FileNameOnDisk": "appliedenergistics2-fabric-11.6.6.jar",
                 "Hashes": [
                     {
-                        "Value": "d37ce645a3d9ef5c3759e2634b1b4ac1b05cadd3"
+                        "Value": "1eb329f2b878f35ade67c0476038be26792c476c"
                     },
                     {
-                        "Value": "daafee8f426db32023d1f41d484c8bf4"
+                        "Value": "3422eb7bb604e2a264bc459abf75ace4"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.276515Z",
-            "dateUpdated": "2022-11-27T15:59:38.276515Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:02:18.2262451Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:02:18.2262451Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
