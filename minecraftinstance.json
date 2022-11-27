@@ -31317,64 +31317,54 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/298/282/256/256/637348455539175628.png",
             "tags": [],
             "installedFile": {
-                "id": 3866891,
-                "fileName": "Modern-Industrialization-1.2.2.jar",
-                "fileDate": "2022-07-10T12:16:51.267Z",
-                "fileLength": 6447140,
+                "id": 4118259,
+                "fileName": "Modern-Industrialization-1.2.3.jar",
+                "fileDate": "2022-11-26T21:05:54.387Z",
+                "fileLength": 6447133,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3866/891/Modern-Industrialization-1.2.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4118/259/Modern-Industrialization-1.2.3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 408118,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 393236,
-                        "type": 1
-                    },
-                    {
                         "addonId": 310111,
                         "type": 3
-                    },
-                    {
-                        "addonId": 614781,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 440979,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 359522,
-                        "type": 1
                     },
                     {
                         "addonId": 348521,
                         "type": 3
                     },
                     {
+                        "addonId": 393236,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 614781,
+                        "type": 1
+                    },
+                    {
                         "addonId": 306612,
                         "type": 3
+                    },
+                    {
+                        "addonId": 359522,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 408118,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 440979,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3771595965,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "modern_industrialization.accesswidener",
-                        "fingerprint": 3032320738,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3931494138,
+                        "fingerprint": 1347743610,
                         "invalidFingerprint": false
                     },
                     {
@@ -31383,23 +31373,33 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3262400925,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "modern_industrialization.mixins.json",
                         "fingerprint": 3677134796,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": ".cache",
-                        "fingerprint": 1363354792,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2930593382,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "data",
-                        "fingerprint": 3785679260,
+                        "fingerprint": 2230902839,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3931494138,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1461868817,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "modern_industrialization.accesswidener",
+                        "fingerprint": 3032320738,
                         "invalidFingerprint": false
                     },
                     {
@@ -31413,7 +31413,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2240301779,
+                "packageFingerprint": 3792657379,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -31435,13 +31435,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 405388,
-                "FileNameOnDisk": "Modern-Industrialization-1.2.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "Modern-Industrialization-1.2.3.jar",
+                "Hashes": [
+                    {
+                        "Value": "4792c5aba137cff351cee2038e39985d11332a9b"
+                    },
+                    {
+                        "Value": "22d42bac6ef813642948908a20fedafd"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:57:55.5511832Z",
-            "dateUpdated": "2022-11-27T15:57:55.5511832Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:06:17.2633212Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:06:17.2633212Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
