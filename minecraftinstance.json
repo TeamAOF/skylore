@@ -561,26 +561,26 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/25/256/256/637287701215436754.png",
             "tags": [],
             "installedFile": {
-                "id": 4082323,
-                "fileName": "RoughlyEnoughItems-8.3.571.jar",
-                "fileDate": "2022-11-12T12:26:54.997Z",
-                "fileLength": 2139366,
+                "id": 4119143,
+                "fileName": "RoughlyEnoughItems-8.3.573.jar",
+                "fileDate": "2022-11-27T10:26:46.97Z",
+                "fileLength": 2158895,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4082/323/RoughlyEnoughItems-8.3.571.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4119/143/RoughlyEnoughItems-8.3.573.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
+                    {
+                        "addonId": 348521,
+                        "type": 3
+                    },
                     {
                         "addonId": 306612,
                         "type": 3
                     },
                     {
                         "addonId": 419699,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -589,11 +589,6 @@
                     {
                         "foldername": "META-INF",
                         "fingerprint": 3021516674,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2377290237,
                         "invalidFingerprint": false
                     },
                     {
@@ -607,23 +602,23 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "assets",
+                        "fingerprint": 2377290237,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "LICENSE",
                         "fingerprint": 3994964994,
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3893217288,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "roughlyenoughitems.accessWidener",
                         "fingerprint": 2880939789,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3971475819,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "rei.mixins.json",
-                        "fingerprint": 520480138,
                         "invalidFingerprint": false
                     },
                     {
@@ -637,17 +632,22 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "rei.mixins.json",
+                        "fingerprint": 520480138,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "RoughlyEnoughItems-fabric-refmap.json",
-                        "fingerprint": 1523386194,
+                        "fingerprint": 1340413695,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 3711278028,
+                        "fingerprint": 931650973,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3838465070,
+                "packageFingerprint": 395270808,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -675,13 +675,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 310111,
-                "FileNameOnDisk": "RoughlyEnoughItems-8.3.571.jar",
-                "Hashes": []
+                "FileNameOnDisk": "RoughlyEnoughItems-8.3.573.jar",
+                "Hashes": [
+                    {
+                        "Value": "1e8f26fea35ab3b4eafac71ca6e4ce517ff0dad2"
+                    },
+                    {
+                        "Value": "1f99a84cfa136d44995a0d78052bb9c0"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:55:28.2181338Z",
-            "dateUpdated": "2022-11-27T15:55:28.2181338Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:07:49.8143788Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:07:49.8143788Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
