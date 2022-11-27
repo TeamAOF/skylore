@@ -30279,22 +30279,22 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/557/273/256/256/637903735021414748.png",
             "tags": [],
             "installedFile": {
-                "id": 3956670,
-                "fileName": "simplehats-fabric-1.18.2-0.1.5.jar",
-                "fileDate": "2022-08-29T05:25:52.093Z",
-                "fileLength": 1220528,
+                "id": 4117825,
+                "fileName": "simplehats-fabric-1.18.2-0.1.6.jar",
+                "fileDate": "2022-11-26T15:38:40.65Z",
+                "fileLength": 1220078,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3956/670/simplehats-fabric-1.18.2-0.1.5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4117/825/simplehats-fabric-1.18.2-0.1.6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 341284,
+                        "addonId": 348521,
                         "type": 3
                     },
                     {
-                        "addonId": 348521,
+                        "addonId": 341284,
                         "type": 3
                     }
                 ],
@@ -30327,7 +30327,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 193417671,
+                        "fingerprint": 2246016966,
                         "invalidFingerprint": false
                     },
                     {
@@ -30347,11 +30347,11 @@
                     },
                     {
                         "foldername": "fonnymunkey",
-                        "fingerprint": 276895133,
+                        "fingerprint": 651464376,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3563179763,
+                "packageFingerprint": 2753193439,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -30373,13 +30373,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 631990,
-                "FileNameOnDisk": "simplehats-fabric-1.18.2-0.1.5.jar",
-                "Hashes": []
+                "FileNameOnDisk": "simplehats-fabric-1.18.2-0.1.6.jar",
+                "Hashes": [
+                    {
+                        "Value": "2ade81d0ff3f404b717614e1ba3e7d813f1e7186"
+                    },
+                    {
+                        "Value": "1131239a2d4dbfea753b8b77208547b5"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:55:30.108367Z",
-            "dateUpdated": "2022-11-27T15:55:30.108367Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:08:10.1923888Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:08:10.1923888Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
