@@ -36847,21 +36847,21 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/106/654/256/256/636360849723336023.png",
             "tags": [],
             "installedFile": {
-                "id": 3848853,
-                "fileName": "BetterAdvancements-Fabric-1.18.2-0.2.1.132.jar",
-                "fileDate": "2022-06-26T15:54:13.923Z",
-                "fileLength": 72699,
+                "id": 4111317,
+                "fileName": "BetterAdvancements-Fabric-1.18.2-0.2.0.146.jar",
+                "fileDate": "2022-11-25T12:51:09.49Z",
+                "fileLength": 64113,
                 "releaseType": 3,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3848/853/BetterAdvancements-Fabric-1.18.2-0.2.1.132.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4111/317/BetterAdvancements-Fabric-1.18.2-0.2.0.146.jar",
                 "isAlternate": false,
-                "alternateFileId": 3848854,
+                "alternateFileId": 0,
                 "dependencies": [],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2458941071,
+                        "fingerprint": 2914930842,
                         "invalidFingerprint": false
                     },
                     {
@@ -36886,7 +36886,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2095791062,
+                        "fingerprint": 3357212164,
                         "invalidFingerprint": false
                     },
                     {
@@ -36896,11 +36896,11 @@
                     },
                     {
                         "foldername": "betteradvancements",
-                        "fingerprint": 2464383502,
+                        "fingerprint": 4223901352,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2547331907,
+                "packageFingerprint": 2580875621,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -36922,20 +36922,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 272515,
-                "FileNameOnDisk": "BetterAdvancements-Fabric-1.18.2-0.2.1.132.jar",
+                "FileNameOnDisk": "BetterAdvancements-Fabric-1.18.2-0.2.0.146.jar",
                 "Hashes": [
                     {
-                        "Value": "ce60ecd8b72f39ce036a0f725dfd4a9cf6830f6e"
+                        "Value": "319bf534ef40874e9897fca624750918cb1c070c"
                     },
                     {
-                        "Value": "2dfd7621560f3346b58bad3d85515050"
+                        "Value": "9c56582ad272f71289c8b14ffe1cee5e"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2780169Z",
-            "dateUpdated": "2022-11-27T15:59:38.2780169Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:02:49.4321276Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:02:49.4321276Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
