@@ -207,19 +207,32 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_shovel',
 		'minecraft:wooden_hoe',
 		"create:crushing/tuff_recycling",
-		"#kibe:sleeping_bags"
+		"kibe:white_sleeping_bag",
+		"kibe:orange_sleeping_bag",
+		"kibe:magenta_sleeping_bag",
+		"kibe:light_blue_sleeping_bag",
+		"kibe:yellow_sleeping_bag",
+		"kibe:lime_sleeping_bag",
+		"kibe:pink_sleeping_bag",
+		"kibe:gray_sleeping_bag",
+		"kibe:light_gray_sleeping_bag",
+		"kibe:cyan_sleeping_bag",
+		"kibe:sleeping_bag",
+		"kibe:purple_sleeping_bag",
+		"kibe:green_sleeping_bag",
+		"kibe:brown_sleeping_bag",
+		"kibe:red_sleeping_bag",
+		"kibe:black_sleeping_bag",
+		"createsifter:sifting/gravel_brass_mesh",
+		"createsifter:sifting/gravel_andesite_mesh",
+		"createsifter:sifting/gravel_zinc_mesh",
+		"createsifter:sifting/sand_string_mesh",
+		"createsifter:sifting/sand_zinc_mesh",
+		"createsifter:sifting/sand_andesite_mesh",
+		"createsifter:sifting/sand_brass_mesh"
     ];
 
     recipeRemove.forEach((id) => {
         event.remove({ 'id': id });
     });
-
-	const removeActionUses = [
-		"createsifter:sifting"
-	]
-
-	removeActionUses.forEach((id) => {
-        event.remove({ 'type': id });
-    });
-
 });

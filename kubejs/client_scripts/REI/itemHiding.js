@@ -31,7 +31,23 @@ onEvent('rei.hide.items', event => {
 		'minecraft:wooden_axe',
 		'minecraft:wooden_sword',
 		'minecraft:wooden_shovel',
-		'minecraft:wooden_hoe'
+		'minecraft:wooden_hoe',
+		"kibe:white_sleeping_bag",
+		"kibe:orange_sleeping_bag",
+		"kibe:magenta_sleeping_bag",
+		"kibe:light_blue_sleeping_bag",
+		"kibe:yellow_sleeping_bag",
+		"kibe:lime_sleeping_bag",
+		"kibe:pink_sleeping_bag",
+		"kibe:gray_sleeping_bag",
+		"kibe:light_gray_sleeping_bag",
+		"kibe:cyan_sleeping_bag",
+		"kibe:sleeping_bag",
+		"kibe:purple_sleeping_bag",
+		"kibe:green_sleeping_bag",
+		"kibe:brown_sleeping_bag",
+		"kibe:red_sleeping_bag",
+		"kibe:black_sleeping_bag"
 	]
 
 	itemRemove.forEach((id) => {
