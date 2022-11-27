@@ -4449,18 +4449,18 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/594/305/256/256/637967898279966491.png",
             "tags": [],
             "installedFile": {
-                "id": 4102085,
-                "fileName": "spectrum-1.6.0-1.18.2-leisure_time.jar",
-                "fileDate": "2022-11-20T21:37:43.593Z",
-                "fileLength": 59537185,
+                "id": 4117889,
+                "fileName": "spectrum-1.6.3-1.18.2-leisure_time.jar",
+                "fileDate": "2022-11-26T16:23:23.077Z",
+                "fileLength": 37705257,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4102/85/spectrum-1.6.0-1.18.2-leisure_time.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4117/889/spectrum-1.6.3-1.18.2-leisure_time.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 341284,
+                        "addonId": 656526,
                         "type": 3
                     },
                     {
@@ -4472,7 +4472,7 @@
                         "type": 3
                     },
                     {
-                        "addonId": 656526,
+                        "addonId": 341284,
                         "type": 3
                     },
                     {
@@ -4488,7 +4488,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 1856789589,
+                        "fingerprint": 666323961,
                         "invalidFingerprint": false
                     },
                     {
@@ -4513,12 +4513,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2223067567,
+                        "fingerprint": 2214808694,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 3959976103,
+                        "fingerprint": 1185246616,
                         "invalidFingerprint": false
                     },
                     {
@@ -4528,7 +4528,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 2207265781,
+                        "fingerprint": 3965469154,
                         "invalidFingerprint": false
                     },
                     {
@@ -4538,11 +4538,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 1494539373,
+                        "fingerprint": 1593191438,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1451801125,
+                "packageFingerprint": 4273099585,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -4564,13 +4564,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 556967,
-                "FileNameOnDisk": "spectrum-1.6.0-1.18.2-leisure_time.jar",
-                "Hashes": []
+                "FileNameOnDisk": "spectrum-1.6.3-1.18.2-leisure_time.jar",
+                "Hashes": [
+                    {
+                        "Value": "fd57ccd46d0245c65f5bec503f9ebad316c32e95"
+                    },
+                    {
+                        "Value": "8655d92262ef82f3a1884012b00096d5"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:57:55.5526846Z",
-            "dateUpdated": "2022-11-27T15:57:55.5526846Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:08:42.3242509Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:08:42.3242509Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
