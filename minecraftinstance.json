@@ -22566,13 +22566,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/382/772/256/256/637567340680031053.png",
             "tags": [],
             "installedFile": {
-                "id": 4104105,
-                "fileName": "farmers-delight-fabric-1.18.2-1.2.4.jar",
-                "fileDate": "2022-11-22T10:21:44.76Z",
-                "fileLength": 2688456,
+                "id": 4111479,
+                "fileName": "farmers-delight-fabric-1.18.2-1.2.5.jar",
+                "fileDate": "2022-11-25T15:32:14.417Z",
+                "fileLength": 2696596,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4104/105/farmers-delight-fabric-1.18.2-1.2.4.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4111/479/farmers-delight-fabric-1.18.2-1.2.5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -22595,36 +22595,36 @@
                     },
                     {
                         "foldername": "farmersdelight.mixins.json",
-                        "fingerprint": 334235330,
+                        "fingerprint": 1961556476,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 170477198,
+                        "fingerprint": 402756560,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 2652045542,
+                        "fingerprint": 3036200964,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1655776442,
+                        "fingerprint": 1661728608,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "farmers-delight-fabric-refmap.json",
-                        "fingerprint": 243519105,
+                        "fingerprint": 478442007,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 309921723,
+                        "fingerprint": 1523315791,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1194921037,
+                "packageFingerprint": 3326710117,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -22646,20 +22646,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 482834,
-                "FileNameOnDisk": "farmers-delight-fabric-1.18.2-1.2.4.jar",
+                "FileNameOnDisk": "farmers-delight-fabric-1.18.2-1.2.5.jar",
                 "Hashes": [
                     {
-                        "Value": "ca464eb5fcfcbe0ac67d9f760660b7bc99cfa75f"
+                        "Value": "5d61dcbe0cd8840e5a1aa522cc34365d29b00ee6"
                     },
                     {
-                        "Value": "bbeda7f6ed95700386049eed36dcea51"
+                        "Value": "6c5ed2531cb94a4adc385d69b2447b4b"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2800187Z",
-            "dateUpdated": "2022-11-27T15:59:38.2800187Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:04:58.1242588Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:04:58.1242588Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
