@@ -24802,13 +24802,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/588/418/256/256/637958435315527412.png",
             "tags": [],
             "installedFile": {
-                "id": 4091358,
-                "fileName": "player-animation-lib-fabric-0.4.0-test4+1.18.jar",
-                "fileDate": "2022-11-16T20:37:03.44Z",
-                "fileLength": 155749,
-                "releaseType": 2,
+                "id": 4111519,
+                "fileName": "player-animation-lib-fabric-0.4.0+1.18.jar",
+                "fileDate": "2022-11-25T16:09:45.157Z",
+                "fileLength": 162011,
+                "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4091/358/player-animation-lib-fabric-0.4.0-test4+1.18.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4111/519/player-animation-lib-fabric-0.4.0+1.18.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -24825,37 +24825,37 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "playerAnimator-common.mixins.json",
-                        "fingerprint": 230991321,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "playerAnimator.accesswidener",
                         "fingerprint": 2700216132,
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "playerAnimator-common.mixins.json",
+                        "fingerprint": 230991321,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "player-animation-lib-minecraft_common-refmap.json",
-                        "fingerprint": 4048523666,
+                        "fingerprint": 3985338827,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3024182920,
+                        "fingerprint": 3927712876,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 2834533224,
+                        "fingerprint": 25516120,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_playerAnimator_common_c930db49bfe648398aa6e29b5b7b55db_1c6e342d3c6fa6a4865b10efea4409f25d77e956afdff12014944c4df97c0064playeranimationlib040test4118devjar",
-                        "fingerprint": 3091628643,
+                        "foldername": "architectury_inject_playerAnimator_common_680442218cb84405a06cac4f7aa58ade_398a23b578936035e55bc4d44ec0834a4345722aab36cbcea24ce2af341d4177playeranimationlib040118devjar",
+                        "fingerprint": 1734952670,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 538143541,
+                "packageFingerprint": 2095351926,
                 "gameVersion": [
                     "1.18.1",
                     "Fabric",
@@ -24895,13 +24895,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 658587,
-                "FileNameOnDisk": "player-animation-lib-fabric-0.4.0-test4+1.18.jar",
-                "Hashes": []
+                "FileNameOnDisk": "player-animation-lib-fabric-0.4.0+1.18.jar",
+                "Hashes": [
+                    {
+                        "Value": "b4d0bb744082fbe6fd5712ea446025936aaed908"
+                    },
+                    {
+                        "Value": "c8c73886b8d32a217fc768c738f3187d"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:57:55.5927191Z",
-            "dateUpdated": "2022-11-27T15:57:55.5927191Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:06:44.4332635Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:06:44.4332635Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
