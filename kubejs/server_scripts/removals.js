@@ -233,6 +233,15 @@ onEvent('recipes', (event) => {
     ];
 
     recipeRemove.forEach((id) => {
-        event.remove({ 'id': id });
+        event.remove({'id': id});
+    });
+
+	const recipeTypeRemove = [
+		"createsifter:sifting",
+		"fabricaeexnihilo:sieve"
+	]
+
+	recipeTypeRemove.forEach((id) => {
+        event.remove({'type': id});
     });
 });
