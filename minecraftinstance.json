@@ -44333,15 +44333,15 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/441/792/256/256/637692515602481816.png",
             "tags": [],
             "installedFile": {
-                "id": 4083429,
-                "fileName": "loadmyresources_fabric_1.0.3_MC_1.18-1.18.2.jar",
-                "fileDate": "2022-11-13T01:29:08.893Z",
-                "fileLength": 61334,
+                "id": 4118344,
+                "fileName": "loadmyresources_fabric_1.0.4_MC_1.18-1.18.2.jar",
+                "fileDate": "2022-11-26T21:53:57.55Z",
+                "fileLength": 61296,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4083/429/loadmyresources_fabric_1.0.3_MC_1.18-1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4118/344/loadmyresources_fabric_1.0.4_MC_1.18-1.18.2.jar",
                 "isAlternate": false,
-                "alternateFileId": 0,
+                "alternateFileId": 4118345,
                 "dependencies": [
                     {
                         "addonId": 306612,
@@ -44362,7 +44362,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1218178540,
+                        "fingerprint": 2095270301,
                         "invalidFingerprint": false
                     },
                     {
@@ -44377,11 +44377,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 3963994586,
+                        "fingerprint": 462162974,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2608991124,
+                "packageFingerprint": 3947516180,
                 "gameVersion": [
                     "1.18.1",
                     "Fabric",
@@ -44415,13 +44415,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 534835,
-                "FileNameOnDisk": "loadmyresources_fabric_1.0.3_MC_1.18-1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "loadmyresources_fabric_1.0.4_MC_1.18-1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "96e85ace409daa8e128f55b3dd8ee4d0e07bd516"
+                    },
+                    {
+                        "Value": "0cb4b8e4db8df1fdd2b116a8b13c15c1"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-27T15:55:32.1826366Z",
-            "dateUpdated": "2022-11-27T15:55:32.1826366Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:05:55.7198032Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:05:55.7198032Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
