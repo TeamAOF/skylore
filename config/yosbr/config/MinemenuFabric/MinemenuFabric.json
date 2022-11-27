@@ -170,15 +170,18 @@
           }
         },
         "5": {
-          "name": "",
+          "name": "Mine With Weapons Toggle",
           "icon": {
-            "iconItem": "",
+            "iconItem": "minecraft:iron_pickaxe",
             "enchanted": false,
             "skullOwner": "",
             "customModelData": 0
           },
-          "type": "empty",
-          "data": {}
+          "type": "keyselect",
+          "data": {
+            "key": "keybinds.bettercombat.toggle_mine_with_weapons",
+            "releaseDelay": 10
+          }
         }
       }
     },
@@ -192,7 +195,7 @@
       },
       "type": "keyselect",
       "data": {
-        "key": "key.levelz.openskillscreen",
+        "key": "playerex.key.screen",
         "releaseDelay": 25001
       }
     },

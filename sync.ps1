@@ -7,15 +7,15 @@
 # $repo = "skylore" # name of the git repository.
 # $branch = "indev" # branch of the git repository. for examle main or master.
 
-$repoExists = git rev-parse --is-inside-work-tree
 $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
 # code
-if ($repoExists) {
-    git switch $branch
+if (Test-Path -Path .git) {
     git reset --hard
     git pull
+    git switch $branch
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 else {
     git clone $url modpack
@@ -26,7 +26,9 @@ else {
     git pull
     git switch $branch
     java -jar InstanceSync.jar
+    Copy-Item .\offlineMods\* .\mods
 }
 if (Test-Path -Path ./server.lock) {
+    Copy-Item .\serverMods\* .\mods
     . .\server.lock
 }

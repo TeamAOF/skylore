@@ -1,13 +1,7 @@
 onEvent('recipes', (event) => {
 
-    const id = [
-		'bitsandchisels:iron_chisel',
-		'bitsandchisels:diamond_chisel',
+    const recipeRemove = [
 		'the_extractinator:extractinator',
-		'alloy_forgery:stone_bricks_forge',
-		'alloy_forgery:bricks_forge',
-		'alloy_forgery:end_stone_bricks_forge',
-		'alloy_forgery:deepslate_bricks_forge',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
 		'squirtingsyringe:firesyringe',
@@ -17,8 +11,6 @@ onEvent('recipes', (event) => {
 		'squirtingsyringe:miningsyringe',
 		'squirtingsyringe:mushroomsyringe',
 		'squirtingsyringe:syringe',
-		'valley:small_mug_block',
-		'valley:mug_block',
 		'croptopia:mortar_and_pestle',
 		'croptopia:frying_pan',
 		'croptopia:food_press',
@@ -213,11 +205,56 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_axe',
 		'minecraft:wooden_sword',
 		'minecraft:wooden_shovel',
-		'minecraft:wooden_hoe'
-
+		'minecraft:wooden_hoe',
+		"create:crushing/tuff_recycling",
+		"kibe:white_sleeping_bag",
+		"kibe:orange_sleeping_bag",
+		"kibe:magenta_sleeping_bag",
+		"kibe:light_blue_sleeping_bag",
+		"kibe:yellow_sleeping_bag",
+		"kibe:lime_sleeping_bag",
+		"kibe:pink_sleeping_bag",
+		"kibe:gray_sleeping_bag",
+		"kibe:light_gray_sleeping_bag",
+		"kibe:cyan_sleeping_bag",
+		"kibe:sleeping_bag",
+		"kibe:purple_sleeping_bag",
+		"kibe:green_sleeping_bag",
+		"kibe:brown_sleeping_bag",
+		"kibe:red_sleeping_bag",
+		"kibe:black_sleeping_bag",
+		"createsifter:sifting/gravel_brass_mesh",
+		"createsifter:sifting/gravel_andesite_mesh",
+		"createsifter:sifting/gravel_zinc_mesh",
+		"createsifter:sifting/sand_string_mesh",
+		"createsifter:sifting/sand_zinc_mesh",
+		"createsifter:sifting/sand_andesite_mesh",
+		"createsifter:sifting/sand_brass_mesh",
+		"fabricaeexnihilo:crimson_sieve",
+		"fabricaeexnihilo:dark_oak_sieve",
+		"fabricaeexnihilo:oak_sieve",
+		"fabricaeexnihilo:birch_sieve",
+		"fabricaeexnihilo:warped_sieve",
+		"fabricaeexnihilo:spruce_sieve",
+		"fabricaeexnihilo:jungle_sieve",
+		"fabricaeexnihilo:acacia_sieve",
+		"fabricaeexnihilo:end_cake",
+		"fabricaeexnihilo:doll",
+		"fabricaeexnihilo:doll_blaze",
+		"fabricaeexnihilo:doll_enderman",
+		"fabricaeexnihilo:doll_guardian",
+		"fabricaeexnihilo:doll_shulker"
     ];
 
-    id.forEach((id) => {
-        event.remove({ id: id });
+    recipeRemove.forEach((id) => {
+        event.remove({'id': id});
+    });
+
+	const recipeTypeRemove = [
+		"fabricaeexnihilo:sieve"
+	]
+
+	recipeTypeRemove.forEach((id) => {
+        event.remove({'type': id});
     });
 });

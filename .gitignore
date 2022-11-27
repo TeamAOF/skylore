@@ -3,11 +3,15 @@
 !/automation/
 !/config/
 !/kubejs/
+!/offlineMods/
 !/resources/
+!/serverMods/
 !/setup/
+!/mods/
 !/.gitattributes
 !/InstanceSync.jar
 !/minecraftinstance.json
 !/README.md
 !/sync.ps1
 !/sync.sh
+config/yosbr/config/.curseclient

@@ -17,6 +17,7 @@ then
   git pull
   git switch "$branch"
   java -jar InstanceSync.jar
+  cp -a offlineMods/. mods
 else
   git clone "$url" modpack
   cp -a modpack/. .
@@ -25,8 +26,10 @@ else
   git pull
   git checkout "$branch"
   java -jar InstanceSync.jar
+  cp -a offlineMods/. mods
 fi
 if [ -f "server.lock" ]
 then
-bash server.lock
+  cp -a serverMods/. mods
+  bash server.lock
 fi
