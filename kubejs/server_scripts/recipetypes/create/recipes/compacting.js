@@ -43,4 +43,70 @@ onEvent('recipes', (event) => {
     }
   )
 
+  event.custom(
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:blaze_rod"
+        }
+      ]
+    }
+  )
+
+  event.custom(
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "botania:blaze_mesh"
+        }
+      ],
+      "results": [
+        {
+          "item": "tconstruct:blaze_head"
+        }
+      ]
+    }
+  )
+
+  event.custom(
+    {
+      "type": "create:compacting",
+      "ingredients": [
+        {
+          "item": "tconstruct:blaze_head"
+        },
+        {
+          "item": "create:empty_blaze_burner"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:blaze_burner"
+        }
+      ]
+    }
+  )
+
 })
