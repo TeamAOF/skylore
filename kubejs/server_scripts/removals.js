@@ -218,7 +218,7 @@ onEvent('recipes', (event) => {
 		"createsifter:sifting"
 	]
 
-	recipeRemove.forEach((id) => {
+	removeActionUses.forEach((id) => {
         event.remove({ 'type': id });
     });
 
