@@ -47,7 +47,21 @@ onEvent('rei.hide.items', event => {
 		"kibe:green_sleeping_bag",
 		"kibe:brown_sleeping_bag",
 		"kibe:red_sleeping_bag",
-		"kibe:black_sleeping_bag"
+		"kibe:black_sleeping_bag",
+		"fabricaeexnihilo:crimson_sieve",
+		"fabricaeexnihilo:dark_oak_sieve",
+		"fabricaeexnihilo:oak_sieve",
+		"fabricaeexnihilo:birch_sieve",
+		"fabricaeexnihilo:warped_sieve",
+		"fabricaeexnihilo:spruce_sieve",
+		"fabricaeexnihilo:jungle_sieve",
+		"fabricaeexnihilo:acacia_sieve",
+		"fabricaeexnihilo:end_cake",
+		"fabricaeexnihilo:doll",
+		"fabricaeexnihilo:doll_blaze",
+		"fabricaeexnihilo:doll_enderman",
+		"fabricaeexnihilo:doll_guardian",
+		"fabricaeexnihilo:doll_shulker"
 	]
 
 	itemRemove.forEach((id) => {

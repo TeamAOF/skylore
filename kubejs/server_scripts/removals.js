@@ -229,7 +229,21 @@ onEvent('recipes', (event) => {
 		"createsifter:sifting/sand_string_mesh",
 		"createsifter:sifting/sand_zinc_mesh",
 		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh"
+		"createsifter:sifting/sand_brass_mesh",
+		"fabricaeexnihilo:crimson_sieve",
+		"fabricaeexnihilo:dark_oak_sieve",
+		"fabricaeexnihilo:oak_sieve",
+		"fabricaeexnihilo:birch_sieve",
+		"fabricaeexnihilo:warped_sieve",
+		"fabricaeexnihilo:spruce_sieve",
+		"fabricaeexnihilo:jungle_sieve",
+		"fabricaeexnihilo:acacia_sieve",
+		"fabricaeexnihilo:end_cake",
+		"fabricaeexnihilo:doll",
+		"fabricaeexnihilo:doll_blaze",
+		"fabricaeexnihilo:doll_enderman",
+		"fabricaeexnihilo:doll_guardian",
+		"fabricaeexnihilo:doll_shulker"
     ];
 
     recipeRemove.forEach((id) => {
