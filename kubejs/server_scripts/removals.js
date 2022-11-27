@@ -251,7 +251,6 @@ onEvent('recipes', (event) => {
     });
 
 	const recipeTypeRemove = [
-		"createsifter:sifting",
 		"fabricaeexnihilo:sieve"
 	]
 
