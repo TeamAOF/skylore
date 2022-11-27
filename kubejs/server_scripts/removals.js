@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
 
-    const recipeRemove = [
+    const itemRecipeRemove = [
 		'the_extractinator:extractinator',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
@@ -223,13 +223,6 @@ onEvent('recipes', (event) => {
 		"kibe:brown_sleeping_bag",
 		"kibe:red_sleeping_bag",
 		"kibe:black_sleeping_bag",
-		"createsifter:sifting/gravel_brass_mesh",
-		"createsifter:sifting/gravel_andesite_mesh",
-		"createsifter:sifting/gravel_zinc_mesh",
-		"createsifter:sifting/sand_string_mesh",
-		"createsifter:sifting/sand_zinc_mesh",
-		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh",
 		"fabricaeexnihilo:crimson_sieve",
 		"fabricaeexnihilo:dark_oak_sieve",
 		"fabricaeexnihilo:oak_sieve",
@@ -245,6 +238,20 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_guardian",
 		"fabricaeexnihilo:doll_shulker"
     ];
+
+    itemRecipeRemove.forEach((id) => {
+        event.remove({'output': id});
+    });
+
+	const recipeRemove = [
+		"createsifter:sifting/gravel_brass_mesh",
+		"createsifter:sifting/gravel_andesite_mesh",
+		"createsifter:sifting/gravel_zinc_mesh",
+		"createsifter:sifting/sand_string_mesh",
+		"createsifter:sifting/sand_zinc_mesh",
+		"createsifter:sifting/sand_andesite_mesh",
+		"createsifter:sifting/sand_brass_mesh"
+	]
 
     recipeRemove.forEach((id) => {
         event.remove({'id': id});
