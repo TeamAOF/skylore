@@ -50418,13 +50418,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/310/907/256/256/637400461987094587.png",
             "tags": [],
             "installedFile": {
-                "id": 4040892,
-                "fileName": "villagernames-1.18.2-4.0.9.jar",
-                "fileDate": "2022-10-22T16:33:02.333Z",
-                "fileLength": 1466858,
+                "id": 4110585,
+                "fileName": "villagernames-1.18.2-4.0.10.jar",
+                "fileDate": "2022-11-24T20:50:36.993Z",
+                "fileLength": 1466966,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4040/892/villagernames-1.18.2-4.0.9.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4110/585/villagernames-1.18.2-4.0.10.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -50449,7 +50449,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 1874891386,
+                        "fingerprint": 1346544924,
                         "invalidFingerprint": false
                     },
                     {
@@ -50459,17 +50459,17 @@
                     },
                     {
                         "foldername": "villagernames.mixins.json",
-                        "fingerprint": 3115937038,
+                        "fingerprint": 1857944470,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2367181695,
+                        "fingerprint": 1848164993,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 345600243,
+                        "fingerprint": 2192421057,
                         "invalidFingerprint": false
                     },
                     {
@@ -50479,11 +50479,11 @@
                     },
                     {
                         "foldername": "io",
-                        "fingerprint": 1797168358,
+                        "fingerprint": 831370541,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2043873902,
+                "packageFingerprint": 2693817690,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -50505,20 +50505,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 416379,
-                "FileNameOnDisk": "villagernames-1.18.2-4.0.9.jar",
+                "FileNameOnDisk": "villagernames-1.18.2-4.0.10.jar",
                 "Hashes": [
                     {
-                        "Value": "7efd716c495c70086c8393e555ec1580b6b98577"
+                        "Value": "75daf3d647d740067abb96058cc5ed0136f09832"
                     },
                     {
-                        "Value": "5f583586c1fdeb90f9a527edf448bd3a"
+                        "Value": "e6dfb656af1b2b59c368030685915edc"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2775166Z",
-            "dateUpdated": "2022-11-27T15:59:38.2775166Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:09:40.324133Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:09:40.324133Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
