@@ -8079,26 +8079,26 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/218/214/256/256/637010579670184115.png",
             "tags": [],
             "installedFile": {
-                "id": 4082305,
-                "fileName": "kubejs-fabric-1802.5.5-build.556.jar",
-                "fileDate": "2022-11-12T12:16:01.48Z",
-                "fileLength": 1014585,
+                "id": 4118106,
+                "fileName": "kubejs-fabric-1802.5.5-build.562.jar",
+                "fileDate": "2022-11-26T19:30:11.007Z",
+                "fileLength": 1014946,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4082/305/kubejs-fabric-1802.5.5-build.556.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4118/106/kubejs-fabric-1802.5.5-build.562.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
                     {
                         "addonId": 419699,
                         "type": 3
                     },
                     {
                         "addonId": 416294,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
                         "type": 3
                     }
                 ],
@@ -8110,23 +8110,23 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury.common.json",
-                        "fingerprint": 571347222,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "assets",
                         "fingerprint": 2083650698,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "kubejs_logo.png",
-                        "fingerprint": 658118443,
+                        "foldername": "kubejs-common.mixins.json",
+                        "fingerprint": 3081622670,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "kubejs-common.mixins.json",
-                        "fingerprint": 3081622670,
+                        "foldername": "architectury.common.json",
+                        "fingerprint": 571347222,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs_logo.png",
+                        "fingerprint": 658118443,
                         "invalidFingerprint": false
                     },
                     {
@@ -8136,22 +8136,22 @@
                     },
                     {
                         "foldername": "kubejs-common-refmap.json",
-                        "fingerprint": 3376511044,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3943709145,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs.plugins.txt",
-                        "fingerprint": 1891469756,
+                        "fingerprint": 1857897916,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "kubejs.accesswidener",
                         "fingerprint": 1022643229,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1654605719,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.plugins.txt",
+                        "fingerprint": 1891469756,
                         "invalidFingerprint": false
                     },
                     {
@@ -8166,16 +8166,16 @@
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 2041669728,
+                        "fingerprint": 1629075781,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_KubeJS118_common_e66581e8e266460c97ed1fa6468675c4_fba6df3b6aa6492229fc82d3e42d6d1475d80b2a818593bf29690ea34a683fafkubejs180255build556devjar",
-                        "fingerprint": 426805444,
+                        "foldername": "architectury_inject_KubeJS118_common_bb21a14f44a044b084dbbff267afa25e_83c6afa5bebe5fee7e6714c9f0f59d0416bb636974fd280b8cfac3b6f079d894kubejs180255build562devjar",
+                        "fingerprint": 1405000544,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2237273271,
+                "packageFingerprint": 667099106,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -8203,20 +8203,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 238086,
-                "FileNameOnDisk": "kubejs-fabric-1802.5.5-build.556.jar",
+                "FileNameOnDisk": "kubejs-fabric-1802.5.5-build.562.jar",
                 "Hashes": [
                     {
-                        "Value": "7f149e561d48a22ada042cff9a78ea22af90335b"
+                        "Value": "d30bb66217fcd1fc81a6cdf84e7f7558b8f259ad"
                     },
                     {
-                        "Value": "9f25c7a48f6589be4aa9e4f98283deb6"
+                        "Value": "f8b880775c92528d423f647d78d3fae1"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2805191Z",
-            "dateUpdated": "2022-11-27T15:59:38.2805191Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:05:24.2153045Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:05:24.2153045Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
