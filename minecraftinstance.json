@@ -44988,30 +44988,30 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/418/40/256/256/637642921149456507.png",
             "tags": [],
             "installedFile": {
-                "id": 3818277,
-                "fileName": "The_Graveyard_1.9_(FABRIC)_for_1.18.2.jar",
-                "fileDate": "2022-06-05T12:25:42.79Z",
-                "fileLength": 2048380,
+                "id": 4110391,
+                "fileName": "The_Graveyard_1.9.1_(FABRIC)_for_1.18.2.jar",
+                "fileDate": "2022-11-24T18:16:46.643Z",
+                "fileLength": 2260274,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3818/277/The_Graveyard_1.9_(FABRIC)_for_1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4110/391/The_Graveyard_1.9.1_(FABRIC)_for_1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 306612,
-                        "type": 1
-                    },
-                    {
                         "addonId": 388172,
                         "type": 3
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 1
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2625718918,
+                        "fingerprint": 3532024499,
                         "invalidFingerprint": false
                     },
                     {
@@ -45026,17 +45026,17 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2372260878,
+                        "fingerprint": 1493614426,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 2532834803,
+                        "fingerprint": 1743095492,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 729971573,
+                        "fingerprint": 743532453,
                         "invalidFingerprint": false
                     },
                     {
@@ -45046,11 +45046,11 @@
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 1989307280,
+                        "fingerprint": 3092313244,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2352080878,
+                "packageFingerprint": 2690106365,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -45072,20 +45072,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 514468,
-                "FileNameOnDisk": "The_Graveyard_1.9_(FABRIC)_for_1.18.2.jar",
+                "FileNameOnDisk": "The_Graveyard_1.9.1_(FABRIC)_for_1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "0899830206c2507e1c9577c05ec1c405cc33089a"
+                        "Value": "43c75b635b30f1951bdbf4b0cd27968c48e02292"
                     },
                     {
-                        "Value": "b7b4ebe6e61c5a93af6da32c84e8f35e"
+                        "Value": "38650500924efa25e2b9948398d8371a"
                     }
                 ]
             },
             "dateInstalled": "2022-11-27T15:59:38.2730119Z",
-            "dateUpdated": "2022-11-27T15:59:38.2730119Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-11-27T16:09:15.9232879Z",
+            "dateLastUpdateAttempted": "2022-11-27T16:09:15.9232879Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
