@@ -1,13 +1,7 @@
 onEvent('recipes', (event) => {
 
-    const id = [
-		'bitsandchisels:iron_chisel',
-		'bitsandchisels:diamond_chisel',
+    const recipeRemove = [
 		'the_extractinator:extractinator',
-		'alloy_forgery:stone_bricks_forge',
-		'alloy_forgery:bricks_forge',
-		'alloy_forgery:end_stone_bricks_forge',
-		'alloy_forgery:deepslate_bricks_forge',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
 		'squirtingsyringe:firesyringe',
@@ -17,8 +11,6 @@ onEvent('recipes', (event) => {
 		'squirtingsyringe:miningsyringe',
 		'squirtingsyringe:mushroomsyringe',
 		'squirtingsyringe:syringe',
-		'valley:small_mug_block',
-		'valley:mug_block',
 		'croptopia:mortar_and_pestle',
 		'croptopia:frying_pan',
 		'croptopia:food_press',
@@ -214,16 +206,20 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_sword',
 		'minecraft:wooden_shovel',
 		'minecraft:wooden_hoe',
-		"createsifter:sifting/gravel_brass_mesh",
-		"createsifter:sifting/gravel_zinc_mesh",
-		"createsifter:sifting/gravel_andesite_mesh",
-		"createsifter:sifting/sand_zinc_mesh",
-		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh",
-		"create:crushing/tuff_recycling"
+		"create:crushing/tuff_recycling",
+		"#kibe:sleeping_bags"
     ];
 
-    id.forEach((id) => {
-        event.remove({ id: id });
+    recipeRemove.forEach((id) => {
+        event.remove({ 'id': id });
     });
+
+	const removeActionUses = [
+		"createsifter:sifting"
+	]
+
+	recipeRemove.forEach((id) => {
+        event.remove({ 'type': id });
+    });
+
 });
