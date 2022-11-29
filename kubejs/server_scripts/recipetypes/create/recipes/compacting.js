@@ -2,7 +2,8 @@ onEvent('recipes', (event) => {
 
   const gems = [
     "diamond",
-    "emerald"
+    "emerald",
+    "coal"
   ]
   gems.forEach((item) => {
     event.custom(
