@@ -240,7 +240,7 @@ onEvent('recipes', (event) => {
     ];
 
     itemRecipeRemove.forEach((id) => {
-        event.remove({'id': id});
+        event.remove({'output': id});
     });
 
 	const recipeRemove = [
