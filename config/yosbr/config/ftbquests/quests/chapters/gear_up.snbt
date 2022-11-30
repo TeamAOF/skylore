@@ -609,30 +609,6 @@
 				advancement: "minecraft:adventure/whos_the_pillager_now"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "7C79BAFDD5DEDF0D"
-					type: "item"
-					item: {
-						id: "gateofbabylon:iron_broadsword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0F2A2ED9DB18F826"
-					type: "item"
-					item: {
-						id: "gateofbabylon:diamond_dagger"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			icon: {

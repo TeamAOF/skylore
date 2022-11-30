@@ -80,34 +80,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
-			dependencies: ["1AA15C69F025C0A9"]
-			id: "161244BD84866775"
-			tasks: [{
-				id: "5D0EAFBE75A02D20"
-				type: "questsadditions:killnbt"
-				icon: {
-					id: "gateofbabylon:golden_boomerang"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "minecraft:spider"
-				value: 10L
-				nbt: { }
-				checkItem: true
-				item: {
-					id: "gateofbabylon:golden_boomerang"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			icon: "minecraft:stick"
 			x: 4.0d
 			y: -2.5d

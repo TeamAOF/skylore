@@ -1,7 +1,7 @@
 {
 	id: "790B9CDEE00E7108"
-	group: "4E03E5FEAE87C266"
-	order_index: 2
+	group: ""
+	order_index: 4
 	filename: "navigator"
 	title: "Navigation"
 	icon: "kubejs:navigator"
