@@ -20084,11 +20084,210 @@
             }
         },
         {
+            "instanceID": "54954d10-02c8-409b-8308-d479b4bbb9eb",
+            "modSource": 0,
+            "addonID": 623560,
+            "gameID": 432,
+            "gameInstanceID": "b0c3b495-ce9e-4e6c-bd5c-175d4f90f711",
+            "name": "Log Begone",
+            "authors": [
+                {
+                    "Name": "AzureDoomC"
+                }
+            ],
+            "primaryAuthor": "AzureDoomC",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/log-begone",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/557/92/256/256/637903174661344067.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4014374,
+                "fileName": "Log-Begone-1.18-1.0.2.jar",
+                "fileDate": "2022-10-01T19:27:33.693Z",
+                "fileLength": 126971,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4014/374/Log-Begone-1.18-1.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3870507034,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2625698565,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1446650792,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mod",
+                        "fingerprint": 2815236876,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3438979178,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 623560,
+                "FileNameOnDisk": "Log-Begone-1.18-1.0.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "94024682d7a607e9cad3c25034f2120c41c723eb"
+                    },
+                    {
+                        "Value": "0d430900b1053fc7ca082b2c6d214a71"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-11-30T21:16:08.4175761Z",
+            "dateUpdated": "2022-11-30T21:16:08.4230809Z",
+            "dateLastUpdateAttempted": "2022-11-30T21:16:08.4230809Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4014374,
+                "fileName": "Log-Begone-1.18-1.0.2.jar",
+                "fileDate": "2022-10-01T19:27:33.693Z",
+                "fileLength": 126971,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4014/374/Log-Begone-1.18-1.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3870507034,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2625698565,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1446650792,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mod",
+                        "fingerprint": 2815236876,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3438979178,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 623560,
+                "FileNameOnDisk": "Log-Begone-1.18-1.0.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "94024682d7a607e9cad3c25034f2120c41c723eb"
+                    },
+                    {
+                        "Value": "0d430900b1053fc7ca082b2c6d214a71"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "36cb7fe1-bb7c-4eb9-83b2-b46a6bed7f5b",
             "modSource": 0,
             "addonID": 242195,
             "gameID": 432,
-            "gameInstanceID": "2722c47d-afc9-40a4-a0da-036fd37e227c",
+            "gameInstanceID": "b0c3b495-ce9e-4e6c-bd5c-175d4f90f711",
             "name": "Dark Utilities",
             "authors": [
                 {
