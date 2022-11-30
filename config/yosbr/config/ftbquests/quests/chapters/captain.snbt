@@ -133,26 +133,5 @@
 				criterion: ""
 			}]
 		}
-		{
-			x: 2.5d
-			y: 0.5d
-			description: [
-				"Unreliable and goofy. Reminds you of your old military re-enactment days."
-				""
-				"To fire, get a stack of flint in your offhand."
-			]
-			id: "5B4C4AF3ABB174F2"
-			tasks: [{
-				id: "51410317F37A6099"
-				type: "item"
-				item: {
-					id: "nyfseoka:eoka"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
 	]
 }
