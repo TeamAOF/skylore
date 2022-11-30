@@ -1,7 +1,7 @@
 {
   "structures": [
     {
-      "structure": "spectrum:ancient_ruins",
+      "structure": "spectrum:pedestal_ruins_stone",
       "weight": 1
     }
   ],
@@ -9,6 +9,6 @@
     "type": "minecraft:random_spread",
     "spacing": 256,
     "separation": 64,
-    "salt": 1646207470
+    "salt": 346565477
   }
 }
