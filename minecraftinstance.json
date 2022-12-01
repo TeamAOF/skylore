@@ -4585,14 +4585,7 @@
                 "projectStatus": 4,
                 "projectId": 567114,
                 "FileNameOnDisk": "extractinator-fabric-1.18.2-2.0.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "f6c3b04d516e118682bbfe2771a33cfa6cec1759"
-                    },
-                    {
-                        "Value": "61aee5c46cfee731109f067966b87205"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-11-23T03:31:43.2027889Z",
             "dateUpdated": "2022-12-01T05:17:32.429222Z",
@@ -4693,14 +4686,7 @@
                 "projectStatus": 4,
                 "projectId": 567114,
                 "FileNameOnDisk": "extractinator-fabric-1.18.2-2.0.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "f6c3b04d516e118682bbfe2771a33cfa6cec1759"
-                    },
-                    {
-                        "Value": "61aee5c46cfee731109f067966b87205"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -7744,26 +7730,26 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/25/256/256/637287701215436754.png",
             "tags": [],
             "installedFile": {
-                "id": 4119143,
-                "fileName": "RoughlyEnoughItems-8.3.573.jar",
-                "fileDate": "2022-11-27T10:26:46.97Z",
-                "fileLength": 2158895,
+                "id": 4126354,
+                "fileName": "RoughlyEnoughItems-8.3.576.jar",
+                "fileDate": "2022-12-01T16:17:14.833Z",
+                "fileLength": 2159028,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4119/143/RoughlyEnoughItems-8.3.573.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/354/RoughlyEnoughItems-8.3.576.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 348521,
-                        "type": 3
-                    },
                     {
                         "addonId": 306612,
                         "type": 3
                     },
                     {
                         "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -7775,8 +7761,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "roughlyenoughitems.changes.json",
-                        "fingerprint": 1035620197,
+                        "foldername": "assets",
+                        "fingerprint": 2377290237,
                         "invalidFingerprint": false
                     },
                     {
@@ -7785,8 +7771,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2377290237,
+                        "foldername": "roughlyenoughitems.changes.json",
+                        "fingerprint": 1035620197,
                         "invalidFingerprint": false
                     },
                     {
@@ -7795,13 +7781,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3893217288,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "roughlyenoughitems.accessWidener",
-                        "fingerprint": 2880939789,
+                        "foldername": "rei.mixins.json",
+                        "fingerprint": 520480138,
                         "invalidFingerprint": false
                     },
                     {
@@ -7810,27 +7791,32 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1013390044,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughitems.accessWidener",
+                        "fingerprint": 2880939789,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "error_notifier.json",
                         "fingerprint": 3329308942,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "rei.mixins.json",
-                        "fingerprint": 520480138,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "RoughlyEnoughItems-fabric-refmap.json",
-                        "fingerprint": 1340413695,
+                        "fingerprint": 2762576053,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 931650973,
+                        "fingerprint": 3263789688,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 395270808,
+                "packageFingerprint": 2812758569,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -7858,12 +7844,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 310111,
-                "FileNameOnDisk": "RoughlyEnoughItems-8.3.573.jar",
-                "Hashes": []
+                "FileNameOnDisk": "RoughlyEnoughItems-8.3.576.jar",
+                "Hashes": [
+                    {
+                        "Value": "bdb960821af91fee54d5e2abf8d9e2294340385c"
+                    },
+                    {
+                        "Value": "9a44dadb81947dcc3bea9834e2ce5c97"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-23T03:31:36.3062693Z",
-            "dateUpdated": "2022-12-01T05:01:13.3167225Z",
-            "dateLastUpdateAttempted": "2022-12-01T05:01:13.3167225Z",
+            "dateUpdated": "2022-12-01T18:04:39.0539649Z",
+            "dateLastUpdateAttempted": "2022-12-01T18:04:39.0539649Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -7876,26 +7869,26 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4119143,
-                "fileName": "RoughlyEnoughItems-8.3.573.jar",
-                "fileDate": "2022-11-27T10:26:46.97Z",
-                "fileLength": 2158895,
+                "id": 4126354,
+                "fileName": "RoughlyEnoughItems-8.3.576.jar",
+                "fileDate": "2022-12-01T16:17:14.833Z",
+                "fileLength": 2159028,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4119/143/RoughlyEnoughItems-8.3.573.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/354/RoughlyEnoughItems-8.3.576.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 348521,
-                        "type": 3
-                    },
                     {
                         "addonId": 306612,
                         "type": 3
                     },
                     {
                         "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -7907,8 +7900,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "roughlyenoughitems.changes.json",
-                        "fingerprint": 1035620197,
+                        "foldername": "assets",
+                        "fingerprint": 2377290237,
                         "invalidFingerprint": false
                     },
                     {
@@ -7917,8 +7910,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2377290237,
+                        "foldername": "roughlyenoughitems.changes.json",
+                        "fingerprint": 1035620197,
                         "invalidFingerprint": false
                     },
                     {
@@ -7927,13 +7920,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3893217288,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "roughlyenoughitems.accessWidener",
-                        "fingerprint": 2880939789,
+                        "foldername": "rei.mixins.json",
+                        "fingerprint": 520480138,
                         "invalidFingerprint": false
                     },
                     {
@@ -7942,27 +7930,32 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1013390044,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughitems.accessWidener",
+                        "fingerprint": 2880939789,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "error_notifier.json",
                         "fingerprint": 3329308942,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "rei.mixins.json",
-                        "fingerprint": 520480138,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "RoughlyEnoughItems-fabric-refmap.json",
-                        "fingerprint": 1340413695,
+                        "fingerprint": 2762576053,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 931650973,
+                        "fingerprint": 3263789688,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 395270808,
+                "packageFingerprint": 2812758569,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -7990,8 +7983,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 310111,
-                "FileNameOnDisk": "RoughlyEnoughItems-8.3.573.jar",
-                "Hashes": []
+                "FileNameOnDisk": "RoughlyEnoughItems-8.3.576.jar",
+                "Hashes": [
+                    {
+                        "Value": "bdb960821af91fee54d5e2abf8d9e2294340385c"
+                    },
+                    {
+                        "Value": "9a44dadb81947dcc3bea9834e2ce5c97"
+                    }
+                ]
             }
         },
         {
@@ -22772,18 +22772,18 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/610/552/256/256/637992878478315173.png",
             "tags": [],
             "installedFile": {
-                "id": 4120206,
-                "fileName": "combatroll-fabric-1.1.0+1.18.2.jar",
-                "fileDate": "2022-11-27T22:20:19.693Z",
-                "fileLength": 168597,
+                "id": 4126029,
+                "fileName": "combatroll-fabric-1.1.1+1.18.2.jar",
+                "fileDate": "2022-12-01T11:07:51.2Z",
+                "fileLength": 169471,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4120/206/combatroll-fabric-1.1.0+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/29/combatroll-fabric-1.1.1+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 348521,
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -22791,7 +22791,7 @@
                         "type": 3
                     },
                     {
-                        "addonId": 306612,
+                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -22809,7 +22809,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1432278752,
+                        "fingerprint": 3463856436,
                         "invalidFingerprint": false
                     },
                     {
@@ -22829,21 +22829,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2070313408,
+                        "fingerprint": 1864642172,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 43346149,
+                        "fingerprint": 1701443659,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_CombatRoll_common_3b79806312a54685a1b1fac31dbb3224_52daed23e51ffd7aa6b168004aea56fbba33e1a632fbc82c232b23b474ab7230combatrollcommon1101182devjar",
-                        "fingerprint": 786333892,
+                        "foldername": "architectury_inject_CombatRoll_common_80207ae80cbb497e9ff8e791b2d6f0d7_be88a2b06da32a74df5de517b38f7c548d9c4a50770e6686243c74e1f478cb75combatrollcommon1111182devjar",
+                        "fingerprint": 2339541100,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 586664395,
+                "packageFingerprint": 978088032,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -22865,12 +22865,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 678036,
-                "FileNameOnDisk": "combatroll-fabric-1.1.0+1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "combatroll-fabric-1.1.1+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "3c810b4340b26e8f879281b9f94dadb8ec8b8af2"
+                    },
+                    {
+                        "Value": "d52a5d90f7fd1ce2affc971fe0f7d2b7"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-23T03:31:41.0502568Z",
-            "dateUpdated": "2022-12-01T05:00:58.0799121Z",
-            "dateLastUpdateAttempted": "2022-12-01T05:00:58.0799121Z",
+            "dateUpdated": "2022-12-01T18:04:34.4216578Z",
+            "dateLastUpdateAttempted": "2022-12-01T18:04:34.4216578Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -22883,18 +22890,18 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4120206,
-                "fileName": "combatroll-fabric-1.1.0+1.18.2.jar",
-                "fileDate": "2022-11-27T22:20:19.693Z",
-                "fileLength": 168597,
+                "id": 4126029,
+                "fileName": "combatroll-fabric-1.1.1+1.18.2.jar",
+                "fileDate": "2022-12-01T11:07:51.2Z",
+                "fileLength": 169471,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4120/206/combatroll-fabric-1.1.0+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/29/combatroll-fabric-1.1.1+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 348521,
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -22902,7 +22909,7 @@
                         "type": 3
                     },
                     {
-                        "addonId": 306612,
+                        "addonId": 348521,
                         "type": 3
                     }
                 ],
@@ -22920,7 +22927,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1432278752,
+                        "fingerprint": 3463856436,
                         "invalidFingerprint": false
                     },
                     {
@@ -22940,21 +22947,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2070313408,
+                        "fingerprint": 1864642172,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 43346149,
+                        "fingerprint": 1701443659,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_CombatRoll_common_3b79806312a54685a1b1fac31dbb3224_52daed23e51ffd7aa6b168004aea56fbba33e1a632fbc82c232b23b474ab7230combatrollcommon1101182devjar",
-                        "fingerprint": 786333892,
+                        "foldername": "architectury_inject_CombatRoll_common_80207ae80cbb497e9ff8e791b2d6f0d7_be88a2b06da32a74df5de517b38f7c548d9c4a50770e6686243c74e1f478cb75combatrollcommon1111182devjar",
+                        "fingerprint": 2339541100,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 586664395,
+                "packageFingerprint": 978088032,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -22976,8 +22983,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 678036,
-                "FileNameOnDisk": "combatroll-fabric-1.1.0+1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "combatroll-fabric-1.1.1+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "3c810b4340b26e8f879281b9f94dadb8ec8b8af2"
+                    },
+                    {
+                        "Value": "d52a5d90f7fd1ce2affc971fe0f7d2b7"
+                    }
+                ]
             }
         },
         {
@@ -24470,14 +24484,7 @@
                 "projectStatus": 4,
                 "projectId": 624165,
                 "FileNameOnDisk": "create-fabric-1.18.2-0.5.0e-733.jar",
-                "Hashes": [
-                    {
-                        "Value": "7081e2440c669818bf8056141398b5a2ae6394de"
-                    },
-                    {
-                        "Value": "91a0ebc4f2839eee7952ced36c7b1cca"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-01T05:17:23.0753721Z",
             "dateUpdated": "2022-12-01T05:17:23.0943207Z",
@@ -24601,14 +24608,7 @@
                 "projectStatus": 4,
                 "projectId": 624165,
                 "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "e009a6c6a5d772020648863c30df7e714fe66583"
-                    },
-                    {
-                        "Value": "5d6e06a7829fda423de20ff454ab6ed3"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -30759,20 +30759,16 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/414/599/256/256/637636962431399112.png",
             "tags": [],
             "installedFile": {
-                "id": 3946212,
-                "fileName": "reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
-                "fileDate": "2022-08-22T00:25:42.413Z",
-                "fileLength": 49818,
+                "id": 4126243,
+                "fileName": "reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
+                "fileDate": "2022-12-01T14:35:57.8Z",
+                "fileLength": 49905,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3946/212/reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/243/reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
                 "isAlternate": false,
-                "alternateFileId": 3946213,
+                "alternateFileId": 4126244,
                 "dependencies": [
-                    {
-                        "addonId": 447673,
-                        "type": 2
-                    },
                     {
                         "addonId": 455508,
                         "type": 2
@@ -30780,13 +30776,17 @@
                     {
                         "addonId": 394468,
                         "type": 3
+                    },
+                    {
+                        "addonId": 447673,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3166920265,
+                        "fingerprint": 2909597806,
                         "invalidFingerprint": false
                     },
                     {
@@ -30801,7 +30801,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3569190420,
+                        "fingerprint": 3510009144,
                         "invalidFingerprint": false
                     },
                     {
@@ -30816,11 +30816,11 @@
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 3834587957,
+                        "fingerprint": 1845719608,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1725405522,
+                "packageFingerprint": 1203726484,
                 "gameVersion": [
                     "1.18.1",
                     "Fabric",
@@ -30854,13 +30854,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 511319,
-                "FileNameOnDisk": "reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
-                "Hashes": []
+                "FileNameOnDisk": "reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
+                "Hashes": [
+                    {
+                        "Value": "c896ca9fe8bee67085d2700f003dc0739f453af9"
+                    },
+                    {
+                        "Value": "d4d5cb87fcd8f09ced5483080c2fb82e"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-23T03:31:23.7105799Z",
-            "dateUpdated": "2022-11-23T03:31:23.7105799Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-01T18:04:37.6860977Z",
+            "dateLastUpdateAttempted": "2022-12-01T18:04:37.6860977Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30872,20 +30879,16 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3946212,
-                "fileName": "reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
-                "fileDate": "2022-08-22T00:25:42.413Z",
-                "fileLength": 49818,
+                "id": 4126243,
+                "fileName": "reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
+                "fileDate": "2022-12-01T14:35:57.8Z",
+                "fileLength": 49905,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3946/212/reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4126/243/reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
                 "isAlternate": false,
-                "alternateFileId": 3946213,
+                "alternateFileId": 4126244,
                 "dependencies": [
-                    {
-                        "addonId": 447673,
-                        "type": 2
-                    },
                     {
                         "addonId": 455508,
                         "type": 2
@@ -30893,13 +30896,17 @@
                     {
                         "addonId": 394468,
                         "type": 3
+                    },
+                    {
+                        "addonId": 447673,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3166920265,
+                        "fingerprint": 2909597806,
                         "invalidFingerprint": false
                     },
                     {
@@ -30914,7 +30921,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3569190420,
+                        "fingerprint": 3510009144,
                         "invalidFingerprint": false
                     },
                     {
@@ -30929,11 +30936,11 @@
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 3834587957,
+                        "fingerprint": 1845719608,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1725405522,
+                "packageFingerprint": 1203726484,
                 "gameVersion": [
                     "1.18.1",
                     "Fabric",
@@ -30967,8 +30974,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 511319,
-                "FileNameOnDisk": "reeses_sodium_options-1.4.7+mc1.18.2-build.58.jar",
-                "Hashes": []
+                "FileNameOnDisk": "reeses_sodium_options-1.4.9+mc1.18.2-build.66.jar",
+                "Hashes": [
+                    {
+                        "Value": "c896ca9fe8bee67085d2700f003dc0739f453af9"
+                    },
+                    {
+                        "Value": "d4d5cb87fcd8f09ced5483080c2fb82e"
+                    }
+                ]
             }
         },
         {
@@ -37952,20 +37966,16 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/560/421/256/256/637911433758832569.png",
             "tags": [],
             "installedFile": {
-                "id": 4125391,
-                "fileName": "almostunified-fabric-1.18.2-0.3.0.jar",
-                "fileDate": "2022-11-30T20:49:06.877Z",
+                "id": 4125982,
+                "fileName": "almostunified-fabric-1.18.2-0.3.1.jar",
+                "fileDate": "2022-12-01T09:08:40.92Z",
                 "fileLength": 156111,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4125/391/almostunified-fabric-1.18.2-0.3.0.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4125/982/almostunified-fabric-1.18.2-0.3.1.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 238222,
-                        "type": 2
-                    },
                     {
                         "addonId": 310111,
                         "type": 2
@@ -37973,13 +37983,17 @@
                     {
                         "addonId": 238086,
                         "type": 2
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2333532667,
+                        "fingerprint": 1412022568,
                         "invalidFingerprint": false
                     },
                     {
@@ -37989,7 +38003,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1097062178,
+                        "fingerprint": 2084880354,
                         "invalidFingerprint": false
                     },
                     {
@@ -38019,11 +38033,11 @@
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 3644624526,
+                        "fingerprint": 2306562293,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2772460488,
+                "packageFingerprint": 518810840,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -38045,19 +38059,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 633823,
-                "FileNameOnDisk": "almostunified-fabric-1.18.2-0.3.0.jar",
+                "FileNameOnDisk": "almostunified-fabric-1.18.2-0.3.1.jar",
                 "Hashes": [
                     {
-                        "Value": "2cc000da081fe854a88bd46bfd7a0677b194b3bf"
+                        "Value": "07a7b5ff7d3150a2dcf7353ef7e5d9fe6d0f622c"
                     },
                     {
-                        "Value": "bb8b740264d688725d63cd935fffb6ba"
+                        "Value": "17af465354ca660a2286d2f1228d8b6f"
                     }
                 ]
             },
             "dateInstalled": "2022-11-23T03:32:02.3780962Z",
-            "dateUpdated": "2022-12-01T05:17:28.5685596Z",
-            "dateLastUpdateAttempted": "2022-12-01T05:17:28.5685596Z",
+            "dateUpdated": "2022-12-01T18:04:33.4859407Z",
+            "dateLastUpdateAttempted": "2022-12-01T18:04:33.4859407Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -38070,20 +38084,16 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4125391,
-                "fileName": "almostunified-fabric-1.18.2-0.3.0.jar",
-                "fileDate": "2022-11-30T20:49:06.877Z",
+                "id": 4125982,
+                "fileName": "almostunified-fabric-1.18.2-0.3.1.jar",
+                "fileDate": "2022-12-01T09:08:40.92Z",
                 "fileLength": 156111,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4125/391/almostunified-fabric-1.18.2-0.3.0.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4125/982/almostunified-fabric-1.18.2-0.3.1.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 238222,
-                        "type": 2
-                    },
                     {
                         "addonId": 310111,
                         "type": 2
@@ -38091,13 +38101,17 @@
                     {
                         "addonId": 238086,
                         "type": 2
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2333532667,
+                        "fingerprint": 1412022568,
                         "invalidFingerprint": false
                     },
                     {
@@ -38107,7 +38121,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1097062178,
+                        "fingerprint": 2084880354,
                         "invalidFingerprint": false
                     },
                     {
@@ -38137,11 +38151,11 @@
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 3644624526,
+                        "fingerprint": 2306562293,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2772460488,
+                "packageFingerprint": 518810840,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -38163,13 +38177,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 633823,
-                "FileNameOnDisk": "almostunified-fabric-1.18.2-0.3.0.jar",
+                "FileNameOnDisk": "almostunified-fabric-1.18.2-0.3.1.jar",
                 "Hashes": [
                     {
-                        "Value": "2cc000da081fe854a88bd46bfd7a0677b194b3bf"
+                        "Value": "07a7b5ff7d3150a2dcf7353ef7e5d9fe6d0f622c"
                     },
                     {
-                        "Value": "bb8b740264d688725d63cd935fffb6ba"
+                        "Value": "17af465354ca660a2286d2f1228d8b6f"
                     }
                 ]
             }
@@ -42028,14 +42042,7 @@
                 "projectStatus": 4,
                 "projectId": 515172,
                 "FileNameOnDisk": "drippyloadingscreen_fabric_1.6.6_MC_1.18-1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "3afb242e53b5a97e00fd4be827c83d37d3a3a22e"
-                    },
-                    {
-                        "Value": "ad2c7c3c9fac515b657e5f0d42c987af"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-11-23T03:31:56.0759593Z",
             "dateUpdated": "2022-12-01T05:17:30.5584028Z",
@@ -42144,14 +42151,7 @@
                 "projectStatus": 4,
                 "projectId": 515172,
                 "FileNameOnDisk": "drippyloadingscreen_fabric_1.6.6_MC_1.18-1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "3afb242e53b5a97e00fd4be827c83d37d3a3a22e"
-                    },
-                    {
-                        "Value": "ad2c7c3c9fac515b657e5f0d42c987af"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -47358,195 +47358,6 @@
             }
         },
         {
-            "instanceID": "f043b224-c2e2-4f1f-9ddf-f7edab4a163c",
-            "modSource": 0,
-            "addonID": 580136,
-            "gameID": 432,
-            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
-            "name": "Quests Additions (Fabric)",
-            "authors": [
-                {
-                    "Name": "NaturaSpell"
-                }
-            ],
-            "primaryAuthor": "NaturaSpell",
-            "primaryCategoryId": 426,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/493/896/256/256/637804294345803722.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3940981,
-                "fileName": "questsadditions-fabric-1.18.2-1.4.0.jar",
-                "fileDate": "2022-08-18T18:24:10.7Z",
-                "fileLength": 119048,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3940/981/questsadditions-fabric-1.18.2-1.4.0.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 438496,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419697,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions.mixins.json",
-                        "fingerprint": 2200928553,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 131943594,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1651035771,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions-fabric-1.18.2-refmap.json",
-                        "fingerprint": 3545362524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions",
-                        "fingerprint": 3078406935,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3071387245,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 580136,
-                "FileNameOnDisk": "questsadditions-fabric-1.18.2-1.4.0.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-23T03:31:53.7326483Z",
-            "dateUpdated": "2022-11-23T03:31:53.7326483Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3940981,
-                "fileName": "questsadditions-fabric-1.18.2-1.4.0.jar",
-                "fileDate": "2022-08-18T18:24:10.7Z",
-                "fileLength": 119048,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3940/981/questsadditions-fabric-1.18.2-1.4.0.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 438496,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419697,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions.mixins.json",
-                        "fingerprint": 2200928553,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 131943594,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1651035771,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions-fabric-1.18.2-refmap.json",
-                        "fingerprint": 3545362524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "questsadditions",
-                        "fingerprint": 3078406935,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3071387245,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 580136,
-                "FileNameOnDisk": "questsadditions-fabric-1.18.2-1.4.0.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "afc49ff7-8fcd-4a8f-9d3c-ebd9d1d72da3",
             "modSource": 0,
             "addonID": 433518,
@@ -47952,6 +47763,195 @@
                 "projectStatus": 4,
                 "projectId": 433518,
                 "FileNameOnDisk": "lazydfu-0.1.2.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "f043b224-c2e2-4f1f-9ddf-f7edab4a163c",
+            "modSource": 0,
+            "addonID": 580136,
+            "gameID": 432,
+            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
+            "name": "Quests Additions (Fabric)",
+            "authors": [
+                {
+                    "Name": "NaturaSpell"
+                }
+            ],
+            "primaryAuthor": "NaturaSpell",
+            "primaryCategoryId": 426,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/493/896/256/256/637804294345803722.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3940981,
+                "fileName": "questsadditions-fabric-1.18.2-1.4.0.jar",
+                "fileDate": "2022-08-18T18:24:10.7Z",
+                "fileLength": 119048,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3940/981/questsadditions-fabric-1.18.2-1.4.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 438496,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1114236840,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions.mixins.json",
+                        "fingerprint": 2200928553,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 131943594,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1651035771,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions-fabric-1.18.2-refmap.json",
+                        "fingerprint": 3545362524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions",
+                        "fingerprint": 3078406935,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3071387245,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 580136,
+                "FileNameOnDisk": "questsadditions-fabric-1.18.2-1.4.0.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-11-23T03:31:53.7326483Z",
+            "dateUpdated": "2022-11-23T03:31:53.7326483Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3940981,
+                "fileName": "questsadditions-fabric-1.18.2-1.4.0.jar",
+                "fileDate": "2022-08-18T18:24:10.7Z",
+                "fileLength": 119048,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3940/981/questsadditions-fabric-1.18.2-1.4.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 438496,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1114236840,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions.mixins.json",
+                        "fingerprint": 2200928553,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 131943594,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1651035771,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions-fabric-1.18.2-refmap.json",
+                        "fingerprint": 3545362524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "questsadditions",
+                        "fingerprint": 3078406935,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3071387245,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 580136,
+                "FileNameOnDisk": "questsadditions-fabric-1.18.2-1.4.0.jar",
                 "Hashes": []
             }
         },
@@ -48789,77 +48789,55 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/495/728/256/256/637809384744018979.jpeg",
             "tags": [],
             "installedFile": {
-                "id": 3670713,
-                "fileName": "Subterrestrial-1.0.2.jar",
-                "fileDate": "2022-03-03T08:21:10.073Z",
-                "fileLength": 301163,
+                "id": 4125912,
+                "fileName": "subterrestrial-fabric-1.18.2-2.0.0.jar",
+                "fileDate": "2022-12-01T06:53:35.38Z",
+                "fileLength": 281126,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3670/713/Subterrestrial-1.0.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4125/912/subterrestrial-fabric-1.18.2-2.0.0.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
                         "addonId": 306612,
                         "type": 3
-                    },
-                    {
-                        "addonId": 319057,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 567114,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 308702,
-                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2181152652,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_Subterrestrial",
-                        "fingerprint": 1683085234,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 810190132,
+                        "fingerprint": 2190208841,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 2318108265,
+                        "fingerprint": 212653396,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 2468397400,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2728309031,
+                        "fingerprint": 3113420304,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "subterrestrial.mixins.json",
-                        "fingerprint": 2889085696,
+                        "foldername": "architectury_inject_Subterrestrial_common_ca3214e4350642648f48bab70dc34fcc_c440ffe0a1ef09682979ee3642b93559f3175bf79cbf69f1f1739b2b8ecbd98aSubterrestrial200devjar",
+                        "fingerprint": 1599976275,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "Subterrestrial-refmap.json",
-                        "fingerprint": 1417535085,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 238246083,
+                        "foldername": "dev",
+                        "fingerprint": 2907480200,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 553224058,
+                "packageFingerprint": 2615173341,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -48881,13 +48859,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 575588,
-                "FileNameOnDisk": "Subterrestrial-1.0.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "subterrestrial-fabric-1.18.2-2.0.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "932265947f7e2a9a3b333b6adb8269d517beb420"
+                    },
+                    {
+                        "Value": "2d70a573475dd1c27a76dd03f0e9e399"
+                    }
+                ]
             },
             "dateInstalled": "2022-11-23T03:31:44.6629819Z",
-            "dateUpdated": "2022-11-23T03:31:44.6629819Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-01T18:04:39.9799392Z",
+            "dateLastUpdateAttempted": "2022-12-01T18:04:39.9799392Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -48899,77 +48884,55 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3670713,
-                "fileName": "Subterrestrial-1.0.2.jar",
-                "fileDate": "2022-03-03T08:21:10.073Z",
-                "fileLength": 301163,
+                "id": 4125912,
+                "fileName": "subterrestrial-fabric-1.18.2-2.0.0.jar",
+                "fileDate": "2022-12-01T06:53:35.38Z",
+                "fileLength": 281126,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3670/713/Subterrestrial-1.0.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4125/912/subterrestrial-fabric-1.18.2-2.0.0.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
                         "addonId": 306612,
                         "type": 3
-                    },
-                    {
-                        "addonId": 319057,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 567114,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 308702,
-                        "type": 2
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2181152652,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_Subterrestrial",
-                        "fingerprint": 1683085234,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 810190132,
+                        "fingerprint": 2190208841,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 2318108265,
+                        "fingerprint": 212653396,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 2468397400,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2728309031,
+                        "fingerprint": 3113420304,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "subterrestrial.mixins.json",
-                        "fingerprint": 2889085696,
+                        "foldername": "architectury_inject_Subterrestrial_common_ca3214e4350642648f48bab70dc34fcc_c440ffe0a1ef09682979ee3642b93559f3175bf79cbf69f1f1739b2b8ecbd98aSubterrestrial200devjar",
+                        "fingerprint": 1599976275,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "Subterrestrial-refmap.json",
-                        "fingerprint": 1417535085,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 238246083,
+                        "foldername": "dev",
+                        "fingerprint": 2907480200,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 553224058,
+                "packageFingerprint": 2615173341,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -48991,227 +48954,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 575588,
-                "FileNameOnDisk": "Subterrestrial-1.0.2.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "659f5784-883a-49f2-882e-e823b2318413",
-            "modSource": 0,
-            "addonID": 324717,
-            "gameID": 432,
-            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
-            "name": "Jade 🔍",
-            "authors": [
-                {
-                    "Name": "Snownee_"
-                }
-            ],
-            "primaryAuthor": "Snownee_",
-            "primaryCategoryId": 423,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/jade",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3928578,
-                "fileName": "Jade-1.18.2-fabric-5.99.9.jar",
-                "fileDate": "2022-08-10T21:47:22.533Z",
-                "fileLength": 337845,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3928/578/Jade-1.18.2-fabric-5.99.9.jar",
-                "isAlternate": false,
-                "alternateFileId": 3928582,
-                "dependencies": [
+                "FileNameOnDisk": "subterrestrial-fabric-1.18.2-2.0.0.jar",
+                "Hashes": [
                     {
-                        "addonId": 306612,
-                        "type": 3
+                        "Value": "932265947f7e2a9a3b333b6adb8269d517beb420"
                     },
                     {
-                        "addonId": 238222,
-                        "type": 2
+                        "Value": "2d70a573475dd1c27a76dd03f0e9e399"
                     }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2267178319,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2624644293,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.mixins.json",
-                        "fingerprint": 2394770836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.accesswidener",
-                        "fingerprint": 841903183,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 1859719455,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2464244961,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3096478433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.refmap.json",
-                        "fingerprint": 1034199984,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "snownee",
-                        "fingerprint": 3515867323,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4808942,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 324717,
-                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.9.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-23T03:31:31.7753869Z",
-            "dateUpdated": "2022-11-23T03:31:31.7753869Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3928578,
-                "fileName": "Jade-1.18.2-fabric-5.99.9.jar",
-                "fileDate": "2022-08-10T21:47:22.533Z",
-                "fileLength": 337845,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3928/578/Jade-1.18.2-fabric-5.99.9.jar",
-                "isAlternate": false,
-                "alternateFileId": 3928582,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 238222,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2267178319,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2624644293,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.mixins.json",
-                        "fingerprint": 2394770836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.accesswidener",
-                        "fingerprint": 841903183,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 1859719455,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2464244961,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3096478433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.refmap.json",
-                        "fingerprint": 1034199984,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "snownee",
-                        "fingerprint": 3515867323,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4808942,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 324717,
-                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.9.jar",
-                "Hashes": []
+                ]
             }
         },
         {
@@ -49460,6 +49211,225 @@
                 "projectStatus": 4,
                 "projectId": 412182,
                 "FileNameOnDisk": "biomemakeover-FABRIC-1.18.2-1.4.32.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "659f5784-883a-49f2-882e-e823b2318413",
+            "modSource": 0,
+            "addonID": 324717,
+            "gameID": 432,
+            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
+            "name": "Jade 🔍",
+            "authors": [
+                {
+                    "Name": "Snownee_"
+                }
+            ],
+            "primaryAuthor": "Snownee_",
+            "primaryCategoryId": 423,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/jade",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3928578,
+                "fileName": "Jade-1.18.2-fabric-5.99.9.jar",
+                "fileDate": "2022-08-10T21:47:22.533Z",
+                "fileLength": 337845,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3928/578/Jade-1.18.2-fabric-5.99.9.jar",
+                "isAlternate": false,
+                "alternateFileId": 3928582,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2267178319,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 2624644293,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.mixins.json",
+                        "fingerprint": 2394770836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.accesswidener",
+                        "fingerprint": 841903183,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 1859719455,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2464244961,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3096478433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.refmap.json",
+                        "fingerprint": 1034199984,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "snownee",
+                        "fingerprint": 3515867323,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4808942,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 324717,
+                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.9.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-11-23T03:31:31.7753869Z",
+            "dateUpdated": "2022-11-23T03:31:31.7753869Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3928578,
+                "fileName": "Jade-1.18.2-fabric-5.99.9.jar",
+                "fileDate": "2022-08-10T21:47:22.533Z",
+                "fileLength": 337845,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3928/578/Jade-1.18.2-fabric-5.99.9.jar",
+                "isAlternate": false,
+                "alternateFileId": 3928582,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2267178319,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 2624644293,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.mixins.json",
+                        "fingerprint": 2394770836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.accesswidener",
+                        "fingerprint": 841903183,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 1859719455,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2464244961,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3096478433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.refmap.json",
+                        "fingerprint": 1034199984,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "snownee",
+                        "fingerprint": 3515867323,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4808942,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 324717,
+                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.9.jar",
                 "Hashes": []
             }
         },
@@ -50748,6 +50718,203 @@
             }
         },
         {
+            "instanceID": "713fff35-81ab-48e7-9b58-5f92ad3ea319",
+            "modSource": 0,
+            "addonID": 491151,
+            "gameID": 432,
+            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
+            "name": "Structures' Compass",
+            "authors": [
+                {
+                    "Name": "Samarium_150"
+                },
+                {
+                    "Name": "linhelurking"
+                },
+                {
+                    "Name": "SnightW"
+                }
+            ],
+            "primaryAuthor": "Samarium_150",
+            "primaryCategoryId": 434,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/structures-compass",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/391/833/256/256/637585182473798697_animated.gif",
+            "tags": [],
+            "installedFile": {
+                "id": 3749662,
+                "fileName": "structures_compass-fabric-1.18.2-1.4.2.jar",
+                "fileDate": "2022-04-12T23:48:16.037Z",
+                "fileLength": 265602,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2811392168,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_extension 'base' property 'archivesName'",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "structures_compass.mixins.json",
+                        "fingerprint": 2164818071,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "logo.gif",
+                        "fingerprint": 1412546044,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1274835181,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 692711444,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 4282682499,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 977133912,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1101278691,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 491151,
+                "FileNameOnDisk": "structures_compass-fabric-1.18.2-1.4.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-11-23T03:31:58.7635999Z",
+            "dateUpdated": "2022-11-23T03:31:58.7635999Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3749662,
+                "fileName": "structures_compass-fabric-1.18.2-1.4.2.jar",
+                "fileDate": "2022-04-12T23:48:16.037Z",
+                "fileLength": 265602,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2811392168,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_extension 'base' property 'archivesName'",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "structures_compass.mixins.json",
+                        "fingerprint": 2164818071,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "logo.gif",
+                        "fingerprint": 1412546044,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1274835181,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 692711444,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 4282682499,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 977133912,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1101278691,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 491151,
+                "FileNameOnDisk": "structures_compass-fabric-1.18.2-1.4.2.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "73b41418-4288-47ed-9c62-696f7f0787fb",
             "modSource": 0,
             "addonID": 584511,
@@ -50945,203 +51112,6 @@
                 "projectStatus": 4,
                 "projectId": 584511,
                 "FileNameOnDisk": "The_Graveyard_Biomes_1.1_(FABRIC)_for_1.18.2.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "713fff35-81ab-48e7-9b58-5f92ad3ea319",
-            "modSource": 0,
-            "addonID": 491151,
-            "gameID": 432,
-            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
-            "name": "Structures' Compass",
-            "authors": [
-                {
-                    "Name": "Samarium_150"
-                },
-                {
-                    "Name": "linhelurking"
-                },
-                {
-                    "Name": "SnightW"
-                }
-            ],
-            "primaryAuthor": "Samarium_150",
-            "primaryCategoryId": 434,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/structures-compass",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/391/833/256/256/637585182473798697_animated.gif",
-            "tags": [],
-            "installedFile": {
-                "id": 3749662,
-                "fileName": "structures_compass-fabric-1.18.2-1.4.2.jar",
-                "fileDate": "2022-04-12T23:48:16.037Z",
-                "fileLength": 265602,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2811392168,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_extension 'base' property 'archivesName'",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "structures_compass.mixins.json",
-                        "fingerprint": 2164818071,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.gif",
-                        "fingerprint": 1412546044,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1274835181,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 692711444,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 4282682499,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 977133912,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1101278691,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 491151,
-                "FileNameOnDisk": "structures_compass-fabric-1.18.2-1.4.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-23T03:31:58.7635999Z",
-            "dateUpdated": "2022-11-23T03:31:58.7635999Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3749662,
-                "fileName": "structures_compass-fabric-1.18.2-1.4.2.jar",
-                "fileDate": "2022-04-12T23:48:16.037Z",
-                "fileLength": 265602,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2811392168,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_extension 'base' property 'archivesName'",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "structures_compass.mixins.json",
-                        "fingerprint": 2164818071,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.gif",
-                        "fingerprint": 1412546044,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1274835181,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 692711444,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 4282682499,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 977133912,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1101278691,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 491151,
-                "FileNameOnDisk": "structures_compass-fabric-1.18.2-1.4.2.jar",
                 "Hashes": []
             }
         },
