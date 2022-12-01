@@ -13885,233 +13885,6 @@
             }
         },
         {
-            "instanceID": "de48fa77-5738-4c03-8344-cefac9b0e783",
-            "modSource": 0,
-            "addonID": 432427,
-            "gameID": 432,
-            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
-            "name": "SurvivalPlus (Fabric/Quilt)",
-            "authors": [
-                {
-                    "Name": "CoolSimulations"
-                }
-            ],
-            "primaryAuthor": "CoolSimulations",
-            "primaryCategoryId": 434,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/survivalplus-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/327/553/256/256/637449700131104925.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3825625,
-                "fileName": "SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "fileDate": "2022-06-10T02:12:10.18Z",
-                "fileLength": 1636521,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3825/625/SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "isAlternate": false,
-                "alternateFileId": 3825626,
-                "dependencies": [
-                    {
-                        "addonId": 312289,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 373858,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "survivalplus.mixins.json",
-                        "fingerprint": 3563844189,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2480128430,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.png",
-                        "fingerprint": 2855558706,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1637726841,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1136369118,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3913612111,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "SurvivalPlus-Fabric-1.18.2-refmap.json",
-                        "fingerprint": 1293933213,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 2490002794,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2924496676,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 432427,
-                "FileNameOnDisk": "SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-23T03:31:23.7145691Z",
-            "dateUpdated": "2022-11-23T03:31:23.7145691Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3825625,
-                "fileName": "SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "fileDate": "2022-06-10T02:12:10.18Z",
-                "fileLength": 1636521,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3825/625/SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "isAlternate": false,
-                "alternateFileId": 3825626,
-                "dependencies": [
-                    {
-                        "addonId": 312289,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 373858,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "survivalplus.mixins.json",
-                        "fingerprint": 3563844189,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2480128430,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.png",
-                        "fingerprint": 2855558706,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1637726841,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1136369118,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3913612111,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "SurvivalPlus-Fabric-1.18.2-refmap.json",
-                        "fingerprint": 1293933213,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 2490002794,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2924496676,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 432427,
-                "FileNameOnDisk": "SurvivalPlus-Fabric-1.18.2-0.1.6e.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "631873e1-eff7-42e9-b6f6-9640a9065161",
             "modSource": 0,
             "addonID": 341284,
@@ -24765,13 +24538,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/548/377/256/256/637883834427445340.png",
             "tags": [],
             "installedFile": {
-                "id": 4110535,
-                "fileName": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "fileDate": "2022-11-24T20:05:16.313Z",
-                "fileLength": 15895977,
+                "id": 4105143,
+                "fileName": "create-fabric-0.5.0g-788+1.18.2.jar",
+                "fileDate": "2022-11-23T00:19:57.193Z",
+                "fileLength": 15897768,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4110/535/create-fabric-0.5.0g-792+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4105/143/create-fabric-0.5.0g-788+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -24783,18 +24556,13 @@
                 "isAvailable": true,
                 "modules": [
                     {
+                        "foldername": "com",
+                        "fingerprint": 2934896234,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "META-INF",
-                        "fingerprint": 1859782195,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1583383705,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4124541705,
+                        "fingerprint": 952340473,
                         "invalidFingerprint": false
                     },
                     {
@@ -24803,23 +24571,13 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "create.mixins.json",
-                        "fingerprint": 458182578,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_create-fabric",
-                        "fingerprint": 1927476733,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "resourcepacks",
                         "fingerprint": 1636862921,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "create-fabric-refmap.json",
-                        "fingerprint": 2261245755,
+                        "foldername": "data",
+                        "fingerprint": 1583383705,
                         "invalidFingerprint": false
                     },
                     {
@@ -24828,8 +24586,18 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "com",
-                        "fingerprint": 3223882202,
+                        "foldername": "create-fabric-refmap.json",
+                        "fingerprint": 2735050587,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "create.mixins.json",
+                        "fingerprint": 458182578,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1025737492,
                         "invalidFingerprint": false
                     },
                     {
@@ -24841,9 +24609,14 @@
                         "foldername": "assets",
                         "fingerprint": 1116056024,
                         "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_create-fabric",
+                        "fingerprint": 1927476733,
+                        "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2553984739,
+                "packageFingerprint": 144530652,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -24871,20 +24644,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 624165,
-                "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
+                "FileNameOnDisk": "create-fabric-0.5.0g-788+1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "e009a6c6a5d772020648863c30df7e714fe66583"
+                        "Value": "48dcfb2e01b4d25ee63ec0ecd7d0e0470584658a"
                     },
                     {
-                        "Value": "5d6e06a7829fda423de20ff454ab6ed3"
+                        "Value": "a85cc8d7fbaa26d9cc10af395741accd"
                     }
                 ]
             },
-            "dateInstalled": "2022-11-23T03:31:56.0730061Z",
-            "dateUpdated": "2022-12-01T05:01:03.2042016Z",
-            "dateLastUpdateAttempted": "2022-12-01T05:01:03.2042016Z",
-            "status": 4,
+            "dateInstalled": "2022-12-01T05:08:57.6481909Z",
+            "dateUpdated": "2022-12-01T05:08:57.6851021Z",
+            "dateLastUpdateAttempted": "2022-12-01T05:08:57.6851021Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25003,7 +24776,14 @@
                 "projectStatus": 4,
                 "projectId": 624165,
                 "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "Hashes": []
+                "Hashes": [
+                    {
+                        "Value": "e009a6c6a5d772020648863c30df7e714fe66583"
+                    },
+                    {
+                        "Value": "5d6e06a7829fda423de20ff454ab6ed3"
+                    }
+                ]
             }
         },
         {
@@ -41491,255 +41271,6 @@
                 "projectStatus": 4,
                 "projectId": 353928,
                 "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.19.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "b293185f-293e-4b60-a82f-e05c191218fe",
-            "modSource": 0,
-            "addonID": 432440,
-            "gameID": 432,
-            "gameInstanceID": "fc752757-411f-454b-a8ed-d4fa405c3243",
-            "name": "SurvivalPlus Lightsabers (Fabric/Quilt)",
-            "authors": [
-                {
-                    "Name": "CoolSimulations"
-                }
-            ],
-            "primaryAuthor": "CoolSimulations",
-            "primaryCategoryId": 434,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/survivalplus-lightsabers-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/327/569/256/256/637449712986774022.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3825656,
-                "fileName": "SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
-                "fileDate": "2022-06-10T02:31:08.147Z",
-                "fileLength": 2330270,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3825/656/SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
-                "isAlternate": false,
-                "alternateFileId": 3825659,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 432427,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_SurvivalPlus-Lightsabers-Fabric-1.18.2",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "rehilted.png",
-                        "fingerprint": 1750231707,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2157907138,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.png",
-                        "fingerprint": 291013306,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "lightsaber.mixins.json",
-                        "fingerprint": 582910750,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2497088649,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1599736830,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cubed.png",
-                        "fingerprint": 3289074755,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3410579316,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "SurvivalPlus-Lightsabers-Fabric-1.18.2-refmap.json",
-                        "fingerprint": 2343236758,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 3622142886,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3413039701,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 432440,
-                "FileNameOnDisk": "SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-23T03:32:12.9566126Z",
-            "dateUpdated": "2022-11-23T03:32:12.9566126Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3825656,
-                "fileName": "SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
-                "fileDate": "2022-06-10T02:31:08.147Z",
-                "fileLength": 2330270,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3825/656/SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
-                "isAlternate": false,
-                "alternateFileId": 3825659,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 432427,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1114236840,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_SurvivalPlus-Lightsabers-Fabric-1.18.2",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "rehilted.png",
-                        "fingerprint": 1750231707,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2157907138,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.png",
-                        "fingerprint": 291013306,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "lightsaber.mixins.json",
-                        "fingerprint": 582910750,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2497088649,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1599736830,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cubed.png",
-                        "fingerprint": 3289074755,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3410579316,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "SurvivalPlus-Lightsabers-Fabric-1.18.2-refmap.json",
-                        "fingerprint": 2343236758,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 3622142886,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3413039701,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 432440,
-                "FileNameOnDisk": "SurvivalPlus-Lightsabers-Fabric-1.18.2-0.1.6c.jar",
                 "Hashes": []
             }
         },
