@@ -49139,16 +49139,29 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/437/26/256/256/637680007192257236.png",
             "tags": [],
             "installedFile": {
-                "id": 3649305,
-                "fileName": "ninjaphenix-container-library-1.3.0+1.18-fabric.jar",
-                "fileDate": "2022-02-15T20:41:14.51Z",
-                "fileLength": 99960,
-                "releaseType": 1,
+                "id": 3992867,
+                "fileName": "ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar",
+                "fileDate": "2022-09-16T19:46:29.57Z",
+                "fileLength": 120294,
+                "releaseType": 3,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3649/305/ninjaphenix-container-library-1.3.0+1.18-fabric.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3992/867/ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
-                "dependencies": [],
+                "dependencies": [
+                    {
+                        "addonId": 310111,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 495267,
+                        "type": 2
+                    }
+                ],
                 "isAvailable": true,
                 "modules": [
                     {
@@ -49158,17 +49171,37 @@
                     },
                     {
                         "foldername": "LICENSE",
-                        "fingerprint": 1549972300,
+                        "fingerprint": 704459162,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1508972030,
+                        "fingerprint": 2225805581,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ellemes-container-library-thread-refmap.json",
+                        "fingerprint": 4112417756,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ellemes-container-library-thread.mixins.json",
+                        "fingerprint": 408762333,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ellemes",
+                        "fingerprint": 855967597,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ellemes_container_lib.accessWidener",
+                        "fingerprint": 1930372888,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1383716059,
+                        "fingerprint": 4027187850,
                         "invalidFingerprint": false
                     },
                     {
@@ -49177,39 +49210,17 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "ninjaphenix-container-library-refmap.json",
-                        "fingerprint": 197325340,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "ninjaphenix",
-                        "fingerprint": 3910060589,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "ninjaphenix_container_lib.accessWidener",
-                        "fingerprint": 1930372888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "ninjaphenix_container_lib.mixins.json",
-                        "fingerprint": 2515424439,
+                        "fingerprint": 3048834826,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 4158358729,
+                "packageFingerprint": 468139154,
                 "gameVersion": [
-                    "1.18.1",
                     "Fabric",
-                    "1.18.2",
-                    "1.18"
+                    "1.18.2"
                 ],
                 "sortableGameVersion": [
-                    {
-                        "gameVersion": "1.18.1",
-                        "gameVersionName": "1.18.1",
-                        "gameVersionTypeId": 73250
-                    },
                     {
                         "gameVersion": "",
                         "gameVersionName": "Fabric",
@@ -49219,11 +49230,6 @@
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18",
-                        "gameVersionTypeId": 73250
                     }
                 ],
                 "hasInstallScript": false,
@@ -49231,13 +49237,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 530668,
-                "FileNameOnDisk": "ninjaphenix-container-library-1.3.0+1.18-fabric.jar",
-                "Hashes": []
+                "FileNameOnDisk": "ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar",
+                "Hashes": [
+                    {
+                        "Value": "cf0ac73343fe05f578160c6747aaafa5fcb981e4"
+                    },
+                    {
+                        "Value": "f7d0917dc65c921a7d9e481d950fb962"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-03T21:38:01.8960906Z",
-            "dateUpdated": "2022-12-03T21:38:01.8960906Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-12-03T21:43:54.6795104Z",
+            "dateLastUpdateAttempted": "2022-12-03T21:43:54.6795104Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
