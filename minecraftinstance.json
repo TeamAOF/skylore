@@ -1742,18 +1742,18 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/648/548/256/256/638050146344021856.png",
             "tags": [],
             "installedFile": {
-                "id": 3760350,
-                "fileName": "expandedstorage-7.3.12+1.18.2.jar",
-                "fileDate": "2022-04-20T11:04:30.17Z",
-                "fileLength": 390602,
-                "releaseType": 1,
+                "id": 4022956,
+                "fileName": "expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
+                "fileDate": "2022-10-09T11:32:55.653Z",
+                "fileLength": 476434,
+                "releaseType": 3,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3760/350/expandedstorage-7.3.12+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4022/956/expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 462534,
+                        "addonId": 409184,
                         "type": 2
                     },
                     {
@@ -1761,16 +1761,16 @@
                         "type": 2
                     },
                     {
-                        "addonId": 409184,
-                        "type": 2
+                        "addonId": 306612,
+                        "type": 3
                     },
                     {
                         "addonId": 530668,
                         "type": 3
                     },
                     {
-                        "addonId": 306612,
-                        "type": 3
+                        "addonId": 462534,
+                        "type": 2
                     }
                 ],
                 "isAvailable": true,
@@ -1782,32 +1782,62 @@
                     },
                     {
                         "foldername": "LICENSE",
-                        "fingerprint": 1225901813,
+                        "fingerprint": 646063669,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 4159205238,
+                        "fingerprint": 77788869,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 1550047289,
+                        "fingerprint": 1949923723,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ellemes",
+                        "fingerprint": 3368179526,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-common-refmap.json",
+                        "fingerprint": 823135535,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-common.mixin.json",
+                        "fingerprint": 1268433185,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-fabric-refmap.json",
+                        "fingerprint": 1493072104,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-fabric.mixin.json",
+                        "fingerprint": 1734065051,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-thread-refmap.json",
+                        "fingerprint": 3510189890,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "expandedstorage-thread.mixin.json",
+                        "fingerprint": 3805966095,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "expandedstorage.accessWidener",
-                        "fingerprint": 2861709502,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "expandedstorage.mixin.json",
-                        "fingerprint": 4260192102,
+                        "fingerprint": 3570991397,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 415316718,
+                        "fingerprint": 1810424256,
                         "invalidFingerprint": false
                     },
                     {
@@ -1817,11 +1847,16 @@
                     },
                     {
                         "foldername": "ninjaphenix",
-                        "fingerprint": 2704563546,
+                        "fingerprint": 3303187720,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 2268768730,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1306959354,
+                "packageFingerprint": 3138433610,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -1843,13 +1878,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 317856,
-                "FileNameOnDisk": "expandedstorage-7.3.12+1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
+                "Hashes": [
+                    {
+                        "Value": "bb10f8082464b0f84af62866cc2be9bbd3775d55"
+                    },
+                    {
+                        "Value": "af664cd7333751dc8bac1a66ec862101"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-03T21:38:01.8970907Z",
-            "dateUpdated": "2022-12-03T21:38:01.8970907Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
+            "dateUpdated": "2022-12-03T21:45:53.743854Z",
+            "dateLastUpdateAttempted": "2022-12-03T21:45:53.743854Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
