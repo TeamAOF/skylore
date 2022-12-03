@@ -2826,6 +2826,297 @@
             }
         },
         {
+            "instanceID": "b4254355-37dc-4fa9-86fd-0dcf890f40b2",
+            "modSource": 0,
+            "addonID": 641059,
+            "gameID": 432,
+            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
+            "name": "No Shield Delay",
+            "authors": [
+                {
+                    "Name": "QueADV"
+                }
+            ],
+            "primaryAuthor": "QueADV",
+            "primaryCategoryId": 5191,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/no-shield-delay",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/571/582/256/256/637931847267964979.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3863517,
+                "fileName": "no-shield-delay-1.0.0.jar",
+                "fileDate": "2022-07-08T02:22:51.143Z",
+                "fileLength": 243830,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3863/517/no-shield-delay-1.0.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1751914693,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_no-shield-delay",
+                        "fingerprint": 1695546287,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "no-shield-delay.mixins.json",
+                        "fingerprint": 922725180,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4080905923,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 7179376,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "no-shield-delay-refmap.json",
+                        "fingerprint": 683028104,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "qu",
+                        "fingerprint": 745869462,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1175421265,
+                "gameVersion": [
+                    "1.17.1",
+                    "1.18.1",
+                    "1.17",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "Quilt",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.17.1",
+                        "gameVersionName": "1.17.1",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.17",
+                        "gameVersionName": "1.17",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Quilt",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 641059,
+                "FileNameOnDisk": "no-shield-delay-1.0.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "9b9aa2f2f94fb5f148fa0f1cc6087b51166adb98"
+                    },
+                    {
+                        "Value": "835e78ed0e88d0e0435d6ee92c8f450f"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-03T23:44:32.9584536Z",
+            "dateUpdated": "2022-12-03T23:44:32.9624579Z",
+            "dateLastUpdateAttempted": "2022-12-03T23:44:32.9624579Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3863517,
+                "fileName": "no-shield-delay-1.0.0.jar",
+                "fileDate": "2022-07-08T02:22:51.143Z",
+                "fileLength": 243830,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3863/517/no-shield-delay-1.0.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1751914693,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_no-shield-delay",
+                        "fingerprint": 1695546287,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "no-shield-delay.mixins.json",
+                        "fingerprint": 922725180,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4080905923,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 7179376,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "no-shield-delay-refmap.json",
+                        "fingerprint": 683028104,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "qu",
+                        "fingerprint": 745869462,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1175421265,
+                "gameVersion": [
+                    "1.17.1",
+                    "1.18.1",
+                    "1.17",
+                    "Fabric",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.19.1",
+                    "1.18",
+                    "Quilt",
+                    "1.19"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.17.1",
+                        "gameVersionName": "1.17.1",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.17",
+                        "gameVersionName": "1.17",
+                        "gameVersionTypeId": 73242
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.19.2",
+                        "gameVersionName": "1.19.2",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.19.1",
+                        "gameVersionName": "1.19.1",
+                        "gameVersionTypeId": 73407
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Quilt",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.19",
+                        "gameVersionName": "1.19",
+                        "gameVersionTypeId": 73407
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 641059,
+                "FileNameOnDisk": "no-shield-delay-1.0.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "9b9aa2f2f94fb5f148fa0f1cc6087b51166adb98"
+                    },
+                    {
+                        "Value": "835e78ed0e88d0e0435d6ee92c8f450f"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "d21c0e42-2e4c-450f-baff-5b698884e401",
             "modSource": 0,
             "addonID": 446253,
