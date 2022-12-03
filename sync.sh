@@ -6,12 +6,11 @@ source ./config.sh
 # repo="skylore" # name of the git repository.
 # branch="indev" # branch of the git repository. for examle main or master.
 
-repoExists=$(git rev-parse --is-inside-work-tree)
 url="https://github.com/${owner}/${repo}.git"
 
 # code
 git config pull.rebase false
-if [ "$repoExists" ]
+if [ -d .git ]
 then
   git reset --hard
   git pull
