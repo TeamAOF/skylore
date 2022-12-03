@@ -15523,6 +15523,267 @@
             }
         },
         {
+            "instanceID": "ba8c1bf2-f4fe-49eb-a413-e20854f7c24e",
+            "modSource": 0,
+            "addonID": 242223,
+            "gameID": 432,
+            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
+            "name": "Just Enough Calculation",
+            "authors": [
+                {
+                    "Name": "towdium"
+                }
+            ],
+            "primaryAuthor": "towdium",
+            "primaryCategoryId": 423,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/just-enough-calculation",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/35/135/256/256/635920403649554603.jpeg",
+            "tags": [],
+            "installedFile": {
+                "id": 4105451,
+                "fileName": "jecalculation-fabric-1.18.2-4.0.2.jar",
+                "fileDate": "2022-11-23T07:12:50.437Z",
+                "fileLength": 358567,
+                "releaseType": 3,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4105/451/jecalculation-fabric-1.18.2-4.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 803784437,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2917371606,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation-fabric-like.mixins.json",
+                        "fingerprint": 970752473,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation-fabric-like-refmap.json",
+                        "fingerprint": 2187717562,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 694188204,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 2962938982,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation.accesswidener",
+                        "fingerprint": 2454447478,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2446297037,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 1607951085,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_jecalculation_common_1f9875fd64a14f929bce0e7078150d60_00908441145dec60a13c57a25f585fdfa2f7152413d088a90151be394724c4a2jecalculation402devjar",
+                        "fingerprint": 761320738,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_jecalculation_fabriclike_4ff80c04662f4cdaa041a743c4028ba2_f1606a98b22d5e6aaacdffdbb2a34508719c21640344b71d35b91bd0ea7284a6jecalculation402devjar",
+                        "fingerprint": 312126522,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1989261561,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 242223,
+                "FileNameOnDisk": "jecalculation-fabric-1.18.2-4.0.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "4857e82494b32eb2e29b876886a0208a3a8b0158"
+                    },
+                    {
+                        "Value": "49f2d93048512a4ce7f14c480491ff63"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-03T21:52:18.4114929Z",
+            "dateUpdated": "2022-12-03T21:52:18.4174983Z",
+            "dateLastUpdateAttempted": "2022-12-03T21:52:18.4174983Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4105451,
+                "fileName": "jecalculation-fabric-1.18.2-4.0.2.jar",
+                "fileDate": "2022-11-23T07:12:50.437Z",
+                "fileLength": 358567,
+                "releaseType": 3,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4105/451/jecalculation-fabric-1.18.2-4.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 803784437,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2917371606,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation-fabric-like.mixins.json",
+                        "fingerprint": 970752473,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation-fabric-like-refmap.json",
+                        "fingerprint": 2187717562,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 694188204,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 2962938982,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jecalculation.accesswidener",
+                        "fingerprint": 2454447478,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2446297037,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 1607951085,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_jecalculation_common_1f9875fd64a14f929bce0e7078150d60_00908441145dec60a13c57a25f585fdfa2f7152413d088a90151be394724c4a2jecalculation402devjar",
+                        "fingerprint": 761320738,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_jecalculation_fabriclike_4ff80c04662f4cdaa041a743c4028ba2_f1606a98b22d5e6aaacdffdbb2a34508719c21640344b71d35b91bd0ea7284a6jecalculation402devjar",
+                        "fingerprint": 312126522,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1989261561,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 242223,
+                "FileNameOnDisk": "jecalculation-fabric-1.18.2-4.0.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "4857e82494b32eb2e29b876886a0208a3a8b0158"
+                    },
+                    {
+                        "Value": "49f2d93048512a4ce7f14c480491ff63"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "59baf0fd-5e75-439e-a08d-e73c0450ca1d",
             "modSource": 0,
             "addonID": 460336,
