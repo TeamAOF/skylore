@@ -1879,14 +1879,7 @@
                 "projectStatus": 4,
                 "projectId": 317856,
                 "FileNameOnDisk": "expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
-                "Hashes": [
-                    {
-                        "Value": "bb10f8082464b0f84af62866cc2be9bbd3775d55"
-                    },
-                    {
-                        "Value": "af664cd7333751dc8bac1a66ec862101"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:38:01.8970907Z",
             "dateUpdated": "2022-12-03T21:45:53.743854Z",
@@ -2963,14 +2956,7 @@
                 "projectStatus": 4,
                 "projectId": 641059,
                 "FileNameOnDisk": "no-shield-delay-1.0.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "9b9aa2f2f94fb5f148fa0f1cc6087b51166adb98"
-                    },
-                    {
-                        "Value": "835e78ed0e88d0e0435d6ee92c8f450f"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T23:44:32.9584536Z",
             "dateUpdated": "2022-12-03T23:44:32.9624579Z",
@@ -3106,14 +3092,7 @@
                 "projectStatus": 4,
                 "projectId": 641059,
                 "FileNameOnDisk": "no-shield-delay-1.0.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "9b9aa2f2f94fb5f148fa0f1cc6087b51166adb98"
-                    },
-                    {
-                        "Value": "835e78ed0e88d0e0435d6ee92c8f450f"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -4064,14 +4043,7 @@
                 "projectStatus": 4,
                 "projectId": 419697,
                 "FileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": [
-                    {
-                        "Value": "0afaf0dfa0b9157119cbadd56328a05153822cb5"
-                    },
-                    {
-                        "Value": "488c00ce5d0df09fc5e96b09caeb4646"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:46:35.5362109Z",
             "dateUpdated": "2022-12-03T21:46:35.5412161Z",
@@ -4189,14 +4161,7 @@
                 "projectStatus": 4,
                 "projectId": 419697,
                 "FileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": [
-                    {
-                        "Value": "0afaf0dfa0b9157119cbadd56328a05153822cb5"
-                    },
-                    {
-                        "Value": "488c00ce5d0df09fc5e96b09caeb4646"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -11860,6 +11825,220 @@
             }
         },
         {
+            "instanceID": "139203c0-1866-477b-9e3d-829b815d2c6c",
+            "modSource": 0,
+            "addonID": 325625,
+            "gameID": 432,
+            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
+            "name": "Roughly Enough Resources",
+            "authors": [
+                {
+                    "Name": "theorbagain"
+                },
+                {
+                    "Name": "shedaniel"
+                }
+            ],
+            "primaryAuthor": "theorbagain",
+            "primaryCategoryId": 423,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/roughly-enough-resources",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/208/296/256/256/636973565268245966.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3736226,
+                "fileName": "rer-2.5.0.jar",
+                "fileDate": "2022-04-05T16:57:00.677Z",
+                "fileLength": 81566,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3736/226/rer-2.5.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 319057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1594297655,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughresources.mixins.json",
+                        "fingerprint": 3728856645,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3298190551,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "rer-common-refmap.json",
+                        "fingerprint": 1383256899,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1158728435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "uk",
+                        "fingerprint": 3870079649,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_RoughlyEnoughResources_common_33c244493d484f75a04aa92d63af2417_829ad3778e5b732c3f933fec8f1d0fa71546ac1896985c9750e32c000c2d0607rer250devjar",
+                        "fingerprint": 2208698069,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2536337238,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2",
+                    "1.18-Snapshot"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18-Snapshot",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 325625,
+                "FileNameOnDisk": "rer-2.5.0.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-04T14:37:59.8143009Z",
+            "dateUpdated": "2022-12-04T14:37:59.8203064Z",
+            "dateLastUpdateAttempted": "2022-12-04T14:37:59.8203064Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3736226,
+                "fileName": "rer-2.5.0.jar",
+                "fileDate": "2022-04-05T16:57:00.677Z",
+                "fileLength": 81566,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3736/226/rer-2.5.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 319057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1594297655,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughresources.mixins.json",
+                        "fingerprint": 3728856645,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3298190551,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "rer-common-refmap.json",
+                        "fingerprint": 1383256899,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1158728435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "uk",
+                        "fingerprint": 3870079649,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_RoughlyEnoughResources_common_33c244493d484f75a04aa92d63af2417_829ad3778e5b732c3f933fec8f1d0fa71546ac1896985c9750e32c000c2d0607rer250devjar",
+                        "fingerprint": 2208698069,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2536337238,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2",
+                    "1.18-Snapshot"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18-Snapshot",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 325625,
+                "FileNameOnDisk": "rer-2.5.0.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "a253ba87-a8c5-4516-9290-d270d4dd9f5f",
             "modSource": 0,
             "addonID": 335493,
@@ -13174,14 +13353,7 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "6947f1ce92209bf8b438784d2aa1f9ab33191843"
-                    },
-                    {
-                        "Value": "233d1caa1b3bcfded16cbcd2890adb64"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:38:02.0232066Z",
             "dateUpdated": "2022-12-03T21:45:09.9251743Z",
@@ -15936,14 +16108,7 @@
                 "projectStatus": 4,
                 "projectId": 242223,
                 "FileNameOnDisk": "jecalculation-fabric-1.18.2-4.0.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "4857e82494b32eb2e29b876886a0208a3a8b0158"
-                    },
-                    {
-                        "Value": "49f2d93048512a4ce7f14c480491ff63"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:52:18.4114929Z",
             "dateUpdated": "2022-12-03T21:52:18.4174983Z",
@@ -16064,14 +16229,7 @@
                 "projectStatus": 4,
                 "projectId": 242223,
                 "FileNameOnDisk": "jecalculation-fabric-1.18.2-4.0.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "4857e82494b32eb2e29b876886a0208a3a8b0158"
-                    },
-                    {
-                        "Value": "49f2d93048512a4ce7f14c480491ff63"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -36798,6 +36956,195 @@
             }
         },
         {
+            "instanceID": "f831ec01-79b9-444b-ab11-02c736863351",
+            "modSource": 0,
+            "addonID": 664356,
+            "gameID": 432,
+            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
+            "name": "Roughly Enough Trades",
+            "authors": [
+                {
+                    "Name": "GrigLog"
+                }
+            ],
+            "primaryAuthor": "GrigLog",
+            "primaryCategoryId": 5191,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/roughly-enough-trades",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/595/144/256/256/637969652896296205.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3962679,
+                "fileName": "RoughlyEnoughTrades-1.1.1.jar",
+                "fileDate": "2022-09-01T19:45:52.007Z",
+                "fileLength": 23723,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3962/679/RoughlyEnoughTrades-1.1.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1518721435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_trades.mixins.json",
+                        "fingerprint": 2371057231,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_trades.accesswidener",
+                        "fingerprint": 4015808510,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 694061571,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1996626077,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "griglog",
+                        "fingerprint": 3558556215,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1467697415,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 664356,
+                "FileNameOnDisk": "RoughlyEnoughTrades-1.1.1.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-04T14:38:05.9388672Z",
+            "dateUpdated": "2022-12-04T14:38:05.9688951Z",
+            "dateLastUpdateAttempted": "2022-12-04T14:38:05.9688951Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3962679,
+                "fileName": "RoughlyEnoughTrades-1.1.1.jar",
+                "fileDate": "2022-09-01T19:45:52.007Z",
+                "fileLength": 23723,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3962/679/RoughlyEnoughTrades-1.1.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1518721435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_trades.mixins.json",
+                        "fingerprint": 2371057231,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughly_enough_trades.accesswidener",
+                        "fingerprint": 4015808510,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 694061571,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1996626077,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "griglog",
+                        "fingerprint": 3558556215,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1467697415,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 664356,
+                "FileNameOnDisk": "RoughlyEnoughTrades-1.1.1.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "a2e61d91-5ccf-4902-bf26-216831867ce3",
             "modSource": 0,
             "addonID": 319057,
@@ -36914,14 +37261,7 @@
                 "projectStatus": 4,
                 "projectId": 319057,
                 "FileNameOnDisk": "cloth-config-6.2.57-fabric.jar",
-                "Hashes": [
-                    {
-                        "Value": "c52ef239d9d3d3473312d3f57bd8e730155ee5a5"
-                    },
-                    {
-                        "Value": "85b627bfbfa933d83c383a5e7034f496"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:46:35.3560476Z",
             "dateUpdated": "2022-12-03T21:46:35.3600522Z",
@@ -37033,14 +37373,7 @@
                 "projectStatus": 4,
                 "projectId": 319057,
                 "FileNameOnDisk": "cloth-config-6.2.57-fabric.jar",
-                "Hashes": [
-                    {
-                        "Value": "c52ef239d9d3d3473312d3f57bd8e730155ee5a5"
-                    },
-                    {
-                        "Value": "85b627bfbfa933d83c383a5e7034f496"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -39503,14 +39836,7 @@
                 "projectStatus": 4,
                 "projectId": 325492,
                 "FileNameOnDisk": "light-overlay-6.0.5.jar",
-                "Hashes": [
-                    {
-                        "Value": "1c4e17e1557978bb9321cdcf449329a3cd13cfd6"
-                    },
-                    {
-                        "Value": "2eec368f1d48b78c44e3474e58e7a3b3"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-03T21:38:02.0232066Z",
             "dateUpdated": "2022-12-03T21:46:35.6573218Z",
@@ -44588,6 +44914,200 @@
                 "projectStatus": 4,
                 "projectId": 514468,
                 "FileNameOnDisk": "The_Graveyard_1.9.1_(FABRIC)_for_1.18.2.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "54105dd4-b7b9-41bf-80c7-d84424f66a07",
+            "modSource": 0,
+            "addonID": 597988,
+            "gameID": 432,
+            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
+            "name": "Roughly Enough Professions (REP)",
+            "authors": [
+                {
+                    "Name": "Mrbysco"
+                },
+                {
+                    "Name": "ShyNieke"
+                }
+            ],
+            "primaryAuthor": "Mrbysco",
+            "primaryCategoryId": 426,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/roughly-enough-professions-rep",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/515/543/256/256/637838367229161948.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3958778,
+                "fileName": "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                "fileDate": "2022-08-30T15:10:43.54Z",
+                "fileLength": 21208,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3958/778/RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 64471378,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 3655620110,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughprofessions.mixins.json",
+                        "fingerprint": 607757369,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3898529597,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 4109915883,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "RoughlyEnoughProfessions-fabric-1.18.2-refmap.json",
+                        "fingerprint": 780035852,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 3139084540,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1639937523,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 597988,
+                "FileNameOnDisk": "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-04T14:38:10.8213052Z",
+            "dateUpdated": "2022-12-04T14:38:10.8613412Z",
+            "dateLastUpdateAttempted": "2022-12-04T14:38:10.8613412Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3958778,
+                "fileName": "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                "fileDate": "2022-08-30T15:10:43.54Z",
+                "fileLength": 21208,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3958/778/RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 310111,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 64471378,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 3655620110,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "roughlyenoughprofessions.mixins.json",
+                        "fingerprint": 607757369,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3898529597,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 4109915883,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "RoughlyEnoughProfessions-fabric-1.18.2-refmap.json",
+                        "fingerprint": 780035852,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 3139084540,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1639937523,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 597988,
+                "FileNameOnDisk": "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
                 "Hashes": []
             }
         },
