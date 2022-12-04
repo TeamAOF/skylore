@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
 
-    const itemRecipeRemove = [
+    const outputRemove = [
 		'the_extractinator:extractinator',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
@@ -56,26 +56,16 @@ onEvent('recipes', (event) => {
 		'minecraft:netherite_sword',
 		'gateofbabylon:netherite_spear',
 		'campanion:netherite_spear',
-		'medievalweapons:netherite_small_axe',
 		'gateofbabylon:netherite_shield',
 		'gateofbabylon:netherite_rapier',
 		'nyfsquiver:netherite_quiver',
-		'medievalweapons:netherite_ninjato',
-		'medievalweapons:netherite_mace',
-		'medievalweapons:netherite_long_sword',
-		'medievalweapons:netherite_lance',
 		'gateofbabylon:netherite_katana',
-		'medievalweapons:netherite_javeline',
-		'medievalweapons:netherite_healing_staff',
 		'gateofbabylon:netherite_haladie',
-		'medievalweapons:netherite_francisca',
-		'medievalweapons:netherite_dagger',
 		'gateofbabylon:netherite_dagger',
 		'chestcavity:netherite_cleaver',
 		'gateofbabylon:netherite_broadsword',
 		'gateofbabylon:netherite_bow',
 		'gateofbabylon:netherite_boomerang',
-		'medievalweapons:netherite_big_axe',
 		'mcdar:golem_kit',
 		'lootcrates:uncommon_crate_key',
 		'biomemakeover:cladded_leggings',
@@ -239,29 +229,30 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_shulker"
     ];
 
-    itemRecipeRemove.forEach((id) => {
+    outputRemove.forEach((id) => {
         event.remove({'output': id});
     });
 
-	const recipeRemove = [
+	const idRemove = [
 		"createsifter:sifting/gravel_brass_mesh",
 		"createsifter:sifting/gravel_andesite_mesh",
 		"createsifter:sifting/gravel_zinc_mesh",
 		"createsifter:sifting/sand_string_mesh",
 		"createsifter:sifting/sand_zinc_mesh",
 		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh"
+		"createsifter:sifting/sand_brass_mesh",
+		"twilightforest:uncrafting_table"
 	]
 
-    recipeRemove.forEach((id) => {
+    idRemove.forEach((id) => {
         event.remove({'id': id});
     });
 
-	const recipeTypeRemove = [
+	const typeRemove = [
 		"fabricaeexnihilo:sieve"
 	]
 
-	recipeTypeRemove.forEach((id) => {
+	typeRemove.forEach((id) => {
         event.remove({'type': id});
     });
 });
