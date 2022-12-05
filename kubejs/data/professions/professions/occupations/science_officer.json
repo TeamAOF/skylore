@@ -613,7 +613,7 @@
       "unlock": "professions:interaction_unlock",
       "level": 2,
       "items": [
-        "minecraft:artis:botanist_bench"
+        "artis:botanist_bench"
       ]
     }
   ],
