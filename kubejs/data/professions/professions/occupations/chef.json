@@ -676,7 +676,15 @@
       ]
     }
   ],
-  "unlocks": [],
+  "unlocks": [
+          {
+      "unlock": "professions:interaction_unlock",
+      "level": 2,
+      "items": [
+        "minecraft:artis:chef_table"
+      ]
+    }
+  ],
   "modifiers": {
     "milestones": [],
     "perks": []

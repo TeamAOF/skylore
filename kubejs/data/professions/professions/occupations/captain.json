@@ -156,7 +156,15 @@
       ]
     }
   ],
-  "unlocks": [],
+  "unlocks": [
+  {
+      "unlock": "professions:interaction_unlock",
+      "level": 2,
+      "items": [
+        "minecraft:artis:ops_panel"
+      ]
+    }
+	],
   "modifiers": {
     "milestones": [],
     "perks": []

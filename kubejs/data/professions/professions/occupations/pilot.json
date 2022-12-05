@@ -157,7 +157,15 @@
       ]
     }
   ],
-  "unlocks": [],
+  "unlocks": [
+          {
+      "unlock": "professions:interaction_unlock",
+      "level": 2,
+      "items": [
+        "minecraft:artis:flight_planner"
+      ]
+    }
+  ],
   "modifiers": {
     "milestones": [],
     "perks": []
