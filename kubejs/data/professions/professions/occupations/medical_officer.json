@@ -35,7 +35,7 @@
       "unlock": "professions:interaction_unlock",
       "level": 2,
       "items": [
-        "minecraft:artis:examination_table"
+        "artis:examination_table"
       ]
     }
   ],

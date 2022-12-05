@@ -161,7 +161,7 @@
       "unlock": "professions:interaction_unlock",
       "level": 2,
       "items": [
-        "minecraft:artis:ops_panel"
+        "artis:ops_panel"
       ]
     }
 	],
