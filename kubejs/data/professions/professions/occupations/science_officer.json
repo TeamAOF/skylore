@@ -141,17 +141,8 @@
         "minecraft:chicken",
         "minecraft:horse"
       ]
-    }
-  ],
-  "unlocks": [
-        {
-      "unlock": "professions:interaction_unlock",
-      "level": 2,
-      "items": [
-        "minecraft:artis:botanist_bench"
-      ]
     },
-	 {
+	{
       "action": "professions:break_block",
       "conditions": [
         {
@@ -614,6 +605,15 @@
       ],
       "structures": [
         "minecraft:mineshaft_mesa"
+      ]
+    }
+  ],
+  "unlocks": [
+        {
+      "unlock": "professions:interaction_unlock",
+      "level": 2,
+      "items": [
+        "minecraft:artis:botanist_bench"
       ]
     }
   ],
