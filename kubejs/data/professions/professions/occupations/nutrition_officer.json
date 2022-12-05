@@ -6,7 +6,7 @@
     "Earn money and experience",
     "by cooking foods."
   ],
-  "displayName": "Chef",
+  "displayName": "Nutrition Officer",
   "maxLevel": 100,
   "experienceSclEquation": "1000*1.03706264^(lvl-1)",
   "incomeSclEquation": "base",
