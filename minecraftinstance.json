@@ -10577,21 +10577,12 @@
             }
         },
         {
-<<<<<<< HEAD
             "instanceID": "bb80f3a3-b5e0-4cf6-b457-1d06b24b4943",
-=======
-            "instanceID": "c803bf4d-6a03-4568-84f3-aa897e506eb7",
->>>>>>> main
             "modSource": 0,
             "addonID": 459929,
             "gameID": 432,
-<<<<<<< HEAD
             "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
             "name": "Applied Energistics 2 Wireless Terminals",
-=======
-            "gameInstanceID": "d77ec938-d455-45c1-849b-2778c1e49cc8",
-            "name": "Create Fabric",
->>>>>>> main
             "authors": [
                 {
                     "Name": "Mari_023"
@@ -10607,7 +10598,6 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/368/795/256/256/637537459177764432.png",
             "tags": [],
             "installedFile": {
-<<<<<<< HEAD
                 "id": 4071162,
                 "fileName": "AE2WTLib-11.6.3.jar",
                 "fileDate": "2022-11-06T23:40:10.36Z",
@@ -10615,15 +10605,6 @@
                 "releaseType": 1,
                 "fileStatus": 4,
                 "downloadUrl": "https://edge.forgecdn.net/files/4071/162/AE2WTLib-11.6.3.jar",
-=======
-                "id": 4011240,
-                "fileName": "create-fabric-1.18.2-0.5.0e-733.jar",
-                "fileDate": "2022-09-29T03:44:32.763Z",
-                "fileLength": 15894113,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4011/240/create-fabric-1.18.2-0.5.0e-733.jar",
->>>>>>> main
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -10647,7 +10628,6 @@
                 "isAvailable": true,
                 "modules": [
                     {
-<<<<<<< HEAD
                         "foldername": "META-INF",
                         "fingerprint": 601463167,
                         "invalidFingerprint": false
@@ -10694,69 +10674,6 @@
                     }
                 ],
                 "packageFingerprint": 42292867,
-=======
-                        "foldername": "create.accesswidener",
-                        "fingerprint": 3341206328,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "create.mixins.json",
-                        "fingerprint": 3986098786,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1959850269,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "create-fabric-1.18.2-refmap.json",
-                        "fingerprint": 53010387,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 806463427,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4267287375,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_create-fabric-1.18.2",
-                        "fingerprint": 1927476733,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1116056024,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "logo.png",
-                        "fingerprint": 3310685438,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 3216490376,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": ".cache",
-                        "fingerprint": 1080739597,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "resourcepacks",
-                        "fingerprint": 1636862921,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3411332097,
->>>>>>> main
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -10777,7 +10694,6 @@
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-<<<<<<< HEAD
                 "projectId": 459929,
                 "FileNameOnDisk": "AE2WTLib-11.6.3.jar",
                 "Hashes": [
@@ -10793,16 +10709,6 @@
             "dateUpdated": "2022-12-06T22:22:58.9878047Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 4,
-=======
-                "projectId": 624165,
-                "FileNameOnDisk": "create-fabric-1.18.2-0.5.0e-733.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-11-28T20:54:33.6637271Z",
-            "dateUpdated": "2022-11-28T20:54:33.6637271Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 3,
->>>>>>> main
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10910,7 +10816,6 @@
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-<<<<<<< HEAD
                 "projectId": 459929,
                 "FileNameOnDisk": "AE2WTLib-11.6.3.jar",
                 "Hashes": [
@@ -10921,11 +10826,6 @@
                         "Value": "fbf1562c52007a3304dcca6d358e1672"
                     }
                 ]
-=======
-                "projectId": 624165,
-                "FileNameOnDisk": "create-fabric-0.5.0g-792+1.18.2.jar",
-                "Hashes": []
->>>>>>> main
             }
         },
         {
