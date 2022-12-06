@@ -24,7 +24,7 @@ const blockNames = blockIdToBlockName(tags)
 onEvent("rei.group", (event) => {
 
     tags.forEach((tag) => {
-        tagNoModId = tag.slice(tag.search(/[":"]/) + 1)
+        tagNoModId = tag.slice(tag.search(/[:]/) + 1)
         blockNames.forEach((blockName) => {
 
             event.groupItemsByTag(`chipped:rei_groups/${tagNoModId}`, blockName, tag);
