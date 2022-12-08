@@ -172,7 +172,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6224351Z",
             "dateUpdated": "2022-12-06T22:23:00.6224351Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -399,7 +399,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0773082Z",
             "dateUpdated": "2022-12-06T22:23:04.0773082Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -602,7 +602,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6593372Z",
             "dateUpdated": "2022-12-06T22:23:00.6593372Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -798,7 +798,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0812628Z",
             "dateUpdated": "2022-12-06T22:23:04.0812628Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -1030,7 +1030,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0685897Z",
             "dateUpdated": "2022-12-06T22:22:59.0685897Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -1169,13 +1169,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/640/757/256/256/638042285668346158.jpeg",
             "tags": [],
             "installedFile": {
-                "id": 4142220,
-                "fileName": "iris-mc1.18.2-1.4.4.jar",
-                "fileDate": "2022-12-07T16:54:29.2Z",
-                "fileLength": 2628409,
+                "id": 4143799,
+                "fileName": "iris-mc1.18.2-1.4.5.jar",
+                "fileDate": "2022-12-07T21:27:18.84Z",
+                "fileLength": 2628491,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4142/220/iris-mc1.18.2-1.4.4.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4143/799/iris-mc1.18.2-1.4.5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -1213,7 +1213,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 203374357,
+                        "fingerprint": 57987035,
                         "invalidFingerprint": false
                     },
                     {
@@ -1288,11 +1288,11 @@
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 454585529,
+                        "fingerprint": 458025190,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2923972058,
+                "packageFingerprint": 3144778712,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -1320,19 +1320,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 455508,
-                "FileNameOnDisk": "iris-mc1.18.2-1.4.4.jar",
+                "FileNameOnDisk": "iris-mc1.18.2-1.4.5.jar",
                 "Hashes": [
                     {
-                        "Value": "137e25aa7c03700cd13c16fbba882a8edfe386e3"
+                        "Value": "46877a86e21ee9e9353d907596e9b940657d511a"
                     },
                     {
-                        "Value": "9143352e812e528159386b174777b11f"
+                        "Value": "50b35bf11f3fee916cbfc4b9e5c8713d"
                     }
                 ]
             },
             "dateInstalled": "2022-12-06T22:23:04.1490813Z",
-            "dateUpdated": "2022-12-07T19:20:52.6471692Z",
-            "dateLastUpdateAttempted": "2022-12-07T19:20:52.6471692Z",
+            "dateUpdated": "2022-12-08T02:45:05.1689317Z",
+            "dateLastUpdateAttempted": "2022-12-08T02:45:05.1689317Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -1345,13 +1345,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4142220,
-                "fileName": "iris-mc1.18.2-1.4.4.jar",
-                "fileDate": "2022-12-07T16:54:29.2Z",
-                "fileLength": 2628409,
+                "id": 4143799,
+                "fileName": "iris-mc1.18.2-1.4.5.jar",
+                "fileDate": "2022-12-07T21:27:18.84Z",
+                "fileLength": 2628491,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4142/220/iris-mc1.18.2-1.4.4.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4143/799/iris-mc1.18.2-1.4.5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -1389,7 +1389,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 203374357,
+                        "fingerprint": 57987035,
                         "invalidFingerprint": false
                     },
                     {
@@ -1464,11 +1464,11 @@
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 454585529,
+                        "fingerprint": 458025190,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2923972058,
+                "packageFingerprint": 3144778712,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -1496,13 +1496,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 455508,
-                "FileNameOnDisk": "iris-mc1.18.2-1.4.4.jar",
+                "FileNameOnDisk": "iris-mc1.18.2-1.4.5.jar",
                 "Hashes": [
                     {
-                        "Value": "137e25aa7c03700cd13c16fbba882a8edfe386e3"
+                        "Value": "46877a86e21ee9e9353d907596e9b940657d511a"
                     },
                     {
-                        "Value": "9143352e812e528159386b174777b11f"
+                        "Value": "50b35bf11f3fee916cbfc4b9e5c8713d"
                     }
                 ]
             }
@@ -1633,7 +1633,7 @@
             "dateInstalled": "2022-12-06T22:22:58.08226Z",
             "dateUpdated": "2022-12-06T22:22:58.08226Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -1862,7 +1862,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0673285Z",
             "dateUpdated": "2022-12-06T22:23:04.0673285Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -2066,7 +2066,7 @@
             "dateInstalled": "2022-12-06T22:23:04.152073Z",
             "dateUpdated": "2022-12-06T22:23:04.152073Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -2283,7 +2283,7 @@
             "dateInstalled": "2022-12-06T22:23:03.9081077Z",
             "dateUpdated": "2022-12-06T22:23:03.9081077Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -2518,7 +2518,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6693099Z",
             "dateUpdated": "2022-12-06T22:23:00.6693099Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -2789,7 +2789,7 @@
             "dateInstalled": "2022-12-06T22:23:03.9041127Z",
             "dateUpdated": "2022-12-06T22:23:03.9041127Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -3065,7 +3065,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1231518Z",
             "dateUpdated": "2022-12-06T22:23:09.9755903Z",
             "dateLastUpdateAttempted": "2022-12-06T22:23:09.9755903Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -3292,7 +3292,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1311303Z",
             "dateUpdated": "2022-12-06T22:23:04.1311303Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -3486,7 +3486,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0613155Z",
             "dateUpdated": "2022-12-06T22:23:04.0613155Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -3685,7 +3685,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0762754Z",
             "dateUpdated": "2022-12-06T22:23:04.0762754Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -3902,7 +3902,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1191619Z",
             "dateUpdated": "2022-12-06T22:23:04.1191619Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4094,7 +4094,7 @@
             "dateInstalled": "2022-12-06T22:22:59.081557Z",
             "dateUpdated": "2022-12-06T22:22:59.081557Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4312,7 +4312,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6673146Z",
             "dateUpdated": "2022-12-06T22:23:00.6673146Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4550,7 +4550,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6354015Z",
             "dateUpdated": "2022-12-06T22:23:00.6354015Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4795,14 +4795,7 @@
                 "projectStatus": 4,
                 "projectId": 556967,
                 "FileNameOnDisk": "spectrum-1.6.4-1.18.2-leisure_time.jar",
-                "Hashes": [
-                    {
-                        "Value": "94c1d707bb463bb5a0a3be48cb22133bac7e4b5b"
-                    },
-                    {
-                        "Value": "2a805a5583556365e604883b45588da3"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:26.4427142Z",
             "dateUpdated": "2022-12-07T19:20:52.8825497Z",
@@ -4935,14 +4928,7 @@
                 "projectStatus": 4,
                 "projectId": 556967,
                 "FileNameOnDisk": "spectrum-1.6.4-1.18.2-leisure_time.jar",
-                "Hashes": [
-                    {
-                        "Value": "94c1d707bb463bb5a0a3be48cb22133bac7e4b5b"
-                    },
-                    {
-                        "Value": "2a805a5583556365e604883b45588da3"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -5046,7 +5032,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0626061Z",
             "dateUpdated": "2022-12-06T22:22:59.0626061Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -5486,7 +5472,7 @@
             "dateInstalled": "2022-12-06T22:22:58.9897996Z",
             "dateUpdated": "2022-12-06T22:22:58.9897996Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -5688,7 +5674,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1161704Z",
             "dateUpdated": "2022-12-06T22:23:04.1161704Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -5888,7 +5874,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1071925Z",
             "dateUpdated": "2022-12-06T22:23:04.1071925Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6108,7 +6094,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6553479Z",
             "dateUpdated": "2022-12-06T22:23:00.6553479Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6328,7 +6314,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1241488Z",
             "dateUpdated": "2022-12-06T22:23:04.1241488Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6547,7 +6533,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0573285Z",
             "dateUpdated": "2022-12-06T22:23:04.0573285Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6769,7 +6755,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0463559Z",
             "dateUpdated": "2022-12-06T22:23:04.0463559Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6986,7 +6972,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0443964Z",
             "dateUpdated": "2022-12-06T22:23:04.0443964Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7210,7 +7196,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6473693Z",
             "dateUpdated": "2022-12-06T22:23:00.6473693Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7457,7 +7443,7 @@
             "dateInstalled": "2022-12-06T22:23:03.9070835Z",
             "dateUpdated": "2022-12-06T22:23:03.9070835Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7712,7 +7698,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0586169Z",
             "dateUpdated": "2022-12-06T22:22:59.0586169Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7929,7 +7915,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6184463Z",
             "dateUpdated": "2022-12-06T22:23:00.6184463Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -8132,7 +8118,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6393912Z",
             "dateUpdated": "2022-12-06T22:23:00.6393912Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -8362,7 +8348,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1481633Z",
             "dateUpdated": "2022-12-06T22:23:04.1481633Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -8581,7 +8567,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6024882Z",
             "dateUpdated": "2022-12-06T22:23:00.6024882Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -8787,7 +8773,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0403716Z",
             "dateUpdated": "2022-12-06T22:23:04.0403716Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -9006,7 +8992,7 @@
             "dateInstalled": "2022-12-06T22:23:04.054369Z",
             "dateUpdated": "2022-12-06T22:23:04.054369Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -9201,7 +9187,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0855434Z",
             "dateUpdated": "2022-12-06T22:22:59.0855434Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -9373,7 +9359,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1221542Z",
             "dateUpdated": "2022-12-06T22:23:04.1221542Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -9584,7 +9570,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0653049Z",
             "dateUpdated": "2022-12-06T22:23:04.0653049Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -9800,7 +9786,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0476447Z",
             "dateUpdated": "2022-12-06T22:22:59.0476447Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10004,7 +9990,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6383936Z",
             "dateUpdated": "2022-12-06T22:23:00.6383936Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10217,7 +10203,7 @@
             "dateInstalled": "2022-12-06T22:22:59.086541Z",
             "dateUpdated": "2022-12-06T22:22:59.086541Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10418,7 +10404,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1291352Z",
             "dateUpdated": "2022-12-06T22:23:04.1291352Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10624,7 +10610,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0286978Z",
             "dateUpdated": "2022-12-06T22:22:59.0286978Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10860,7 +10846,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1271405Z",
             "dateUpdated": "2022-12-06T22:23:04.1271405Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11110,7 +11096,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6663186Z",
             "dateUpdated": "2022-12-06T22:23:00.6663186Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11335,7 +11321,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0593212Z",
             "dateUpdated": "2022-12-06T22:23:04.0593212Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11552,7 +11538,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0566213Z",
             "dateUpdated": "2022-12-06T22:22:59.0566213Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11748,7 +11734,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0633517Z",
             "dateUpdated": "2022-12-06T22:23:04.0633517Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11934,7 +11920,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0895346Z",
             "dateUpdated": "2022-12-06T22:22:59.0895346Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12113,7 +12099,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1531374Z",
             "dateUpdated": "2022-12-06T22:23:04.1531374Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12312,7 +12298,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1211573Z",
             "dateUpdated": "2022-12-06T22:23:04.1211573Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12555,7 +12541,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0795594Z",
             "dateUpdated": "2022-12-06T22:22:59.0795594Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12822,7 +12808,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0336829Z",
             "dateUpdated": "2022-12-06T22:22:59.0336829Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -13158,7 +13144,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6363993Z",
             "dateUpdated": "2022-12-06T22:23:00.6363993Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -13467,7 +13453,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0523398Z",
             "dateUpdated": "2022-12-06T22:23:04.0523398Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -13666,7 +13652,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0822595Z",
             "dateUpdated": "2022-12-06T22:23:04.0822595Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -13911,7 +13897,7 @@
             "dateInstalled": "2022-12-06T22:23:04.069295Z",
             "dateUpdated": "2022-12-06T22:23:04.069295Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -14165,7 +14151,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0267011Z",
             "dateUpdated": "2022-12-06T22:22:59.0267011Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -14378,7 +14364,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6034854Z",
             "dateUpdated": "2022-12-06T22:23:00.6034854Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -14591,7 +14577,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0892689Z",
             "dateUpdated": "2022-12-06T22:23:04.0892689Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -14813,7 +14799,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6643228Z",
             "dateUpdated": "2022-12-06T22:23:00.6643228Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -15039,7 +15025,7 @@
             "dateInstalled": "2022-12-06T22:22:59.038669Z",
             "dateUpdated": "2022-12-06T22:22:59.038669Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -15253,7 +15239,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1081904Z",
             "dateUpdated": "2022-12-06T22:23:04.1081904Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -15465,7 +15451,7 @@
             "dateInstalled": "2022-12-06T22:23:00.631411Z",
             "dateUpdated": "2022-12-06T22:23:00.631411Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -15697,7 +15683,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0832668Z",
             "dateUpdated": "2022-12-06T22:23:04.0832668Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -15902,7 +15888,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6583393Z",
             "dateUpdated": "2022-12-06T22:23:00.6583393Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16090,7 +16076,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6114644Z",
             "dateUpdated": "2022-12-06T22:23:00.6114644Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16271,7 +16257,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6373953Z",
             "dateUpdated": "2022-12-06T22:23:00.6373953Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16443,7 +16429,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1131778Z",
             "dateUpdated": "2022-12-06T22:23:04.1131778Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16658,7 +16644,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0636034Z",
             "dateUpdated": "2022-12-06T22:22:59.0636034Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16885,7 +16871,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6334052Z",
             "dateUpdated": "2022-12-06T22:23:00.6334052Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -17089,7 +17075,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0885359Z",
             "dateUpdated": "2022-12-06T22:22:59.0885359Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -17195,16 +17181,20 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/310/137/256/256/637397690731730986.png",
             "tags": [],
             "installedFile": {
-                "id": 4083360,
-                "fileName": "fancymenu_fabric_2.12.9_MC_1.18.2.jar",
-                "fileDate": "2022-11-13T00:41:00.71Z",
-                "fileLength": 1000994,
+                "id": 4145042,
+                "fileName": "fancymenu_fabric_2.13.0_MC_1.18.2.jar",
+                "fileDate": "2022-12-08T01:12:38.337Z",
+                "fileLength": 1134927,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4083/360/fancymenu_fabric_2.12.9_MC_1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4145/42/fancymenu_fabric_2.13.0_MC_1.18.2.jar",
                 "isAlternate": false,
-                "alternateFileId": 4083361,
+                "alternateFileId": 4145043,
                 "dependencies": [
+                    {
+                        "addonId": 416797,
+                        "type": 3
+                    },
                     {
                         "addonId": 306612,
                         "type": 3
@@ -17212,10 +17202,6 @@
                     {
                         "addonId": 534835,
                         "type": 2
-                    },
-                    {
-                        "addonId": 416797,
-                        "type": 3
                     }
                 ],
                 "isAvailable": true,
@@ -17237,12 +17223,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1282734193,
+                        "fingerprint": 2980545405,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1468449773,
+                        "fingerprint": 939582108,
                         "invalidFingerprint": false
                     },
                     {
@@ -17252,11 +17238,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 2433351636,
+                        "fingerprint": 3104588464,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3322425734,
+                "packageFingerprint": 2563385468,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -17278,12 +17264,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 416796,
-                "FileNameOnDisk": "fancymenu_fabric_2.12.9_MC_1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "fancymenu_fabric_2.13.0_MC_1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "784118f718452cc5cb43292021e67c9a4ae839a7"
+                    },
+                    {
+                        "Value": "21209a1862f5d2ebc6f782f5c6d06186"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-06T22:23:00.6613315Z",
-            "dateUpdated": "2022-12-06T22:23:00.6613315Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "dateUpdated": "2022-12-08T02:45:03.6256395Z",
+            "dateLastUpdateAttempted": "2022-12-08T02:45:03.6256395Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -17296,16 +17289,20 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4083360,
-                "fileName": "fancymenu_fabric_2.12.9_MC_1.18.2.jar",
-                "fileDate": "2022-11-13T00:41:00.71Z",
-                "fileLength": 1000994,
+                "id": 4145042,
+                "fileName": "fancymenu_fabric_2.13.0_MC_1.18.2.jar",
+                "fileDate": "2022-12-08T01:12:38.337Z",
+                "fileLength": 1134927,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4083/360/fancymenu_fabric_2.12.9_MC_1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4145/42/fancymenu_fabric_2.13.0_MC_1.18.2.jar",
                 "isAlternate": false,
-                "alternateFileId": 4083361,
+                "alternateFileId": 4145043,
                 "dependencies": [
+                    {
+                        "addonId": 416797,
+                        "type": 3
+                    },
                     {
                         "addonId": 306612,
                         "type": 3
@@ -17313,10 +17310,6 @@
                     {
                         "addonId": 534835,
                         "type": 2
-                    },
-                    {
-                        "addonId": 416797,
-                        "type": 3
                     }
                 ],
                 "isAvailable": true,
@@ -17338,12 +17331,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1282734193,
+                        "fingerprint": 2980545405,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1468449773,
+                        "fingerprint": 939582108,
                         "invalidFingerprint": false
                     },
                     {
@@ -17353,11 +17346,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 2433351636,
+                        "fingerprint": 3104588464,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3322425734,
+                "packageFingerprint": 2563385468,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -17379,8 +17372,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 416796,
-                "FileNameOnDisk": "fancymenu_fabric_2.12.9_MC_1.18.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "fancymenu_fabric_2.13.0_MC_1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "784118f718452cc5cb43292021e67c9a4ae839a7"
+                    },
+                    {
+                        "Value": "21209a1862f5d2ebc6f782f5c6d06186"
+                    }
+                ]
             }
         },
         {
@@ -17484,7 +17484,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1111834Z",
             "dateUpdated": "2022-12-06T22:23:04.1111834Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -17672,14 +17672,7 @@
                 "projectStatus": 4,
                 "projectId": 353928,
                 "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
-                "Hashes": [
-                    {
-                        "Value": "1e4041bc2e56872a8e906e2eb5c8f13f0987a451"
-                    },
-                    {
-                        "Value": "ca223d1fc5704ecb1406c88d9c051b23"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:22:58.9927915Z",
             "dateUpdated": "2022-12-07T19:20:53.432947Z",
@@ -17773,14 +17766,7 @@
                 "projectStatus": 4,
                 "projectId": 353928,
                 "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
-                "Hashes": [
-                    {
-                        "Value": "1e4041bc2e56872a8e906e2eb5c8f13f0987a451"
-                    },
-                    {
-                        "Value": "ca223d1fc5704ecb1406c88d9c051b23"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -17905,7 +17891,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1321284Z",
             "dateUpdated": "2022-12-06T22:23:04.1321284Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18133,7 +18119,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0424051Z",
             "dateUpdated": "2022-12-06T22:23:04.0424051Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18345,7 +18331,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1550652Z",
             "dateUpdated": "2022-12-06T22:23:04.1550652Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18591,7 +18577,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0942281Z",
             "dateUpdated": "2022-12-06T22:23:04.0942281Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18832,7 +18818,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6413855Z",
             "dateUpdated": "2022-12-06T22:23:00.6413855Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -19029,7 +19015,7 @@
             "dateInstalled": "2022-12-06T22:22:59.029693Z",
             "dateUpdated": "2022-12-06T22:22:59.029693Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -19235,7 +19221,7 @@
             "dateInstalled": "2022-12-06T22:23:04.062348Z",
             "dateUpdated": "2022-12-06T22:23:04.062348Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -19457,7 +19443,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0356771Z",
             "dateUpdated": "2022-12-06T22:22:59.0356771Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -19703,7 +19689,7 @@
             "dateInstalled": "2022-12-06T22:23:04.075314Z",
             "dateUpdated": "2022-12-06T22:23:04.075314Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -19941,7 +19927,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0932305Z",
             "dateUpdated": "2022-12-06T22:23:04.0932305Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -20168,7 +20154,7 @@
             "dateInstalled": "2022-12-06T22:23:00.5994958Z",
             "dateUpdated": "2022-12-06T22:23:00.5994958Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -20390,7 +20376,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0583589Z",
             "dateUpdated": "2022-12-06T22:23:04.0583589Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -20622,7 +20608,7 @@
             "dateInstalled": "2022-12-06T22:23:04.134126Z",
             "dateUpdated": "2022-12-06T22:23:04.134126Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -20848,7 +20834,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0443964Z",
             "dateUpdated": "2022-12-06T22:23:04.0443964Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -21045,7 +21031,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1052328Z",
             "dateUpdated": "2022-12-06T22:23:04.1052328Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -21259,7 +21245,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6483664Z",
             "dateUpdated": "2022-12-06T22:23:00.6483664Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -21497,7 +21483,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0526328Z",
             "dateUpdated": "2022-12-06T22:22:59.0526328Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -21704,7 +21690,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6094691Z",
             "dateUpdated": "2022-12-06T22:23:00.6094691Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -21904,7 +21890,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1331251Z",
             "dateUpdated": "2022-12-06T22:23:04.1331251Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -22113,7 +22099,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0825519Z",
             "dateUpdated": "2022-12-06T22:22:59.0825519Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -22351,7 +22337,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0663028Z",
             "dateUpdated": "2022-12-06T22:23:04.0663028Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -22865,7 +22851,7 @@
             "dateInstalled": "2022-12-06T22:22:58.9878047Z",
             "dateUpdated": "2022-12-06T22:22:58.9878047Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23084,7 +23070,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0606108Z",
             "dateUpdated": "2022-12-06T22:22:59.0606108Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23261,7 +23247,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0513773Z",
             "dateUpdated": "2022-12-06T22:23:04.0513773Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23452,7 +23438,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0755709Z",
             "dateUpdated": "2022-12-06T22:22:59.0755709Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23685,7 +23671,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6154543Z",
             "dateUpdated": "2022-12-06T22:23:00.6154543Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23894,7 +23880,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6064773Z",
             "dateUpdated": "2022-12-06T22:23:00.6064773Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -24115,7 +24101,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0882738Z",
             "dateUpdated": "2022-12-06T22:23:04.0882738Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -24356,7 +24342,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1141741Z",
             "dateUpdated": "2022-12-06T22:23:04.1141741Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -24587,7 +24573,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1261433Z",
             "dateUpdated": "2022-12-06T22:23:04.1261433Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -24807,7 +24793,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0683323Z",
             "dateUpdated": "2022-12-06T22:23:04.0683323Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25022,7 +25008,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1510746Z",
             "dateUpdated": "2022-12-06T22:23:04.1510746Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25239,7 +25225,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6214375Z",
             "dateUpdated": "2022-12-06T22:23:00.6214375Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25466,7 +25452,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6144563Z",
             "dateUpdated": "2022-12-06T22:23:00.6144563Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25712,7 +25698,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6014907Z",
             "dateUpdated": "2022-12-06T22:23:00.6014907Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25959,7 +25945,7 @@
             "dateInstalled": "2022-12-06T22:22:58.9858102Z",
             "dateUpdated": "2022-12-06T22:22:58.9858102Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -26187,7 +26173,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1540676Z",
             "dateUpdated": "2022-12-06T22:23:04.1540676Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -26407,7 +26393,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1201592Z",
             "dateUpdated": "2022-12-06T22:23:04.1201592Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -26614,7 +26600,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1221542Z",
             "dateUpdated": "2022-12-06T22:23:04.1221542Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -26810,7 +26796,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6344024Z",
             "dateUpdated": "2022-12-06T22:23:00.6344024Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -27004,7 +26990,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1531374Z",
             "dateUpdated": "2022-12-06T22:23:04.1531374Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -27201,7 +27187,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6034854Z",
             "dateUpdated": "2022-12-06T22:23:00.6034854Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -27407,7 +27393,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6453745Z",
             "dateUpdated": "2022-12-06T22:23:00.6453745Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -27621,7 +27607,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1052328Z",
             "dateUpdated": "2022-12-06T22:23:04.1052328Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -27835,7 +27821,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1251459Z",
             "dateUpdated": "2022-12-06T22:23:04.1251459Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -28064,7 +28050,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0912355Z",
             "dateUpdated": "2022-12-06T22:23:04.0912355Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -28301,7 +28287,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0982749Z",
             "dateUpdated": "2022-12-06T22:23:04.0982749Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -28514,7 +28500,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0665941Z",
             "dateUpdated": "2022-12-06T22:22:59.0665941Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -28753,7 +28739,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0473883Z",
             "dateUpdated": "2022-12-06T22:23:04.0473883Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -29008,7 +28994,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1002117Z",
             "dateUpdated": "2022-12-06T22:23:04.1002117Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -29242,7 +29228,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0316879Z",
             "dateUpdated": "2022-12-06T22:22:59.0316879Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -29443,7 +29429,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6633258Z",
             "dateUpdated": "2022-12-06T22:23:00.6633258Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -29713,7 +29699,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0486425Z",
             "dateUpdated": "2022-12-06T22:22:59.0486425Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30007,7 +29993,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0922411Z",
             "dateUpdated": "2022-12-06T22:23:04.0922411Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30228,7 +30214,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0655987Z",
             "dateUpdated": "2022-12-06T22:22:59.0655987Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30465,7 +30451,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6533527Z",
             "dateUpdated": "2022-12-06T22:23:00.6533527Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30687,7 +30673,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0493825Z",
             "dateUpdated": "2022-12-06T22:23:04.0493825Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30874,7 +30860,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0503798Z",
             "dateUpdated": "2022-12-06T22:23:04.0503798Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31061,7 +31047,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0483857Z",
             "dateUpdated": "2022-12-06T22:23:04.0483857Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31253,7 +31239,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1151733Z",
             "dateUpdated": "2022-12-06T22:23:04.1151733Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31445,7 +31431,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1361173Z",
             "dateUpdated": "2022-12-06T22:23:04.1361173Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31643,7 +31629,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0643068Z",
             "dateUpdated": "2022-12-06T22:23:04.0643068Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31849,7 +31835,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0456502Z",
             "dateUpdated": "2022-12-06T22:22:59.0456502Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32059,7 +32045,7 @@
             "dateInstalled": "2022-12-06T22:23:00.640387Z",
             "dateUpdated": "2022-12-06T22:23:00.640387Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32273,7 +32259,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0872743Z",
             "dateUpdated": "2022-12-06T22:23:04.0872743Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32512,7 +32498,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6423816Z",
             "dateUpdated": "2022-12-06T22:23:00.6423816Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32751,7 +32737,7 @@
             "dateInstalled": "2022-12-06T22:22:58.9917997Z",
             "dateUpdated": "2022-12-06T22:22:58.9917997Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32972,7 +32958,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0792685Z",
             "dateUpdated": "2022-12-06T22:23:04.0792685Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -33187,7 +33173,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0463559Z",
             "dateUpdated": "2022-12-06T22:23:04.0463559Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -33417,7 +33403,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0775654Z",
             "dateUpdated": "2022-12-06T22:22:59.0775654Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -33661,14 +33647,7 @@
                 "projectStatus": 4,
                 "projectId": 639842,
                 "FileNameOnDisk": "bettercombat-fabric-1.5.2+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "36f23454bd391d8fd7bcca374d5fcc5d1c9b488b"
-                    },
-                    {
-                        "Value": "4a88c67a93357d2ba019748bc10de9c2"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:22:59.0735763Z",
             "dateUpdated": "2022-12-07T19:20:54.8862149Z",
@@ -33789,14 +33768,7 @@
                 "projectStatus": 4,
                 "projectId": 639842,
                 "FileNameOnDisk": "bettercombat-fabric-1.5.2+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "36f23454bd391d8fd7bcca374d5fcc5d1c9b488b"
-                    },
-                    {
-                        "Value": "4a88c67a93357d2ba019748bc10de9c2"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -33917,7 +33889,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1022426Z",
             "dateUpdated": "2022-12-06T22:23:04.1022426Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34121,7 +34093,7 @@
             "dateInstalled": "2022-12-06T22:23:18.741592Z",
             "dateUpdated": "2022-12-06T22:23:18.7445842Z",
             "dateLastUpdateAttempted": "2022-12-06T22:23:18.7445842Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34318,7 +34290,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0782694Z",
             "dateUpdated": "2022-12-06T22:23:04.0782694Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34519,7 +34491,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1291352Z",
             "dateUpdated": "2022-12-06T22:23:04.1291352Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34715,7 +34687,7 @@
             "dateInstalled": "2022-12-06T22:23:00.619443Z",
             "dateUpdated": "2022-12-06T22:23:00.619443Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34917,7 +34889,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0972204Z",
             "dateUpdated": "2022-12-06T22:23:04.0972204Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35121,7 +35093,7 @@
             "dateInstalled": "2022-12-06T22:23:03.909078Z",
             "dateUpdated": "2022-12-06T22:23:10.7942269Z",
             "dateLastUpdateAttempted": "2022-12-06T22:23:10.7942269Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35325,7 +35297,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0633517Z",
             "dateUpdated": "2022-12-06T22:23:04.0633517Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35552,7 +35524,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0546265Z",
             "dateUpdated": "2022-12-06T22:22:59.0546265Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35784,7 +35756,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0715817Z",
             "dateUpdated": "2022-12-06T22:22:59.0715817Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35905,13 +35877,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/246/646/256/256/637158441743060329.png",
             "tags": [],
             "installedFile": {
-                "id": 4081372,
-                "fileName": "lithium-fabric-mc1.18.2-0.10.2.jar",
-                "fileDate": "2022-11-11T20:43:47.28Z",
-                "fileLength": 548923,
+                "id": 4143613,
+                "fileName": "lithium-fabric-mc1.18.2-0.10.3.jar",
+                "fileDate": "2022-12-07T20:04:12.887Z",
+                "fileLength": 555165,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4081/372/lithium-fabric-mc1.18.2-0.10.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4143/613/lithium-fabric-mc1.18.2-0.10.3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -35943,7 +35915,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3219867671,
+                        "fingerprint": 1931178134,
                         "invalidFingerprint": false
                     },
                     {
@@ -35953,21 +35925,21 @@
                     },
                     {
                         "foldername": "lithium.mixins.json",
-                        "fingerprint": 4023429212,
+                        "fingerprint": 886247100,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 384907986,
+                        "fingerprint": 107046752,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "mixins.lithium.refmap.json",
-                        "fingerprint": 3540966685,
+                        "fingerprint": 416562910,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3455346683,
+                "packageFingerprint": 4216689722,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -35989,12 +35961,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 360438,
-                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.3.jar",
+                "Hashes": [
+                    {
+                        "Value": "d47d223403bbc4d14748141cdddc4beeb451fe4e"
+                    },
+                    {
+                        "Value": "614a5084aeebac0f914525bec199150a"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-06T22:23:04.10622Z",
-            "dateUpdated": "2022-12-06T22:23:04.10622Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "dateUpdated": "2022-12-08T02:45:06.4676338Z",
+            "dateLastUpdateAttempted": "2022-12-08T02:45:06.4676338Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -36007,13 +35986,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4081372,
-                "fileName": "lithium-fabric-mc1.18.2-0.10.2.jar",
-                "fileDate": "2022-11-11T20:43:47.28Z",
-                "fileLength": 548923,
+                "id": 4143613,
+                "fileName": "lithium-fabric-mc1.18.2-0.10.3.jar",
+                "fileDate": "2022-12-07T20:04:12.887Z",
+                "fileLength": 555165,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4081/372/lithium-fabric-mc1.18.2-0.10.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4143/613/lithium-fabric-mc1.18.2-0.10.3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -36045,7 +36024,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3219867671,
+                        "fingerprint": 1931178134,
                         "invalidFingerprint": false
                     },
                     {
@@ -36055,21 +36034,21 @@
                     },
                     {
                         "foldername": "lithium.mixins.json",
-                        "fingerprint": 4023429212,
+                        "fingerprint": 886247100,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 384907986,
+                        "fingerprint": 107046752,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "mixins.lithium.refmap.json",
-                        "fingerprint": 3540966685,
+                        "fingerprint": 416562910,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3455346683,
+                "packageFingerprint": 4216689722,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -36091,8 +36070,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 360438,
-                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.2.jar",
-                "Hashes": []
+                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.3.jar",
+                "Hashes": [
+                    {
+                        "Value": "d47d223403bbc4d14748141cdddc4beeb451fe4e"
+                    },
+                    {
+                        "Value": "614a5084aeebac0f914525bec199150a"
+                    }
+                ]
             }
         },
         {
@@ -36204,7 +36190,7 @@
             "dateInstalled": "2022-12-06T22:23:03.9060851Z",
             "dateUpdated": "2022-12-06T22:23:03.9060851Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -36424,7 +36410,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0393756Z",
             "dateUpdated": "2022-12-06T22:23:04.0393756Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -36660,7 +36646,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6503605Z",
             "dateUpdated": "2022-12-06T22:23:00.6503605Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -36877,7 +36863,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0406638Z",
             "dateUpdated": "2022-12-06T22:22:59.0406638Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37109,7 +37095,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1171673Z",
             "dateUpdated": "2022-12-06T22:23:04.1171673Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37357,7 +37343,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6523564Z",
             "dateUpdated": "2022-12-06T22:23:00.6523564Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37593,7 +37579,7 @@
             "dateInstalled": "2022-12-06T22:23:04.084254Z",
             "dateUpdated": "2022-12-06T22:23:04.084254Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37800,7 +37786,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6124612Z",
             "dateUpdated": "2022-12-06T22:23:00.6124612Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37995,7 +37981,7 @@
             "dateInstalled": "2022-12-06T22:23:04.053372Z",
             "dateUpdated": "2022-12-06T22:23:04.053372Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -38207,7 +38193,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1131778Z",
             "dateUpdated": "2022-12-06T22:23:04.1131778Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -38453,7 +38439,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1121807Z",
             "dateUpdated": "2022-12-06T22:23:04.1121807Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -38680,7 +38666,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0862491Z",
             "dateUpdated": "2022-12-06T22:23:04.0862491Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -38886,7 +38872,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6573418Z",
             "dateUpdated": "2022-12-06T22:23:00.6573418Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -39105,7 +39091,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0553667Z",
             "dateUpdated": "2022-12-06T22:23:04.0553667Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -39312,7 +39298,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0603458Z",
             "dateUpdated": "2022-12-06T22:23:04.0603458Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -39522,7 +39508,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1092277Z",
             "dateUpdated": "2022-12-06T22:23:04.1092277Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -39754,7 +39740,7 @@
             "dateInstalled": "2022-12-06T22:23:04.096257Z",
             "dateUpdated": "2022-12-06T22:23:04.096257Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -39963,7 +39949,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0593212Z",
             "dateUpdated": "2022-12-06T22:23:04.0593212Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -40153,7 +40139,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0433635Z",
             "dateUpdated": "2022-12-06T22:23:04.0433635Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -40356,7 +40342,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0413701Z",
             "dateUpdated": "2022-12-06T22:23:04.0413701Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -40566,7 +40552,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6513578Z",
             "dateUpdated": "2022-12-06T22:23:00.6513578Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -40796,7 +40782,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0852792Z",
             "dateUpdated": "2022-12-06T22:23:04.0852792Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -41075,7 +41061,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6294168Z",
             "dateUpdated": "2022-12-06T22:23:00.6294168Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -41433,7 +41419,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0803011Z",
             "dateUpdated": "2022-12-06T22:23:04.0803011Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -41891,7 +41877,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0426584Z",
             "dateUpdated": "2022-12-06T22:22:59.0426584Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -42253,7 +42239,7 @@
             "dateInstalled": "2022-12-06T22:23:04.074317Z",
             "dateUpdated": "2022-12-06T22:23:04.074317Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -42499,7 +42485,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0902651Z",
             "dateUpdated": "2022-12-06T22:23:04.0902651Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -42622,198 +42608,6 @@
                 "projectStatus": 4,
                 "projectId": 391378,
                 "FileNameOnDisk": "Oh_The_Biomes_You'll_Go-fabric-1.18.2-1.4.7.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
-            "modSource": 0,
-            "addonID": 225738,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "MmmMmmMmmMmm (Target Dummy)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "MehVahdJukaar"
-                }
-            ],
-            "primaryAuthor": "MehVahdJukaar",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
-            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
                 "Hashes": []
             }
         },
@@ -42966,7 +42760,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0513773Z",
             "dateUpdated": "2022-12-06T22:23:04.0513773Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -43106,6 +42900,198 @@
             }
         },
         {
+            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
+            "modSource": 0,
+            "addonID": 225738,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "MmmMmmMmmMmm (Target Dummy)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "MehVahdJukaar"
+                }
+            ],
+            "primaryAuthor": "MehVahdJukaar",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
+            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "96b32346-7518-4811-a970-7d32b4e498ca",
             "modSource": 0,
             "addonID": 356118,
@@ -43211,7 +43197,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6324081Z",
             "dateUpdated": "2022-12-06T22:23:00.6324081Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -43417,7 +43403,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1181653Z",
             "dateUpdated": "2022-12-06T22:23:04.1181653Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -43624,7 +43610,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1301329Z",
             "dateUpdated": "2022-12-06T22:23:04.1301329Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -43867,7 +43853,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0563675Z",
             "dateUpdated": "2022-12-06T22:23:04.0563675Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -44135,7 +44121,7 @@
             "dateInstalled": "2022-12-06T22:23:34.3951142Z",
             "dateUpdated": "2022-12-06T22:23:34.4050898Z",
             "dateLastUpdateAttempted": "2022-12-06T22:23:34.4050898Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -44385,7 +44371,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6104666Z",
             "dateUpdated": "2022-12-06T22:23:00.6104666Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -44488,224 +44474,6 @@
                 "projectStatus": 4,
                 "projectId": 392015,
                 "FileNameOnDisk": "eldritch-mobs-1.11.7.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "506bddc5-041b-4d1c-bc4e-e6754a02d12a",
-            "modSource": 0,
-            "addonID": 391708,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Industrial Revolution",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "GabrielHOlv"
-                }
-            ],
-            "primaryAuthor": "GabrielHOlv",
-            "primaryCategoryId": 412,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/industrial-revolution",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/292/719/256/256/637326741883981172.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3759591,
-                "fileName": "indrev-1.14.0-BETA.jar",
-                "fileDate": "2022-04-19T18:55:14.623Z",
-                "fileLength": 5902279,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 393236,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308769,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 14131001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.mixins.json",
-                        "fingerprint": 1057995050,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.accesswidener",
-                        "fingerprint": 1295287866,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1129345055,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 218113863,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 374646555,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev-refmap.json",
-                        "fingerprint": 527808825,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 4039144352,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1781057834,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 391708,
-                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:04.1022426Z",
-            "dateUpdated": "2022-12-06T22:23:04.1022426Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3759591,
-                "fileName": "indrev-1.14.0-BETA.jar",
-                "fileDate": "2022-04-19T18:55:14.623Z",
-                "fileLength": 5902279,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 393236,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308769,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 14131001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.mixins.json",
-                        "fingerprint": 1057995050,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.accesswidener",
-                        "fingerprint": 1295287866,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1129345055,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 218113863,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 374646555,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev-refmap.json",
-                        "fingerprint": 527808825,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 4039144352,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1781057834,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 391708,
-                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
                 "Hashes": []
             }
         },
@@ -44834,7 +44602,7 @@
             "dateInstalled": "2022-12-06T22:23:04.0992142Z",
             "dateUpdated": "2022-12-06T22:23:04.0992142Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -44943,6 +44711,224 @@
                 "projectStatus": 4,
                 "projectId": 426206,
                 "FileNameOnDisk": "mcda-2.0.7.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "506bddc5-041b-4d1c-bc4e-e6754a02d12a",
+            "modSource": 0,
+            "addonID": 391708,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Industrial Revolution",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "GabrielHOlv"
+                }
+            ],
+            "primaryAuthor": "GabrielHOlv",
+            "primaryCategoryId": 412,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/industrial-revolution",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/292/719/256/256/637326741883981172.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3759591,
+                "fileName": "indrev-1.14.0-BETA.jar",
+                "fileDate": "2022-04-19T18:55:14.623Z",
+                "fileLength": 5902279,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 393236,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 14131001,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.mixins.json",
+                        "fingerprint": 1057995050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.accesswidener",
+                        "fingerprint": 1295287866,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1129345055,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 218113863,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 374646555,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev-refmap.json",
+                        "fingerprint": 527808825,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 4039144352,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1781057834,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 391708,
+                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:04.1022426Z",
+            "dateUpdated": "2022-12-06T22:23:04.1022426Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3759591,
+                "fileName": "indrev-1.14.0-BETA.jar",
+                "fileDate": "2022-04-19T18:55:14.623Z",
+                "fileLength": 5902279,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 393236,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 14131001,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.mixins.json",
+                        "fingerprint": 1057995050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.accesswidener",
+                        "fingerprint": 1295287866,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1129345055,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 218113863,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 374646555,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev-refmap.json",
+                        "fingerprint": 527808825,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 4039144352,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1781057834,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 391708,
+                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
                 "Hashes": []
             }
         },
@@ -45062,7 +45048,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1002117Z",
             "dateUpdated": "2022-12-06T22:23:04.1002117Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
