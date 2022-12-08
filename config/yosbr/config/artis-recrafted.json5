@@ -1,6 +1,6 @@
 {
   "tables": {
-    "botanist_bench": { // the block identifier, used for recipes, block states, ...
+    "science_panel": { // the block identifier, used for recipes, block states, ...
       "display_name": "Science Panel",
       "width": 3,
       "height": 3,
@@ -63,7 +63,7 @@
         "minecraft:blocks/mineable/pickaxe",
       ]
     },
-	  "engineering_bench": { // the block identifier, used for recipes, block states, ...
+	  "engineering_panel": { // the block identifier, used for recipes, block states, ...
       "display_name": "Engineering Panel",
       "width": 3,
       "height": 3,
