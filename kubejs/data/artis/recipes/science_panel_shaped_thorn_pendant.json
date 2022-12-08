@@ -1,0 +1,24 @@
+{
+   "type": "artis:science_panel_shaped",
+   "pattern": [
+     "###",
+	 "#*#",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_nugget"
+     },
+	 "*": {
+	    "item": "minecraft:rose_bush"
+	 }
+   },
+   "result": {
+     "item": "artifacts:thorn_pendant",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "byg:mud_block"
+   },
+   "cost": 64
+}

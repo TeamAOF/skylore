@@ -6597,6 +6597,222 @@
             }
         },
         {
+            "instanceID": "bca680aa-c199-476d-9c48-d2909a93d319",
+            "modSource": 0,
+            "addonID": 554340,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Catwalks Inc.",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Reoseah"
+                }
+            ],
+            "primaryAuthor": "Reoseah",
+            "primaryCategoryId": 424,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/catwalks-inc",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/467/287/256/256/637748930679413547.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3670317,
+                "fileName": "catwalks-inc-1.3.0.jar",
+                "fileDate": "2022-03-02T22:40:56.54Z",
+                "fileLength": 242286,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3670/317/catwalks-inc-1.3.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3479102691,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_catwalks-inc",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2514884116,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 610349618,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "catwalksinc.mixins.json",
+                        "fingerprint": 3844191774,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 608513968,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "catwalks-inc-refmap.json",
+                        "fingerprint": 3134796007,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 2282497437,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1604427324,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 554340,
+                "FileNameOnDisk": "catwalks-inc-1.3.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "2af2681f1cd3c8291f32688375c571b80163f2f8"
+                    },
+                    {
+                        "Value": "72f7a18026b4d6d018a46c0134594db6"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-08T18:26:24.9142066Z",
+            "dateUpdated": "2022-12-08T18:26:24.9291652Z",
+            "dateLastUpdateAttempted": "2022-12-08T18:26:24.9291652Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3670317,
+                "fileName": "catwalks-inc-1.3.0.jar",
+                "fileDate": "2022-03-02T22:40:56.54Z",
+                "fileLength": 242286,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3670/317/catwalks-inc-1.3.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3479102691,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_catwalks-inc",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2514884116,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 610349618,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "catwalksinc.mixins.json",
+                        "fingerprint": 3844191774,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 608513968,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "catwalks-inc-refmap.json",
+                        "fingerprint": 3134796007,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 2282497437,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1604427324,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 554340,
+                "FileNameOnDisk": "catwalks-inc-1.3.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "2af2681f1cd3c8291f32688375c571b80163f2f8"
+                    },
+                    {
+                        "Value": "72f7a18026b4d6d018a46c0134594db6"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "cb10ee6e-d513-490f-b4bb-2f4a018fec12",
             "modSource": 0,
             "addonID": 507130,
@@ -28840,239 +29056,6 @@
                 "projectStatus": 4,
                 "projectId": 536610,
                 "FileNameOnDisk": "platforms-fabric-1.18-1.2.6.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "0926685d-e6e0-4134-8d62-f1ee718cc856",
-            "modSource": 0,
-            "addonID": 319057,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Cloth Config API (UNUSED)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "shedaniel"
-                },
-                {
-                    "Name": "LinkieIsBetterThanK9"
-                }
-            ],
-            "primaryAuthor": "shedaniel",
-            "primaryCategoryId": 421,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/cloth-config-legacy",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/468/256/256/637289313152268031.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3641132,
-                "fileName": "cloth-config-6.2.57-fabric.jar",
-                "fileDate": "2022-02-08T15:20:20.587Z",
-                "fileLength": 1122823,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3641/132/cloth-config-6.2.57-fabric.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 913256574,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1681417698,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cloth-config.accessWidener",
-                        "fingerprint": 1976903584,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4061651779,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 2356087988,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 2112375997,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_clothconfig_common_abcd86632bf44fb981927b83b8e34a90_0356a7a483eabfedaba980b5c85f759a4be93ea3fc0cb8a2cc087e3bc33fa11fclothconfig6257devjar",
-                        "fingerprint": 2458202992,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 285374830,
-                "gameVersion": [
-                    "1.18.1",
-                    "Fabric",
-                    "1.19-Snapshot",
-                    "1.18.2",
-                    "1.18",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "1.18.1",
-                        "gameVersionName": "1.18.1",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.19",
-                        "gameVersionName": "1.19-Snapshot",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 319057,
-                "FileNameOnDisk": "cloth-config-6.2.57-fabric.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:22:59.0316879Z",
-            "dateUpdated": "2022-12-06T22:22:59.0316879Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3641132,
-                "fileName": "cloth-config-6.2.57-fabric.jar",
-                "fileDate": "2022-02-08T15:20:20.587Z",
-                "fileLength": 1122823,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3641/132/cloth-config-6.2.57-fabric.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 913256574,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1681417698,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cloth-config.accessWidener",
-                        "fingerprint": 1976903584,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4061651779,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 2356087988,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 2112375997,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_clothconfig_common_abcd86632bf44fb981927b83b8e34a90_0356a7a483eabfedaba980b5c85f759a4be93ea3fc0cb8a2cc087e3bc33fa11fclothconfig6257devjar",
-                        "fingerprint": 2458202992,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 285374830,
-                "gameVersion": [
-                    "1.18.1",
-                    "Fabric",
-                    "1.19-Snapshot",
-                    "1.18.2",
-                    "1.18",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "1.18.1",
-                        "gameVersionName": "1.18.1",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.19",
-                        "gameVersionName": "1.19-Snapshot",
-                        "gameVersionTypeId": 73407
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 319057,
-                "FileNameOnDisk": "cloth-config-6.2.57-fabric.jar",
                 "Hashes": []
             }
         },
