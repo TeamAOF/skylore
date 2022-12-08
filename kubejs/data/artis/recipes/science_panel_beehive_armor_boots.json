@@ -1,0 +1,27 @@
+{
+  "type": "artis:science_panel_shaped",
+  "pattern": [
+    "*#*",
+  "o*o",
+  "* *"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_nugget"
+    },
+  "*": {
+     "item": "minecraft:bee_nest"
+  },
+  "o": {
+   "item": "minecraft:honey_block"
+}
+  },
+  "result": {
+    "item": "mcda:beehive_armor_boots",
+    "count": 1
+  },
+        "catalyst": {
+    "item": "byg:mud_block"
+  },
+  "cost": 64
+}

@@ -1,0 +1,10 @@
+{
+    "block_states": {
+    "modern_industrialization:forge_hammer": "minecraft:stone"
+  },
+  "items": {
+    "modern_industrialization:iron_hammer": "minecraft:wooden_axe"
+  },
+  "advancement": "skylore:mi",
+  "name": "mi"
+}

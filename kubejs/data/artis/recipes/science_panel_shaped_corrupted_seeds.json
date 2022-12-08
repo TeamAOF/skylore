@@ -1,0 +1,24 @@
+{
+   "type": "artis:science_panel_shaped",
+   "pattern": [
+     "###",
+	 "#*#",
+	 "###"
+   ],
+   "key": {
+     "#": {
+       "item": "minecraft:iron_nugget"
+     },
+	 "*": {
+	    "item": "croptopia:cabbage_seed"
+	 }
+   },
+   "result": {
+     "item": "mcdar:corrupted_seeds",
+     "count": 1
+   },
+         "catalyst": {
+     "item": "byg:mud_block"
+   },
+   "cost": 64
+}

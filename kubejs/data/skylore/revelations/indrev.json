@@ -1,0 +1,17 @@
+{
+    "block_states": {
+    "indrev:nikolite_ore": "minecraft:stone"
+  },
+  "items": {
+    "indrev:nikolite_dust": "minecraft:gunpowder"
+  },
+
+  "item_name_replacements": {
+    "indrev:nikolite_dust": "Am I color blind?"
+  },
+  "block_name_replacements": {
+    "indrev:nikolite_ore": "Weird"
+  },
+  "advancement": "skylore:indrev",
+  "name": "indrev"
+}
