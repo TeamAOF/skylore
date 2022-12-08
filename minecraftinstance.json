@@ -899,254 +899,6 @@
             }
         },
         {
-            "instanceID": "ba7d1908-84b9-4d42-ad31-c3a8bd90005f",
-            "modSource": 0,
-            "addonID": 419697,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Architectury API (UNUSED)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "shedaniel"
-                },
-                {
-                    "Name": "MaxNeedsSnacks"
-                },
-                {
-                    "Name": "Juicebus"
-                }
-            ],
-            "primaryAuthor": "shedaniel",
-            "primaryCategoryId": 421,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/architectury-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/313/418/256/256/637408811210745557.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3782867,
-                "fileName": "architectury-4.4.56.jar",
-                "fileDate": "2022-05-07T14:04:18.483Z",
-                "fileLength": 572396,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3782/867/architectury-4.4.56.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 943187478,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.accessWidener",
-                        "fingerprint": 1437933533,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common.mixins.json",
-                        "fingerprint": 100246097,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common-refmap.json",
-                        "fingerprint": 2430096601,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.mixins.json",
-                        "fingerprint": 3848551503,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 687661887,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 337711864,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 1805902527,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 3298375152,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_architectury_common_cb995d07ac75484ea21fa8f9db62781b_b1f47724e7a89615eb4217ffe4610e40013e856852774f683b0fc7be3170d00aarchitectury4456devjar",
-                        "fingerprint": 1725549095,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2826062029,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 419697,
-                "FileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:22:59.0685897Z",
-            "dateUpdated": "2022-12-06T22:22:59.0685897Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3782867,
-                "fileName": "architectury-4.4.56.jar",
-                "fileDate": "2022-05-07T14:04:18.483Z",
-                "fileLength": 572396,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3782/867/architectury-4.4.56.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 943187478,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.accessWidener",
-                        "fingerprint": 1437933533,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common.mixins.json",
-                        "fingerprint": 100246097,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common-refmap.json",
-                        "fingerprint": 2430096601,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.mixins.json",
-                        "fingerprint": 3848551503,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 687661887,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 337711864,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 1805902527,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 3298375152,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_architectury_common_cb995d07ac75484ea21fa8f9db62781b_b1f47724e7a89615eb4217ffe4610e40013e856852774f683b0fc7be3170d00aarchitectury4456devjar",
-                        "fingerprint": 1725549095,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2826062029,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 419697,
-                "FileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "76f81c2b-a905-47b0-ba8e-ad88863c82b6",
             "modSource": 0,
             "addonID": 455508,
@@ -35863,13 +35615,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/246/646/256/256/637158441743060329.png",
             "tags": [],
             "installedFile": {
-                "id": 4081372,
-                "fileName": "lithium-fabric-mc1.18.2-0.10.2.jar",
-                "fileDate": "2022-11-11T20:43:47.28Z",
-                "fileLength": 548923,
+                "id": 4143613,
+                "fileName": "lithium-fabric-mc1.18.2-0.10.3.jar",
+                "fileDate": "2022-12-07T20:04:12.887Z",
+                "fileLength": 555165,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4081/372/lithium-fabric-mc1.18.2-0.10.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4143/613/lithium-fabric-mc1.18.2-0.10.3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -35901,7 +35653,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3219867671,
+                        "fingerprint": 1931178134,
                         "invalidFingerprint": false
                     },
                     {
@@ -35911,21 +35663,21 @@
                     },
                     {
                         "foldername": "lithium.mixins.json",
-                        "fingerprint": 4023429212,
+                        "fingerprint": 886247100,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "me",
-                        "fingerprint": 384907986,
+                        "fingerprint": 107046752,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "mixins.lithium.refmap.json",
-                        "fingerprint": 3540966685,
+                        "fingerprint": 416562910,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3455346683,
+                "packageFingerprint": 4216689722,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -35947,20 +35699,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 360438,
-                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.2.jar",
+                "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.3.jar",
                 "Hashes": [
                     {
-                        "Value": "ddb9874625d8e091b1d88d699f9364b33237af55"
+                        "Value": "d47d223403bbc4d14748141cdddc4beeb451fe4e"
                     },
                     {
-                        "Value": "0764197c0307f58c74fa70d2fb1eaeab"
+                        "Value": "614a5084aeebac0f914525bec199150a"
                     }
                 ]
             },
             "dateInstalled": "2022-12-08T14:59:13.8034188Z",
-            "dateUpdated": "2022-12-08T14:59:13.8103996Z",
-            "dateLastUpdateAttempted": "2022-12-08T14:59:13.8103996Z",
-            "status": 3,
+            "dateUpdated": "2022-12-08T17:16:10.4873378Z",
+            "dateLastUpdateAttempted": "2022-12-08T17:16:10.4873378Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
