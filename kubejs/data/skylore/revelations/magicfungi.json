@@ -9,6 +9,6 @@
   "items": {
     "magicfungi:guide_book": "minecraft:book"
   },
-  "advancement": "skylore:MAGIC_FUNGIGO",
-  "name": "MAGIC_FUNGIGO"
+  "advancement": "skylore:magicfungi",
+  "name": "magicfungi"
 }

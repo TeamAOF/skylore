@@ -5,6 +5,6 @@
   "items": {
     "modern_industrialization:iron_hammer": "minecraft:wooden_axe"
   },
-  "advancement": "skylore:MI",
-  "name": "MI"
+  "advancement": "skylore:mi",
+  "name": "mi"
 }

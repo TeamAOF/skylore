@@ -5,12 +5,12 @@
   "items": {
     "indrev:nikolite_dust": "minecraft:gunpowder"
   },
-  "advancement": "skylore:INDREVGO",
+  "advancement": "skylore:indrev",
   "item_name_replacements": {
     "indrev:nikolite_dust": "Am I color blind?"
   },
   "block_name_replacements": {
     "indrev:nikolite_ore": "Weird"
   },
-  "name": "INDREVGO"
+  "name": "indrev"
 }
