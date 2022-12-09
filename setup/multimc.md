@@ -15,8 +15,6 @@ Download [Git](https://git-scm.com/downloads).
 install git with your package manager.
 
 ## continue setup
-download [Latest Relase](https://github.com/RobertasJ/skylore/releases/tag/1.3) and unzip it
-
-import to multimc the instance of your choice.
+download [Latest Relase](https://github.com/RobertasJ/skylore/releases/tag/1.3) and import it to multimc.
 
 if you need help, please ask in the official discord: https://discord.gg/6rkdm48
