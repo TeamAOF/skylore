@@ -1078,7 +1078,7 @@
             "dateInstalled": "2022-12-06T22:23:04.1490813Z",
             "dateUpdated": "2022-12-08T02:45:05.1689317Z",
             "dateLastUpdateAttempted": "2022-12-08T02:45:05.1689317Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4538,7 +4538,7 @@
             "dateInstalled": "2022-12-06T22:23:26.4427142Z",
             "dateUpdated": "2022-12-07T19:20:52.8825497Z",
             "dateLastUpdateAttempted": "2022-12-07T19:20:52.8825497Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -5499,216 +5499,6 @@
                 "projectStatus": 4,
                 "projectId": 286328,
                 "FileNameOnDisk": "rswires-4.13.0.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "53dfca1f-520c-4682-b712-fa690e9b6b67",
-            "modSource": 0,
-            "addonID": 460466,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Immersive Travel Overhaul",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "joper333"
-                }
-            ],
-            "primaryAuthor": "joper333",
-            "primaryCategoryId": 423,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/immersive-travel-overhaul",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/459/12/256/256/637734246404519957.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3686298,
-                "fileName": "ITO-1.02.jar",
-                "fileDate": "2022-03-12T03:19:04.163Z",
-                "fileLength": 74302,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3686/298/ITO-1.02.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 388172,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 397789854,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_ITO",
-                        "fingerprint": 589621802,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sextant.mixins.json",
-                        "fingerprint": 3029766908,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2408152726,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 2070895349,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1947657574,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "ITO-refmap.json",
-                        "fingerprint": 3131348704,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 1447729650,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2235955992,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 460466,
-                "FileNameOnDisk": "ITO-1.02.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:04.1071925Z",
-            "dateUpdated": "2022-12-06T22:23:04.1071925Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3686298,
-                "fileName": "ITO-1.02.jar",
-                "fileDate": "2022-03-12T03:19:04.163Z",
-                "fileLength": 74302,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3686/298/ITO-1.02.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 388172,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 397789854,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_ITO",
-                        "fingerprint": 589621802,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sextant.mixins.json",
-                        "fingerprint": 3029766908,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2408152726,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 2070895349,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1947657574,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "ITO-refmap.json",
-                        "fingerprint": 3131348704,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 1447729650,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2235955992,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 460466,
-                "FileNameOnDisk": "ITO-1.02.jar",
                 "Hashes": []
             }
         },
@@ -6697,19 +6487,12 @@
                 "projectStatus": 4,
                 "projectId": 554340,
                 "FileNameOnDisk": "catwalks-inc-1.3.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "2af2681f1cd3c8291f32688375c571b80163f2f8"
-                    },
-                    {
-                        "Value": "72f7a18026b4d6d018a46c0134594db6"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-08T18:26:24.9142066Z",
             "dateUpdated": "2022-12-08T18:26:24.9291652Z",
             "dateLastUpdateAttempted": "2022-12-08T18:26:24.9291652Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6802,12 +6585,286 @@
                 "projectStatus": 4,
                 "projectId": 554340,
                 "FileNameOnDisk": "catwalks-inc-1.3.0.jar",
-                "Hashes": [
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "3a818e78-e29b-4ab0-931c-f658cabdebf9",
+            "modSource": 0,
+            "addonID": 472657,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "FTB Chunks (Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "FTB"
+                },
+                {
+                    "Name": "Error_MiKeY"
+                }
+            ],
+            "primaryAuthor": "FTB",
+            "primaryCategoryId": 423,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/371/658/256/256/637541702367842170.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4139592,
+                "fileName": "ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "fileDate": "2022-12-06T16:59:41.347Z",
+                "fileLength": 813424,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4139/592/ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
                     {
-                        "Value": "2af2681f1cd3c8291f32688375c571b80163f2f8"
+                        "addonId": 438495,
+                        "type": 3
                     },
                     {
-                        "Value": "72f7a18026b4d6d018a46c0134594db6"
+                        "addonId": 472659,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 438497,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419699,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 659157380,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1003661686,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftbchunks-common.mixins.json",
+                        "fingerprint": 2432750340,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.classfilter.txt",
+                        "fingerprint": 666273691,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 892274050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.plugins.txt",
+                        "fingerprint": 1949217215,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftb-chunks-common-refmap.json",
+                        "fingerprint": 1410469092,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftbchunks.accesswidener",
+                        "fingerprint": 270579714,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4062115103,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dev",
+                        "fingerprint": 1526208631,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_FTBChunks118_common_515cca9f6f4a440cbaeef3ec855b6c60_2819129a2fd1446318033be1e2e97ed7fc687d746673ba83db3f220f4e04fbd3ftbchunks180239build202devjar",
+                        "fingerprint": 4228455948,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2064688996,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 472657,
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "Hashes": [
+                    {
+                        "Value": "4a808fa3532e15efc92b1f89fd973138268ecdf0"
+                    },
+                    {
+                        "Value": "1da19680ddbd0d089212c5727f90ba80"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-10T02:59:39.3351324Z",
+            "dateUpdated": "2022-12-10T02:59:39.3451062Z",
+            "dateLastUpdateAttempted": "2022-12-10T02:59:39.3451062Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4139592,
+                "fileName": "ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "fileDate": "2022-12-06T16:59:41.347Z",
+                "fileLength": 813424,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4139/592/ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 438495,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 472659,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 438497,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419699,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 659157380,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1003661686,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftbchunks-common.mixins.json",
+                        "fingerprint": 2432750340,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.classfilter.txt",
+                        "fingerprint": 666273691,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 892274050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.plugins.txt",
+                        "fingerprint": 1949217215,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftb-chunks-common-refmap.json",
+                        "fingerprint": 1410469092,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ftbchunks.accesswidener",
+                        "fingerprint": 270579714,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4062115103,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dev",
+                        "fingerprint": 1526208631,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_FTBChunks118_common_515cca9f6f4a440cbaeef3ec855b6c60_2819129a2fd1446318033be1e2e97ed7fc687d746673ba83db3f220f4e04fbd3ftbchunks180239build202devjar",
+                        "fingerprint": 4228455948,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2064688996,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 472657,
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "Hashes": [
+                    {
+                        "Value": "4a808fa3532e15efc92b1f89fd973138268ecdf0"
+                    },
+                    {
+                        "Value": "1da19680ddbd0d089212c5727f90ba80"
                     }
                 ]
             }
@@ -17224,7 +17281,7 @@
             "dateInstalled": "2022-12-06T22:23:00.6613315Z",
             "dateUpdated": "2022-12-08T02:45:03.6256395Z",
             "dateLastUpdateAttempted": "2022-12-08T02:45:03.6256395Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -17419,19 +17476,12 @@
                 "projectStatus": 4,
                 "projectId": 308702,
                 "FileNameOnDisk": "modmenu-3.2.5.jar",
-                "Hashes": [
-                    {
-                        "Value": "00ddc85a2bc6f58ca57b1a53bdd74ec5cbbaa21e"
-                    },
-                    {
-                        "Value": "d67a70423afa02a1b6528de31e74ef47"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:04.1111834Z",
             "dateUpdated": "2022-12-08T14:29:04.2824511Z",
             "dateLastUpdateAttempted": "2022-12-08T14:29:04.2824511Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -17519,14 +17569,7 @@
                 "projectStatus": 4,
                 "projectId": 308702,
                 "FileNameOnDisk": "modmenu-3.2.5.jar",
-                "Hashes": [
-                    {
-                        "Value": "00ddc85a2bc6f58ca57b1a53bdd74ec5cbbaa21e"
-                    },
-                    {
-                        "Value": "d67a70423afa02a1b6528de31e74ef47"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -17631,7 +17674,7 @@
             "dateInstalled": "2022-12-06T22:22:58.9927915Z",
             "dateUpdated": "2022-12-07T19:20:53.432947Z",
             "dateLastUpdateAttempted": "2022-12-07T19:20:53.432947Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25791,13 +25834,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/313/420/256/256/637408811378175814.png",
             "tags": [],
             "installedFile": {
-                "id": 4040965,
-                "fileName": "architectury-4.10.86-fabric.jar",
-                "fileDate": "2022-10-22T17:12:03.773Z",
-                "fileLength": 573058,
+                "id": 4147228,
+                "fileName": "architectury-4.10.88-fabric.jar",
+                "fileDate": "2022-12-08T16:56:37.223Z",
+                "fileLength": 573094,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4040/965/architectury-4.10.86-fabric.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4147/228/architectury-4.10.88-fabric.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -25825,7 +25868,7 @@
                     },
                     {
                         "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 2514400338,
+                        "fingerprint": 581721599,
                         "invalidFingerprint": false
                     },
                     {
@@ -25839,18 +25882,18 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_architectury_common_ac5830443ff74053be753f64e94d043c_47cf62cba2bd15ac28ef7fa36aad82b547ca0b39330eaaa6a83de9a2b70ec023architectury41086devjar",
-                        "fingerprint": 753507092,
+                        "foldername": "architectury_inject_architectury_common_65623c17ebd3479bb3dd109430e9a5d3_bf808e9f4776d8fb01f1814c24261285dc671efa9178a3ecfcc94933c6d93022architectury41088devjar",
+                        "fingerprint": 2221239420,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1431370882,
+                        "fingerprint": 1011908886,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1454243751,
+                        "fingerprint": 3971046863,
                         "invalidFingerprint": false
                     },
                     {
@@ -25859,7 +25902,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 165010250,
+                "packageFingerprint": 4280827584,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -25893,13 +25936,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 419699,
-                "FileNameOnDisk": "architectury-4.10.86-fabric.jar",
-                "Hashes": []
+                "FileNameOnDisk": "architectury-4.10.88-fabric.jar",
+                "Hashes": [
+                    {
+                        "Value": "dfdd74e470939f58d1709a0a921c04b13ae96429"
+                    },
+                    {
+                        "Value": "c0fe4df85e49f972507c14fb7072da49"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-06T22:22:58.9858102Z",
-            "dateUpdated": "2022-12-06T22:22:58.9858102Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-10T02:58:57.9958281Z",
+            "dateLastUpdateAttempted": "2022-12-10T02:58:57.9958281Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -25911,13 +25961,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4040965,
-                "fileName": "architectury-4.10.86-fabric.jar",
-                "fileDate": "2022-10-22T17:12:03.773Z",
-                "fileLength": 573058,
+                "id": 4147228,
+                "fileName": "architectury-4.10.88-fabric.jar",
+                "fileDate": "2022-12-08T16:56:37.223Z",
+                "fileLength": 573094,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4040/965/architectury-4.10.86-fabric.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4147/228/architectury-4.10.88-fabric.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -25945,7 +25995,7 @@
                     },
                     {
                         "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 2514400338,
+                        "fingerprint": 581721599,
                         "invalidFingerprint": false
                     },
                     {
@@ -25959,18 +26009,18 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_architectury_common_ac5830443ff74053be753f64e94d043c_47cf62cba2bd15ac28ef7fa36aad82b547ca0b39330eaaa6a83de9a2b70ec023architectury41086devjar",
-                        "fingerprint": 753507092,
+                        "foldername": "architectury_inject_architectury_common_65623c17ebd3479bb3dd109430e9a5d3_bf808e9f4776d8fb01f1814c24261285dc671efa9178a3ecfcc94933c6d93022architectury41088devjar",
+                        "fingerprint": 2221239420,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1431370882,
+                        "fingerprint": 1011908886,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1454243751,
+                        "fingerprint": 3971046863,
                         "invalidFingerprint": false
                     },
                     {
@@ -25979,7 +26029,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 165010250,
+                "packageFingerprint": 4280827584,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -26013,8 +26063,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 419699,
-                "FileNameOnDisk": "architectury-4.10.86-fabric.jar",
-                "Hashes": []
+                "FileNameOnDisk": "architectury-4.10.88-fabric.jar",
+                "Hashes": [
+                    {
+                        "Value": "dfdd74e470939f58d1709a0a921c04b13ae96429"
+                    },
+                    {
+                        "Value": "c0fe4df85e49f972507c14fb7072da49"
+                    }
+                ]
             }
         },
         {
@@ -33373,7 +33430,7 @@
             "dateInstalled": "2022-12-06T22:22:59.0735763Z",
             "dateUpdated": "2022-12-07T19:20:54.8862149Z",
             "dateLastUpdateAttempted": "2022-12-07T19:20:54.8862149Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35683,19 +35740,12 @@
                 "projectStatus": 4,
                 "projectId": 360438,
                 "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.3.jar",
-                "Hashes": [
-                    {
-                        "Value": "d47d223403bbc4d14748141cdddc4beeb451fe4e"
-                    },
-                    {
-                        "Value": "614a5084aeebac0f914525bec199150a"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-08T14:59:13.8034188Z",
             "dateUpdated": "2022-12-08T17:16:10.4873378Z",
             "dateLastUpdateAttempted": "2022-12-08T17:16:10.4873378Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35792,14 +35842,7 @@
                 "projectStatus": 4,
                 "projectId": 360438,
                 "FileNameOnDisk": "lithium-fabric-mc1.18.2-0.10.3.jar",
-                "Hashes": [
-                    {
-                        "Value": "d47d223403bbc4d14748141cdddc4beeb451fe4e"
-                    },
-                    {
-                        "Value": "614a5084aeebac0f914525bec199150a"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -42333,198 +42376,6 @@
             }
         },
         {
-            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
-            "modSource": 0,
-            "addonID": 225738,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "MmmMmmMmmMmm (Target Dummy)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "MehVahdJukaar"
-                }
-            ],
-            "primaryAuthor": "MehVahdJukaar",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
-            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "75acccc1-d7b3-4304-bb40-1dc52c925f83",
             "modSource": 0,
             "addonID": 319596,
@@ -42809,6 +42660,198 @@
                 "projectStatus": 4,
                 "projectId": 319596,
                 "FileNameOnDisk": "Pehkui-3.6.0+1.14.4-1.19.3.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
+            "modSource": 0,
+            "addonID": 225738,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "MmmMmmMmmMmm (Target Dummy)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "MehVahdJukaar"
+                }
+            ],
+            "primaryAuthor": "MehVahdJukaar",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
+            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
                 "Hashes": []
             }
         },
@@ -44199,224 +44242,6 @@
             }
         },
         {
-            "instanceID": "506bddc5-041b-4d1c-bc4e-e6754a02d12a",
-            "modSource": 0,
-            "addonID": 391708,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Industrial Revolution",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "GabrielHOlv"
-                }
-            ],
-            "primaryAuthor": "GabrielHOlv",
-            "primaryCategoryId": 412,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/industrial-revolution",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/292/719/256/256/637326741883981172.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3759591,
-                "fileName": "indrev-1.14.0-BETA.jar",
-                "fileDate": "2022-04-19T18:55:14.623Z",
-                "fileLength": 5902279,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 393236,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308769,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 14131001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.mixins.json",
-                        "fingerprint": 1057995050,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.accesswidener",
-                        "fingerprint": 1295287866,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1129345055,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 218113863,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 374646555,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev-refmap.json",
-                        "fingerprint": 527808825,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 4039144352,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1781057834,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 391708,
-                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:04.1022426Z",
-            "dateUpdated": "2022-12-06T22:23:04.1022426Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3759591,
-                "fileName": "indrev-1.14.0-BETA.jar",
-                "fileDate": "2022-04-19T18:55:14.623Z",
-                "fileLength": 5902279,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 393236,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308769,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 14131001,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.mixins.json",
-                        "fingerprint": 1057995050,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev.accesswidener",
-                        "fingerprint": 1295287866,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1129345055,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 218113863,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 374646555,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "indrev-refmap.json",
-                        "fingerprint": 527808825,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "me",
-                        "fingerprint": 4039144352,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1781057834,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 391708,
-                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "912f8907-33ea-40f3-ab16-01ad8c4fe22e",
             "modSource": 0,
             "addonID": 426206,
@@ -44650,6 +44475,224 @@
                 "projectStatus": 4,
                 "projectId": 426206,
                 "FileNameOnDisk": "mcda-2.0.7.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "506bddc5-041b-4d1c-bc4e-e6754a02d12a",
+            "modSource": 0,
+            "addonID": 391708,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Industrial Revolution",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "GabrielHOlv"
+                }
+            ],
+            "primaryAuthor": "GabrielHOlv",
+            "primaryCategoryId": 412,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/industrial-revolution",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/292/719/256/256/637326741883981172.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3759591,
+                "fileName": "indrev-1.14.0-BETA.jar",
+                "fileDate": "2022-04-19T18:55:14.623Z",
+                "fileLength": 5902279,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 393236,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 14131001,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.mixins.json",
+                        "fingerprint": 1057995050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.accesswidener",
+                        "fingerprint": 1295287866,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1129345055,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 218113863,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 374646555,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev-refmap.json",
+                        "fingerprint": 527808825,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 4039144352,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1781057834,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 391708,
+                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:04.1022426Z",
+            "dateUpdated": "2022-12-06T22:23:04.1022426Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3759591,
+                "fileName": "indrev-1.14.0-BETA.jar",
+                "fileDate": "2022-04-19T18:55:14.623Z",
+                "fileLength": 5902279,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3759/591/indrev-1.14.0-BETA.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 393236,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 14131001,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.mixins.json",
+                        "fingerprint": 1057995050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev.accesswidener",
+                        "fingerprint": 1295287866,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1129345055,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 218113863,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 374646555,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "indrev-refmap.json",
+                        "fingerprint": 527808825,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "me",
+                        "fingerprint": 4039144352,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1781057834,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 391708,
+                "FileNameOnDisk": "indrev-1.14.0-BETA.jar",
                 "Hashes": []
             }
         },
