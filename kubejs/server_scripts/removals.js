@@ -1,10 +1,5 @@
 onEvent('recipes', (event) => {
 
-
-    outputRemove.forEach((id) => {
-        event.remove({'output': id});
-    });
-
 	const idRemove = [
 		"createsifter:sifting/gravel_brass_mesh",
 		"createsifter:sifting/gravel_andesite_mesh",
