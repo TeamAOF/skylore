@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
 
-    const outputRemove = [
+    const id = [
 		'the_extractinator:extractinator',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
@@ -142,10 +142,10 @@ onEvent('recipes', (event) => {
 		'farmersdelight:cooking_pot',
 		'mcdw:bow_twisting_vine_bow',
 		'artifacts:thorn_pendant',
-		'mcda:sprout_armor_leggings',
-		'mcda:sprout_armor_helmet',
-		'mcda:sprout_armor_chestplate',
-		'mcda:sprout_armor_boots',
+		'mcda:sprout_leggings',
+		'mcda:sprout_helmet',
+		'mcda:sprout_chestplate',
+		'mcda:sprout_boots',
 		'mcda:living_vines_armor_leggings',
 		'mcda:living_vines_armor_helmet',
 		'mcda:living_vines_armor_chestplate',
@@ -229,7 +229,8 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_shulker"
     ];
 	
-		typeRemove.forEach((id) => {
-        event.remove({'type': id});
+
+    id.forEach((id) => {
+        event.remove({ 'id': id });
     });
 });
