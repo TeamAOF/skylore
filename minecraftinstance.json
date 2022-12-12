@@ -12096,6 +12096,444 @@
             }
         },
         {
+            "instanceID": "59f72a25-8c75-4e5e-a1d6-b0beb9968353",
+            "modSource": 0,
+            "addonID": 258371,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Valkyrien Skies (Forge/Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "triode_"
+                },
+                {
+                    "Name": "TheCopperWarrior"
+                },
+                {
+                    "Name": "DaPorkchop_"
+                },
+                {
+                    "Name": "rubydesic"
+                },
+                {
+                    "Name": "DrakeEldridge"
+                }
+            ],
+            "primaryAuthor": "triode_",
+            "primaryCategoryId": 412,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/309/505/256/256/637395374971914079.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4161123,
+                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "fileDate": "2022-12-11T03:08:24.99Z",
+                "fileLength": 23160146,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2867303674,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "THIRD-PARTY.txt",
+                        "fingerprint": 3550527579,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "leap_second_dates.csv",
+                        "fingerprint": 674088798,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJniarm64.so",
+                        "fingerprint": 192972883,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "KrunchJni64.dll",
+                        "fingerprint": 2703086775,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJni64.dylib",
+                        "fingerprint": 2937098266,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJni64.so",
+                        "fingerprint": 2092556469,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "DebugProbesKt.bin",
+                        "fingerprint": 2796120880,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_zh_CN.properties",
+                        "fingerprint": 836824620,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_fr.properties",
+                        "fingerprint": 1233989724,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_de.properties",
+                        "fingerprint": 106715591,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages.properties",
+                        "fingerprint": 1426974712,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "draftv4.schema.json",
+                        "fingerprint": 2091179777,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "nounlist.txt",
+                        "fingerprint": 3901695279,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-common.mixins.json",
+                        "fingerprint": 625257313,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 132125481,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1928779310,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury.common.json",
+                        "fingerprint": 4032350270,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-118-common-refmap.json",
+                        "fingerprint": 2539936439,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-common.accesswidener",
+                        "fingerprint": 2244562213,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-fabric.mixins.json",
+                        "fingerprint": 3746896854,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3033794794,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-118-fabric-refmap.json",
+                        "fingerprint": 3807206615,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 493069514,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2985868687,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kotlinx",
+                        "fingerprint": 260039086,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dagger",
+                        "fingerprint": 1530902952,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "javax",
+                        "fingerprint": 761839768,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
+                        "fingerprint": 1532122090,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2328939237,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 258371,
+                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "Hashes": [
+                    {
+                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
+                    },
+                    {
+                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-12T20:24:05.4004793Z",
+            "dateUpdated": "2022-12-12T20:24:05.4283949Z",
+            "dateLastUpdateAttempted": "2022-12-12T20:24:05.4283949Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4161123,
+                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "fileDate": "2022-12-11T03:08:24.99Z",
+                "fileLength": 23160146,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2867303674,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "THIRD-PARTY.txt",
+                        "fingerprint": 3550527579,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "leap_second_dates.csv",
+                        "fingerprint": 674088798,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJniarm64.so",
+                        "fingerprint": 192972883,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "KrunchJni64.dll",
+                        "fingerprint": 2703086775,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJni64.dylib",
+                        "fingerprint": 2937098266,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "libKrunchJni64.so",
+                        "fingerprint": 2092556469,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "DebugProbesKt.bin",
+                        "fingerprint": 2796120880,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_zh_CN.properties",
+                        "fingerprint": 836824620,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_fr.properties",
+                        "fingerprint": 1233989724,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages_de.properties",
+                        "fingerprint": 106715591,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jsv-messages.properties",
+                        "fingerprint": 1426974712,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "draftv4.schema.json",
+                        "fingerprint": 2091179777,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "nounlist.txt",
+                        "fingerprint": 3901695279,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-common.mixins.json",
+                        "fingerprint": 625257313,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 132125481,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1928779310,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury.common.json",
+                        "fingerprint": 4032350270,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-118-common-refmap.json",
+                        "fingerprint": 2539936439,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-common.accesswidener",
+                        "fingerprint": 2244562213,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-fabric.mixins.json",
+                        "fingerprint": 3746896854,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3033794794,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "valkyrienskies-118-fabric-refmap.json",
+                        "fingerprint": 3807206615,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 493069514,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2985868687,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kotlinx",
+                        "fingerprint": 260039086,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dagger",
+                        "fingerprint": 1530902952,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "javax",
+                        "fingerprint": 761839768,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
+                        "fingerprint": 1532122090,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2328939237,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 258371,
+                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "Hashes": [
+                    {
+                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
+                    },
+                    {
+                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "d5c2219e-13c3-47ca-adaa-2edb6c7acd32",
             "modSource": 0,
             "addonID": 664356,
@@ -22254,6 +22692,256 @@
                 "projectId": 610525,
                 "FileNameOnDisk": "fleeinganimals-1.0.1.jar",
                 "Hashes": []
+            }
+        },
+        {
+            "instanceID": "a61087c9-4851-4b7d-889c-dd3ede745cbd",
+            "modSource": 0,
+            "addonID": 654384,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Eureka! Airships! (Forge/Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "rubydesic"
+                },
+                {
+                    "Name": "ewoudje"
+                },
+                {
+                    "Name": "triode_"
+                }
+            ],
+            "primaryAuthor": "rubydesic",
+            "primaryCategoryId": 414,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/eureka-ships",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/583/775/256/256/637950952655885798.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4162363,
+                "fileName": "eureka-1.1.0-beta2+59792d77ff.jar",
+                "fileDate": "2022-12-11T09:06:43.007Z",
+                "fileLength": 368957,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4162/363/eureka-1.1.0-beta2+59792d77ff.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 258371,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1723698591,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka.accesswidener",
+                        "fingerprint": 1263214803,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka-common.mixins.json",
+                        "fingerprint": 3416049353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2165318911,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3496722573,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "eureka-common-refmap.json",
+                        "fingerprint": 2862629479,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka.mixins.json",
+                        "fingerprint": 2739073192,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3199134302,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 162583483,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_vseurekamod_common_813856a6fe6d40408d21ea0de9c400bc_7b2e998776da4771154e3be02c8769b26d71208f87dea320e509279a414359cdeureka110beta259792d77ffdevjar",
+                        "fingerprint": 1955075742,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 841300566,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 654384,
+                "FileNameOnDisk": "eureka-1.1.0-beta2+59792d77ff.jar",
+                "Hashes": [
+                    {
+                        "Value": "c1ac4266f1a535b261448e4c4063536d32d0df55"
+                    },
+                    {
+                        "Value": "9cfbcece187cd037800ba9515ae9a841"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-12T20:24:08.8160318Z",
+            "dateUpdated": "2022-12-12T20:24:08.8200199Z",
+            "dateLastUpdateAttempted": "2022-12-12T20:24:08.8200199Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4162363,
+                "fileName": "eureka-1.1.0-beta2+59792d77ff.jar",
+                "fileDate": "2022-12-11T09:06:43.007Z",
+                "fileLength": 368957,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4162/363/eureka-1.1.0-beta2+59792d77ff.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 258371,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1723698591,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka.accesswidener",
+                        "fingerprint": 1263214803,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka-common.mixins.json",
+                        "fingerprint": 3416049353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2165318911,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3496722573,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "eureka-common-refmap.json",
+                        "fingerprint": 2862629479,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "vs_eureka.mixins.json",
+                        "fingerprint": 2739073192,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3199134302,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 162583483,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_vseurekamod_common_813856a6fe6d40408d21ea0de9c400bc_7b2e998776da4771154e3be02c8769b26d71208f87dea320e509279a414359cdeureka110beta259792d77ffdevjar",
+                        "fingerprint": 1955075742,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 841300566,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 654384,
+                "FileNameOnDisk": "eureka-1.1.0-beta2+59792d77ff.jar",
+                "Hashes": [
+                    {
+                        "Value": "c1ac4266f1a535b261448e4c4063536d32d0df55"
+                    },
+                    {
+                        "Value": "9cfbcece187cd037800ba9515ae9a841"
+                    }
+                ]
             }
         },
         {
