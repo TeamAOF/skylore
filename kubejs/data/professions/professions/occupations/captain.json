@@ -157,13 +157,6 @@
     }
   ],
   "unlocks": [
-  {
-      "unlock": "professions:interaction_unlock",
-      "level": 2,
-      "items": [
-        "artis:ops_panel"
-      ]
-    }
 	],
   "modifiers": {
     "milestones": [],

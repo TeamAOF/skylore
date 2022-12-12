@@ -609,13 +609,7 @@
     }
   ],
   "unlocks": [
-        {
-      "unlock": "professions:interaction_unlock",
-      "level": 2,
-      "items": [
-        "artis:botanist_bench"
-      ]
-    }
+
   ],
   "modifiers": {
     "milestones": [],

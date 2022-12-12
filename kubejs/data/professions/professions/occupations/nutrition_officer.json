@@ -677,13 +677,7 @@
     }
   ],
   "unlocks": [
-          {
-      "unlock": "professions:interaction_unlock",
-      "level": 2,
-      "items": [
-        "artis:chef_table"
-      ]
-    }
+
   ],
   "modifiers": {
     "milestones": [],
