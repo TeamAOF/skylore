@@ -1,7 +1,7 @@
 ## CurseForge App (Windows / Mac)
 1. Download the [CurseForge App](https://curseforge.overwolf.com/) and [Git](https://git-scm.com/downloads) if you haven't already.
 
-2. Download the curseforge file from the [Relases Page](https://github.com/RobertasJ/skylore/releases/tag/1.3) and upzip it into `C:\Users\{UserName}\Documents\Curseforge\Minecraft\Instances`. * Note: If you've previously used the Twitch App the path will most likely be `C:\Users\{UserName}\Documents\Twitch\Minecraft\Instances`.
+2. Download the curseforge file from the [Relases Page](https://github.com/RobertasJ/skylore/releases/tag/1.4) and upzip it into `C:\Users\{UserName}\Documents\Curseforge\Minecraft\Instances`. * Note: If you've previously used the Twitch App the path will most likely be `C:\Users\{UserName}\Documents\Twitch\Minecraft\Instances`.
 
 
 4. open powershell as admin
