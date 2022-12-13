@@ -6171,11 +6171,11 @@
             }
         },
         {
-            "instanceID": "96f8a848-556e-4bd8-81f7-3f1aa8acfa3d",
+            "instanceID": "e020256d-ef79-48f3-9d2b-e8b14a4a106a",
             "modSource": 0,
             "addonID": 317514,
             "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
             "name": "Mouse Wheelie (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -6190,13 +6190,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/196/155/256/256/636883654770627603.png",
             "tags": [],
             "installedFile": {
-                "id": 4160941,
-                "fileName": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "fileDate": "2022-12-11T00:46:26.24Z",
-                "fileLength": 895366,
+                "id": 3887534,
+                "fileName": "mousewheelie-1.10.2+mc1.18.2.jar",
+                "fileDate": "2022-07-20T17:15:08.237Z",
+                "fileLength": 892971,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/941/mousewheelie-1.10.3+mc1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3887/534/mousewheelie-1.10.2+mc1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -6205,12 +6205,12 @@
                         "type": 1
                     },
                     {
-                        "addonId": 308702,
-                        "type": 2
-                    },
-                    {
                         "addonId": 306612,
                         "type": 1
+                    },
+                    {
+                        "addonId": 308702,
+                        "type": 2
                     },
                     {
                         "addonId": 324564,
@@ -6221,7 +6221,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 585788189,
+                        "fingerprint": 2201765779,
                         "invalidFingerprint": false
                     },
                     {
@@ -6236,7 +6236,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1935987779,
+                        "fingerprint": 1066983401,
                         "invalidFingerprint": false
                     },
                     {
@@ -6251,11 +6251,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 3941961015,
+                        "fingerprint": 4121916637,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3764028924,
+                "packageFingerprint": 944416175,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6277,20 +6277,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
-                    },
-                    {
-                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
-                    }
-                ]
+                "FileNameOnDisk": "mousewheelie-1.10.2+mc1.18.2.jar",
+                "Hashes": []
             },
-            "dateInstalled": "2022-12-06T22:23:04.0463559Z",
-            "dateUpdated": "2022-12-12T20:13:35.105855Z",
-            "dateLastUpdateAttempted": "2022-12-12T20:13:35.105855Z",
-            "status": 4,
+            "dateInstalled": "2022-11-27T15:55:25.53778Z",
+            "dateUpdated": "2022-11-27T15:55:25.53778Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6390,14 +6383,7 @@
                 "projectStatus": 4,
                 "projectId": 317514,
                 "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
-                    },
-                    {
-                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
