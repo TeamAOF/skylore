@@ -6805,11 +6805,11 @@
             }
         },
         {
-            "instanceID": "3cc91716-6dad-4577-8eb3-5ffb8047e6f6",
+            "instanceID": "3a818e78-e29b-4ab0-931c-f658cabdebf9",
             "modSource": 0,
             "addonID": 472657,
             "gameID": 432,
-            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
             "name": "FTB Chunks (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -6827,18 +6827,22 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/371/658/256/256/637541702367842170.png",
             "tags": [],
             "installedFile": {
-                "id": 4139592,
-                "fileName": "ftb-chunks-fabric-1802.3.9-build.202.jar",
-                "fileDate": "2022-12-06T16:59:41.347Z",
-                "fileLength": 813424,
+                "id": 4167725,
+                "fileName": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "fileDate": "2022-12-12T16:54:18.533Z",
+                "fileLength": 819202,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4139/592/ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4167/725/ftb-chunks-fabric-1802.3.10-build.210.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 438495,
+                        "addonId": 438497,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -6846,15 +6850,11 @@
                         "type": 2
                     },
                     {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 438497,
-                        "type": 3
-                    },
-                    {
                         "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 438495,
                         "type": 3
                     }
                 ],
@@ -6867,7 +6867,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1003661686,
+                        "fingerprint": 3430084938,
                         "invalidFingerprint": false
                     },
                     {
@@ -6902,21 +6902,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 4062115103,
+                        "fingerprint": 2292272566,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1526208631,
+                        "fingerprint": 1862890836,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_FTBChunks118_common_515cca9f6f4a440cbaeef3ec855b6c60_2819129a2fd1446318033be1e2e97ed7fc687d746673ba83db3f220f4e04fbd3ftbchunks180239build202devjar",
-                        "fingerprint": 4228455948,
+                        "foldername": "architectury_inject_FTBChunks118_common_1fc4fae7473c4b189eb66c1c1540ee56_c2eb8c5b204de82181037a5a0f0290b7abc70b5eac7b0c59a9cfbe6e50e364aaftbchunks1802310build210devjar",
+                        "fingerprint": 1967533777,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2064688996,
+                "packageFingerprint": 2620963420,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6938,12 +6938,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472657,
-                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.9-build.202.jar",
-                "Hashes": []
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "Hashes": [
+                    {
+                        "Value": "6dcb48d16dd4d83eba05b4895b992596c655958f"
+                    },
+                    {
+                        "Value": "9e9cdeb9a8e65e9a21902a9290e3a1f0"
+                    }
+                ]
             },
-            "dateInstalled": "2022-12-11T17:27:46.8073697Z",
-            "dateUpdated": "2022-12-11T17:27:46.8073697Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "dateInstalled": "2022-12-10T02:59:39.3351324Z",
+            "dateUpdated": "2022-12-12T20:13:32.7082995Z",
+            "dateLastUpdateAttempted": "2022-12-12T20:13:32.7082995Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -6956,18 +6963,22 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4139592,
-                "fileName": "ftb-chunks-fabric-1802.3.9-build.202.jar",
-                "fileDate": "2022-12-06T16:59:41.347Z",
-                "fileLength": 813424,
+                "id": 4167725,
+                "fileName": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "fileDate": "2022-12-12T16:54:18.533Z",
+                "fileLength": 819202,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4139/592/ftb-chunks-fabric-1802.3.9-build.202.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4167/725/ftb-chunks-fabric-1802.3.10-build.210.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 438495,
+                        "addonId": 438497,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
                         "type": 3
                     },
                     {
@@ -6975,15 +6986,11 @@
                         "type": 2
                     },
                     {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 438497,
-                        "type": 3
-                    },
-                    {
                         "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 438495,
                         "type": 3
                     }
                 ],
@@ -6996,7 +7003,7 @@
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 1003661686,
+                        "fingerprint": 3430084938,
                         "invalidFingerprint": false
                     },
                     {
@@ -7031,21 +7038,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 4062115103,
+                        "fingerprint": 2292272566,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1526208631,
+                        "fingerprint": 1862890836,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_FTBChunks118_common_515cca9f6f4a440cbaeef3ec855b6c60_2819129a2fd1446318033be1e2e97ed7fc687d746673ba83db3f220f4e04fbd3ftbchunks180239build202devjar",
-                        "fingerprint": 4228455948,
+                        "foldername": "architectury_inject_FTBChunks118_common_1fc4fae7473c4b189eb66c1c1540ee56_c2eb8c5b204de82181037a5a0f0290b7abc70b5eac7b0c59a9cfbe6e50e364aaftbchunks1802310build210devjar",
+                        "fingerprint": 1967533777,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2064688996,
+                "packageFingerprint": 2620963420,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -7067,8 +7074,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472657,
-                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.9-build.202.jar",
-                "Hashes": []
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "Hashes": [
+                    {
+                        "Value": "6dcb48d16dd4d83eba05b4895b992596c655958f"
+                    },
+                    {
+                        "Value": "9e9cdeb9a8e65e9a21902a9290e3a1f0"
+                    }
+                ]
             }
         },
         {
