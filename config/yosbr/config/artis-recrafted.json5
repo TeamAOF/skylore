@@ -5,7 +5,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#39822b", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -26,7 +26,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#ff8121", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -47,7 +47,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#07ada2", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -68,7 +68,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#8a8a8a", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -89,7 +89,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#2c2b2e", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -110,7 +110,7 @@
       "width": 3,
       "height": 3,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#a89928", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
@@ -131,7 +131,7 @@
       "width": 9,
       "height": 9,
       "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
-	  "normal_recipes": true, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
       "generate_assets": true, // Automatically generates assets for a table based on a default model.
 	  "color": "#ffffff", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
       "settings": {
