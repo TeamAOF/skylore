@@ -12044,13 +12044,13 @@
                     "Name": "ewoudje"
                 },
                 {
+                    "Name": "DrakeEldridge"
+                },
+                {
                     "Name": "DaPorkchop_"
                 },
                 {
                     "Name": "rubydesic"
-                },
-                {
-                    "Name": "DrakeEldridge"
                 }
             ],
             "primaryAuthor": "triode_",
@@ -12246,19 +12246,12 @@
                 "projectStatus": 4,
                 "projectId": 258371,
                 "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
-                "Hashes": [
-                    {
-                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
-                    },
-                    {
-                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-14T15:56:27.7062985Z",
             "dateUpdated": "2022-12-14T15:56:27.7373039Z",
             "dateLastUpdateAttempted": "2022-12-14T15:56:27.7373039Z",
-            "status": 3,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12270,28 +12263,16 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4174268,
-                "fileName": "valkyrienskies-118-2.1.0-beta3.jar",
-                "fileDate": "2022-12-14T09:05:29.28Z",
-                "fileLength": 23112062,
+                "id": 4161123,
+                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "fileDate": "2022-12-11T03:08:24.99Z",
+                "fileLength": 23160146,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4174/268/valkyrienskies-118-2.1.0-beta3.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 308702,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 348521,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308769,
-                        "type": 1
-                    },
                     {
                         "addonId": 306612,
                         "type": 3
@@ -12301,7 +12282,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3493785327,
+                        "fingerprint": 2867303674,
                         "invalidFingerprint": false
                     },
                     {
@@ -12371,7 +12352,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-common.mixins.json",
-                        "fingerprint": 3509659658,
+                        "fingerprint": 625257313,
                         "invalidFingerprint": false
                     },
                     {
@@ -12391,7 +12372,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-118-common-refmap.json",
-                        "fingerprint": 955450335,
+                        "fingerprint": 2539936439,
                         "invalidFingerprint": false
                     },
                     {
@@ -12406,7 +12387,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 560765080,
+                        "fingerprint": 3033794794,
                         "invalidFingerprint": false
                     },
                     {
@@ -12421,7 +12402,7 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 3012246658,
+                        "fingerprint": 2985868687,
                         "invalidFingerprint": false
                     },
                     {
@@ -12440,12 +12421,12 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_valkyrienskies_common_58f72500ce1247bb8e23430aad107103_e4d2805b089fa5b2583151ebd1c87d2cfe0be04213d384370d0e615ec1dce981valkyrienskies118210beta3devjar",
-                        "fingerprint": 377863238,
+                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
+                        "fingerprint": 1532122090,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1594900833,
+                "packageFingerprint": 2328939237,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -12467,13 +12448,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 258371,
-                "FileNameOnDisk": "valkyrienskies-118-2.1.0-beta3.jar",
+                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
                 "Hashes": [
                     {
-                        "Value": "cd6c31ae385b91944f44fcc863e9763cc4516e62"
+                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
                     },
                     {
-                        "Value": "ab28d8371fac64742aadfe2af0924560"
+                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
                     }
                 ]
             }
@@ -30217,6 +30198,268 @@
             }
         },
         {
+            "instanceID": "7bcdabc7-34d2-422b-90c9-1ead6f96d320",
+            "modSource": 0,
+            "addonID": 431910,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Vein Mining (Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "TheIllusiveC4"
+                }
+            ],
+            "primaryAuthor": "TheIllusiveC4",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/vein-mining-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/326/967/256/256/637447986496985620.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4018674,
+                "fileName": "veinmining-fabric-0.0.15-1.18.2.jar",
+                "fileDate": "2022-10-05T08:44:13.677Z",
+                "fileLength": 64764,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4018/674/veinmining-fabric-0.0.15-1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 4018675,
+                "dependencies": [
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 397789854,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "veinmining.mixins.json",
+                        "fingerprint": 305978310,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "README.md",
+                        "fingerprint": 3399721401,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1377728323,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1539247748,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "COPYING.LESSER",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "COPYING",
+                        "fingerprint": 2226923820,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "CHANGELOG.md",
+                        "fingerprint": 3548471338,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1595361409,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "veinmining-fabric-refmap.json",
+                        "fingerprint": 2475954495,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "top",
+                        "fingerprint": 1929963364,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1545784895,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 431910,
+                "FileNameOnDisk": "veinmining-fabric-0.0.15-1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "51f5f7c34b77c433b01b90754ea88d33ee90216f"
+                    },
+                    {
+                        "Value": "c96d9e8a1c52e5638e72525e71a88ec1"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-14T23:55:38.7003905Z",
+            "dateUpdated": "2022-12-14T23:55:38.7173424Z",
+            "dateLastUpdateAttempted": "2022-12-14T23:55:38.7173424Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4018674,
+                "fileName": "veinmining-fabric-0.0.15-1.18.2.jar",
+                "fileDate": "2022-10-05T08:44:13.677Z",
+                "fileLength": 64764,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4018/674/veinmining-fabric-0.0.15-1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 4018675,
+                "dependencies": [
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 397789854,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "veinmining.mixins.json",
+                        "fingerprint": 305978310,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "README.md",
+                        "fingerprint": 3399721401,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1377728323,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1539247748,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "COPYING.LESSER",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "COPYING",
+                        "fingerprint": 2226923820,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "CHANGELOG.md",
+                        "fingerprint": 3548471338,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1595361409,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "veinmining-fabric-refmap.json",
+                        "fingerprint": 2475954495,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "top",
+                        "fingerprint": 1929963364,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1545784895,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 431910,
+                "FileNameOnDisk": "veinmining-fabric-0.0.15-1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "51f5f7c34b77c433b01b90754ea88d33ee90216f"
+                    },
+                    {
+                        "Value": "c96d9e8a1c52e5638e72525e71a88ec1"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "0e978d1f-a598-46a1-a7a0-9a5e0fb611a1",
             "modSource": 0,
             "addonID": 500525,
@@ -46109,198 +46352,6 @@
             }
         },
         {
-            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
-            "modSource": 0,
-            "addonID": 225738,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "MmmMmmMmmMmm (Target Dummy)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "MehVahdJukaar"
-                }
-            ],
-            "primaryAuthor": "MehVahdJukaar",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
-            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "75acccc1-d7b3-4304-bb40-1dc52c925f83",
             "modSource": 0,
             "addonID": 319596,
@@ -46585,6 +46636,198 @@
                 "projectStatus": 4,
                 "projectId": 319596,
                 "FileNameOnDisk": "Pehkui-3.6.0+1.14.4-1.19.3.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
+            "modSource": 0,
+            "addonID": 225738,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "MmmMmmMmmMmm (Target Dummy)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "MehVahdJukaar"
+                }
+            ],
+            "primaryAuthor": "MehVahdJukaar",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
+            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
                 "Hashes": []
             }
         },
