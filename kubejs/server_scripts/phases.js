@@ -1,5 +1,6 @@
 console.log("Phases on stun!");
 
+// Items -----------------------------------------
 onEvent('gamephases.initialize', event => {
     event.phase('chef')
         .item('artis:chef_table')
@@ -35,10 +36,19 @@ onEvent('gamephases.initialize', event => {
         .item('artis:nulla')
 });
 
+//Mobs -------------------------------------------
+
 onEvent('gamephases.initialize', event => {
     event.phase('creeper')
      .entity('minecraft:creeper')
 });
+
+onEvent('gamephases.initialize', event => {
+    event.phase('revenant')
+     .entity('graveyard:revenant')
+});
+
+//Blocks -------------------------------------------------
 
 onEvent('gamephases.initialize', event => {
     event.phase('nikolite')
