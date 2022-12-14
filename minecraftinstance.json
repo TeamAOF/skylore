@@ -6190,30 +6190,30 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/196/155/256/256/636883654770627603.png",
             "tags": [],
             "installedFile": {
-                "id": 4160941,
-                "fileName": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "fileDate": "2022-12-11T00:46:26.24Z",
-                "fileLength": 895366,
+                "id": 4173546,
+                "fileName": "mousewheelie-1.10.4+mc1.18.2.jar",
+                "fileDate": "2022-12-13T20:03:41.52Z",
+                "fileLength": 895371,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/941/mousewheelie-1.10.3+mc1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4173/546/mousewheelie-1.10.4+mc1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 318413,
-                        "type": 1
-                    },
-                    {
                         "addonId": 308702,
                         "type": 2
+                    },
+                    {
+                        "addonId": 324564,
+                        "type": 1
                     },
                     {
                         "addonId": 306612,
                         "type": 1
                     },
                     {
-                        "addonId": 324564,
+                        "addonId": 318413,
                         "type": 1
                     }
                 ],
@@ -6236,7 +6236,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1935987779,
+                        "fingerprint": 2882057993,
                         "invalidFingerprint": false
                     },
                     {
@@ -6251,11 +6251,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 3941961015,
+                        "fingerprint": 964183575,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3764028924,
+                "packageFingerprint": 2229860353,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6277,55 +6277,55 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
+                "FileNameOnDisk": "mousewheelie-1.10.4+mc1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
+                        "Value": "39e250165ff75a04ed9ed3e670370b9fa5a910a6"
                     },
                     {
-                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
+                        "Value": "b97a9e4c48f64b8b162adaca7ddf6394"
                     }
                 ]
             },
             "dateInstalled": "2022-12-06T22:23:04.0463559Z",
-            "dateUpdated": "2022-12-12T20:13:35.105855Z",
-            "dateLastUpdateAttempted": "2022-12-12T20:13:35.105855Z",
+            "dateUpdated": "2022-12-14T15:20:42.2672319Z",
+            "dateLastUpdateAttempted": "2022-12-14T15:20:42.2672319Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4160941,
-                "fileName": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "fileDate": "2022-12-11T00:46:26.24Z",
-                "fileLength": 895366,
+                "id": 4173546,
+                "fileName": "mousewheelie-1.10.4+mc1.18.2.jar",
+                "fileDate": "2022-12-13T20:03:41.52Z",
+                "fileLength": 895371,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/941/mousewheelie-1.10.3+mc1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4173/546/mousewheelie-1.10.4+mc1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 318413,
-                        "type": 1
-                    },
-                    {
                         "addonId": 308702,
                         "type": 2
+                    },
+                    {
+                        "addonId": 324564,
+                        "type": 1
                     },
                     {
                         "addonId": 306612,
                         "type": 1
                     },
                     {
-                        "addonId": 324564,
+                        "addonId": 318413,
                         "type": 1
                     }
                 ],
@@ -6348,7 +6348,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1935987779,
+                        "fingerprint": 2882057993,
                         "invalidFingerprint": false
                     },
                     {
@@ -6363,11 +6363,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 3941961015,
+                        "fingerprint": 964183575,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3764028924,
+                "packageFingerprint": 2229860353,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6389,13 +6389,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
+                "FileNameOnDisk": "mousewheelie-1.10.4+mc1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
+                        "Value": "39e250165ff75a04ed9ed3e670370b9fa5a910a6"
                     },
                     {
-                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
+                        "Value": "b97a9e4c48f64b8b162adaca7ddf6394"
                     }
                 ]
             }
@@ -6703,19 +6703,12 @@
                 "projectStatus": 4,
                 "projectId": 636229,
                 "FileNameOnDisk": "wearablebackpacks-fabric-1.0.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "8eb1e982ff70bbed94c36e53cd127cea20cd5e03"
-                    },
-                    {
-                        "Value": "b56af55b4024bd7ed618a8b161f9efdd"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4808258Z",
             "dateUpdated": "2022-12-12T20:14:42.4808258Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6808,14 +6801,7 @@
                 "projectStatus": 4,
                 "projectId": 636229,
                 "FileNameOnDisk": "wearablebackpacks-fabric-1.0.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "8eb1e982ff70bbed94c36e53cd127cea20cd5e03"
-                    },
-                    {
-                        "Value": "b56af55b4024bd7ed618a8b161f9efdd"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -6841,34 +6827,34 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/371/658/256/256/637541702367842170.png",
             "tags": [],
             "installedFile": {
-                "id": 4167725,
-                "fileName": "ftb-chunks-fabric-1802.3.10-build.210.jar",
-                "fileDate": "2022-12-12T16:54:18.533Z",
-                "fileLength": 819202,
+                "id": 4174584,
+                "fileName": "ftb-chunks-fabric-1802.3.11-build.213.jar",
+                "fileDate": "2022-12-14T14:59:46.813Z",
+                "fileLength": 824298,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4167/725/ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 438497,
-                        "type": 3
+                        "addonId": 472659,
+                        "type": 2
                     },
                     {
                         "addonId": 306612,
                         "type": 3
                     },
                     {
-                        "addonId": 472659,
-                        "type": 2
+                        "addonId": 438495,
+                        "type": 3
                     },
                     {
                         "addonId": 419699,
                         "type": 3
                     },
                     {
-                        "addonId": 438495,
+                        "addonId": 438497,
                         "type": 3
                     }
                 ],
@@ -6876,12 +6862,12 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 659157380,
+                        "fingerprint": 2679153499,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 3430084938,
+                        "fingerprint": 2228537221,
                         "invalidFingerprint": false
                     },
                     {
@@ -6916,21 +6902,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2292272566,
+                        "fingerprint": 3908292783,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1862890836,
+                        "fingerprint": 1109205494,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_FTBChunks118_common_1fc4fae7473c4b189eb66c1c1540ee56_c2eb8c5b204de82181037a5a0f0290b7abc70b5eac7b0c59a9cfbe6e50e364aaftbchunks1802310build210devjar",
-                        "fingerprint": 1967533777,
+                        "foldername": "architectury_inject_FTBChunks118_common_a93441a3f7c94381a8d26133ba7d3562_3fd3282cf6cbd91a0945660c8162f21a33b1b8d42101a7c20492ffb37085e8c7ftbchunks1802311build213devjar",
+                        "fingerprint": 3182065636,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2620963420,
+                "packageFingerprint": 4092997944,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6952,59 +6938,59 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472657,
-                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.11-build.213.jar",
                 "Hashes": [
                     {
-                        "Value": "6dcb48d16dd4d83eba05b4895b992596c655958f"
+                        "Value": "5fc28d7344b161d56c0d2117de22ce48a9fb0b7c"
                     },
                     {
-                        "Value": "9e9cdeb9a8e65e9a21902a9290e3a1f0"
+                        "Value": "29ac0fc5b03501b750d611e1d6593f69"
                     }
                 ]
             },
             "dateInstalled": "2022-12-10T02:59:39.3351324Z",
-            "dateUpdated": "2022-12-12T20:13:32.7082995Z",
-            "dateLastUpdateAttempted": "2022-12-12T20:13:32.7082995Z",
+            "dateUpdated": "2022-12-14T15:20:42.7081775Z",
+            "dateLastUpdateAttempted": "2022-12-14T15:20:42.7081775Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4167725,
-                "fileName": "ftb-chunks-fabric-1802.3.10-build.210.jar",
-                "fileDate": "2022-12-12T16:54:18.533Z",
-                "fileLength": 819202,
+                "id": 4174584,
+                "fileName": "ftb-chunks-fabric-1802.3.11-build.213.jar",
+                "fileDate": "2022-12-14T14:59:46.813Z",
+                "fileLength": 824298,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4167/725/ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 438497,
-                        "type": 3
+                        "addonId": 472659,
+                        "type": 2
                     },
                     {
                         "addonId": 306612,
                         "type": 3
                     },
                     {
-                        "addonId": 472659,
-                        "type": 2
+                        "addonId": 438495,
+                        "type": 3
                     },
                     {
                         "addonId": 419699,
                         "type": 3
                     },
                     {
-                        "addonId": 438495,
+                        "addonId": 438497,
                         "type": 3
                     }
                 ],
@@ -7012,12 +6998,12 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 659157380,
+                        "fingerprint": 2679153499,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 3430084938,
+                        "fingerprint": 2228537221,
                         "invalidFingerprint": false
                     },
                     {
@@ -7052,21 +7038,21 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2292272566,
+                        "fingerprint": 3908292783,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1862890836,
+                        "fingerprint": 1109205494,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_FTBChunks118_common_1fc4fae7473c4b189eb66c1c1540ee56_c2eb8c5b204de82181037a5a0f0290b7abc70b5eac7b0c59a9cfbe6e50e364aaftbchunks1802310build210devjar",
-                        "fingerprint": 1967533777,
+                        "foldername": "architectury_inject_FTBChunks118_common_a93441a3f7c94381a8d26133ba7d3562_3fd3282cf6cbd91a0945660c8162f21a33b1b8d42101a7c20492ffb37085e8c7ftbchunks1802311build213devjar",
+                        "fingerprint": 3182065636,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2620963420,
+                "packageFingerprint": 4092997944,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -7088,13 +7074,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472657,
-                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.10-build.210.jar",
+                "FileNameOnDisk": "ftb-chunks-fabric-1802.3.11-build.213.jar",
                 "Hashes": [
                     {
-                        "Value": "6dcb48d16dd4d83eba05b4895b992596c655958f"
+                        "Value": "5fc28d7344b161d56c0d2117de22ce48a9fb0b7c"
                     },
                     {
-                        "Value": "9e9cdeb9a8e65e9a21902a9290e3a1f0"
+                        "Value": "29ac0fc5b03501b750d611e1d6593f69"
                     }
                 ]
             }
@@ -7413,19 +7399,12 @@
                 "projectStatus": 4,
                 "projectId": 582729,
                 "FileNameOnDisk": "FibLib-1.3.1+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "45b0c6f637016af8f982a0c9a131ae22cfe93995"
-                    },
-                    {
-                        "Value": "8a311dfdb119fd0d6cade7d9758431e7"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4748829Z",
             "dateUpdated": "2022-12-12T20:14:42.4748829Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7513,14 +7492,7 @@
                 "projectStatus": 4,
                 "projectId": 582729,
                 "FileNameOnDisk": "FibLib-1.3.1+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "45b0c6f637016af8f982a0c9a131ae22cfe93995"
-                    },
-                    {
-                        "Value": "8a311dfdb119fd0d6cade7d9758431e7"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -11288,19 +11260,12 @@
                 "projectStatus": 4,
                 "projectId": 310111,
                 "FileNameOnDisk": "RoughlyEnoughItems-8.3.583.jar",
-                "Hashes": [
-                    {
-                        "Value": "5b28f2b411f4c39a4d3c431e42dac64b026ef686"
-                    },
-                    {
-                        "Value": "9a3eea405bf6380ad4ce23419fb9661b"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:04.1271405Z",
             "dateUpdated": "2022-12-12T20:13:37.1475407Z",
             "dateLastUpdateAttempted": "2022-12-12T20:13:37.1475407Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -11427,14 +11392,7 @@
                 "projectStatus": 4,
                 "projectId": 310111,
                 "FileNameOnDisk": "RoughlyEnoughItems-8.3.583.jar",
-                "Hashes": [
-                    {
-                        "Value": "5b28f2b411f4c39a4d3c431e42dac64b026ef686"
-                    },
-                    {
-                        "Value": "9a3eea405bf6380ad4ce23419fb9661b"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -12111,6 +12069,9 @@
                     "Name": "TheCopperWarrior"
                 },
                 {
+                    "Name": "ewoudje"
+                },
+                {
                     "Name": "DaPorkchop_"
                 },
                 {
@@ -12127,16 +12088,28 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/309/505/256/256/637395374971914079.png",
             "tags": [],
             "installedFile": {
-                "id": 4161123,
-                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
-                "fileDate": "2022-12-11T03:08:24.99Z",
-                "fileLength": 23160146,
+                "id": 4174268,
+                "fileName": "valkyrienskies-118-2.1.0-beta3.jar",
+                "fileDate": "2022-12-14T09:05:29.28Z",
+                "fileLength": 23112062,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4174/268/valkyrienskies-118-2.1.0-beta3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 1
+                    },
                     {
                         "addonId": 306612,
                         "type": 3
@@ -12146,7 +12119,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2867303674,
+                        "fingerprint": 3493785327,
                         "invalidFingerprint": false
                     },
                     {
@@ -12216,7 +12189,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-common.mixins.json",
-                        "fingerprint": 625257313,
+                        "fingerprint": 3509659658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12236,7 +12209,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-118-common-refmap.json",
-                        "fingerprint": 2539936439,
+                        "fingerprint": 955450335,
                         "invalidFingerprint": false
                     },
                     {
@@ -12251,7 +12224,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3033794794,
+                        "fingerprint": 560765080,
                         "invalidFingerprint": false
                     },
                     {
@@ -12266,7 +12239,7 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 2985868687,
+                        "fingerprint": 3012246658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12285,12 +12258,12 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
-                        "fingerprint": 1532122090,
+                        "foldername": "architectury_inject_valkyrienskies_common_58f72500ce1247bb8e23430aad107103_e4d2805b089fa5b2583151ebd1c87d2cfe0be04213d384370d0e615ec1dce981valkyrienskies118210beta3devjar",
+                        "fingerprint": 377863238,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2328939237,
+                "packageFingerprint": 1594900833,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -12312,19 +12285,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 258371,
-                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "FileNameOnDisk": "valkyrienskies-118-2.1.0-beta3.jar",
                 "Hashes": [
                     {
-                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
+                        "Value": "cd6c31ae385b91944f44fcc863e9763cc4516e62"
                     },
                     {
-                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
+                        "Value": "ab28d8371fac64742aadfe2af0924560"
                     }
                 ]
             },
             "dateInstalled": "2022-12-12T20:24:05.4004793Z",
-            "dateUpdated": "2022-12-12T20:24:05.4283949Z",
-            "dateLastUpdateAttempted": "2022-12-12T20:24:05.4283949Z",
+            "dateUpdated": "2022-12-14T15:20:41.9042406Z",
+            "dateLastUpdateAttempted": "2022-12-14T15:20:41.9042406Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -12337,16 +12310,28 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4161123,
-                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
-                "fileDate": "2022-12-11T03:08:24.99Z",
-                "fileLength": 23160146,
+                "id": 4174268,
+                "fileName": "valkyrienskies-118-2.1.0-beta3.jar",
+                "fileDate": "2022-12-14T09:05:29.28Z",
+                "fileLength": 23112062,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4174/268/valkyrienskies-118-2.1.0-beta3.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 1
+                    },
+                    {
+                        "addonId": 308769,
+                        "type": 1
+                    },
                     {
                         "addonId": 306612,
                         "type": 3
@@ -12356,7 +12341,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2867303674,
+                        "fingerprint": 3493785327,
                         "invalidFingerprint": false
                     },
                     {
@@ -12426,7 +12411,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-common.mixins.json",
-                        "fingerprint": 625257313,
+                        "fingerprint": 3509659658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12446,7 +12431,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-118-common-refmap.json",
-                        "fingerprint": 2539936439,
+                        "fingerprint": 955450335,
                         "invalidFingerprint": false
                     },
                     {
@@ -12461,7 +12446,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3033794794,
+                        "fingerprint": 560765080,
                         "invalidFingerprint": false
                     },
                     {
@@ -12476,7 +12461,7 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 2985868687,
+                        "fingerprint": 3012246658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12495,12 +12480,12 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
-                        "fingerprint": 1532122090,
+                        "foldername": "architectury_inject_valkyrienskies_common_58f72500ce1247bb8e23430aad107103_e4d2805b089fa5b2583151ebd1c87d2cfe0be04213d384370d0e615ec1dce981valkyrienskies118210beta3devjar",
+                        "fingerprint": 377863238,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2328939237,
+                "packageFingerprint": 1594900833,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -12522,13 +12507,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 258371,
-                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "FileNameOnDisk": "valkyrienskies-118-2.1.0-beta3.jar",
                 "Hashes": [
                     {
-                        "Value": "e9d018dcb157a15a36c2fdff94af33b41145f6c1"
+                        "Value": "cd6c31ae385b91944f44fcc863e9763cc4516e62"
                     },
                     {
-                        "Value": "ac07b27fb43a752c38c3da8c1e1f3b42"
+                        "Value": "ab28d8371fac64742aadfe2af0924560"
                     }
                 ]
             }
@@ -16555,19 +16540,12 @@
                 "projectStatus": 4,
                 "projectId": 521126,
                 "FileNameOnDisk": "visuality-0.4.3.jar",
-                "Hashes": [
-                    {
-                        "Value": "718c440d5f3ad19348f5524b4953c655565b9619"
-                    },
-                    {
-                        "Value": "0e738402103972f006d88913a3eb9e61"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.521718Z",
             "dateUpdated": "2022-12-12T20:14:42.521718Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -16661,14 +16639,7 @@
                 "projectStatus": 4,
                 "projectId": 521126,
                 "FileNameOnDisk": "visuality-0.4.3.jar",
-                "Hashes": [
-                    {
-                        "Value": "718c440d5f3ad19348f5524b4953c655565b9619"
-                    },
-                    {
-                        "Value": "0e738402103972f006d88913a3eb9e61"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -18597,19 +18568,12 @@
                 "projectStatus": 4,
                 "projectId": 416379,
                 "FileNameOnDisk": "villagernames-1.18.2-4.0.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "75daf3d647d740067abb96058cc5ed0136f09832"
-                    },
-                    {
-                        "Value": "e6dfb656af1b2b59c368030685915edc"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.509749Z",
             "dateUpdated": "2022-12-12T20:14:42.509749Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18709,14 +18673,7 @@
                 "projectStatus": 4,
                 "projectId": 416379,
                 "FileNameOnDisk": "villagernames-1.18.2-4.0.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "75daf3d647d740067abb96058cc5ed0136f09832"
-                    },
-                    {
-                        "Value": "e6dfb656af1b2b59c368030685915edc"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -22815,19 +22772,12 @@
                 "projectStatus": 4,
                 "projectId": 654384,
                 "FileNameOnDisk": "eureka-1.1.0-beta2+59792d77ff.jar",
-                "Hashes": [
-                    {
-                        "Value": "c1ac4266f1a535b261448e4c4063536d32d0df55"
-                    },
-                    {
-                        "Value": "9cfbcece187cd037800ba9515ae9a841"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:24:08.8160318Z",
             "dateUpdated": "2022-12-12T20:24:08.8200199Z",
             "dateLastUpdateAttempted": "2022-12-12T20:24:08.8200199Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -22934,14 +22884,7 @@
                 "projectStatus": 4,
                 "projectId": 654384,
                 "FileNameOnDisk": "eureka-1.1.0-beta2+59792d77ff.jar",
-                "Hashes": [
-                    {
-                        "Value": "c1ac4266f1a535b261448e4c4063536d32d0df55"
-                    },
-                    {
-                        "Value": "9cfbcece187cd037800ba9515ae9a841"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -29463,19 +29406,12 @@
                 "projectStatus": 4,
                 "projectId": 622370,
                 "FileNameOnDisk": "walljump-unofficial-1.6.3-all+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "5ff93a9af13d5a7939cea354edffa39f59afe350"
-                    },
-                    {
-                        "Value": "f4a67f303795a3e64221f35cab194dd5"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4917969Z",
             "dateUpdated": "2022-12-12T20:14:51.9366533Z",
             "dateLastUpdateAttempted": "2022-12-12T20:14:51.9366533Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -29633,14 +29569,7 @@
                 "projectStatus": 4,
                 "projectId": 622370,
                 "FileNameOnDisk": "walljump-unofficial-1.6.3-all+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "5ff93a9af13d5a7939cea354edffa39f59afe350"
-                    },
-                    {
-                        "Value": "f4a67f303795a3e64221f35cab194dd5"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -30427,19 +30356,12 @@
                 "projectStatus": 4,
                 "projectId": 500525,
                 "FileNameOnDisk": "balm-fabric-3.2.1+0.jar",
-                "Hashes": [
-                    {
-                        "Value": "cc2ea16969ce938c518804ee37937d6abb79313f"
-                    },
-                    {
-                        "Value": "c6d16d7f22bd11fc688cddb94252e1f1"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:22:59.0665941Z",
             "dateUpdated": "2022-12-12T20:13:29.464791Z",
             "dateLastUpdateAttempted": "2022-12-12T20:13:29.464791Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30531,14 +30453,7 @@
                 "projectStatus": 4,
                 "projectId": 500525,
                 "FileNameOnDisk": "balm-fabric-3.2.1+0.jar",
-                "Hashes": [
-                    {
-                        "Value": "cc2ea16969ce938c518804ee37937d6abb79313f"
-                    },
-                    {
-                        "Value": "c6d16d7f22bd11fc688cddb94252e1f1"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -31086,19 +31001,12 @@
                 "projectStatus": 4,
                 "projectId": 374274,
                 "FileNameOnDisk": "yosbr-0.1.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "0643830cab952fc96872702e681b863b550c8530"
-                    },
-                    {
-                        "Value": "16ed8b1ac6dd0c52390bec2192c90f1d"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.5018119Z",
             "dateUpdated": "2022-12-12T20:14:42.5018119Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31357,14 +31265,7 @@
                 "projectStatus": 4,
                 "projectId": 374274,
                 "FileNameOnDisk": "yosbr-0.1.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "0643830cab952fc96872702e681b863b550c8530"
-                    },
-                    {
-                        "Value": "16ed8b1ac6dd0c52390bec2192c90f1d"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -31700,19 +31601,12 @@
                 "projectStatus": 4,
                 "projectId": 461316,
                 "FileNameOnDisk": "wirelessnetworks-1.5.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "719c4e0b2d13482776957595fa39cc3baea70f6e"
-                    },
-                    {
-                        "Value": "ddb3041dc40d436632ad73fcab026f79"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.5047977Z",
             "dateUpdated": "2022-12-12T20:14:42.5047977Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31805,14 +31699,7 @@
                 "projectStatus": 4,
                 "projectId": 461316,
                 "FileNameOnDisk": "wirelessnetworks-1.5.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "719c4e0b2d13482776957595fa39cc3baea70f6e"
-                    },
-                    {
-                        "Value": "ddb3041dc40d436632ad73fcab026f79"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -31901,19 +31788,12 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "6947f1ce92209bf8b438784d2aa1f9ab33191843"
-                    },
-                    {
-                        "Value": "233d1caa1b3bcfded16cbcd2890adb64"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:00.6633258Z",
             "dateUpdated": "2022-12-12T20:13:30.998626Z",
             "dateLastUpdateAttempted": "2022-12-12T20:13:30.998626Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -31991,14 +31871,7 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "6947f1ce92209bf8b438784d2aa1f9ab33191843"
-                    },
-                    {
-                        "Value": "233d1caa1b3bcfded16cbcd2890adb64"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -34521,19 +34394,12 @@
                 "projectStatus": 4,
                 "projectId": 570109,
                 "FileNameOnDisk": "VanitySlots-1.1.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "266ed489705f45c5080865bf60f6d330548a887e"
-                    },
-                    {
-                        "Value": "03cad8198221ca6fedabc651c44b2c40"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.5167318Z",
             "dateUpdated": "2022-12-12T20:14:42.5167318Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -34621,14 +34487,7 @@
                 "projectStatus": 4,
                 "projectId": 570109,
                 "FileNameOnDisk": "VanitySlots-1.1.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "266ed489705f45c5080865bf60f6d330548a887e"
-                    },
-                    {
-                        "Value": "03cad8198221ca6fedabc651c44b2c40"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -35139,19 +34998,12 @@
                 "projectStatus": 4,
                 "projectId": 502664,
                 "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "d334b30b0e2079bb2dfa522edba017d89e3f5649"
-                    },
-                    {
-                        "Value": "ed0627f942a86e5770759185e4b92aeb"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.5077542Z",
             "dateUpdated": "2022-12-12T20:14:42.5077542Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35229,14 +35081,7 @@
                 "projectStatus": 4,
                 "projectId": 502664,
                 "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "d334b30b0e2079bb2dfa522edba017d89e3f5649"
-                    },
-                    {
-                        "Value": "ed0627f942a86e5770759185e4b92aeb"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -35385,19 +35230,12 @@
                 "projectStatus": 4,
                 "projectId": 596911,
                 "FileNameOnDisk": "wraith-fabricaeexnihilo-0.1.10+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "f88029ef03f865cb066accacd1553c6b42d503c5"
-                    },
-                    {
-                        "Value": "9303ba710b9fd87b61815e5cacb05920"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4888051Z",
             "dateUpdated": "2022-12-12T20:14:50.2560677Z",
             "dateLastUpdateAttempted": "2022-12-12T20:14:50.2560677Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35532,14 +35370,7 @@
                 "projectStatus": 4,
                 "projectId": 596911,
                 "FileNameOnDisk": "wraith-fabricaeexnihilo-0.1.10+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "f88029ef03f865cb066accacd1553c6b42d503c5"
-                    },
-                    {
-                        "Value": "9303ba710b9fd87b61815e5cacb05920"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -35693,19 +35524,12 @@
                 "projectStatus": 4,
                 "projectId": 225608,
                 "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "40fc7f7a734ccbd53365bc91c1a17fafcec1965d"
-                    },
-                    {
-                        "Value": "862cec57e297ec8f97f74745c2e8b905"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4848149Z",
             "dateUpdated": "2022-12-12T20:14:42.4848149Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -35839,14 +35663,7 @@
                 "projectStatus": 4,
                 "projectId": 225608,
                 "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "40fc7f7a734ccbd53365bc91c1a17fafcec1965d"
-                    },
-                    {
-                        "Value": "862cec57e297ec8f97f74745c2e8b905"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -37274,10 +37091,10 @@
             "modFolderPath": null,
             "authors": [
                 {
-                    "Name": "3llemes"
+                    "Name": "Ellemss"
                 }
             ],
-            "primaryAuthor": "3llemes",
+            "primaryAuthor": "Ellemss",
             "primaryCategoryId": 421,
             "packageType": 6,
             "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/ellemes-container-library",
@@ -37598,19 +37415,12 @@
                 "projectStatus": 4,
                 "projectId": 656526,
                 "FileNameOnDisk": "revelationary-1.1.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "9b8ccbe81efc81f905c5d3ea301228eff5a6e11f"
-                    },
-                    {
-                        "Value": "fdb3582f9c262a5017586618bb4c2211"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:18.741592Z",
             "dateUpdated": "2022-12-12T20:13:35.9293426Z",
             "dateLastUpdateAttempted": "2022-12-12T20:13:35.9293426Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -37710,14 +37520,7 @@
                 "projectStatus": 4,
                 "projectId": 656526,
                 "FileNameOnDisk": "revelationary-1.1.0.jar",
-                "Hashes": [
-                    {
-                        "Value": "9b8ccbe81efc81f905c5d3ea301228eff5a6e11f"
-                    },
-                    {
-                        "Value": "fdb3582f9c262a5017586618bb4c2211"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -40049,235 +39852,6 @@
             }
         },
         {
-            "instanceID": "514910ea-40f3-467c-a803-12f718197948",
-            "modSource": 0,
-            "addonID": 402098,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "WorldEdit CUI (Fabric)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "me4502"
-                },
-                {
-                    "Name": "octylFractal"
-                },
-                {
-                    "Name": "wizjany_"
-                },
-                {
-                    "Name": "zmlaoeu"
-                }
-            ],
-            "primaryAuthor": "me4502",
-            "primaryCategoryId": 435,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/293/464/256/256/637329415442796403.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3687499,
-                "fileName": "WorldEditCUI-1.18.2+01.jar",
-                "fileDate": "2022-03-13T03:06:12.87Z",
-                "fileLength": 150417,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318440,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 455508,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 225608,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 681745471,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldeditcui.mixins.json",
-                        "fingerprint": 3210104078,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1761664040,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1073593353,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "WorldEditCUI-refmap.json",
-                        "fingerprint": 3069673842,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 3171527639,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4257987617,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 402098,
-                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
-                "Hashes": [
-                    {
-                        "Value": "f554261f9e7d5ac02e487215b5fca9d6b15583a8"
-                    },
-                    {
-                        "Value": "95b45c9c3fb4296bfecb3f44d88257d3"
-                    }
-                ]
-            },
-            "dateInstalled": "2022-12-12T20:14:42.4758774Z",
-            "dateUpdated": "2022-12-12T20:14:42.4758774Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3687499,
-                "fileName": "WorldEditCUI-1.18.2+01.jar",
-                "fileDate": "2022-03-13T03:06:12.87Z",
-                "fileLength": 150417,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318440,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 455508,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 225608,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 681745471,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldeditcui.mixins.json",
-                        "fingerprint": 3210104078,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1761664040,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1073593353,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "WorldEditCUI-refmap.json",
-                        "fingerprint": 3069673842,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 3171527639,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4257987617,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 402098,
-                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
-                "Hashes": [
-                    {
-                        "Value": "f554261f9e7d5ac02e487215b5fca9d6b15583a8"
-                    },
-                    {
-                        "Value": "95b45c9c3fb4296bfecb3f44d88257d3"
-                    }
-                ]
-            }
-        },
-        {
             "instanceID": "3f49de68-9a3b-41de-9a10-e0f2d9fe6384",
             "modSource": 0,
             "addonID": 388172,
@@ -40505,6 +40079,221 @@
                 "projectStatus": 4,
                 "projectId": 388172,
                 "FileNameOnDisk": "geckolib-fabric-1.18-3.0.79.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "514910ea-40f3-467c-a803-12f718197948",
+            "modSource": 0,
+            "addonID": 402098,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "WorldEdit CUI (Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "me4502"
+                },
+                {
+                    "Name": "octylFractal"
+                },
+                {
+                    "Name": "wizjany_"
+                },
+                {
+                    "Name": "zmlaoeu"
+                }
+            ],
+            "primaryAuthor": "me4502",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/293/464/256/256/637329415442796403.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3687499,
+                "fileName": "WorldEditCUI-1.18.2+01.jar",
+                "fileDate": "2022-03-13T03:06:12.87Z",
+                "fileLength": 150417,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 318440,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 455508,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 225608,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 681745471,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldeditcui.mixins.json",
+                        "fingerprint": 3210104078,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1761664040,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1073593353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "WorldEditCUI-refmap.json",
+                        "fingerprint": 3069673842,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 3171527639,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4257987617,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 402098,
+                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-12T20:14:42.4758774Z",
+            "dateUpdated": "2022-12-12T20:14:42.4758774Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3687499,
+                "fileName": "WorldEditCUI-1.18.2+01.jar",
+                "fileDate": "2022-03-13T03:06:12.87Z",
+                "fileLength": 150417,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 318440,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 455508,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 225608,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 681745471,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldeditcui.mixins.json",
+                        "fingerprint": 3210104078,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1761664040,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1073593353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "WorldEditCUI-refmap.json",
+                        "fingerprint": 3069673842,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 3171527639,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4257987617,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 402098,
+                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
                 "Hashes": []
             }
         },
@@ -40982,10 +40771,10 @@
             "modFolderPath": null,
             "authors": [
                 {
-                    "Name": "3llemes"
+                    "Name": "Ellemss"
                 }
             ],
-            "primaryAuthor": "3llemes",
+            "primaryAuthor": "Ellemss",
             "primaryCategoryId": 420,
             "packageType": 6,
             "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/expanded-storage",
@@ -42838,19 +42627,12 @@
                 "projectStatus": 4,
                 "projectId": 324717,
                 "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.10.jar",
-                "Hashes": [
-                    {
-                        "Value": "a41d5e867ce8bebc126ec89676b7cbc40bfc2209"
-                    },
-                    {
-                        "Value": "da799b679dfbdbb92ca7bb1f259ea657"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:04.0553667Z",
             "dateUpdated": "2022-12-12T20:13:33.9397731Z",
             "dateLastUpdateAttempted": "2022-12-12T20:13:33.9397731Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -47372,14 +47154,7 @@
                 "projectStatus": 4,
                 "projectId": 472839,
                 "FileNameOnDisk": "game-phases-1.2.2-1.18.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "461e9b2a7eab0aba8c92d7a3161cfbcff79d6dd4"
-                    },
-                    {
-                        "Value": "178c2365b1d756e568ff295697072686"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-12T20:14:42.4698589Z",
             "dateUpdated": "2022-12-12T20:14:42.4698589Z",
@@ -47490,14 +47265,7 @@
                 "projectStatus": 4,
                 "projectId": 472839,
                 "FileNameOnDisk": "game-phases-1.2.2-1.18.1.jar",
-                "Hashes": [
-                    {
-                        "Value": "461e9b2a7eab0aba8c92d7a3161cfbcff79d6dd4"
-                    },
-                    {
-                        "Value": "178c2365b1d756e568ff295697072686"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
