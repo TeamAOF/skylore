@@ -44,8 +44,9 @@ onEvent('gamephases.initialize', event => {
 });
 
 onEvent('gamephases.initialize', event => {
-    event.phase('revenant')
+    event.phase('graveyard')
      .entity('graveyard:revenant')
+	 .entity('graveyard:ghoul')
 });
 
 //Blocks -------------------------------------------------
