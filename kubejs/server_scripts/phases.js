@@ -36,6 +36,11 @@ onEvent('gamephases.initialize', event => {
         .item('artis:nulla')
 });
 
+onEvent('gamephases.initialize', event => {
+    event.phase('enchants')
+        .item('minecraft:enchanted_book')
+});
+
 //Mobs -------------------------------------------
 
 onEvent('gamephases.initialize', event => {
@@ -64,11 +69,4 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('end')
         .block('minecraft:end_portal', 'minecraft:stone')
-});
-
-//Item tags
-
-onEvent('gamephases.initialize', event => {
-    event.phase('vein')
-        .itemTag('veinmining:vein_mining')
 });
