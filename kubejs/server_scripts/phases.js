@@ -63,5 +63,12 @@ onEvent('gamephases.initialize', event => {
 
 onEvent('gamephases.initialize', event => {
     event.phase('end')
-        .block('minecraft:end_portal', 'minecraft:stone');
+        .block('minecraft:end_portal', 'minecraft:stone')
+});
+
+//Item tags
+
+onEvent('gamephases.initialize', event => {
+    event.phase('vein')
+        .itemTag('veinmining:vein_mining')
 });
