@@ -9,5 +9,5 @@ onEvent('tags.items', event => {
   //event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
   //event.add('c:workbench', 'minecraft:crafting_table')
     //event.add('c:workbench', 'minecraft:crafting_table')
-
+event.add('environmentz:warm_armor', 'mcda:*')
 });
