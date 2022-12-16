@@ -1,6 +1,7 @@
 console.log("Phases on stun!");
 
-// Items -----------------------------------------
+// Professions tables
+
 onEvent('gamephases.initialize', event => {
     event.phase('chef')
         .item('artis:chef_table')
@@ -30,15 +31,66 @@ onEvent('gamephases.initialize', event => {
     event.phase('security')
         .item('artis:security_panel')
 });
-
+// Mega Table
 onEvent('gamephases.initialize', event => {
     event.phase('nulla')
         .item('artis:nulla')
 });
-
+// Enchants
 onEvent('gamephases.initialize', event => {
     event.phase('enchants')
         .item('minecraft:enchanted_book')
+		.block('minecraft:enchanting_table')
+});
+// AE2 Gate
+
+onEvent('gamephases.initialize', event => {
+    event.phase('fluix')
+        .item('ae2:fluix_crystal_seed')
+});
+
+// Ad Astra Gating phase 1
+
+onEvent('gamephases.initialize', event => {
+    event.phase('astrodux')
+        .item('ad_astra:astrodux')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('oxygentank')
+        .item('ad_astra:oxygen_tank')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('nasa')
+        .item('ad_astra:nasa_workbench')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('rocket1')
+        .item('ad_astra:tier_1_rocket')
+});
+
+// Ad Astra Gating phase 2
+
+onEvent('gamephases.initialize', event => {
+    event.phase('desh')
+        .item('ad_astra:desh_ingot')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('deshcable')
+        .item('ad_astra:desh_cable')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('oxydis')
+        .item('ad_astra:oxygen_distributor')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('rocket2')
+        .item('ad_astra:tier_2_rocket')
 });
 
 //Mobs -------------------------------------------
@@ -52,6 +104,17 @@ onEvent('gamephases.initialize', event => {
     event.phase('graveyard')
      .entity('graveyard:revenant')
 	 .entity('graveyard:ghoul')
+});
+
+// Parasite Mob Gate
+
+onEvent('gamephases.initialize', event => {
+    event.phase('infection')
+     .entity('immortuoscalyx:infhuman')
+	 .entity('immortuoscalyx:infdiver')
+	 .entity('immortuoscalyx:infvillager')
+	 .entity('immortuoscalyx:infig')
+	 .entity('immortuoscalyx:infplayer')
 });
 
 //Blocks -------------------------------------------------
