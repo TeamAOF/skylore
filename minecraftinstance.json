@@ -31919,7 +31919,14 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.11.jar",
-                "Hashes": []
+                "Hashes": [
+                    {
+                        "Value": "b266e7d9f3f21fbe625fd4dd33ca95fdf5fbe855"
+                    },
+                    {
+                        "Value": "004b44e15251f03db669909cc33799bb"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-06T22:23:00.6633258Z",
             "dateUpdated": "2022-12-16T13:34:07.410716Z",
@@ -32002,7 +32009,14 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.11.jar",
-                "Hashes": []
+                "Hashes": [
+                    {
+                        "Value": "b266e7d9f3f21fbe625fd4dd33ca95fdf5fbe855"
+                    },
+                    {
+                        "Value": "004b44e15251f03db669909cc33799bb"
+                    }
+                ]
             }
         },
         {
@@ -35044,32 +35058,41 @@
             }
         },
         {
-            "instanceID": "6a501ce5-12de-4250-9573-24166ef7cb1a",
+            "instanceID": "c5198f10-378a-424c-a99f-c9a764418402",
             "modSource": 0,
-            "addonID": 502664,
+            "addonID": 225608,
             "gameID": 432,
             "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Exline's Wool to String",
+            "name": "WorldEdit",
             "modFolderPath": null,
             "authors": [
                 {
-                    "Name": "exlinegames"
+                    "Name": "sk89q"
+                },
+                {
+                    "Name": "wizjany_"
+                },
+                {
+                    "Name": "me4502"
+                },
+                {
+                    "Name": "octylFractal"
                 }
             ],
-            "primaryAuthor": "exlinegames",
-            "primaryCategoryId": 425,
+            "primaryAuthor": "sk89q",
+            "primaryCategoryId": 423,
             "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/exlines-wool-to-string",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/404/754/256/256/637615933330643566.png",
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/308/38/256/256/637390518698344085.png",
             "tags": [],
             "installedFile": {
-                "id": 3775660,
-                "fileName": "wooltostring-fabric-1.18.2-v1.0.1.jar",
-                "fileDate": "2022-05-01T04:38:45.483Z",
-                "fileLength": 135224,
+                "id": 3697298,
+                "fileName": "worldedit-mod-7.2.10.jar",
+                "fileDate": "2022-03-18T06:18:40.357Z",
+                "fileLength": 5500682,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3775/660/wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -35077,39 +35100,90 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2743936397,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_wooltostring",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2899310807,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 884029425,
+                        "fingerprint": 4231746129,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 2335599159,
+                        "fingerprint": 2897070019,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 2911759167,
+                        "fingerprint": 2241514904,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "defaults",
+                        "fingerprint": 585629097,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2887161050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "lang",
+                        "fingerprint": 2906606175,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mappings",
+                        "fingerprint": 4052795362,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 2473892091,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2429206551,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 3106184182,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-fabric-mc1.18.2-refmap.json",
+                        "fingerprint": 4009784624,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-fabric.mixins.json",
+                        "fingerprint": 1113971003,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit.accesswidener",
+                        "fingerprint": 2586101179,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-forge.mixins.json",
+                        "fingerprint": 392472321,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-forge.mixins.refmap.json",
+                        "fingerprint": 3053953201,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-icon.png",
+                        "fingerprint": 2897070019,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3651272580,
+                "packageFingerprint": 103613401,
                 "gameVersion": [
                     "Fabric",
-                    "1.18.2"
+                    "1.18.2",
+                    "Forge"
                 ],
                 "sortableGameVersion": [
                     {
@@ -35121,18 +35195,23 @@
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Forge",
+                        "gameVersionTypeId": 68441
                     }
                 ],
                 "hasInstallScript": false,
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 502664,
-                "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "projectId": 225608,
+                "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
                 "Hashes": []
             },
-            "dateInstalled": "2022-12-12T20:14:42.5077542Z",
-            "dateUpdated": "2022-12-12T20:14:42.5077542Z",
+            "dateInstalled": "2022-12-12T20:14:42.4848149Z",
+            "dateUpdated": "2022-12-12T20:14:42.4848149Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 5,
             "installSource": 0,
@@ -35146,13 +35225,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3775660,
-                "fileName": "wooltostring-fabric-1.18.2-v1.0.1.jar",
-                "fileDate": "2022-05-01T04:38:45.483Z",
-                "fileLength": 135224,
+                "id": 3697298,
+                "fileName": "worldedit-mod-7.2.10.jar",
+                "fileDate": "2022-03-18T06:18:40.357Z",
+                "fileLength": 5500682,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3775/660/wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -35160,39 +35239,90 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2743936397,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_wooltostring",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2899310807,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 884029425,
+                        "fingerprint": 4231746129,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "assets",
-                        "fingerprint": 2335599159,
+                        "fingerprint": 2897070019,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 2911759167,
+                        "fingerprint": 2241514904,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "defaults",
+                        "fingerprint": 585629097,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2887161050,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "lang",
+                        "fingerprint": 2906606175,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mappings",
+                        "fingerprint": 4052795362,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 2473892091,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2429206551,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 3106184182,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-fabric-mc1.18.2-refmap.json",
+                        "fingerprint": 4009784624,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-fabric.mixins.json",
+                        "fingerprint": 1113971003,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit.accesswidener",
+                        "fingerprint": 2586101179,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-forge.mixins.json",
+                        "fingerprint": 392472321,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-forge.mixins.refmap.json",
+                        "fingerprint": 3053953201,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldedit-icon.png",
+                        "fingerprint": 2897070019,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3651272580,
+                "packageFingerprint": 103613401,
                 "gameVersion": [
                     "Fabric",
-                    "1.18.2"
+                    "1.18.2",
+                    "Forge"
                 ],
                 "sortableGameVersion": [
                     {
@@ -35204,14 +35334,19 @@
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Forge",
+                        "gameVersionTypeId": 68441
                     }
                 ],
                 "hasInstallScript": false,
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 502664,
-                "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "projectId": 225608,
+                "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
                 "Hashes": []
             }
         },
@@ -35505,41 +35640,32 @@
             }
         },
         {
-            "instanceID": "c5198f10-378a-424c-a99f-c9a764418402",
+            "instanceID": "6a501ce5-12de-4250-9573-24166ef7cb1a",
             "modSource": 0,
-            "addonID": 225608,
+            "addonID": 502664,
             "gameID": 432,
             "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "WorldEdit",
+            "name": "Exline's Wool to String",
             "modFolderPath": null,
             "authors": [
                 {
-                    "Name": "sk89q"
-                },
-                {
-                    "Name": "wizjany_"
-                },
-                {
-                    "Name": "me4502"
-                },
-                {
-                    "Name": "octylFractal"
+                    "Name": "exlinegames"
                 }
             ],
-            "primaryAuthor": "sk89q",
-            "primaryCategoryId": 423,
+            "primaryAuthor": "exlinegames",
+            "primaryCategoryId": 425,
             "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldedit",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/308/38/256/256/637390518698344085.png",
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/exlines-wool-to-string",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/404/754/256/256/637615933330643566.png",
             "tags": [],
             "installedFile": {
-                "id": 3697298,
-                "fileName": "worldedit-mod-7.2.10.jar",
-                "fileDate": "2022-03-18T06:18:40.357Z",
-                "fileLength": 5500682,
+                "id": 3775660,
+                "fileName": "wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "fileDate": "2022-05-01T04:38:45.483Z",
+                "fileLength": 135224,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3775/660/wooltostring-fabric-1.18.2-v1.0.1.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -35547,90 +35673,39 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 4231746129,
+                        "fingerprint": 2743936397,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2897070019,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 2241514904,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "defaults",
-                        "fingerprint": 585629097,
+                        "foldername": "LICENSE_wooltostring",
+                        "fingerprint": 18375977,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2887161050,
+                        "fingerprint": 2899310807,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "lang",
-                        "fingerprint": 2906606175,
+                        "foldername": "data",
+                        "fingerprint": 884029425,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "mappings",
-                        "fingerprint": 4052795362,
+                        "foldername": "assets",
+                        "fingerprint": 2335599159,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "net",
-                        "fingerprint": 2473892091,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 2429206551,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 3106184182,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-fabric-mc1.18.2-refmap.json",
-                        "fingerprint": 4009784624,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-fabric.mixins.json",
-                        "fingerprint": 1113971003,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit.accesswidener",
-                        "fingerprint": 2586101179,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-forge.mixins.json",
-                        "fingerprint": 392472321,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-forge.mixins.refmap.json",
-                        "fingerprint": 3053953201,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-icon.png",
-                        "fingerprint": 2897070019,
+                        "foldername": "com",
+                        "fingerprint": 2911759167,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 103613401,
+                "packageFingerprint": 3651272580,
                 "gameVersion": [
                     "Fabric",
-                    "1.18.2",
-                    "Forge"
+                    "1.18.2"
                 ],
                 "sortableGameVersion": [
                     {
@@ -35642,23 +35717,18 @@
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Forge",
-                        "gameVersionTypeId": 68441
                     }
                 ],
                 "hasInstallScript": false,
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 225608,
-                "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
+                "projectId": 502664,
+                "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
                 "Hashes": []
             },
-            "dateInstalled": "2022-12-12T20:14:42.4848149Z",
-            "dateUpdated": "2022-12-12T20:14:42.4848149Z",
+            "dateInstalled": "2022-12-12T20:14:42.5077542Z",
+            "dateUpdated": "2022-12-12T20:14:42.5077542Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 5,
             "installSource": 0,
@@ -35672,13 +35742,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3697298,
-                "fileName": "worldedit-mod-7.2.10.jar",
-                "fileDate": "2022-03-18T06:18:40.357Z",
-                "fileLength": 5500682,
+                "id": 3775660,
+                "fileName": "wooltostring-fabric-1.18.2-v1.0.1.jar",
+                "fileDate": "2022-05-01T04:38:45.483Z",
+                "fileLength": 135224,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3775/660/wooltostring-fabric-1.18.2-v1.0.1.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -35686,90 +35756,39 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 4231746129,
+                        "fingerprint": 2743936397,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2897070019,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 2241514904,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "defaults",
-                        "fingerprint": 585629097,
+                        "foldername": "LICENSE_wooltostring",
+                        "fingerprint": 18375977,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2887161050,
+                        "fingerprint": 2899310807,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "lang",
-                        "fingerprint": 2906606175,
+                        "foldername": "data",
+                        "fingerprint": 884029425,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "mappings",
-                        "fingerprint": 4052795362,
+                        "foldername": "assets",
+                        "fingerprint": 2335599159,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "net",
-                        "fingerprint": 2473892091,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 2429206551,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 3106184182,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-fabric-mc1.18.2-refmap.json",
-                        "fingerprint": 4009784624,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-fabric.mixins.json",
-                        "fingerprint": 1113971003,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit.accesswidener",
-                        "fingerprint": 2586101179,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-forge.mixins.json",
-                        "fingerprint": 392472321,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-forge.mixins.refmap.json",
-                        "fingerprint": 3053953201,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldedit-icon.png",
-                        "fingerprint": 2897070019,
+                        "foldername": "com",
+                        "fingerprint": 2911759167,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 103613401,
+                "packageFingerprint": 3651272580,
                 "gameVersion": [
                     "Fabric",
-                    "1.18.2",
-                    "Forge"
+                    "1.18.2"
                 ],
                 "sortableGameVersion": [
                     {
@@ -35781,19 +35800,14 @@
                         "gameVersion": "1.18.2",
                         "gameVersionName": "1.18.2",
                         "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Forge",
-                        "gameVersionTypeId": 68441
                     }
                 ],
                 "hasInstallScript": false,
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 225608,
-                "FileNameOnDisk": "worldedit-mod-7.2.10.jar",
+                "projectId": 502664,
+                "FileNameOnDisk": "wooltostring-fabric-1.18.2-v1.0.1.jar",
                 "Hashes": []
             }
         },
@@ -38667,208 +38681,6 @@
             }
         },
         {
-            "instanceID": "8a99e660-3d40-449c-8a1c-8e381dad2fc5",
-            "modSource": 0,
-            "addonID": 449974,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Mob Origins",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "UltrusBot"
-                }
-            ],
-            "primaryAuthor": "UltrusBot",
-            "primaryCategoryId": 422,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mob-origins",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/347/261/256/256/637496898284095480.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3752009,
-                "fileName": "moborigins-1.8.1.jar",
-                "fileDate": "2022-04-15T01:31:28.213Z",
-                "fileLength": 174057,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3752/9/moborigins-1.8.1.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 391943,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 358168824,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_moborigins",
-                        "fingerprint": 1281234902,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 74005522,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "moborigins.mixins.json",
-                        "fingerprint": 2392738836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 688484677,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1998169435,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "moborigins-refmap.json",
-                        "fingerprint": 4074751643,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 3581953607,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4005193712,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 449974,
-                "FileNameOnDisk": "moborigins-1.8.1.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:04.0633517Z",
-            "dateUpdated": "2022-12-06T22:23:04.0633517Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3752009,
-                "fileName": "moborigins-1.8.1.jar",
-                "fileDate": "2022-04-15T01:31:28.213Z",
-                "fileLength": 174057,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3752/9/moborigins-1.8.1.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 391943,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 358168824,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_moborigins",
-                        "fingerprint": 1281234902,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 74005522,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "moborigins.mixins.json",
-                        "fingerprint": 2392738836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 688484677,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1998169435,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "moborigins-refmap.json",
-                        "fingerprint": 4074751643,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "io",
-                        "fingerprint": 3581953607,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4005193712,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 449974,
-                "FileNameOnDisk": "moborigins-1.8.1.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "adef487f-b41b-419c-8580-5340f13abf9f",
             "modSource": 0,
             "addonID": 438365,
@@ -39117,6 +38929,208 @@
                 "projectStatus": 4,
                 "projectId": 438365,
                 "FileNameOnDisk": "BOMD-1.3.9-1.18.2.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "8a99e660-3d40-449c-8a1c-8e381dad2fc5",
+            "modSource": 0,
+            "addonID": 449974,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Mob Origins",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "UltrusBot"
+                }
+            ],
+            "primaryAuthor": "UltrusBot",
+            "primaryCategoryId": 422,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mob-origins",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/347/261/256/256/637496898284095480.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3752009,
+                "fileName": "moborigins-1.8.1.jar",
+                "fileDate": "2022-04-15T01:31:28.213Z",
+                "fileLength": 174057,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3752/9/moborigins-1.8.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 391943,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 358168824,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_moborigins",
+                        "fingerprint": 1281234902,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 74005522,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "moborigins.mixins.json",
+                        "fingerprint": 2392738836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 688484677,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1998169435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "moborigins-refmap.json",
+                        "fingerprint": 4074751643,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 3581953607,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4005193712,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 449974,
+                "FileNameOnDisk": "moborigins-1.8.1.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:04.0633517Z",
+            "dateUpdated": "2022-12-06T22:23:04.0633517Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3752009,
+                "fileName": "moborigins-1.8.1.jar",
+                "fileDate": "2022-04-15T01:31:28.213Z",
+                "fileLength": 174057,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3752/9/moborigins-1.8.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 391943,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 358168824,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_moborigins",
+                        "fingerprint": 1281234902,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 74005522,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "moborigins.mixins.json",
+                        "fingerprint": 2392738836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 688484677,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1998169435,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "moborigins-refmap.json",
+                        "fingerprint": 4074751643,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "io",
+                        "fingerprint": 3581953607,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4005193712,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 449974,
+                "FileNameOnDisk": "moborigins-1.8.1.jar",
                 "Hashes": []
             }
         },
@@ -39983,6 +39997,221 @@
             }
         },
         {
+            "instanceID": "514910ea-40f3-467c-a803-12f718197948",
+            "modSource": 0,
+            "addonID": 402098,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "WorldEdit CUI (Fabric)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "me4502"
+                },
+                {
+                    "Name": "octylFractal"
+                },
+                {
+                    "Name": "wizjany_"
+                },
+                {
+                    "Name": "zmlaoeu"
+                }
+            ],
+            "primaryAuthor": "me4502",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/293/464/256/256/637329415442796403.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3687499,
+                "fileName": "WorldEditCUI-1.18.2+01.jar",
+                "fileDate": "2022-03-13T03:06:12.87Z",
+                "fileLength": 150417,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 318440,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 455508,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 225608,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 681745471,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldeditcui.mixins.json",
+                        "fingerprint": 3210104078,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1761664040,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1073593353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "WorldEditCUI-refmap.json",
+                        "fingerprint": 3069673842,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 3171527639,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4257987617,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 402098,
+                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-12T20:14:42.4758774Z",
+            "dateUpdated": "2022-12-12T20:14:42.4758774Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3687499,
+                "fileName": "WorldEditCUI-1.18.2+01.jar",
+                "fileDate": "2022-03-13T03:06:12.87Z",
+                "fileLength": 150417,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 318440,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 455508,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 225608,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 681745471,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "worldeditcui.mixins.json",
+                        "fingerprint": 3210104078,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1761664040,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1073593353,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "WorldEditCUI-refmap.json",
+                        "fingerprint": 3069673842,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 3171527639,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4257987617,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 402098,
+                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "3f49de68-9a3b-41de-9a10-e0f2d9fe6384",
             "modSource": 0,
             "addonID": 388172,
@@ -40210,221 +40439,6 @@
                 "projectStatus": 4,
                 "projectId": 388172,
                 "FileNameOnDisk": "geckolib-fabric-1.18-3.0.79.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "514910ea-40f3-467c-a803-12f718197948",
-            "modSource": 0,
-            "addonID": 402098,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "WorldEdit CUI (Fabric)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "me4502"
-                },
-                {
-                    "Name": "octylFractal"
-                },
-                {
-                    "Name": "wizjany_"
-                },
-                {
-                    "Name": "zmlaoeu"
-                }
-            ],
-            "primaryAuthor": "me4502",
-            "primaryCategoryId": 435,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/worldeditcui-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/293/464/256/256/637329415442796403.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3687499,
-                "fileName": "WorldEditCUI-1.18.2+01.jar",
-                "fileDate": "2022-03-13T03:06:12.87Z",
-                "fileLength": 150417,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318440,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 455508,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 225608,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 681745471,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldeditcui.mixins.json",
-                        "fingerprint": 3210104078,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1761664040,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1073593353,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "WorldEditCUI-refmap.json",
-                        "fingerprint": 3069673842,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 3171527639,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4257987617,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 402098,
-                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-12T20:14:42.4758774Z",
-            "dateUpdated": "2022-12-12T20:14:42.4758774Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3687499,
-                "fileName": "WorldEditCUI-1.18.2+01.jar",
-                "fileDate": "2022-03-13T03:06:12.87Z",
-                "fileLength": 150417,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318440,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 455508,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 225608,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 681745471,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "worldeditcui.mixins.json",
-                        "fingerprint": 3210104078,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1761664040,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1073593353,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "WorldEditCUI-refmap.json",
-                        "fingerprint": 3069673842,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 3171527639,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4257987617,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 402098,
-                "FileNameOnDisk": "WorldEditCUI-1.18.2+01.jar",
                 "Hashes": []
             }
         },
@@ -42435,6 +42449,218 @@
             }
         },
         {
+            "instanceID": "e8659a7d-78f6-465c-96e5-ca1572fa3df5",
+            "modSource": 0,
+            "addonID": 324717,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "Jade 🔍",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Snownee_"
+                }
+            ],
+            "primaryAuthor": "Snownee_",
+            "primaryCategoryId": 423,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/jade",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4160646,
+                "fileName": "Jade-1.18.2-fabric-5.99.10.jar",
+                "fileDate": "2022-12-10T20:57:52.67Z",
+                "fileLength": 338288,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4160/646/Jade-1.18.2-fabric-5.99.10.jar",
+                "isAlternate": false,
+                "alternateFileId": 4160647,
+                "dependencies": [
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2267178319,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 2624644293,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.mixins.json",
+                        "fingerprint": 2394770836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.accesswidener",
+                        "fingerprint": 841903183,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 1859719455,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1379481872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3096478433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.refmap.json",
+                        "fingerprint": 1034199984,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "snownee",
+                        "fingerprint": 3681839998,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 29404420,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 324717,
+                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.10.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:04.0553667Z",
+            "dateUpdated": "2022-12-12T20:13:33.9397731Z",
+            "dateLastUpdateAttempted": "2022-12-12T20:13:33.9397731Z",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4160646,
+                "fileName": "Jade-1.18.2-fabric-5.99.10.jar",
+                "fileDate": "2022-12-10T20:57:52.67Z",
+                "fileLength": 338288,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4160/646/Jade-1.18.2-fabric-5.99.10.jar",
+                "isAlternate": false,
+                "alternateFileId": 4160647,
+                "dependencies": [
+                    {
+                        "addonId": 238222,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2267178319,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 2624644293,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.mixins.json",
+                        "fingerprint": 2394770836,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.accesswidener",
+                        "fingerprint": 841903183,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 1859719455,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1379481872,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3096478433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "jade.refmap.json",
+                        "fingerprint": 1034199984,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "snownee",
+                        "fingerprint": 3681839998,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 29404420,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 324717,
+                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.10.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "e7639b69-5253-46ee-b3a4-1675ec7009e0",
             "modSource": 0,
             "addonID": 399309,
@@ -42649,218 +42875,6 @@
                 "projectStatus": 4,
                 "projectId": 399309,
                 "FileNameOnDisk": "dawn-3.3.2.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "e8659a7d-78f6-465c-96e5-ca1572fa3df5",
-            "modSource": 0,
-            "addonID": 324717,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Jade 🔍",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Snownee_"
-                }
-            ],
-            "primaryAuthor": "Snownee_",
-            "primaryCategoryId": 423,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/jade",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/207/323/256/256/636965628804677340.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4160646,
-                "fileName": "Jade-1.18.2-fabric-5.99.10.jar",
-                "fileDate": "2022-12-10T20:57:52.67Z",
-                "fileLength": 338288,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/646/Jade-1.18.2-fabric-5.99.10.jar",
-                "isAlternate": false,
-                "alternateFileId": 4160647,
-                "dependencies": [
-                    {
-                        "addonId": 238222,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2267178319,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2624644293,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.mixins.json",
-                        "fingerprint": 2394770836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.accesswidener",
-                        "fingerprint": 841903183,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 1859719455,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1379481872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3096478433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.refmap.json",
-                        "fingerprint": 1034199984,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "snownee",
-                        "fingerprint": 3681839998,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 29404420,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 324717,
-                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.10.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:04.0553667Z",
-            "dateUpdated": "2022-12-12T20:13:33.9397731Z",
-            "dateLastUpdateAttempted": "2022-12-12T20:13:33.9397731Z",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4160646,
-                "fileName": "Jade-1.18.2-fabric-5.99.10.jar",
-                "fileDate": "2022-12-10T20:57:52.67Z",
-                "fileLength": 338288,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/646/Jade-1.18.2-fabric-5.99.10.jar",
-                "isAlternate": false,
-                "alternateFileId": 4160647,
-                "dependencies": [
-                    {
-                        "addonId": 238222,
-                        "type": 2
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2267178319,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "pack.mcmeta",
-                        "fingerprint": 2624644293,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.mixins.json",
-                        "fingerprint": 2394770836,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.accesswidener",
-                        "fingerprint": 841903183,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 1859719455,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1379481872,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 3096478433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "jade.refmap.json",
-                        "fingerprint": 1034199984,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "snownee",
-                        "fingerprint": 3681839998,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 29404420,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 324717,
-                "FileNameOnDisk": "Jade-1.18.2-fabric-5.99.10.jar",
                 "Hashes": []
             }
         },
@@ -46280,198 +46294,6 @@
             }
         },
         {
-            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
-            "modSource": 0,
-            "addonID": 225738,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "MmmMmmMmmMmm (Target Dummy)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "MehVahdJukaar"
-                }
-            ],
-            "primaryAuthor": "MehVahdJukaar",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
-            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": true,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3820500,
-                "fileName": "dummmmmmy-1.18-1.5.2.jar",
-                "fileDate": "2022-06-07T08:54:04.953Z",
-                "fileLength": 98164,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3844147548,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_dummmmmmy",
-                        "fingerprint": 18375977,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 4051597815,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy.mixins.json",
-                        "fingerprint": 939531585,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1128644385,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 123080888,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dummmmmmy-refmap.json",
-                        "fingerprint": 2345059856,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 1721909061,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 1618292580,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 225738,
-                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "75acccc1-d7b3-4304-bb40-1dc52c925f83",
             "modSource": 0,
             "addonID": 319596,
@@ -46756,6 +46578,198 @@
                 "projectStatus": 4,
                 "projectId": 319596,
                 "FileNameOnDisk": "Pehkui-3.6.0+1.14.4-1.19.3.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "2aee4fbb-27eb-44bf-ae0e-32618207e830",
+            "modSource": 0,
+            "addonID": 225738,
+            "gameID": 432,
+            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
+            "name": "MmmMmmMmmMmm (Target Dummy)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "MehVahdJukaar"
+                }
+            ],
+            "primaryAuthor": "MehVahdJukaar",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/436/794/256/256/637679304966892368.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-06T22:23:00.6054806Z",
+            "dateUpdated": "2022-12-06T22:23:00.6054806Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3820500,
+                "fileName": "dummmmmmy-1.18-1.5.2.jar",
+                "fileDate": "2022-06-07T08:54:04.953Z",
+                "fileLength": 98164,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3820/500/dummmmmmy-1.18-1.5.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3844147548,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_dummmmmmy",
+                        "fingerprint": 18375977,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 4051597815,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy.mixins.json",
+                        "fingerprint": 939531585,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1128644385,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 123080888,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dummmmmmy-refmap.json",
+                        "fingerprint": 2345059856,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 1721909061,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1618292580,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 225738,
+                "FileNameOnDisk": "dummmmmmy-1.18-1.5.2.jar",
                 "Hashes": []
             }
         },
@@ -48149,250 +48163,6 @@
                 "projectId": 405388,
                 "FileNameOnDisk": "Modern-Industrialization-1.2.3.jar",
                 "Hashes": []
-            }
-        },
-        {
-            "instanceID": "ba6d9b6d-ec16-43de-a003-a3ec1329373e",
-            "modSource": 0,
-            "addonID": 334853,
-            "gameID": 432,
-            "gameInstanceID": "696532e2-55a4-422a-940c-e70391a03be9",
-            "name": "Simple Discord Rich Presence (Forge /  Fabric)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Sunekaer"
-                }
-            ],
-            "primaryAuthor": "Sunekaer",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/218/240/256/256/637010626881189622.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4076570,
-                "fileName": "SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "fileDate": "2022-11-10T09:24:48.673Z",
-                "fileLength": 512585,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4076/570/SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 348521,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419699,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2161367376,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "lib",
-                        "fingerprint": 543966308,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp-common.mixins.json",
-                        "fingerprint": 1938706990,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp.accesswidener",
-                        "fingerprint": 3941206721,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2579772171,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2344003756,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp.mixins.json",
-                        "fingerprint": 3684021477,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 1051366569,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 1558685192,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_SimpleDiscordRichPresence_common_4c0c1902d94e4723be041c7360b43f32_a113504ea37dbdac06f8392bf4a8c8f3ab4caef31f31f3ee6cb9320e06a518ccSimpleDiscordRichPresence303build26mc1182devjar",
-                        "fingerprint": 827527548,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3362830048,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 334853,
-                "FileNameOnDisk": "SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "2c5adc15fec7bc9994c86f354fadb6e8b9ad59b8"
-                    },
-                    {
-                        "Value": "4428a4819f4fe15a05f1320d92b4b1c4"
-                    }
-                ]
-            },
-            "dateInstalled": "2022-12-16T15:15:33.1416348Z",
-            "dateUpdated": "2022-12-16T15:15:33.1555977Z",
-            "dateLastUpdateAttempted": "2022-12-16T15:15:33.1555977Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4076570,
-                "fileName": "SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "fileDate": "2022-11-10T09:24:48.673Z",
-                "fileLength": 512585,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4076/570/SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 348521,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419699,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 2161367376,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "lib",
-                        "fingerprint": 543966308,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp-common.mixins.json",
-                        "fingerprint": 1938706990,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp.accesswidener",
-                        "fingerprint": 3941206721,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2579772171,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2344003756,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "sdrp.mixins.json",
-                        "fingerprint": 3684021477,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "com",
-                        "fingerprint": 1051366569,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "org",
-                        "fingerprint": 1558685192,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_SimpleDiscordRichPresence_common_4c0c1902d94e4723be041c7360b43f32_a113504ea37dbdac06f8392bf4a8c8f3ab4caef31f31f3ee6cb9320e06a518ccSimpleDiscordRichPresence303build26mc1182devjar",
-                        "fingerprint": 827527548,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3362830048,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 334853,
-                "FileNameOnDisk": "SimpleDiscordRichPresence-fabric-3.0.3-build.26+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "2c5adc15fec7bc9994c86f354fadb6e8b9ad59b8"
-                    },
-                    {
-                        "Value": "4428a4819f4fe15a05f1320d92b4b1c4"
-                    }
-                ]
             }
         },
         {
