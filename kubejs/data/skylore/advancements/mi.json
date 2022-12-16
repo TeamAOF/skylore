@@ -1,0 +1,43 @@
+{
+
+    "display": {
+
+        "title": {
+
+            "text": "MI ME",
+
+            "color": "dark_aqua"
+
+        },
+
+        "description": {
+
+            "text": "Description"
+
+        },
+
+        "icon": {
+
+            "item": "minecraft:shulker_spawn_egg"
+
+        },
+
+        "frame": "challenge",
+
+        "show_toast": false,
+
+        "announce_to_chat": false,
+
+        "hidden": true,
+
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+
+    },
+
+    "criteria": {        
+	"requirement": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+
+}

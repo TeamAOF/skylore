@@ -1,0 +1,6 @@
+#This is a Fabric recreation of Revvilo's Responsive Shield's mod. Their mod is exclusively for Forge and I wanted a Fabric one for myself, so here you go.
+#Minecraft by default has a hard-coded 5 tick delay between right-clicking with the shield and being able to block.
+#Setting RaiseTime to 0 makes shields capable of blocking instantly. Setting it to 5 would be equivalent to vanilla.
+Enabled = true
+RaiseTime = 1
+

@@ -1,8 +1,8 @@
 {
-   "type": "artis:navigation_panel_shaped",
+   "type": "artis:science_panel_shaped",
    "pattern": [
      "-/-",
-	 "-",
+	 " - ",
 	 "/-/"
    ],
    "key": {

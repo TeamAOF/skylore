@@ -1009,7 +1009,7 @@
 		{
 			title: "Iron Shield"
 			icon: {
-				id: "gateofbabylon:iron_shield"
+				id: "survivalplus:titanium_shield"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -1031,6 +1031,13 @@
 			rewards: [{
 				id: "67542E998F5B7747"
 				type: "questsadditions:repeat"
+				icon: {
+					id: "survivalplus:titanium_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 				table_id: 5250622408258125757L
 			}]
 		}
