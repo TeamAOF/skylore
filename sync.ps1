@@ -1,5 +1,5 @@
 # params and constants
-. .\config.ps1
+. $PSSCriptRoot\config.ps1
 # example config 
 
 # # used for setting the rigth url to download from.
@@ -18,24 +18,24 @@ if ($githubSync) {
         git pull
         git switch $branch
         java -jar InstanceSync.jar
-        Copy-Item .\offlineMods\* .\mods
+        Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
     }
     else {
         git clone $url modpack
-        Move-Item modpack\* .
-        Move-Item modpack\.git .
+        Move-Item modpack\* $PSSCriptRoot
+        Move-Item modpack\.git $PSSCriptRoot
         Remove-Item modpack -Recurse
         git reset --hard
         git pull
         git switch $branch
         java -jar InstanceSync.jar
-        Copy-Item .\offlineMods\* .\mods
+        Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
     }
 }
 
 if (Test-Path -Path ./server.lock) {
     if ($githubSync) {
-        Copy-Item .\serverMods\* .\mods
+        Copy-Item $PSSCriptRoot\serverMods\* $PSSCriptRoot\mods
     }
-    . .\server.lock
+    . $PSSCriptRoot\server.lock
 }
