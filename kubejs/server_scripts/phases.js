@@ -40,7 +40,7 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('enchants')
         .item('minecraft:enchanted_book')
-		.block('minecraft:enchanting_table')
+		.item('minecraft:enchanting_table')
 });
 // AE2 Gate
 
