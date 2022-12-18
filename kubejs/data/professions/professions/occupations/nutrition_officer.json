@@ -8,7 +8,7 @@
   ],
   "displayName": "Nutrition Officer",
   "maxLevel": 100,
-  "experienceSclEquation": "1000*1.03706264^(lvl-1)",
+  "experienceSclEquation": "4+2*(lvl-1)",
   "incomeSclEquation": "base",
   "actions": [
     {
