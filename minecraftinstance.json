@@ -5599,6 +5599,236 @@
             }
         },
         {
+            "instanceID": "b85f9fde-8f3c-4179-b96f-f3dec3ab1d7c",
+            "modSource": 0,
+            "addonID": 60089,
+            "gameID": 432,
+            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
+            "name": "Mouse Tweaks",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "YaLTeR"
+                }
+            ],
+            "primaryAuthor": "YaLTeR",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/467/691/256/256/637749969243449870.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3601896,
+                "fileName": "MouseTweaks-fabric-mc1.18-2.22.jar",
+                "fileDate": "2022-01-11T07:16:26.933Z",
+                "fileLength": 77650,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3601/896/MouseTweaks-fabric-mc1.18-2.22.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2138618965,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 1107695060,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks_logo.png",
+                        "fingerprint": 1781016577,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1080037067,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks-fabric.mixins.json",
+                        "fingerprint": 1963095501,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks.mixins.json",
+                        "fingerprint": 33962436,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks.mixins.refmap.json",
+                        "fingerprint": 2800702307,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "yalter",
+                        "fingerprint": 4246247066,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1440569453,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 60089,
+                "FileNameOnDisk": "MouseTweaks-fabric-mc1.18-2.22.jar",
+                "Hashes": [
+                    {
+                        "Value": "204b054b2dd027014c8dd346e64c4cd2cc1db9b0"
+                    },
+                    {
+                        "Value": "628892304ad21f6a4adf8142630d21d3"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-18T19:02:12.8106067Z",
+            "dateUpdated": "2022-12-18T19:02:12.8126085Z",
+            "dateLastUpdateAttempted": "2022-12-18T19:02:12.8126085Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3601896,
+                "fileName": "MouseTweaks-fabric-mc1.18-2.22.jar",
+                "fileDate": "2022-01-11T07:16:26.933Z",
+                "fileLength": 77650,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3601/896/MouseTweaks-fabric-mc1.18-2.22.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2138618965,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 1107695060,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks_logo.png",
+                        "fingerprint": 1781016577,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1080037067,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks-fabric.mixins.json",
+                        "fingerprint": 1963095501,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks.mixins.json",
+                        "fingerprint": 33962436,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mousetweaks.mixins.refmap.json",
+                        "fingerprint": 2800702307,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "yalter",
+                        "fingerprint": 4246247066,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1440569453,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18.2",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 60089,
+                "FileNameOnDisk": "MouseTweaks-fabric-mc1.18-2.22.jar",
+                "Hashes": [
+                    {
+                        "Value": "204b054b2dd027014c8dd346e64c4cd2cc1db9b0"
+                    },
+                    {
+                        "Value": "628892304ad21f6a4adf8142630d21d3"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "c937532d-bff0-40e6-a733-b4717dcfed25",
             "modSource": 0,
             "addonID": 536610,
@@ -29908,6 +30138,266 @@
             }
         },
         {
+            "instanceID": "3f0ddb6c-2509-49e4-b481-8c314c6c1d8d",
+            "modSource": 0,
+            "addonID": 684878,
+            "gameID": 432,
+            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
+            "name": "Professions Integrations",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "thethonk"
+                }
+            ],
+            "primaryAuthor": "thethonk",
+            "primaryCategoryId": 422,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/professions-integrations",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/617/653/256/256/638004206183191999.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4041471,
+                "fileName": "ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "fileDate": "2022-10-23T01:07:12.467Z",
+                "fileLength": 144003,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4041/471/ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 415438,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 482834,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 391378,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 405388,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 233564,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 607057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 410127,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3681201213,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 952628374,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions_i.mixins.json",
+                        "fingerprint": 2224400530,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1839141288,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bozo-root.accesswidener",
+                        "fingerprint": 596709444,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1796256393,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ProfessionsIntegration-refmap.json",
+                        "fingerprint": 2154869484,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2346216384,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 3847097098,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2472589340,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 684878,
+                "FileNameOnDisk": "ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-11-27T15:55:28.7332196Z",
+            "dateUpdated": "2022-11-27T15:55:28.7332196Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4041471,
+                "fileName": "ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "fileDate": "2022-10-23T01:07:12.467Z",
+                "fileLength": 144003,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4041/471/ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 415438,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 482834,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 391378,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 405388,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 233564,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 607057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 410127,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3681201213,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 952628374,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions_i.mixins.json",
+                        "fingerprint": 2224400530,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1839141288,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "bozo-root.accesswidener",
+                        "fingerprint": 596709444,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1796256393,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "ProfessionsIntegration-refmap.json",
+                        "fingerprint": 2154869484,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2346216384,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 3847097098,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2472589340,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 684878,
+                "FileNameOnDisk": "ProfessionsIntegration-1.18.2-FABRIC-1.0.3.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "d29116d7-af6f-48f8-8831-f6b6af3d4cfc",
             "modSource": 0,
             "addonID": 515172,
@@ -33501,6 +33991,258 @@
                 "projectStatus": 4,
                 "projectId": 438496,
                 "FileNameOnDisk": "ftb-quests-fabric-1802.3.10-build.138.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "abadf338-35de-4f30-9e7d-5efab40e34f4",
+            "modSource": 0,
+            "addonID": 607057,
+            "gameID": 432,
+            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
+            "name": "Professions",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "thethonk"
+                }
+            ],
+            "primaryAuthor": "thethonk",
+            "primaryCategoryId": 422,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/professions",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/528/293/256/256/637850798240468446.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4036955,
+                "fileName": "Professions-1.18.2-FABRIC-1.0.3.jar",
+                "fileDate": "2022-10-21T21:33:14.407Z",
+                "fileLength": 1580196,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4036/955/Professions-1.18.2-FABRIC-1.0.3.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 431733,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1707235139,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 3997080199,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Professions.mixins.json",
+                        "fingerprint": 1025760549,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions.accesswidener",
+                        "fingerprint": 4189141645,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions-root.mixins.json",
+                        "fingerprint": 1791615181,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions-root.accesswidener",
+                        "fingerprint": 3520001146,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1117969666,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 587733714,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3986322582,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 4285728466,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Professions-refmap.json",
+                        "fingerprint": 1451810646,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2346216384,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 2794940615,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2873910546,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 607057,
+                "FileNameOnDisk": "Professions-1.18.2-FABRIC-1.0.3.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-11-27T15:55:28.4753548Z",
+            "dateUpdated": "2022-11-27T15:55:28.4753548Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 5,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": true,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4036955,
+                "fileName": "Professions-1.18.2-FABRIC-1.0.3.jar",
+                "fileDate": "2022-10-21T21:33:14.407Z",
+                "fileLength": 1580196,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4036/955/Professions-1.18.2-FABRIC-1.0.3.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 431733,
+                        "type": 2
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1707235139,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "resourcepacks",
+                        "fingerprint": 3997080199,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Professions.mixins.json",
+                        "fingerprint": 1025760549,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions.accesswidener",
+                        "fingerprint": 4189141645,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions-root.mixins.json",
+                        "fingerprint": 1791615181,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "professions-root.accesswidener",
+                        "fingerprint": 3520001146,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 1117969666,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 587733714,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 3986322582,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 4285728466,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Professions-refmap.json",
+                        "fingerprint": 1451810646,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "org",
+                        "fingerprint": 2346216384,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 2794940615,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2873910546,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 607057,
+                "FileNameOnDisk": "Professions-1.18.2-FABRIC-1.0.3.jar",
                 "Hashes": []
             }
         },
@@ -41947,236 +42689,6 @@
                 "projectId": 383725,
                 "FileNameOnDisk": "enhanced_mushrooms-fabric-4.0.1+1.18.2.jar",
                 "Hashes": []
-            }
-        },
-        {
-            "instanceID": "e020256d-ef79-48f3-9d2b-e8b14a4a106a",
-            "modSource": 0,
-            "addonID": 317514,
-            "gameID": 432,
-            "gameInstanceID": "cf69ce2c-945f-4232-92fd-09a73739be1d",
-            "name": "Mouse Wheelie (Fabric)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Siphalor"
-                }
-            ],
-            "primaryAuthor": "Siphalor",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/mouse-wheelie",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/196/155/256/256/636883654770627603.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4160941,
-                "fileName": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "fileDate": "2022-12-11T00:46:26.24Z",
-                "fileLength": 895366,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4160/941/mousewheelie-1.10.3+mc1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318413,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308702,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 324564,
-                        "type": 1
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 585788189,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE",
-                        "fingerprint": 1185419476,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mousewheelie.mixins.json",
-                        "fingerprint": 913787462,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1935987779,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1883408384,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mousewheelie-refmap.json",
-                        "fingerprint": 1331844916,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "de",
-                        "fingerprint": 3941961015,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3764028924,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
-                    },
-                    {
-                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
-                    }
-                ]
-            },
-            "dateInstalled": "2022-12-18T18:56:49.2001918Z",
-            "dateUpdated": "2022-12-18T18:56:49.2031945Z",
-            "dateLastUpdateAttempted": "2022-12-18T18:56:49.2031945Z",
-            "status": 3,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4183818,
-                "fileName": "mousewheelie-1.10.5+mc1.18.2.jar",
-                "fileDate": "2022-12-17T14:41:28.003Z",
-                "fileLength": 897849,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4183/818/mousewheelie-1.10.5+mc1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 318413,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 324564,
-                        "type": 1
-                    },
-                    {
-                        "addonId": 308702,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 1
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3546782670,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE",
-                        "fingerprint": 1185419476,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mousewheelie.mixins.json",
-                        "fingerprint": 913787462,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 1752283944,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1102868848,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mousewheelie-refmap.json",
-                        "fingerprint": 1331844916,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "de",
-                        "fingerprint": 2115836892,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2727395180,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.5+mc1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "8f1d20aab6968c7384a4ee2f27c6e7d41d2a9d61"
-                    },
-                    {
-                        "Value": "1cbc7e8af97629b3059376b39c1ce1c3"
-                    }
-                ]
             }
         },
         {
