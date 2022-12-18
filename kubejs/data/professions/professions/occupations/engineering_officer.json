@@ -6,7 +6,7 @@
     "Earn money and experience",
     "by working with the big machines."
   ],
-  "displayName": "Mechanic",
+  "displayName": "Engineering Officer",
   "maxLevel": 100,
   "experienceSclEquation": "1000*1.064^(lvl-1)",
   "incomeSclEquation": "base",
