@@ -365,7 +365,7 @@
             "dateInstalled": "2022-12-15T14:49:27.5469672Z",
             "dateUpdated": "2022-12-15T14:49:27.5619331Z",
             "dateLastUpdateAttempted": "2022-12-15T14:49:27.5619331Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7436,22 +7436,18 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/629/345/256/256/638027246733156729.jpeg",
             "tags": [],
             "installedFile": {
-                "id": 3842726,
-                "fileName": "friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
-                "fileDate": "2022-06-21T16:31:38.887Z",
-                "fileLength": 1157306,
+                "id": 4182650,
+                "fileName": "friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
+                "fileDate": "2022-12-16T18:08:18.103Z",
+                "fileLength": 1160185,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3842/726/friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4182/650/friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
                         "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419699,
                         "type": 3
                     }
                 ],
@@ -7468,47 +7464,47 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "data",
-                        "fingerprint": 3909997793,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "friendsandfoes.accesswidener",
-                        "fingerprint": 120559035,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "assets",
                         "fingerprint": 2668533838,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "friendsandfoes-common.mixins.json",
-                        "fingerprint": 985452552,
+                        "fingerprint": 1261551410,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "friendsandfoes.accesswidener",
+                        "fingerprint": 2936988134,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2424791692,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "friendsandfoes-mc1.18.2-common-refmap.json",
-                        "fingerprint": 1637326242,
+                        "fingerprint": 2956873492,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3199273811,
+                        "fingerprint": 3652356026,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 3786197964,
+                        "fingerprint": 1735992977,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_friendsandfoes_common_16aad39887cb4e44a7008821d6e9ea76_6e68684463e9dfb5ffd88e12450226e81366c9f640c52a937d069fc6254f9c78friendsandfoesmc1182145devjar",
-                        "fingerprint": 3618212486,
+                        "foldername": "architectury_inject_friendsandfoes_common_49e8b6547ee54ac0a899e057e47f31ef_bd2a014a84421ca0a3d1efe030a7ad2d8b2546ba18e05168b6c893d6f825797afriendsandfoesmc1182146devjar",
+                        "fingerprint": 298381552,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3056328561,
+                "packageFingerprint": 1352879148,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -7530,40 +7526,36 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 551364,
-                "FileNameOnDisk": "friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
+                "FileNameOnDisk": "friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
                 "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:00.6473693Z",
-            "dateUpdated": "2022-12-06T22:23:00.6473693Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-17T21:06:03.5521387Z",
+            "dateLastUpdateAttempted": "2022-12-17T21:06:03.5521387Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3842726,
-                "fileName": "friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
-                "fileDate": "2022-06-21T16:31:38.887Z",
-                "fileLength": 1157306,
+                "id": 4182650,
+                "fileName": "friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
+                "fileDate": "2022-12-16T18:08:18.103Z",
+                "fileLength": 1160185,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3842/726/friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4182/650/friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
                         "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 419699,
                         "type": 3
                     }
                 ],
@@ -7580,47 +7572,47 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "data",
-                        "fingerprint": 3909997793,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "friendsandfoes.accesswidener",
-                        "fingerprint": 120559035,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "assets",
                         "fingerprint": 2668533838,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "friendsandfoes-common.mixins.json",
-                        "fingerprint": 985452552,
+                        "fingerprint": 1261551410,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "friendsandfoes.accesswidener",
+                        "fingerprint": 2936988134,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2424791692,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "friendsandfoes-mc1.18.2-common-refmap.json",
-                        "fingerprint": 1637326242,
+                        "fingerprint": 2956873492,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3199273811,
+                        "fingerprint": 3652356026,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "com",
-                        "fingerprint": 3786197964,
+                        "fingerprint": 1735992977,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_friendsandfoes_common_16aad39887cb4e44a7008821d6e9ea76_6e68684463e9dfb5ffd88e12450226e81366c9f640c52a937d069fc6254f9c78friendsandfoesmc1182145devjar",
-                        "fingerprint": 3618212486,
+                        "foldername": "architectury_inject_friendsandfoes_common_49e8b6547ee54ac0a899e057e47f31ef_bd2a014a84421ca0a3d1efe030a7ad2d8b2546ba18e05168b6c893d6f825797afriendsandfoesmc1182146devjar",
+                        "fingerprint": 298381552,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3056328561,
+                "packageFingerprint": 1352879148,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -7642,7 +7634,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 551364,
-                "FileNameOnDisk": "friendsandfoes-fabric-mc1.18.2-1.4.5.jar",
+                "FileNameOnDisk": "friendsandfoes-fabric-mc1.18.2-1.4.6.jar",
                 "Hashes": []
             }
         },
@@ -12009,26 +12001,38 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/309/505/256/256/637395374971914079.png",
             "tags": [],
             "installedFile": {
-                "id": 4161123,
-                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
-                "fileDate": "2022-12-11T03:08:24.99Z",
-                "fileLength": 23160146,
+                "id": 4183506,
+                "fileName": "valkyrienskies-118-2.1.0-beta6.jar",
+                "fileDate": "2022-12-17T08:04:33.29Z",
+                "fileLength": 23167153,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4183/506/valkyrienskies-118-2.1.0-beta6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
+                        "addonId": 308769,
+                        "type": 1
+                    },
+                    {
                         "addonId": 306612,
                         "type": 3
+                    },
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 1
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2867303674,
+                        "fingerprint": 39928290,
                         "invalidFingerprint": false
                     },
                     {
@@ -12098,7 +12102,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-common.mixins.json",
-                        "fingerprint": 625257313,
+                        "fingerprint": 3509659658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12118,7 +12122,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-118-common-refmap.json",
-                        "fingerprint": 2539936439,
+                        "fingerprint": 955450335,
                         "invalidFingerprint": false
                     },
                     {
@@ -12133,7 +12137,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3033794794,
+                        "fingerprint": 1751683217,
                         "invalidFingerprint": false
                     },
                     {
@@ -12148,7 +12152,7 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 2985868687,
+                        "fingerprint": 793754669,
                         "invalidFingerprint": false
                     },
                     {
@@ -12157,22 +12161,22 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "dagger",
-                        "fingerprint": 1530902952,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "javax",
                         "fingerprint": 761839768,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
-                        "fingerprint": 1532122090,
+                        "foldername": "dagger",
+                        "fingerprint": 1530902952,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_valkyrienskies_common_135a45bdfecf411eb037eab792d4f0fa_d971c3ab66e345f180bed7b46d4a868b3b21f66adbf5af6cd6e91574e4496375valkyrienskies118210beta6devjar",
+                        "fingerprint": 2369531888,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2328939237,
+                "packageFingerprint": 1691393025,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -12194,13 +12198,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 258371,
-                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "FileNameOnDisk": "valkyrienskies-118-2.1.0-beta6.jar",
                 "Hashes": []
             },
             "dateInstalled": "2022-12-14T15:56:27.7062985Z",
-            "dateUpdated": "2022-12-14T15:56:27.7373039Z",
-            "dateLastUpdateAttempted": "2022-12-14T15:56:27.7373039Z",
-            "status": 5,
+            "dateUpdated": "2022-12-17T21:06:13.9326224Z",
+            "dateLastUpdateAttempted": "2022-12-17T21:06:13.9326224Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -12212,26 +12216,38 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4161123,
-                "fileName": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
-                "fileDate": "2022-12-11T03:08:24.99Z",
-                "fileLength": 23160146,
+                "id": 4183506,
+                "fileName": "valkyrienskies-118-2.1.0-beta6.jar",
+                "fileDate": "2022-12-17T08:04:33.29Z",
+                "fileLength": 23167153,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4161/123/valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4183/506/valkyrienskies-118-2.1.0-beta6.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
+                        "addonId": 308769,
+                        "type": 1
+                    },
+                    {
                         "addonId": 306612,
                         "type": 3
+                    },
+                    {
+                        "addonId": 308702,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 348521,
+                        "type": 1
                     }
                 ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2867303674,
+                        "fingerprint": 39928290,
                         "invalidFingerprint": false
                     },
                     {
@@ -12301,7 +12317,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-common.mixins.json",
-                        "fingerprint": 625257313,
+                        "fingerprint": 3509659658,
                         "invalidFingerprint": false
                     },
                     {
@@ -12321,7 +12337,7 @@
                     },
                     {
                         "foldername": "valkyrienskies-118-common-refmap.json",
-                        "fingerprint": 2539936439,
+                        "fingerprint": 955450335,
                         "invalidFingerprint": false
                     },
                     {
@@ -12336,7 +12352,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3033794794,
+                        "fingerprint": 1751683217,
                         "invalidFingerprint": false
                     },
                     {
@@ -12351,7 +12367,7 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 2985868687,
+                        "fingerprint": 793754669,
                         "invalidFingerprint": false
                     },
                     {
@@ -12360,22 +12376,22 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "dagger",
-                        "fingerprint": 1530902952,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "javax",
                         "fingerprint": 761839768,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_valkyrienskies_common_63efc6a395d94f65a9f28bdaa67a83f4_886638cbbe34cd73320fe59ccbf58a63c7ce840e2c8db2eed7ef24d00be30d42valkyrienskies118210beta10c28d02ed5devjar",
-                        "fingerprint": 1532122090,
+                        "foldername": "dagger",
+                        "fingerprint": 1530902952,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_valkyrienskies_common_135a45bdfecf411eb037eab792d4f0fa_d971c3ab66e345f180bed7b46d4a868b3b21f66adbf5af6cd6e91574e4496375valkyrienskies118210beta6devjar",
+                        "fingerprint": 2369531888,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2328939237,
+                "packageFingerprint": 1691393025,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -12397,7 +12413,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 258371,
-                "FileNameOnDisk": "valkyrienskies-118-fabric-2.1.0-beta1+0c28d02ed5.jar",
+                "FileNameOnDisk": "valkyrienskies-118-2.1.0-beta6.jar",
                 "Hashes": []
             }
         },
@@ -18771,13 +18787,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/239/289/256/256/637113058354530819.png",
             "tags": [],
             "installedFile": {
-                "id": 4140093,
-                "fileName": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
-                "fileDate": "2022-12-06T23:16:24.913Z",
-                "fileLength": 751070,
+                "id": 4183255,
+                "fileName": "BotanyPots-Fabric-1.18.2-8.0.23.jar",
+                "fileDate": "2022-12-17T01:59:47.43Z",
+                "fileLength": 784449,
                 "releaseType": 3,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4140/93/BotanyPots-Fabric-1.18.2-8.0.21.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4183/255/BotanyPots-Fabric-1.18.2-8.0.23.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -18790,7 +18806,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 1739605224,
+                        "fingerprint": 1000125655,
                         "invalidFingerprint": false
                     },
                     {
@@ -18805,12 +18821,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 165706276,
+                        "fingerprint": 262025916,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 1344024369,
+                        "fingerprint": 3122921150,
                         "invalidFingerprint": false
                     },
                     {
@@ -18819,7 +18835,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1031214787,
+                "packageFingerprint": 2701509562,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -18847,31 +18863,31 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 353928,
-                "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
+                "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.23.jar",
                 "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:22:58.9927915Z",
-            "dateUpdated": "2022-12-07T19:20:53.432947Z",
-            "dateLastUpdateAttempted": "2022-12-07T19:20:53.432947Z",
-            "status": 5,
+            "dateUpdated": "2022-12-17T21:06:03.2629096Z",
+            "dateLastUpdateAttempted": "2022-12-17T21:06:03.2629096Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4140093,
-                "fileName": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
-                "fileDate": "2022-12-06T23:16:24.913Z",
-                "fileLength": 751070,
+                "id": 4183255,
+                "fileName": "BotanyPots-Fabric-1.18.2-8.0.23.jar",
+                "fileDate": "2022-12-17T01:59:47.43Z",
+                "fileLength": 784449,
                 "releaseType": 3,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4140/93/BotanyPots-Fabric-1.18.2-8.0.21.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4183/255/BotanyPots-Fabric-1.18.2-8.0.23.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -18884,7 +18900,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 1739605224,
+                        "fingerprint": 1000125655,
                         "invalidFingerprint": false
                     },
                     {
@@ -18899,12 +18915,12 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 165706276,
+                        "fingerprint": 262025916,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 1344024369,
+                        "fingerprint": 3122921150,
                         "invalidFingerprint": false
                     },
                     {
@@ -18913,7 +18929,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1031214787,
+                "packageFingerprint": 2701509562,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2",
@@ -18941,7 +18957,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 353928,
-                "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.21.jar",
+                "FileNameOnDisk": "BotanyPots-Fabric-1.18.2-8.0.23.jar",
                 "Hashes": []
             }
         },
@@ -31919,19 +31935,12 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.11.jar",
-                "Hashes": [
-                    {
-                        "Value": "b266e7d9f3f21fbe625fd4dd33ca95fdf5fbe855"
-                    },
-                    {
-                        "Value": "004b44e15251f03db669909cc33799bb"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:00.6633258Z",
             "dateUpdated": "2022-12-16T13:34:07.410716Z",
             "dateLastUpdateAttempted": "2022-12-16T13:34:07.410716Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -32009,14 +32018,7 @@
                 "projectStatus": 4,
                 "projectId": 250419,
                 "FileNameOnDisk": "EnchantmentDescriptions-Fabric-1.18.2-10.0.11.jar",
-                "Hashes": [
-                    {
-                        "Value": "b266e7d9f3f21fbe625fd4dd33ca95fdf5fbe855"
-                    },
-                    {
-                        "Value": "004b44e15251f03db669909cc33799bb"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -40240,13 +40242,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/610/296/256/256/637992132031410062.png",
             "tags": [],
             "installedFile": {
-                "id": 4096655,
-                "fileName": "geckolib-fabric-1.18-3.0.79.jar",
-                "fileDate": "2022-11-19T13:56:06.373Z",
-                "fileLength": 3621306,
+                "id": 4181373,
+                "fileName": "geckolib-fabric-1.18-3.0.80.jar",
+                "fileDate": "2022-12-16T15:47:50.27Z",
+                "fileLength": 3621549,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4096/655/geckolib-fabric-1.18-3.0.79.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4181/373/geckolib-fabric-1.18-3.0.80.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -40259,7 +40261,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3113473253,
+                        "fingerprint": 968720211,
                         "invalidFingerprint": false
                     },
                     {
@@ -40284,7 +40286,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1408834310,
+                        "fingerprint": 3526221657,
                         "invalidFingerprint": false
                     },
                     {
@@ -40294,7 +40296,7 @@
                     },
                     {
                         "foldername": "software",
-                        "fingerprint": 3287902314,
+                        "fingerprint": 977183010,
                         "invalidFingerprint": false
                     },
                     {
@@ -40308,7 +40310,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1430736429,
+                "packageFingerprint": 3863347794,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -40330,31 +40332,31 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 388172,
-                "FileNameOnDisk": "geckolib-fabric-1.18-3.0.79.jar",
+                "FileNameOnDisk": "geckolib-fabric-1.18-3.0.80.jar",
                 "Hashes": []
             },
             "dateInstalled": "2022-12-06T22:23:00.6503605Z",
-            "dateUpdated": "2022-12-06T22:23:00.6503605Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-17T21:06:05.5509034Z",
+            "dateLastUpdateAttempted": "2022-12-17T21:06:05.5509034Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4096655,
-                "fileName": "geckolib-fabric-1.18-3.0.79.jar",
-                "fileDate": "2022-11-19T13:56:06.373Z",
-                "fileLength": 3621306,
+                "id": 4181373,
+                "fileName": "geckolib-fabric-1.18-3.0.80.jar",
+                "fileDate": "2022-12-16T15:47:50.27Z",
+                "fileLength": 3621549,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4096/655/geckolib-fabric-1.18-3.0.79.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4181/373/geckolib-fabric-1.18-3.0.80.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -40367,7 +40369,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3113473253,
+                        "fingerprint": 968720211,
                         "invalidFingerprint": false
                     },
                     {
@@ -40392,7 +40394,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1408834310,
+                        "fingerprint": 3526221657,
                         "invalidFingerprint": false
                     },
                     {
@@ -40402,7 +40404,7 @@
                     },
                     {
                         "foldername": "software",
-                        "fingerprint": 3287902314,
+                        "fingerprint": 977183010,
                         "invalidFingerprint": false
                     },
                     {
@@ -40416,7 +40418,7 @@
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1430736429,
+                "packageFingerprint": 3863347794,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -40438,7 +40440,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 388172,
-                "FileNameOnDisk": "geckolib-fabric-1.18-3.0.79.jar",
+                "FileNameOnDisk": "geckolib-fabric-1.18-3.0.80.jar",
                 "Hashes": []
             }
         },
@@ -47652,21 +47654,26 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/14/212/256/256/635589178760357568.png",
             "tags": [],
             "installedFile": {
-                "id": 3906655,
-                "fileName": "twilightforest-fabric-1.18.2-4.1.268.jar",
-                "fileDate": "2022-07-29T22:47:01.457Z",
-                "fileLength": 34805626,
-                "releaseType": 3,
+                "id": 4194259,
+                "fileName": "twilightforest-fabric-1.18.2-4.1.313.jar",
+                "fileDate": "2022-12-18T12:59:26.68Z",
+                "fileLength": 34892643,
+                "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3906/655/twilightforest-fabric-1.18.2-4.1.268.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4194/259/twilightforest-fabric-1.18.2-4.1.313.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
-                "dependencies": [],
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2688859358,
+                        "fingerprint": 1472738609,
                         "invalidFingerprint": false
                     },
                     {
@@ -47675,13 +47682,13 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2670611462,
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2320018170,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilightforest.accesswidener",
-                        "fingerprint": 3050095563,
+                        "foldername": "data",
+                        "fingerprint": 2930061017,
                         "invalidFingerprint": false
                     },
                     {
@@ -47690,28 +47697,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilight.mixins.json",
-                        "fingerprint": 2910509723,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": ".cache",
-                        "fingerprint": 3833645089,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "classic",
-                        "fingerprint": 4139079720,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2468430331,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 744182432,
+                        "foldername": "twilightforest_logo.png",
+                        "fingerprint": 4155522028,
                         "invalidFingerprint": false
                     },
                     {
@@ -47720,22 +47707,42 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilightforest_logo.png",
-                        "fingerprint": 4155522028,
+                        "foldername": "twilightforest.accesswidener",
+                        "fingerprint": 3050095563,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "classic",
+                        "fingerprint": 4139079720,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "twilight.mixins.json",
+                        "fingerprint": 2364050547,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2670611462,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1177942807,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "twilightforest-fabric-1.18.2-refmap.json",
-                        "fingerprint": 1484270876,
+                        "fingerprint": 4202741440,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "twilightforest",
-                        "fingerprint": 460396747,
+                        "fingerprint": 404449905,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 847201868,
+                "packageFingerprint": 946468687,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -47757,39 +47764,51 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 227639,
-                "FileNameOnDisk": "twilightforest-fabric-1.18.2-4.1.268.jar",
-                "Hashes": []
+                "FileNameOnDisk": "twilightforest-fabric-1.18.2-4.1.313.jar",
+                "Hashes": [
+                    {
+                        "Value": "150ecaa710a3ed4f63d8185d4165c14879c2970d"
+                    },
+                    {
+                        "Value": "8325ca0b938b9a642a95a295ad92ff4a"
+                    }
+                ]
             },
             "dateInstalled": "2022-12-06T22:23:04.0563675Z",
-            "dateUpdated": "2022-12-06T22:23:04.0563675Z",
-            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 5,
+            "dateUpdated": "2022-12-18T16:00:11.6737336Z",
+            "dateLastUpdateAttempted": "2022-12-18T16:00:11.6737336Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": true,
+            "isModified": false,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3906655,
-                "fileName": "twilightforest-fabric-1.18.2-4.1.268.jar",
-                "fileDate": "2022-07-29T22:47:01.457Z",
-                "fileLength": 34805626,
-                "releaseType": 3,
+                "id": 4194259,
+                "fileName": "twilightforest-fabric-1.18.2-4.1.313.jar",
+                "fileDate": "2022-12-18T12:59:26.68Z",
+                "fileLength": 34892643,
+                "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3906/655/twilightforest-fabric-1.18.2-4.1.268.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4194/259/twilightforest-fabric-1.18.2-4.1.313.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
-                "dependencies": [],
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 2688859358,
+                        "fingerprint": 1472738609,
                         "invalidFingerprint": false
                     },
                     {
@@ -47798,13 +47817,13 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 2670611462,
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2320018170,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilightforest.accesswidener",
-                        "fingerprint": 3050095563,
+                        "foldername": "data",
+                        "fingerprint": 2930061017,
                         "invalidFingerprint": false
                     },
                     {
@@ -47813,28 +47832,8 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilight.mixins.json",
-                        "fingerprint": 2910509723,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": ".cache",
-                        "fingerprint": 3833645089,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "classic",
-                        "fingerprint": 4139079720,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2468430331,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 744182432,
+                        "foldername": "twilightforest_logo.png",
+                        "fingerprint": 4155522028,
                         "invalidFingerprint": false
                     },
                     {
@@ -47843,22 +47842,42 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "twilightforest_logo.png",
-                        "fingerprint": 4155522028,
+                        "foldername": "twilightforest.accesswidener",
+                        "fingerprint": 3050095563,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "classic",
+                        "fingerprint": 4139079720,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "twilight.mixins.json",
+                        "fingerprint": 2364050547,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2670611462,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 1177942807,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "twilightforest-fabric-1.18.2-refmap.json",
-                        "fingerprint": 1484270876,
+                        "fingerprint": 4202741440,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "twilightforest",
-                        "fingerprint": 460396747,
+                        "fingerprint": 404449905,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 847201868,
+                "packageFingerprint": 946468687,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -47880,8 +47899,15 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 227639,
-                "FileNameOnDisk": "twilightforest-fabric-1.18.2-4.1.268.jar",
-                "Hashes": []
+                "FileNameOnDisk": "twilightforest-fabric-1.18.2-4.1.313.jar",
+                "Hashes": [
+                    {
+                        "Value": "150ecaa710a3ed4f63d8185d4165c14879c2970d"
+                    },
+                    {
+                        "Value": "8325ca0b938b9a642a95a295ad92ff4a"
+                    }
+                ]
             }
         },
         {
