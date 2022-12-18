@@ -42481,30 +42481,30 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/196/155/256/256/636883654770627603.png",
             "tags": [],
             "installedFile": {
-                "id": 4173546,
-                "fileName": "mousewheelie-1.10.4+mc1.18.2.jar",
-                "fileDate": "2022-12-13T20:03:41.52Z",
-                "fileLength": 895371,
+                "id": 4160941,
+                "fileName": "mousewheelie-1.10.3+mc1.18.2.jar",
+                "fileDate": "2022-12-11T00:46:26.24Z",
+                "fileLength": 895366,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4173/546/mousewheelie-1.10.4+mc1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4160/941/mousewheelie-1.10.3+mc1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 308702,
-                        "type": 2
+                        "addonId": 318413,
+                        "type": 1
                     },
                     {
-                        "addonId": 324564,
-                        "type": 1
+                        "addonId": 308702,
+                        "type": 2
                     },
                     {
                         "addonId": 306612,
                         "type": 1
                     },
                     {
-                        "addonId": 318413,
+                        "addonId": 324564,
                         "type": 1
                     }
                 ],
@@ -42527,7 +42527,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2882057993,
+                        "fingerprint": 1935987779,
                         "invalidFingerprint": false
                     },
                     {
@@ -42542,11 +42542,11 @@
                     },
                     {
                         "foldername": "de",
-                        "fingerprint": 964183575,
+                        "fingerprint": 3941961015,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2229860353,
+                "packageFingerprint": 3764028924,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -42568,19 +42568,19 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 317514,
-                "FileNameOnDisk": "mousewheelie-1.10.4+mc1.18.2.jar",
+                "FileNameOnDisk": "mousewheelie-1.10.3+mc1.18.2.jar",
                 "Hashes": [
                     {
-                        "Value": "39e250165ff75a04ed9ed3e670370b9fa5a910a6"
+                        "Value": "dd4a8f035a9fe8899941affc144aafc7ef65b609"
                     },
                     {
-                        "Value": "b97a9e4c48f64b8b162adaca7ddf6394"
+                        "Value": "0cd284765ab92ac031a2515f7d62d2f2"
                     }
                 ]
             },
-            "dateInstalled": "2022-12-18T18:52:20.1422693Z",
-            "dateUpdated": "2022-12-18T18:52:20.1452722Z",
-            "dateLastUpdateAttempted": "2022-12-18T18:52:20.1452722Z",
+            "dateInstalled": "2022-12-18T18:56:49.2001918Z",
+            "dateUpdated": "2022-12-18T18:56:49.2031945Z",
+            "dateLastUpdateAttempted": "2022-12-18T18:56:49.2031945Z",
             "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
