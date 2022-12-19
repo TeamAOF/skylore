@@ -19,6 +19,7 @@ if ($githubSync) {
         git switch $branch
         java -jar $PSSCriptRoot\InstanceSync.jar
         Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
+        Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
     }
     else {
         git clone $url $PSSCriptRoot\modpack
@@ -29,6 +30,7 @@ if ($githubSync) {
         git pull
         git switch $branch
         java -jar $PSSCriptRoot\InstanceSync.jar
+        Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
         Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
     }
 }

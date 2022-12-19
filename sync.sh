@@ -21,6 +21,7 @@ then
     git switch "$branch"
     java -jar $scriptDir/InstanceSync.jar
     cp -a $scriptDir/offlineMods/. $scriptDir/mods
+    cp -a $scriptDir/localMods/. $scriptDir/mods
   else
     git clone "$url" $scriptDir/modpack
     cp -a $scriptDir/modpack/. $scriptDir
@@ -29,6 +30,7 @@ then
     git pull
     git checkout "$branch"
     java -jar $scriptDir/InstanceSync.jar
+    cp -a $scriptDir/localMods/. $scriptDir/mods
     cp -a $scriptDir/offlineMods/. $scriptDir/mods
   fi
 fi
