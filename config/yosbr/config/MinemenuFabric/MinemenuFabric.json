@@ -1,4 +1,4 @@
-{
+  {
   "minemenuData": {
     "0": {
       "name": "Quests",
@@ -165,7 +165,7 @@
   "outerRadius": 90,
   "innerRadius": 30,
   "primaryColor": "#8447FFF0",
-  "secondaryColor": "#03030380",
+  "secondaryColor": "#030303b0",
   "emptyItemIcon": "minecraft:air",
   "multiPrintSeparator": ";",
   "multiPrintDelay": 10,
