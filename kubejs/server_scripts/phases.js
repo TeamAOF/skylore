@@ -139,6 +139,19 @@ onEvent('gamephases.initialize', event => {
 });
 
 onEvent('gamephases.initialize', event => {
+    event.phase('uranium')
+		.block('modern_industrialization:uranium_ore', 'minecraft:stone')
+		.block('modern_industrialization:deepslate_uranium_ore', 'minecraft:deepslate')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('antimony')
+		.block('modern_industrialization:antimony_ore', 'minecraft:stone')
+		.block('modern_industrialization:deepslate_antimony_ore', 'minecraft:deepslate')
+});
+
+
+onEvent('gamephases.initialize', event => {
     event.phase('nether')
 		.block('minecraft:nether_portal', 'minecraft:stone')    
 });
