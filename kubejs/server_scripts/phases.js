@@ -101,8 +101,11 @@ onEvent('gamephases.initialize', event => {
 });
 
 onEvent('gamephases.initialize', event => {
-    event.phase('zombies')
+    event.phase('easymodeoff')
      .entity('minecraft:zombie')
+	 .entity('minecraft:skeleton')
+	 .entity('minecraft:enderman')
+	 .entity('minecraft:spider')
 });
 
 onEvent('gamephases.initialize', event => {
