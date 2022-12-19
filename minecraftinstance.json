@@ -33,7 +33,7 @@
     "name": "SKYLORE",
     "cachedScans": [],
     "isValid": true,
-    "lastPreviousMatchUpdate": "2022-12-19T18:48:40.6712746Z",
+    "lastPreviousMatchUpdate": "2022-12-19T22:15:44.5225754Z",
     "lastRefreshAttempt": "2022-12-19T13:48:40.6712746-05:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
@@ -32888,6 +32888,248 @@
                     },
                     {
                         "Value": "5d6e06a7829fda423de20ff454ab6ed3"
+                    }
+                ]
+            }
+        },
+        {
+            "instanceID": "4235807f-33aa-4a26-926e-92151a12b002",
+            "modSource": 0,
+            "addonID": 472839,
+            "gameID": 432,
+            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
+            "name": "Game Phases",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Draylar1"
+                }
+            ],
+            "primaryAuthor": "Draylar1",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/game-phases",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/371/847/256/256/637542053164890018.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3625075,
+                "fileName": "game-phases-1.2.2-1.18.1.jar",
+                "fileDate": "2022-01-27T02:30:50.297Z",
+                "fileLength": 52415,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3625/75/game-phases-1.2.2-1.18.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 416294,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 395864,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3829223514,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE",
+                        "fingerprint": 2998159195,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "game-phases.mixins.json",
+                        "fingerprint": 928176579,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 911541339,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 666099401,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "game-phases-refmap.json",
+                        "fingerprint": 1251032764,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "draylar",
+                        "fingerprint": 1222382024,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 505621110,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 472839,
+                "FileNameOnDisk": "game-phases-1.2.2-1.18.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "461e9b2a7eab0aba8c92d7a3161cfbcff79d6dd4"
+                    },
+                    {
+                        "Value": "178c2365b1d756e568ff295697072686"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-19T22:15:44.4777307Z",
+            "dateUpdated": "2022-12-19T22:15:44.4777307Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3625075,
+                "fileName": "game-phases-1.2.2-1.18.1.jar",
+                "fileDate": "2022-01-27T02:30:50.297Z",
+                "fileLength": 52415,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3625/75/game-phases-1.2.2-1.18.1.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 416294,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 310111,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 395864,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3829223514,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE",
+                        "fingerprint": 2998159195,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "game-phases.mixins.json",
+                        "fingerprint": 928176579,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 911541339,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 666099401,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "game-phases-refmap.json",
+                        "fingerprint": 1251032764,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "draylar",
+                        "fingerprint": 1222382024,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 505621110,
+                "gameVersion": [
+                    "1.18.1",
+                    "Fabric",
+                    "1.18"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.1",
+                        "gameVersionName": "1.18.1",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18",
+                        "gameVersionName": "1.18",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 472839,
+                "FileNameOnDisk": "game-phases-1.2.2-1.18.1.jar",
+                "Hashes": [
+                    {
+                        "Value": "461e9b2a7eab0aba8c92d7a3161cfbcff79d6dd4"
+                    },
+                    {
+                        "Value": "178c2365b1d756e568ff295697072686"
                     }
                 ]
             }
