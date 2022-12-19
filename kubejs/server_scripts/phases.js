@@ -96,6 +96,16 @@ onEvent('gamephases.initialize', event => {
 //Mobs -------------------------------------------
 
 onEvent('gamephases.initialize', event => {
+    event.phase('phantoms')
+     .entity('minecraft:phantom')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('zombies')
+     .entity('minecraft:zombie')
+});
+
+onEvent('gamephases.initialize', event => {
     event.phase('creeper')
      .entity('minecraft:creeper')
 });
@@ -104,6 +114,7 @@ onEvent('gamephases.initialize', event => {
     event.phase('graveyard')
      .entity('graveyard:revenant')
 	 .entity('graveyard:ghoul')
+	 .entity('graveyard:skeleton_creeper')
 });
 
 // Parasite Mob Gate
