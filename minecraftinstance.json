@@ -694,16 +694,6 @@
                                                   }
                             },
                             {
-                                "addonID":  413523,
-                                "name":  "Fabric Seasons",
-                                "installedFile":  {
-                                                      "id":  3779369,
-                                                      "fileName":  "fabric-seasons-1.4-BETA+1.18.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3779/369/fabric-seasons-1.4-BETA+1.18.jar",
-                                                      "FileNameOnDisk":  "fabric-seasons-1.4-BETA+1.18.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  596911,
                                 "name":  "Fabricae Ex Nihilo",
                                 "installedFile":  {
