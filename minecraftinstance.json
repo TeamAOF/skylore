@@ -1204,16 +1204,6 @@
                                                   }
                             },
                             {
-                                "addonID":  627566,
-                                "name":  "MemoryLeakFix",
-                                "installedFile":  {
-                                                      "id":  3910621,
-                                                      "fileName":  "memoryleakfix-1.18.2-0.7.0.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3910/621/memoryleakfix-1.18.2-0.7.0.jar",
-                                                      "FileNameOnDisk":  "memoryleakfix-1.18.2-0.7.0.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  662722,
                                 "name":  "MineMenu Refabricated",
                                 "installedFile":  {
@@ -1791,6 +1781,16 @@
                                                       "fileName":  "simplyswords-fabric-1.34-1.18.x.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4076/387/simplyswords-fabric-1.34-1.18.x.jar",
                                                       "FileNameOnDisk":  "simplyswords-fabric-1.34-1.18.x.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  415758,
+                                "name":  "Smooth Boot (Fabric)",
+                                "installedFile":  {
+                                                      "id":  3692365,
+                                                      "fileName":  "smoothboot-fabric-1.18.2-1.7.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3692/365/smoothboot-fabric-1.18.2-1.7.0.jar",
+                                                      "FileNameOnDisk":  "smoothboot-fabric-1.18.2-1.7.0.jar"
                                                   }
                             },
                             {
