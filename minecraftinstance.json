@@ -33,7 +33,7 @@
     "name": "SKYLORE",
     "cachedScans": [],
     "isValid": true,
-    "lastPreviousMatchUpdate": "2022-12-19T22:15:44.5225754Z",
+    "lastPreviousMatchUpdate": "2022-12-20T05:13:17.0781097Z",
     "lastRefreshAttempt": "2022-12-19T17:15:45.1163008-05:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
@@ -19907,6 +19907,202 @@
                 "projectId": 349559,
                 "FileNameOnDisk": "FallingTree-1.18.2-3.5.4.jar",
                 "Hashes": []
+            }
+        },
+        {
+            "instanceID": "55df151b-3c93-428b-86fe-651c0613a186",
+            "modSource": 0,
+            "addonID": 482265,
+            "gameID": 432,
+            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
+            "name": "Trofers",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "ochotonida"
+                }
+            ],
+            "primaryAuthor": "ochotonida",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/trofers",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/382/156/256/256/637566129446964304.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3946983,
+                "fileName": "trofers-1.18.2-2.7.0.jar",
+                "fileDate": "2022-08-22T15:17:51.637Z",
+                "fileLength": 292887,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3946/983/trofers-1.18.2-2.7.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2561419342,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "trofers",
+                        "fingerprint": 1260253610,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 3581702047,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1263953764,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2578262476,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "logo.png",
+                        "fingerprint": 1676724837,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 871272906,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1488224072,
+                "gameVersion": [
+                    "1.18.2",
+                    "Forge"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Forge",
+                        "gameVersionTypeId": 68441
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 482265,
+                "FileNameOnDisk": "trofers-1.18.2-2.7.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "802c437ebb0685c1054cf0468292a8e61da1c51e"
+                    },
+                    {
+                        "Value": "7c40222e3d0f59d1bbc97a05a8a9af83"
+                    }
+                ]
+            },
+            "dateInstalled": "2022-12-20T05:13:17.0352225Z",
+            "dateUpdated": "2022-12-20T05:13:17.0352225Z",
+            "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3946983,
+                "fileName": "trofers-1.18.2-2.7.0.jar",
+                "fileDate": "2022-08-22T15:17:51.637Z",
+                "fileLength": 292887,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3946/983/trofers-1.18.2-2.7.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 2561419342,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "trofers",
+                        "fingerprint": 1260253610,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": ".cache",
+                        "fingerprint": 3581702047,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1263953764,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 2578262476,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "logo.png",
+                        "fingerprint": 1676724837,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "pack.mcmeta",
+                        "fingerprint": 871272906,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 1488224072,
+                "gameVersion": [
+                    "1.18.2",
+                    "Forge"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Forge",
+                        "gameVersionTypeId": 68441
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 482265,
+                "FileNameOnDisk": "trofers-1.18.2-2.7.0.jar",
+                "Hashes": [
+                    {
+                        "Value": "802c437ebb0685c1054cf0468292a8e61da1c51e"
+                    },
+                    {
+                        "Value": "7c40222e3d0f59d1bbc97a05a8a9af83"
+                    }
+                ]
             }
         },
         {
