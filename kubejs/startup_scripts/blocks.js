@@ -5,7 +5,8 @@ onEvent('block.registry', event => {
     .displayName('Crushed Deepslate')
     .tagBlock('minecraft:mineable/shovel')
     .dustColor(color.GRAY)
-  
+ })
+ onEvent('block.registry', event => {
   event.create('radiated_stone')
     .material('stone')
     .hardness(0.5)
