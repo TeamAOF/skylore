@@ -64,6 +64,16 @@
                                                   }
                             },
                             {
+                                "addonID":  633823,
+                                "name":  "Almost Unified",
+                                "installedFile":  {
+                                                      "id":  4216396,
+                                                      "fileName":  "almostunified-fabric-1.18.2-0.3.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4216/396/almostunified-fabric-1.18.2-0.3.3.jar",
+                                                      "FileNameOnDisk":  "almostunified-fabric-1.18.2-0.3.3.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  610492,
                                 "name":  "Another Furniture",
                                 "installedFile":  {
@@ -1191,6 +1201,16 @@
                                                       "fileName":  "mcsa-3.0.1-fabric.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3987/475/mcsa-3.0.1-fabric.jar",
                                                       "FileNameOnDisk":  "mcsa-3.0.1-fabric.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  627566,
+                                "name":  "MemoryLeakFix",
+                                "installedFile":  {
+                                                      "id":  3910621,
+                                                      "fileName":  "memoryleakfix-1.18.2-0.7.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3910/621/memoryleakfix-1.18.2-0.7.0.jar",
+                                                      "FileNameOnDisk":  "memoryleakfix-1.18.2-0.7.0.jar"
                                                   }
                             },
                             {
