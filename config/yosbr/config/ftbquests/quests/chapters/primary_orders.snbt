@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "primary_orders"
 	title: "Primary Orders"
+	icon: "bosses_of_mass_destruction:soul_star"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -13,13 +14,11 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "diamond"
-			subtitle: "You crashed on a hexagonal island?"
+			subtitle: "Unexpected crash on a hexagonal island."
 			description: [
-				"Explore the island for resources that you can use. Your ship had supplies with it which might have survived."
+				"It seems like you crashed in an unknown planet while on your quest. While waiting for help you are ordered to explore the island for resources that you can use. Your ship had supplies which might have survived the crash."
 				""
-				"It seems like in the place you crashed you see more islands, but they dont resemble the island you crahed in."
-				""
-				"You should start using the xp from quests to make yourself stronger, there is a second tab in your inventory for that."
+				"You should use the xp from quests to upgrade your stats as  you want to survive as long as possible, there is a second tab in your inventory for upgrading yourself."
 			]
 			id: "350E66C2C959C83E"
 			tasks: [
@@ -30,7 +29,6 @@
 						id: "tconstruct:pickaxe"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:attack_damage": 1.0f
 								"tconstruct:harvest_tier": "minecraft:stone"
@@ -39,11 +37,8 @@
 								"tconstruct:attack_speed": 1.2f
 							}
 							Damage: 0
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:wood#oak"
-							]
+							tic_multipliers: { }
+							tic_broken: 0b
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -58,13 +53,18 @@
 									level: 1s
 								}
 							]
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock#stone"
+								"tconstruct:wood#oak"
+								"tconstruct:wood#oak"
+							]
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
 							}
 						}
 					}
+					weak_nbt_match: true
 				}
 				{
 					id: "3D8F770580BE2D64"
@@ -73,11 +73,6 @@
 						id: "tconstruct:mattock"
 						Count: 1b
 						tag: {
-							tic_multipliers: {
-								"tconstruct:mining_speed": 1.1f
-								"tconstruct:durability": 1.25f
-								"tconstruct:attack_damage": 1.1f
-							}
 							tic_stats: {
 								"tconstruct:attack_damage": 2.75f
 								"tconstruct:harvest_tier": "minecraft:stone"
@@ -86,11 +81,12 @@
 								"tconstruct:attack_speed": 0.9f
 							}
 							Damage: 0
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:rock#stone"
-							]
+							tic_multipliers: {
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:durability": 1.25f
+								"tconstruct:attack_damage": 1.1f
+							}
+							tic_broken: 0b
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -109,13 +105,18 @@
 									level: 1s
 								}
 							]
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock#stone"
+								"tconstruct:wood#oak"
+								"tconstruct:rock#stone"
+							]
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
 							}
 						}
 					}
+					weak_nbt_match: true
 				}
 			]
 			rewards: [{
@@ -126,68 +127,9 @@
 			}]
 		}
 		{
-			title: "Start the automation"
-			x: -1.0d
-			y: 1.0d
-			subtitle: "Is this skyblock?"
-			description: [
-				"You need to gather materials from the island, there are a few ore varians in the stone from your observations. make sure to grab a few."
-				""
-				"It seems like a cobblestone generator is a great start. You know as you heard of the new sifting technology by the creators of create. You had the lucky chance to see the new blueprints for it just before your journey."
-				""
-				"From what you observed after searching the island you saw water and lava, but there wasnt much lava left from the crash, you will have to get it from the exNihilo starter technology you learned long ago."
-			]
-			dependencies: ["350E66C2C959C83E"]
-			hide: true
-			id: "5D22CAA6D81CEB01"
-			tasks: [{
-				id: "529816326A92DC39"
-				type: "item"
-				item: "kibe:cobblestone_generator_mk1"
-			}]
-			rewards: [{
-				id: "60F094A6501CBDB5"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "Sifter materials"
-			x: -1.0d
-			y: 2.5d
-			subtitle: "The sifter cant process cobblestone."
-			description: [
-				"You need to first mill the cobblestone into something more fine. The sifter will be able to extract materials from gravel."
-				""
-				"The press will create crushed varians of some stone variats that are needed for getting materials from."
-			]
-			dependencies: ["5D22CAA6D81CEB01"]
-			hide: true
-			id: "33E3FA607A0F2D0B"
-			tasks: [
-				{
-					id: "43DF736CECF8AB1F"
-					type: "item"
-					item: "create:millstone"
-				}
-				{
-					id: "589D140890F37077"
-					type: "item"
-					item: "create:mechanical_press"
-				}
-			]
-			rewards: [{
-				id: "5F1B306FF376C738"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
 			title: "Fighting off the danger"
-			x: 1.0d
-			y: 1.0d
+			x: 0.5d
+			y: 1.5d
 			shape: "pentagon"
 			subtitle: "No one will survive without a sword."
 			description: [
@@ -196,7 +138,6 @@
 				"Its important to craft a weapon, otherwise you die."
 			]
 			dependencies: ["350E66C2C959C83E"]
-			hide: true
 			id: "69AD5130633DDD7F"
 			tasks: [{
 				id: "59D90FDC94DAD87F"
@@ -217,7 +158,11 @@
 							"tconstruct:mining_speed": 0.5f
 							"tconstruct:durability": 1.1f
 						}
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:rock#stone"
+							"tconstruct:wood#oak"
+							"tconstruct:rock#stone"
+						]
 						tic_modifiers: [
 							{
 								name: "tconstruct:cultivated"
@@ -232,11 +177,7 @@
 								level: 1s
 							}
 						]
-						tic_materials: [
-							"tconstruct:rock#stone"
-							"tconstruct:wood#oak"
-							"tconstruct:rock#stone"
-						]
+						tic_broken: 0b
 						tic_persistent_data: {
 							upgrades: 3
 							abilities: 1
@@ -252,25 +193,21 @@
 		}
 		{
 			title: "A long range weapon"
-			x: 2.5d
-			y: 1.0d
+			x: 2.0d
+			y: 2.5d
 			shape: "pentagon"
-			subtitle: "You might find yourself dying with the starter weapon."
-			description: ["You can craft a pair of them and put one in an offhand. This will allow you to throw them further."]
+			subtitle: "You might find yourself dying from skeletons a lot..."
+			description: [
+				"This is the tool that allows you to shoot back a skeletons without having to craft a bow. "
+				""
+				"This is recommended to craft as early as possible for the best chance of survival."
+			]
 			dependencies: ["69AD5130633DDD7F"]
-			hide: true
 			id: "112B8BBE4ED3972E"
 			tasks: [{
-				id: "5D8B9FD23A196A8C"
+				id: "4DAD0DCB286778C4"
 				type: "item"
-				item: {
-					id: "simplyswords:iron_chakram"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				count: 2L
+				item: "doodads:slingshot"
 			}]
 			rewards: [{
 				id: "5D5E9CBA14BE70FA"
@@ -279,841 +216,18 @@
 			}]
 		}
 		{
-			title: "Auto sifting time"
-			x: -1.0d
-			y: 4.0d
-			subtitle: "The better age of sifting."
-			description: ["You can use this item for sifting various crushed stones. This will allow you to automate select resources."]
-			dependencies: ["33E3FA607A0F2D0B"]
-			hide: true
-			id: "68751941C2C6B5CF"
-			tasks: [
-				{
-					id: "745F9A01112DC905"
-					type: "item"
-					item: "createsifter:sifter"
-				}
-				{
-					id: "7EB97FC13BB4A199"
-					type: "item"
-					item: "createsifter:string_mesh"
-				}
-			]
-			rewards: [{
-				id: "4E3B53BEE07381BC"
-				type: "item"
-				item: "create:experience_nugget"
-			}]
-		}
-		{
-			icon: "kubejs:crushed_deepslate"
-			x: -3.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "4BE77E59F2770AF9"
-			tasks: [
-				{
-					id: "1E90047CEF8953F5"
-					type: "item"
-					item: "modern_industrialization:diamond_tiny_dust"
-					count: 5L
-				}
-				{
-					id: "247F045835E23D56"
-					type: "item"
-					item: "modern_industrialization:emerald_tiny_dust"
-					count: 15L
-				}
-				{
-					id: "1E42C664BA4C31B4"
-					type: "item"
-					item: "modern_industrialization:lapis_tiny_dust"
-					count: 25L
-				}
-			]
-			rewards: [{
-				id: "025DB41C274333E9"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_granite"
-			x: -4.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "129B3575B106FD1E"
-			tasks: [
-				{
-					id: "46A3D5C2D5CE8BD7"
-					type: "item"
-					item: "modern_industrialization:copper_tiny_dust"
-					count: 50L
-				}
-				{
-					id: "524208AFF6BC719F"
-					type: "item"
-					item: "modern_industrialization:tin_tiny_dust"
-					count: 40L
-				}
-			]
-			rewards: [{
-				id: "1021F63680F90CC2"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_andesite"
-			x: -2.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "19A63757A1E1A88F"
-			tasks: [
-				{
-					id: "15E4DF1922278D2A"
-					type: "item"
-					item: "fabricaeexnihilo:tuff_pebble"
-					count: 75L
-				}
-				{
-					id: "0B59E42860D0B3F3"
-					type: "item"
-					item: "fabricaeexnihilo:deepslate_pebble"
-					count: 25L
-				}
-				{
-					id: "5F8A5D681D777EC3"
-					type: "item"
-					item: "fabricaeexnihilo:calcite_pebble"
-					count: 10L
-				}
-			]
-			rewards: [{
-				id: "2B4BAA56E0FEBB96"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_diorite"
-			x: -1.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "7912C47CB0EA6CB4"
-			tasks: [
-				{
-					id: "1E62D4417CEB6510"
-					type: "item"
-					item: "modern_industrialization:bauxite_tiny_dust"
-					count: 35L
-				}
-				{
-					id: "1A03B1AA506F1891"
-					type: "item"
-					item: "modern_industrialization:nickel_tiny_dust"
-					count: 25L
-				}
-			]
-			rewards: [{
-				id: "0686DCFE2DA8986A"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "minecraft:gravel"
-			x: -0.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "3CAC67E1AF24B372"
-			tasks: [
-				{
-					id: "41C31334B1739CB7"
-					type: "item"
-					item: "modern_industrialization:iron_tiny_dust"
-					count: 50L
-				}
-				{
-					id: "13CC957183759F1A"
-					type: "item"
-					item: "modern_industrialization:coal_tiny_dust"
-					count: 40L
-				}
-			]
-			rewards: [{
-				id: "6C4F06F597A890E6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "minecraft:red_sand"
-			x: 0.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "1CC9383005F7813F"
-			tasks: [
-				{
-					id: "536108B6B26451ED"
-					type: "item"
-					item: "modern_industrialization:lead_tiny_dust"
-					count: 30L
-				}
-				{
-					id: "451563D53F0BAB4A"
-					type: "item"
-					item: "modern_industrialization:gold_tiny_dust"
-					count: 10L
-				}
-			]
-			rewards: [{
-				id: "7EDA09CC21976955"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "minecraft:sand"
-			x: 1.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "2486A49B7A82BD73"
-			tasks: [
-				{
-					id: "0FB8EA8EC772BFFE"
-					type: "item"
-					item: "modern_industrialization:lead_tiny_dust"
-					count: 30L
-				}
-				{
-					id: "14E699BD58DB182D"
-					type: "item"
-					item: "modern_industrialization:redstone_tiny_dust"
-					count: 50L
-				}
-			]
-			rewards: [{
-				id: "0A94415BED18C9E6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:dust"
-			x: 2.5d
-			y: 6.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "1FD43FF522FEE056"
-			tasks: [
-				{
-					id: "18421881E1233A71"
-					type: "item"
-					item: "minecraft:bone_meal"
-					count: 30L
-				}
-				{
-					id: "568378DD3C428BD2"
-					type: "item"
-					item: "minecraft:blaze_powder"
-					count: 10L
-				}
-			]
-			rewards: [{
-				id: "29ED336776BB93C7"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			title: "Tinker along"
-			icon: {
-				id: "tconstruct:smeltery_controller"
-				Count: 1b
-				tag: { }
-			}
-			x: -1.0d
-			y: -1.0d
-			shape: "square"
-			subtitle: "You cant keep using those stone tools."
-			dependencies: ["350E66C2C959C83E"]
-			hide: true
-			id: "1C6DA0A26FDFEA58"
-			tasks: [
-				{
-					id: "003713F251888FE9"
-					type: "item"
-					item: {
-						id: "tconstruct:seared_bricks"
-						Count: 1b
-						tag: { }
-					}
-					count: 9L
-				}
-				{
-					id: "3E8DF702E3430666"
-					type: "item"
-					item: {
-						id: "tconstruct:smeltery_controller"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "72953FE6DD5F9A18"
-					type: "item"
-					item: "tconstruct:seared_basin"
-				}
-				{
-					id: "736814A976922A0A"
-					type: "item"
-					item: {
-						id: "tconstruct:seared_table"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "1E8AD6E31BD57EB4"
-					type: "item"
-					item: {
-						id: "tconstruct:seared_fuel_tank"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "5742F5E7104B70F7"
-					type: "item"
-					item: {
-						id: "tconstruct:seared_drain"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "6C167FD49E353098"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "4324F45D47115C23"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
-			}]
-		}
-		{
-			title: "A better pickaxe"
-			x: -2.0d
+			title: "Risk avoidance"
+			x: 2.0d
 			y: -2.0d
-			shape: "square"
-			subtitle: "you cant do much with that stone pickaxe."
-			description: [
-				"This pickaxe has the mining level of diamonds and it is able to mine faster than most pickaxes that arent made out of amethyst bronze with a comparable durability and mining level."
-				""
-				"To get skyslone you need to find a floating white geode which comtains skyslime."
-				""
-				"Make sure to gather extra slime to repair the pickaxe in a cheaper way, otherwise you will have to get more skyslime for your mining needs."
-			]
-			dependencies: ["1C6DA0A26FDFEA58"]
-			hide: true
-			id: "1E651AFB125A52F6"
-			tasks: [{
-				id: "47AB7F99297A7C07"
-				type: "item"
-				item: {
-					id: "tconstruct:pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						tic_stats: {
-							"tconstruct:attack_damage": 2.5f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:durability": 624.0f
-							"tconstruct:mining_speed": 7.2000003f
-							"tconstruct:attack_speed": 1.44f
-						}
-						tic_multipliers: { }
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:overslime"
-								level: 3s
-							}
-							{
-								name: "tconstruct:piercing"
-								level: 1s
-							}
-							{
-								name: "tconstruct:overcast"
-								level: 2s
-							}
-							{
-								name: "tconstruct:enhanced"
-								level: 1s
-							}
-						]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:slimesteel"
-						]
-						tic_volatile_data: {
-							"tconstruct:overslime_cap": 200
-							"tconstruct:overslime_friend": 1b
-							upgrades: 1
-						}
-						tic_persistent_data: {
-							upgrades: 3
-							"tconstruct:overslime": 200
-							abilities: 1
-						}
-					}
-				}
-				match_nbt: false
-				weak_nbt_match: true
-			}]
-			rewards: [{
-				id: "24BE27A23F2E9EF3"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
-			}]
-		}
-		{
-			title: "The mattock"
-			x: -3.0d
-			y: -3.0d
-			shape: "square"
-			subtitle: "you cant chop trees and plant seeds without this one."
-			description: ["Create a fast mattock with a similar design to the pickaxe you made before."]
-			dependencies: ["1E651AFB125A52F6"]
-			id: "5B2E4DA7AC059445"
-			tasks: [{
-				id: "4034FA382E0E5E8B"
-				type: "item"
-				item: {
-					id: "tconstruct:mattock"
-					Count: 1b
-					tag: {
-						Damage: 0
-						tic_stats: {
-							"tconstruct:attack_damage": 4.4f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:durability": 780.0f
-							"tconstruct:mining_speed": 7.9200006f
-							"tconstruct:attack_speed": 1.08f
-						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 1.1f
-							"tconstruct:durability": 1.25f
-							"tconstruct:attack_damage": 1.1f
-						}
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:overslime"
-								level: 3s
-							}
-							{
-								name: "tconstruct:knockback"
-								level: 1s
-							}
-							{
-								name: "tconstruct:overcast"
-								level: 2s
-							}
-							{
-								name: "tconstruct:enhanced"
-								level: 1s
-							}
-							{
-								name: "tconstruct:hoe_till"
-								level: 1s
-							}
-						]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:slimesteel"
-						]
-						tic_volatile_data: {
-							"tconstruct:overslime_cap": 224
-							"tconstruct:overslime_friend": 1b
-							upgrades: 1
-						}
-						tic_persistent_data: {
-							upgrades: 3
-							"tconstruct:overslime": 224
-							abilities: 1
-						}
-					}
-				}
-				match_nbt: false
-				weak_nbt_match: true
-			}]
-			rewards: [{
-				id: "0D94FF0CD6EFD952"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "A fast attacking broad sword?"
-			x: -2.5d
-			y: -4.5d
-			shape: "pentagon"
-			subtitle: "Yes you heard me right, this broad sword can attack quite fast."
-			description: ["Out of all the materials, the most important one is honey. If you didnt destroy those bee hives in the island you should be able to get the honey required to get pig iron."]
-			dependencies: ["3897F6E31C910CCD"]
-			hide: true
-			id: "78A17916B90497AA"
-			tasks: [{
-				id: "4D9BBA1EABEFCAB9"
-				type: "item"
-				item: {
-					id: "tconstruct:cleaver"
-					Count: 1b
-					tag: {
-						Damage: 0
-						tic_stats: {
-							"tconstruct:attack_damage": 9.05625f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:durability": 1382.5f
-							"tconstruct:mining_speed": 1.3453126f
-							"tconstruct:attack_speed": 1.1f
-						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.25f
-							"tconstruct:durability": 3.5f
-							"tconstruct:attack_damage": 1.5f
-						}
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:lacerating"
-								level: 1s
-							}
-							{
-								name: "tconstruct:severing"
-								level: 2s
-							}
-							{
-								name: "tconstruct:tasty"
-								level: 2s
-							}
-							{
-								name: "tconstruct:enhanced"
-								level: 1s
-							}
-							{
-								name: "tconstruct:silky_aoe_shears"
-								level: 1s
-							}
-						]
-						tic_materials: [
-							"tconstruct:nahuatl"
-							"tconstruct:rose_gold"
-							"tconstruct:pig_iron"
-							"tconstruct:pig_iron"
-						]
-						tic_volatile_data: {
-							upgrades: 1
-						}
-						tic_persistent_data: {
-							upgrades: 2
-							abilities: 1
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-			rewards: [{
-				id: "1FFD340924672404"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "The mighty tinker anvil"
-			x: -4.5d
-			y: -4.5d
-			shape: "square"
-			subtitle: "This one block is whats needed to progress in tinkers."
-			description: ["Although quite costly to make, its going to pay off quite well with the tools it allows you to make."]
-			dependencies: [
-				"5B2E4DA7AC059445"
-				"1E651AFB125A52F6"
-			]
-			hide: true
-			id: "3897F6E31C910CCD"
-			tasks: [{
-				id: "496C472F2246AFD2"
-				type: "item"
-				item: "tconstruct:tinkers_anvil"
-			}]
-			rewards: [{
-				id: "589D4205B820BE0E"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "The ultimate starter mining tool?"
-			x: -4.5d
-			y: -2.5d
-			shape: "square"
-			subtitle: "This is the best tool to start off with with how much it can be upgraded."
-			description: ["This tool might seem weak at first and barely even on top if you dont upgrade the tool. With upgrades the tool will become unstoppable."]
-			dependencies: ["3897F6E31C910CCD"]
-			hide: true
-			id: "16BEB6120E76518A"
-			tasks: [{
-				id: "7244F7389DEFB737"
-				type: "item"
-				item: {
-					id: "tconstruct:sledge_hammer"
-					Count: 1b
-					tag: {
-						tic_stats: {
-							"tconstruct:attack_damage": 6.4125f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:durability": 1456.0f
-							"tconstruct:mining_speed": 3.6000001f
-							"tconstruct:attack_speed": 0.90000004f
-						}
-						Damage: 0
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.4f
-							"tconstruct:durability": 4.0f
-							"tconstruct:attack_damage": 1.35f
-						}
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:overslime"
-								level: 2s
-							}
-							{
-								name: "tconstruct:smite"
-								level: 2s
-							}
-							{
-								name: "tconstruct:overcast"
-								level: 1s
-							}
-							{
-								name: "tconstruct:enhanced"
-								level: 3s
-							}
-						]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-						]
-						tic_volatile_data: {
-							"tconstruct:overslime_cap": 337
-							"tconstruct:overslime_friend": 1b
-							upgrades: 3
-						}
-						tic_persistent_data: {
-							upgrades: 2
-							"tconstruct:overslime": 337
-							abilities: 1
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7F9D540A9D634979"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "Repairing the tools"
-			x: -4.0d
-			y: -1.0d
-			subtitle: "with great speed comes... low durability."
-			description: ["Before you upgrade the tools you will use this item pretty often, so its good to get started crafting them."]
-			dependencies: [
-				"5B2E4DA7AC059445"
-				"1E651AFB125A52F6"
-				"16BEB6120E76518A"
-			]
-			id: "14910E7AB6A0AEF6"
-			tasks: [{
-				id: "33B19D2128EA5582"
-				type: "item"
-				item: {
-					id: "tconstruct:repair_kit"
-					Count: 1b
-					tag: {
-						Material: "tconstruct:slimesteel"
-					}
-				}
-				count: 4L
-			}]
-		}
-		{
-			title: "The ultimate starter mining tool"
-			x: -5.5d
-			y: -3.5d
-			shape: "square"
-			subtitle: "This tool has more speed and durability than any other starting tool."
-			description: [
-				"With this tools rose gold parts comes great upgradability."
-				""
-				"To create this tool you need to add a diamond, emerald and 15 blocks of redstone."
-				""
-				"When upgraded your tool will shred trough terrain like no other."
-			]
-			dependencies: ["16BEB6120E76518A"]
-			hide: true
-			id: "2551958CC3D63E30"
-			tasks: [{
-				id: "22440D01CDF8453E"
-				type: "item"
-				item: {
-					id: "tconstruct:sledge_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-						tic_stats: {
-							"tconstruct:attack_damage": 7.0875f
-							"tconstruct:harvest_tier": "minecraft:diamond"
-							"tconstruct:durability": 5184.0f
-							"tconstruct:mining_speed": 9.2f
-							"tconstruct:attack_speed": 0.90000004f
-						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 4.0f
-							"tconstruct:attack_damage": 1.6875f
-						}
-						tic_upgrades: [
-							{
-								name: "tconstruct:overslime"
-								level: 1s
-							}
-							{
-								name: "tconstruct:emerald"
-								level: 1s
-							}
-							{
-								name: "tconstruct:diamond"
-								level: 1s
-							}
-							{
-								name: "tconstruct:haste"
-								level: 3s
-							}
-						]
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:overslime"
-								level: 2s
-							}
-							{
-								name: "tconstruct:diamond"
-								level: 1s
-							}
-							{
-								name: "tconstruct:emerald"
-								level: 1s
-							}
-							{
-								name: "tconstruct:haste"
-								level: 3s
-							}
-							{
-								name: "tconstruct:smite"
-								level: 2s
-							}
-							{
-								name: "tconstruct:overcast"
-								level: 1s
-							}
-							{
-								name: "tconstruct:enhanced"
-								level: 3s
-							}
-						]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-						]
-						tic_volatile_data: {
-							"tconstruct:overslime_cap": 337
-							"tconstruct:overslime_friend": 1b
-							"tconstruct:rarity": 1
-							upgrades: 3
-						}
-						tic_persistent_data: {
-							"tconstruct:haste": 45
-							upgrades: -3
-							"tconstruct:overslime": 337
-							abilities: 1
-						}
-					}
-				}
-				weak_nbt_match: true
-			}]
-			rewards: [{
-				id: "53E2118B600A00F6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
-			}]
-		}
-		{
-			x: 1.0d
-			y: -1.0d
-			dependencies: ["350E66C2C959C83E"]
+			shape: "hexagon"
+			subtitle: "Get a bed."
+			description: ["There are possibly unknown enemies out to get you in the night. Sleep trough the night to avoid them as long as possible."]
+			dependencies: ["0B1526E9DC5D4891"]
 			id: "6D61083CFD3B34F0"
 			tasks: [{
 				id: "390704309AF1C469"
 				type: "item"
+				title: "Bed"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1128,6 +242,324 @@
 								Count: 1b
 							}
 						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "40BDE4D252802E40"
+				type: "item"
+				item: {
+					id: "create:experience_nugget"
+					Count: 1b
+					tag: { }
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Deflect enemy projectiles"
+			x: 1.0d
+			y: 3.0d
+			shape: "pentagon"
+			subtitle: "This is a must have in combat against skeletons."
+			description: ["Shields get brung up 5 times faster in this modpack so make sure to craft one as they are way better now."]
+			dependencies: ["69AD5130633DDD7F"]
+			id: "18B3495B32114373"
+			tasks: [{
+				id: "2D09B72B8246D7E1"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0594109B5DA1916B"
+				type: "item"
+				item: {
+					id: "create:experience_nugget"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Avert unknown enemy spawning"
+			x: -1.0d
+			y: 1.0d
+			shape: "octagon"
+			subtitle: "Light up the island to save yourself from death."
+			dependencies: ["350E66C2C959C83E"]
+			id: "6FCEED4EF1874605"
+			tasks: [{
+				id: "4AECD49BF308B54E"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16L
+			}]
+		}
+		{
+			title: "Placing torches isnt enough"
+			x: -2.0d
+			y: 2.0d
+			shape: "octagon"
+			subtitle: "This is the faster way of lighting up an area."
+			description: ["This tool can be paired greatly with a future held glider to light up islands from above. This will allow you to light up areas even when enemies are spawning."]
+			dependencies: ["6FCEED4EF1874605"]
+			id: "217DF3CFEFDC2CF8"
+			tasks: [{
+				id: "26442612516A9B32"
+				type: "item"
+				item: "kibe:torch_sling"
+			}]
+		}
+		{
+			title: "Effective mob proofing"
+			x: -3.0d
+			y: 3.0d
+			shape: "octagon"
+			subtitle: "The tool that allows you to light up an island without doubt."
+			description: ["This torch is the safest way to make sure when you are caving you wont experience deaths and probable loosing of items. Simply show chunk boundaries and place one of these in each chunk to make sure no mobs can even spawn on the island."]
+			dependencies: ["217DF3CFEFDC2CF8"]
+			id: "7CE60BC0A027E3E7"
+			tasks: [{
+				id: "5510BB9CED7B3EF7"
+				type: "item"
+				item: "kibe:big_torch"
+			}]
+		}
+		{
+			title: "Transportation to other nearby islands"
+			x: 3.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "The tool that allows you to travel to other islands without bridges."
+			description: ["This is the preferred method of transportation on the main islands."]
+			dependencies: ["6D61083CFD3B34F0"]
+			id: "2506ACE28E3EA833"
+			tasks: [{
+				id: "2B4CDF9896CCF544"
+				type: "item"
+				item: {
+					id: "campanion:grappling_hook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "342EBB8818A6A3FC"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["350E66C2C959C83E"]
+			id: "00D40DF860EC8EC4"
+			tasks: [{
+				id: "25673E39541DD824"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "another_furniture:warped_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:crimson_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:dark_oak_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:acacia_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:jungle_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:spruce_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:birch_shelf"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:oak_shelf"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "square"
+			dependencies: ["00D40DF860EC8EC4"]
+			id: "681309243A515273"
+			tasks: [{
+				id: "44BA3C0EB921D5F9"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "another_furniture:warped_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:crimson_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:dark_oak_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:acacia_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:jungle_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:birch_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:spruce_table"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:oak_table"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: ["681309243A515273"]
+			id: "0AF0A0BDAAC6F2CE"
+			tasks: [{
+				id: "44886DF9906181EB"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "another_furniture:oak_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:spruce_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:birch_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:jungle_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:acacia_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:dark_oak_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:crimson_drawer"
+								Count: 1b
+							}
+							{
+								id: "another_furniture:warped_drawer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "You dont die?"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "It seems like you cant die on this planet..."
+			description: ["It seems like when you die you... respawn? This is odd as in your planet people died and were forever lost."]
+			secret: true
+			id: "0F57728BF1C1ECF1"
+			tasks: [{
+				id: "160949AAEA69B15C"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+		}
+		{
+			title: "Tool Enhancements"
+			icon: "minecraft:enchanting_table"
+			x: 2.5d
+			y: 0.5d
+			subtitle: "This will lock enchanted books"
+			description: ["Whether it be improving durability or vein mining. This will help enhance your tools."]
+			dependencies: ["350E66C2C959C83E"]
+			id: "2B3D0F080674DB5F"
+			tasks: [{
+				id: "039F67946D0A6ABD"
+				type: "item"
+				item: "minecraft:stone"
+			}]
+			rewards: [{
+				id: "002ADBA43AC5BB44"
+				type: "command"
+				command: "/phase grant @p enchants"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "0B1526E9DC5D4891"
+			tasks: [{
+				id: "397F1CA3D7C6CF97"
+				type: "item"
+				item: {
+					id: "fabricaeexnihilo:wooden_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]

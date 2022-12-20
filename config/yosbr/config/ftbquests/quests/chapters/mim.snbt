@@ -1,7 +1,7 @@
 {
 	id: "0812496B1D13CA49"
 	group: ""
-	order_index: 0
+	order_index: 1
 	filename: "mim"
 	title: "MIM"
 	icon: "observed:observereye"
@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 13.0d
-			y: -17.5d
+			x: 23.5d
+			y: -15.5d
 			description: [
 				"Company behind Modern Industrialization machines is “Meta Industries”."
 				""
@@ -37,7 +37,7 @@
 			icon: "valley:steak_sandwich"
 			disable_toast: true
 			x: 25.5d
-			y: -14.0d
+			y: -16.0d
 			id: "61FD7464336B1D37"
 			tasks: [{
 				id: "757A0C9DADF6485C"
@@ -59,8 +59,8 @@
 		{
 			title: "Fish Taco"
 			icon: "tacocraft:fish_taco"
-			x: 19.5d
-			y: -14.0d
+			x: 25.5d
+			y: -17.0d
 			id: "43DB2EED9B29DEBA"
 			tasks: [{
 				id: "6EE4CC39C65C9A2C"
@@ -80,43 +80,9 @@
 			}]
 		}
 		{
-			icon: "kubejs:mechanic"
-			disable_toast: true
-			x: 19.0d
-			y: -10.0d
-			secret: true
-			id: "083370A787324726"
-			tasks: [{
-				id: "15BCCF57A4D8B134"
-				type: "professions:profession"
-				icon: "kubejs:mechanic"
-				disable_toast: true
-				prof: "professions:mechanic"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:botanist"
-			disable_toast: true
-			x: 28.0d
-			y: -10.0d
-			secret: true
-			id: "5E93103C62570714"
-			tasks: [{
-				id: "4F729DB1D268F7B1"
-				type: "professions:profession"
-				icon: "kubejs:botanist"
-				disable_toast: true
-				prof: "professions:botanist"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
 			title: "Security Officer"
 			disable_toast: true
-			x: 16.0d
+			x: 27.5d
 			y: -10.0d
 			secret: true
 			id: "0FD5C494947D0F15"
@@ -150,7 +116,7 @@
 		{
 			icon: "kubejs:chef"
 			disable_toast: true
-			x: 25.0d
+			x: 25.5d
 			y: -10.0d
 			secret: true
 			id: "0D6FE0F549B771A9"
@@ -167,7 +133,7 @@
 		{
 			icon: "kubejs:doctor"
 			disable_toast: true
-			x: 23.5d
+			x: 24.5d
 			y: -10.0d
 			secret: true
 			id: "2F0D104B6A0BAF06"
@@ -184,7 +150,7 @@
 		{
 			icon: "kubejs:engineer"
 			disable_toast: true
-			x: 22.0d
+			x: 23.5d
 			y: -10.0d
 			secret: true
 			id: "5A051AF315174C4D"
@@ -196,79 +162,6 @@
 				prof: "professions:engineer"
 				action: "JOIN"
 				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:geologist"
-			disable_toast: true
-			x: 20.5d
-			y: -10.0d
-			secret: true
-			id: "74131FDEFAE0152F"
-			tasks: [{
-				id: "2A9AF9D0CD6D16AC"
-				type: "professions:profession"
-				icon: "kubejs:geologist"
-				disable_toast: true
-				prof: "professions:geologist"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:pilot"
-			disable_toast: true
-			x: 17.5d
-			y: -10.0d
-			secret: true
-			id: "6D0F841C17985968"
-			tasks: [{
-				id: "2E6D27311D51EC34"
-				type: "professions:profession"
-				icon: "kubejs:pilot"
-				disable_toast: true
-				prof: "professions:pilot"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "botanypots:terracotta_hopper_botany_pot"
-			x: 28.0d
-			y: -8.0d
-			dependencies: ["5E93103C62570714"]
-			hide: true
-			id: "773F4CFA48708959"
-			tasks: [
-				{
-					id: "4A8E74CD422A4727"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					consume_items: true
-				}
-				{
-					id: "56FA34F6A6D6BC95"
-					type: "professions:profession"
-					icon: {
-						id: "minecraft:netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					prof: "professions:botanist"
-					action: "LEVEL"
-					level: 10
-				}
-			]
-			rewards: [{
-				id: "456FE4A1B25F7031"
-				type: "questsadditions:repeat"
-				table_id: 2515709210099918763L
 			}]
 		}
 		{
@@ -289,7 +182,7 @@
 		{
 			title: "Chef Level 10"
 			icon: "chestcavity:heart"
-			x: 25.0d
+			x: 25.5d
 			y: -8.0d
 			dependencies: ["0D6FE0F549B771A9"]
 			hide: true
@@ -315,7 +208,7 @@
 					Icon: "squirtingsyringe:textures/item/healsyringe.png"
 				}
 			}
-			x: 23.5d
+			x: 24.5d
 			y: -8.0d
 			dependencies: ["2F0D104B6A0BAF06"]
 			hide: true
@@ -338,7 +231,7 @@
 		}
 		{
 			icon: "modern_industrialization:electronic_circuit"
-			x: 22.0d
+			x: 23.5d
 			y: -8.0d
 			dependencies: ["5A051AF315174C4D"]
 			hide: true
@@ -358,88 +251,7 @@
 			}]
 		}
 		{
-			icon: {
-				id: "indrev:mining_drill_mk1"
-				Count: 1b
-				tag: {
-					energy: 4000L
-				}
-			}
-			x: 20.5d
-			y: -8.0d
-			dependencies: ["74131FDEFAE0152F"]
-			hide: true
-			id: "1E789C81D72F9430"
-			tasks: [
-				{
-					id: "14B1FFA8B723988C"
-					type: "professions:profession"
-					title: "Geologist Level 10"
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 10
-				}
-				{
-					id: "121E36814C465556"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "4A83FD700B540EDA"
-				type: "loot"
-				table_id: 5182804883311859964L
-			}]
-		}
-		{
-			icon: {
-				id: "automobility:automobile_engine"
-				Count: 1b
-				tag: {
-					engine: "automobility:iron"
-				}
-			}
-			x: 19.0d
-			y: -8.0d
-			dependencies: ["083370A787324726"]
-			hide: true
-			id: "697B083ACDD99B29"
-			tasks: [{
-				id: "64F3976120FC5423"
-				type: "professions:profession"
-				title: "Mechanic Level 10"
-				prof: "professions:mechanic"
-				action: "LEVEL"
-				level: 10
-			}]
-			rewards: [{
-				id: "527CE7916ED0AEAD"
-				type: "questsadditions:repeat"
-				table_id: 7277385868388813711L
-			}]
-		}
-		{
-			x: 17.5d
-			y: -8.0d
-			dependencies: ["6D0F841C17985968"]
-			hide: true
-			id: "18F585890A3D4CFA"
-			tasks: [{
-				id: "08C0294CBA1EF24B"
-				type: "professions:profession"
-				title: "Pilot Level 10"
-				prof: "professions:pilot"
-				action: "LEVEL"
-				level: 10
-			}]
-		}
-		{
-			x: 16.0d
+			x: 27.5d
 			y: -8.0d
 			dependencies: ["0FD5C494947D0F15"]
 			hide: true
@@ -451,115 +263,6 @@
 				prof: "professions:security"
 				action: "LEVEL"
 				level: 10
-			}]
-		}
-		{
-			icon: "valley:blank_effigy"
-			x: 28.0d
-			y: -5.5d
-			dependencies: ["773F4CFA48708959"]
-			hide: true
-			id: "3DCC0B380CBCACE1"
-			tasks: [
-				{
-					id: "5363B161506E3F0C"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					consume_items: true
-				}
-				{
-					id: "36F90519ED5E64AD"
-					type: "professions:profession"
-					icon: {
-						id: "minecraft:netherite_pickaxe"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 20
-				}
-			]
-			rewards: [{
-				id: "4D34DD6FDFC388A8"
-				type: "questsadditions:repeat_choice"
-				table_id: 5291291863686957241L
-			}]
-		}
-		{
-			icon: "minecraft:gold_block"
-			x: 28.0d
-			y: -3.0d
-			dependencies: ["3DCC0B380CBCACE1"]
-			hide: true
-			id: "62362B895C0F4C0E"
-			tasks: [
-				{
-					id: "6DF6FBCE3986B0E8"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					consume_items: true
-				}
-				{
-					id: "1498363340B52ED2"
-					type: "professions:profession"
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 30
-				}
-			]
-			rewards: [{
-				id: "7FBC904A1D56C29E"
-				type: "questsadditions:repeat_choice"
-				table_id: 5067141069965823194L
-			}]
-		}
-		{
-			icon: {
-				id: "minecraft:diamond_chestplate"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 28.0d
-			y: -0.5d
-			dependencies: ["62362B895C0F4C0E"]
-			hide: true
-			id: "4A96EC105A4269EB"
-			tasks: [
-				{
-					id: "61FFCA449DC17B25"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					consume_items: true
-				}
-				{
-					id: "5B41614B1D3DE8A5"
-					type: "professions:profession"
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 50
-				}
-			]
-			rewards: [{
-				id: "3303744815A38258"
-				type: "choice"
-				table_id: 7042896445073513091L
 			}]
 		}
 		{
@@ -605,7 +308,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 25.5d
 			y: -5.5d
 			dependencies: ["2EF7547840533FEA"]
 			hide: true
@@ -619,7 +322,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 25.5d
 			y: -3.0d
 			dependencies: ["24A9669E88117170"]
 			hide: true
@@ -633,7 +336,7 @@
 			}]
 		}
 		{
-			x: 25.0d
+			x: 25.5d
 			y: -0.5d
 			dependencies: ["6357B1623AC26219"]
 			hide: true
@@ -654,7 +357,7 @@
 					Damage: 0
 				}
 			}
-			x: 23.5d
+			x: 24.5d
 			y: -5.5d
 			dependencies: ["243FAB8389807DF3"]
 			hide: true
@@ -684,7 +387,7 @@
 					Damage: 0
 				}
 			}
-			x: 23.5d
+			x: 24.5d
 			y: -3.0d
 			dependencies: ["4CF6F88E84178FA0"]
 			hide: true
@@ -714,7 +417,7 @@
 					Damage: 0
 				}
 			}
-			x: 23.5d
+			x: 24.5d
 			y: -0.5d
 			dependencies: ["36A4A6AE5D1389DC"]
 			hide: true
@@ -737,7 +440,7 @@
 			}]
 		}
 		{
-			x: 22.0d
+			x: 23.5d
 			y: -5.5d
 			dependencies: ["33D621C5EC1AEA53"]
 			hide: true
@@ -751,7 +454,7 @@
 			}]
 		}
 		{
-			x: 22.0d
+			x: 23.5d
 			y: -3.0d
 			dependencies: ["3E2A5F819B12DC4D"]
 			hide: true
@@ -765,7 +468,7 @@
 			}]
 		}
 		{
-			x: 22.0d
+			x: 23.5d
 			y: -0.5d
 			dependencies: ["470FBF35B8509F12"]
 			hide: true
@@ -779,170 +482,7 @@
 			}]
 		}
 		{
-			title: "Common Ore Scanner"
-			icon: "scannable:common_ores_module"
-			x: 20.5d
-			y: -5.5d
-			dependencies: ["1E789C81D72F9430"]
-			hide: true
-			id: "58DA22C63BD8C642"
-			tasks: [
-				{
-					id: "50D0ECFF5C176FAC"
-					type: "professions:profession"
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 20
-				}
-				{
-					id: "703BC038696CDBBD"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					count: 2L
-				}
-			]
-			rewards: [{
-				id: "03A982B4BCDB3B0B"
-				type: "loot"
-				table_id: 124106429419921356L
-			}]
-		}
-		{
-			icon: "scannable:rare_ores_module"
-			x: 20.5d
-			y: -3.0d
-			dependencies: ["58DA22C63BD8C642"]
-			hide: true
-			id: "4A6A52CA7A4472BA"
-			tasks: [
-				{
-					id: "68116136A41C73F4"
-					type: "professions:profession"
-					prof: "professions:geologist"
-					action: "LEVEL"
-					level: 30
-				}
-				{
-					id: "19DC1542780D62F3"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:gold_coin"
-						Count: 1b
-						tag: { }
-					}
-					count: 3L
-				}
-			]
-			rewards: [{
-				id: "078CADD1248B267D"
-				type: "loot"
-				table_id: 6019245258989946817L
-			}]
-		}
-		{
-			x: 20.5d
-			y: -0.5d
-			dependencies: ["4A6A52CA7A4472BA"]
-			hide: true
-			id: "35256CE9C89543C1"
-			tasks: [{
-				id: "29DF1C443F786D7B"
-				type: "professions:profession"
-				prof: "professions:geologist"
-				action: "LEVEL"
-				level: 50
-			}]
-		}
-		{
-			x: 19.0d
-			y: -5.5d
-			dependencies: ["697B083ACDD99B29"]
-			hide: true
-			id: "538427434FABAC05"
-			tasks: [{
-				id: "29DE1F56A7B4B014"
-				type: "professions:profession"
-				prof: "professions:mechanic"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 19.0d
-			y: -3.0d
-			dependencies: ["538427434FABAC05"]
-			hide: true
-			id: "10F0D6751CFED6A5"
-			tasks: [{
-				id: "08496472D388B38D"
-				type: "professions:profession"
-				prof: "professions:mechanic"
-				action: "LEVEL"
-				level: 30
-			}]
-		}
-		{
-			x: 19.0d
-			y: -0.5d
-			dependencies: ["10F0D6751CFED6A5"]
-			hide: true
-			id: "666367DB8B12CEDD"
-			tasks: [{
-				id: "34FBC63B88D23810"
-				type: "professions:profession"
-				prof: "professions:mechanic"
-				action: "LEVEL"
-				level: 50
-			}]
-		}
-		{
-			x: 17.5d
-			y: -5.5d
-			dependencies: ["18F585890A3D4CFA"]
-			hide: true
-			id: "2A2372B14A019AE7"
-			tasks: [{
-				id: "1F18D70412345DA0"
-				type: "professions:profession"
-				prof: "professions:pilot"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 17.5d
-			y: -3.0d
-			dependencies: ["2A2372B14A019AE7"]
-			hide: true
-			id: "21669CC85DC64B62"
-			tasks: [{
-				id: "3BA35226DA49735E"
-				type: "professions:profession"
-				prof: "professions:pilot"
-				action: "JOIN"
-				level: 30
-			}]
-		}
-		{
-			x: 17.5d
-			y: -0.5d
-			dependencies: ["21669CC85DC64B62"]
-			hide: true
-			id: "457FB3799B59AF63"
-			tasks: [{
-				id: "3D9E4391F78F86B5"
-				type: "professions:profession"
-				prof: "professions:pilot"
-				action: "LEVEL"
-				level: 50
-			}]
-		}
-		{
-			x: 16.0d
+			x: 27.5d
 			y: -5.5d
 			dependencies: ["0BF777317BED5ADB"]
 			hide: true
@@ -956,7 +496,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 27.5d
 			y: -3.0d
 			dependencies: ["160848907A4CD814"]
 			hide: true
@@ -970,7 +510,7 @@
 			}]
 		}
 		{
-			x: 16.0d
+			x: 27.5d
 			y: -0.5d
 			dependencies: ["61740D7E131EA02F"]
 			hide: true
@@ -986,7 +526,7 @@
 		{
 			title: "Crystal Heart"
 			icon: "artifacts:crystal_heart"
-			x: 21.5d
+			x: 25.5d
 			y: -14.0d
 			id: "425E331ED256A8DA"
 			tasks: [{
@@ -1007,45 +547,10 @@
 			}]
 		}
 		{
-			title: "Iron Shield"
-			icon: {
-				id: "survivalplus:titanium_shield"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 23.5d
-			y: -14.0d
-			id: "331B3A3065D3558B"
-			tasks: [{
-				id: "135B3117B48D6EFE"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				consume_items: true
-			}]
-			rewards: [{
-				id: "67542E998F5B7747"
-				type: "questsadditions:repeat"
-				icon: {
-					id: "survivalplus:titanium_shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				table_id: 5250622408258125757L
-			}]
-		}
-		{
 			title: "Half a stack of string"
 			icon: "minecraft:string"
-			x: 27.5d
-			y: -14.0d
+			x: 25.5d
+			y: -15.0d
 			id: "2A20729EFB9A08D7"
 			tasks: [{
 				id: "2CB65E937551D345"
