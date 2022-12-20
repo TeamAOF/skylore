@@ -5,6 +5,11 @@
       "name": "Skylore Dev",
       "address": "barb.alloffabric.com:25567",
       "forced": false
+    },
+    {
+      "name": "Skylore main",
+      "address": "barb.alloffabric.com:25565",
+      "forced": false
     }
   ]
 }
