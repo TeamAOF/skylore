@@ -1,7 +1,7 @@
 {
 	id: "0EAA560971FA63FB"
 	group: "38D73AD51340A19B"
-	order_index: 8
+	order_index: 5
 	filename: "security_office"
 	title: "Security Officer"
 	icon: "kubejs:security_officer"
@@ -22,28 +22,21 @@
 	quests: [
 		{
 			title: "Become Security Officer"
-			icon: "artis:security_panel"
+			icon: "kubejs:security_officer"
 			disable_toast: true
 			x: -0.5d
 			y: 0.5d
 			description: ["You specialize in killing things with any weapon. Prove it."]
 			id: "3A533982BC1CDF3C"
-			tasks: [
-				{
-					id: "30B81FF3D6BDF1E6"
-					type: "professions:profession"
-					disable_toast: true
-					prof: "professions:security"
-					action: "JOIN"
-					level: -1
-				}
-				{
-					id: "1A0C352C6816AC0C"
-					type: "advancement"
-					advancement: "minecraft:adventure/kill_a_mob"
-					criterion: ""
-				}
-			]
+			tasks: [{
+				id: "30B81FF3D6BDF1E6"
+				type: "professions:profession"
+				icon: "kubejs:security_officer"
+				disable_toast: true
+				prof: "professions:security_officer"
+				action: "LEVEL"
+				level: 2
+			}]
 			rewards: [{
 				id: "19F8B2C991257A31"
 				type: "questsadditions:repeat"
@@ -93,6 +86,897 @@
 				nbt: { }
 				checkItem: true
 				item: "minecraft:stick"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "73153F61D47E7FA3"
+			tasks: [{
+				id: "0585B7C026310C44"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:iron_cutlass"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_warglaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_glaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_spear"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_sai"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_katana"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_rapier"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_twinblade"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_longsword"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_scythe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_chakram"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_greataxe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_greathammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:iron_claymore"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["73153F61D47E7FA3"]
+			id: "7EA2551CDDC848DC"
+			tasks: [{
+				id: "5189D8F119ECEA42"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:gold_cutlass"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_warglaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_glaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_spear"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_sai"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_katana"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_rapier"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_twinblade"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_longsword"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_claymore"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_greathammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_greataxe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_chakram"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:gold_scythe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["7EA2551CDDC848DC"]
+			id: "0DA5C6205FA19091"
+			tasks: [{
+				id: "696EF0C741B4F700"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:diamond_warglaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_cutlass"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_glaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_spear"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_sai"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_katana"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_rapier"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_twinblade"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_longsword"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_claymore"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_greathammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_greataxe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_chakram"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:diamond_scythe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["0DA5C6205FA19091"]
+			id: "7A38C8E57EAEFA7F"
+			tasks: [{
+				id: "50F4117E1921E5A5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:netherite_cutlass"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_warglaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_glaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_spear"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_sai"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_katana"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_rapier"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_twinblade"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_longsword"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_claymore"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_greathammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_greataxe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_chakram"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:netherite_scythe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["7A38C8E57EAEFA7F"]
+			id: "05E32A8FB9A0CA6B"
+			tasks: [{
+				id: "0C7D0B29A3C101D5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:runic_claymore"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_cutlass"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_sai"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_spear"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_glaive"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_katana"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_rapier"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_twinblade"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_longsword"
+								tag: {
+									Damage: 0
+									runic_power: 32
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_chakram"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_greataxe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_greathammer"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "simplyswords:runic_scythe"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "34CBD8D1CEB3850E"
+			tasks: [{
+				id: "27321421115884DE"
+				type: "item"
+				item: {
+					id: "simplyswords:brimstone_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "777A484719BD2759"
+			tasks: [{
+				id: "5213056B616C2D21"
+				type: "item"
+				item: {
+					id: "simplyswords:watcher_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "659FEFBD0AB024E4"
+			tasks: [{
+				id: "2FE88A125BD29848"
+				type: "item"
+				item: {
+					id: "simplyswords:storms_edge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "3D416D494E8DD275"
+			tasks: [{
+				id: "4CB1A7BE2C92B395"
+				type: "item"
+				item: {
+					id: "simplyswords:stormbringer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "661C0C73B3F6E816"
+			tasks: [{
+				id: "4A4A51D3650F0CB3"
+				type: "item"
+				item: {
+					id: "simplyswords:sword_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "25A1954092060953"
+			tasks: [{
+				id: "3ABEEC8C51F9E6E9"
+				type: "item"
+				item: {
+					id: "simplyswords:bramblethorn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "00E73EC7B856AF45"
+			tasks: [{
+				id: "3C5932621F84A987"
+				type: "item"
+				item: {
+					id: "simplyswords:watching_warglaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "0CB3384D6D60AD93"
+			tasks: [{
+				id: "41EB703B9D68F5F3"
+				type: "item"
+				item: {
+					id: "simplyswords:toxic_longsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "556A63171A2E19C5"
+			tasks: [{
+				id: "59317FD4A1325E2A"
+				type: "item"
+				item: {
+					id: "simplyswords:emberblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "547667A0D1993984"
+			tasks: [{
+				id: "4D9EF04ECC3E04DB"
+				type: "item"
+				item: {
+					id: "simplyswords:hearthflame"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "5D2DE894E60B097E"
+			tasks: [{
+				id: "4A7AF669EE623FB3"
+				type: "item"
+				item: {
+					id: "simplyswords:soulkeeper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "642F24F93D705DA7"
+			tasks: [{
+				id: "1A3736A4AFED1D5F"
+				type: "item"
+				item: {
+					id: "simplyswords:twisted_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "37F31157AC22C21A"
+			tasks: [{
+				id: "39C73FB8FEA856DB"
+				type: "item"
+				item: {
+					id: "simplyswords:soulstealer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "1266C46050F4D911"
+			tasks: [{
+				id: "463FE3BF1786B074"
+				type: "item"
+				item: {
+					id: "simplyswords:soulrender"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "71A1FF506DC41F15"
+			tasks: [{
+				id: "6A081C7E648E057F"
+				type: "item"
+				item: {
+					id: "simplyswords:soulpyre"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "0ABC836F3E209C57"
+			tasks: [{
+				id: "6BA9067BC258F88F"
+				type: "item"
+				item: {
+					id: "simplyswords:frostfall"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "00A4A89019E486D5"
+			tasks: [{
+				id: "5FB2BDD1C3F5681C"
+				type: "item"
+				item: {
+					id: "simplyswords:molten_edge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "4CA5854CBF1023C1"
+			tasks: [{
+				id: "660B53B9AF511457"
+				type: "item"
+				item: {
+					id: "simplyswords:mjolnir"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["05E32A8FB9A0CA6B"]
+			id: "6FB7BAA342A7C916"
+			tasks: [{
+				id: "0BF5AECBDC601E55"
+				type: "checkmark"
+				title: "Legendary Weapons"
 			}]
 		}
 	]

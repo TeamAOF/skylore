@@ -1,0 +1,503 @@
+{
+	id: "5F6193773909810B"
+	group: "2F70CC0B7DF8BA3A"
+	order_index: 0
+	filename: "chocolate_chef"
+	title: "Chocolate Chef"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: 1.0d
+			dependencies: ["5AD5E52CA8867DC4"]
+			id: "16357F15EE830264"
+			tasks: [{
+				id: "49978CEB43ECB87B"
+				type: "checkmark"
+				title: "Chocolate Mastery"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: [
+				"266D859AD55E21D4"
+				"09BFB33DB05508CD"
+				"64CF17B130DA5913"
+			]
+			id: "5AD5E52CA8867DC4"
+			tasks: [{
+				id: "6CBBC1F78C970F7D"
+				type: "item"
+				item: "cacao:golden_chocolate"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.5d
+			dependencies: ["20CDAA6916C5E270"]
+			id: "09BFB33DB05508CD"
+			tasks: [{
+				id: "69DE2767CA88FCF9"
+				type: "item"
+				item: "cacao:milk_chocolate_covered_apple"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			dependencies: ["011718412622DADF"]
+			id: "266D859AD55E21D4"
+			tasks: [{
+				id: "027728C4F8CED838"
+				type: "item"
+				item: "cacao:dark_chocolate_covered_apple"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.5d
+			dependencies: ["3A1E7C435970EF41"]
+			id: "011718412622DADF"
+			tasks: [{
+				id: "67FFEED34AA4F031"
+				type: "item"
+				item: "cacao:peanut_butter_dark_chocolate"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 1.5d
+			dependencies: ["718ED72DA3C81F25"]
+			id: "20CDAA6916C5E270"
+			tasks: [{
+				id: "67983644455CDE76"
+				type: "item"
+				item: "cacao:peanut_butter_milk_chocolate"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.5d
+			dependencies: ["4F8CADCE9F7F7771"]
+			id: "64CF17B130DA5913"
+			tasks: [{
+				id: "50923A098046E343"
+				type: "item"
+				item: "cacao:white_chocolate_covered_apple"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 2.5d
+			dependencies: ["1C3D17F01F4E111D"]
+			id: "4F8CADCE9F7F7771"
+			tasks: [{
+				id: "00B8B7235DD8D223"
+				type: "item"
+				item: "cacao:peanut_butter_white_chocolate"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			dependencies: ["4C9F4BB1FE1B6EA7"]
+			id: "1C3D17F01F4E111D"
+			tasks: [{
+				id: "6508FF6336D88E20"
+				type: "item"
+				item: "cacao:coconut_white_chocolate"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 2.5d
+			dependencies: ["3055F3672BDD7FF9"]
+			id: "4C9F4BB1FE1B6EA7"
+			tasks: [{
+				id: "464D1B27519E3FE8"
+				type: "item"
+				item: "cacao:mixed_nuts_white_chocolate"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 2.5d
+			dependencies: ["7D7E599306A86EE8"]
+			id: "3055F3672BDD7FF9"
+			tasks: [{
+				id: "2660B5868BE36FB9"
+				type: "item"
+				item: "cacao:cookie_cream_white_chocolate"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 2.5d
+			dependencies: ["4AA23A7E1C977416"]
+			id: "7D7E599306A86EE8"
+			tasks: [{
+				id: "224C88CABE40F250"
+				type: "item"
+				item: "cacao:strawberry_cream_white_chocolate"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 1.5d
+			dependencies: ["5C236D15D91FB8DD"]
+			id: "718ED72DA3C81F25"
+			tasks: [{
+				id: "5851428683114F92"
+				type: "item"
+				item: "cacao:coconut_milk_chocolate"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 0.5d
+			dependencies: ["61B9819C44B91F08"]
+			id: "3A1E7C435970EF41"
+			tasks: [{
+				id: "4EC0BDCB8D012CA2"
+				type: "item"
+				item: "cacao:coconut_dark_chocolate"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 0.5d
+			dependencies: ["17DB4C2366019F81"]
+			id: "61B9819C44B91F08"
+			tasks: [{
+				id: "34EEF67065FC7C4E"
+				type: "item"
+				item: "cacao:mixed_nuts_dark_chocolate"
+			}]
+		}
+		{
+			x: -15.0d
+			y: 1.5d
+			dependencies: ["1BEFC21AE6BF3024"]
+			id: "5C236D15D91FB8DD"
+			tasks: [{
+				id: "3E6CF02238543751"
+				type: "item"
+				item: "cacao:mixed_nuts_milk_chocolate"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 1.5d
+			dependencies: ["46870A041C0EB190"]
+			id: "1BEFC21AE6BF3024"
+			tasks: [{
+				id: "72FB8BA180AD5985"
+				type: "item"
+				item: "cacao:cookie_cream_milk_chocolate"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 0.5d
+			dependencies: ["4B4AA06A5424CAD9"]
+			id: "17DB4C2366019F81"
+			tasks: [{
+				id: "7F31ADDD0B49AF1D"
+				type: "item"
+				item: "cacao:cookie_cream_dark_chocolate"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 0.5d
+			dependencies: ["08FEA34D5289F272"]
+			id: "4B4AA06A5424CAD9"
+			tasks: [{
+				id: "2A4DB65E71EC8BBB"
+				type: "item"
+				item: "cacao:strawberry_cream_dark_chocolate"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 1.5d
+			dependencies: ["1B6392711714483A"]
+			id: "46870A041C0EB190"
+			tasks: [{
+				id: "01D21ECA10EC3B95"
+				type: "item"
+				item: "cacao:strawberry_cream_milk_chocolate"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 1.5d
+			dependencies: ["5BED5074C67AB8B0"]
+			id: "1B6392711714483A"
+			tasks: [{
+				id: "1A3DECD35339C339"
+				type: "item"
+				item: "cacao:praline_milk_chocolate"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 0.5d
+			dependencies: ["6CE9120896607D1A"]
+			id: "08FEA34D5289F272"
+			tasks: [{
+				id: "471D3C090F3F4991"
+				type: "item"
+				item: "cacao:praline_dark_chocolate"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 0.5d
+			dependencies: ["046F450102283D9C"]
+			id: "6CE9120896607D1A"
+			tasks: [{
+				id: "00B57250B5F93D63"
+				type: "item"
+				item: "cacao:caramel_dark_chocolate"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 1.5d
+			dependencies: ["6E3175852F5D07DC"]
+			id: "5BED5074C67AB8B0"
+			tasks: [{
+				id: "47825770B3879F13"
+				type: "item"
+				item: "cacao:caramel_milk_chocolate"
+			}]
+		}
+		{
+			x: -20.0d
+			y: 1.5d
+			dependencies: ["729B704764E2D44E"]
+			id: "6E3175852F5D07DC"
+			tasks: [{
+				id: "69428A44C47767D2"
+				type: "item"
+				item: "cacao:milk_chocolate"
+			}]
+		}
+		{
+			x: -21.0d
+			y: 1.5d
+			dependencies: ["6E3175852F5D07DC"]
+			id: "7EDC8D3AEC5035CB"
+			tasks: [{
+				id: "5EC33AAF23A7C2AD"
+				type: "item"
+				item: "cacao:nutella"
+			}]
+		}
+		{
+			x: -20.0d
+			y: 0.5d
+			dependencies: ["729B704764E2D44E"]
+			id: "046F450102283D9C"
+			tasks: [{
+				id: "59A9C0D0BA18342C"
+				type: "item"
+				item: "cacao:dark_chocolate"
+			}]
+		}
+		{
+			x: -20.0d
+			y: 2.5d
+			dependencies: ["14ECD88E416F7DE9"]
+			id: "32B5C9C6D4545A48"
+			tasks: [{
+				id: "4D99DDF11B8C8B6E"
+				type: "item"
+				item: "cacao:white_chocolate"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 2.5d
+			dependencies: ["32B5C9C6D4545A48"]
+			id: "7E22496391ADE91C"
+			tasks: [{
+				id: "2065EFDF1F0ECFD1"
+				type: "item"
+				item: "cacao:caramel_white_chocolate"
+			}]
+		}
+		{
+			x: -18.0d
+			y: 2.5d
+			dependencies: ["7E22496391ADE91C"]
+			id: "4AA23A7E1C977416"
+			tasks: [{
+				id: "3138E6C0229029FC"
+				type: "item"
+				item: "cacao:praline_white_chocolate"
+			}]
+		}
+		{
+			x: -21.5d
+			y: 4.5d
+			dependencies: ["14ECD88E416F7DE9"]
+			id: "20FF8C96D62299CE"
+			tasks: [{
+				id: "762E8013A49AAC52"
+				type: "item"
+				item: "cacao:white_chips_cookie"
+			}]
+		}
+		{
+			x: -22.5d
+			y: 3.0d
+			dependencies: ["6FC63FB4DF2A5944"]
+			id: "14ECD88E416F7DE9"
+			tasks: [{
+				id: "779397B810809E11"
+				type: "item"
+				item: "cacao:cacao_butter_bottle"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -2.5d
+			dependencies: ["6FC63FB4DF2A5944"]
+			id: "729B704764E2D44E"
+			tasks: [{
+				id: "793A30CE50C8D9A4"
+				type: "item"
+				item: "cacao:cacao_mass_bottle"
+			}]
+		}
+		{
+			x: -20.5d
+			y: -2.5d
+			dependencies: ["3703BCADF5A7015C"]
+			id: "6FC63FB4DF2A5944"
+			tasks: [{
+				id: "78585E5E762E9893"
+				type: "item"
+				item: "cacao:cacao_mass_bucket"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -3.5d
+			dependencies: ["6FC63FB4DF2A5944"]
+			id: "404A7D931E0340A1"
+			tasks: [{
+				id: "5063DFB13063EA51"
+				type: "item"
+				item: "cacao:silicon_dust"
+			}]
+		}
+		{
+			x: -16.5d
+			y: -4.5d
+			dependencies: ["404A7D931E0340A1"]
+			id: "7C40B554256CE0B9"
+			tasks: [{
+				id: "1E90712ED492BC83"
+				type: "item"
+				item: "cacao:silicon_mold"
+			}]
+		}
+		{
+			x: -21.5d
+			y: -1.5d
+			dependencies: [
+				"08F7CA41D1C0A185"
+				"749A2325F3FEAB6F"
+			]
+			id: "3703BCADF5A7015C"
+			tasks: [{
+				id: "54D2CE6AA2DD2D0C"
+				type: "item"
+				item: "cacao:cacao_nibs"
+			}]
+		}
+		{
+			x: -22.5d
+			y: 0.0d
+			dependencies: ["4EA9A1045620750F"]
+			id: "749A2325F3FEAB6F"
+			tasks: [{
+				id: "109D59971A1C82A9"
+				type: "item"
+				item: "cacao:filter_cloth"
+			}]
+		}
+		{
+			x: -24.5d
+			y: 0.5d
+			dependencies: ["2FB5417CCC58F931"]
+			hide: false
+			id: "4EA9A1045620750F"
+			tasks: [{
+				id: "5DBA973A9CE87EBD"
+				type: "checkmark"
+				title: "Cocoa Quests"
+			}]
+		}
+		{
+			x: -22.5d
+			y: 1.0d
+			dependencies: ["4EA9A1045620750F"]
+			id: "08F7CA41D1C0A185"
+			tasks: [{
+				id: "71C104A927E5E7C8"
+				type: "item"
+				item: "cacao:manual_food_grinder"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 2.0d
+			dependencies: ["08F7CA41D1C0A185"]
+			id: "632B51EC776B0476"
+			tasks: [{
+				id: "5BF0940C31F40D0E"
+				type: "item"
+				item: "cacao:cocoa_powder"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 3.0d
+			dependencies: ["632B51EC776B0476"]
+			id: "7593B2FDD5144FEB"
+			tasks: [{
+				id: "379C1366A35FF180"
+				type: "item"
+				item: "cacao:white_chips_chocolate_cookie"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 4.0d
+			dependencies: ["7593B2FDD5144FEB"]
+			id: "3DDD80906FFCA870"
+			tasks: [{
+				id: "093C75ED70211F16"
+				type: "item"
+				item: "cacao:dark_chips_chocolate_cookie"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 5.0d
+			dependencies: ["3DDD80906FFCA870"]
+			id: "3999B7384AACF89D"
+			tasks: [{
+				id: "65BF0C4F85D6A3B9"
+				type: "item"
+				item: "cacao:chocolate_cake"
+			}]
+		}
+	]
+}

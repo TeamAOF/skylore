@@ -1,58 +1,62 @@
 {
 	id: "4EF7438DE6AC207A"
 	group: "38D73AD51340A19B"
-	order_index: 3
+	order_index: 2
 	filename: "doctor"
-	title: "Doctor"
+	title: "Medical Officer"
 	icon: "kubejs:doctor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -3.0d
-		y: 1.5d
-		width: 6.0d
-		height: 5.0d
-		rotation: 0.0d
-		image: "skylore:textures/doctordesc.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: -3.0d
+			y: 1.5d
+			width: 6.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "skylore:textures/doctordesc.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "squirtingsyringe:textures/item/syringe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
-			icon: "artis:examination_table"
+			title: "Medical Officer"
+			icon: "kubejs:doctor"
 			disable_toast: true
-			x: 2.5d
-			y: -1.5d
+			x: 4.5d
+			y: -4.5d
 			id: "2E8711EA762548F2"
-			tasks: [
-				{
-					id: "0C0F7D22F564BA4D"
-					type: "professions:profession"
-					icon: "kubejs:doctor"
-					disable_toast: true
-					prof: "professions:doctor"
-					action: "JOIN"
-					level: -1
-				}
-				{
-					id: "4BE3E54A41DFCFD2"
-					type: "advancement"
-					advancement: "soaringstructures2:heavenly_tea"
-					criterion: ""
-				}
-			]
-			rewards: [{
-				id: "5B5CE79C28BC7605"
-				type: "questsadditions:repeat"
-				table_id: 2304669537676444054L
+			tasks: [{
+				id: "0C0F7D22F564BA4D"
+				type: "professions:profession"
+				icon: "kubejs:doctor"
+				disable_toast: true
+				prof: "professions:medical_officer"
+				action: "LEVEL"
+				level: 2
 			}]
 		}
 		{
 			x: 1.5d
-			y: 1.5d
+			y: -4.5d
+			subtitle: "Parasite control requires a special syringe."
 			dependencies: ["2E8711EA762548F2"]
+			hide: true
 			id: "556AC8A73B938089"
 			tasks: [{
 				id: "7601D0595292CA61"
@@ -61,9 +65,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 10.5d
+			y: -4.5d
+			dependencies: ["305035EE1DD3009E"]
 			id: "08CBDE18227CF305"
 			tasks: [{
 				id: "7415C9DB991BEB0E"
@@ -72,9 +76,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["08CBDE18227CF305"]
 			id: "25275C639A40BF15"
 			tasks: [{
 				id: "69BD2E1F736E61FD"
@@ -89,9 +93,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 13.5d
+			y: -5.5d
+			dependencies: ["08CBDE18227CF305"]
 			id: "0FF9503222807B03"
 			tasks: [{
 				id: "798703BA83E60150"
@@ -106,9 +110,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 12.5d
+			y: -6.0d
+			dependencies: ["08CBDE18227CF305"]
 			id: "41D98416BC32F90F"
 			tasks: [{
 				id: "32A6B1D0B442BF93"
@@ -123,9 +127,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 14.5d
+			y: -4.5d
+			dependencies: ["1CB7EA7AC9C1A6EB"]
 			id: "0630DEC39202BEBA"
 			tasks: [{
 				id: "1DA5477EAFF6F03C"
@@ -140,9 +144,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 12.5d
+			y: -3.0d
+			dependencies: ["08CBDE18227CF305"]
 			id: "4A44EE1FB539BD5B"
 			tasks: [{
 				id: "177358AEB32D980D"
@@ -157,9 +161,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["08CBDE18227CF305"]
 			id: "5F9A7B30EF21FB36"
 			tasks: [{
 				id: "289DEFE681B8AC75"
@@ -174,9 +178,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 10.5d
+			y: -7.0d
+			dependencies: ["08CBDE18227CF305"]
 			id: "7648385453AEC740"
 			tasks: [{
 				id: "27DBE6ECAD38030B"
@@ -191,9 +195,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 11.5d
+			y: -6.5d
+			dependencies: ["08CBDE18227CF305"]
 			id: "2D025D6B22DD7939"
 			tasks: [{
 				id: "47E1CDABF6438963"
@@ -208,9 +212,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 13.5d
+			y: -4.5d
+			dependencies: ["08CBDE18227CF305"]
 			id: "1CB7EA7AC9C1A6EB"
 			tasks: [{
 				id: "185D715DB1ACA611"
@@ -225,9 +229,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 13.5d
+			y: -3.5d
+			dependencies: ["08CBDE18227CF305"]
 			id: "44FE5D3DB5E5EE9E"
 			tasks: [{
 				id: "38AD8CACA3A35530"
@@ -242,9 +246,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["364981504A6D6623"]
 			id: "51B8ABC48886C04A"
 			tasks: [{
 				id: "7669A430A1E476CB"
@@ -253,9 +257,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["364981504A6D6623"]
 			id: "27E63976C343CC4A"
 			tasks: [{
 				id: "7C9D444ED318EC37"
@@ -264,9 +268,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["364981504A6D6623"]
 			id: "2A0D3B6FA70246CC"
 			tasks: [{
 				id: "5C371AF3F53B1A29"
@@ -275,9 +279,9 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["556AC8A73B938089"]
 			id: "2B6B3FBA804B09DD"
 			tasks: [{
 				id: "3FD80627115E276F"
@@ -286,9 +290,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["2B6B3FBA804B09DD"]
 			id: "364981504A6D6623"
 			tasks: [{
 				id: "461F5FE557FEE301"
@@ -297,9 +301,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["776CFC81987232B8"]
 			id: "4130995FD3610612"
 			tasks: [{
 				id: "4BFA2758C506199B"
@@ -308,15 +312,208 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
-			dependencies: ["2E8711EA762548F2"]
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["2B6B3FBA804B09DD"]
 			id: "776CFC81987232B8"
 			tasks: [{
 				id: "54618F870359F8D7"
 				type: "item"
 				item: "immortuoscalyx:infection_scanner"
 			}]
+		}
+		{
+			title: "Put your heart next to mine"
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["1602909A2303CD5F"]
+			id: "3E6506CF911F2C91"
+			tasks: [{
+				id: "180E57AFD976C19C"
+				type: "item"
+				item: "chestcavity:heart"
+			}]
+		}
+		{
+			title: "Like a Surgeon"
+			x: 3.0d
+			y: 6.0d
+			dependencies: ["2E8711EA762548F2"]
+			id: "1602909A2303CD5F"
+			tasks: [{
+				id: "08F89806418ADF76"
+				type: "item"
+				item: {
+					id: "chestcavity:wooden_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Cut for the very first time"
+			x: 3.0d
+			y: 7.0d
+			dependencies: ["1602909A2303CD5F"]
+			id: "7F06BB9156957A18"
+			tasks: [{
+				id: "32FA4736EBCA39D6"
+				type: "item"
+				item: "chestcavity:chest_opener"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			dependencies: ["78C3341B8912A232"]
+			id: "2AFCDCDF26AB18AA"
+			tasks: [{
+				id: "3ABD4ED42CC3139A"
+				type: "item"
+				item: "chestcavity:fireproof_heart"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["3E6506CF911F2C91"]
+			id: "78C3341B8912A232"
+			tasks: [{
+				id: "23D4FF7487ABCE1C"
+				type: "item"
+				item: "chestcavity:animal_heart"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			dependencies: ["2AFCDCDF26AB18AA"]
+			id: "64D7661402CDEC45"
+			tasks: [{
+				id: "627E26E2EBA04A8D"
+				type: "item"
+				item: "chestcavity:ender_heart"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.0d
+			dependencies: ["64D7661402CDEC45"]
+			id: "7EA788BEDF84A0B9"
+			tasks: [{
+				id: "0A3AEBA3ABC73183"
+				type: "item"
+				item: "chestcavity:dragon_heart"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			dependencies: ["7EA788BEDF84A0B9"]
+			id: "633657614CD58EFE"
+			tasks: [{
+				id: "5A5300D55D7A853D"
+				type: "item"
+				item: "chestcavity:golem_core"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "305035EE1DD3009E"
+			tasks: [{
+				id: "7FBE39CAED4E18AE"
+				type: "checkmark"
+				title: "Medicinal Enhancements"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["3E6506CF911F2C91"]
+			id: "2CB063E1D04662D7"
+			tasks: [{
+				id: "51E7CC516F887B5C"
+				type: "item"
+				item: "chestcavity:lung"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			dependencies: ["2CB063E1D04662D7"]
+			id: "4727163989F41B85"
+			tasks: [{
+				id: "711294E0DB9D0C33"
+				type: "item"
+				item: "chestcavity:animal_lung"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["4727163989F41B85"]
+			id: "3C977EB0BFAE0158"
+			tasks: [{
+				id: "17D3B5A62D422583"
+				type: "item"
+				item: "chestcavity:fireproof_lung"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			dependencies: ["3C977EB0BFAE0158"]
+			id: "35BC36791EE8BD88"
+			tasks: [{
+				id: "347C85AABAD2EE5B"
+				type: "item"
+				item: "chestcavity:ender_lung"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 11.0d
+			dependencies: ["35BC36791EE8BD88"]
+			id: "0FDC6A670CEFBC35"
+			tasks: [{
+				id: "6363E63B0C70E77C"
+				type: "item"
+				item: "chestcavity:dragon_lung"
+			}]
+		}
+		{
+			title: "Oxygen Tank Recipe Unlock"
+			icon: {
+				id: "ad_astra:oxygen_tank"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 8.0d
+			dependencies: ["4727163989F41B85"]
+			id: "2F068F2F28266C55"
+			rewards: [{
+				id: "0DCB6301BAF0DC78"
+				type: "command"
+				title: "Oxygen Tank Recipe Unlock"
+				icon: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: { }
+				}
+				command: "/phase grant @p oxygentank"
+				player_command: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			dependencies: ["2F068F2F28266C55"]
+			id: "1BE0DB7FCBD558C2"
 		}
 	]
 }

@@ -1,0 +1,195 @@
+{
+	id: "6C10096130A51871"
+	group: "4E03E5FEAE87C266"
+	order_index: 2
+	filename: "space_travel"
+	title: "Space Travel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "kubejs:engineer"
+			disable_toast: true
+			x: -3.5d
+			y: -1.5d
+			dependencies: ["0EB0B17A06209563"]
+			id: "4B0BD12E5FCC3241"
+			tasks: [{
+				id: "0AA604CA7C5D577B"
+				type: "professions:profession"
+				prof: "professions:engineering_officer"
+				action: "LEVEL"
+				level: 2
+			}]
+		}
+		{
+			icon: "kubejs:geologist"
+			disable_toast: true
+			x: -3.5d
+			y: 0.5d
+			dependencies: ["0EB0B17A06209563"]
+			id: "616DCDBCB0B75AE5"
+			tasks: [{
+				id: "71B5B4571F49E44F"
+				type: "professions:profession"
+				prof: "professions:science_officer"
+				action: "LEVEL"
+				level: 2
+			}]
+		}
+		{
+			icon: "kubejs:doctor"
+			disable_toast: true
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["0EB0B17A06209563"]
+			id: "29F0244B5C5B1705"
+			tasks: [{
+				id: "6B8FA273472F2FBE"
+				type: "professions:profession"
+				prof: "professions:medical_officer"
+				action: "LEVEL"
+				level: 2
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			description: ["In order to go to space, you will have to complete certain questlines from certain professions."]
+			id: "0EB0B17A06209563"
+			tasks: [{
+				id: "780798EC7192DAF3"
+				type: "checkmark"
+				title: "To Infinity and beyond!"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["29F0244B5C5B1705"]
+			id: "368B3849F9F18741"
+			tasks: [{
+				id: "74F7D7C4D324EDA3"
+				type: "item"
+				item: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["4B0BD12E5FCC3241"]
+			id: "6B6AEF99F1436178"
+			tasks: [{
+				id: "2476CD8A90F678BF"
+				type: "item"
+				item: "ad_astra:nasa_workbench"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["616DCDBCB0B75AE5"]
+			id: "24255EC1693E918B"
+			tasks: [{
+				id: "7250998CAEADB6DF"
+				type: "item"
+				item: "ad_astra:astrodux"
+			}]
+		}
+		{
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 0.5d
+			dependencies: [
+				"6B6AEF99F1436178"
+				"24255EC1693E918B"
+				"368B3849F9F18741"
+			]
+			id: "7F425AB3E4DA8AA8"
+			tasks: [{
+				id: "04B731C08FEF5C54"
+				type: "checkmark"
+				title: "Rocket tier 1 unlock"
+			}]
+			rewards: [{
+				id: "2B95FE39BB0CF795"
+				type: "command"
+				title: "Rocket Person"
+				icon: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
+				command: "/phase grant @p rocket1"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["7F425AB3E4DA8AA8"]
+			id: "06C375E30E431DD9"
+			tasks: [{
+				id: "2148756583FE8B02"
+				type: "item"
+				item: "ad_astra:desh_cable"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["7F425AB3E4DA8AA8"]
+			id: "3BA3E909FFF61248"
+			tasks: [{
+				id: "41304075DCB35879"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["7F425AB3E4DA8AA8"]
+			id: "34562011841C2D27"
+			tasks: [{
+				id: "3469B5DE442CCFF1"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			icon: {
+				id: "ad_astra:tier_2_rocket"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: 0.5d
+			dependencies: [
+				"34562011841C2D27"
+				"3BA3E909FFF61248"
+				"06C375E30E431DD9"
+			]
+			id: "68B1CEBBC7D77BB5"
+			tasks: [{
+				id: "45C1E666F578E193"
+				type: "checkmark"
+				title: "Rocket 2 Unlock"
+			}]
+			rewards: [{
+				id: "49811BA0B2E89CF5"
+				type: "command"
+				command: "/phase grant @p rocket2"
+				player_command: false
+			}]
+		}
+	]
+}

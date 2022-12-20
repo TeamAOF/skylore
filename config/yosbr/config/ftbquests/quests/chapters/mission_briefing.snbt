@@ -1,0 +1,58 @@
+{
+	id: "6490C09D1316208C"
+	group: ""
+	order_index: 0
+	filename: "mission_briefing"
+	title: "Mission Briefing"
+	icon: "spectrum:purple_star_candy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -11.5d
+			description: ["Pressing \"R\" will bring up the augmented reality menu"]
+			id: "66803E08CE167810"
+			tasks: [{
+				id: "2F10FE59A282F457"
+				type: "checkmark"
+				title: "Use \"R\" to view AR menu"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			id: "3D10E6F191AA134F"
+			tasks: [{
+				id: "26130F3519576B25"
+				type: "checkmark"
+				title: "something about professions"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -10.0d
+			id: "10FA2A1A127B64D6"
+			tasks: [{
+				id: "5F8DCD9087FB06B0"
+				type: "checkmark"
+				title: "something about virus"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.5d
+			description: [
+				"Your training in the AOF simulator should have prepared you for this."
+				""
+				"Therefore tasks will not be in 100% step-by-step order. You are required to use your training and wits to understand how to proceed to the next step."
+			]
+			id: "0E3AC4F0A925DE3C"
+			tasks: [{
+				id: "794C5F7F90E7267D"
+				type: "checkmark"
+				title: "Not like other adventures"
+			}]
+		}
+	]
+}
