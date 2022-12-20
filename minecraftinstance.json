@@ -8872,28 +8872,16 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/334/435/256/256/637468372920049386.png",
             "tags": [],
             "installedFile": {
-                "id": 4215548,
-                "fileName": "ftb-quests-fabric-1802.3.11-build.151.jar",
-                "fileDate": "2022-12-19T23:59:00.523Z",
-                "fileLength": 1069087,
+                "id": 4070027,
+                "fileName": "ftb-quests-fabric-1802.3.10-build.138.jar",
+                "fileDate": "2022-11-06T12:01:27.197Z",
+                "fileLength": 1039603,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4215/548/ftb-quests-fabric-1802.3.11-build.151.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4070/27/ftb-quests-fabric-1802.3.10-build.138.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 309674,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 438495,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
                     {
                         "addonId": 395864,
                         "type": 2
@@ -8903,7 +8891,19 @@
                         "type": 3
                     },
                     {
+                        "addonId": 438495,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 309674,
+                        "type": 3
+                    },
+                    {
                         "addonId": 419699,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
                         "type": 3
                     }
                 ],
@@ -8915,18 +8915,13 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "assets",
-                        "fingerprint": 1944644568,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1493074246,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "kubejs.classfilter.txt",
                         "fingerprint": 3371782786,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1867151718,
                         "invalidFingerprint": false
                     },
                     {
@@ -8935,22 +8930,27 @@
                         "invalidFingerprint": false
                     },
                     {
+                        "foldername": "data",
+                        "fingerprint": 1493074246,
+                        "invalidFingerprint": false
+                    },
+                    {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 4216697018,
+                        "fingerprint": 3264318027,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "dev",
-                        "fingerprint": 1836991921,
+                        "fingerprint": 3684976611,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_FTBQuests1182_common_c02bb5d956914d5bbe50bb338df1a474_52da16d096826477c9dd094c08622e77d506c4e4b8a361979e4b6b0d943cdc0cftbquests1802311build151devjar",
-                        "fingerprint": 1563418442,
+                        "foldername": "architectury_inject_FTBQuests1182_common_495e1b39057446b487ad0b6ab8b96e5e_cf19ab289004bcc6f5b7f429cb75af4c6dc2b678a4815cec4191b2f2ae5c5408ftbquests1802310build138devjar",
+                        "fingerprint": 1945037052,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3675091815,
+                "packageFingerprint": 4216936881,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -8972,20 +8972,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 438496,
-                "FileNameOnDisk": "ftb-quests-fabric-1802.3.11-build.151.jar",
+                "FileNameOnDisk": "ftb-quests-fabric-1802.3.10-build.138.jar",
                 "Hashes": [
                     {
-                        "Value": "d56a2d0445074804b3484c5a9b9887d79ebdfeae"
+                        "Value": "49109b5d9fefe56d460ed67ea8645dd62d7878dc"
                     },
                     {
-                        "Value": "f2f111a5105e7d5a6dc041909785e97f"
+                        "Value": "3b7329c05c3b5c3654373f487d48fba1"
                     }
                 ]
             },
-            "dateInstalled": "2022-12-19T18:59:19.767717Z",
-            "dateUpdated": "2022-12-20T04:13:23.5131906Z",
-            "dateLastUpdateAttempted": "2022-12-20T04:13:23.5131906Z",
-            "status": 4,
+            "dateInstalled": "2022-12-20T04:16:17.7901763Z",
+            "dateUpdated": "2022-12-20T04:16:17.8001495Z",
+            "dateLastUpdateAttempted": "2022-12-20T04:16:17.8001495Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18738,13 +18738,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/467/327/256/256/637749088021621263.png",
             "tags": [],
             "installedFile": {
-                "id": 3935280,
-                "fileName": "taterzens-1.8.5-fabric.jar",
-                "fileDate": "2022-08-15T07:08:56.52Z",
-                "fileLength": 403941,
+                "id": 3817032,
+                "fileName": "taterzens-1.9.6-fabric.jar",
+                "fileDate": "2022-06-04T14:20:11.17Z",
+                "fileLength": 475953,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3935/280/taterzens-1.8.5-fabric.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3817/32/taterzens-1.9.6-fabric.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -18752,7 +18752,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 4037867213,
+                        "fingerprint": 108747688,
                         "invalidFingerprint": false
                     },
                     {
@@ -18772,22 +18772,22 @@
                     },
                     {
                         "foldername": "data",
-                        "fingerprint": 4223205210,
+                        "fingerprint": 2839233835,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "taterzens-common-refmap.json",
-                        "fingerprint": 920353182,
+                        "fingerprint": 2786507204,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3939212892,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "taterzens.mixins.json",
                         "fingerprint": 2618540718,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2357963162,
                         "invalidFingerprint": false
                     },
                     {
@@ -18797,16 +18797,16 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 2702087477,
+                        "fingerprint": 975786560,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "architectury_inject_Taterzens_common_2c7d7bd426864424aabae2c5f63933c2_8b566eef30ead4697714b43f92e8573dcd312627ce3a48e0524a46ef36afdf03taterzens185devjar",
-                        "fingerprint": 609258232,
+                        "foldername": "architectury_inject_Taterzens_common_56663acd2ac5421a9adc708dc945c2c9_79c419857ca48f750657a384d22e96b12b8b308f094c372fd6d0af07abbbcf18taterzens196devjar",
+                        "fingerprint": 1081530324,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3973822262,
+                "packageFingerprint": 971172312,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -18828,13 +18828,20 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 446499,
-                "FileNameOnDisk": "taterzens-1.8.5-fabric.jar",
-                "Hashes": []
+                "FileNameOnDisk": "taterzens-1.9.6-fabric.jar",
+                "Hashes": [
+                    {
+                        "Value": "55e3127177b82dee6629c4bd11006eca0f6e0039"
+                    },
+                    {
+                        "Value": "32da28d2cc60793f9b9f4ab76afecef3"
+                    }
+                ]
             },
-            "dateInstalled": "2022-12-19T19:26:38.6821843Z",
-            "dateUpdated": "2022-12-19T19:26:38.6871703Z",
-            "dateLastUpdateAttempted": "2022-12-19T19:26:38.6871703Z",
-            "status": 4,
+            "dateInstalled": "2022-12-20T04:16:57.8118962Z",
+            "dateUpdated": "2022-12-20T04:16:57.8239003Z",
+            "dateLastUpdateAttempted": "2022-12-20T04:16:57.8239003Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -18937,7 +18944,14 @@
                 "projectStatus": 4,
                 "projectId": 446499,
                 "FileNameOnDisk": "taterzens-1.8.5-fabric.jar",
-                "Hashes": []
+                "Hashes": [
+                    {
+                        "Value": "69df8031dffbed3d9c9e3b30c157fe421c0cb475"
+                    },
+                    {
+                        "Value": "545a40a364243d48191696fcd5896861"
+                    }
+                ]
             }
         },
         {
@@ -23400,14 +23414,7 @@
                 "projectStatus": 4,
                 "projectId": 416796,
                 "FileNameOnDisk": "fancymenu_fabric_2.13.1_MC_1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "95fb57473726737bf680d9a0fd4c09cbe4983635"
-                    },
-                    {
-                        "Value": "af725b599633830c8bb4eb4c1e5e96b0"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-19T18:58:05.3637402Z",
             "dateUpdated": "2022-12-20T04:13:24.7062669Z",
@@ -23508,14 +23515,7 @@
                 "projectStatus": 4,
                 "projectId": 416796,
                 "FileNameOnDisk": "fancymenu_fabric_2.13.1_MC_1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "95fb57473726737bf680d9a0fd4c09cbe4983635"
-                    },
-                    {
-                        "Value": "af725b599633830c8bb4eb4c1e5e96b0"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -43062,188 +43062,6 @@
             }
         },
         {
-            "instanceID": "e89e972c-d9c4-4850-a0ae-e40b53977c43",
-            "modSource": 0,
-            "addonID": 392805,
-            "gameID": 432,
-            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
-            "name": "CleanCut",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Rongmario"
-                }
-            ],
-            "primaryAuthor": "Rongmario",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/cleancut",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/903/256/256/637291097262067429.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3826192,
-                "fileName": "cleancut-1.18.2-5.0-fabric.jar",
-                "fileDate": "2022-06-10T14:06:52.21Z",
-                "fileLength": 47520,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3826/192/cleancut-1.18.2-5.0-fabric.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1855655778,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_cleancut",
-                        "fingerprint": 3917782039,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mixins.cleancut.json",
-                        "fingerprint": 1542679540,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3993893532,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2355747473,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cleancut-refmap.json",
-                        "fingerprint": 3942843188,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "zone",
-                        "fingerprint": 1947201741,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3129191273,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 392805,
-                "FileNameOnDisk": "cleancut-1.18.2-5.0-fabric.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-19T18:54:01.6772762Z",
-            "dateUpdated": "2022-12-19T18:54:01.6932307Z",
-            "dateLastUpdateAttempted": "2022-12-19T18:54:01.6932307Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3826192,
-                "fileName": "cleancut-1.18.2-5.0-fabric.jar",
-                "fileDate": "2022-06-10T14:06:52.21Z",
-                "fileLength": 47520,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3826/192/cleancut-1.18.2-5.0-fabric.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1855655778,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_cleancut",
-                        "fingerprint": 3917782039,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "mixins.cleancut.json",
-                        "fingerprint": 1542679540,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 3993893532,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2355747473,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "cleancut-refmap.json",
-                        "fingerprint": 3942843188,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "zone",
-                        "fingerprint": 1947201741,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3129191273,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 392805,
-                "FileNameOnDisk": "cleancut-1.18.2-5.0-fabric.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "4aa21044-4601-4b05-aa54-d6b314363da1",
             "modSource": 0,
             "addonID": 521126,
@@ -43448,6 +43266,188 @@
             }
         },
         {
+            "instanceID": "e89e972c-d9c4-4850-a0ae-e40b53977c43",
+            "modSource": 0,
+            "addonID": 392805,
+            "gameID": 432,
+            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
+            "name": "CleanCut",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Rongmario"
+                }
+            ],
+            "primaryAuthor": "Rongmario",
+            "primaryCategoryId": 425,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/cleancut",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/903/256/256/637291097262067429.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3826192,
+                "fileName": "cleancut-1.18.2-5.0-fabric.jar",
+                "fileDate": "2022-06-10T14:06:52.21Z",
+                "fileLength": 47520,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3826/192/cleancut-1.18.2-5.0-fabric.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1855655778,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_cleancut",
+                        "fingerprint": 3917782039,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mixins.cleancut.json",
+                        "fingerprint": 1542679540,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3993893532,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2355747473,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "cleancut-refmap.json",
+                        "fingerprint": 3942843188,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "zone",
+                        "fingerprint": 1947201741,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3129191273,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 392805,
+                "FileNameOnDisk": "cleancut-1.18.2-5.0-fabric.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-19T18:54:01.6772762Z",
+            "dateUpdated": "2022-12-19T18:54:01.6932307Z",
+            "dateLastUpdateAttempted": "2022-12-19T18:54:01.6932307Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3826192,
+                "fileName": "cleancut-1.18.2-5.0-fabric.jar",
+                "fileDate": "2022-06-10T14:06:52.21Z",
+                "fileLength": 47520,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3826/192/cleancut-1.18.2-5.0-fabric.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1855655778,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_cleancut",
+                        "fingerprint": 3917782039,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "mixins.cleancut.json",
+                        "fingerprint": 1542679540,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3993893532,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2355747473,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "cleancut-refmap.json",
+                        "fingerprint": 3942843188,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "zone",
+                        "fingerprint": 1947201741,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3129191273,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 392805,
+                "FileNameOnDisk": "cleancut-1.18.2-5.0-fabric.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "12133e7b-eec7-428f-a81d-ddc6820e4bcb",
             "modSource": 0,
             "addonID": 428912,
@@ -43648,234 +43648,6 @@
                 "projectStatus": 4,
                 "projectId": 428912,
                 "FileNameOnDisk": "krypton-0.1.9.jar",
-                "Hashes": []
-            }
-        },
-        {
-            "instanceID": "a5260b88-0c38-4fc1-8cde-1adaf88acf3b",
-            "modSource": 0,
-            "addonID": 410224,
-            "gameID": 432,
-            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
-            "name": "EnvironmentZ",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Globox_Z"
-                }
-            ],
-            "primaryAuthor": "Globox_Z",
-            "primaryCategoryId": 425,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/environmentz",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/381/69/256/256/637563609669980157.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3683638,
-                "fileName": "environmentz-1.2.2.jar",
-                "fileDate": "2022-03-10T10:40:35.043Z",
-                "fileLength": 117054,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3683/638/environmentz-1.2.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 319057,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 410830,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 150834634,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_environmentz",
-                        "fingerprint": 2226923820,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2716854614,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz.mixins.json",
-                        "fingerprint": 1965479638,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz.aw",
-                        "fingerprint": 2225455878,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1829829586,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 268328902,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz-refmap.json",
-                        "fingerprint": 3876694265,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 2501499719,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3010025640,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 410224,
-                "FileNameOnDisk": "environmentz-1.2.2.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-19T18:56:54.5345431Z",
-            "dateUpdated": "2022-12-19T18:56:54.5415259Z",
-            "dateLastUpdateAttempted": "2022-12-19T18:56:54.5415259Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3683638,
-                "fileName": "environmentz-1.2.2.jar",
-                "fileDate": "2022-03-10T10:40:35.043Z",
-                "fileLength": 117054,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3683/638/environmentz-1.2.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 319057,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 410830,
-                        "type": 2
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 150834634,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_environmentz",
-                        "fingerprint": 2226923820,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2716854614,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz.mixins.json",
-                        "fingerprint": 1965479638,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz.aw",
-                        "fingerprint": 2225455878,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 1829829586,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 268328902,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "environmentz-refmap.json",
-                        "fingerprint": 3876694265,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "net",
-                        "fingerprint": 2501499719,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3010025640,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 410224,
-                "FileNameOnDisk": "environmentz-1.2.2.jar",
                 "Hashes": []
             }
         },
@@ -44414,79 +44186,97 @@
             }
         },
         {
-            "instanceID": "cefa6008-f7ec-4e26-80d1-eeb2c764f286",
+            "instanceID": "a5260b88-0c38-4fc1-8cde-1adaf88acf3b",
             "modSource": 0,
-            "addonID": 539382,
+            "addonID": 410224,
             "gameID": 432,
             "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
-            "name": "Iceberg [Fabric]",
+            "name": "EnvironmentZ",
             "modFolderPath": null,
             "authors": [
                 {
-                    "Name": "Grend_G"
+                    "Name": "Globox_Z"
                 }
             ],
-            "primaryAuthor": "Grend_G",
-            "primaryCategoryId": 421,
+            "primaryAuthor": "Globox_Z",
+            "primaryCategoryId": 425,
             "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/447/11/256/256/637705497436248024.png",
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/environmentz",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/381/69/256/256/637563609669980157.png",
             "tags": [],
             "installedFile": {
-                "id": 3675784,
-                "fileName": "Iceberg-1.18.2-fabric-1.0.38.jar",
-                "fileDate": "2022-03-05T22:20:26.403Z",
-                "fileLength": 78177,
+                "id": 3683638,
+                "fileName": "environmentz-1.2.2.jar",
+                "fileDate": "2022-03-10T10:40:35.043Z",
+                "fileLength": 117054,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3675/784/Iceberg-1.18.2-fabric-1.0.38.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3683/638/environmentz-1.2.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
-                "dependencies": [],
+                "dependencies": [
+                    {
+                        "addonId": 319057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 410830,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 4133735450,
+                        "fingerprint": 150834634,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "LICENSE_Iceberg-1.18.2-fabric",
-                        "fingerprint": 206448344,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 577472019,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "iceberg.mixins.json",
-                        "fingerprint": 2829023194,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "iceberg.accesswidener",
-                        "fingerprint": 1967619658,
+                        "foldername": "LICENSE_environmentz",
+                        "fingerprint": 2226923820,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3755986291,
+                        "fingerprint": 2716854614,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "Iceberg-1.18.2-fabric-refmap.json",
-                        "fingerprint": 3379227715,
+                        "foldername": "environmentz.mixins.json",
+                        "fingerprint": 1965479638,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "com",
-                        "fingerprint": 1175877441,
+                        "foldername": "environmentz.aw",
+                        "fingerprint": 2225455878,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1829829586,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 268328902,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "environmentz-refmap.json",
+                        "fingerprint": 3876694265,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 2501499719,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 67384659,
+                "packageFingerprint": 3010025640,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -44507,13 +44297,13 @@
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 539382,
-                "FileNameOnDisk": "Iceberg-1.18.2-fabric-1.0.38.jar",
+                "projectId": 410224,
+                "FileNameOnDisk": "environmentz-1.2.2.jar",
                 "Hashes": []
             },
-            "dateInstalled": "2022-12-19T18:49:30.3172548Z",
-            "dateUpdated": "2022-12-19T18:49:30.3262308Z",
-            "dateLastUpdateAttempted": "2022-12-19T18:49:30.3262308Z",
+            "dateInstalled": "2022-12-19T18:56:54.5345431Z",
+            "dateUpdated": "2022-12-19T18:56:54.5415259Z",
+            "dateLastUpdateAttempted": "2022-12-19T18:56:54.5415259Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -44526,60 +44316,78 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 3675784,
-                "fileName": "Iceberg-1.18.2-fabric-1.0.38.jar",
-                "fileDate": "2022-03-05T22:20:26.403Z",
-                "fileLength": 78177,
+                "id": 3683638,
+                "fileName": "environmentz-1.2.2.jar",
+                "fileDate": "2022-03-10T10:40:35.043Z",
+                "fileLength": 117054,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3675/784/Iceberg-1.18.2-fabric-1.0.38.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3683/638/environmentz-1.2.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
-                "dependencies": [],
+                "dependencies": [
+                    {
+                        "addonId": 319057,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 410830,
+                        "type": 2
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
                 "isAvailable": true,
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 4133735450,
+                        "fingerprint": 150834634,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "LICENSE_Iceberg-1.18.2-fabric",
-                        "fingerprint": 206448344,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 577472019,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "iceberg.mixins.json",
-                        "fingerprint": 2829023194,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "iceberg.accesswidener",
-                        "fingerprint": 1967619658,
+                        "foldername": "LICENSE_environmentz",
+                        "fingerprint": 2226923820,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 3755986291,
+                        "fingerprint": 2716854614,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "Iceberg-1.18.2-fabric-refmap.json",
-                        "fingerprint": 3379227715,
+                        "foldername": "environmentz.mixins.json",
+                        "fingerprint": 1965479638,
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "com",
-                        "fingerprint": 1175877441,
+                        "foldername": "environmentz.aw",
+                        "fingerprint": 2225455878,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 1829829586,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 268328902,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "environmentz-refmap.json",
+                        "fingerprint": 3876694265,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "net",
+                        "fingerprint": 2501499719,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 67384659,
+                "packageFingerprint": 3010025640,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -44600,8 +44408,8 @@
                 "isCompatibleWithClient": false,
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
-                "projectId": 539382,
-                "FileNameOnDisk": "Iceberg-1.18.2-fabric-1.0.38.jar",
+                "projectId": 410224,
+                "FileNameOnDisk": "environmentz-1.2.2.jar",
                 "Hashes": []
             }
         },
@@ -44794,6 +44602,198 @@
                 "projectStatus": 4,
                 "projectId": 566397,
                 "FileNameOnDisk": "squirtingsyringe-0.8.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "cefa6008-f7ec-4e26-80d1-eeb2c764f286",
+            "modSource": 0,
+            "addonID": 539382,
+            "gameID": 432,
+            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
+            "name": "Iceberg [Fabric]",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Grend_G"
+                }
+            ],
+            "primaryAuthor": "Grend_G",
+            "primaryCategoryId": 421,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/447/11/256/256/637705497436248024.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3675784,
+                "fileName": "Iceberg-1.18.2-fabric-1.0.38.jar",
+                "fileDate": "2022-03-05T22:20:26.403Z",
+                "fileLength": 78177,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3675/784/Iceberg-1.18.2-fabric-1.0.38.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4133735450,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_Iceberg-1.18.2-fabric",
+                        "fingerprint": 206448344,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 577472019,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "iceberg.mixins.json",
+                        "fingerprint": 2829023194,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "iceberg.accesswidener",
+                        "fingerprint": 1967619658,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3755986291,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Iceberg-1.18.2-fabric-refmap.json",
+                        "fingerprint": 3379227715,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 1175877441,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 67384659,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 539382,
+                "FileNameOnDisk": "Iceberg-1.18.2-fabric-1.0.38.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-19T18:49:30.3172548Z",
+            "dateUpdated": "2022-12-19T18:49:30.3262308Z",
+            "dateLastUpdateAttempted": "2022-12-19T18:49:30.3262308Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3675784,
+                "fileName": "Iceberg-1.18.2-fabric-1.0.38.jar",
+                "fileDate": "2022-03-05T22:20:26.403Z",
+                "fileLength": 78177,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3675/784/Iceberg-1.18.2-fabric-1.0.38.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 4133735450,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_Iceberg-1.18.2-fabric",
+                        "fingerprint": 206448344,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "icon.png",
+                        "fingerprint": 577472019,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "iceberg.mixins.json",
+                        "fingerprint": 2829023194,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "iceberg.accesswidener",
+                        "fingerprint": 1967619658,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 3755986291,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "Iceberg-1.18.2-fabric-refmap.json",
+                        "fingerprint": 3379227715,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "com",
+                        "fingerprint": 1175877441,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 67384659,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 539382,
+                "FileNameOnDisk": "Iceberg-1.18.2-fabric-1.0.38.jar",
                 "Hashes": []
             }
         },
@@ -45891,222 +45891,6 @@
             }
         },
         {
-            "instanceID": "75237487-5aab-4ae7-9b7e-c13022a68e5a",
-            "modSource": 0,
-            "addonID": 656526,
-            "gameID": 432,
-            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
-            "name": "Revelationary",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "DaFuqsy"
-                }
-            ],
-            "primaryAuthor": "DaFuqsy",
-            "primaryCategoryId": 421,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/revelationary",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/586/92/256/256/637953846591897164.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4165240,
-                "fileName": "revelationary-1.1.0.jar",
-                "fileDate": "2022-12-11T18:36:47.837Z",
-                "fileLength": 129531,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4165/240/revelationary-1.1.0.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3129364826,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE.md_revelationary",
-                        "fingerprint": 2436413169,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "revelationary.mixins.json",
-                        "fingerprint": 2580591146,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 35387411,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1177090753,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "revelationary-refmap.json",
-                        "fingerprint": 1960176402,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "de",
-                        "fingerprint": 1922861402,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 739131693,
-                "gameVersion": [
-                    "Fabric",
-                    "Client",
-                    "1.18.2",
-                    "Server"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Client",
-                        "gameVersionTypeId": 75208
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Server",
-                        "gameVersionTypeId": 75208
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 656526,
-                "FileNameOnDisk": "revelationary-1.1.0.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2022-12-19T19:22:37.0902139Z",
-            "dateUpdated": "2022-12-19T19:22:37.0932037Z",
-            "dateLastUpdateAttempted": "2022-12-19T19:22:37.0932037Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4165240,
-                "fileName": "revelationary-1.1.0.jar",
-                "fileDate": "2022-12-11T18:36:47.837Z",
-                "fileLength": 129531,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4165/240/revelationary-1.1.0.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3129364826,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE.md_revelationary",
-                        "fingerprint": 2436413169,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "revelationary.mixins.json",
-                        "fingerprint": 2580591146,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 35387411,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 1177090753,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "revelationary-refmap.json",
-                        "fingerprint": 1960176402,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "de",
-                        "fingerprint": 1922861402,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 739131693,
-                "gameVersion": [
-                    "Fabric",
-                    "Client",
-                    "1.18.2",
-                    "Server"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Client",
-                        "gameVersionTypeId": 75208
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Server",
-                        "gameVersionTypeId": 75208
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 656526,
-                "FileNameOnDisk": "revelationary-1.1.0.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "4c97fb77-1c58-48a4-89cc-6ea9af1e1257",
             "modSource": 0,
             "addonID": 654384,
@@ -46339,6 +46123,222 @@
                 "projectStatus": 4,
                 "projectId": 654384,
                 "FileNameOnDisk": "eureka-1.1.0-beta2+59792d77ff.jar",
+                "Hashes": []
+            }
+        },
+        {
+            "instanceID": "75237487-5aab-4ae7-9b7e-c13022a68e5a",
+            "modSource": 0,
+            "addonID": 656526,
+            "gameID": 432,
+            "gameInstanceID": "938b40c4-8929-40db-b729-8ed33140026e",
+            "name": "Revelationary",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "DaFuqsy"
+                }
+            ],
+            "primaryAuthor": "DaFuqsy",
+            "primaryCategoryId": 421,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/revelationary",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/586/92/256/256/637953846591897164.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4165240,
+                "fileName": "revelationary-1.1.0.jar",
+                "fileDate": "2022-12-11T18:36:47.837Z",
+                "fileLength": 129531,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4165/240/revelationary-1.1.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3129364826,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE.md_revelationary",
+                        "fingerprint": 2436413169,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "revelationary.mixins.json",
+                        "fingerprint": 2580591146,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 35387411,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1177090753,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "revelationary-refmap.json",
+                        "fingerprint": 1960176402,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "de",
+                        "fingerprint": 1922861402,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 739131693,
+                "gameVersion": [
+                    "Fabric",
+                    "Client",
+                    "1.18.2",
+                    "Server"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Client",
+                        "gameVersionTypeId": 75208
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Server",
+                        "gameVersionTypeId": 75208
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 656526,
+                "FileNameOnDisk": "revelationary-1.1.0.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2022-12-19T19:22:37.0902139Z",
+            "dateUpdated": "2022-12-19T19:22:37.0932037Z",
+            "dateLastUpdateAttempted": "2022-12-19T19:22:37.0932037Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4165240,
+                "fileName": "revelationary-1.1.0.jar",
+                "fileDate": "2022-12-11T18:36:47.837Z",
+                "fileLength": 129531,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4165/240/revelationary-1.1.0.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3129364826,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE.md_revelationary",
+                        "fingerprint": 2436413169,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "revelationary.mixins.json",
+                        "fingerprint": 2580591146,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 35387411,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 1177090753,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "revelationary-refmap.json",
+                        "fingerprint": 1960176402,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "de",
+                        "fingerprint": 1922861402,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 739131693,
+                "gameVersion": [
+                    "Fabric",
+                    "Client",
+                    "1.18.2",
+                    "Server"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Client",
+                        "gameVersionTypeId": 75208
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    },
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Server",
+                        "gameVersionTypeId": 75208
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 656526,
+                "FileNameOnDisk": "revelationary-1.1.0.jar",
                 "Hashes": []
             }
         },
@@ -47783,14 +47783,7 @@
                 "projectStatus": 4,
                 "projectId": 550916,
                 "FileNameOnDisk": "tradernpcs-1.1.1-fabric.jar",
-                "Hashes": [
-                    {
-                        "Value": "2140dae7985a61589c6b5f18f3bdbbafbd39f0e8"
-                    },
-                    {
-                        "Value": "55637d7cf2a251748722bde509ca74dc"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2022-12-20T04:13:33.1258174Z",
             "dateUpdated": "2022-12-20T04:13:33.2564682Z",
@@ -47878,14 +47871,7 @@
                 "projectStatus": 4,
                 "projectId": 550916,
                 "FileNameOnDisk": "tradernpcs-1.1.1-fabric.jar",
-                "Hashes": [
-                    {
-                        "Value": "2140dae7985a61589c6b5f18f3bdbbafbd39f0e8"
-                    },
-                    {
-                        "Value": "55637d7cf2a251748722bde509ca74dc"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
