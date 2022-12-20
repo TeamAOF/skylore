@@ -934,6 +934,16 @@
                                                   }
                             },
                             {
+                                "addonID":  474114,
+                                "name":  "Huge Structure Blocks [Fabric \u0026 Forge]",
+                                "installedFile":  {
+                                                      "id":  3647042,
+                                                      "fileName":  "huge-structure-blocks-1.0.4.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3647/42/huge-structure-blocks-1.0.4.jar",
+                                                      "FileNameOnDisk":  "huge-structure-blocks-1.0.4.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  539382,
                                 "name":  "Iceberg [Fabric]",
                                 "installedFile":  {
@@ -1111,16 +1121,6 @@
                                                       "fileName":  "light-overlay-6.1.0-fabric.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3668/242/light-overlay-6.1.0-fabric.jar",
                                                       "FileNameOnDisk":  "light-overlay-6.1.0-fabric.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  713953,
-                                "name":  "Limitless Structure Block",
-                                "installedFile":  {
-                                                      "id":  4117901,
-                                                      "fileName":  "limitlessstructure-1.0-SNAPSHOT.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4117/901/limitlessstructure-1.0-SNAPSHOT.jar",
-                                                      "FileNameOnDisk":  "limitlessstructure-1.0-SNAPSHOT.jar"
                                                   }
                             },
                             {
