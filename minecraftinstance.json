@@ -555,7 +555,7 @@
                             },
                             {
                                 "addonID":  556381,
-                                "name":  "Effective 💦",
+                                "name":  "Effective ðŸ’¦",
                                 "installedFile":  {
                                                       "id":  3735277,
                                                       "fileName":  "effective-1.2.1.jar",
@@ -1015,7 +1015,7 @@
                             },
                             {
                                 "addonID":  324717,
-                                "name":  "Jade 🔍",
+                                "name":  "Jade ðŸ”",
                                 "installedFile":  {
                                                       "id":  4160646,
                                                       "fileName":  "Jade-1.18.2-fabric-5.99.10.jar",
@@ -1324,6 +1324,16 @@
                                                   }
                             },
                             {
+                                "addonID":  60089,
+                                "name":  "Mouse Tweaks",
+                                "installedFile":  {
+                                                      "id":  3601896,
+                                                      "fileName":  "MouseTweaks-fabric-mc1.18-2.22.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3601/896/MouseTweaks-fabric-mc1.18-2.22.jar",
+                                                      "FileNameOnDisk":  "MouseTweaks-fabric-mc1.18-2.22.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  410127,
                                 "name":  "Mythic Metals",
                                 "installedFile":  {
@@ -1434,6 +1444,16 @@
                                                   }
                             },
                             {
+                                "addonID":  532610,
+                                "name":  "oÏ‰o (owo-lib)",
+                                "installedFile":  {
+                                                      "id":  3824297,
+                                                      "fileName":  "owo-lib-0.7.2-no-cme+1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3824/297/owo-lib-0.7.2-no-cme+1.18.jar",
+                                                      "FileNameOnDisk":  "owo-lib-0.7.2-no-cme+1.18.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  391943,
                                 "name":  "Origins (Fabric)",
                                 "installedFile":  {
@@ -1441,16 +1461,6 @@
                                                       "fileName":  "Origins-1.18.2-1.4.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3752/286/Origins-1.18.2-1.4.1.jar",
                                                       "FileNameOnDisk":  "Origins-1.18.2-1.4.1.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  532610,
-                                "name":  "oωo (owo-lib)",
-                                "installedFile":  {
-                                                      "id":  3824297,
-                                                      "fileName":  "owo-lib-0.7.2-no-cme+1.18.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3824/297/owo-lib-0.7.2-no-cme+1.18.jar",
-                                                      "FileNameOnDisk":  "owo-lib-0.7.2-no-cme+1.18.jar"
                                                   }
                             },
                             {
@@ -2091,26 +2101,6 @@
                                                       "fileName":  "wirelessnetworks-1.5.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3759/595/wirelessnetworks-1.5.1.jar",
                                                       "FileNameOnDisk":  "wirelessnetworks-1.5.1.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  225608,
-                                "name":  "WorldEdit",
-                                "installedFile":  {
-                                                      "id":  3697298,
-                                                      "fileName":  "worldedit-mod-7.2.10.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
-                                                      "FileNameOnDisk":  "worldedit-mod-7.2.10.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  402098,
-                                "name":  "WorldEdit CUI (Fabric)",
-                                "installedFile":  {
-                                                      "id":  3687499,
-                                                      "fileName":  "WorldEditCUI-1.18.2+01.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                                                      "FileNameOnDisk":  "WorldEditCUI-1.18.2+01.jar"
                                                   }
                             },
                             {
