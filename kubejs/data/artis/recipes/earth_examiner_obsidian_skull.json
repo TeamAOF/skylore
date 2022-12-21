@@ -1,0 +1,31 @@
+{
+   "type": "artis:earth_examiner_shaped",
+   "pattern": [
+    "12345"
+  ],
+   "key": {
+"1":{
+       "item": "minecraft:dirt"
+     },
+"2":{
+       "item": "valley:volcanic_stone"
+     },
+"3":{
+       "item": "minecraft:sand"
+     },
+"4":{
+       "item": "minecraft:obsidian"
+     },
+"5":{
+       "item": "blockus:limestone"
+     }
+    },
+   "result": {
+     "item": "artifacts:obsidian_skull",
+     "count": 1
+   },
+      "catalyst": {
+     "item": "minecraft:diamond_pickaxe"
+   },
+   "cost": 1561
+}
