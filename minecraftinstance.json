@@ -1484,6 +1484,16 @@
                                                   }
                             },
                             {
+                                "addonID":  623883,
+                                "name":  "Phantom Config",
+                                "installedFile":  {
+                                                      "id":  3793253,
+                                                      "fileName":  "phantomconfig-1.0.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3793/253/phantomconfig-1.0.0.jar",
+                                                      "FileNameOnDisk":  "phantomconfig-1.0.0.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  396234,
                                 "name":  "Pig Pen Cipher",
                                 "installedFile":  {
