@@ -20,6 +20,9 @@ onEvent('gamephases.initialize', event => {
         
     event.phase('security')
         .item('artis:security_panel')
+		
+	event.phase('earthex')
+		.item('artis:earth_examiner')
 });
 // Mega Table
 onEvent('gamephases.initialize', event => {
