@@ -14,9 +14,10 @@ if ($githubSync) {
     $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
     if (Test-Path -Path $PSSCriptRoot\.git) {
-        git reset --hard
+        git stash create
         git pull
         git switch $branch
+        git stash drop
         java -jar $PSSCriptRoot\InstanceSync.jar
         Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
         Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
@@ -26,9 +27,10 @@ if ($githubSync) {
         Move-Item $PSSCriptRoot\modpack\* $PSSCriptRoot
         Move-Item $PSSCriptRoot\modpack\.git $PSSCriptRoot
         Remove-Item $PSSCriptRoot\modpack -Recurse
-        git reset --hard
+        git stash create
         git pull
         git switch $branch
+        git stash drop
         java -jar $PSSCriptRoot\InstanceSync.jar
         Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
         Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods

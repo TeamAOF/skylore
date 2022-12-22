@@ -16,9 +16,10 @@ then
 
   if [ -d $scriptDir/.git ]
   then
-    git reset --hard
+    git stash create
     git pull
     git switch "$branch"
+    git stash drop
     java -jar $scriptDir/InstanceSync.jar
     cp -a $scriptDir/offlineMods/. $scriptDir/mods
     cp -a $scriptDir/localMods/. $scriptDir/mods
@@ -26,9 +27,10 @@ then
     git clone "$url" $scriptDir/modpack
     cp -a $scriptDir/modpack/. $scriptDir
     rm -r -f $scriptDir/modpack
-    git reset --hard
+    git stash create
     git pull
     git checkout "$branch"
+    git stash drop
     java -jar $scriptDir/InstanceSync.jar
     cp -a $scriptDir/localMods/. $scriptDir/mods
     cp -a $scriptDir/offlineMods/. $scriptDir/mods
