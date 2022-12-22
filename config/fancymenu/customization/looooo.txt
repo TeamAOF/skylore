@@ -1,0 +1,40 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_412
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/solidbg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  orientation = bottom-centered
+  name = hexy
+  x = -59
+  width = 118
+  actionid = c2679c90-36ce-4688-89cc-bd6c3872c8cc1662045835570
+  action = addanimation
+  y = -100
+  height = 100
+}
+

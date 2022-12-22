@@ -1,0 +1,12 @@
+{
+  "resetOnDeath": true,
+  "disableAttributesGui": false,
+  "showLevelNameplates": true,
+  "skillPointsPerLevelUp": 1,
+  "levelFormula": "stairs(x,0.15,2,25,10,22)",
+  "levelUpVolume": 100,
+  "skillUpVolume": 100,
+  "textScaleX": 50,
+  "textScaleY": 50,
+  "tooltip": "PLAYEREX"
+}

@@ -1,0 +1,12 @@
+{
+	id: "465219F4CE1B0CDA"
+	order_index: 19
+	title: "basics choice"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:iron_block", count: 12 }
+		{ item: "minecraft:copper_block", count: 24 }
+		{ item: "minecraft:gold_block", count: 6 }
+		{ item: "minecraft:diamond_block" }
+	]
+}

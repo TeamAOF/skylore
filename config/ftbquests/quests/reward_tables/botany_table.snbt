@@ -1,0 +1,7 @@
+{
+	id: "0A0D306A66D8DE0D"
+	order_index: 4
+	title: "Botany table"
+	loot_size: 1
+	rewards: [{ item: "artis:botanist_bench" }]
+}

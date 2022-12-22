@@ -1,0 +1,7 @@
+{
+	id: "6C0BC9B717633B2D"
+	order_index: 9
+	title: "earth examiner"
+	loot_size: 1
+	rewards: [{ item: "artis:earth_examiner" }]
+}

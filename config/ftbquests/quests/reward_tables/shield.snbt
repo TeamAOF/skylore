@@ -1,0 +1,15 @@
+{
+	id: "48DDF542E5EE7FBD"
+	order_index: 37
+	title: "shield"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "gateofbabylon:iron_shield"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

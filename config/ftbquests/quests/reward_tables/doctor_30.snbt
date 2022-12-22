@@ -1,0 +1,35 @@
+{
+	id: "66AD6A079A62F1FB"
+	order_index: 28
+	title: "doctor 30"
+	loot_size: 10
+	rewards: [
+		{
+			item: {
+				id: "squirtingsyringe:mining_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "squirtingsyringe:heal_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "squirtingsyringe:falling_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

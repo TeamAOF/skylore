@@ -1,0 +1,330 @@
+{
+	id: "598F83C805BC2AD9"
+	group: "38D73AD51340A19B"
+	order_index: 0
+	filename: "captain"
+	title: "Captain"
+	icon: "kubejs:captain"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -13.0d
+		y: -4.0d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/captaindesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			icon: "kubejs:captain"
+			disable_toast: true
+			x: -1.5d
+			y: -5.0d
+			id: "7203022EBB0D10CA"
+			tasks: [{
+				id: "4C029D8730CA75FE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "54973C50C0DB67A3"
+				type: "command"
+				title: "Gain Ops Panel Access"
+				icon: "artis:ops_panel"
+				command: "/phase grant @p ops"
+				player_command: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "35D5CCA215D03111"
+			tasks: [{
+				id: "490D1F34FC8C5263"
+				type: "advancement"
+				advancement: "moreachievements:saveyourdogfromarrow"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "54587D42DD081F2F"
+					type: "item"
+					item: "farmersdelight:roast_chicken_block"
+				}
+				{
+					id: "70EA74652ADCAF9F"
+					type: "item"
+					item: "croptopia:lemon_chicken"
+				}
+				{
+					id: "6A6AA8B8AC0BF9A8"
+					type: "item"
+					item: "valley:chicken_curry"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "02115E112F21CADA"
+			tasks: [{
+				id: "1F4A8E2D7D8F15F2"
+				type: "advancement"
+				advancement: "moreachievements:painful_fight"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "2829AC706C0C87F2"
+			tasks: [{
+				id: "787C7082F1B5BB13"
+				type: "advancement"
+				advancement: "moreachievements:bad_dreams"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "6D350D870FCA445B"
+			tasks: [{
+				id: "7331F7518CCA5269"
+				type: "advancement"
+				advancement: "moreachievements:now_what"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "1C6DC6600AEA6782"
+			tasks: [{
+				id: "36587DC20656EE36"
+				type: "advancement"
+				advancement: "moreachievements:burninhell"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "0EAA69C0F9A3660B"
+			tasks: [{
+				id: "0051DB1263AACA89"
+				type: "advancement"
+				advancement: "moreachievements:exp"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "2870E04277284B42"
+			tasks: [{
+				id: "17C5BD6688C3C366"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "052CC4BE30F1DE14"
+			tasks: [{
+				id: "1CA3B71871981FB8"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "592DFF68D94E3C3E"
+			tasks: [{
+				id: "7A1F1AE8FFD21AF7"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "19DD171BEC1B4596"
+			tasks: [{
+				id: "60673BF98B004CE6"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "76C89D85893A55C2"
+			tasks: [{
+				id: "392D4882A208527C"
+				type: "item"
+				item: "ae2:charger"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "3EB06FB739309394"
+			tasks: [{
+				id: "5FF58AD53F81D69C"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "6A5E8E4670C03392"
+			tasks: [{
+				id: "68AE1BFC12221DCA"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "690C5F6CE12899AB"
+			tasks: [{
+				id: "764155D61EBB9096"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "431AEE657D830572"
+			tasks: [{
+				id: "02D6234E4CF73ED2"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "33DA86D75577CA6C"
+			tasks: [{
+				id: "0C833135E5FE1A49"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "1C46DC2829BD8400"
+			tasks: [{
+				id: "0DCF5DDAD39CA675"
+				type: "item"
+				item: "ae2:interface"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			dependencies: ["7203022EBB0D10CA"]
+			id: "5E14870E38C56A45"
+			tasks: [{
+				id: "540EB3D38CD3D8B2"
+				type: "checkmark"
+				title: "Challenges"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "For a captain to succeed. There must be preparation."
+			description: [
+				""
+				"In order to do advanced logistics, a captain mush obtain all the presses."
+			]
+			dependencies: ["7203022EBB0D10CA"]
+			id: "52CE677200EBA77A"
+			tasks: [{
+				id: "20EB8D614539B38F"
+				type: "checkmark"
+				title: "Logistics"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "15CF52FB997DE067"
+			tasks: [{
+				id: "12AE544EBABAC09E"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			title: "Fluix unlock"
+			icon: "ae2:fluix_crystal_seed"
+			x: 7.5d
+			y: -5.0d
+			dependencies: [
+				"052CC4BE30F1DE14"
+				"2870E04277284B42"
+				"592DFF68D94E3C3E"
+				"19DD171BEC1B4596"
+			]
+			id: "016271CE91A69F28"
+			rewards: [{
+				id: "1853D22D043A16E5"
+				type: "command"
+				title: "Fluix Unlock"
+				icon: "ae2:fluix_crystal_seed"
+				command: "/phase grant @p fluix"
+				player_command: false
+			}]
+		}
+		{
+			title: "Sacrifice to find"
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "3D28B79870D31477"
+			tasks: [{
+				id: "46C65416BA2D17AA"
+				type: "xp"
+				value: 2L
+				points: false
+			}]
+			rewards: [{
+				id: "20AA40AFC922AE04"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+	]
+}

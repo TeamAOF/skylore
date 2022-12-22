@@ -1,0 +1,31 @@
+[skylore_mcdazing]
+	[skylore_mcdazing.trigger]
+		name = "menu"
+
+[skylore_beyond_the_sky]
+	[skylore_beyond_the_sky.trigger]
+		name = "riding"
+
+[skylore_ambient1]
+	play_once = "2"
+	chance = "10"
+	volume = "0.3"
+	[skylore_ambient1.trigger]
+		name = "raining"
+		fade_in = "4"
+		fade_out = "4"
+
+[the_darkness]
+	play_once = "1"
+	must_finish = "true"
+	volume = ".2"
+	[the_darkness.trigger]
+		name = "dead"
+
+[spoopy]
+	play_once = "1"
+	volume = ".1"
+	[spoopy.trigger]
+		name = "structure"
+		resource_name = "graveyard:large_graveyard"
+

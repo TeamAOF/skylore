@@ -1,0 +1,31 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_424
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/solidbg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  name = hexy
+  x = -59
+  width = 118
+  actionid = 5f4c3042-bc07-4a60-9a72-c468ec5395aa1662045718204
+  action = addanimation
+  y = -100
+  height = 100
+}
+

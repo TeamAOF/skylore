@@ -1,0 +1,195 @@
+{
+	id: "0812496B1D13CA49"
+	group: ""
+	order_index: 1
+	filename: "mim"
+	title: "MIM"
+	icon: {
+		id: "numismatic-overhaul:gold_coin"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 23.5d
+			y: -15.5d
+			description: [
+				"Company behind Modern Industrialization machines is “Meta Industries”."
+				""
+				"Due to their claims of a new life, their hiring campaign was one of the most successful after creating a VR drone game that allowed 5 year olds to mine asteroids for \"coins\" this was further brought into the the real world when they convinced the world through misinformation that \"coin\" culture was the future."
+				""
+				"This convinced the galaxy, along with genetic modification, was the future and every citizen was implanted with a connection to the “Meta Industries Market” or MIM. Albeit this implant can track your location to the nearest millimeter, strict galactic law prohibits MI from sharing this information except to the drones that drop the supplies."
+			]
+			id: "4F4F36A8F18CAE0A"
+			tasks: [{
+				id: "724F15998BA1EBD1"
+				type: "checkmark"
+				title: "Meta Industries Market"
+			}]
+			rewards: [{
+				id: "75F87F55D0036321"
+				type: "custom"
+				title: "A Galactic Market"
+				icon: "blockus:stars_block"
+				auto: "disabled"
+			}]
+		}
+		{
+			title: "Steak Sandwhich"
+			icon: "valley:steak_sandwich"
+			disable_toast: true
+			x: 25.5d
+			y: -16.0d
+			id: "61FD7464336B1D37"
+			tasks: [{
+				id: "757A0C9DADF6485C"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "28B6E5FB85CA9993"
+				type: "questsadditions:repeat"
+				table_id: 9165758987583298493L
+			}]
+		}
+		{
+			title: "Fish Taco"
+			icon: "tacocraft:fish_taco"
+			x: 25.5d
+			y: -17.0d
+			id: "43DB2EED9B29DEBA"
+			tasks: [{
+				id: "6EE4CC39C65C9A2C"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6260A5C82B2A658E"
+				type: "questsadditions:repeat"
+				table_id: 310880292066309209L
+			}]
+		}
+		{
+			title: "Crystal Heart"
+			icon: "artifacts:crystal_heart"
+			x: 25.5d
+			y: -14.0d
+			id: "425E331ED256A8DA"
+			tasks: [{
+				id: "56ED624245A83D29"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57FDB543DDEE863B"
+				type: "questsadditions:repeat"
+				table_id: 1389679842562604627L
+			}]
+		}
+		{
+			x: 25.5d
+			y: -15.0d
+			id: "6A4EEC3E09A4BBA8"
+		}
+		{
+			title: "Stack of Gold ore"
+			icon: "minecraft:gold_ore"
+			x: 25.5d
+			y: -13.0d
+			id: "326FCFBC80BEAD3F"
+			tasks: [{
+				id: "1439ABD34FB496A5"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2FD34865AE434FD9"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 9153070378263382799L
+			}]
+		}
+		{
+			title: "Stack of Copper ore"
+			icon: "minecraft:copper_ore"
+			x: 25.5d
+			y: -12.0d
+			id: "137171932C16B644"
+			tasks: [{
+				id: "246CD16D3CE5BAE1"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2510A743AFA2FE14"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 2364024109116540212L
+			}]
+		}
+		{
+			title: "Stack of Iron ore"
+			icon: "minecraft:iron_ore"
+			x: 25.5d
+			y: -11.0d
+			id: "624B7A2BC6F8EC86"
+			tasks: [{
+				id: "2DB968C40FD7D791"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0A24A636CD16DE08"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 283787458928034777L
+			}]
+		}
+		{
+			x: 25.5d
+			y: -10.0d
+			id: "0E880BC1D03B5173"
+			tasks: [{
+				id: "6554848DB895A4AF"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

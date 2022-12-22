@@ -1,0 +1,670 @@
+{
+	id: "138F7656285D784D"
+	group: "4E03E5FEAE87C266"
+	order_index: 1
+	filename: "gear_up"
+	title: "Bonuses"
+	icon: {
+		id: "minecraft:iron_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "[Beryl] Present your wand."
+			icon: "minecraft:amethyst_shard"
+			x: -10.5d
+			y: -8.5d
+			shape: "circle"
+			subtitle: "Present your wand and you shall receive some basic spells."
+			id: "03E7C856930A9081"
+			tasks: [
+				{
+					id: "1264BF68CC9FC1F4"
+					type: "advancement"
+					icon: "minecraft:amethyst_shard"
+					disable_toast: true
+					advancement: "beryl:choose_beryl"
+					criterion: ""
+				}
+				{
+					id: "4784A19ACFF30DA7"
+					type: "advancement"
+					advancement: "hexcasting:root"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "[Enoki] To help others"
+			icon: "magicfungi:clypeus_mushroom"
+			x: -11.5d
+			y: -4.0d
+			shape: "circle"
+			subtitle: "Mushrooms hold magical properties. It is important that you find one to help others."
+			description: ["Enoki and Tenebris will only have the ability to make a potion one time with some xp."]
+			id: "6F513E191AE6FB0F"
+			tasks: [{
+				id: "2C7551DCAB6B2CB9"
+				type: "advancement"
+				disable_toast: true
+				advancement: "enoki:choose_enoki"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Potion of healing"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+			x: -11.5d
+			y: -3.0d
+			subtitle: "One time potion"
+			dependencies: ["6F513E191AE6FB0F"]
+			id: "6FF039321BA74340"
+			tasks: [{
+				id: "452D70D3A9BE1415"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "1E40A9AD97AB2DA7"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Potion of Health"
+			icon: "relicex:large_health_potion"
+			x: -11.5d
+			y: -2.0d
+			subtitle: "A glass of this will keep the doctor at bay."
+			description: ["perks of being a fun guy"]
+			dependencies: ["6FF039321BA74340"]
+			id: "2A297308A0FA8EFF"
+			tasks: [{
+				id: "6B32E47E3B5AD9C7"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "7827C09B93751D05"
+				type: "item"
+				item: "relicex:large_health_potion"
+				count: 5
+			}]
+		}
+		{
+			title: "Alchemy Prowess"
+			icon: "magicfungi:vivifica_elixir"
+			x: -11.5d
+			y: -1.0d
+			subtitle: "one time potion"
+			dependencies: ["2A297308A0FA8EFF"]
+			id: "0CC1818150784201"
+			tasks: [{
+				id: "5E16FD78ED41800E"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "3592F380838A1328"
+				type: "item"
+				item: "magicfungi:vivifica_elixir"
+			}]
+		}
+		{
+			title: "Acacia Staff"
+			icon: "hexcasting:wand_acacia"
+			x: -10.5d
+			y: -10.5d
+			dependencies: ["277EC6F0C6EB3475"]
+			id: "12983B48A6FAD96B"
+			tasks: [{
+				id: "79B870F89638E61B"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "3BF3A303D50AA786"
+				type: "item"
+				item: "hexcasting:wand_acacia"
+			}]
+		}
+		{
+			title: "Magical Arcane Barrier"
+			icon: "minecraft:written_book"
+			x: -10.5d
+			y: -11.5d
+			dependencies: ["12983B48A6FAD96B"]
+			id: "15D6C435069720B7"
+			tasks: [{
+				id: "00EBE7DCDEC5F541"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "3644B031649AB7EE"
+				type: "item"
+				item: "hexcasting:wand_warped"
+			}]
+		}
+		{
+			title: "Oak Staff"
+			icon: "hexcasting:wand_oak"
+			x: -10.5d
+			y: -9.5d
+			dependencies: ["03E7C856930A9081"]
+			id: "277EC6F0C6EB3475"
+			tasks: [{
+				id: "3E398A3F76E91A49"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "43EF62146D6D4D84"
+				type: "item"
+				item: "hexcasting:wand_oak"
+			}]
+		}
+		{
+			title: "[Tenebris] Dominate"
+			icon: "magicfungi:morbus_mushroom"
+			x: -9.5d
+			y: -4.0d
+			shape: "circle"
+			subtitle: "In order to dominate, it is important to secure a brown mushroom."
+			id: "7C09AE12AE955A3E"
+			tasks: [{
+				id: "74559588E0756EDD"
+				type: "advancement"
+				advancement: "dina:choose_tenebris"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Species Bonuses"
+			x: -10.5d
+			y: -6.5d
+			shape: "rsquare"
+			id: "062A4563A913C586"
+			tasks: [{
+				id: "77EB5890C66DA2AE"
+				type: "checkmark"
+				title: "Skylore"
+			}]
+		}
+		{
+			title: "[Automaton] 01101000 01100101 01101100 01110000."
+			icon: "minecraft:redstone_block"
+			x: -7.5d
+			y: -3.5d
+			id: "76B2AC9E6FF86CCA"
+			tasks: [{
+				id: "1D032411F01C2E03"
+				type: "advancement"
+				title: "[Automaton]"
+				icon: "minecraft:redstone_block"
+				disable_toast: true
+				advancement: "booster_origins:choose_automaton"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Redstone addiction"
+			icon: "minecraft:redstone"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "Due to your addiction, you must work hard to curb the need for red."
+			dependencies: ["76B2AC9E6FF86CCA"]
+			id: "1FD0F15667DC4A5E"
+			tasks: [{
+				id: "7D537DD5884205D8"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "51CBBEE3A632809B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 15
+			}]
+		}
+		{
+			title: "AI Skills"
+			icon: {
+				id: "indrev:mining_drill_mk1"
+				Count: 1b
+				tag: {
+					energy: 4000L
+				}
+			}
+			x: -7.5d
+			y: -1.5d
+			subtitle: "Using your own AI, you can have moments of genius."
+			dependencies: ["1FD0F15667DC4A5E"]
+			id: "3D7FF8065956DF0F"
+			tasks: [{
+				id: "5ED3A34CCB55EC2F"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5F5CB83C3A80387C"
+				type: "item"
+				item: {
+					id: "indrev:mining_drill_mk1"
+					Count: 1b
+					tag: {
+						energy: 4000L
+					}
+				}
+			}]
+		}
+		{
+			title: "AI Superiority"
+			icon: {
+				id: "mcdw:bow_mechanical_shortbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.5d
+			y: -0.5d
+			description: ["Using your AI skills again, you are able to produce a mighty bow."]
+			dependencies: ["3D7FF8065956DF0F"]
+			id: "7B124E8921CEB9E4"
+			tasks: [{
+				id: "30F51D9FA5E285B5"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "74CBB0F2DAA93AA2"
+				type: "item"
+				item: {
+					id: "mcdw:bow_mechanical_shortbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "[Laevis] Illuminate your power."
+			icon: "minecraft:glow_berries"
+			x: -13.5d
+			y: -9.5d
+			id: "13B89AF2D87E262D"
+			tasks: [{
+				id: "2C84E54974F2BF3D"
+				type: "advancement"
+				advancement: "laevis:choose_laevis"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "terrarianslimes:glowstick"
+			x: -13.5d
+			y: -10.5d
+			dependencies: ["13B89AF2D87E262D"]
+			id: "1784828C56EFF20E"
+			tasks: [{
+				id: "0A6619DAF694054B"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "60A765BC45DCABD0"
+				type: "item"
+				item: "terrarianslimes:glowstick"
+				count: 64
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: -13.5d
+			y: -11.5d
+			dependencies: ["1784828C56EFF20E"]
+			id: "1823E40DE7B8206E"
+			tasks: [{
+				id: "10FA73F7E4A4B902"
+				type: "advancement"
+				advancement: "moreachievements:superman"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "15B065D790730326"
+				type: "item"
+				item: "artifacts:night_vision_goggles"
+			}]
+		}
+		{
+			icon: "kibe:light_ring"
+			x: -13.5d
+			y: -12.5d
+			dependencies: ["1823E40DE7B8206E"]
+			id: "72CD2EF790162D71"
+			tasks: [{
+				id: "593E0C3FC0A4AC26"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "08CBDE9962F8C2EA"
+				type: "item"
+				item: "kibe:light_ring"
+			}]
+		}
+		{
+			icon: "goldenhoppers:golden_hopper"
+			x: -7.5d
+			y: -10.5d
+			dependencies: ["693844111E6B42E3"]
+			id: "79126CB7E237852B"
+			tasks: [{
+				id: "4BB88BB995EB1D1B"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "654DBEDF402E882B"
+				type: "item"
+				item: "goldenhoppers:golden_hopper"
+				count: 12
+			}]
+		}
+		{
+			icon: "kibe:diamond_kibe"
+			x: -7.5d
+			y: -11.5d
+			dependencies: ["79126CB7E237852B"]
+			id: "167D48C2E345F298"
+			tasks: [{
+				id: "3B727772CADA20FD"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "74755AEFEBC825B5"
+				type: "item"
+				item: "kibe:diamond_kibe"
+				count: 12
+			}]
+		}
+		{
+			icon: {
+				id: "mcda:opulent_armor_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -7.5d
+			y: -12.5d
+			dependencies: ["167D48C2E345F298"]
+			id: "1CCCF1FE4AC5579B"
+			tasks: [{
+				id: "1024AD931A5B4E2A"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "3351F9FB9BB8C048"
+				type: "item"
+				item: {
+					id: "mcda:opulent_armor_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "[Indrevian] Guide your profits."
+			icon: "indrev:energy_reader"
+			x: -7.5d
+			y: -9.5d
+			id: "693844111E6B42E3"
+			tasks: [
+				{
+					id: "09F0C4B0F09C2708"
+					type: "advancement"
+					icon: "indrev:energy_reader"
+					disable_toast: true
+					advancement: "indrevian:choose_indrev"
+					criterion: ""
+				}
+				{
+					id: "5B831F0C2164F075"
+					type: "item"
+					item: "indrev:nikolite_dust"
+				}
+			]
+		}
+		{
+			title: "[Fortis] Genetic Modification"
+			icon: "squirtingsyringe:syringe"
+			x: -13.5d
+			y: -3.5d
+			id: "62680C54B675B93A"
+			tasks: [{
+				id: "3B3D377FE6FF94D3"
+				type: "advancement"
+				disable_toast: true
+				advancement: "fortis:choose_fortis"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Health performant dna"
+			icon: {
+				id: "squirtingsyringe:heal_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.5d
+			y: -2.5d
+			subtitle: "Dna with temporary healing encoded"
+			dependencies: ["62680C54B675B93A"]
+			id: "254114380E73470D"
+			tasks: [{
+				id: "27AF4F204637CD32"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "204AC4BFC2FC174C"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:heal_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Mass loss modification"
+			icon: {
+				id: "squirtingsyringe:falling_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.5d
+			y: -1.5d
+			subtitle: "For a short time your dna will modify your mass."
+			description: ["Making you fall slowly"]
+			dependencies: ["254114380E73470D"]
+			id: "1D25AEE0BC066270"
+			tasks: [{
+				id: "7E0C9B2007E61F08"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "501AAC442CFF389F"
+				type: "item"
+				icon: {
+					id: "squirtingsyringe:falling_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				item: {
+					id: "squirtingsyringe:falling_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Mine hard"
+			icon: {
+				id: "squirtingsyringe:mining_syringe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -13.5d
+			y: -0.5d
+			subtitle: "Mine hard with peak performant dna."
+			dependencies: ["1D25AEE0BC066270"]
+			id: "67BBD1366A92D827"
+			tasks: [{
+				id: "517B7CE57790BA4B"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "22342F21DCC3E7F5"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:mining_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "gateofbabylon:iron_broadsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.5d
+			y: -3.0d
+			dependencies: ["7C09AE12AE955A3E"]
+			id: "3EAE815FC39C60F9"
+			tasks: [{
+				id: "56838C1C0ADC486F"
+				type: "advancement"
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "mcdw:sickle_nightmares_bite"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.5d
+			y: -1.0d
+			dependencies: ["703CCE439CAD56B6"]
+			id: "56A8C732EB28C751"
+			tasks: [{
+				id: "17A273B49A1D1F6F"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "3EC73C576D90EEDF"
+				type: "item"
+				item: {
+					id: "mcdw:sickle_nightmares_bite"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "magicfungi:vivifica_elixir"
+				Count: 1b
+				tag: { }
+			}
+			x: -9.5d
+			y: -2.0d
+			dependencies: ["3EAE815FC39C60F9"]
+			id: "703CCE439CAD56B6"
+			tasks: [{
+				id: "2BA39290B07C8321"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "6CC521DDB40FC808"
+				type: "item"
+				item: {
+					id: "magicfungi:vivifica_elixir"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

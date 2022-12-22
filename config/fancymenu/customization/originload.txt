@@ -1,0 +1,48 @@
+type = menu
+
+customization-meta {
+  identifier = io.github.apace100.origins.screen.ChooseOriginScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/skymenu.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=450596%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=608490%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=372490%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+

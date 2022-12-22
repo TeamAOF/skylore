@@ -1,0 +1,172 @@
+{
+  "tables": {
+    "science_panel": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Science Panel",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#39822b", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "leaves",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": true, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+	    "chef_table": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Chef Table",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#ff8121", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "cake",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": false, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+	    "examination_table": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Examination Table",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#07ada2", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "wool",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": false, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+	  "engineering_panel": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Engineering Panel",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#8a8a8a", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "metal",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": true, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+	"security_panel": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Security Panel",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#2c2b2e", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "metal",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": false, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+		"ops_panel": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Ops Panel",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#a89928", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "metal",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": false, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+			"earth_examiner": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Earth Examiner",
+      "width": 5,
+      "height": 1,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#54504d", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "metal",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": true, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+	  "nulla": { // the block identifier, used for recipes, block states, ...
+      "display_name": "Nulla",
+      "width": 9,
+      "height": 9,
+      "block_entity": true,	  // Gives your block a block entity, meaning that items will stay in the table after closing the GUI.
+	  "normal_recipes": false, // Adds supports for recipes for the vanilla crafting table. Otherwise it can only craft its own recipes.
+      "generate_assets": true, // Automatically generates assets for a table based on a default model.
+	  "color": "#ffffff", // The GUI and table-top color (for default assets). When not included, uses default GUI colors.
+      "settings": {
+        "material": "metal",
+        "non_opaque": true,
+        "hardness": 4,
+        "resistance": 3
+      },
+	  "catalyst_slot": true, // adds an additional slot to use up an items durability or other resources like power added via API
+      "requires_tool": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+  }
+}

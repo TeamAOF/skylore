@@ -1,0 +1,15 @@
+{
+	id: "40578CB7D0AB1C4F"
+	order_index: 14
+	title: "night vision potion 1"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "minecraft:potion"
+			Count: 1b
+			tag: {
+				Potion: "minecraft:night_vision"
+			}
+		}
+	}]
+}

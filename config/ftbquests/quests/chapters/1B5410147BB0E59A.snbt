@@ -1,0 +1,20 @@
+{
+	id: "1B5410147BB0E59A"
+	group: ""
+	order_index: 4
+	filename: "1B5410147BB0E59A"
+	title: "-------"
+	icon: "minecraft:glass_pane"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "4A03D92BFC39DE08"
+		tasks: [{
+			id: "19677E369ECC06DB"
+			type: "checkmark"
+			title: "it's a spacer.. what else did you think it  was?"
+		}]
+	}]
+}
