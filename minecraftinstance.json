@@ -837,40 +837,40 @@
                                 "addonID":  472657,
                                 "name":  "FTB Chunks (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4229119,
-                                                      "fileName":  "ftb-chunks-fabric-1802.3.12-build.217.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/119/ftb-chunks-fabric-1802.3.12-build.217.jar",
-                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.12-build.217.jar"
+                                                      "id":  4174584,
+                                                      "fileName":  "ftb-chunks-fabric-1802.3.11-build.213.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
+                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.11-build.213.jar"
                                                   }
                             },
                             {
                                 "addonID":  438495,
                                 "name":  "FTB Library (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4210934,
-                                                      "fileName":  "ftb-library-fabric-1802.3.9-build.167.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4210/934/ftb-library-fabric-1802.3.9-build.167.jar",
-                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.9-build.167.jar"
+                                                      "id":  4135531,
+                                                      "fileName":  "ftb-library-fabric-1802.3.8-build.163.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/531/ftb-library-fabric-1802.3.8-build.163.jar",
+                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.8-build.163.jar"
                                                   }
                             },
                             {
                                 "addonID":  438496,
                                 "name":  "FTB Quests (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4215548,
-                                                      "fileName":  "ftb-quests-fabric-1802.3.11-build.151.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4215/548/ftb-quests-fabric-1802.3.11-build.151.jar",
-                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.11-build.151.jar"
+                                                      "id":  4070027,
+                                                      "fileName":  "ftb-quests-fabric-1802.3.10-build.138.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4070/27/ftb-quests-fabric-1802.3.10-build.138.jar",
+                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.10-build.138.jar"
                                                   }
                             },
                             {
                                 "addonID":  438497,
                                 "name":  "FTB Teams (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4229137,
-                                                      "fileName":  "ftb-teams-fabric-1802.2.9-build.88.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/137/ftb-teams-fabric-1802.2.9-build.88.jar",
-                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.9-build.88.jar"
+                                                      "id":  4135752,
+                                                      "fileName":  "ftb-teams-fabric-1802.2.8-build.78.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/752/ftb-teams-fabric-1802.2.8-build.78.jar",
+                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.8-build.78.jar"
                                                   }
                             },
                             {
@@ -1774,16 +1774,6 @@
                                                   }
                             },
                             {
-                                "addonID":  411816,
-                                "name":  "Simple Discord RPC [Forge/Fabric/Quilt]",
-                                "installedFile":  {
-                                                      "id":  4082888,
-                                                      "fileName":  "SimpleRPC-fabric-1.18.2-3.2.0.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4082/888/SimpleRPC-fabric-1.18.2-3.2.0.jar",
-                                                      "FileNameOnDisk":  "SimpleRPC-fabric-1.18.2-3.2.0.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  631990,
                                 "name":  "Simple Hats",
                                 "installedFile":  {
@@ -2105,7 +2095,7 @@
                             },
                             {
                                 "addonID":  431910,
-                                "name":  "Vein Mining (Fabric 1.16.4 - 1.19.2)",
+                                "name":  "Vein Mining (Fabric)",
                                 "installedFile":  {
                                                       "id":  4018674,
                                                       "fileName":  "veinmining-fabric-0.0.15-1.18.2.jar",
@@ -2141,26 +2131,6 @@
                                                       "fileName":  "wirelessnetworks-1.5.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3759/595/wirelessnetworks-1.5.1.jar",
                                                       "FileNameOnDisk":  "wirelessnetworks-1.5.1.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  225608,
-                                "name":  "WorldEdit",
-                                "installedFile":  {
-                                                      "id":  3697298,
-                                                      "fileName":  "worldedit-mod-7.2.10.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
-                                                      "FileNameOnDisk":  "worldedit-mod-7.2.10(2).jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  402098,
-                                "name":  "WorldEdit CUI (Fabric)",
-                                "installedFile":  {
-                                                      "id":  3687499,
-                                                      "fileName":  "WorldEditCUI-1.18.2+01.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                                                      "FileNameOnDisk":  "WorldEditCUI-1.18.2+01.jar"
                                                   }
                             },
                             {
