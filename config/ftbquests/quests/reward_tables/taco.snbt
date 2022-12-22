@@ -1,7 +1,0 @@
-{
-	id: "045077FA80483459"
-	order_index: 16
-	title: "taco"
-	loot_size: 1
-	rewards: [{ item: "tacocraft:fish_taco" }]
-}

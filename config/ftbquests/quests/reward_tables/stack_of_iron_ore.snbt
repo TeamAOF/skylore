@@ -1,7 +1,0 @@
-{
-	id: "03F03730B91DC3D9"
-	order_index: 43
-	title: "stack of iron ore"
-	loot_size: 1
-	rewards: [{ item: "minecraft:iron_ore", count: 64 }]
-}

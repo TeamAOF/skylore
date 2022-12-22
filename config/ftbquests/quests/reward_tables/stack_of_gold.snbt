@@ -1,7 +1,0 @@
-{
-	id: "7F063D03948A0B0F"
-	order_index: 44
-	title: "stack of gold"
-	loot_size: 1
-	rewards: [{ item: "minecraft:gold_ore", count: 64 }]
-}

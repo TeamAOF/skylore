@@ -1,7 +1,0 @@
-{
-	id: "1FFBD4BBDDDE4196"
-	order_index: 11
-	title: "examination table"
-	loot_size: 1
-	rewards: [{ item: "artis:examination_table" }]
-}

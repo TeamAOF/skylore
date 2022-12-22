@@ -1,7 +1,0 @@
-{
-	id: "4624E88A7A5B4E53"
-	order_index: 25
-	title: "navi 50"
-	loot_size: 1
-	rewards: [{ item: "artifacts:night_vision_goggles" }]
-}

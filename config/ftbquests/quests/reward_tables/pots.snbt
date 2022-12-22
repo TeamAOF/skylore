@@ -1,7 +1,0 @@
-{
-	id: "22E99832A22F27AB"
-	order_index: 17
-	title: "pots"
-	loot_size: 1
-	rewards: [{ item: "botanypots:terracotta_hopper_botany_pot", count: 10 }]
-}
