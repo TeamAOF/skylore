@@ -2144,26 +2144,6 @@
                                                   }
                             },
                             {
-                                "addonID":  225608,
-                                "name":  "WorldEdit",
-                                "installedFile":  {
-                                                      "id":  3697298,
-                                                      "fileName":  "worldedit-mod-7.2.10.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
-                                                      "FileNameOnDisk":  "worldedit-mod-7.2.10.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  402098,
-                                "name":  "WorldEdit CUI (Fabric)",
-                                "installedFile":  {
-                                                      "id":  3687499,
-                                                      "fileName":  "WorldEditCUI-1.18.2+01.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3687/499/WorldEditCUI-1.18.2+01.jar",
-                                                      "FileNameOnDisk":  "WorldEditCUI-1.18.2+01.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  374274,
                                 "name":  "Your Options Shall Be Respected (YOSBR)",
                                 "installedFile":  {
