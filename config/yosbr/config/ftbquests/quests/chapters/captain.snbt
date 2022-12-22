@@ -27,17 +27,14 @@
 			y: -5.0d
 			id: "7203022EBB0D10CA"
 			tasks: [{
-				id: "1E2DCB5AE9870F9D"
-				type: "professions:profession"
-				icon: "kubejs:captain"
-				disable_toast: true
-				prof: "professions:captain"
-				action: "LEVEL"
-				level: 2
+				id: "4C029D8730CA75FE"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "54973C50C0DB67A3"
 				type: "command"
+				title: "Gain Ops Panel Access"
+				icon: "artis:ops_panel"
 				command: "/phase grant @p ops"
 				player_command: false
 			}]
@@ -312,17 +309,16 @@
 			}]
 		}
 		{
+			title: "Sacrifice to find"
 			x: 4.5d
 			y: -3.5d
 			dependencies: ["52CE677200EBA77A"]
 			id: "3D28B79870D31477"
 			tasks: [{
-				id: "4C389E01EFA84AE5"
-				type: "professions:profession"
-				title: "Meteor Person"
-				prof: "professions:captain"
-				action: "LEVEL"
-				level: 3
+				id: "46C65416BA2D17AA"
+				type: "xp"
+				value: 2L
+				points: false
 			}]
 			rewards: [{
 				id: "20AA40AFC922AE04"

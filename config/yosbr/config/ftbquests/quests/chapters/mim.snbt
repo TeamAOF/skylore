@@ -4,7 +4,11 @@
 	order_index: 1
 	filename: "mim"
 	title: "MIM"
-	icon: "observed:observereye"
+	icon: {
+		id: "numismatic-overhaul:gold_coin"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -80,450 +84,6 @@
 			}]
 		}
 		{
-			title: "Security Officer"
-			disable_toast: true
-			x: 27.5d
-			y: -10.0d
-			secret: true
-			id: "0FD5C494947D0F15"
-			tasks: [{
-				id: "794E7B1D33AD055E"
-				type: "professions:profession"
-				icon: "kubejs:security_officer"
-				disable_toast: true
-				prof: "professions:security"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:captain"
-			disable_toast: true
-			x: 26.5d
-			y: -10.0d
-			secret: true
-			id: "4B3A52245B1AF2FF"
-			tasks: [{
-				id: "1D4F7D6F9BBF7B95"
-				type: "professions:profession"
-				icon: "kubejs:captain"
-				disable_toast: true
-				prof: "professions:captain"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:chef"
-			disable_toast: true
-			x: 25.5d
-			y: -10.0d
-			secret: true
-			id: "0D6FE0F549B771A9"
-			tasks: [{
-				id: "2DD60A4BE774234B"
-				type: "professions:profession"
-				icon: "kubejs:chef"
-				disable_toast: true
-				prof: "professions:chef"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:doctor"
-			disable_toast: true
-			x: 24.5d
-			y: -10.0d
-			secret: true
-			id: "2F0D104B6A0BAF06"
-			tasks: [{
-				id: "30291FB6EA0F8FE1"
-				type: "professions:profession"
-				icon: "kubejs:doctor"
-				disable_toast: true
-				prof: "professions:doctor"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			icon: "kubejs:engineer"
-			disable_toast: true
-			x: 23.5d
-			y: -10.0d
-			secret: true
-			id: "5A051AF315174C4D"
-			tasks: [{
-				id: "20FA5A944F072B8B"
-				type: "professions:profession"
-				icon: "kubejs:engineer"
-				disable_toast: true
-				prof: "professions:engineer"
-				action: "JOIN"
-				level: -1
-			}]
-		}
-		{
-			title: "Captain Level 10"
-			x: 26.5d
-			y: -8.0d
-			dependencies: ["4B3A52245B1AF2FF"]
-			hide: true
-			id: "6AB16DF4A520F487"
-			tasks: [{
-				id: "0F42B09B213A4280"
-				type: "professions:profession"
-				prof: "professions:captain"
-				action: "LEVEL"
-				level: 10
-			}]
-		}
-		{
-			title: "Chef Level 10"
-			icon: "chestcavity:heart"
-			x: 25.5d
-			y: -8.0d
-			dependencies: ["0D6FE0F549B771A9"]
-			hide: true
-			id: "2EF7547840533FEA"
-			tasks: [{
-				id: "41CFE8AFBC921D53"
-				type: "professions:profession"
-				prof: "professions:chef"
-				action: "LEVEL"
-				level: 10
-			}]
-			rewards: [{
-				id: "208D2CBA32EC7C20"
-				type: "questsadditions:repeat"
-				table_id: 1191065941765593173L
-			}]
-		}
-		{
-			icon: {
-				id: "ftbquests:custom_icon"
-				Count: 1b
-				tag: {
-					Icon: "squirtingsyringe:textures/item/healsyringe.png"
-				}
-			}
-			x: 24.5d
-			y: -8.0d
-			dependencies: ["2F0D104B6A0BAF06"]
-			hide: true
-			id: "243FAB8389807DF3"
-			tasks: [{
-				id: "50B633036D3B1357"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				consume_items: true
-			}]
-			rewards: [{
-				id: "646C279BBBCA8B65"
-				type: "questsadditions:repeat"
-				table_id: 8652348034775495592L
-			}]
-		}
-		{
-			icon: "modern_industrialization:electronic_circuit"
-			x: 23.5d
-			y: -8.0d
-			dependencies: ["5A051AF315174C4D"]
-			hide: true
-			id: "33D621C5EC1AEA53"
-			tasks: [{
-				id: "18DA81216CCFE7B6"
-				type: "professions:profession"
-				title: "Engineer Level 10"
-				prof: "professions:engineer"
-				action: "LEVEL"
-				level: 10
-			}]
-			rewards: [{
-				id: "76ECCF3E97C58166"
-				type: "questsadditions:repeat"
-				table_id: 978089693057453624L
-			}]
-		}
-		{
-			x: 27.5d
-			y: -8.0d
-			dependencies: ["0FD5C494947D0F15"]
-			hide: true
-			id: "0BF777317BED5ADB"
-			tasks: [{
-				id: "46526524D6FECC13"
-				type: "professions:profession"
-				title: "Security Officer Level 10"
-				prof: "professions:security"
-				action: "LEVEL"
-				level: 10
-			}]
-		}
-		{
-			x: 26.5d
-			y: -5.5d
-			dependencies: ["6AB16DF4A520F487"]
-			hide: true
-			id: "1CD2F19929E63FD7"
-			tasks: [{
-				id: "0511DA9472EB5E78"
-				type: "professions:profession"
-				prof: "professions:captain"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 26.5d
-			y: -3.0d
-			dependencies: ["1CD2F19929E63FD7"]
-			hide: true
-			id: "18F063C664AE7A31"
-			tasks: [{
-				id: "79FDC5B8D951859C"
-				type: "professions:profession"
-				prof: "professions:captain"
-				action: "JOIN"
-				level: 30
-			}]
-		}
-		{
-			x: 26.5d
-			y: -0.5d
-			dependencies: ["18F063C664AE7A31"]
-			hide: true
-			id: "363D492963E3B03F"
-			tasks: [{
-				id: "17C059A96B0327AB"
-				type: "professions:profession"
-				prof: "professions:captain"
-				action: "JOIN"
-				level: 50
-			}]
-		}
-		{
-			x: 25.5d
-			y: -5.5d
-			dependencies: ["2EF7547840533FEA"]
-			hide: true
-			id: "24A9669E88117170"
-			tasks: [{
-				id: "299ED235F45823D3"
-				type: "professions:profession"
-				prof: "professions:chef"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 25.5d
-			y: -3.0d
-			dependencies: ["24A9669E88117170"]
-			hide: true
-			id: "6357B1623AC26219"
-			tasks: [{
-				id: "399962F8F2A3DA4F"
-				type: "professions:profession"
-				prof: "professions:chef"
-				action: "JOIN"
-				level: 30
-			}]
-		}
-		{
-			x: 25.5d
-			y: -0.5d
-			dependencies: ["6357B1623AC26219"]
-			hide: true
-			id: "79FE58D2471F2279"
-			tasks: [{
-				id: "21109DA9B59DDD73"
-				type: "professions:profession"
-				prof: "professions:chef"
-				action: "JOIN"
-				level: 50
-			}]
-		}
-		{
-			icon: {
-				id: "squirtingsyringe:ghost_syringe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 24.5d
-			y: -5.5d
-			dependencies: ["243FAB8389807DF3"]
-			hide: true
-			id: "4CF6F88E84178FA0"
-			tasks: [{
-				id: "59311AF8E6CEDBBC"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 20L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "21E399611064A19A"
-				type: "questsadditions:repeat"
-				table_id: 3094902131287237865L
-			}]
-		}
-		{
-			icon: {
-				id: "squirtingsyringe:falling_syringe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 24.5d
-			y: -3.0d
-			dependencies: ["4CF6F88E84178FA0"]
-			hide: true
-			id: "36A4A6AE5D1389DC"
-			tasks: [{
-				id: "4F97B11311598AE8"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 30L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "1889B9C549FF4D7D"
-				type: "questsadditions:repeat"
-				table_id: 7398686343727084027L
-			}]
-		}
-		{
-			icon: {
-				id: "squirtingsyringe:warrior_syringe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 24.5d
-			y: -0.5d
-			dependencies: ["36A4A6AE5D1389DC"]
-			hide: true
-			id: "05568443D77BA548"
-			tasks: [{
-				id: "055A7181BB37E0D5"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 50L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "781C563F0D6524A3"
-				type: "questsadditions:repeat"
-				table_id: 9032510632505595764L
-			}]
-		}
-		{
-			x: 23.5d
-			y: -5.5d
-			dependencies: ["33D621C5EC1AEA53"]
-			hide: true
-			id: "3E2A5F819B12DC4D"
-			tasks: [{
-				id: "706A3C7F7B34C0A0"
-				type: "professions:profession"
-				prof: "professions:engineer"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 23.5d
-			y: -3.0d
-			dependencies: ["3E2A5F819B12DC4D"]
-			hide: true
-			id: "470FBF35B8509F12"
-			tasks: [{
-				id: "72DD8664DA8C9901"
-				type: "professions:profession"
-				prof: "professions:engineer"
-				action: "LEVEL"
-				level: 30
-			}]
-		}
-		{
-			x: 23.5d
-			y: -0.5d
-			dependencies: ["470FBF35B8509F12"]
-			hide: true
-			id: "75940C2B4D606676"
-			tasks: [{
-				id: "32ED2DBB861FF443"
-				type: "professions:profession"
-				prof: "professions:engineer"
-				action: "LEVEL"
-				level: 50
-			}]
-		}
-		{
-			x: 27.5d
-			y: -5.5d
-			dependencies: ["0BF777317BED5ADB"]
-			hide: true
-			id: "160848907A4CD814"
-			tasks: [{
-				id: "3C6139C94F3AA771"
-				type: "professions:profession"
-				prof: "professions:security_officer"
-				action: "LEVEL"
-				level: 20
-			}]
-		}
-		{
-			x: 27.5d
-			y: -3.0d
-			dependencies: ["160848907A4CD814"]
-			hide: true
-			id: "61740D7E131EA02F"
-			tasks: [{
-				id: "15DF7C21B3A2748B"
-				type: "professions:profession"
-				prof: "professions:security_officer"
-				action: "LEVEL"
-				level: 30
-			}]
-		}
-		{
-			x: 27.5d
-			y: -0.5d
-			dependencies: ["61740D7E131EA02F"]
-			hide: true
-			id: "75AE1584F8F514D2"
-			tasks: [{
-				id: "732F9A7113C22E94"
-				type: "professions:profession"
-				prof: "professions:security_officer"
-				action: "LEVEL"
-				level: 50
-			}]
-		}
-		{
 			title: "Crystal Heart"
 			icon: "artifacts:crystal_heart"
 			x: 25.5d
@@ -547,26 +107,88 @@
 			}]
 		}
 		{
-			title: "Half a stack of string"
-			icon: "minecraft:string"
 			x: 25.5d
 			y: -15.0d
-			id: "2A20729EFB9A08D7"
+			id: "6A4EEC3E09A4BBA8"
+		}
+		{
+			title: "Stack of Gold ore"
+			icon: "minecraft:gold_ore"
+			x: 25.5d
+			y: -13.0d
+			id: "326FCFBC80BEAD3F"
 			tasks: [{
-				id: "2CB65E937551D345"
+				id: "1439ABD34FB496A5"
 				type: "item"
 				item: {
-					id: "numismatic-overhaul:bronze_coin"
+					id: "numismatic-overhaul:gold_coin"
 					Count: 1b
 					tag: { }
 				}
-				count: 25L
 			}]
 			rewards: [{
-				id: "33247CC36324BD77"
+				id: "2FD34865AE434FD9"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 9153070378263382799L
+			}]
+		}
+		{
+			title: "Stack of Copper ore"
+			icon: "minecraft:copper_ore"
+			x: 25.5d
+			y: -12.0d
+			id: "137171932C16B644"
+			tasks: [{
+				id: "246CD16D3CE5BAE1"
 				type: "item"
-				item: "minecraft:string"
-				count: 32
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2510A743AFA2FE14"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 2364024109116540212L
+			}]
+		}
+		{
+			title: "Stack of Iron ore"
+			icon: "minecraft:iron_ore"
+			x: 25.5d
+			y: -11.0d
+			id: "624B7A2BC6F8EC86"
+			tasks: [{
+				id: "2DB968C40FD7D791"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0A24A636CD16DE08"
+				type: "questsadditions:repeat"
+				exclude_from_claim_all: true
+				table_id: 283787458928034777L
+			}]
+		}
+		{
+			x: 25.5d
+			y: -10.0d
+			id: "0E880BC1D03B5173"
+			tasks: [{
+				id: "6554848DB895A4AF"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

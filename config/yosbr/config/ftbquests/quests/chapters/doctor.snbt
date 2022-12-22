@@ -3,7 +3,7 @@
 	group: "38D73AD51340A19B"
 	order_index: 2
 	filename: "doctor"
-	title: "Medical Officer"
+	title: "Medical"
 	icon: "kubejs:doctor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -42,20 +42,23 @@
 			y: -4.5d
 			id: "2E8711EA762548F2"
 			tasks: [{
-				id: "0C0F7D22F564BA4D"
-				type: "professions:profession"
-				icon: "kubejs:doctor"
-				disable_toast: true
-				prof: "professions:medical_officer"
-				action: "LEVEL"
-				level: 2
+				id: "58AD45A12A74A0F3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "47AE70EC7C6C4BE7"
+				type: "command"
+				title: "Gain Examination Table Access"
+				icon: "artis:examination_table"
+				command: "/phase grant @p medical"
+				player_command: false
 			}]
 		}
 		{
 			x: 1.5d
 			y: -4.5d
 			subtitle: "Parasite control requires a special syringe."
-			dependencies: ["2E8711EA762548F2"]
+			dependencies: ["1B1DAEC4C9783787"]
 			hide: true
 			id: "556AC8A73B938089"
 			tasks: [{
@@ -324,8 +327,8 @@
 		}
 		{
 			title: "Put your heart next to mine"
-			x: 4.5d
-			y: 6.0d
+			x: 3.5d
+			y: -0.5d
 			dependencies: ["1602909A2303CD5F"]
 			id: "3E6506CF911F2C91"
 			tasks: [{
@@ -336,8 +339,8 @@
 		}
 		{
 			title: "Like a Surgeon"
-			x: 3.0d
-			y: 6.0d
+			x: 2.0d
+			y: -0.5d
 			dependencies: ["2E8711EA762548F2"]
 			id: "1602909A2303CD5F"
 			tasks: [{
@@ -354,8 +357,8 @@
 		}
 		{
 			title: "Cut for the very first time"
-			x: 3.0d
-			y: 7.0d
+			x: 2.0d
+			y: 0.5d
 			dependencies: ["1602909A2303CD5F"]
 			id: "7F06BB9156957A18"
 			tasks: [{
@@ -365,8 +368,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 6.0d
+			x: 6.5d
+			y: -0.5d
 			dependencies: ["78C3341B8912A232"]
 			id: "2AFCDCDF26AB18AA"
 			tasks: [{
@@ -376,8 +379,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 6.0d
+			x: 5.0d
+			y: -0.5d
 			dependencies: ["3E6506CF911F2C91"]
 			id: "78C3341B8912A232"
 			tasks: [{
@@ -387,8 +390,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 6.0d
+			x: 8.0d
+			y: -0.5d
 			dependencies: ["2AFCDCDF26AB18AA"]
 			id: "64D7661402CDEC45"
 			tasks: [{
@@ -398,8 +401,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 6.0d
+			x: 9.5d
+			y: -0.5d
 			dependencies: ["64D7661402CDEC45"]
 			id: "7EA788BEDF84A0B9"
 			tasks: [{
@@ -409,8 +412,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 7.0d
+			x: 9.5d
+			y: 0.5d
 			dependencies: ["7EA788BEDF84A0B9"]
 			id: "633657614CD58EFE"
 			tasks: [{
@@ -431,8 +434,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 7.0d
+			x: 3.5d
+			y: 0.5d
 			dependencies: ["3E6506CF911F2C91"]
 			id: "2CB063E1D04662D7"
 			tasks: [{
@@ -442,8 +445,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 8.0d
+			x: 3.5d
+			y: 1.5d
 			dependencies: ["2CB063E1D04662D7"]
 			id: "4727163989F41B85"
 			tasks: [{
@@ -453,8 +456,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 9.0d
+			x: 3.5d
+			y: 2.5d
 			dependencies: ["4727163989F41B85"]
 			id: "3C977EB0BFAE0158"
 			tasks: [{
@@ -464,8 +467,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 10.0d
+			x: 3.5d
+			y: 3.5d
 			dependencies: ["3C977EB0BFAE0158"]
 			id: "35BC36791EE8BD88"
 			tasks: [{
@@ -475,8 +478,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 11.0d
+			x: 3.5d
+			y: 4.5d
 			dependencies: ["35BC36791EE8BD88"]
 			id: "0FDC6A670CEFBC35"
 			tasks: [{
@@ -492,8 +495,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 5.5d
-			y: 8.0d
+			x: 4.5d
+			y: 1.5d
 			dependencies: ["4727163989F41B85"]
 			id: "2F068F2F28266C55"
 			rewards: [{
@@ -510,10 +513,40 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 8.0d
-			dependencies: ["2F068F2F28266C55"]
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["3C977EB0BFAE0158"]
 			id: "1BE0DB7FCBD558C2"
+			rewards: [{
+				id: "660C1A286F67142B"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["35BC36791EE8BD88"]
+			id: "3932F5437CE17418"
+			tasks: [{
+				id: "5239711E3A30A82F"
+				type: "item"
+				item: "ad_astra:oxygen_sensor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: [
+				"2E8711EA762548F2"
+				"23CB8D088145F296"
+			]
+			id: "1B1DAEC4C9783787"
+			tasks: [{
+				id: "552F094804F98D4F"
+				type: "checkmark"
+				title: "Infection Research"
+			}]
 		}
 	]
 }

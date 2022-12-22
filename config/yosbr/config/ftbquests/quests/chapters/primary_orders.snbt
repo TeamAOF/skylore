@@ -11,7 +11,7 @@
 		{
 			title: "Crash landing"
 			icon: "bosses_of_mass_destruction:soul_star"
-			x: 0.0d
+			x: 0.5d
 			y: 0.0d
 			shape: "diamond"
 			subtitle: "Unexpected crash on a hexagonal island."
@@ -20,6 +20,7 @@
 				""
 				"You should use the xp from quests to upgrade your stats as  you want to survive as long as possible, there is a second tab in your inventory for upgrading yourself."
 			]
+			dependency_requirement: "all_started"
 			id: "350E66C2C959C83E"
 			tasks: [
 				{
@@ -29,6 +30,8 @@
 						id: "tconstruct:pickaxe"
 						Count: 1b
 						tag: {
+							tic_multipliers: { }
+							Damage: 0
 							tic_stats: {
 								"tconstruct:attack_damage": 1.0f
 								"tconstruct:harvest_tier": "minecraft:stone"
@@ -36,9 +39,11 @@
 								"tconstruct:mining_speed": 4.0f
 								"tconstruct:attack_speed": 1.2f
 							}
-							Damage: 0
-							tic_multipliers: { }
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock#stone"
+								"tconstruct:wood#oak"
+								"tconstruct:wood#oak"
+							]
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -53,11 +58,7 @@
 									level: 1s
 								}
 							]
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:wood#oak"
-							]
+							tic_broken: 0b
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -73,6 +74,12 @@
 						id: "tconstruct:mattock"
 						Count: 1b
 						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 1.1f
+								"tconstruct:durability": 1.25f
+								"tconstruct:attack_damage": 1.1f
+							}
+							Damage: 0
 							tic_stats: {
 								"tconstruct:attack_damage": 2.75f
 								"tconstruct:harvest_tier": "minecraft:stone"
@@ -80,13 +87,11 @@
 								"tconstruct:mining_speed": 4.4f
 								"tconstruct:attack_speed": 0.9f
 							}
-							Damage: 0
-							tic_multipliers: {
-								"tconstruct:mining_speed": 1.1f
-								"tconstruct:durability": 1.25f
-								"tconstruct:attack_damage": 1.1f
-							}
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:rock#stone"
+								"tconstruct:wood#oak"
+								"tconstruct:rock#stone"
+							]
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -105,11 +110,7 @@
 									level: 1s
 								}
 							]
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:rock#stone"
-							]
+							tic_broken: 0b
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -128,16 +129,18 @@
 		}
 		{
 			title: "Fighting off the danger"
-			x: 0.5d
-			y: 1.5d
+			x: 3.0d
+			y: 5.5d
 			shape: "pentagon"
 			subtitle: "No one will survive without a sword."
 			description: [
 				"This land is dangerous. The monsters are starting to learn from you, they get stronger and better every night."
 				""
 				"Its important to craft a weapon, otherwise you die."
+				""
+				"NOTE: Difficulty get's much harder from here."
 			]
-			dependencies: ["350E66C2C959C83E"]
+			dependencies: ["4C69D88874429BCA"]
 			id: "69AD5130633DDD7F"
 			tasks: [{
 				id: "59D90FDC94DAD87F"
@@ -146,7 +149,10 @@
 					id: "tconstruct:sword"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 4.0f
 							"tconstruct:harvest_tier": "minecraft:stone"
@@ -154,15 +160,8 @@
 							"tconstruct:mining_speed": 2.05f
 							"tconstruct:attack_speed": 1.6f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 1.1f
-						}
-						tic_materials: [
-							"tconstruct:rock#stone"
-							"tconstruct:wood#oak"
-							"tconstruct:rock#stone"
-						]
+						Damage: 0
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:cultivated"
@@ -177,7 +176,11 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:rock#stone"
+							"tconstruct:wood#oak"
+							"tconstruct:rock#stone"
+						]
 						tic_persistent_data: {
 							upgrades: 3
 							abilities: 1
@@ -185,16 +188,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2B0933FCD1B9CEA2"
-				type: "item"
-				item: "create:experience_nugget"
-			}]
+			rewards: [
+				{
+					id: "0B6F3366F64FAD1D"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 8
+				}
+				{
+					id: "58A9FBAE01C791DE"
+					type: "command"
+					title: "The world seems to notice your defensive stance."
+					icon: "chestcavity:heart"
+					auto: "invisible"
+					command: "/phase grant @p easymodeoff"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "A long range weapon"
-			x: 2.0d
-			y: 2.5d
+			x: 5.0d
+			y: 5.5d
 			shape: "pentagon"
 			subtitle: "You might find yourself dying from skeletons a lot..."
 			description: [
@@ -210,9 +225,10 @@
 				item: "doodads:slingshot"
 			}]
 			rewards: [{
-				id: "5D5E9CBA14BE70FA"
+				id: "7B43186E22857861"
 				type: "item"
 				item: "create:experience_nugget"
+				count: 2
 			}]
 		}
 		{
@@ -258,8 +274,8 @@
 		}
 		{
 			title: "Deflect enemy projectiles"
-			x: 1.0d
-			y: 3.0d
+			x: 3.5d
+			y: 7.5d
 			shape: "pentagon"
 			subtitle: "This is a must have in combat against skeletons."
 			description: ["Shields get brung up 5 times faster in this modpack so make sure to craft one as they are way better now."]
@@ -277,13 +293,10 @@
 				}
 			}]
 			rewards: [{
-				id: "0594109B5DA1916B"
+				id: "0021F884C6AFB841"
 				type: "item"
-				item: {
-					id: "create:experience_nugget"
-					Count: 1b
-					tag: { }
-				}
+				item: "create:experience_nugget"
+				count: 2
 			}]
 		}
 		{
@@ -300,6 +313,12 @@
 				item: "minecraft:torch"
 				count: 16L
 			}]
+			rewards: [{
+				id: "2013697468242330"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			title: "Placing torches isnt enough"
@@ -315,10 +334,16 @@
 				type: "item"
 				item: "kibe:torch_sling"
 			}]
+			rewards: [{
+				id: "565D85A4214AAF4A"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			title: "Effective mob proofing"
-			x: -3.0d
+			x: -2.0d
 			y: 3.0d
 			shape: "octagon"
 			subtitle: "The tool that allows you to light up an island without doubt."
@@ -329,6 +354,12 @@
 				id: "5510BB9CED7B3EF7"
 				type: "item"
 				item: "kibe:big_torch"
+			}]
+			rewards: [{
+				id: "2AE550C7113910B6"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
 			}]
 		}
 		{
@@ -359,10 +390,11 @@
 			}]
 		}
 		{
-			x: -1.0d
+			title: "Organization is key"
+			x: -1.5d
 			y: -1.0d
 			shape: "square"
-			dependencies: ["350E66C2C959C83E"]
+			dependencies: ["171FEBF60B0C8CB5"]
 			id: "00D40DF860EC8EC4"
 			tasks: [{
 				id: "25673E39541DD824"
@@ -408,10 +440,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "72DA53E5DAD92EA4"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
+			title: "Make it look good"
+			x: -3.0d
+			y: -1.0d
 			shape: "square"
 			dependencies: ["00D40DF860EC8EC4"]
 			id: "681309243A515273"
@@ -459,10 +498,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3ECA8AD052C43713"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
-			x: -3.0d
-			y: -3.0d
+			title: "Decorate"
+			x: -4.0d
+			y: -1.0d
 			shape: "square"
 			dependencies: ["681309243A515273"]
 			id: "0AF0A0BDAAC6F2CE"
@@ -510,6 +556,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18DE5E590D420DFA"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			title: "You dont die?"
@@ -530,7 +582,7 @@
 			title: "Tool Enhancements"
 			icon: "minecraft:enchanting_table"
 			x: 2.5d
-			y: 0.5d
+			y: 2.0d
 			subtitle: "This will lock enchanted books"
 			description: ["Whether it be improving durability or vein mining. This will help enhance your tools."]
 			dependencies: ["350E66C2C959C83E"]
@@ -540,12 +592,21 @@
 				type: "item"
 				item: "minecraft:stone"
 			}]
-			rewards: [{
-				id: "002ADBA43AC5BB44"
-				type: "command"
-				command: "/phase grant @p enchants"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "002ADBA43AC5BB44"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p enchants"
+					player_command: false
+				}
+				{
+					id: "1ECF9EFE522129A8"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -562,6 +623,328 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "108C84BBB1F99275"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "383F9C50F137C4C9"
+			tasks: [{
+				id: "21D6F4FED1292FCF"
+				type: "item"
+				item: "tconstruct:pattern"
+			}]
+			rewards: [{
+				id: "2637A53BE2EDDCA1"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Tinker Tailor Solidier Spy"
+			dependencies: ["612D24EAE2EB48A7"]
+			id: "4C69D88874429BCA"
+			tasks: [{
+				id: "2442F51B877BEDA8"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37E72EA790415520"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			subtitle: "Small parts inside"
+			dependencies: ["4CE9101D3B0DD333"]
+			id: "612D24EAE2EB48A7"
+			tasks: [{
+				id: "7944E782166A2D83"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D3835F740C12313"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "Do you like a quality table?"
+			dependencies: ["383F9C50F137C4C9"]
+			id: "4CE9101D3B0DD333"
+			tasks: [{
+				id: "329C13ABDAE2D5F7"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BD5C002234E9AFE"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			subtitle: "It seems there are some violent folk around here."
+			description: [
+				"Some villagers aren't so kind. Is this a sign of what is to come?"
+				""
+				"The glow berry might be a key to this aggression."
+			]
+			dependencies: [
+				"69AD5130633DDD7F"
+				"7CE60BC0A027E3E7"
+				"4DACB278D6F2F298"
+			]
+			hide_text_until_complete: true
+			id: "2B6DCF762612E7F9"
+			tasks: [{
+				id: "047EBF870840A027"
+				type: "kill"
+				title: "Traitor's Afoot Kill 10 Pillagers"
+				icon: {
+					id: "indrev:tin_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				entity: "minecraft:pillager"
+				value: 10L
+			}]
+			rewards: [{
+				id: "4ADCE97586FB9391"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 15
+			}]
+		}
+		{
+			title: "Explore the Church of Beryl"
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["2B3D0F080674DB5F"]
+			id: "238CE24CBD265BC7"
+			tasks: [{
+				id: "1F5FC86B206D3AA8"
+				type: "item"
+				item: "minecraft:amethyst_block"
+			}]
+		}
+		{
+			title: "Review Resources"
+			x: -5.5d
+			y: -1.0d
+			subtitle: "Proper protocol states to stockpile"
+			dependencies: ["0AF0A0BDAAC6F2CE"]
+			id: "4DACB278D6F2F298"
+			tasks: [
+				{
+					id: "23E6EFA30466809C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 64L
+				}
+				{
+					id: "6E620D8C0B2CA3FC"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 64L
+				}
+				{
+					id: "43F91E699A114391"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 64L
+				}
+				{
+					id: "0D7E1A4FBD37090D"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 64L
+				}
+				{
+					id: "05BAFB14BBFE9B8F"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "5E176D03AAB0170B"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 50
+			}]
+		}
+		{
+			title: "Screw going green."
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["2B6DCF762612E7F9"]
+			id: "05A5CA1D4BEC6C15"
+			tasks: [{
+				id: "5E738388B53C73F5"
+				type: "item"
+				item: "modern_industrialization:uranium_fuel_rod"
+			}]
+		}
+		{
+			title: "Go Green."
+			x: -2.5d
+			y: 7.5d
+			dependencies: ["2B6DCF762612E7F9"]
+			id: "797BD9D48762338B"
+			tasks: [{
+				id: "71C023932D82A032"
+				type: "item"
+				item: "indrev:solar_generator_mk1"
+			}]
+		}
+		{
+			title: "Investigate the glow berry"
+			x: -5.5d
+			y: 5.5d
+			subtitle: "This strange berry may provide some answers"
+			description: ["Review Medical Officer Tasks to Learn More"]
+			dependencies: ["2B6DCF762612E7F9"]
+			hide: true
+			hide_text_until_complete: true
+			id: "23CB8D088145F296"
+			tasks: [{
+				id: "28FEFF7FF8046E17"
+				type: "item"
+				item: "minecraft:glow_berries"
+			}]
+			rewards: [
+				{
+					id: "273344A98F10CE0E"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p infection"
+					player_command: false
+				}
+				{
+					id: "35D3DE8BAC455F59"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Acquire more ingots"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Mass Melting"
+			dependencies: ["350E66C2C959C83E"]
+			id: "203053D584AB210D"
+			tasks: [
+				{
+					id: "2DC1588934512D07"
+					type: "item"
+					title: "Stone Bricks or Bricks"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:bricks"
+									Count: 1b
+								}
+								{
+									id: "minecraft:stone_bricks"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "7B80AB17F8AC2E90"
+					type: "item"
+					title: "Stone Bricks or Brick Controller"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "alloy_forgery:stone_bricks_forge_controller"
+									Count: 1b
+								}
+								{
+									id: "alloy_forgery:bricks_forge_controller"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "65E6E70938C3C216"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [{
+				id: "06FFEB9D638811F2"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 8
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Certain requirements are needed for sentient species"
+			description: ["Make sure to have a nice clean and organized place as it's important for sentient species mental health."]
+			dependencies: ["350E66C2C959C83E"]
+			id: "171FEBF60B0C8CB5"
+			tasks: [{
+				id: "61F2C41FCB01BC89"
+				type: "checkmark"
+				title: "Sentient Species"
 			}]
 		}
 	]

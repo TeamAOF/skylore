@@ -3,7 +3,7 @@
 	group: "38D73AD51340A19B"
 	order_index: 1
 	filename: "engineer"
-	title: "Engineering Officer"
+	title: "Engineering"
 	icon: "kubejs:engineer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,17 +21,6 @@
 	}]
 	quests: [
 		{
-			x: 8.0d
-			y: 11.0d
-			dependencies: ["1B2650377A0E5FF5"]
-			id: "61CB7E23846AE105"
-			tasks: [{
-				id: "4679FF698E886905"
-				type: "item"
-				item: "rswires:red_alloy_wire"
-			}]
-		}
-		{
 			x: 7.0d
 			y: 10.0d
 			dependencies: ["186CB0917B42C66D"]
@@ -40,6 +29,12 @@
 				id: "33817A1CAB7A6AD0"
 				type: "item"
 				item: "logicates:logicate_fabricator"
+			}]
+			rewards: [{
+				id: "59C0F9B1FE667F63"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 		{
@@ -55,14 +50,20 @@
 					Count: 1b
 					tag: {
 						state: {
-							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
+							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
+			}]
+			rewards: [{
+				id: "79E384D08BD8FE5D"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 		{
@@ -74,6 +75,12 @@
 				id: "4ABF90FC6A5203A2"
 				type: "item"
 				item: "platforms:platformer"
+			}]
+			rewards: [{
+				id: "6D1BE8BF6CF8C3BE"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 		{
@@ -411,7 +418,7 @@
 				tag: { }
 			}
 			x: 5.5d
-			y: 7.0d
+			y: 6.0d
 			shape: "square"
 			subtitle: "You cant keep using those stone tools."
 			dependencies: ["186CB0917B42C66D"]
@@ -426,15 +433,6 @@
 						tag: { }
 					}
 					count: 9L
-				}
-				{
-					id: "3E8DF702E3430666"
-					type: "item"
-					item: {
-						id: "tconstruct:smeltery_controller"
-						Count: 1b
-						tag: { }
-					}
 				}
 				{
 					id: "72953FE6DD5F9A18"
@@ -474,6 +472,11 @@
 					item: "tconstruct:seared_faucet"
 					count: 2L
 				}
+				{
+					id: "5E325AE4533EC65B"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
 			]
 			rewards: [{
 				id: "4324F45D47115C23"
@@ -485,7 +488,7 @@
 		{
 			title: "A better pickaxe"
 			x: 5.5d
-			y: 5.5d
+			y: 2.0d
 			shape: "square"
 			subtitle: "you cant do much with that stone pickaxe."
 			description: [
@@ -504,7 +507,7 @@
 					id: "tconstruct:pickaxe"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: { }
 						tic_stats: {
 							"tconstruct:attack_damage": 2.5f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -512,16 +515,12 @@
 							"tconstruct:mining_speed": 7.2000003f
 							"tconstruct:attack_speed": 1.44f
 						}
-						tic_multipliers: { }
+						Damage: 0
 						tic_upgrades: [{
 							name: "tconstruct:overslime"
 							level: 1s
 						}]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:slimesteel"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:overslime"
@@ -540,7 +539,11 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:slimesteel"
+						]
 						tic_volatile_data: {
 							"tconstruct:overslime_cap": 200
 							"tconstruct:overslime_friend": 1b
@@ -548,8 +551,8 @@
 						}
 						tic_persistent_data: {
 							upgrades: 3
-							"tconstruct:overslime": 200
 							abilities: 1
+							"tconstruct:overslime": 200
 						}
 					}
 				}
@@ -566,7 +569,7 @@
 		{
 			title: "Repairing the tools"
 			x: 3.0d
-			y: 3.5d
+			y: 0.0d
 			subtitle: "with great speed comes... low durability."
 			description: ["Before you upgrade the tools you will use this item pretty often, so its good to get started crafting them."]
 			dependencies: [
@@ -591,7 +594,7 @@
 		{
 			title: "The mattock"
 			x: 5.5d
-			y: 4.0d
+			y: 0.5d
 			shape: "square"
 			subtitle: "you cant chop trees and plant seeds without this one."
 			description: ["Create a fast mattock with a similar design to the pickaxe you made before."]
@@ -604,7 +607,11 @@
 					id: "tconstruct:mattock"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 1.1f
+							"tconstruct:durability": 1.25f
+							"tconstruct:attack_damage": 1.1f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 4.4f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -612,20 +619,12 @@
 							"tconstruct:mining_speed": 7.9200006f
 							"tconstruct:attack_speed": 1.08f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 1.1f
-							"tconstruct:durability": 1.25f
-							"tconstruct:attack_damage": 1.1f
-						}
+						Damage: 0
 						tic_upgrades: [{
 							name: "tconstruct:overslime"
 							level: 1s
 						}]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:slimesteel"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:overslime"
@@ -648,7 +647,11 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:slimesteel"
+						]
 						tic_volatile_data: {
 							"tconstruct:overslime_cap": 224
 							"tconstruct:overslime_friend": 1b
@@ -656,8 +659,8 @@
 						}
 						tic_persistent_data: {
 							upgrades: 3
-							"tconstruct:overslime": 224
 							abilities: 1
+							"tconstruct:overslime": 224
 						}
 					}
 				}
@@ -674,7 +677,7 @@
 		{
 			title: "The ultimate starter mining tool?"
 			x: 5.5d
-			y: 2.0d
+			y: -1.5d
 			shape: "square"
 			subtitle: "This is the best tool to start off with with how much it can be upgraded."
 			description: ["This tool might seem weak at first and barely even on top if you dont upgrade the tool. With upgrades the tool will become unstoppable."]
@@ -687,7 +690,11 @@
 					id: "tconstruct:sledge_hammer"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:durability": 4.0f
+							"tconstruct:attack_damage": 1.35f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 6.4125f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -695,21 +702,12 @@
 							"tconstruct:mining_speed": 3.6000001f
 							"tconstruct:attack_speed": 0.90000004f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.4f
-							"tconstruct:durability": 4.0f
-							"tconstruct:attack_damage": 1.35f
-						}
+						Damage: 0
 						tic_upgrades: [{
 							name: "tconstruct:overslime"
 							level: 1s
 						}]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:overslime"
@@ -728,7 +726,12 @@
 								level: 3s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+						]
 						tic_volatile_data: {
 							"tconstruct:overslime_cap": 337
 							"tconstruct:overslime_friend": 1b
@@ -736,8 +739,8 @@
 						}
 						tic_persistent_data: {
 							upgrades: 2
-							"tconstruct:overslime": 337
 							abilities: 1
+							"tconstruct:overslime": 337
 						}
 					}
 				}
@@ -752,7 +755,7 @@
 		{
 			title: "The ultimate starter mining tool"
 			x: 6.5d
-			y: 0.5d
+			y: -3.0d
 			shape: "square"
 			subtitle: "This tool has more speed and durability than any other starting tool."
 			description: [
@@ -772,7 +775,11 @@
 					id: "tconstruct:sledge_hammer"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 4.0f
+							"tconstruct:attack_damage": 1.6875f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 7.0875f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -780,11 +787,7 @@
 							"tconstruct:mining_speed": 9.2f
 							"tconstruct:attack_speed": 0.90000004f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 4.0f
-							"tconstruct:attack_damage": 1.6875f
-						}
+						Damage: 0
 						tic_upgrades: [
 							{
 								name: "tconstruct:overslime"
@@ -803,12 +806,7 @@
 								level: 3s
 							}
 						]
-						tic_materials: [
-							"tconstruct:slimesteel"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-							"tconstruct:rose_gold"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:overslime"
@@ -839,7 +837,12 @@
 								level: 3s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+						]
 						tic_volatile_data: {
 							"tconstruct:overslime_cap": 337
 							"tconstruct:overslime_friend": 1b
@@ -849,8 +852,8 @@
 						tic_persistent_data: {
 							"tconstruct:haste": 45
 							upgrades: -3
-							"tconstruct:overslime": 337
 							abilities: 1
+							"tconstruct:overslime": 337
 						}
 					}
 				}
@@ -866,7 +869,7 @@
 		{
 			title: "The mighty tinker anvil"
 			x: 8.0d
-			y: 3.5d
+			y: 0.0d
 			shape: "square"
 			subtitle: "This one block is whats needed to progress in tinkers."
 			description: ["Although quite costly to make, its going to pay off quite well with the tools it allows you to make."]
@@ -890,7 +893,7 @@
 		{
 			title: "A fast attacking broad sword?"
 			x: 9.0d
-			y: 2.0d
+			y: -1.5d
 			shape: "pentagon"
 			subtitle: "Yes you heard me right, this broad sword can attack quite fast."
 			description: ["Out of all the materials, the most important one is honey. If you didnt destroy those bee hives in the island you should be able to get the honey required to get pig iron."]
@@ -903,7 +906,11 @@
 					id: "tconstruct:cleaver"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:durability": 3.5f
+							"tconstruct:attack_damage": 1.5f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 9.05625f
 							"tconstruct:harvest_tier": "minecraft:diamond"
@@ -911,17 +918,8 @@
 							"tconstruct:mining_speed": 1.3453126f
 							"tconstruct:attack_speed": 1.1f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.25f
-							"tconstruct:durability": 3.5f
-							"tconstruct:attack_damage": 1.5f
-						}
-						tic_materials: [
-							"tconstruct:nahuatl"
-							"tconstruct:rose_gold"
-							"tconstruct:pig_iron"
-							"tconstruct:pig_iron"
-						]
+						Damage: 0
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:lacerating"
@@ -944,7 +942,12 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:nahuatl"
+							"tconstruct:rose_gold"
+							"tconstruct:pig_iron"
+							"tconstruct:pig_iron"
+						]
 						tic_volatile_data: {
 							upgrades: 1
 						}
@@ -964,30 +967,27 @@
 			}]
 		}
 		{
+			title: "Engineering"
 			icon: "kubejs:engineer"
 			disable_toast: true
 			x: 5.5d
 			y: 8.5d
 			id: "186CB0917B42C66D"
 			tasks: [{
-				id: "56B47B17CFFD91B5"
-				type: "professions:profession"
-				disable_toast: true
-				prof: "professions:engineering_officer"
-				action: "LEVEL"
-				level: 2
+				id: "226026424F52F737"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "31774182320C720A"
+				id: "2F91407F11496706"
 				type: "command"
-				title: "Engineer Me"
+				title: "Gain Engineering Panel Access"
 				icon: "artis:engineering_panel"
 				command: "/phase grant @p engineer"
 				player_command: false
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "6FFC19737D17DEAD"
@@ -1003,7 +1003,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 1.0d
 			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "6192482C53032D56"
@@ -1019,8 +1019,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 12.0d
+			x: 0.0d
+			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "0C12203908115B80"
 			tasks: [{
@@ -1035,7 +1035,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "1D35DD7B20E11922"
@@ -1051,8 +1051,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 11.0d
+			x: -2.0d
+			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "62680BF3678A8BE7"
 			tasks: [{
@@ -1067,8 +1067,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 11.5d
+			x: -1.0d
+			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "2A0DD98C7F2B6F93"
 			tasks: [{
@@ -1193,18 +1193,10 @@
 		{
 			title: "NASA Workbench"
 			icon: "ad_astra:nasa_workbench"
-			x: 2.5d
-			y: 8.5d
+			x: 3.0d
+			y: 9.0d
 			dependencies: ["186CB0917B42C66D"]
 			id: "1273A4E0567699A6"
-			tasks: [{
-				id: "274CAAE114FFC020"
-				type: "professions:profession"
-				title: "Get Engineering level to 10"
-				prof: "professions:engineering_officer"
-				action: "LEVEL"
-				level: 10
-			}]
 			rewards: [{
 				id: "3B45924B490EB928"
 				type: "command"
@@ -1215,12 +1207,13 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 14.0d
+			x: 2.5d
+			y: 13.5d
 			dependencies: [
 				"023F74F1FF301B92"
 				"7F425AB3E4DA8AA8"
 			]
+			hide: true
 			id: "2BEBEB7D1CD4E7C0"
 			tasks: [{
 				id: "34FAF6016DE01A3A"
@@ -1234,6 +1227,167 @@
 				icon: "ad_astra:desh_cable"
 				command: "/phase grant @p deshcable"
 				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "512C555C18DDA0C6"
+			tasks: [{
+				id: "5A3DC406CA2615F9"
+				type: "item"
+				item: "indrev:energy_reader"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "33D591AF097D9D38"
+			tasks: [{
+				id: "30C18D0B5F0DD7CB"
+				type: "item"
+				item: "indrev:pump_mk1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["06252A848CE80A1B"]
+			id: "69AE4DD152FE40B2"
+			tasks: [{
+				id: "3879038CC5FF68F8"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["775C346406100518"]
+			id: "6FBFE58A24280365"
+			tasks: [{
+				id: "162469FA28E9C890"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["4913AF9565D2F063"]
+			id: "7618F079AA6BB9A2"
+			tasks: [{
+				id: "3CBBD780A10C6C7B"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["06252A848CE80A1B"]
+			id: "4CF2F295CA6DED99"
+			tasks: [{
+				id: "4629747FADF02CA4"
+				type: "item"
+				item: "indrev:solid_infuser_mk1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["775C346406100518"]
+			id: "08ED6ED0C804F39C"
+			tasks: [{
+				id: "47F50B307A755DE5"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["4913AF9565D2F063"]
+			id: "006BA05C60692161"
+			tasks: [{
+				id: "05632D237AE4D3FF"
+				type: "item"
+				item: "indrev:enriched_nikolite_ingot"
+				count: 10L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "674165D33D107B39"
+			tasks: [{
+				id: "03E83958870510CF"
+				type: "item"
+				item: "indrev:charge_pad_mk4"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "6DDC6161530A0AD7"
+			tasks: [{
+				id: "6CE3B88A52B3A6FE"
+				type: "item"
+				item: "indrev:condenser_mk4"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "242B70FE839992B6"
+			tasks: [{
+				id: "1EDA692B5D050B7D"
+				type: "item"
+				item: "indrev:smelter_mk4"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "3136B4C86ED32A5C"
+			tasks: [{
+				id: "15F15F1747B7FE88"
+				type: "item"
+				item: "indrev:mining_rig_mk4"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "75B2CAE549E859C4"
+			tasks: [{
+				id: "6815444FCFC4A875"
+				type: "item"
+				item: "indrev:drill_bottom"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.5d
+			dependencies: ["1B2650377A0E5FF5"]
+			id: "1EAB97E3B0467FC3"
+			tasks: [{
+				id: "2D50ABDF3F1F8F99"
+				type: "item"
+				item: "rswires:red_alloy_wire"
+			}]
+			rewards: [{
+				id: "21E3E9A13478EEA3"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 	]

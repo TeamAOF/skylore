@@ -3,7 +3,7 @@
 	group: "38D73AD51340A19B"
 	order_index: 5
 	filename: "security_office"
-	title: "Security Officer"
+	title: "Security"
 	icon: "kubejs:security_officer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -29,18 +29,16 @@
 			description: ["You specialize in killing things with any weapon. Prove it."]
 			id: "3A533982BC1CDF3C"
 			tasks: [{
-				id: "30B81FF3D6BDF1E6"
-				type: "professions:profession"
-				icon: "kubejs:security_officer"
-				disable_toast: true
-				prof: "professions:security_officer"
-				action: "LEVEL"
-				level: 2
+				id: "49C72D38BE66EC56"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "19F8B2C991257A31"
-				type: "questsadditions:repeat"
-				table_id: 6385377144004890463L
+				id: "605DD7FE1C28A39F"
+				type: "command"
+				title: "Gain Security Panel Access"
+				icon: "artis:security_panel"
+				command: "/phase grant @p security"
+				player_command: false
 			}]
 		}
 		{
@@ -103,101 +101,101 @@
 						items: [
 							{
 								id: "simplyswords:iron_cutlass"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_warglaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_glaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_spear"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_sai"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_katana"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_rapier"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_twinblade"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_longsword"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_scythe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_chakram"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_greataxe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_greathammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:iron_claymore"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -219,101 +217,101 @@
 						items: [
 							{
 								id: "simplyswords:gold_cutlass"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_warglaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_glaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_spear"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_sai"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_katana"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_rapier"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_twinblade"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_longsword"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_claymore"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_greathammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_greataxe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_chakram"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:gold_scythe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -335,101 +333,101 @@
 						items: [
 							{
 								id: "simplyswords:diamond_warglaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_cutlass"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_glaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_spear"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_sai"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_katana"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_rapier"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_twinblade"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_longsword"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_claymore"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_greathammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_greataxe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_chakram"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:diamond_scythe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -451,101 +449,101 @@
 						items: [
 							{
 								id: "simplyswords:netherite_cutlass"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_warglaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_glaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_spear"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_sai"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_katana"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_rapier"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_twinblade"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_longsword"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_claymore"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_greathammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_greataxe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_chakram"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:netherite_scythe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}
@@ -567,95 +565,95 @@
 						items: [
 							{
 								id: "simplyswords:runic_claymore"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_cutlass"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_sai"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_spear"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_glaive"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_katana"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_rapier"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_twinblade"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_longsword"
+								Count: 1b
 								tag: {
 									Damage: 0
 									runic_power: 32
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_chakram"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_greataxe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_greathammer"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "simplyswords:runic_scythe"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 						]
 					}

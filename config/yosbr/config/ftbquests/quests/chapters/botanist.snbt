@@ -3,7 +3,7 @@
 	group: "38D73AD51340A19B"
 	order_index: 4
 	filename: "botanist"
-	title: "Science Officer"
+	title: "Science"
 	icon: "kubejs:botanist"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -28,13 +28,17 @@
 			y: 1.0d
 			id: "46CC82F993D692F1"
 			tasks: [{
-				id: "54C40F9DC5BCD98B"
-				type: "professions:profession"
-				icon: "kubejs:botanist"
-				disable_toast: true
-				prof: "professions:science_officer"
-				action: "LEVEL"
-				level: 2
+				id: "49531D17B43DDF09"
+				type: "checkmark"
+				title: "Science!"
+			}]
+			rewards: [{
+				id: "347C81CAB9D19340"
+				type: "command"
+				title: "Gain Science Panel Access"
+				icon: "artis:science_panel"
+				command: "/phase grant @p science"
+				player_command: false
 			}]
 		}
 		{
@@ -154,6 +158,12 @@
 				type: "item"
 				item: "botanypots:terracotta_botany_pot"
 			}]
+			rewards: [{
+				id: "4933486A8D843AD1"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			x: -2.0d
@@ -164,6 +174,12 @@
 				id: "4CA5FC42919C40C4"
 				type: "item"
 				item: "botanypots:terracotta_hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "46694C61CAE1BEB5"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
 			}]
 		}
 		{
@@ -176,6 +192,12 @@
 				type: "item"
 				item: "botanypotstiers:ultra_terracotta_botany_pot"
 			}]
+			rewards: [{
+				id: "2645E78BAC2EDE3C"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
 		}
 		{
 			x: -3.0d
@@ -186,6 +208,12 @@
 				id: "657EC498B718E33E"
 				type: "item"
 				item: "botanypotstiers:ultra_terracotta_hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "5DFF696D0EA7CFDF"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 		{
@@ -198,6 +226,12 @@
 				type: "item"
 				item: "botanypotstiers:elite_terracotta_botany_pot"
 			}]
+			rewards: [{
+				id: "320DE91E524A30F4"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
 		}
 		{
 			x: -4.0d
@@ -208,6 +242,12 @@
 				id: "1E639275A2426FB4"
 				type: "item"
 				item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+			}]
+			rewards: [{
+				id: "14F7F82F0F12E88F"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
 			}]
 		}
 		{
@@ -379,6 +419,12 @@
 					count: 64L
 				}
 			]
+			rewards: [{
+				id: "38AC4D36F14341A6"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 15
+			}]
 		}
 		{
 			x: -1.0d
@@ -396,10 +442,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0C366D0A4F1B2289"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
-			x: -1.5d
-			y: 3.5d
+			x: -2.5d
+			y: -1.0d
 			dependencies: ["46CC82F993D692F1"]
 			id: "529FC38FECDBE006"
 			tasks: [{
@@ -407,10 +459,16 @@
 				type: "item"
 				item: "expandedstorage:iron_chest"
 			}]
+			rewards: [{
+				id: "4FF95737F2F8728C"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			x: -0.5d
-			y: 3.5d
+			y: -2.0d
 			dependencies: ["46CC82F993D692F1"]
 			id: "1729BE131EC63532"
 			tasks: [{
@@ -418,11 +476,17 @@
 				type: "item"
 				item: "expandedstorage:iron_barrel"
 			}]
+			rewards: [{
+				id: "1D8C07D2CA2CA422"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
 			title: "Enter The Bronze Age"
-			x: 1.5d
-			y: 3.5d
+			x: 3.5d
+			y: 3.0d
 			subtitle: "Enter a new age of technology"
 			description: [
 				"Most would think this would belong to engineering."
@@ -450,8 +514,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 4.0d
+			y: 4.5d
 			dependencies: ["39648117EFEF09F7"]
 			id: "7790D57C5DD0CB7D"
 			tasks: [{
@@ -463,24 +527,16 @@
 		{
 			title: "Flight"
 			icon: "kubejs:pilot"
-			x: -6.5d
-			y: -2.5d
+			x: -14.0d
+			y: -4.5d
+			dependencies: ["69AD5130633DDD7F"]
+			hide: true
 			id: "5DFC98275B1F19DF"
-			tasks: [
-				{
-					id: "7E9B661191D13810"
-					type: "item"
-					item: "artis:engineering_panel"
-				}
-				{
-					id: "170F56C6CCB6E8B7"
-					type: "professions:profession"
-					icon: "kubejs:engineer"
-					prof: "professions:engineering_officer"
-					action: "LEVEL"
-					level: 5
-				}
-			]
+			tasks: [{
+				id: "7E9B661191D13810"
+				type: "item"
+				item: "artis:engineering_panel"
+			}]
 			rewards: [{
 				id: "5AEBCFF72ED692D8"
 				type: "item"
@@ -495,8 +551,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: -6.5d
-			y: -1.0d
+			x: -14.0d
+			y: -3.0d
 			dependencies: ["5DFC98275B1F19DF"]
 			id: "4882C8589F4C114D"
 			tasks: [{
@@ -514,83 +570,83 @@
 						items: [
 							{
 								id: "kibe:light_gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:magenta_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:orange_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:white_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:light_blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:yellow_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:lime_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:pink_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:gray_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:cyan_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:blue_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:purple_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:green_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:brown_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:red_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 							{
 								id: "kibe:black_glider"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
 					}
@@ -604,8 +660,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 0.5d
+			x: -14.0d
+			y: -1.5d
 			dependencies: ["4882C8589F4C114D"]
 			id: "009A42C4E1B4237E"
 			tasks: [{
@@ -613,11 +669,17 @@
 				type: "item"
 				item: "nyfsairships:ship_controller"
 			}]
+			rewards: [{
+				id: "423ADE27DDA116F8"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
 		}
 		{
 			title: "Steel Discovery"
-			x: 2.5d
-			y: 6.5d
+			x: 4.5d
+			y: 6.0d
 			dependencies: ["7790D57C5DD0CB7D"]
 			id: "14564CBA11849066"
 			tasks: [{
@@ -628,8 +690,8 @@
 		}
 		{
 			title: "Ship Helm"
-			x: -6.5d
-			y: 2.0d
+			x: -14.0d
+			y: 0.0d
 			dependencies: ["009A42C4E1B4237E"]
 			id: "412B5E46ABDF0230"
 			tasks: [{
@@ -676,11 +738,26 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "78F0DA3F6300DD49"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 3
+				}
+				{
+					id: "57B51ED3F8066164"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p astrodux"
+					player_command: false
+				}
+			]
 		}
 		{
 			title: "Balloons"
-			x: -8.0d
-			y: 2.0d
+			x: -15.5d
+			y: 0.0d
 			dependencies: ["412B5E46ABDF0230"]
 			id: "1398CBA59A77E6FE"
 			tasks: [{
@@ -755,10 +832,16 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1601DB69CBFB3020"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
 		}
 		{
-			x: -8.0d
-			y: 0.5d
+			x: -15.5d
+			y: -1.5d
 			dependencies: ["009A42C4E1B4237E"]
 			id: "1010FB4430426177"
 			tasks: [{
@@ -766,10 +849,16 @@
 				type: "item"
 				item: "nyfsairships:balloon_block"
 			}]
+			rewards: [{
+				id: "58283546A6580E81"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
 		}
 		{
-			x: 3.0d
-			y: 8.0d
+			x: 5.0d
+			y: 7.5d
 			dependencies: ["14564CBA11849066"]
 			id: "42750898562DFE67"
 			tasks: [{
@@ -780,8 +869,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 9.5d
+			x: 5.5d
+			y: 9.0d
 			dependencies: ["42750898562DFE67"]
 			id: "7520CCE9FEB4DD97"
 			tasks: [{
@@ -791,8 +880,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 10.5d
+			x: 4.0d
+			y: 9.5d
 			dependencies: ["7520CCE9FEB4DD97"]
 			id: "592A9981B8621560"
 			tasks: [{
@@ -802,8 +891,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 10.0d
+			x: 2.0d
+			y: 11.0d
 			dependencies: ["592A9981B8621560"]
 			id: "349FE25691707B5B"
 			tasks: [{
@@ -813,7 +902,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 3.0d
 			y: 11.0d
 			dependencies: ["592A9981B8621560"]
 			id: "60FAE265AA044733"
@@ -824,8 +913,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 12.0d
+			x: 4.0d
+			y: 11.0d
 			dependencies: ["592A9981B8621560"]
 			id: "043090EACE74D66B"
 			tasks: [{
@@ -836,7 +925,7 @@
 		}
 		{
 			x: 5.5d
-			y: 10.0d
+			y: 11.0d
 			dependencies: ["7520CCE9FEB4DD97"]
 			id: "13EBCE050065C5D0"
 			tasks: [{
@@ -847,7 +936,7 @@
 		}
 		{
 			x: 7.0d
-			y: 10.5d
+			y: 11.0d
 			dependencies: ["13EBCE050065C5D0"]
 			id: "7E4D928E626ED190"
 			tasks: [{
@@ -869,7 +958,7 @@
 		}
 		{
 			x: 10.0d
-			y: 11.5d
+			y: 11.0d
 			dependencies: ["75A207EE52D7B9D3"]
 			id: "2DC30E1B26EB32A9"
 			tasks: [{
@@ -879,21 +968,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
-			subtitle: "Seasons be bumming you out?"
-			description: ["Keep track of what season it is."]
-			dependencies: ["46CC82F993D692F1"]
-			id: "57233C8517625791"
-			tasks: [{
-				id: "07D8625718E4E6DD"
-				type: "item"
-				item: "seasons:season_calendar"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 3.0d
+			x: -13.0d
+			y: 1.0d
 			dependencies: ["412B5E46ABDF0230"]
 			id: "7B1B4DF73D00861F"
 			tasks: [{
@@ -901,33 +977,42 @@
 				type: "item"
 				item: "automobility:automobile_assembler"
 			}]
+			rewards: [{
+				id: "3D9B37DA874EEEB6"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
 		}
 		{
 			title: "Got any plants?"
-			x: -1.0d
+			x: -0.5d
 			y: 1.0d
 			subtitle: "No, I haven't botany."
 			dependencies: ["46CC82F993D692F1"]
 			id: "17A7A1DA7A6BE4E5"
 			tasks: [{
 				id: "6F6438122CD1EE6A"
-				type: "professions:profession"
+				type: "custom"
 				title: "Get that Science Experience"
 				icon: "kubejs:botanist"
-				prof: "professions:science_officer"
-				action: "LEVEL"
-				level: 10
 			}]
 		}
 		{
-			x: -7.5d
-			y: 3.5d
+			x: -15.0d
+			y: 1.5d
 			dependencies: ["412B5E46ABDF0230"]
 			id: "2F5D7AB33F7EFB78"
 			tasks: [{
 				id: "484CEE02BA497462"
 				type: "item"
 				item: "ad_astra:astrodux"
+			}]
+			rewards: [{
+				id: "46116250BB358193"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 		{
@@ -951,6 +1036,537 @@
 				icon: "ad_astra:desh_ingot"
 				command: "/phase grant @p desh"
 				player_command: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["13D1D05BD914D7B2"]
+			id: "166AA7A58FA6DE7E"
+			tasks: [{
+				id: "6E7D4C243284FD27"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["166AA7A58FA6DE7E"]
+			id: "76F4404DB374B09C"
+			tasks: [{
+				id: "4162A0708EB3C401"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+			}]
+		}
+		{
+			title: "Investigate the silk worm"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "You're probably gonna need this"
+			dependencies: ["46CC82F993D692F1"]
+			id: "0A685101FD7EB730"
+			tasks: [{
+				id: "1CFEAC60CB4AFAAB"
+				type: "item"
+				item: "fabricaeexnihilo:raw_silkworm"
+				count: 50L
+			}]
+			rewards: [{
+				id: "6A4777048EEEA554"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Research Nuclear Power"
+			icon: "modern_industrialization:uranium_ore"
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["014AB8B1840114D8"]
+			id: "713DF1ED6DCE9257"
+			tasks: [{
+				id: "71F4A49DC96A8139"
+				type: "item"
+				item: "kubejs:radiated_stone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "25476FA00EA957A2"
+				type: "command"
+				title: "Gain the ability to identify uranium"
+				icon: "modern_industrialization:uranium_ore"
+				command: "/phase grant @p uranium"
+				player_command: false
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "Magic is just Science we haven't figured out yet"
+			dependencies: ["17A7A1DA7A6BE4E5"]
+			id: "37FDD9FEA4D81593"
+			tasks: [{
+				id: "35D9B33E29547686"
+				type: "advancement"
+				title: "Find special mushrooms"
+				advancement: "magicfungi:root"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "43C1F68B77503274"
+					type: "item"
+					item: "magicfungi:guide_book"
+				}
+				{
+					id: "1EA52B61A06A0030"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["37FDD9FEA4D81593"]
+			id: "36AEA21BC3E680C3"
+			tasks: [{
+				id: "08259DCED5B1519F"
+				type: "advancement"
+				advancement: "magicfungi:glyph_workbench"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1B80A96C4E66D53E"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			dependencies: ["36AEA21BC3E680C3"]
+			id: "590A4D5608F471C6"
+			tasks: [{
+				id: "07B24B43090D02F5"
+				type: "advancement"
+				advancement: "magicfungi:utilis_glyphs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6029BDAA42EB9BD2"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			dependencies: ["36AEA21BC3E680C3"]
+			id: "66467CDD9E93A58D"
+			tasks: [{
+				id: "5E27C548883A6A0D"
+				type: "advancement"
+				advancement: "magicfungi:vivifica_glyphs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "031E181F0C02EA04"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["36AEA21BC3E680C3"]
+			id: "72D451F035DC2194"
+			tasks: [{
+				id: "5E4907CA32089EA8"
+				type: "advancement"
+				advancement: "magicfungi:morbus_glyphs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7D66103A92084A0A"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["36AEA21BC3E680C3"]
+			id: "0D80317C886E890F"
+			tasks: [{
+				id: "6BDA87124679A7A3"
+				type: "advancement"
+				advancement: "magicfungi:spell_workbench"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C13848969ECFA90"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["0D80317C886E890F"]
+			id: "414B5B93F5EC414C"
+			tasks: [{
+				id: "736D23199A8CCFE2"
+				type: "advancement"
+				advancement: "magicfungi:vivifica_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "644CD44F6A6B958A"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["0D80317C886E890F"]
+			id: "5EC7DF66DBC1E67B"
+			tasks: [{
+				id: "3CB69C5664AA7338"
+				type: "advancement"
+				advancement: "magicfungi:utilis_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "55EAF23BFD313771"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["0D80317C886E890F"]
+			id: "3C55DBA76D1444BE"
+			tasks: [{
+				id: "13FB734E7E906B85"
+				type: "advancement"
+				advancement: "magicfungi:impetus_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C1EDB781997CC7A"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			dependencies: ["0D80317C886E890F"]
+			id: "340218154978D354"
+			tasks: [{
+				id: "383D1E17F9BA5760"
+				type: "advancement"
+				advancement: "magicfungi:clypeus_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3C92702CAA93FACF"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["37FDD9FEA4D81593"]
+			id: "4903EC57FB213515"
+			tasks: [{
+				id: "3C41A3AAC6955CF3"
+				type: "advancement"
+				advancement: "magicfungi:fungi_fertilizer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "37536588447735E6"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["37FDD9FEA4D81593"]
+			id: "42EF27AD49B2B5C0"
+			tasks: [{
+				id: "3BE57580C700AE82"
+				type: "advancement"
+				advancement: "magicfungi:essences"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6CC48187C3653E24"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			dependencies: ["42EF27AD49B2B5C0"]
+			id: "05521A48797563D6"
+			tasks: [{
+				id: "1F67349D702CF3B6"
+				type: "advancement"
+				advancement: "magicfungi:essence_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04963D9FAB128858"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: ["42EF27AD49B2B5C0"]
+			id: "391E2A2599684A79"
+			tasks: [{
+				id: "27149637181C0FEF"
+				type: "advancement"
+				advancement: "magicfungi:essence_glyphs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "30D09A622B742122"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["42EF27AD49B2B5C0"]
+			id: "158DC28DA5C96A06"
+			tasks: [{
+				id: "7067904EFF8C6951"
+				type: "advancement"
+				advancement: "magicfungi:magic_condenser"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "456B84923E849638"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 4
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			dependencies: ["158DC28DA5C96A06"]
+			id: "1A4918D59D7E1251"
+			tasks: [{
+				id: "02CBF5BDC0AFD891"
+				type: "advancement"
+				advancement: "magicfungi:relics"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "349E34DA7FC99D04"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["1A4918D59D7E1251"]
+			id: "433E3A027B98170A"
+			tasks: [{
+				id: "61EE6767389A6211"
+				type: "advancement"
+				advancement: "magicfungi:fungi_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5D9689C78DE20872"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 10
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["17A7A1DA7A6BE4E5"]
+			id: "08454245DC71BA14"
+			tasks: [{
+				id: "382D2C4AD811330A"
+				type: "checkmark"
+				title: "ROCKS!"
+			}]
+			rewards: [{
+				id: "0A498C3B84848DC7"
+				type: "command"
+				title: "Unlock Earth Examiner Usage"
+				icon: "artis:earth_examiner"
+				command: "/phase grant @p earthex"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			dependencies: ["08454245DC71BA14"]
+			id: "1C92F179450F9ABB"
+			tasks: [{
+				id: "623F695BAD3BC08B"
+				type: "item"
+				item: "extractinator:extractinator"
+			}]
+			rewards: [{
+				id: "3B2D73EE099D3B4F"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 5
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			dependencies: ["08454245DC71BA14"]
+			id: "511CEBBEAA8C03F4"
+			tasks: [{
+				id: "7BBF924A79BB86FD"
+				type: "item"
+				item: "artifacts:obsidian_skull"
+			}]
+			rewards: [{
+				id: "1A03D77ADF783745"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 5
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["08454245DC71BA14"]
+			id: "3EBC5488E23D324F"
+			tasks: [{
+				id: "5840739FA22A12E3"
+				type: "item"
+				item: "artifacts:lucky_scarf"
+			}]
+			rewards: [{
+				id: "398A2401D3713417"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["08454245DC71BA14"]
+			id: "493694C49CB3DE52"
+			tasks: [{
+				id: "3F5754BA0ECF923A"
+				type: "item"
+				item: "artifacts:digging_claws"
+			}]
+			rewards: [{
+				id: "655CB14FBD00F3EF"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["46CC82F993D692F1"]
+			id: "7FEDFEC82854A538"
+			tasks: [{
+				id: "5C1AC1ED8835C4A5"
+				type: "advancement"
+				title: "Make it to the Bumblezone (planet)"
+				icon: "spectrum:bee_head"
+				advancement: "the_bumblezone:the_bumblezone/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["7FEDFEC82854A538"]
+			hide: true
+			id: "7FBC8335309586B2"
+			tasks: [{
+				id: "39CAD43CC8A119E7"
+				type: "advancement"
+				title: "Explore the bee planet"
+				advancement: "the_bumblezone:the_bumblezone/cell_maze/enter_cell_maze"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["7FEDFEC82854A538"]
+			id: "33F35495B8825530"
+			tasks: [{
+				id: "5452DF3492A87218"
+				type: "advancement"
+				title: "Bee a friend"
+				advancement: "the_bumblezone:the_bumblezone/beehemoth/tamed_beehemoth"
+				criterion: ""
+			}]
+		}
+		{
+			x: -17.5d
+			y: -1.5d
+			dependencies: ["1010FB4430426177"]
+			id: "23B8DA8FE0A3A9AA"
+			tasks: [{
+				id: "523A68EF54CEFFB1"
+				type: "item"
+				item: "nyfsairships:control_key"
+			}]
+			rewards: [{
+				id: "365BA46A53103F13"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 3
 			}]
 		}
 	]

@@ -3,7 +3,7 @@
 	group: "38D73AD51340A19B"
 	order_index: 3
 	filename: "chef"
-	title: "Nutrition Officer"
+	title: "Nutrition"
 	icon: "kubejs:chef"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -28,18 +28,13 @@
 			description: ["You need to show a little prowess to get this goat cheese. Reach level 2 and you can use the chef table, opening many items."]
 			id: "2B1E87EA80F17E5B"
 			tasks: [{
-				id: "56E8128D299B6BBC"
-				type: "professions:profession"
-				title: "Reach chef level 2"
-				icon: "kubejs:chef"
-				prof: "professions:medical_officer"
-				action: "LEVEL"
-				level: 2
+				id: "58DDA994D21A9E66"
+				type: "checkmark"
 			}]
 			rewards: [{
-				id: "61C9960FA43524E9"
+				id: "08A642AF12D3A9A7"
 				type: "command"
-				title: "Gain access to the chef table"
+				title: "Gain Chef Table Access"
 				icon: "artis:chef_table"
 				command: "/phase grant @p chef"
 				player_command: false

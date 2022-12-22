@@ -15,11 +15,8 @@
 			dependencies: ["0EB0B17A06209563"]
 			id: "4B0BD12E5FCC3241"
 			tasks: [{
-				id: "0AA604CA7C5D577B"
-				type: "professions:profession"
-				prof: "professions:engineering_officer"
-				action: "LEVEL"
-				level: 2
+				id: "6088C9FC9FFE2EBA"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -30,11 +27,8 @@
 			dependencies: ["0EB0B17A06209563"]
 			id: "616DCDBCB0B75AE5"
 			tasks: [{
-				id: "71B5B4571F49E44F"
-				type: "professions:profession"
-				prof: "professions:science_officer"
-				action: "LEVEL"
-				level: 2
+				id: "3B79A6D37924E4E2"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -45,11 +39,8 @@
 			dependencies: ["0EB0B17A06209563"]
 			id: "29F0244B5C5B1705"
 			tasks: [{
-				id: "6B8FA273472F2FBE"
-				type: "professions:profession"
-				prof: "professions:medical_officer"
-				action: "LEVEL"
-				level: 2
+				id: "6D2601CCAF5FC9E4"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -189,6 +180,167 @@
 				type: "command"
 				command: "/phase grant @p rocket2"
 				player_command: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["68B1CEBBC7D77BB5"]
+			id: "7D43CE8FA9B9FD5D"
+			tasks: [{
+				id: "7B5DC09DC2ACB3B2"
+				type: "item"
+				item: "ad_astra:oxygen_sensor"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["68B1CEBBC7D77BB5"]
+			id: "49AD8049562A1CD4"
+			tasks: [{
+				id: "1B91F882A84A6AE8"
+				type: "item"
+				item: "ad_astra:ostrum_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["68B1CEBBC7D77BB5"]
+			id: "346DC3C9C34B01EA"
+			tasks: [{
+				id: "3C00908290516F91"
+				type: "item"
+				item: "ad_astra:cryo_freezer"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: [
+				"346DC3C9C34B01EA"
+				"49AD8049562A1CD4"
+				"7D43CE8FA9B9FD5D"
+			]
+			id: "444F361CC86BB99A"
+			tasks: [{
+				id: "0888DEEB884373A2"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			dependencies: ["444F361CC86BB99A"]
+			id: "1089B87E8D32E8F1"
+			tasks: [{
+				id: "724B5971061D1DDD"
+				type: "item"
+				item: "ad_astra:calorite_ingot"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.5d
+			dependencies: ["0C86677FE5AB4391"]
+			id: "35D0166FCCCAE06B"
+			tasks: [
+				{
+					id: "47A40FFC5B80B25A"
+					type: "item"
+					item: {
+						id: "modern_industrialization:quantum_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0BF9ACBC55DF55F7"
+					type: "item"
+					item: {
+						id: "modern_industrialization:quantum_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "322381EECCB1C929"
+					type: "item"
+					item: {
+						id: "modern_industrialization:quantum_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5671F7C3ACF95354"
+					type: "item"
+					item: {
+						id: "modern_industrialization:quantum_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "15620D0906AE8CB4"
+					type: "item"
+					item: "modern_industrialization:quantum_sword"
+				}
+			]
+		}
+		{
+			title: "Is time travel real?"
+			x: 18.5d
+			y: 0.5d
+			dependencies: ["35D0166FCCCAE06B"]
+			id: "032ECE4784A9BBC3"
+			tasks: [{
+				id: "7EF65EC266A58E46"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_4_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.5d
+			dependencies: ["032ECE4784A9BBC3"]
+			id: "24F804DD12CA2412"
+			tasks: [{
+				id: "4F4B6F9E79746E75"
+				type: "checkmark"
+				title: "Get to Main Asset"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["1089B87E8D32E8F1"]
+			id: "0C86677FE5AB4391"
+			tasks: [{
+				id: "344D84B95854578B"
+				type: "item"
+				item: "modern_industrialization:quantum_upgrade"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.5d
+			dependencies: ["0C86677FE5AB4391"]
+			id: "7CB91A1B6757E950"
+			tasks: [{
+				id: "55EBE695D0F91151"
+				type: "item"
+				item: "artis:nulla"
 			}]
 		}
 	]

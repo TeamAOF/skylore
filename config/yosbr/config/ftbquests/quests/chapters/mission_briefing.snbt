@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "mission_briefing"
 	title: "Mission Briefing"
-	icon: "spectrum:purple_star_candy"
+	icon: "ftbquests:missing_item"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -20,26 +20,6 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -10.0d
-			id: "3D10E6F191AA134F"
-			tasks: [{
-				id: "26130F3519576B25"
-				type: "checkmark"
-				title: "something about professions"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -10.0d
-			id: "10FA2A1A127B64D6"
-			tasks: [{
-				id: "5F8DCD9087FB06B0"
-				type: "checkmark"
-				title: "something about virus"
-			}]
-		}
-		{
 			x: -0.5d
 			y: -9.5d
 			description: [
@@ -52,6 +32,16 @@
 				id: "794C5F7F90E7267D"
 				type: "checkmark"
 				title: "Not like other adventures"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.5d
+			id: "5CBC7C5782DDD486"
+			tasks: [{
+				id: "7CAAF8C32D7886C1"
+				type: "checkmark"
+				title: "Be sure to check items"
 			}]
 		}
 	]
