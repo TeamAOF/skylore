@@ -5,8 +5,6 @@ onEvent('recipes', (event) => {
         "#"
     ],
     {
-        "#": {
-            "item": "#minecraft:logs"
-        }
+        "#": "#minecraft:logs"
     })
 })
