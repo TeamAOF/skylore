@@ -85,6 +85,7 @@ onEvent('gamephases.initialize', event => {
 	 .entity('minecraft:enderman')
 	 .entity('minecraft:spider')
 	 .entity('minecraft:witch')
+	 .entity('minecraft:zombie_villager')
 	 
 	 
      

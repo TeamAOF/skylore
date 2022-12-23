@@ -203,7 +203,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "fabricaeexnihilo:dust"
@@ -236,7 +236,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:dark_oak_leaves"
@@ -251,7 +251,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:sand"
@@ -266,7 +266,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:acacia_leaves"
@@ -281,7 +281,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:dirt"
@@ -386,7 +386,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "fabricaeexnihilo:silt"
@@ -406,7 +406,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:jungle_leaves"
@@ -421,7 +421,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:coarse_dirt"
@@ -436,7 +436,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:birch_leaves"
@@ -451,7 +451,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:gravel"
@@ -503,7 +503,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:oak_leaves"
@@ -518,7 +518,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:spruce_leaves"
@@ -533,7 +533,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:birch_leaves"
@@ -548,7 +548,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "fabricaeexnihilo:crushed_netherite"
@@ -563,7 +563,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:red_sand"
@@ -583,7 +583,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "fabricaeexnihilo:crushed_calcite"
@@ -598,7 +598,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:soul_sand"
@@ -622,7 +622,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:sand"
@@ -637,7 +637,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "minecraft:sand"
@@ -652,7 +652,7 @@ onEvent('recipes', (event) => {
         event.custom({
             "type": "createsifter:sifting",
             "ingredients": [{
-                    "item": "createsifter:fine_mesh"
+                    "item": "kubejs:fine_mesh"
                 },
                 {
                     "item": "fabricaeexnihilo:crushed_granite"
