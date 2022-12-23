@@ -4,6 +4,7 @@
   "hungerExhaustion": 0.05,
   "type": "BLACKLIST",
   "list": [
-    "sandwichable:sandwich_table"
+    "sandwichable:sandwich_table",
+    "createsifter:sifter"
   ]
 }
