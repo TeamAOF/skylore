@@ -1124,6 +1124,16 @@
                                                   }
                             },
                             {
+                                "addonID":  449932,
+                                "name":  "Limit Mob Spawn",
+                                "installedFile":  {
+                                                      "id":  3676293,
+                                                      "fileName":  "LimitMobSpawn-18.2-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3676/293/LimitMobSpawn-18.2-fabric.jar",
+                                                      "FileNameOnDisk":  "LimitMobSpawn-18.2-fabric.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  360438,
                                 "name":  "Lithium (Fabric)",
                                 "installedFile":  {
