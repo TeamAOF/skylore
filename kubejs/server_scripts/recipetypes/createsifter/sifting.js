@@ -691,23 +691,6 @@ onEvent('recipes', (event) => {
                 "item": "createsifter:zinc_mesh"
             },
             {
-                "item": "fabricaeexnihilo:crushed_blackstone"
-            }
-            ],
-            "results": [
-            {
-                "item": "fabricaeexnihilo:raw_stormyx_piece",
-                "chance": 0.05
-            }
-        ],
-            "processingTime": 300
-        }),
-        event.custom({
-            "type": "createsifter:sifting",
-            "ingredients": [{
-                "item": "createsifter:zinc_mesh"
-            },
-            {
                 "item": "fabricaeexnihilo:crushed_endstone"
             }
             ],
@@ -719,27 +702,6 @@ onEvent('recipes', (event) => {
             {
                 "item": "fabricaeexnihilo:raw_silver_piece",
                 "chance": 0.05
-            }
-        ],
-            "processingTime": 300
-        }),
-        event.custom({
-            "type": "createsifter:sifting",
-            "ingredients": [{
-                "item": "createsifter:zinc_mesh"
-            },
-            {
-                "item": "fabricaeexnihilo:crushed_diorite"
-            }
-            ],
-            "results": [
-            {
-                "item": "fabricaeexnihilo:raw_osmium_piece",
-                "chance": 0.025
-            },
-            {
-                "item": "fabricaeexnihilo:raw_maganese_piece",
-                "chance": 0.025
             }
         ],
             "processingTime": 300
@@ -771,10 +733,6 @@ onEvent('recipes', (event) => {
             }
             ],
             "results": [
-            {
-                "item": "fabricaeexnihilo:raw_osmium_piece",
-                "chance": 0.025
-            },
             {
                 "item": "fabricaeexnihilo:raw_iron_piece",
                 "chance": 0.01
@@ -813,27 +771,6 @@ onEvent('recipes', (event) => {
                 "item": "createsifter:zinc_mesh"
             },
             {
-                "item": "fabricaeexnihilo:crushed_prismarine"
-            }
-            ],
-            "results": [
-            {
-                "item": "fabricaeexnihilo:raw_aquarium_piece",
-                "chance": 0.025
-            },
-            {
-                "item": "mythicmetals:aquarium_pearl",
-                "chance": 0.001
-            }
-        ],
-            "processingTime": 300
-        }),
-        event.custom({
-            "type": "createsifter:sifting",
-            "ingredients": [{
-                "item": "createsifter:zinc_mesh"
-            },
-            {
                 "item": "fabricaeexnihilo:silt"
             }
             ],
@@ -856,10 +793,6 @@ onEvent('recipes', (event) => {
             ],
             "results": [
             {
-                "item": "fabricaeexnihilo:raw_kyber_piece",
-                "chance": 0.025
-            },
-            {
                 "item": "minecraft:amethyst_shard",
                 "chance": 0.01
             }
@@ -877,20 +810,12 @@ onEvent('recipes', (event) => {
             ],
             "results": [
             {
-                "item": "mythicmetals:banglum_chunk",
-                "chance": 0.05
-            },
-            {
                 "item": "fabricaeexnihilo:deepslate_pebble",
                 "chance": 0.3
             },
             {
                 "item": "fabricaeexnihilo:raw_lead_piece",
                 "chance": 0.07
-            },
-            {
-                "item": "fabricaeexnihilo:raw_kyber_piece",
-                "chance": 0.012
             },
             {
                 "item": "fabricaeexnihilo:dripstone_pebble",
@@ -909,16 +834,8 @@ onEvent('recipes', (event) => {
                 "chance": 0.05
             },
             {
-                "item": "fabricaeexnihilo:raw_kyber_piece",
-                "chance": 0.025
-            },
-            {
                 "item": "fabricaeexnihilo:raw_gold_piece",
                 "chance": 0.05
-            },
-            {
-                "item": "fabricaeexnihilo:raw_antimony_piece",
-                "chance": 0.07
             },
             {
                 "item": "modern_industrialization:lignite_coal",
@@ -941,10 +858,6 @@ onEvent('recipes', (event) => {
                 "chance": 0.075
             },
             {
-                "item": "fabricaeexnihilo:raw_banglum_piece",
-                "chance": 0.025
-            },
-            {
                 "item": "fabricaeexnihilo:raw_iron_piece",
                 "chance": 0.1
             },
@@ -955,10 +868,6 @@ onEvent('recipes', (event) => {
             {
                 "item": "fabricaeexnihilo:raw_tin_piece",
                 "chance": 0.075
-            },
-            {
-                "item": "fabricaeexnihilo:raw_quadrillum_piece",
-                "chance": 0.025
             },
             {
                 "item": "minecraft:diamond",
@@ -973,7 +882,7 @@ onEvent('recipes', (event) => {
                 "item": "createsifter:zinc_mesh"
             },
             {
-                "item": "fabricaeexnihilo:crushed_andesite"
+                "item": "fabricaeexnihilo:crushed_blackstone"
             }
             ],
             "results": [
@@ -1002,21 +911,9 @@ onEvent('recipes', (event) => {
             }
             ],
             "results": [
-                {
-                    "item": "mythicmetals:banglum_chunk",
-                    "chance": 0.01
-                },
             {
                 "item": "fabricaeexnihilo:raw_gold_piece",
                 "chance": 0.1
-            },
-            {
-                "item": "fabricaeexnihilo:raw_stormyx_piece",
-                "chance": 0.125
-            },
-            {
-                "item": "fabricaeexnihilo:raw_midas_gold_piece",
-                "chance": 0.025
             }
         ],
             "processingTime": 300
