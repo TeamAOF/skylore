@@ -32,7 +32,6 @@ onEvent('gamephases.initialize', event => {
 // Enchants
 onEvent('gamephases.initialize', event => {
     event.phase('enchants')
-        .item('minecraft:enchanted_book')
 		.item('minecraft:enchanting_table')
 });
 // AE2 Gate
@@ -85,6 +84,9 @@ onEvent('gamephases.initialize', event => {
 	 .entity('minecraft:skeleton')
 	 .entity('minecraft:enderman')
 	 .entity('minecraft:spider')
+	 .entity('minecraft:witch')
+	 
+	 
      
     event.phase('creeper')
      .entity('minecraft:creeper')
