@@ -30,3 +30,6 @@ net.minecraft.class_412 {
 net.minecraft.class_3928 {
 }
 
+com.replaymod.lib.de.johni0702.minecraft.gui.container.AbstractGuiScreen$MinecraftGuiScreen {
+}
+
