@@ -1144,16 +1144,6 @@
                                                   }
                             },
                             {
-                                "addonID":  449932,
-                                "name":  "Limit Mob Spawn",
-                                "installedFile":  {
-                                                      "id":  3676293,
-                                                      "fileName":  "LimitMobSpawn-18.2-fabric.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3676/293/LimitMobSpawn-18.2-fabric.jar",
-                                                      "FileNameOnDisk":  "LimitMobSpawn-18.2-fabric.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  360438,
                                 "name":  "Lithium (Fabric)",
                                 "installedFile":  {
@@ -1587,10 +1577,10 @@
                                 "addonID":  409221,
                                 "name":  "PlayerEx",
                                 "installedFile":  {
-                                                      "id":  4119639,
-                                                      "fileName":  "playerex-3.2.8.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4119/639/playerex-3.2.8.jar",
-                                                      "FileNameOnDisk":  "playerex-3.2.8.jar"
+                                                      "id":  4259356,
+                                                      "fileName":  "playerex-3.2.9.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4259/356/playerex-3.2.9.jar",
+                                                      "FileNameOnDisk":  "playerex-3.2.9.jar"
                                                   }
                             },
                             {
