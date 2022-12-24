@@ -804,6 +804,16 @@
                                                   }
                             },
                             {
+                                "addonID":  486392,
+                                "name":  "Flywheel",
+                                "installedFile":  {
+                                                      "id":  4174759,
+                                                      "fileName":  "flywheel-forge-1.19.2-0.6.8.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/759/flywheel-forge-1.19.2-0.6.8.jar",
+                                                      "FileNameOnDisk":  "flywheel-forge-1.19.2-0.6.8.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  547434,
                                 "name":  "Forge Config API Port",
                                 "installedFile":  {
@@ -981,6 +991,16 @@
                                                       "fileName":  "indrev-1.14.1-BETA.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4195/667/indrev-1.14.1-BETA.jar",
                                                       "FileNameOnDisk":  "indrev-1.14.1-BETA.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  659897,
+                                "name":  "Iris \u0026 Oculus Flywheel Compat",
+                                "installedFile":  {
+                                                      "id":  4032748,
+                                                      "fileName":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4032/748/iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
+                                                      "FileNameOnDisk":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar"
                                                   }
                             },
                             {
@@ -1444,6 +1464,16 @@
                                                   }
                             },
                             {
+                                "addonID":  581495,
+                                "name":  "Oculus",
+                                "installedFile":  {
+                                                      "id":  4110355,
+                                                      "fileName":  "oculus-1.4.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4110/355/oculus-1.4.3.jar",
+                                                      "FileNameOnDisk":  "oculus-1.4.3.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  391378,
                                 "name":  "Oh The Biomes You\u0027ll Go Refabricated",
                                 "installedFile":  {
@@ -1741,6 +1771,16 @@
                                                       "fileName":  "rswires-4.13.0.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3667/421/rswires-4.13.0.jar",
                                                       "FileNameOnDisk":  "rswires-4.13.0.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  574856,
+                                "name":  "Rubidium",
+                                "installedFile":  {
+                                                      "id":  4167344,
+                                                      "fileName":  "rubidium-0.6.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4167/344/rubidium-0.6.3.jar",
+                                                      "FileNameOnDisk":  "rubidium-0.6.3.jar"
                                                   }
                             },
                             {
