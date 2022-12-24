@@ -1687,10 +1687,10 @@
                                 "addonID":  416294,
                                 "name":  "Rhino",
                                 "installedFile":  {
-                                                      "id":  4069879,
-                                                      "fileName":  "rhino-fabric-1802.2.1-build.255.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4069/879/rhino-fabric-1802.2.1-build.255.jar",
-                                                      "FileNameOnDisk":  "rhino-fabric-1802.2.1-build.255.jar"
+                                                      "id":  4061358,
+                                                      "fileName":  "rhino-fabric-1802.2.1-build.248.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4061/358/rhino-fabric-1802.2.1-build.248.jar",
+                                                      "FileNameOnDisk":  "rhino-fabric-1802.2.1-build.248.jar"
                                                   }
                             },
                             {
@@ -2181,6 +2181,16 @@
                                                       "fileName":  "wirelessnetworks-1.5.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3759/595/wirelessnetworks-1.5.1.jar",
                                                       "FileNameOnDisk":  "wirelessnetworks-1.5.1.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  225608,
+                                "name":  "WorldEdit",
+                                "installedFile":  {
+                                                      "id":  3697298,
+                                                      "fileName":  "worldedit-mod-7.2.10.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3697/298/worldedit-mod-7.2.10.jar",
+                                                      "FileNameOnDisk":  "worldedit-mod-7.2.10.jar"
                                                   }
                             },
                             {
