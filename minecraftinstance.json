@@ -1404,16 +1404,6 @@
                                                   }
                             },
                             {
-                                "addonID":  695277,
-                                "name":  "Nyf\u0027s Airships",
-                                "installedFile":  {
-                                                      "id":  4059928,
-                                                      "fileName":  "nyfsairships-1.0.1.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4059/928/nyfsairships-1.0.1.jar",
-                                                      "FileNameOnDisk":  "nyfsairships-1.0.1.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  507130,
                                 "name":  "Nyf\u0027s Expert Tweaks",
                                 "installedFile":  {
