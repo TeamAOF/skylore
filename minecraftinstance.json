@@ -644,16 +644,6 @@
                                                   }
                             },
                             {
-                                "addonID":  654384,
-                                "name":  "Eureka! Airships! (Forge/Fabric)",
-                                "installedFile":  {
-                                                      "id":  4162363,
-                                                      "fileName":  "eureka-1.1.0-beta2+59792d77ff.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4162/363/eureka-1.1.0-beta2+59792d77ff.jar",
-                                                      "FileNameOnDisk":  "eureka-1.1.0-beta2+59792d77ff.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  502664,
                                 "name":  "Exline\u0027s Wool to String",
                                 "installedFile":  {
@@ -2081,16 +2071,6 @@
                                                       "fileName":  "walljump-fabric-1.3.3+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3777/196/walljump-fabric-1.3.3+1.18.2.jar",
                                                       "FileNameOnDisk":  "walljump-fabric-1.3.3+1.18.2.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  258371,
-                                "name":  "Valkyrien Skies (Forge/Fabric)",
-                                "installedFile":  {
-                                                      "id":  4203315,
-                                                      "fileName":  "valkyrienskies-118-2.1.0-beta7.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4203/315/valkyrienskies-118-2.1.0-beta7.jar",
-                                                      "FileNameOnDisk":  "valkyrienskies-118-2.1.0-beta7.jar"
                                                   }
                             },
                             {
