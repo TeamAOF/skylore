@@ -1674,6 +1674,46 @@
                                                   }
                             },
                             {
+                                "addonID":  310111,
+                                "name":  "Roughly Enough Items Fabric/Forge (REI)",
+                                "installedFile":  {
+                                                      "id":  4168762,
+                                                      "fileName":  "RoughlyEnoughItems-8.3.583.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4168/762/RoughlyEnoughItems-8.3.583.jar",
+                                                      "FileNameOnDisk":  "RoughlyEnoughItems-8.3.583.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  665532,
+                                "name":  "Roughly Enough Loot Tables",
+                                "installedFile":  {
+                                                      "id":  3965904,
+                                                      "fileName":  "RoughlyEnoughLootTables-1.18-1.1.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3965/904/RoughlyEnoughLootTables-1.18-1.1.jar",
+                                                      "FileNameOnDisk":  "RoughlyEnoughLootTables-1.18-1.1.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  597988,
+                                "name":  "Roughly Enough Professions (REP)",
+                                "installedFile":  {
+                                                      "id":  3958778,
+                                                      "fileName":  "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3958/778/RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar",
+                                                      "FileNameOnDisk":  "RoughlyEnoughProfessions-fabric-1.18.2-1.0.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  664356,
+                                "name":  "Roughly Enough Trades",
+                                "installedFile":  {
+                                                      "id":  3962679,
+                                                      "fileName":  "RoughlyEnoughTrades-1.1.1.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3962/679/RoughlyEnoughTrades-1.1.1.jar",
+                                                      "FileNameOnDisk":  "RoughlyEnoughTrades-1.1.1.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  480786,
                                 "name":  "RpgDifficulty",
                                 "installedFile":  {
