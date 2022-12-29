@@ -644,16 +644,6 @@
                                                   }
                             },
                             {
-                                "addonID":  654384,
-                                "name":  "Eureka! Airships! (Forge/Fabric)",
-                                "installedFile":  {
-                                                      "id":  4162363,
-                                                      "fileName":  "eureka-1.1.0-beta2+59792d77ff.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4162/363/eureka-1.1.0-beta2+59792d77ff.jar",
-                                                      "FileNameOnDisk":  "eureka-1.1.0-beta2+59792d77ff.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  502664,
                                 "name":  "Exline\u0027s Wool to String",
                                 "installedFile":  {
@@ -1404,16 +1394,6 @@
                                                   }
                             },
                             {
-                                "addonID":  695277,
-                                "name":  "Nyf\u0027s Airships",
-                                "installedFile":  {
-                                                      "id":  4059928,
-                                                      "fileName":  "nyfsairships-1.0.1.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4059/928/nyfsairships-1.0.1.jar",
-                                                      "FileNameOnDisk":  "nyfsairships-1.0.1.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  507130,
                                 "name":  "Nyf\u0027s Expert Tweaks",
                                 "installedFile":  {
@@ -1461,16 +1441,6 @@
                                                       "fileName":  "oculus-1.4.3.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4110/355/oculus-1.4.3.jar",
                                                       "FileNameOnDisk":  "oculus-1.4.3.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  391378,
-                                "name":  "Oh The Biomes You\u0027ll Go Refabricated",
-                                "installedFile":  {
-                                                      "id":  4039377,
-                                                      "fileName":  "Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4039/377/Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar",
-                                                      "FileNameOnDisk":  "Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar"
                                                   }
                             },
                             {
@@ -2101,16 +2071,6 @@
                                                       "fileName":  "walljump-fabric-1.3.3+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3777/196/walljump-fabric-1.3.3+1.18.2.jar",
                                                       "FileNameOnDisk":  "walljump-fabric-1.3.3+1.18.2.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  258371,
-                                "name":  "Valkyrien Skies (Forge/Fabric)",
-                                "installedFile":  {
-                                                      "id":  4203315,
-                                                      "fileName":  "valkyrienskies-118-2.1.0-beta7.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4203/315/valkyrienskies-118-2.1.0-beta7.jar",
-                                                      "FileNameOnDisk":  "valkyrienskies-118-2.1.0-beta7.jar"
                                                   }
                             },
                             {
