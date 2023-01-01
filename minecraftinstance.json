@@ -1,4 +1,4 @@
-﻿{
+{
     "cachedScans":  [
 
                     ],
@@ -61,6 +61,16 @@
                                                       "fileName":  "wraith-alloy-forgery-2.0.16+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4073/361/wraith-alloy-forgery-2.0.16+1.18.2.jar",
                                                       "FileNameOnDisk":  "wraith-alloy-forgery-2.0.16+1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  633823,
+                                "name":  "Almost Unified",
+                                "installedFile":  {
+                                                      "id":  4216396,
+                                                      "fileName":  "almostunified-fabric-1.18.2-0.3.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4216/396/almostunified-fabric-1.18.2-0.3.3.jar",
+                                                      "FileNameOnDisk":  "almostunified-fabric-1.18.2-0.3.3.jar"
                                                   }
                             },
                             {
@@ -565,7 +575,7 @@
                             },
                             {
                                 "addonID":  556381,
-                                "name":  "Effective ðŸ’¦",
+                                "name":  "Effective 💦",
                                 "installedFile":  {
                                                       "id":  3735277,
                                                       "fileName":  "effective-1.2.1.jar",
@@ -704,16 +714,6 @@
                                                   }
                             },
                             {
-                                "addonID":  413523,
-                                "name":  "Fabric Seasons",
-                                "installedFile":  {
-                                                      "id":  3779369,
-                                                      "fileName":  "fabric-seasons-1.4-BETA+1.18.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3779/369/fabric-seasons-1.4-BETA+1.18.jar",
-                                                      "FileNameOnDisk":  "fabric-seasons-1.4-BETA+1.18.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  596911,
                                 "name":  "Fabricae Ex Nihilo",
                                 "installedFile":  {
@@ -811,6 +811,16 @@
                                                       "fileName":  "Flonters-1.3.1+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3687/653/Flonters-1.3.1+1.18.2.jar",
                                                       "FileNameOnDisk":  "Flonters-1.3.1+1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  486392,
+                                "name":  "Flywheel",
+                                "installedFile":  {
+                                                      "id":  4174759,
+                                                      "fileName":  "flywheel-forge-1.19.2-0.6.8.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/759/flywheel-forge-1.19.2-0.6.8.jar",
+                                                      "FileNameOnDisk":  "flywheel-forge-1.19.2-0.6.8.jar"
                                                   }
                             },
                             {
@@ -994,6 +1004,16 @@
                                                   }
                             },
                             {
+                                "addonID":  659897,
+                                "name":  "Iris \u0026 Oculus Flywheel Compat",
+                                "installedFile":  {
+                                                      "id":  4032748,
+                                                      "fileName":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4032/748/iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
+                                                      "FileNameOnDisk":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  455508,
                                 "name":  "Iris Shaders",
                                 "installedFile":  {
@@ -1035,7 +1055,7 @@
                             },
                             {
                                 "addonID":  324717,
-                                "name":  "Jade ðŸ”",
+                                "name":  "Jade 🔍",
                                 "installedFile":  {
                                                       "id":  4160646,
                                                       "fileName":  "Jade-1.18.2-fabric-5.99.10.jar",
@@ -1324,6 +1344,16 @@
                                                   }
                             },
                             {
+                                "addonID":  60089,
+                                "name":  "Mouse Tweaks",
+                                "installedFile":  {
+                                                      "id":  3601896,
+                                                      "fileName":  "MouseTweaks-fabric-mc1.18-2.22.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3601/896/MouseTweaks-fabric-mc1.18-2.22.jar",
+                                                      "FileNameOnDisk":  "MouseTweaks-fabric-mc1.18-2.22.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  410127,
                                 "name":  "Mythic Metals",
                                 "installedFile":  {
@@ -1424,18 +1454,18 @@
                                                   }
                             },
                             {
-                                "addonID":  391378,
-                                "name":  "Oh The Biomes You\u0027ll Go Refabricated",
+                                "addonID":  581495,
+                                "name":  "Oculus",
                                 "installedFile":  {
-                                                      "id":  4039377,
-                                                      "fileName":  "Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4039/377/Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar",
-                                                      "FileNameOnDisk":  "Oh_The_Biomes_You\u0027ll_Go-fabric-1.18.2-1.4.7.jar"
+                                                      "id":  4110355,
+                                                      "fileName":  "oculus-1.4.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4110/355/oculus-1.4.3.jar",
+                                                      "FileNameOnDisk":  "oculus-1.4.3.jar"
                                                   }
                             },
                             {
                                 "addonID":  532610,
-                                "name":  "oÏ‰o (owo-lib)",
+                                "name":  "oωo (owo-lib)",
                                 "installedFile":  {
                                                       "id":  3824297,
                                                       "fileName":  "owo-lib-0.7.2-no-cme+1.18.jar",
@@ -1471,6 +1501,16 @@
                                                       "fileName":  "Pehkui-3.6.2+1.14.4-1.19.3.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4282/373/Pehkui-3.6.2+1.14.4-1.19.3.jar",
                                                       "FileNameOnDisk":  "Pehkui-3.6.2+1.14.4-1.19.3.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  623883,
+                                "name":  "Phantom Config",
+                                "installedFile":  {
+                                                      "id":  3793253,
+                                                      "fileName":  "phantomconfig-1.0.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3793/253/phantomconfig-1.0.0.jar",
+                                                      "FileNameOnDisk":  "phantomconfig-1.0.0.jar"
                                                   }
                             },
                             {
@@ -1714,6 +1754,16 @@
                                                   }
                             },
                             {
+                                "addonID":  574856,
+                                "name":  "Rubidium",
+                                "installedFile":  {
+                                                      "id":  4167344,
+                                                      "fileName":  "rubidium-0.6.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4167/344/rubidium-0.6.3.jar",
+                                                      "FileNameOnDisk":  "rubidium-0.6.3.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  393149,
                                 "name":  "Runelic",
                                 "installedFile":  {
@@ -1751,6 +1801,16 @@
                                                       "fileName":  "shetiphiancore-fabric-1.18-1.2.16.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4085/840/shetiphiancore-fabric-1.18-1.2.16.jar",
                                                       "FileNameOnDisk":  "shetiphiancore-fabric-1.18-1.2.16.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  411816,
+                                "name":  "Simple Discord RPC [Forge/Fabric/Quilt]",
+                                "installedFile":  {
+                                                      "id":  4082888,
+                                                      "fileName":  "SimpleRPC-fabric-1.18.2-3.2.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4082/888/SimpleRPC-fabric-1.18.2-3.2.0.jar",
+                                                      "FileNameOnDisk":  "SimpleRPC-fabric-1.18.2-3.2.0.jar"
                                                   }
                             },
                             {
@@ -2011,6 +2071,16 @@
                                                       "fileName":  "trinkets-3.3.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3786/685/trinkets-3.3.1.jar",
                                                       "FileNameOnDisk":  "trinkets-3.3.1.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  619983,
+                                "name":  "Updated Wall-Jump! [FABRIC]",
+                                "installedFile":  {
+                                                      "id":  3777196,
+                                                      "fileName":  "walljump-fabric-1.3.3+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3777/196/walljump-fabric-1.3.3+1.18.2.jar",
+                                                      "FileNameOnDisk":  "walljump-fabric-1.3.3+1.18.2.jar"
                                                   }
                             },
                             {
