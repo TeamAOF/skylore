@@ -2054,6 +2054,16 @@
                                                   }
                             },
                             {
+                                "addonID":  541171,
+                                "name":  "Traveler\u0027s Backpack [Fabric]",
+                                "installedFile":  {
+                                                      "id":  4139513,
+                                                      "fileName":  "travelers-backpack-1.18.2-7.1.14.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4139/513/travelers-backpack-1.18.2-7.1.14.jar",
+                                                      "FileNameOnDisk":  "travelers-backpack-1.18.2-7.1.14.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  341284,
                                 "name":  "Trinkets (Fabric)",
                                 "installedFile":  {
