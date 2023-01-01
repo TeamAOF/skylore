@@ -1454,26 +1454,6 @@
                                                   }
                             },
                             {
-                                "addonID":  636229,
-                                "name":  "Nyf\u0027s Wearable Backpacks",
-                                "installedFile":  {
-                                                      "id":  4069622,
-                                                      "fileName":  "wearablebackpacks-fabric-1.0.1.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4069/622/wearablebackpacks-fabric-1.0.1.jar",
-                                                      "FileNameOnDisk":  "wearablebackpacks-fabric-1.0.1.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  581495,
-                                "name":  "Oculus",
-                                "installedFile":  {
-                                                      "id":  4110355,
-                                                      "fileName":  "oculus-1.4.3.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4110/355/oculus-1.4.3.jar",
-                                                      "FileNameOnDisk":  "oculus-1.4.3.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  532610,
                                 "name":  "oωo (owo-lib)",
                                 "installedFile":  {
