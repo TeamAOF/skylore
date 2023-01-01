@@ -934,6 +934,16 @@
                                                   }
                             },
                             {
+                                "addonID":  448106,
+                                "name":  "Happiness (is a) Warm Gun",
+                                "installedFile":  {
+                                                      "id":  3981425,
+                                                      "fileName":  "HWGMod-1.18.2-1.1.12.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3981/425/HWGMod-1.18.2-1.1.12.jar",
+                                                      "FileNameOnDisk":  "HWGMod-1.18.2-1.1.12.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  667894,
                                 "name":  "Hephaestus Fabric",
                                 "installedFile":  {
