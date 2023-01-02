@@ -40,6 +40,48 @@ onEvent('gamephases.initialize', event => {
     event.phase('fluix')
         .item('ae2:fluix_crystal_seed')
 });
+// Gun Gate
+
+onEvent('gamephases.initialize', event => {
+    event.phase('guntable')
+        .item('hwg:gun_table')
+});
+// Level 1 guns
+onEvent('gamephases.initialize', event => {
+    event.phase('level1gun')
+        .item('hwg:luger')
+		.item('hwg:pistol')
+		.item('hwg:shotgun')
+		.item('hwg:flare_gun')
+		.item('hwg:spistol')
+});
+// Level 2 guns
+onEvent('gamephases.initialize', event => {
+    event.phase('level2gun')
+        .item('hwg:tommy_gun')
+		.item('hwg:smg')
+		.item('hwg:ak47')
+		.item('hwg:sniper_rifle')
+});
+
+// Level 3 guns
+
+onEvent('gamephases.initialize', event => {
+    event.phase('level3gun')
+        .item('hwg:rocketlauncher')
+		.item('hwg:flamethrower')
+		.item('hwg:grenadelauncher')
+});
+
+// Level 4 Guns
+onEvent('gamephases.initialize', event => {
+    event.phase('level4gun')
+        .item('hwg:golden_gun')
+		.item('hwg:hellhorse_revolver')
+		.item('hwg:meanie_gun_1')
+		.item('hwg:meanie_gun_2')
+});
+// Specialty guns
 
 // Ad Astra Gating phase 1
 
