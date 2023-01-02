@@ -227,7 +227,13 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_enderman",
 		"fabricaeexnihilo:doll_guardian",
 		"fabricaeexnihilo:doll_shulker",
-		"hwg:gun_table"
+		"hwg:gun_table",
+		"inmis:plated_backpack",
+		"inmis:gilded_backpack",
+		"inmis:bejeweled_backpack",
+		"inmis:blazing_backpack",
+		"inmis:withered_backpack",
+		"inmis:endless_backpack"
     ];
 	
 
