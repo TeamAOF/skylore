@@ -226,7 +226,8 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_blaze",
 		"fabricaeexnihilo:doll_enderman",
 		"fabricaeexnihilo:doll_guardian",
-		"fabricaeexnihilo:doll_shulker"
+		"fabricaeexnihilo:doll_shulker",
+		"hwg:gun_table"
     ];
 	
 
