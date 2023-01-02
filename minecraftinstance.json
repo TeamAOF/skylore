@@ -497,10 +497,10 @@
                                 "addonID":  514734,
                                 "name":  "Data Attributes",
                                 "installedFile":  {
-                                                      "id":  4133661,
-                                                      "fileName":  "data-attributes-1.1.13.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4133/661/data-attributes-1.1.13.jar",
-                                                      "FileNameOnDisk":  "data-attributes-1.1.13.jar"
+                                                      "id":  4287542,
+                                                      "fileName":  "data-attributes-1.3.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4287/542/data-attributes-1.3.0.jar",
+                                                      "FileNameOnDisk":  "data-attributes-1.3.0.jar"
                                                   }
                             },
                             {
@@ -1011,6 +1011,26 @@
                                                       "fileName":  "indrev-1.14.1-BETA.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4195/667/indrev-1.14.1-BETA.jar",
                                                       "FileNameOnDisk":  "indrev-1.14.1-BETA.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  369254,
+                                "name":  "Inmis",
+                                "installedFile":  {
+                                                      "id":  3783618,
+                                                      "fileName":  "inmis-2.6.0-1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3783/618/inmis-2.6.0-1.18.2.jar",
+                                                      "FileNameOnDisk":  "inmis-2.6.0-1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  666672,
+                                "name":  "InmisAddon",
+                                "installedFile":  {
+                                                      "id":  3963391,
+                                                      "fileName":  "inmisaddon-1.0.1-1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3963/391/inmisaddon-1.0.1-1.18.jar",
+                                                      "FileNameOnDisk":  "inmisaddon-1.0.1-1.18.jar"
                                                   }
                             },
                             {
@@ -1557,10 +1577,10 @@
                                 "addonID":  409221,
                                 "name":  "PlayerEx",
                                 "installedFile":  {
-                                                      "id":  4259356,
-                                                      "fileName":  "playerex-3.2.9.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4259/356/playerex-3.2.9.jar",
-                                                      "FileNameOnDisk":  "playerex-3.2.9.jar"
+                                                      "id":  4287547,
+                                                      "fileName":  "playerex-3.4.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4287/547/playerex-3.4.0.jar",
+                                                      "FileNameOnDisk":  "playerex-3.4.0.jar"
                                                   }
                             },
                             {
@@ -1627,10 +1647,10 @@
                                 "addonID":  439281,
                                 "name":  "RelicEx",
                                 "installedFile":  {
-                                                      "id":  4097998,
-                                                      "fileName":  "relicex-3.1.5.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4097/998/relicex-3.1.5.jar",
-                                                      "FileNameOnDisk":  "relicex-3.1.5.jar"
+                                                      "id":  4287696,
+                                                      "fileName":  "relicex-3.1.6.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4287/696/relicex-3.1.6.jar",
+                                                      "FileNameOnDisk":  "relicex-3.1.6.jar"
                                                   }
                             },
                             {
@@ -1791,6 +1811,16 @@
                                                       "fileName":  "shetiphiancore-fabric-1.18-1.2.16.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4085/840/shetiphiancore-fabric-1.18-1.2.16.jar",
                                                       "FileNameOnDisk":  "shetiphiancore-fabric-1.18-1.2.16.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  315811,
+                                "name":  "ShulkerBoxTooltip [Fabric/Forge]",
+                                "installedFile":  {
+                                                      "id":  4032072,
+                                                      "fileName":  "shulkerboxtooltip-fabric-3.1.3+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4032/72/shulkerboxtooltip-fabric-3.1.3+1.18.2.jar",
+                                                      "FileNameOnDisk":  "shulkerboxtooltip-fabric-3.1.3+1.18.2.jar"
                                                   }
                             },
                             {
@@ -2051,16 +2081,6 @@
                                                       "fileName":  "tradernpcs-1.1.1-fabric.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3771/653/tradernpcs-1.1.1-fabric.jar",
                                                       "FileNameOnDisk":  "tradernpcs-1.1.1-fabric.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  541171,
-                                "name":  "Traveler\u0027s Backpack [Fabric]",
-                                "installedFile":  {
-                                                      "id":  4139513,
-                                                      "fileName":  "travelers-backpack-1.18.2-7.1.14.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4139/513/travelers-backpack-1.18.2-7.1.14.jar",
-                                                      "FileNameOnDisk":  "travelers-backpack-1.18.2-7.1.14.jar"
                                                   }
                             },
                             {
