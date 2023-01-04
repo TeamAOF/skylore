@@ -134,6 +134,16 @@
                                                   }
                             },
                             {
+                                "addonID":  396094,
+                                "name":  "Armor Points ++ / Health Stacking",
+                                "installedFile":  {
+                                                      "id":  3774094,
+                                                      "fileName":  "armorpointspp-fabric-1.18.2-3.0.1.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3774/94/armorpointspp-fabric-1.18.2-3.0.1.jar",
+                                                      "FileNameOnDisk":  "armorpointspp-fabric-1.18.2-3.0.1.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  401236,
                                 "name":  "Artifacts (Fabric)",
                                 "installedFile":  {
