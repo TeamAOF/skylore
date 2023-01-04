@@ -2194,16 +2194,6 @@
                                                   }
                             },
                             {
-                                "addonID":  350998,
-                                "name":  "Vanilla Parts",
-                                "installedFile":  {
-                                                      "id":  3797294,
-                                                      "fileName":  "VanillaParts-2.0.1+1.18.2.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3797/294/VanillaParts-2.0.1+1.18.2.jar",
-                                                      "FileNameOnDisk":  "VanillaParts-2.0.1+1.18.2.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  570109,
                                 "name":  "VanitySlots",
                                 "installedFile":  {
