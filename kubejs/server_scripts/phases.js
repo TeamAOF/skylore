@@ -70,7 +70,7 @@ onEvent('gamephases.initialize', event => {
     event.phase('level3gun')
         .item('hwg:rocketlauncher')
 		.item('hwg:flamethrower')
-		.item('hwg:grenadelauncher')
+		.item('hwg:grenade_launcher')
 });
 
 // Level 4 Guns
