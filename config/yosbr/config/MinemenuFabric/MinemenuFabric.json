@@ -1,4 +1,4 @@
-  {
+{
   "minemenuData": {
     "0": {
       "name": "Quests",
@@ -15,16 +15,16 @@
       }
     },
     "1": {
-      "name": " ",
+      "name": " Backpack (if equipped)",
       "icon": {
-        "iconItem": "",
+        "iconItem": "inmis:frayed_backpack",
         "enchanted": false,
         "skullOwner": "",
         "customModelData": 0
       },
       "type": "keyselect",
       "data": {
-        "key": "key.sprint",
+        "key": "key.inmis.open_backpack",
         "releaseDelay": 25001
       }
     },
@@ -147,7 +147,7 @@
       }
     },
     "5": {
-      "name": "Open Quiver",
+      "name": "Open Quiver (if equipped)",
       "icon": {
         "iconItem": "nyfsquiver:netherite_quiver",
         "enchanted": false,
