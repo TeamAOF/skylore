@@ -24,6 +24,16 @@
                                                   }
                             },
                             {
+                                "addonID":  320215,
+                                "name":  "Adorn",
+                                "installedFile":  {
+                                                      "id":  3796954,
+                                                      "fileName":  "Adorn-3.5.0+1.18.2-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3796/954/Adorn-3.5.0+1.18.2-fabric.jar",
+                                                      "FileNameOnDisk":  "Adorn-3.5.0+1.18.2-fabric.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  514882,
                                 "name":  "Advancement Plaques [Fabric]",
                                 "installedFile":  {
@@ -381,6 +391,26 @@
                                                       "fileName":  "cloth-config-6.4.90-fabric.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3972/425/cloth-config-6.4.90-fabric.jar",
                                                       "FileNameOnDisk":  "cloth-config-6.4.90-fabric.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  319057,
+                                "name":  "Cloth Config API (UNUSED)",
+                                "installedFile":  {
+                                                      "id":  3641132,
+                                                      "fileName":  "cloth-config-6.2.57-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3641/132/cloth-config-6.2.57-fabric.jar",
+                                                      "FileNameOnDisk":  "cloth-config-6.2.57-fabric.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  256717,
+                                "name":  "Clumps",
+                                "installedFile":  {
+                                                      "id":  4153343,
+                                                      "fileName":  "Clumps-fabric-1.18.2-8.0.0+17.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4153/343/Clumps-fabric-1.18.2-8.0.0+17.jar",
+                                                      "FileNameOnDisk":  "Clumps-fabric-1.18.2-8.0.0+17.jar"
                                                   }
                             },
                             {
@@ -1044,6 +1074,16 @@
                                                   }
                             },
                             {
+                                "addonID":  510974,
+                                "name":  "Interactic",
+                                "installedFile":  {
+                                                      "id":  3704143,
+                                                      "fileName":  "interactic-0.1.10+1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3704/143/interactic-0.1.10+1.18.jar",
+                                                      "FileNameOnDisk":  "interactic-0.1.10+1.18.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  659897,
                                 "name":  "Iris \u0026 Oculus Flywheel Compat",
                                 "installedFile":  {
@@ -1211,6 +1251,16 @@
                                                       "fileName":  "Logicates-1.0.2+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3962/871/Logicates-1.0.2+1.18.2.jar",
                                                       "FileNameOnDisk":  "Logicates-1.0.2+1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  351725,
+                                "name":  "Macaw\u0027s Bridges",
+                                "installedFile":  {
+                                                      "id":  4178168,
+                                                      "fileName":  "mcw-bridges-2.0.6-mc1.18.2fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4178/168/mcw-bridges-2.0.6-mc1.18.2fabric.jar",
+                                                      "FileNameOnDisk":  "mcw-bridges-2.0.6-mc1.18.2fabric.jar"
                                                   }
                             },
                             {
@@ -2141,6 +2191,16 @@
                                                       "fileName":  "valley-craft-2.3.1-1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3825/553/valley-craft-2.3.1-1.18.2.jar",
                                                       "FileNameOnDisk":  "valley-craft-2.3.1-1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  350998,
+                                "name":  "Vanilla Parts",
+                                "installedFile":  {
+                                                      "id":  3797294,
+                                                      "fileName":  "VanillaParts-2.0.1+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3797/294/VanillaParts-2.0.1+1.18.2.jar",
+                                                      "FileNameOnDisk":  "VanillaParts-2.0.1+1.18.2.jar"
                                                   }
                             },
                             {
