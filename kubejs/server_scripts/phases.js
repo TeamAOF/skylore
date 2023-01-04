@@ -115,6 +115,13 @@ onEvent('gamephases.initialize', event => {
         .item('ad_astra:tier_2_rocket')
 });
 
+// Ad Astra Gating phase 3
+
+onEvent('gamephases.initialize', event => {
+    event.phase('oxysensor')
+        .item('ad_astra:oxygen_sensor')
+});
+
 //Mobs -------------------------------------------
 
 onEvent('gamephases.initialize', event => {
