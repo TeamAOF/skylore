@@ -7,7 +7,7 @@ onEvent('recipes', (event) => {
             ],
             {
                 "#": {
-                    "item": "c:planks"
+                    "item": "minecraft:stone"
                 },
                 "W": {
                     "item": "minecraft:stone_slab"
