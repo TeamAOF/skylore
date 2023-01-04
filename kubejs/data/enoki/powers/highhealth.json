@@ -7,7 +7,7 @@
           "name": "Mycelium Body",
           "attribute": "minecraft:generic.max_health",
           "operation": "addition",
-          "value": 20
+          "value": 30
       }
     ]
   
