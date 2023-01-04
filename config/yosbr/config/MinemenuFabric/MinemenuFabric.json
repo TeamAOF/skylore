@@ -39,15 +39,18 @@
       "type": "category",
       "data": {
         "0": {
-          "name": "Chestcavity Stats",
+          "name": "Open shaders",
           "icon": {
-            "iconItem": "chestcavity:heart",
+            "iconItem": "minecraft:light",
             "enchanted": false,
             "skullOwner": "",
             "customModelData": 0
           },
-          "type": "print",
-          "data": "/chestcavity getscores"
+          "type": "keyselect",
+          "data": {
+            "key": "iris.keybind.shaderPackSelection",
+            "releaseDelay": 10
+          }
         },
         "1": {
           "name": "Toggle Shaders",
@@ -89,20 +92,6 @@
           }
         },
         "4": {
-          "name": " ",
-          "icon": {
-            "iconItem": "",
-            "enchanted": false,
-            "skullOwner": "",
-            "customModelData": 0
-          },
-          "type": "keyselect",
-          "data": {
-            "key": "key.sprint",
-            "releaseDelay": 10
-          }
-        },
-        "5": {
           "name": "Mine With Weapons Toggle",
           "icon": {
             "iconItem": "minecraft:iron_pickaxe",
@@ -115,6 +104,17 @@
             "key": "keybinds.bettercombat.toggle_mine_with_weapons",
             "releaseDelay": 10
           }
+        },
+        "5": {
+          "name": "Chestcavity Stats",
+          "icon": {
+            "iconItem": "chestcavity:heart",
+            "enchanted": false,
+            "skullOwner": "",
+            "customModelData": 0
+          },
+          "type": "print",
+          "data": "/chestcavity getscores"
         }
       }
     },
