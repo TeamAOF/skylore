@@ -81,7 +81,39 @@ onEvent('gamephases.initialize', event => {
 		.item('hwg:meanie_gun_1')
 		.item('hwg:meanie_gun_2')
 });
-// Specialty guns
+//Scanner Quests
+onEvent('gamephases.initialize', event => {
+    event.phase('scanner')
+        .item('scannable:scanner')
+        
+    event.phase('blank_module')
+        .item('scannable:blank_module')
+        
+    event.phase('friendly')
+        .item('scannable:friendly_entity_module')
+        
+    event.phase('hostile')
+        .item('scannable:hostile_entity_module')
+
+    event.phase('entity')
+        .item('scannable:entity_module')
+
+    event.phase('block')
+        .item('scannable:block_module')
+	
+	event.phase('fluid')
+        .item('scannable:fluid_module')
+		
+    event.phase('common')
+        .item('scannable:common_ores_module')
+		
+    event.phase('rare')
+        .item('scannable:rare_ores_module')
+
+    event.phase('range')
+        .item('scannable:range_module')
+});
+
 
 // Ad Astra Gating phase 1
 
