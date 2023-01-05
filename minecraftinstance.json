@@ -484,6 +484,16 @@
                                                   }
                             },
                             {
+                                "addonID":  790765,
+                                "name":  "Create Sifting Refabricated",
+                                "installedFile":  {
+                                                      "id":  4301251,
+                                                      "fileName":  "createsifter-1.18.2-1.3.3.g.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4301/251/createsifter-1.18.2-1.3.3.g.jar",
+                                                      "FileNameOnDisk":  "createsifter-1.18.2-1.3.3.g.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  415438,
                                 "name":  "Croptopia",
                                 "installedFile":  {
