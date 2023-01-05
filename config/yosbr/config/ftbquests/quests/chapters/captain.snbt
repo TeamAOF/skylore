@@ -27,8 +27,10 @@
 			y: -5.0d
 			id: "7203022EBB0D10CA"
 			tasks: [{
-				id: "4C029D8730CA75FE"
-				type: "checkmark"
+				id: "36D1FEC25C2B6BF0"
+				type: "xp"
+				value: 30L
+				points: false
 			}]
 			rewards: [{
 				id: "54973C50C0DB67A3"
@@ -50,23 +52,12 @@
 				advancement: "moreachievements:saveyourdogfromarrow"
 				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "54587D42DD081F2F"
-					type: "item"
-					item: "farmersdelight:roast_chicken_block"
-				}
-				{
-					id: "70EA74652ADCAF9F"
-					type: "item"
-					item: "croptopia:lemon_chicken"
-				}
-				{
-					id: "6A6AA8B8AC0BF9A8"
-					type: "item"
-					item: "valley:chicken_curry"
-				}
-			]
+			rewards: [{
+				id: "12543B3BD8C52333"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: -5.0d
@@ -78,6 +69,12 @@
 				type: "advancement"
 				advancement: "moreachievements:painful_fight"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "4A8076AD35B053A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -91,6 +88,12 @@
 				advancement: "moreachievements:bad_dreams"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "2EACA1F09ADD1E42"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: -5.0d
@@ -102,6 +105,12 @@
 				type: "advancement"
 				advancement: "moreachievements:now_what"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "3724934BC93E816B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -115,6 +124,12 @@
 				advancement: "moreachievements:burninhell"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3A37F05DC690AC96"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: -5.0d
@@ -127,6 +142,12 @@
 				advancement: "moreachievements:exp"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "3DB5F3C777661542"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 5.5d
@@ -137,6 +158,12 @@
 				id: "17C5BD6688C3C366"
 				type: "item"
 				item: "ae2:calculation_processor_press"
+			}]
+			rewards: [{
+				id: "52D3E1BE0B1E4F38"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -149,6 +176,12 @@
 				type: "item"
 				item: "ae2:engineering_processor_press"
 			}]
+			rewards: [{
+				id: "2F0DCE1DC86A21C8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
 		}
 		{
 			x: 5.5d
@@ -159,6 +192,12 @@
 				id: "7A1F1AE8FFD21AF7"
 				type: "item"
 				item: "ae2:logic_processor_press"
+			}]
+			rewards: [{
+				id: "44D9E007255716F2"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -171,6 +210,12 @@
 				type: "item"
 				item: "ae2:silicon_press"
 			}]
+			rewards: [{
+				id: "226D20B02C318D31"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
 		}
 		{
 			x: 9.0d
@@ -181,6 +226,12 @@
 				id: "392D4882A208527C"
 				type: "item"
 				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "44FC77F144971EB8"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -193,6 +244,12 @@
 				type: "item"
 				item: "ae2:drive"
 			}]
+			rewards: [{
+				id: "6E5D9112E32D9331"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
 		}
 		{
 			x: 9.0d
@@ -203,6 +260,12 @@
 				id: "68AE1BFC12221DCA"
 				type: "item"
 				item: "ae2:fluix_smart_cable"
+			}]
+			rewards: [{
+				id: "10CBB73C8E799FBE"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -215,6 +278,12 @@
 				type: "item"
 				item: "ae2:controller"
 			}]
+			rewards: [{
+				id: "0010789D649C5BCC"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
 		}
 		{
 			x: 9.0d
@@ -225,6 +294,12 @@
 				id: "02D6234E4CF73ED2"
 				type: "item"
 				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "37BB7C5D8B28D698"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -237,6 +312,12 @@
 				type: "item"
 				item: "ae2:pattern_provider"
 			}]
+			rewards: [{
+				id: "6C4FB89A6FBDE144"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
 		}
 		{
 			x: 9.0d
@@ -247,6 +328,12 @@
 				id: "0DCF5DDAD39CA675"
 				type: "item"
 				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "275E324AAD46B10C"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -286,6 +373,12 @@
 				type: "item"
 				item: "ae2:molecular_assembler"
 			}]
+			rewards: [{
+				id: "2C9A7C034E7529D3"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
 		}
 		{
 			title: "Fluix unlock"
@@ -299,14 +392,22 @@
 				"19DD171BEC1B4596"
 			]
 			id: "016271CE91A69F28"
-			rewards: [{
-				id: "1853D22D043A16E5"
-				type: "command"
-				title: "Fluix Unlock"
-				icon: "ae2:fluix_crystal_seed"
-				command: "/phase grant @p fluix"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "1853D22D043A16E5"
+					type: "command"
+					title: "Fluix Unlock"
+					icon: "ae2:fluix_crystal_seed"
+					command: "/phase grant @p fluix"
+					player_command: false
+				}
+				{
+					id: "6B112B59F5CFFE0B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8610730502767635143L
+				}
+			]
 		}
 		{
 			title: "Sacrifice to find"
@@ -317,13 +418,150 @@
 			tasks: [{
 				id: "46C65416BA2D17AA"
 				type: "xp"
-				value: 2L
+				value: 5L
 				points: false
 			}]
 			rewards: [{
 				id: "20AA40AFC922AE04"
 				type: "item"
 				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: ["52CE677200EBA77A"]
+			id: "719549F5D342A47F"
+			tasks: [{
+				id: "36134ABC0CC405A0"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "327A714032CD9869"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			dependencies: ["719549F5D342A47F"]
+			id: "2C9C192282645FD8"
+			tasks: [{
+				id: "7903B74F0FC92A3D"
+				type: "item"
+				item: "inmis:frayed_backpack"
+			}]
+			rewards: [{
+				id: "7A25B4B056C82759"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.5d
+			dependencies: ["2C9C192282645FD8"]
+			id: "7067193536A4DFC2"
+			tasks: [{
+				id: "65584283946DEC25"
+				type: "item"
+				item: "inmis:plated_backpack"
+			}]
+			rewards: [{
+				id: "309695B9E8C8F43C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -11.0d
+			dependencies: ["7067193536A4DFC2"]
+			id: "2C9169D9C4E7CCF8"
+			tasks: [{
+				id: "3E6E20F6131CA4F3"
+				type: "item"
+				item: "inmis:gilded_backpack"
+			}]
+			rewards: [{
+				id: "4B7F9849F8360D58"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -12.5d
+			dependencies: ["2C9169D9C4E7CCF8"]
+			id: "037B3131E328AEBB"
+			tasks: [{
+				id: "111DEED319CC81D6"
+				type: "item"
+				item: "inmis:bejeweled_backpack"
+			}]
+			rewards: [{
+				id: "241D6D21825AB2A4"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -14.0d
+			dependencies: ["037B3131E328AEBB"]
+			id: "045CEDC13CD77D06"
+			tasks: [{
+				id: "01307A2696D182B7"
+				type: "item"
+				item: "inmis:blazing_backpack"
+			}]
+			rewards: [{
+				id: "402ECE9B73ED3FB0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -15.5d
+			dependencies: ["045CEDC13CD77D06"]
+			id: "4888FF05CD290863"
+			tasks: [{
+				id: "5A5B3AEB9BB9CDD9"
+				type: "item"
+				item: "inmis:withered_backpack"
+			}]
+			rewards: [{
+				id: "02D498D5C3AEFB79"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -17.0d
+			dependencies: ["4888FF05CD290863"]
+			id: "2E57A2FE92C293B3"
+			tasks: [{
+				id: "615A171976861AB6"
+				type: "item"
+				item: "inmis:endless_backpack"
+			}]
+			rewards: [{
+				id: "7C89ABBB8E02D88A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 	]

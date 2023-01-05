@@ -3,17 +3,5 @@
 	order_index: 0
 	title: "Start Drop Pod"
 	loot_size: 1
-	rewards: [
-		{
-			item: {
-				id: "iron-jetpacks:stone_jetpack"
-				Count: 1b
-				tag: {
-					energy: 100000.0d
-				}
-			}
-		}
-		{ item: "immortuoscalyx:healthscanner" }
-		{ item: "adorn:wheat_seed_crate" }
-	]
+	rewards: [{ item: "immortuoscalyx:healthscanner" }]
 }

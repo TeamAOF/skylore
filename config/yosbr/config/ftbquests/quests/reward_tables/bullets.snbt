@@ -1,0 +1,7 @@
+{
+	id: "599C7835FD471327"
+	order_index: 54
+	title: "Bullets"
+	loot_size: 1
+	rewards: [{ item: "hwg:bullets", count: 64 }]
+}

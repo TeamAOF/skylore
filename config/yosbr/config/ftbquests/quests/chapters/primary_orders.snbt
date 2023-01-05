@@ -24,107 +24,26 @@
 			id: "350E66C2C959C83E"
 			tasks: [
 				{
-					id: "36424F83D236169E"
+					id: "2AB872339E08F580"
 					type: "item"
-					item: {
-						id: "tconstruct:pickaxe"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							Damage: 0
-							tic_stats: {
-								"tconstruct:attack_damage": 1.0f
-								"tconstruct:harvest_tier": "minecraft:stone"
-								"tconstruct:durability": 130.0f
-								"tconstruct:mining_speed": 4.0f
-								"tconstruct:attack_speed": 1.2f
-							}
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:wood#oak"
-							]
-							tic_modifiers: [
-								{
-									name: "tconstruct:cultivated"
-									level: 2s
-								}
-								{
-									name: "tconstruct:piercing"
-									level: 1s
-								}
-								{
-									name: "tconstruct:stonebound"
-									level: 1s
-								}
-							]
-							tic_broken: 0b
-							tic_persistent_data: {
-								upgrades: 3
-								abilities: 1
-							}
-						}
-					}
-					weak_nbt_match: true
+					item: "tconstruct:tinker_station"
 				}
 				{
-					id: "3D8F770580BE2D64"
+					id: "77800E18D890644D"
 					type: "item"
-					item: {
-						id: "tconstruct:mattock"
-						Count: 1b
-						tag: {
-							tic_multipliers: {
-								"tconstruct:mining_speed": 1.1f
-								"tconstruct:durability": 1.25f
-								"tconstruct:attack_damage": 1.1f
-							}
-							Damage: 0
-							tic_stats: {
-								"tconstruct:attack_damage": 2.75f
-								"tconstruct:harvest_tier": "minecraft:stone"
-								"tconstruct:durability": 162.5f
-								"tconstruct:mining_speed": 4.4f
-								"tconstruct:attack_speed": 0.9f
-							}
-							tic_materials: [
-								"tconstruct:rock#stone"
-								"tconstruct:wood#oak"
-								"tconstruct:rock#stone"
-							]
-							tic_modifiers: [
-								{
-									name: "tconstruct:cultivated"
-									level: 1s
-								}
-								{
-									name: "tconstruct:knockback"
-									level: 1s
-								}
-								{
-									name: "tconstruct:stonebound"
-									level: 2s
-								}
-								{
-									name: "tconstruct:hoe_till"
-									level: 1s
-								}
-							]
-							tic_broken: 0b
-							tic_persistent_data: {
-								upgrades: 3
-								abilities: 1
-							}
-						}
-					}
-					weak_nbt_match: true
+					item: "tconstruct:crafting_station"
+				}
+				{
+					id: "45C9CE231E563983"
+					type: "item"
+					item: "tconstruct:part_builder"
 				}
 			]
 			rewards: [{
-				id: "160F1C678E21A82A"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "17F6093613FFD022"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -140,7 +59,7 @@
 				""
 				"NOTE: Difficulty get's much harder from here."
 			]
-			dependencies: ["4C69D88874429BCA"]
+			dependencies: ["172F16A31F27C507"]
 			id: "69AD5130633DDD7F"
 			tasks: [{
 				id: "59D90FDC94DAD87F"
@@ -154,13 +73,12 @@
 							"tconstruct:durability": 1.1f
 						}
 						tic_stats: {
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:mining_speed": 2.05f
 							"tconstruct:attack_damage": 4.0f
 							"tconstruct:harvest_tier": "minecraft:stone"
 							"tconstruct:durability": 135.3f
-							"tconstruct:mining_speed": 2.05f
-							"tconstruct:attack_speed": 1.6f
 						}
-						Damage: 0
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -176,25 +94,21 @@
 								level: 1s
 							}
 						]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:rock#stone"
 							"tconstruct:wood#oak"
 							"tconstruct:rock#stone"
 						]
 						tic_persistent_data: {
-							upgrades: 3
 							abilities: 1
+							upgrades: 3
 						}
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [
-				{
-					id: "0B6F3366F64FAD1D"
-					type: "item"
-					item: "create:experience_nugget"
-					count: 8
-				}
 				{
 					id: "58A9FBAE01C791DE"
 					type: "command"
@@ -203,6 +117,12 @@
 					auto: "invisible"
 					command: "/phase grant @p easymodeoff"
 					player_command: false
+				}
+				{
+					id: "4A9F8D88A2E0BE13"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1990121793024525641L
 				}
 			]
 		}
@@ -223,12 +143,13 @@
 				id: "4DAD0DCB286778C4"
 				type: "item"
 				item: "doodads:slingshot"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "7B43186E22857861"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "09D09FAC69AFA599"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -260,17 +181,30 @@
 						]
 					}
 				}
+				only_from_crafting: false
 			}]
-			rewards: [{
-				id: "40BDE4D252802E40"
-				type: "item"
-				item: {
-					id: "create:experience_nugget"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "40BDE4D252802E40"
+					type: "item"
+					item: {
+						id: "create:experience_nugget"
+						Count: 1b
+						tag: { }
+					}
+					count: 2
 				}
-				count: 2
-			}]
+				{
+					id: "34E11EEF648013DD"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 15
+				}
+			]
 		}
 		{
 			title: "Deflect enemy projectiles"
@@ -291,12 +225,13 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "0021F884C6AFB841"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "12FB782285F4A403"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -312,12 +247,13 @@
 				type: "item"
 				item: "minecraft:torch"
 				count: 16L
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "2013697468242330"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "037314EA1A9F6598"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -333,17 +269,18 @@
 				id: "26442612516A9B32"
 				type: "item"
 				item: "kibe:torch_sling"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "565D85A4214AAF4A"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "369DC8F1AAAEB495"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
 			title: "Effective mob proofing"
-			x: -2.0d
+			x: -3.0d
 			y: 3.0d
 			shape: "octagon"
 			subtitle: "The tool that allows you to light up an island without doubt."
@@ -354,12 +291,13 @@
 				id: "5510BB9CED7B3EF7"
 				type: "item"
 				item: "kibe:big_torch"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "2AE550C7113910B6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "52AE347B381705AF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -381,192 +319,31 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: false
 			}]
-			rewards: [{
-				id: "342EBB8818A6A3FC"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "Organization is key"
-			x: -1.5d
-			y: -1.0d
-			shape: "square"
-			dependencies: ["171FEBF60B0C8CB5"]
-			id: "00D40DF860EC8EC4"
-			tasks: [{
-				id: "25673E39541DD824"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "another_furniture:warped_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:crimson_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:dark_oak_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:acacia_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:jungle_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:spruce_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:birch_shelf"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:oak_shelf"
-								Count: 1b
-							}
-						]
-					}
+			rewards: [
+				{
+					id: "342EBB8818A6A3FC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 2
 				}
-			}]
-			rewards: [{
-				id: "72DA53E5DAD92EA4"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "Make it look good"
-			x: -3.0d
-			y: -1.0d
-			shape: "square"
-			dependencies: ["00D40DF860EC8EC4"]
-			id: "681309243A515273"
-			tasks: [{
-				id: "44BA3C0EB921D5F9"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "another_furniture:warped_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:crimson_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:dark_oak_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:acacia_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:jungle_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:birch_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:spruce_table"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:oak_table"
-								Count: 1b
-							}
-						]
+				{
+					id: "1A0DB80C1C31A8B2"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
 					}
+					count: 15
 				}
-			}]
-			rewards: [{
-				id: "3ECA8AD052C43713"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			title: "Decorate"
-			x: -4.0d
-			y: -1.0d
-			shape: "square"
-			dependencies: ["681309243A515273"]
-			id: "0AF0A0BDAAC6F2CE"
-			tasks: [{
-				id: "44886DF9906181EB"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "another_furniture:oak_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:spruce_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:birch_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:jungle_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:acacia_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:dark_oak_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:crimson_drawer"
-								Count: 1b
-							}
-							{
-								id: "another_furniture:warped_drawer"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "18DE5E590D420DFA"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
+			]
 		}
 		{
 			title: "You dont die?"
 			x: 0.0d
-			y: -5.0d
+			y: -3.0d
 			subtitle: "It seems like you cant die on this planet..."
 			description: ["It seems like when you die you... respawn? This is odd as in your planet people died and were forever lost."]
 			secret: true
@@ -581,16 +358,17 @@
 		{
 			title: "Tool Enhancements"
 			icon: "minecraft:enchanting_table"
-			x: 2.5d
-			y: 2.0d
-			subtitle: "This will lock enchanted books"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "This will unlock enchantments"
 			description: ["Whether it be improving durability or vein mining. This will help enhance your tools."]
 			dependencies: ["350E66C2C959C83E"]
 			id: "2B3D0F080674DB5F"
 			tasks: [{
-				id: "039F67946D0A6ABD"
+				id: "2D1E5B6F807D7A12"
 				type: "item"
-				item: "minecraft:stone"
+				item: "minecraft:diamond"
+				only_from_crafting: false
 			}]
 			rewards: [
 				{
@@ -604,7 +382,17 @@
 					id: "1ECF9EFE522129A8"
 					type: "item"
 					item: "create:experience_nugget"
-					count: 2
+					count: 15
+				}
+				{
+					id: "650111A9C36A4DF0"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 30
 				}
 			]
 		}
@@ -623,101 +411,13 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "108C84BBB1F99275"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			x: 0.5d
-			y: 1.0d
-			dependencies: ["350E66C2C959C83E"]
-			id: "383F9C50F137C4C9"
-			tasks: [{
-				id: "21D6F4FED1292FCF"
-				type: "item"
-				item: "tconstruct:pattern"
-			}]
-			rewards: [{
-				id: "2637A53BE2EDDCA1"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			x: 3.5d
-			y: 4.0d
-			subtitle: "Tinker Tailor Solidier Spy"
-			dependencies: ["612D24EAE2EB48A7"]
-			id: "4C69D88874429BCA"
-			tasks: [{
-				id: "2442F51B877BEDA8"
-				type: "item"
-				item: {
-					id: "tconstruct:tinker_station"
-					Count: 1b
-					tag: {
-						texture: "minecraft:oak_planks"
-					}
-				}
-			}]
-			rewards: [{
-				id: "37E72EA790415520"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			x: 2.5d
-			y: 3.0d
-			subtitle: "Small parts inside"
-			dependencies: ["4CE9101D3B0DD333"]
-			id: "612D24EAE2EB48A7"
-			tasks: [{
-				id: "7944E782166A2D83"
-				type: "item"
-				item: {
-					id: "tconstruct:part_builder"
-					Count: 1b
-					tag: {
-						texture: "minecraft:oak_planks"
-					}
-				}
-			}]
-			rewards: [{
-				id: "5D3835F740C12313"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
-			}]
-		}
-		{
-			x: 1.5d
-			y: 2.0d
-			subtitle: "Do you like a quality table?"
-			dependencies: ["383F9C50F137C4C9"]
-			id: "4CE9101D3B0DD333"
-			tasks: [{
-				id: "329C13ABDAE2D5F7"
-				type: "item"
-				item: {
-					id: "tconstruct:crafting_station"
-					Count: 1b
-					tag: {
-						texture: "minecraft:oak_log"
-					}
-				}
-			}]
-			rewards: [{
-				id: "4BD5C002234E9AFE"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "777ADB680AF951EB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -751,16 +451,16 @@
 				value: 10L
 			}]
 			rewards: [{
-				id: "4ADCE97586FB9391"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 15
+				id: "60B4E3279729E4CF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
 			title: "Explore the Church of Beryl"
-			x: 3.5d
-			y: 3.0d
+			x: 5.5d
+			y: -1.5d
 			dependencies: ["2B3D0F080674DB5F"]
 			id: "238CE24CBD265BC7"
 			tasks: [{
@@ -774,7 +474,11 @@
 			x: -5.5d
 			y: -1.0d
 			subtitle: "Proper protocol states to stockpile"
-			dependencies: ["0AF0A0BDAAC6F2CE"]
+			dependencies: [
+				"27301782033D3481"
+				"7CF3EE0C76CD0399"
+				"56CA1B09A6CE5380"
+			]
 			id: "4DACB278D6F2F298"
 			tasks: [
 				{
@@ -782,49 +486,55 @@
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 64L
+					only_from_crafting: false
 				}
 				{
 					id: "6E620D8C0B2CA3FC"
 					type: "item"
 					item: "minecraft:copper_ingot"
 					count: 64L
+					only_from_crafting: false
 				}
 				{
 					id: "43F91E699A114391"
 					type: "item"
 					item: "minecraft:gold_ingot"
 					count: 64L
+					only_from_crafting: false
 				}
 				{
 					id: "0D7E1A4FBD37090D"
 					type: "item"
 					item: "minecraft:lapis_lazuli"
 					count: 64L
+					only_from_crafting: false
 				}
 				{
 					id: "05BAFB14BBFE9B8F"
 					type: "item"
 					item: "minecraft:redstone"
 					count: 64L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "5E176D03AAB0170B"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 50
+				id: "6ABB6F81C385E2E3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
 			title: "Screw going green."
 			x: -4.0d
 			y: 7.5d
-			dependencies: ["2B6DCF762612E7F9"]
+			secret: true
 			id: "05A5CA1D4BEC6C15"
 			tasks: [{
 				id: "5E738388B53C73F5"
 				type: "item"
 				item: "modern_industrialization:uranium_fuel_rod"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -837,6 +547,13 @@
 				id: "71C023932D82A032"
 				type: "item"
 				item: "indrev:solar_generator_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "1AE564A06F9868E0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -863,17 +580,17 @@
 					player_command: false
 				}
 				{
-					id: "35D3DE8BAC455F59"
-					type: "item"
-					item: "create:experience_nugget"
-					count: 5
+					id: "0CF162BCAC7031C8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3534262378248187539L
 				}
 			]
 		}
 		{
 			title: "Acquire more ingots"
-			x: 2.0d
-			y: 0.0d
+			x: 2.5d
+			y: -1.0d
 			subtitle: "Mass Melting"
 			dependencies: ["350E66C2C959C83E"]
 			id: "203053D584AB210D"
@@ -935,16 +652,321 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
-			subtitle: "Certain requirements are needed for sentient species"
-			description: ["Make sure to have a nice clean and organized place as it's important for sentient species mental health."]
+			title: "Setting up a base "
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Build buildings as a living space for your team."
+			description: [
+				"It is important to start building buildings where you can do various activities. "
+				""
+				"To start off with you should create a livingroom, kitchen, bedroom and extra places for machines."
+			]
 			dependencies: ["350E66C2C959C83E"]
 			id: "171FEBF60B0C8CB5"
 			tasks: [{
 				id: "61F2C41FCB01BC89"
 				type: "checkmark"
-				title: "Sentient Species"
+				title: "Start building"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "With limited resources, you are going to have to be crafty"
+			dependencies: ["350E66C2C959C83E"]
+			id: "172F16A31F27C507"
+			tasks: [{
+				id: "0A100196A40EAF5E"
+				type: "item"
+				item: {
+					id: "fabricaeexnihilo:wooden_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "60AEC223678FBA02"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			subtitle: "Claymation"
+			dependencies: ["172F16A31F27C507"]
+			id: "2D81A6754F64C590"
+			tasks: [{
+				id: "12579A1EBCEB2DBF"
+				type: "item"
+				item: "fabricaeexnihilo:oak_barrel"
+				only_from_crafting: false
+			}]
+			rewards: [
+				{
+					id: "54CAC5E02D1101E5"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 10
+				}
+				{
+					id: "198241247E89FD13"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 15
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["2D81A6754F64C590"]
+			id: "058E3B44F10D6FC7"
+			tasks: [{
+				id: "124114632B483E42"
+				type: "item"
+				item: "create:andesite_alloy"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "78DDA75C69D2428F"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 15
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["172F16A31F27C507"]
+			id: "0CC2BD2656FDD5D2"
+			tasks: [{
+				id: "77B13896F170F8DE"
+				type: "item"
+				item: "minecraft:sand"
+				count: 64L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "767175602EFB94D0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["172F16A31F27C507"]
+			id: "3B871D7DA8866A62"
+			tasks: [{
+				id: "4DE5492F7193854B"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 64L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7312F1456EACE3F4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["2D81A6754F64C590"]
+			id: "28DC20436EB11425"
+			tasks: [{
+				id: "07B7E47A02B68006"
+				type: "item"
+				item: "minecraft:clay"
+			}]
+			rewards: [{
+				id: "198A2AB2EBED37F6"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 15
+			}]
+		}
+		{
+			title: "The livingroom"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Create a livingroom."
+			description: ["you should create a big enough room to fit a few tables chairs and sofas. If you are interested then you can create a dining table"]
+			dependencies: ["171FEBF60B0C8CB5"]
+			id: "7CF3EE0C76CD0399"
+			tasks: [
+				{
+					id: "06F45A044546A176"
+					type: "item"
+					title: "Table"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:tables"
+						}
+					}
+				}
+				{
+					id: "7BAA23E2886A0FF5"
+					type: "item"
+					title: "Chair"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:chairs"
+						}
+					}
+				}
+				{
+					id: "6A3D015469F9F3BC"
+					type: "item"
+					title: "Sofa"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:sofas"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3AA497183BB59094"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			title: "The kitchen"
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Make a room where you can make food."
+			description: ["you should build a pretty good sized room for this one as it will need space for all of the blocks."]
+			dependencies: ["171FEBF60B0C8CB5"]
+			id: "56CA1B09A6CE5380"
+			tasks: [
+				{
+					id: "00821D334EAFB8F7"
+					type: "item"
+					item: "sandwichable:sandwich_table"
+				}
+				{
+					id: "3D407CBFEDED8221"
+					type: "item"
+					item: {
+						id: "sandwichable:stone_kitchen_knife"
+						Count: 1b
+						tag: {
+							KnifeData: {
+								maxSharpness: 132
+								sharpness: 132
+							}
+						}
+					}
+				}
+				{
+					id: "35E575596BDB1078"
+					type: "item"
+					title: "Cutting Board"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "sandwichable:cutting_boards"
+						}
+					}
+				}
+				{
+					id: "48AB097EAB96854F"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+				{
+					id: "6A0B1DDA0BD28B7B"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+				{
+					id: "2A936E50106EF161"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3453DBA410114CA8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
+			}]
+		}
+		{
+			title: "Bedroom"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "A place to sleep."
+			description: ["Make a place where you can sleep through the night."]
+			dependencies: ["171FEBF60B0C8CB5"]
+			id: "27301782033D3481"
+			tasks: [
+				{
+					id: "13A4E95D6F094BA9"
+					type: "item"
+					title: "Any #farmersdelight:cabinets"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "farmersdelight:cabinets"
+						}
+					}
+				}
+				{
+					id: "29EB9763BC1FC2C7"
+					type: "item"
+					title: "Any #minecraft:beds"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "315C240ED3374E9D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 	]

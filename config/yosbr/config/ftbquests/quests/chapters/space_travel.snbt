@@ -1,7 +1,7 @@
 {
 	id: "6C10096130A51871"
 	group: "4E03E5FEAE87C266"
-	order_index: 2
+	order_index: 1
 	filename: "space_travel"
 	title: "Space Travel"
 	default_quest_shape: ""
@@ -106,9 +106,13 @@
 			]
 			id: "7F425AB3E4DA8AA8"
 			tasks: [{
-				id: "04B731C08FEF5C54"
-				type: "checkmark"
-				title: "Rocket tier 1 unlock"
+				id: "09C8DCD2F2CD1EEB"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
 			}]
 			rewards: [{
 				id: "2B95FE39BB0CF795"

@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 23.5d
+			x: 25.5d
 			y: -15.5d
 			description: [
 				"Company behind Modern Industrialization machines is “Meta Industries”."
@@ -32,42 +32,110 @@
 				id: "75F87F55D0036321"
 				type: "custom"
 				title: "A Galactic Market"
-				icon: "blockus:stars_block"
+				icon: "bosses_of_mass_destruction:soul_star"
 				auto: "disabled"
 			}]
 		}
 		{
-			title: "Steak Sandwhich"
-			icon: "valley:steak_sandwich"
-			disable_toast: true
-			x: 25.5d
-			y: -16.0d
-			id: "61FD7464336B1D37"
+			title: "Stack of Bullets"
+			icon: "hwg:bullets"
+			x: 27.0d
+			y: -17.0d
+			can_repeat: true
+			id: "7C72D279A281C3A1"
 			tasks: [{
-				id: "757A0C9DADF6485C"
+				id: "26C8F112F095AE7D"
 				type: "item"
 				item: {
-					id: "numismatic-overhaul:bronze_coin"
+					id: "numismatic-overhaul:gold_coin"
 					Count: 1b
 					tag: { }
 				}
-				count: 50L
-				consume_items: true
 			}]
 			rewards: [{
-				id: "28B6E5FB85CA9993"
-				type: "questsadditions:repeat"
-				table_id: 9165758987583298493L
+				id: "5720227FE138FD9E"
+				type: "item"
+				item: "hwg:bullets"
+				count: 64
 			}]
 		}
 		{
-			title: "Fish Taco"
-			icon: "tacocraft:fish_taco"
+			title: "Stack of Shotgun Shells"
+			icon: "hwg:shotgun_shell"
 			x: 25.5d
 			y: -17.0d
-			id: "43DB2EED9B29DEBA"
+			can_repeat: true
+			id: "3B821917A2926698"
 			tasks: [{
-				id: "6EE4CC39C65C9A2C"
+				id: "1636363A9626387F"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:gold_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "44A3B3FA0499DF32"
+				type: "item"
+				item: "hwg:shotgun_shell"
+				count: 64
+			}]
+		}
+		{
+			title: "Fuel Tank"
+			icon: "hwg:fuel_tank"
+			x: 24.0d
+			y: -17.0d
+			can_repeat: true
+			id: "015D0D9F7548E1F8"
+			tasks: [{
+				id: "5FDDAEC02AB4B2F8"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2833A869C7A01911"
+				type: "item"
+				item: "hwg:fuel_tank"
+			}]
+		}
+		{
+			title: "Stack of Arrows"
+			icon: "minecraft:arrow"
+			x: 24.0d
+			y: -15.5d
+			can_repeat: true
+			id: "2A86500A3C1B4A7D"
+			tasks: [{
+				id: "5476D47F7AD9003D"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "046146CADC9345B3"
+				type: "item"
+				item: "minecraft:arrow"
+				count: 64
+			}]
+		}
+		{
+			title: "Cali Taco"
+			icon: "tacocraft:california_taco"
+			x: 27.0d
+			y: -15.5d
+			can_repeat: true
+			id: "54E442C920FE9F2E"
+			tasks: [{
+				id: "02E198EA6F10E87A"
 				type: "item"
 				item: {
 					id: "numismatic-overhaul:bronze_coin"
@@ -75,50 +143,70 @@
 					tag: { }
 				}
 				count: 50L
-				consume_items: true
 			}]
 			rewards: [{
-				id: "6260A5C82B2A658E"
-				type: "questsadditions:repeat"
-				table_id: 310880292066309209L
+				id: "1EA2A8BA569B906E"
+				type: "item"
+				item: "tacocraft:california_taco"
 			}]
 		}
 		{
-			title: "Crystal Heart"
-			icon: "artifacts:crystal_heart"
+			title: "12 Golden Carrots"
+			icon: "minecraft:golden_carrot"
+			x: 24.0d
+			y: -14.0d
+			can_repeat: true
+			id: "1554B60D035066C6"
+			tasks: [{
+				id: "79FFDEEF8DF7B4D7"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "45CFB8918E1D5453"
+				type: "item"
+				title: "12 Golden Carrots"
+				icon: "minecraft:golden_carrot"
+				item: "minecraft:golden_carrot"
+				count: 12
+			}]
+		}
+		{
+			title: "MRE"
+			icon: "campanion:mre"
 			x: 25.5d
 			y: -14.0d
-			id: "425E331ED256A8DA"
+			can_repeat: true
+			id: "7DAFA541C5CCDA45"
 			tasks: [{
-				id: "56ED624245A83D29"
+				id: "4387A27C724451E2"
 				type: "item"
 				item: {
-					id: "numismatic-overhaul:gold_coin"
+					id: "numismatic-overhaul:silver_coin"
 					Count: 1b
 					tag: { }
 				}
-				count: 50L
-				consume_items: true
 			}]
 			rewards: [{
-				id: "57FDB543DDEE863B"
-				type: "questsadditions:repeat"
-				table_id: 1389679842562604627L
+				id: "4945444D9B417755"
+				type: "item"
+				item: "campanion:mre"
 			}]
 		}
 		{
-			x: 25.5d
-			y: -15.0d
-			id: "6A4EEC3E09A4BBA8"
-		}
-		{
-			title: "Stack of Gold ore"
-			icon: "minecraft:gold_ore"
-			x: 25.5d
-			y: -13.0d
-			id: "326FCFBC80BEAD3F"
+			title: "Big Breakfast"
+			icon: "croptopia:the_big_breakfast"
+			x: 27.0d
+			y: -14.0d
+			optional: true
+			can_repeat: true
+			id: "4D24083AF4C84F75"
 			tasks: [{
-				id: "1439ABD34FB496A5"
+				id: "0EAB097C72B090DA"
 				type: "item"
 				item: {
 					id: "numismatic-overhaul:gold_coin"
@@ -127,68 +215,10 @@
 				}
 			}]
 			rewards: [{
-				id: "2FD34865AE434FD9"
-				type: "questsadditions:repeat"
-				exclude_from_claim_all: true
-				table_id: 9153070378263382799L
-			}]
-		}
-		{
-			title: "Stack of Copper ore"
-			icon: "minecraft:copper_ore"
-			x: 25.5d
-			y: -12.0d
-			id: "137171932C16B644"
-			tasks: [{
-				id: "246CD16D3CE5BAE1"
+				id: "2534D379EC1D4883"
 				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "2510A743AFA2FE14"
-				type: "questsadditions:repeat"
-				exclude_from_claim_all: true
-				table_id: 2364024109116540212L
-			}]
-		}
-		{
-			title: "Stack of Iron ore"
-			icon: "minecraft:iron_ore"
-			x: 25.5d
-			y: -11.0d
-			id: "624B7A2BC6F8EC86"
-			tasks: [{
-				id: "2DB968C40FD7D791"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0A24A636CD16DE08"
-				type: "questsadditions:repeat"
-				exclude_from_claim_all: true
-				table_id: 283787458928034777L
-			}]
-		}
-		{
-			x: 25.5d
-			y: -10.0d
-			id: "0E880BC1D03B5173"
-			tasks: [{
-				id: "6554848DB895A4AF"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
+				item: "croptopia:the_big_breakfast"
+				count: 12
 			}]
 		}
 	]

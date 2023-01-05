@@ -42,8 +42,10 @@
 			y: -4.5d
 			id: "2E8711EA762548F2"
 			tasks: [{
-				id: "58AD45A12A74A0F3"
-				type: "checkmark"
+				id: "4156E7C803B19A11"
+				type: "xp"
+				value: 30L
+				points: false
 			}]
 			rewards: [{
 				id: "47AE70EC7C6C4BE7"
@@ -65,6 +67,13 @@
 				id: "7601D0595292CA61"
 				type: "item"
 				item: "immortuoscalyx:syringe"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "6330A30F90BB6496"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -76,6 +85,12 @@
 				id: "7415C9DB991BEB0E"
 				type: "item"
 				item: "squirtingsyringe:syringe"
+			}]
+			rewards: [{
+				id: "289FE63C8B4EE3D5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -94,6 +109,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4DB6945AA3B24F61"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 13.5d
@@ -110,6 +131,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7325D25DCD6713D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -128,6 +155,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "14938142AE70A680"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 14.5d
@@ -144,6 +177,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "1DE58EFA666BDC5F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -162,6 +201,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1598E9785A48FAA8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 11.5d
@@ -178,6 +223,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "724D785810A19834"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -196,6 +247,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "761770C8F9EDD812"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 11.5d
@@ -212,6 +269,12 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4E8E2E73F238FDA0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -230,6 +293,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "290403A03BBE52A9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 13.5d
@@ -247,6 +316,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6BDBDFCE4109EEF4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: -1.5d
@@ -257,6 +332,13 @@
 				id: "7669A430A1E476CB"
 				type: "item"
 				item: "immortuoscalyx:immortuoseggs"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7444D704FE11203D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -268,6 +350,13 @@
 				id: "7C9D444ED318EC37"
 				type: "item"
 				item: "immortuoscalyx:unstablestrand"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "43C41FD0EE4504AD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -279,6 +368,13 @@
 				id: "5C371AF3F53B1A29"
 				type: "item"
 				item: "immortuoscalyx:stablizedstrand"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "5678E9B8E1FFE020"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -290,6 +386,13 @@
 				id: "3FD80627115E276F"
 				type: "item"
 				item: "immortuoscalyx:antiparasitic"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "198849F55C34DB51"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -301,6 +404,13 @@
 				id: "461F5FE557FEE301"
 				type: "item"
 				item: "immortuoscalyx:calyxanide"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "69A8BB8803736FAD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -312,6 +422,13 @@
 				id: "4BFA2758C506199B"
 				type: "item"
 				item: "immortuoscalyx:healthscanner"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3DE9A6BE44598B14"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -323,6 +440,13 @@
 				id: "54618F870359F8D7"
 				type: "item"
 				item: "immortuoscalyx:infection_scanner"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "1D7E01E17D20CBF9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -335,6 +459,13 @@
 				id: "180E57AFD976C19C"
 				type: "item"
 				item: "chestcavity:heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "264A3933EFF6BCEB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -353,6 +484,13 @@
 						Damage: 0
 					}
 				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "77E1446226B2294F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -365,6 +503,13 @@
 				id: "32FA4736EBCA39D6"
 				type: "item"
 				item: "chestcavity:chest_opener"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "422D33D92B58DCE6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -376,6 +521,13 @@
 				id: "3ABD4ED42CC3139A"
 				type: "item"
 				item: "chestcavity:fireproof_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "452D468719DED5AD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -387,6 +539,13 @@
 				id: "23D4FF7487ABCE1C"
 				type: "item"
 				item: "chestcavity:animal_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "079389F2566E8241"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -398,6 +557,13 @@
 				id: "627E26E2EBA04A8D"
 				type: "item"
 				item: "chestcavity:ender_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4D38A0D60A075B25"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
 			}]
 		}
 		{
@@ -409,6 +575,13 @@
 				id: "0A3AEBA3ABC73183"
 				type: "item"
 				item: "chestcavity:dragon_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "71B3D6138D8610D7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
@@ -420,6 +593,13 @@
 				id: "5A5300D55D7A853D"
 				type: "item"
 				item: "chestcavity:golem_core"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "2975451F5EA25B7E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
@@ -442,6 +622,13 @@
 				id: "51E7CC516F887B5C"
 				type: "item"
 				item: "chestcavity:lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "41942C6393090F32"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -453,6 +640,13 @@
 				id: "711294E0DB9D0C33"
 				type: "item"
 				item: "chestcavity:animal_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7A96A382B8F57995"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -464,6 +658,13 @@
 				id: "17D3B5A62D422583"
 				type: "item"
 				item: "chestcavity:fireproof_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4990C8EA8388E3A6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -475,6 +676,13 @@
 				id: "347C85AABAD2EE5B"
 				type: "item"
 				item: "chestcavity:ender_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "6A0D2859F10427C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
 			}]
 		}
 		{
@@ -486,10 +694,17 @@
 				id: "6363E63B0C70E77C"
 				type: "item"
 				item: "chestcavity:dragon_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "796C5E23C84DB367"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
-			title: "Oxygen Tank Recipe Unlock"
+			title: "Oxygen Research"
 			icon: {
 				id: "ad_astra:oxygen_tank"
 				Count: 1b
@@ -499,6 +714,12 @@
 			y: 1.5d
 			dependencies: ["4727163989F41B85"]
 			id: "2F068F2F28266C55"
+			tasks: [{
+				id: "722A5D676C09F765"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
 			rewards: [{
 				id: "0DCB6301BAF0DC78"
 				type: "command"
@@ -513,10 +734,18 @@
 			}]
 		}
 		{
+			title: "Oxygen Research 2"
+			icon: "ad_astra:oxygen_distributor"
 			x: 4.5d
 			y: 2.5d
 			dependencies: ["3C977EB0BFAE0158"]
 			id: "1BE0DB7FCBD558C2"
+			tasks: [{
+				id: "4FFEF29FB60DE864"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
 			rewards: [{
 				id: "660C1A286F67142B"
 				type: "item"
@@ -524,14 +753,25 @@
 			}]
 		}
 		{
+			title: "Oxygen Research 3"
+			icon: "ad_astra:oxygen_sensor"
 			x: 4.5d
 			y: 3.5d
 			dependencies: ["35BC36791EE8BD88"]
 			id: "3932F5437CE17418"
 			tasks: [{
-				id: "5239711E3A30A82F"
-				type: "item"
-				item: "ad_astra:oxygen_sensor"
+				id: "7D615D91A299307B"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "71A063E940A940BB"
+				type: "command"
+				title: "Oxygen Sensor Research"
+				icon: "ad_astra:oxygen_sensor"
+				command: "/phase grant @p oxysensor"
+				player_command: false
 			}]
 		}
 		{

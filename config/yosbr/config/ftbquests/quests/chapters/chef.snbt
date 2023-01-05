@@ -21,15 +21,18 @@
 	}]
 	quests: [
 		{
+			title: "Nutrition Officer"
 			icon: "kubejs:chef"
 			disable_toast: true
 			x: 1.5d
 			y: -64.0d
-			description: ["You need to show a little prowess to get this goat cheese. Reach level 2 and you can use the chef table, opening many items."]
+			description: ["You need to show a little prowess to get this goat cheese."]
 			id: "2B1E87EA80F17E5B"
 			tasks: [{
-				id: "58DDA994D21A9E66"
-				type: "checkmark"
+				id: "753D9419A8D22A25"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
 				id: "08A642AF12D3A9A7"
@@ -70,11 +73,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "0B1D0C4410D83CA6"
-				type: "item"
-				item: "croptopia:guide"
-			}]
+			rewards: [
+				{
+					id: "0B1D0C4410D83CA6"
+					type: "item"
+					item: "croptopia:guide"
+				}
+				{
+					id: "2ADA728A2D010504"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -313,6 +328,24 @@
 					item: "farmersdelight:cooking_pot"
 				}
 			]
+			rewards: [
+				{
+					id: "1B532798FD17615C"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 5
+				}
+				{
+					id: "5E14060993684731"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -324,6 +357,24 @@
 				type: "item"
 				item: "croptopia:food_press"
 			}]
+			rewards: [
+				{
+					id: "209B52EA321E62C0"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 5
+				}
+				{
+					id: "5DEA5347E51B2051"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -348,6 +399,24 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "100CD8993F410363"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 5
+				}
+				{
+					id: "1FB80E636FC8FF9E"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -364,6 +433,24 @@
 				type: "item"
 				item: "croptopia:mortar_and_pestle"
 			}]
+			rewards: [
+				{
+					id: "4B2E5892A2ED31EA"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 10
+				}
+				{
+					id: "56ED141BF244208B"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -375,6 +462,24 @@
 				type: "item"
 				item: "croptopia:flour"
 			}]
+			rewards: [
+				{
+					id: "5A55EBAEF53CD303"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 10
+				}
+				{
+					id: "10004452F1A0727A"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -386,6 +491,24 @@
 				type: "item"
 				item: "croptopia:butter"
 			}]
+			rewards: [
+				{
+					id: "33265402F27DC6DC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "4ABC1F54E51F5008"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -397,6 +520,24 @@
 				type: "item"
 				item: "croptopia:pepper"
 			}]
+			rewards: [
+				{
+					id: "5182595CC88A1F52"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 10
+				}
+				{
+					id: "161BA50EE78AF3CB"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -408,6 +549,24 @@
 				type: "item"
 				item: "croptopia:salt"
 			}]
+			rewards: [
+				{
+					id: "7AEAE262582D5A55"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 10
+				}
+				{
+					id: "33ADB110C1AB8883"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 10
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -419,6 +578,24 @@
 				type: "item"
 				item: "croptopia:olive_oil"
 			}]
+			rewards: [
+				{
+					id: "19729AFFCF0D3D46"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "3CD1F226FACA9435"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -430,6 +607,24 @@
 				type: "item"
 				item: "croptopia:noodle"
 			}]
+			rewards: [
+				{
+					id: "1E2C816DA9D929DA"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "41FA70C595D93EA3"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -441,6 +636,24 @@
 				type: "item"
 				item: "croptopia:tofu"
 			}]
+			rewards: [
+				{
+					id: "7868221BB22DC9E4"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "6B2B157CC0738085"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -452,6 +665,24 @@
 				type: "item"
 				item: "croptopia:tortilla"
 			}]
+			rewards: [
+				{
+					id: "4832EB73B4498708"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "6FAC4D03414D3AE8"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -463,6 +694,24 @@
 				type: "item"
 				item: "croptopia:soy_sauce"
 			}]
+			rewards: [
+				{
+					id: "59CF41A19C35E128"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "475D0797C9C31823"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -474,6 +723,24 @@
 				type: "item"
 				item: "croptopia:dough"
 			}]
+			rewards: [
+				{
+					id: "59B2E37E846CF3D7"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "045320348586E509"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -485,6 +752,24 @@
 				type: "item"
 				item: "croptopia:ravioli"
 			}]
+			rewards: [
+				{
+					id: "0414487B78762792"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "1134116E0C0BC694"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -496,6 +781,24 @@
 				type: "item"
 				item: "croptopia:artichoke_dip"
 			}]
+			rewards: [
+				{
+					id: "2AA7F6194FC7D4B7"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "45903E48C91A1E28"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -507,6 +810,24 @@
 				type: "item"
 				item: "croptopia:coffee"
 			}]
+			rewards: [
+				{
+					id: "13AE7C60AE217FF3"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "5913C3940E2D5D16"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -518,6 +839,24 @@
 				type: "item"
 				item: "croptopia:lemonade"
 			}]
+			rewards: [
+				{
+					id: "3C8CF71C1B4B6211"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "4ABE94DA9F038D53"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -529,6 +868,24 @@
 				type: "item"
 				item: "croptopia:limeade"
 			}]
+			rewards: [
+				{
+					id: "57A0E8BDF349CE48"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "4F174096871FD113"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -540,6 +897,24 @@
 				type: "item"
 				item: "croptopia:soy_milk"
 			}]
+			rewards: [
+				{
+					id: "073AF51F55FF1660"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "008DAD88A2884151"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -551,6 +926,24 @@
 				type: "item"
 				item: "croptopia:doughnut"
 			}]
+			rewards: [
+				{
+					id: "0F04693A33665332"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "2F523630CB02EB1E"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -562,6 +955,24 @@
 				type: "item"
 				item: "croptopia:oatmeal"
 			}]
+			rewards: [
+				{
+					id: "6568EDAE7AC6843A"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "127309C6E5565407"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -573,6 +984,24 @@
 				type: "item"
 				item: "croptopia:yoghurt"
 			}]
+			rewards: [
+				{
+					id: "5DEEC9D7E6AC21F6"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "525BABD2B56E6A1B"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -584,6 +1013,24 @@
 				type: "item"
 				item: "croptopia:saucy_chips"
 			}]
+			rewards: [
+				{
+					id: "18E2A1D8477D1914"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "4DB0CC231595048C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -595,6 +1042,24 @@
 				type: "item"
 				item: "croptopia:scrambled_eggs"
 			}]
+			rewards: [
+				{
+					id: "5F4F9177F8F6BA26"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "6C1F166F1DDEA546"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -606,6 +1071,24 @@
 				type: "item"
 				item: "croptopia:buttered_toast"
 			}]
+			rewards: [
+				{
+					id: "1EA183645B84C5E8"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "75F7E5722FEC5988"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -617,6 +1100,24 @@
 				type: "item"
 				item: "croptopia:toast_with_jam"
 			}]
+			rewards: [
+				{
+					id: "56F33FE6E0137B27"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "1582F88E27357B23"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -628,6 +1129,24 @@
 				type: "item"
 				item: "croptopia:candy_corn"
 			}]
+			rewards: [
+				{
+					id: "69A512D34B829CF0"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "11018D08F7F48B41"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -639,6 +1158,24 @@
 				type: "item"
 				item: "croptopia:snicker_doodle"
 			}]
+			rewards: [
+				{
+					id: "4F47E04D029F4FB0"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "5C5484A0E7BB3094"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -650,6 +1187,24 @@
 				type: "item"
 				item: "croptopia:candied_nuts"
 			}]
+			rewards: [
+				{
+					id: "69AA2D1D454FF0B1"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "49ABB55E89FA605E"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -661,6 +1216,24 @@
 				type: "item"
 				item: "croptopia:crema"
 			}]
+			rewards: [
+				{
+					id: "367BD1BD69B4AE48"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "10D649569370E8B5"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -672,6 +1245,24 @@
 				type: "item"
 				item: "croptopia:chimichanga"
 			}]
+			rewards: [
+				{
+					id: "5F5EAEA921DF1770"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "378CEE3F44BE9BBA"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -683,6 +1274,24 @@
 				type: "item"
 				item: "croptopia:corn_husk"
 			}]
+			rewards: [
+				{
+					id: "3BD897C72BC42F11"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 11
+				}
+				{
+					id: "67C44B97FBA42DFF"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 11
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -694,6 +1303,24 @@
 				type: "item"
 				item: "croptopia:whipping_cream"
 			}]
+			rewards: [
+				{
+					id: "09FFCD6A3BD41098"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 12
+				}
+				{
+					id: "13076FB67B196120"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 12
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -705,6 +1332,24 @@
 				type: "item"
 				item: "croptopia:tea"
 			}]
+			rewards: [
+				{
+					id: "2B37CE0761D78363"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "2A146331DCBC9CC0"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -716,6 +1361,24 @@
 				type: "item"
 				item: "croptopia:kiwi_sorbet"
 			}]
+			rewards: [
+				{
+					id: "51ADCB04F16851F1"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "17D10EF43C0377BD"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -727,6 +1390,24 @@
 				type: "item"
 				item: "croptopia:peanut_butter"
 			}]
+			rewards: [
+				{
+					id: "640546B5F28A34DE"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "30D96C18E5B7C5F7"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -738,6 +1419,24 @@
 				type: "item"
 				item: "croptopia:peanut_butter_with_celery"
 			}]
+			rewards: [
+				{
+					id: "36FA2019EFAE9EF6"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "68809AEE96C810B3"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -749,6 +1448,24 @@
 				type: "item"
 				item: "croptopia:steamed_broccoli"
 			}]
+			rewards: [
+				{
+					id: "364BA3F4F93D3FB9"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "14C34F3D772BC29E"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -760,6 +1477,24 @@
 				type: "item"
 				item: "croptopia:steamed_green_beans"
 			}]
+			rewards: [
+				{
+					id: "7A38941E7B34F411"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+				{
+					id: "047554F30C5E4520"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+			]
 		}
 		{
 			title: "Amateur Chef"
@@ -773,6 +1508,24 @@
 				type: "checkmark"
 				title: "Level 2 Chef"
 			}]
+			rewards: [
+				{
+					id: "412B3C05E0C50E17"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 15
+				}
+				{
+					id: "1701F1B6C981BF5F"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 15
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -784,6 +1537,24 @@
 				type: "item"
 				item: "croptopia:salsa"
 			}]
+			rewards: [
+				{
+					id: "187E413805D296E3"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "16B45296A3091C4F"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -795,6 +1566,24 @@
 				type: "item"
 				item: "croptopia:pepperoni"
 			}]
+			rewards: [
+				{
+					id: "72229278A91A00D3"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "7F053A9A8A4AFA52"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -806,6 +1595,24 @@
 				type: "item"
 				item: "croptopia:kale_chips"
 			}]
+			rewards: [
+				{
+					id: "4A6826DC3F7B31CD"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "3216EF8CCC03EBAD"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -817,6 +1624,24 @@
 				type: "item"
 				item: "croptopia:potato_chips"
 			}]
+			rewards: [
+				{
+					id: "3E1344EA7506DBBA"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "00330CD4C8D6E4AC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -828,6 +1653,24 @@
 				type: "item"
 				item: "croptopia:steamed_rice"
 			}]
+			rewards: [
+				{
+					id: "6F187058258E131F"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "4F9DAED8860EEED7"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -839,6 +1682,24 @@
 				type: "item"
 				item: "croptopia:french_fries"
 			}]
+			rewards: [
+				{
+					id: "0F9497845B53A50C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "4B869C356E81B11E"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -850,6 +1711,24 @@
 				type: "item"
 				item: "croptopia:sweet_potato_fries"
 			}]
+			rewards: [
+				{
+					id: "11197FDEA3C9A7ED"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "5DC9F1C644BF87B7"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -861,6 +1740,24 @@
 				type: "item"
 				item: "croptopia:cucumber_salad"
 			}]
+			rewards: [
+				{
+					id: "4E5EFDBBA4F92595"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "017E798A78855AA9"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -872,6 +1769,24 @@
 				type: "item"
 				item: "croptopia:leafy_salad"
 			}]
+			rewards: [
+				{
+					id: "0513E67AF913E911"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "2AC49AE51B63CF2C"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -883,6 +1798,24 @@
 				type: "item"
 				item: "croptopia:leek_soup"
 			}]
+			rewards: [
+				{
+					id: "446E796A89B8F289"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "2FEDC3DD04CA2341"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -894,6 +1827,24 @@
 				type: "item"
 				item: "croptopia:grilled_cheese"
 			}]
+			rewards: [
+				{
+					id: "3284768158B9470C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "385A2969B2ABDBAA"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -905,6 +1856,24 @@
 				type: "item"
 				item: "croptopia:almond_brittle"
 			}]
+			rewards: [
+				{
+					id: "7DFC24146861184D"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "05907B5A628E8C51"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -916,6 +1885,24 @@
 				type: "item"
 				item: "croptopia:raisin_oatmeal_cookie"
 			}]
+			rewards: [
+				{
+					id: "26855CE527B636A2"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "1D09ACA0115BB94D"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -927,6 +1914,24 @@
 				type: "item"
 				item: "croptopia:nutty_cookie"
 			}]
+			rewards: [
+				{
+					id: "1A5C70F002D9BD9C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "0D5C4F6B4080340A"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -938,6 +1943,24 @@
 				type: "item"
 				item: "croptopia:burrito"
 			}]
+			rewards: [
+				{
+					id: "7BA4EF75166C92FD"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "561649C03B4FCA2F"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -949,6 +1972,24 @@
 				type: "item"
 				item: "croptopia:ajvar_toast"
 			}]
+			rewards: [
+				{
+					id: "7379DE9E46398EB4"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "075DDD09593DAEAC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -960,6 +2001,24 @@
 				type: "item"
 				item: "croptopia:avocado_toast"
 			}]
+			rewards: [
+				{
+					id: "43A953A2E0C0D44F"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "4F233990CE6243DB"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -971,6 +2030,24 @@
 				type: "item"
 				item: "croptopia:cheesy_asparagus"
 			}]
+			rewards: [
+				{
+					id: "7ACF3FC2A57DDEA6"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "63AFAE964BD87A62"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -982,6 +2059,24 @@
 				type: "item"
 				item: "croptopia:corn_bread"
 			}]
+			rewards: [
+				{
+					id: "4C7DB47ED10A233C"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "5F7CD50DC5525DFD"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -993,6 +2088,24 @@
 				type: "item"
 				item: "minecraft:bread"
 			}]
+			rewards: [
+				{
+					id: "3B20734BBAE35339"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "1CBB29593AF4B99A"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1004,6 +2117,24 @@
 				type: "item"
 				item: "croptopia:candied_kumquats"
 			}]
+			rewards: [
+				{
+					id: "3BCF1DAF2405868F"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "5531B369DF95C61B"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1015,6 +2146,24 @@
 				type: "item"
 				item: "croptopia:steamed_crab"
 			}]
+			rewards: [
+				{
+					id: "3871EA60B651D4B6"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "70CAC1F4FE5EDFEC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1026,6 +2175,24 @@
 				type: "item"
 				item: "croptopia:hashed_brown"
 			}]
+			rewards: [
+				{
+					id: "219C51895B8F6580"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 14
+				}
+				{
+					id: "131A73DA575C5F4D"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 14
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -1037,6 +2204,24 @@
 				type: "checkmark"
 				title: "Semi-Pro Chef"
 			}]
+			rewards: [
+				{
+					id: "5C26A12FDC073FFC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 20
+				}
+				{
+					id: "62D13940CEFC1B42"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 20
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1048,6 +2233,24 @@
 				type: "item"
 				item: "farmersdelight:stove"
 			}]
+			rewards: [
+				{
+					id: "7B6F6980E5693296"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 5
+				}
+				{
+					id: "1D6F2DDF425AE097"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 5
+				}
+			]
 		}
 		{
 			x: 1.5d

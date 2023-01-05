@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "mission_briefing"
 	title: "Mission Briefing"
-	icon: "ftbquests:missing_item"
+	icon: "byg:byg_logo"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -26,6 +26,8 @@
 				"Your training in the AOF simulator should have prepared you for this."
 				""
 				"Therefore tasks will not be in 100% step-by-step order. You are required to use your training and wits to understand how to proceed to the next step."
+				""
+				"It is of utmost importance that you focus on levling your skills. The world is dangerous and having a feeble body will not help you."
 			]
 			id: "0E3AC4F0A925DE3C"
 			tasks: [{

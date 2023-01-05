@@ -29,12 +29,13 @@
 				id: "33817A1CAB7A6AD0"
 				type: "item"
 				item: "logicates:logicate_fabricator"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "59C0F9B1FE667F63"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "4ACEF1CAF5605058"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -50,20 +51,21 @@
 					Count: 1b
 					tag: {
 						state: {
+							serializer: "buildinggadgets:dummy_serializer"
 							state: {
 								Name: "minecraft:air"
 							}
 							data: { }
-							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "79E384D08BD8FE5D"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "43F83678E323FD40"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -75,18 +77,19 @@
 				id: "4ABF90FC6A5203A2"
 				type: "item"
 				item: "platforms:platformer"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "6D1BE8BF6CF8C3BE"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "5F208FFFD7F712B2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
 			title: "Start the automation"
 			x: 5.5d
-			y: 10.0d
+			y: 11.0d
 			subtitle: "Is this skyblock?"
 			description: [
 				"You need to gather materials from the island, there are a few ore varians in the stone from your observations. make sure to grab a few."
@@ -95,24 +98,25 @@
 				""
 				"From what you observed after searching the island you saw water and lava, but there wasnt much lava left from the crash, you will have to get it from the exNihilo starter technology you learned long ago."
 			]
-			dependencies: ["186CB0917B42C66D"]
+			dependencies: ["2AF8DDB5106ADAC3"]
 			id: "5D22CAA6D81CEB01"
 			tasks: [{
 				id: "529816326A92DC39"
 				type: "item"
 				item: "kibe:cobblestone_generator_mk1"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "60F094A6501CBDB5"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "3A9B23266AD5FB16"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
 			title: "Sifter materials"
 			x: 5.5d
-			y: 11.5d
+			y: 12.0d
 			subtitle: "The sifter cant process cobblestone."
 			description: [
 				"You need to first mill the cobblestone into something more fine. The sifter will be able to extract materials from gravel."
@@ -126,18 +130,20 @@
 					id: "43DF736CECF8AB1F"
 					type: "item"
 					item: "create:millstone"
+					only_from_crafting: false
 				}
 				{
 					id: "589D140890F37077"
 					type: "item"
 					item: "create:mechanical_press"
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "5F1B306FF376C738"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "6333D7BEE3CA7CA5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -153,17 +159,20 @@
 					id: "745F9A01112DC905"
 					type: "item"
 					item: "createsifter:sifter"
+					only_from_crafting: false
 				}
 				{
 					id: "7EB97FC13BB4A199"
 					type: "item"
 					item: "createsifter:string_mesh"
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "4E3B53BEE07381BC"
-				type: "item"
-				item: "create:experience_nugget"
+				id: "7043BEB06FFBF64D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -180,19 +189,21 @@
 					type: "item"
 					item: "modern_industrialization:copper_tiny_dust"
 					count: 50L
+					only_from_crafting: false
 				}
 				{
 					id: "524208AFF6BC719F"
 					type: "item"
 					item: "modern_industrialization:tin_tiny_dust"
 					count: 40L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "1021F63680F90CC2"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "29E66FBD4336F315"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -209,25 +220,28 @@
 					type: "item"
 					item: "modern_industrialization:diamond_tiny_dust"
 					count: 5L
+					only_from_crafting: false
 				}
 				{
 					id: "247F045835E23D56"
 					type: "item"
 					item: "modern_industrialization:emerald_tiny_dust"
 					count: 15L
+					only_from_crafting: false
 				}
 				{
 					id: "1E42C664BA4C31B4"
 					type: "item"
 					item: "modern_industrialization:lapis_tiny_dust"
 					count: 25L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "025DB41C274333E9"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "752C914ACBAD2C01"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -244,25 +258,28 @@
 					type: "item"
 					item: "fabricaeexnihilo:tuff_pebble"
 					count: 75L
+					only_from_crafting: false
 				}
 				{
 					id: "0B59E42860D0B3F3"
 					type: "item"
 					item: "fabricaeexnihilo:deepslate_pebble"
 					count: 25L
+					only_from_crafting: false
 				}
 				{
 					id: "5F8A5D681D777EC3"
 					type: "item"
 					item: "fabricaeexnihilo:calcite_pebble"
 					count: 10L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "2B4BAA56E0FEBB96"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "2E3E6CCCD8899967"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -279,19 +296,21 @@
 					type: "item"
 					item: "modern_industrialization:bauxite_tiny_dust"
 					count: 35L
+					only_from_crafting: false
 				}
 				{
 					id: "1A03B1AA506F1891"
 					type: "item"
 					item: "modern_industrialization:nickel_tiny_dust"
 					count: 25L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "0686DCFE2DA8986A"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "1CD61173AECEA387"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -308,19 +327,21 @@
 					type: "item"
 					item: "modern_industrialization:iron_tiny_dust"
 					count: 50L
+					only_from_crafting: false
 				}
 				{
 					id: "13CC957183759F1A"
 					type: "item"
 					item: "modern_industrialization:coal_tiny_dust"
 					count: 40L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "6C4F06F597A890E6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "258231742D21257C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -337,19 +358,21 @@
 					type: "item"
 					item: "modern_industrialization:lead_tiny_dust"
 					count: 30L
+					only_from_crafting: false
 				}
 				{
 					id: "451563D53F0BAB4A"
 					type: "item"
 					item: "modern_industrialization:gold_tiny_dust"
 					count: 10L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "7EDA09CC21976955"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "18683AC5B88169E9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -366,19 +389,21 @@
 					type: "item"
 					item: "modern_industrialization:lead_tiny_dust"
 					count: 30L
+					only_from_crafting: false
 				}
 				{
 					id: "14E699BD58DB182D"
 					type: "item"
 					item: "modern_industrialization:redstone_tiny_dust"
 					count: 50L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "0A94415BED18C9E6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "16C5E94E157BDEC2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -395,19 +420,21 @@
 					type: "item"
 					item: "minecraft:bone_meal"
 					count: 30L
+					only_from_crafting: false
 				}
 				{
 					id: "568378DD3C428BD2"
 					type: "item"
 					item: "minecraft:blaze_powder"
 					count: 10L
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "29ED336776BB93C7"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "1BA86B582B8B5004"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -421,6 +448,7 @@
 			y: 6.0d
 			shape: "square"
 			subtitle: "You cant keep using those stone tools."
+			description: ["For you to progress you will need to craft stronger tools. To do that you will need to set up a tinkers smeltery."]
 			dependencies: ["186CB0917B42C66D"]
 			id: "1C6DA0A26FDFEA58"
 			tasks: [
@@ -433,11 +461,13 @@
 						tag: { }
 					}
 					count: 9L
+					only_from_crafting: false
 				}
 				{
 					id: "72953FE6DD5F9A18"
 					type: "item"
 					item: "tconstruct:seared_basin"
+					only_from_crafting: false
 				}
 				{
 					id: "736814A976922A0A"
@@ -447,6 +477,7 @@
 						Count: 1b
 						tag: { }
 					}
+					only_from_crafting: false
 				}
 				{
 					id: "1E8AD6E31BD57EB4"
@@ -456,6 +487,7 @@
 						Count: 1b
 						tag: { }
 					}
+					only_from_crafting: false
 				}
 				{
 					id: "5742F5E7104B70F7"
@@ -465,24 +497,27 @@
 						Count: 1b
 						tag: { }
 					}
+					only_from_crafting: false
 				}
 				{
 					id: "6C167FD49E353098"
 					type: "item"
 					item: "tconstruct:seared_faucet"
 					count: 2L
+					only_from_crafting: false
 				}
 				{
 					id: "5E325AE4533EC65B"
 					type: "item"
 					item: "tconstruct:smeltery_controller"
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "4324F45D47115C23"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "41745E4C18CE4179"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
 			}]
 		}
 		{
@@ -509,17 +544,12 @@
 					tag: {
 						tic_multipliers: { }
 						tic_stats: {
+							"tconstruct:attack_speed": 1.44f
+							"tconstruct:mining_speed": 7.2000003f
 							"tconstruct:attack_damage": 2.5f
 							"tconstruct:harvest_tier": "minecraft:diamond"
 							"tconstruct:durability": 624.0f
-							"tconstruct:mining_speed": 7.2000003f
-							"tconstruct:attack_speed": 1.44f
 						}
-						Damage: 0
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -539,31 +569,37 @@
 								level: 1s
 							}
 						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:slimesteel"
 							"tconstruct:rose_gold"
 							"tconstruct:slimesteel"
 						]
 						tic_volatile_data: {
+							upgrades: 1
 							"tconstruct:overslime_cap": 200
 							"tconstruct:overslime_friend": 1b
-							upgrades: 1
 						}
 						tic_persistent_data: {
-							upgrades: 3
 							abilities: 1
+							upgrades: 3
 							"tconstruct:overslime": 200
 						}
 					}
 				}
+				only_from_crafting: false
 				match_nbt: false
 				weak_nbt_match: true
 			}]
 			rewards: [{
-				id: "24BE27A23F2E9EF3"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				id: "1D738C07EFBFFC19"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -589,6 +625,13 @@
 					}
 				}
 				count: 4L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "376713CF48C33213"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -609,21 +652,16 @@
 					tag: {
 						tic_multipliers: {
 							"tconstruct:mining_speed": 1.1f
-							"tconstruct:durability": 1.25f
 							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
 						}
 						tic_stats: {
+							"tconstruct:attack_speed": 1.08f
+							"tconstruct:mining_speed": 7.9200006f
 							"tconstruct:attack_damage": 4.4f
 							"tconstruct:harvest_tier": "minecraft:diamond"
 							"tconstruct:durability": 780.0f
-							"tconstruct:mining_speed": 7.9200006f
-							"tconstruct:attack_speed": 1.08f
 						}
-						Damage: 0
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -647,31 +685,37 @@
 								level: 1s
 							}
 						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:slimesteel"
 							"tconstruct:rose_gold"
 							"tconstruct:slimesteel"
 						]
 						tic_volatile_data: {
+							upgrades: 1
 							"tconstruct:overslime_cap": 224
 							"tconstruct:overslime_friend": 1b
-							upgrades: 1
 						}
 						tic_persistent_data: {
-							upgrades: 3
 							abilities: 1
+							upgrades: 3
 							"tconstruct:overslime": 224
 						}
 					}
 				}
+				only_from_crafting: false
 				match_nbt: false
 				weak_nbt_match: true
 			}]
 			rewards: [{
-				id: "0D94FF0CD6EFD952"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "5CE39F63FF7C34A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -692,21 +736,16 @@
 					tag: {
 						tic_multipliers: {
 							"tconstruct:mining_speed": 0.4f
-							"tconstruct:durability": 4.0f
 							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
 						}
 						tic_stats: {
+							"tconstruct:attack_speed": 0.90000004f
+							"tconstruct:mining_speed": 3.6000001f
 							"tconstruct:attack_damage": 6.4125f
 							"tconstruct:harvest_tier": "minecraft:diamond"
 							"tconstruct:durability": 1456.0f
-							"tconstruct:mining_speed": 3.6000001f
-							"tconstruct:attack_speed": 0.90000004f
 						}
-						Damage: 0
-						tic_upgrades: [{
-							name: "tconstruct:overslime"
-							level: 1s
-						}]
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -726,6 +765,11 @@
 								level: 3s
 							}
 						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:slimesteel"
 							"tconstruct:rose_gold"
@@ -733,23 +777,24 @@
 							"tconstruct:rose_gold"
 						]
 						tic_volatile_data: {
+							upgrades: 3
 							"tconstruct:overslime_cap": 337
 							"tconstruct:overslime_friend": 1b
-							upgrades: 3
 						}
 						tic_persistent_data: {
-							upgrades: 2
 							abilities: 1
+							upgrades: 2
 							"tconstruct:overslime": 337
 						}
 					}
 				}
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "7F9D540A9D634979"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "37F82445E1F3EC86"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -777,35 +822,16 @@
 					tag: {
 						tic_multipliers: {
 							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 4.0f
 							"tconstruct:attack_damage": 1.6875f
+							"tconstruct:durability": 4.0f
 						}
 						tic_stats: {
+							"tconstruct:attack_speed": 0.90000004f
+							"tconstruct:mining_speed": 9.2f
 							"tconstruct:attack_damage": 7.0875f
 							"tconstruct:harvest_tier": "minecraft:diamond"
 							"tconstruct:durability": 5184.0f
-							"tconstruct:mining_speed": 9.2f
-							"tconstruct:attack_speed": 0.90000004f
 						}
-						Damage: 0
-						tic_upgrades: [
-							{
-								name: "tconstruct:overslime"
-								level: 1s
-							}
-							{
-								name: "tconstruct:emerald"
-								level: 1s
-							}
-							{
-								name: "tconstruct:diamond"
-								level: 1s
-							}
-							{
-								name: "tconstruct:haste"
-								level: 3s
-							}
-						]
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -837,6 +863,25 @@
 								level: 3s
 							}
 						]
+						tic_upgrades: [
+							{
+								name: "tconstruct:overslime"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 3s
+							}
+						]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:slimesteel"
 							"tconstruct:rose_gold"
@@ -844,26 +889,27 @@
 							"tconstruct:rose_gold"
 						]
 						tic_volatile_data: {
-							"tconstruct:overslime_cap": 337
-							"tconstruct:overslime_friend": 1b
 							"tconstruct:rarity": 1
 							upgrades: 3
+							"tconstruct:overslime_cap": 337
+							"tconstruct:overslime_friend": 1b
 						}
 						tic_persistent_data: {
-							"tconstruct:haste": 45
-							upgrades: -3
 							abilities: 1
+							upgrades: -3
+							"tconstruct:haste": 45
 							"tconstruct:overslime": 337
 						}
 					}
 				}
+				only_from_crafting: false
 				weak_nbt_match: true
 			}]
 			rewards: [{
-				id: "53E2118B600A00F6"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "5049B005FE61044F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -882,12 +928,13 @@
 				id: "496C472F2246AFD2"
 				type: "item"
 				item: "tconstruct:tinkers_anvil"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "589D4205B820BE0E"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "21C0D70FC920AAD0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -908,17 +955,16 @@
 					tag: {
 						tic_multipliers: {
 							"tconstruct:mining_speed": 0.25f
-							"tconstruct:durability": 3.5f
 							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
 						}
 						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 1.3453126f
 							"tconstruct:attack_damage": 9.05625f
 							"tconstruct:harvest_tier": "minecraft:diamond"
 							"tconstruct:durability": 1382.5f
-							"tconstruct:mining_speed": 1.3453126f
-							"tconstruct:attack_speed": 1.1f
 						}
-						Damage: 0
 						tic_broken: 0b
 						tic_modifiers: [
 							{
@@ -942,6 +988,7 @@
 								level: 1s
 							}
 						]
+						Damage: 0
 						tic_materials: [
 							"tconstruct:nahuatl"
 							"tconstruct:rose_gold"
@@ -952,18 +999,19 @@
 							upgrades: 1
 						}
 						tic_persistent_data: {
-							upgrades: 2
 							abilities: 1
+							upgrades: 2
 						}
 					}
 				}
+				only_from_crafting: false
 				weak_nbt_match: true
 			}]
 			rewards: [{
-				id: "1FFD340924672404"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
+				id: "33AB633EBD61B46D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -974,8 +1022,10 @@
 			y: 8.5d
 			id: "186CB0917B42C66D"
 			tasks: [{
-				id: "226026424F52F737"
-				type: "checkmark"
+				id: "5F32CDF7B195BCE6"
+				type: "xp"
+				value: 5L
+				points: false
 			}]
 			rewards: [{
 				id: "2F91407F11496706"
@@ -995,11 +1045,13 @@
 				id: "645B147D691B633D"
 				type: "item"
 				item: "create:wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "4ED1AB8D05D15B3D"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "7D744DD04157E74D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1011,11 +1063,13 @@
 				id: "0BAF0C61497C4918"
 				type: "item"
 				item: "indrev:wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "1B5D6EE7C8558483"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "5501EAE36108D5D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1027,11 +1081,13 @@
 				id: "66DF3E576C5429F7"
 				type: "item"
 				item: "modern_industrialization:wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "0A10271AD0A5DE9E"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "18083AA2AB2938C6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1043,11 +1099,13 @@
 				id: "227CA88E99CF9D15"
 				type: "item"
 				item: "platforms:wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "7D39515213E6F595"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "59EE673241140100"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1059,11 +1117,13 @@
 				id: "0E75217B07B669CD"
 				type: "item"
 				item: "ae2:certus_quartz_wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "2FB7D96D1B4DAD71"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "352D6ADCC7A6690A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1075,11 +1135,13 @@
 				id: "76BB0C2292E9CD6D"
 				type: "item"
 				item: "ae2:nether_quartz_wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "55DAA97E04992B85"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "67BE38A23614A944"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1091,11 +1153,13 @@
 				id: "42895051C6AA02FF"
 				type: "item"
 				item: "ad_astra:wrench"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "6AD1F674743EFE63"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "57118F4A59B3324C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1109,6 +1173,12 @@
 				advancement: "create:burner"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "36F05DA8023B7C85"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: 9.0d
@@ -1120,6 +1190,12 @@
 				type: "advancement"
 				advancement: "create:mechanical_mixer"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "56CA669FB4943890"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1155,6 +1231,13 @@
 				id: "3FAAB2E7236D6685"
 				type: "item"
 				item: "indrev:circuit_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0B623392BB4EEDC4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -1166,6 +1249,13 @@
 				id: "0113779E73346656"
 				type: "item"
 				item: "indrev:circuit_mk2"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "42B08E40722D6625"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1177,6 +1267,13 @@
 				id: "671135A214769C20"
 				type: "item"
 				item: "indrev:circuit_mk3"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0D160BF2885A6A4C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1188,6 +1285,13 @@
 				id: "63E3F0AFEC1E5284"
 				type: "item"
 				item: "indrev:circuit_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0B1CF9F88C7A14AA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
 			}]
 		}
 		{
@@ -1207,6 +1311,7 @@
 			}]
 		}
 		{
+			title: "Desh Cable Research"
 			x: 2.5d
 			y: 13.5d
 			dependencies: [
@@ -1216,9 +1321,10 @@
 			hide: true
 			id: "2BEBEB7D1CD4E7C0"
 			tasks: [{
-				id: "34FAF6016DE01A3A"
-				type: "checkmark"
-				title: "Desh cable research"
+				id: "24D884E2820486B8"
+				type: "xp"
+				value: 20L
+				points: false
 			}]
 			rewards: [{
 				id: "434C5D893D99F95D"
@@ -1238,6 +1344,13 @@
 				id: "5A3DC406CA2615F9"
 				type: "item"
 				item: "indrev:energy_reader"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3273D6F416B59616"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
 			}]
 		}
 		{
@@ -1249,6 +1362,13 @@
 				id: "30C18D0B5F0DD7CB"
 				type: "item"
 				item: "indrev:pump_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "126BB55EDC3AF8C2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -1260,6 +1380,7 @@
 				id: "3879038CC5FF68F8"
 				type: "item"
 				item: "indrev:tier_upgrade_mk2"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -1271,6 +1392,7 @@
 				id: "162469FA28E9C890"
 				type: "item"
 				item: "indrev:tier_upgrade_mk3"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -1282,6 +1404,7 @@
 				id: "3CBBD780A10C6C7B"
 				type: "item"
 				item: "indrev:tier_upgrade_mk4"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -1293,6 +1416,13 @@
 				id: "4629747FADF02CA4"
 				type: "item"
 				item: "indrev:solid_infuser_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "53AB6050A5834CD4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -1304,6 +1434,13 @@
 				id: "47F50B307A755DE5"
 				type: "item"
 				item: "indrev:enriched_nikolite_dust"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0FECE25C574147AC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -1316,6 +1453,13 @@
 				type: "item"
 				item: "indrev:enriched_nikolite_ingot"
 				count: 10L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "40538D08A7E36AFD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1327,6 +1471,13 @@
 				id: "03E83958870510CF"
 				type: "item"
 				item: "indrev:charge_pad_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "484CC269A5B3951D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1338,6 +1489,13 @@
 				id: "6CE3B88A52B3A6FE"
 				type: "item"
 				item: "indrev:condenser_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3A3E7D7B91320896"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1349,6 +1507,13 @@
 				id: "1EDA692B5D050B7D"
 				type: "item"
 				item: "indrev:smelter_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "2FB1BC7B7CCE3964"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1360,6 +1525,13 @@
 				id: "15F15F1747B7FE88"
 				type: "item"
 				item: "indrev:mining_rig_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "232EE2170B953E96"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1371,6 +1543,13 @@
 				id: "6815444FCFC4A875"
 				type: "item"
 				item: "indrev:drill_bottom"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "792AF29943F5242A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -1382,12 +1561,30 @@
 				id: "2D50ABDF3F1F8F99"
 				type: "item"
 				item: "rswires:red_alloy_wire"
+				only_from_crafting: false
 			}]
 			rewards: [{
-				id: "21E3E9A13478EEA3"
+				id: "1B1DA18472E8B87D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			dependencies: ["186CB0917B42C66D"]
+			id: "2AF8DDB5106ADAC3"
+			tasks: [{
+				id: "1A2EDFE0C3A661A3"
 				type: "item"
-				item: "create:experience_nugget"
-				count: 3
+				item: "fabricaeexnihilo:porcelain_crucible"
+			}]
+			rewards: [{
+				id: "7C6517EDDF0CEF7C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 	]

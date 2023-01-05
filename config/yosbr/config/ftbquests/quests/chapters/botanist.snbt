@@ -28,9 +28,10 @@
 			y: 1.0d
 			id: "46CC82F993D692F1"
 			tasks: [{
-				id: "49531D17B43DDF09"
-				type: "checkmark"
-				title: "Science!"
+				id: "79409A88A51BD75E"
+				type: "xp"
+				value: 30L
+				points: false
 			}]
 			rewards: [{
 				id: "347C81CAB9D19340"
@@ -58,6 +59,12 @@
 				replaced: "minecraft:air"
 				replace: false
 			}]
+			rewards: [{
+				id: "62CD35070C9365AD"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
 		}
 		{
 			x: 3.5d
@@ -75,9 +82,10 @@
 				replace: false
 			}]
 			rewards: [{
-				id: "342BBBD38E296B25"
-				type: "item"
-				item: "relicex:tome"
+				id: "11B7D1727947F634"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -93,14 +101,10 @@
 				value: 100
 			}]
 			rewards: [{
-				id: "3ED6F238A69E4EE3"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 5
+				id: "0A2626EBED277F9E"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -113,6 +117,12 @@
 				type: "advancement"
 				advancement: "valley:exploration/mycologist"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "26BB255874E0639F"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -127,13 +137,10 @@
 				criterion: ""
 			}]
 			rewards: [{
-				id: "0F6118A0A06F3844"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:gold_coin"
-					Count: 1b
-					tag: { }
-				}
+				id: "4438455EC5981083"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -146,6 +153,12 @@
 				type: "advancement"
 				advancement: "byg:husbandry/hot_diggity_not_dog"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "026271AED267C5CF"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -259,6 +272,7 @@
 				id: "421F592E7ADFCDCA"
 				type: "item"
 				item: "chipped:botanist_workbench"
+				only_from_crafting: true
 			}]
 		}
 		{
@@ -270,6 +284,7 @@
 				id: "01281AD3520A6755"
 				type: "item"
 				item: "chipped:glassblower"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -281,6 +296,7 @@
 				id: "6FAB185B242290BB"
 				type: "item"
 				item: "chipped:carpenters_table"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -292,6 +308,7 @@
 				id: "0B93632BF5E7E392"
 				type: "item"
 				item: "chipped:loom_table"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -303,6 +320,7 @@
 				id: "2515BB0D61F9CA3F"
 				type: "item"
 				item: "chipped:mason_table"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -314,6 +332,7 @@
 				id: "1E9ED9962EE1A92E"
 				type: "item"
 				item: "chipped:alchemy_bench"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -325,6 +344,7 @@
 				id: "7C451E2C95A38BA5"
 				type: "item"
 				item: "chipped:mechanist_workbench"
+				only_from_crafting: false
 			}]
 		}
 		{
@@ -384,14 +404,22 @@
 					count: 64L
 				}
 			]
-			rewards: [{
-				id: "199A330293B2F110"
-				type: "command"
-				title: "Blue and Shiny"
-				icon: "indrev:nikolite_dust"
-				command: "/phase grant @p indrev"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "199A330293B2F110"
+					type: "command"
+					title: "Blue and Shiny"
+					icon: "indrev:nikolite_dust"
+					command: "/phase grant @p indrev"
+					player_command: false
+				}
+				{
+					id: "42CAC3CE7F6523BC"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 20
+				}
+			]
 		}
 		{
 			title: "Discover new metal"
@@ -424,29 +452,6 @@
 				type: "item"
 				item: "create:experience_nugget"
 				count: 15
-			}]
-		}
-		{
-			x: -1.0d
-			y: -1.0d
-			dependencies: ["46CC82F993D692F1"]
-			id: "255EDD1BA459B1E5"
-			tasks: [{
-				id: "79B56455A9A6798D"
-				type: "item"
-				item: {
-					id: "wearablebackpacks:backpack"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0C366D0A4F1B2289"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 2
 			}]
 		}
 		{
@@ -501,6 +506,12 @@
 				item: "modern_industrialization:bronze_ingot"
 				count: 32L
 			}]
+			rewards: [{
+				id: "7709A3F2A29EBDC3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			title: "Challenges"
@@ -522,6 +533,13 @@
 				id: "6A86C3DEFA384374"
 				type: "item"
 				item: "modern_industrialization:steam_blast_furnace"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4778B2FF84F04829"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -686,12 +704,20 @@
 				id: "4229880376D683C1"
 				type: "item"
 				item: "indrev:steel_ingot"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "07571B0B9CF69779"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
 			title: "Ship Helm"
 			x: -14.0d
 			y: 0.0d
+			subtitle: "Unlocks Space Travel"
 			dependencies: ["009A42C4E1B4237E"]
 			id: "412B5E46ABDF0230"
 			tasks: [{
@@ -866,6 +892,13 @@
 				type: "item"
 				item: "modern_industrialization:analog_circuit"
 				count: 2L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "195CC1A54A8ED459"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -877,6 +910,13 @@
 				id: "0CAF154EE6EDDADB"
 				type: "item"
 				item: "modern_industrialization:electronic_circuit"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "14A69175B8B54962"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
 			}]
 		}
 		{
@@ -888,6 +928,13 @@
 				id: "7CBE4CBE9F05016D"
 				type: "item"
 				item: "modern_industrialization:electric_quarry"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4FFF6B37F6F0AD23"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
 			}]
 		}
 		{
@@ -899,6 +946,13 @@
 				id: "42DBD5900ACFC5DC"
 				type: "item"
 				item: "modern_industrialization:stainless_steel_drill"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4108511AA96B38C4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -910,6 +964,13 @@
 				id: "52A835CDA6567027"
 				type: "item"
 				item: "modern_industrialization:gold_drill"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "35925C687061EE20"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -921,6 +982,13 @@
 				id: "7481E25C7AB73523"
 				type: "item"
 				item: "modern_industrialization:steel_drill"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "5F32C25119F4F9BB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
 			}]
 		}
 		{
@@ -933,6 +1001,12 @@
 				type: "item"
 				item: "modern_industrialization:distillery"
 			}]
+			rewards: [{
+				id: "105483D612156114"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
+			}]
 		}
 		{
 			x: 7.0d
@@ -943,6 +1017,12 @@
 				id: "2DEEC54619F59422"
 				type: "item"
 				item: "modern_industrialization:digital_circuit"
+			}]
+			rewards: [{
+				id: "2D0E74B3342A506D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
 			}]
 		}
 		{
@@ -955,6 +1035,12 @@
 				type: "item"
 				item: "modern_industrialization:titanium_ingot"
 			}]
+			rewards: [{
+				id: "08529E638C435C3F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
+			}]
 		}
 		{
 			x: 10.0d
@@ -965,6 +1051,12 @@
 				id: "4A7D63AB50E02187"
 				type: "item"
 				item: "modern_industrialization:quantum_circuit"
+			}]
+			rewards: [{
+				id: "260DAF95C1E0B100"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 		{
@@ -992,10 +1084,17 @@
 			dependencies: ["46CC82F993D692F1"]
 			id: "17A7A1DA7A6BE4E5"
 			tasks: [{
-				id: "6F6438122CD1EE6A"
-				type: "custom"
-				title: "Get that Science Experience"
+				id: "3408207735D3A0DB"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "66B0EB31F799EFA2"
+				type: "toast"
+				title: "Botany unlocked"
 				icon: "kubejs:botanist"
+				description: ""
 			}]
 		}
 		{
@@ -1016,6 +1115,7 @@
 			}]
 		}
 		{
+			title: "Discover Moon Metal"
 			icon: "ad_astra:desh_ingot"
 			x: 7.0d
 			y: -1.0d
@@ -1026,9 +1126,10 @@
 			hide: true
 			id: "13D1D05BD914D7B2"
 			tasks: [{
-				id: "10D5D989D21AF230"
-				type: "checkmark"
-				title: "Discover Moon Metal"
+				id: "36C2E7DE85240ED9"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
 				id: "23F7F41FF6DB11CC"
@@ -1095,12 +1196,20 @@
 			y: -2.0d
 			dependencies: ["014AB8B1840114D8"]
 			id: "713DF1ED6DCE9257"
-			tasks: [{
-				id: "71F4A49DC96A8139"
-				type: "item"
-				item: "kubejs:radiated_stone"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "71F4A49DC96A8139"
+					type: "item"
+					item: "kubejs:radiated_stone"
+					count: 64L
+				}
+				{
+					id: "560DBEA302E1F12B"
+					type: "xp"
+					value: 10L
+					points: false
+				}
+			]
 			rewards: [{
 				id: "25476FA00EA957A2"
 				type: "command"
@@ -1425,14 +1534,16 @@
 			}]
 		}
 		{
+			title: "Geology Research"
 			x: -6.5d
 			y: -1.5d
 			dependencies: ["17A7A1DA7A6BE4E5"]
 			id: "08454245DC71BA14"
 			tasks: [{
-				id: "382D2C4AD811330A"
-				type: "checkmark"
-				title: "ROCKS!"
+				id: "77B11E60D835D51C"
+				type: "xp"
+				value: 20L
+				points: false
 			}]
 			rewards: [{
 				id: "0A498C3B84848DC7"
@@ -1454,10 +1565,10 @@
 				item: "extractinator:extractinator"
 			}]
 			rewards: [{
-				id: "3B2D73EE099D3B4F"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "75833AB782FAAF86"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1471,10 +1582,10 @@
 				item: "artifacts:obsidian_skull"
 			}]
 			rewards: [{
-				id: "1A03D77ADF783745"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "30C47E1295D0B053"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1488,10 +1599,10 @@
 				item: "artifacts:lucky_scarf"
 			}]
 			rewards: [{
-				id: "398A2401D3713417"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "21305ED2BC25FD2D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1505,10 +1616,10 @@
 				item: "artifacts:digging_claws"
 			}]
 			rewards: [{
-				id: "655CB14FBD00F3EF"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 5
+				id: "58D8CFA355073EBB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1523,6 +1634,12 @@
 				icon: "spectrum:bee_head"
 				advancement: "the_bumblezone:the_bumblezone/root"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7FFA1106F56F8522"
+				type: "item"
+				item: "create:experience_nugget"
+				count: 50
 			}]
 		}
 		{
