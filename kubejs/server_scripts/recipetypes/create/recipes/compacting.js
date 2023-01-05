@@ -80,7 +80,31 @@ onEvent('recipes', (event) => {
       "type": "create:compacting",
       "ingredients": [
         {
-          "item": "botania:blaze_mesh"
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
+        },
+        {
+          "item": "minecraft:blaze_rod"
         }
       ],
       "results": [

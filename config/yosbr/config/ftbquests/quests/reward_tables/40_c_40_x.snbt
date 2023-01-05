@@ -1,0 +1,17 @@
+{
+	id: "7D1E5159BAAE6488"
+	order_index: 51
+	title: "40 c 8 x"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "numismatic-overhaul:bronze_coin"
+				Count: 1b
+				tag: { }
+			}
+			count: 40
+		}
+		{ item: "create:experience_nugget", count: 8 }
+	]
+}

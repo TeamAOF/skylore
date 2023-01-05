@@ -4,6 +4,15 @@
   "hungerExhaustion": 0.05,
   "type": "BLACKLIST",
   "list": [
-    "sandwichable:sandwich_table"
+    "sandwichable:sandwich_table",
+    "createsifter:sifter",
+    "vs_eureka:oak_ship_helm",
+    "vs_eureka:spruce_ship_helm",
+    "vs_eureka:acacia_ship_helm",
+    "vs_eureka:dark_oak_ship_helm",
+    "vs_eureka:birch_ship_helm",
+    "vs_eureka:jungle_ship_helm",
+    "vs_eureka:crimson_ship_helm",
+    "vs_eureka:warped_ship_helm"
   ]
 }

@@ -15,23 +15,23 @@
       }
     },
     "1": {
-      "name": "Profession",
+      "name": " Backpack (if equipped)",
       "icon": {
-        "iconItem": "netherite_pickaxe",
+        "iconItem": "inmis:frayed_backpack",
         "enchanted": false,
         "skullOwner": "",
         "customModelData": 0
       },
       "type": "keyselect",
       "data": {
-        "key": "key.professions.open_occupation_menu",
+        "key": "key.inmis.open_backpack",
         "releaseDelay": 25001
       }
     },
     "2": {
       "name": "Settings",
       "icon": {
-        "iconItem": "dirt",
+        "iconItem": "modern_industrialization:steel_gear",
         "enchanted": false,
         "skullOwner": "",
         "customModelData": 0
@@ -39,20 +39,23 @@
       "type": "category",
       "data": {
         "0": {
-          "name": "Chestcavity Stats",
+          "name": "Open shaders",
           "icon": {
-            "iconItem": "chestcavity:heart",
+            "iconItem": "minecraft:light",
             "enchanted": false,
             "skullOwner": "",
             "customModelData": 0
           },
-          "type": "print",
-          "data": "/chestcavity getscores"
+          "type": "keyselect",
+          "data": {
+            "key": "iris.keybind.shaderPackSelection",
+            "releaseDelay": 10
+          }
         },
         "1": {
           "name": "Toggle Shaders",
           "icon": {
-            "iconItem": "blockus:rainbow_colored_tiles",
+            "iconItem": "minecraft:gray_stained_glass_pane",
             "enchanted": false,
             "skullOwner": "",
             "customModelData": 0
@@ -89,87 +92,6 @@
           }
         },
         "4": {
-          "name": "Debug",
-          "icon": {
-            "iconItem": "",
-            "enchanted": false,
-            "skullOwner": "",
-            "customModelData": 0
-          },
-          "type": "category",
-          "data": {
-            "0": {
-              "name": "music menu",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "keyselect",
-              "data": {
-                "key": "key.musictriggers.menu",
-                "releaseDelay": 10
-              }
-            },
-            "1": {
-              "name": "",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "empty",
-              "data": {}
-            },
-            "2": {
-              "name": "",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "empty",
-              "data": {}
-            },
-            "3": {
-              "name": "",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "empty",
-              "data": {}
-            },
-            "4": {
-              "name": "",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "empty",
-              "data": {}
-            },
-            "5": {
-              "name": "",
-              "icon": {
-                "iconItem": "",
-                "enchanted": false,
-                "skullOwner": "",
-                "customModelData": 0
-              },
-              "type": "empty",
-              "data": {}
-            }
-          }
-        },
-        "5": {
           "name": "Mine With Weapons Toggle",
           "icon": {
             "iconItem": "minecraft:iron_pickaxe",
@@ -182,6 +104,17 @@
             "key": "keybinds.bettercombat.toggle_mine_with_weapons",
             "releaseDelay": 10
           }
+        },
+        "5": {
+          "name": "Chestcavity Stats",
+          "icon": {
+            "iconItem": "chestcavity:heart",
+            "enchanted": false,
+            "skullOwner": "",
+            "customModelData": 0
+          },
+          "type": "print",
+          "data": "/chestcavity getscores"
         }
       }
     },
@@ -200,7 +133,7 @@
       }
     },
     "4": {
-      "name": "Advancements",
+      "name": " ",
       "icon": {
         "iconItem": "",
         "enchanted": false,
@@ -209,12 +142,12 @@
       },
       "type": "keyselect",
       "data": {
-        "key": "key.voice_chat",
+        "key": "key.sprint",
         "releaseDelay": 10
       }
     },
     "5": {
-      "name": "Open Quiver",
+      "name": "Open Quiver (if equipped)",
       "icon": {
         "iconItem": "nyfsquiver:netherite_quiver",
         "enchanted": false,
@@ -231,8 +164,8 @@
   "menuEntries": 6,
   "outerRadius": 90,
   "innerRadius": 30,
-  "primaryColor": "#8447FF60",
-  "secondaryColor": "#FFFFE820",
+  "primaryColor": "#8447FFF0",
+  "secondaryColor": "#030303b0",
   "emptyItemIcon": "minecraft:air",
   "multiPrintSeparator": ";",
   "multiPrintDelay": 10,

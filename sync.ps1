@@ -1,41 +1,43 @@
 # params and constants
-. .\config.ps1
+. $PSSCriptRoot\config.ps1
 # example config 
 
 # # used for setting the rigth url to download from.
 # $owner = "TeamAOF" # creator of the git repository.
 # $repo = "skylore" # name of the git repository.
 # $branch = "indev" # branch of the git repository. for examle main or master.
-# $githubSync = "true" # a way to disable the script without deleting it
+# $githubSync = $true # a way to disable the script without deleting it
 
 # code
 # If set to not sync then exit program
 if ($githubSync) {
     $url = "https://github.com/" + $owner + "/" + $repo + ".git"
 
-    if (Test-Path -Path .git) {
+    if (Test-Path -Path $PSSCriptRoot\.git) {
         git reset --hard
         git pull
         git switch $branch
-        java -jar InstanceSync.jar
-        Copy-Item .\offlineMods\* .\mods
+        java -jar $PSSCriptRoot\InstanceSync.jar
+        Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
+        Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
     }
     else {
-        git clone $url modpack
-        Move-Item modpack\* .
-        Move-Item modpack\.git .
-        Remove-Item modpack -Recurse
+        git clone $url $PSSCriptRoot\modpack
+        Move-Item $PSSCriptRoot\modpack\* $PSSCriptRoot
+        Move-Item $PSSCriptRoot\modpack\.git $PSSCriptRoot
+        Remove-Item $PSSCriptRoot\modpack -Recurse
         git reset --hard
         git pull
         git switch $branch
-        java -jar InstanceSync.jar
-        Copy-Item .\offlineMods\* .\mods
+        java -jar $PSSCriptRoot\InstanceSync.jar
+        Copy-Item $PSSCriptRoot\localMods\* $PSSCriptRoot\mods
+        Copy-Item $PSSCriptRoot\offlineMods\* $PSSCriptRoot\mods
     }
 }
 
-if (Test-Path -Path ./server.lock) {
+if (Test-Path -Path $PSSCriptRoot\server.lock) {
     if ($githubSync) {
-        Copy-Item .\serverMods\* .\mods
+        Copy-Item $PSSCriptRoot\serverMods\* $PSSCriptRoot\mods
     }
-    . .\server.lock
+    . $PSSCriptRoot\server.lock
 }

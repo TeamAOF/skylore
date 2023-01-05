@@ -24,8 +24,8 @@
   "structureConfigEntries": {
     "small_grave": {
       "enabled": true,
-      "separation": 16,
-      "spacing": 24,
+      "separation": 32,
+      "spacing": 48,
       "salt": 661903018,
       "whitelist": [
         "#taiga",
@@ -42,8 +42,8 @@
     },
     "small_graveyard": {
       "enabled": true,
-      "separation": 36,
-      "spacing": 40,
+      "separation": 62,
+      "spacing": 80,
       "salt": 240451934,
       "whitelist": [
         "#plains"
@@ -57,8 +57,8 @@
     },
     "small_desert_grave": {
       "enabled": true,
-      "separation": 32,
-      "spacing": 40,
+      "separation": 64,
+      "spacing": 80,
       "salt": 681236914,
       "whitelist": [
         "#desert"
@@ -72,8 +72,8 @@
     },
     "crypt": {
       "enabled": true,
-      "separation": 24,
-      "spacing": 28,
+      "separation": 48,
+      "spacing": 60,
       "salt": 893183913,
       "whitelist": [
         "#underground"
@@ -87,8 +87,8 @@
     },
     "memorial_tree": {
       "enabled": true,
-      "separation": 24,
-      "spacing": 28,
+      "separation": 48,
+      "spacing": 64,
       "salt": 529239621,
       "whitelist": [
         "minecraft:old_growth_birch_forest",
@@ -119,8 +119,8 @@
     },
     "large_graveyard": {
       "enabled": true,
-      "separation": 30,
-      "spacing": 36,
+      "separation": 60,
+      "spacing": 72,
       "salt": 304812394,
       "whitelist": [
         "#taiga",
@@ -142,8 +142,8 @@
     },
     "small_savanna_grave": {
       "enabled": true,
-      "separation": 16,
-      "spacing": 24,
+      "separation": 32,
+      "spacing": 48,
       "salt": 709787761,
       "whitelist": [
         "#mesa",
@@ -225,8 +225,8 @@
     },
     "medium_graveyard": {
       "enabled": true,
-      "separation": 32,
-      "spacing": 40,
+      "separation": 64,
+      "spacing": 80,
       "salt": 1690192399,
       "whitelist": [
         "minecraft:forest",

@@ -1,0 +1,17 @@
+{
+	id: "5AC5DEDC6482F03C"
+	order_index: 52
+	title: "50 c 10 x"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "numismatic-overhaul:bronze_coin"
+				Count: 1b
+				tag: { }
+			}
+			count: 50
+		}
+		{ item: "create:experience_nugget", count: 10 }
+	]
+}

@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
 
     const id = [
-		'the_extractinator:extractinator',
+		'extractinator:extractinator',
 		'squirtingsyringe:fallingsyringe',
 		'squirtingsyringe:warriorsyringe',
 		'squirtingsyringe:firesyringe',
@@ -126,7 +126,7 @@ onEvent('recipes', (event) => {
 		'artifacts:power_glove',
 		'artifacts:novelty_drinking_hat',
 		'artifacts:antidote_vessel',
-		'the_extractinator:silt',
+		'extractinator:silt',
 		'artifacts:obsidian_skull',
 		'minecraft:netherite_pickaxe',
 		'indrev:netherite_drill_head',
@@ -226,7 +226,14 @@ onEvent('recipes', (event) => {
 		"fabricaeexnihilo:doll_blaze",
 		"fabricaeexnihilo:doll_enderman",
 		"fabricaeexnihilo:doll_guardian",
-		"fabricaeexnihilo:doll_shulker"
+		"fabricaeexnihilo:doll_shulker",
+		"hwg:gun_table",
+		"inmis:plated_backpack",
+		"inmis:gilded_backpack",
+		"inmis:bejeweled_backpack",
+		"inmis:blazing_backpack",
+		"inmis:withered_backpack",
+		"inmis:endless_backpack"
     ];
 	
 

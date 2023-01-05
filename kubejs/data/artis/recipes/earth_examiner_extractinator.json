@@ -11,17 +11,17 @@
        "item": "valley:mud"
      },
 "3":{
-       "item": "the_extractinator:silt"
+       "item": "extractinator:silt"
      },
 "4":{
        "item": "valley:mixed_ore"
      },
 "5":{
-       "item": "blockus:marble"
+       "item": "ad_astra:moon_cobblestone"
      }
     },
    "result": {
-     "item": "the_extractinator:extractinator",
+     "item": "extractinator:extractinator",
      "count": 1
    },
       "catalyst": {

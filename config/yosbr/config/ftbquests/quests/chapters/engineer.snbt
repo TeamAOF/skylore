@@ -1,9 +1,9 @@
 {
 	id: "0E89E29DA5C593B6"
 	group: "38D73AD51340A19B"
-	order_index: 4
+	order_index: 1
 	filename: "engineer"
-	title: "Engineer"
+	title: "Engineering"
 	icon: "kubejs:engineer"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -21,54 +21,1570 @@
 	}]
 	quests: [
 		{
-			icon: "artis:tech_bench"
-			disable_toast: true
-			x: -0.5d
-			y: 0.0d
-			secret: true
-			id: "19B926D47CEA48BC"
+			x: 7.0d
+			y: 10.0d
+			dependencies: ["186CB0917B42C66D"]
+			id: "1B2650377A0E5FF5"
+			tasks: [{
+				id: "33817A1CAB7A6AD0"
+				type: "item"
+				item: "logicates:logicate_fabricator"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4ACEF1CAF5605058"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["334F1C13DFFC5DF9"]
+			id: "0D7C020BE7443D4A"
+			tasks: [{
+				id: "785B59B9CAC24948"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "43F83678E323FD40"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 7.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "334F1C13DFFC5DF9"
+			tasks: [{
+				id: "4ABF90FC6A5203A2"
+				type: "item"
+				item: "platforms:platformer"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "5F208FFFD7F712B2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			title: "Start the automation"
+			x: 5.5d
+			y: 11.0d
+			subtitle: "Is this skyblock?"
+			description: [
+				"You need to gather materials from the island, there are a few ore varians in the stone from your observations. make sure to grab a few."
+				""
+				"It seems like a cobblestone generator is a great start. You know as you heard of the new sifting technology by the creators of create. You had the lucky chance to see the new blueprints for it just before your journey."
+				""
+				"From what you observed after searching the island you saw water and lava, but there wasnt much lava left from the crash, you will have to get it from the exNihilo starter technology you learned long ago."
+			]
+			dependencies: ["2AF8DDB5106ADAC3"]
+			id: "5D22CAA6D81CEB01"
+			tasks: [{
+				id: "529816326A92DC39"
+				type: "item"
+				item: "kibe:cobblestone_generator_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3A9B23266AD5FB16"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "Sifter materials"
+			x: 5.5d
+			y: 12.0d
+			subtitle: "The sifter cant process cobblestone."
+			description: [
+				"You need to first mill the cobblestone into something more fine. The sifter will be able to extract materials from gravel."
+				""
+				"The press will create crushed varians of some stone variats that are needed for getting materials from."
+			]
+			dependencies: ["5D22CAA6D81CEB01"]
+			id: "33E3FA607A0F2D0B"
 			tasks: [
 				{
-					id: "77A6978D7B697A11"
-					type: "professions:profession"
-					disable_toast: true
-					prof: "professions:engineer"
-					action: "JOIN"
-					level: -1
+					id: "43DF736CECF8AB1F"
+					type: "item"
+					item: "create:millstone"
+					only_from_crafting: false
 				}
 				{
-					id: "1CD7972D4DA59407"
-					type: "advancement"
-					advancement: "indrev:circuit_mk1"
-					criterion: ""
+					id: "589D140890F37077"
+					type: "item"
+					item: "create:mechanical_press"
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
-				id: "2E2E5554614C8529"
-				type: "questsadditions:repeat"
-				table_id: 5908206142234555707L
+				id: "6333D7BEE3CA7CA5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.5d
-			id: "0E59CC5C049D8503"
+			title: "Auto sifting time"
+			x: 5.5d
+			y: 13.0d
+			subtitle: "The better age of sifting."
+			description: ["You can use this item for sifting various crushed stones. This will allow you to automate select resources."]
+			dependencies: ["33E3FA607A0F2D0B"]
+			id: "68751941C2C6B5CF"
+			tasks: [
+				{
+					id: "745F9A01112DC905"
+					type: "item"
+					item: "createsifter:sifter"
+					only_from_crafting: false
+				}
+				{
+					id: "7EB97FC13BB4A199"
+					type: "item"
+					item: "createsifter:string_mesh"
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "7043BEB06FFBF64D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			icon: "fabricaeexnihilo:crushed_granite"
+			x: 2.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "129B3575B106FD1E"
+			tasks: [
+				{
+					id: "46A3D5C2D5CE8BD7"
+					type: "item"
+					item: "modern_industrialization:copper_tiny_dust"
+					count: 50L
+					only_from_crafting: false
+				}
+				{
+					id: "524208AFF6BC719F"
+					type: "item"
+					item: "modern_industrialization:tin_tiny_dust"
+					count: 40L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "29E66FBD4336F315"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "kubejs:crushed_deepslate"
+			x: 3.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "4BE77E59F2770AF9"
+			tasks: [
+				{
+					id: "1E90047CEF8953F5"
+					type: "item"
+					item: "modern_industrialization:diamond_tiny_dust"
+					count: 5L
+					only_from_crafting: false
+				}
+				{
+					id: "247F045835E23D56"
+					type: "item"
+					item: "modern_industrialization:emerald_tiny_dust"
+					count: 15L
+					only_from_crafting: false
+				}
+				{
+					id: "1E42C664BA4C31B4"
+					type: "item"
+					item: "modern_industrialization:lapis_tiny_dust"
+					count: 25L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "752C914ACBAD2C01"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "fabricaeexnihilo:crushed_andesite"
+			x: 4.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "19A63757A1E1A88F"
+			tasks: [
+				{
+					id: "15E4DF1922278D2A"
+					type: "item"
+					item: "fabricaeexnihilo:tuff_pebble"
+					count: 75L
+					only_from_crafting: false
+				}
+				{
+					id: "0B59E42860D0B3F3"
+					type: "item"
+					item: "fabricaeexnihilo:deepslate_pebble"
+					count: 25L
+					only_from_crafting: false
+				}
+				{
+					id: "5F8A5D681D777EC3"
+					type: "item"
+					item: "fabricaeexnihilo:calcite_pebble"
+					count: 10L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "2E3E6CCCD8899967"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "fabricaeexnihilo:crushed_diorite"
+			x: 5.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "7912C47CB0EA6CB4"
+			tasks: [
+				{
+					id: "1E62D4417CEB6510"
+					type: "item"
+					item: "modern_industrialization:bauxite_tiny_dust"
+					count: 35L
+					only_from_crafting: false
+				}
+				{
+					id: "1A03B1AA506F1891"
+					type: "item"
+					item: "modern_industrialization:nickel_tiny_dust"
+					count: 25L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "1CD61173AECEA387"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "minecraft:gravel"
+			x: 6.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "3CAC67E1AF24B372"
+			tasks: [
+				{
+					id: "41C31334B1739CB7"
+					type: "item"
+					item: "modern_industrialization:iron_tiny_dust"
+					count: 50L
+					only_from_crafting: false
+				}
+				{
+					id: "13CC957183759F1A"
+					type: "item"
+					item: "modern_industrialization:coal_tiny_dust"
+					count: 40L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "258231742D21257C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "minecraft:red_sand"
+			x: 7.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "1CC9383005F7813F"
+			tasks: [
+				{
+					id: "536108B6B26451ED"
+					type: "item"
+					item: "modern_industrialization:lead_tiny_dust"
+					count: 30L
+					only_from_crafting: false
+				}
+				{
+					id: "451563D53F0BAB4A"
+					type: "item"
+					item: "modern_industrialization:gold_tiny_dust"
+					count: 10L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "18683AC5B88169E9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "minecraft:sand"
+			x: 8.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "2486A49B7A82BD73"
+			tasks: [
+				{
+					id: "0FB8EA8EC772BFFE"
+					type: "item"
+					item: "modern_industrialization:lead_tiny_dust"
+					count: 30L
+					only_from_crafting: false
+				}
+				{
+					id: "14E699BD58DB182D"
+					type: "item"
+					item: "modern_industrialization:redstone_tiny_dust"
+					count: 50L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "16C5E94E157BDEC2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			icon: "fabricaeexnihilo:dust"
+			x: 9.0d
+			y: 15.0d
+			dependencies: ["68751941C2C6B5CF"]
+			hide: true
+			optional: true
+			id: "1FD43FF522FEE056"
+			tasks: [
+				{
+					id: "18421881E1233A71"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 30L
+					only_from_crafting: false
+				}
+				{
+					id: "568378DD3C428BD2"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 10L
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "1BA86B582B8B5004"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "Tinker along"
+			icon: {
+				id: "tconstruct:smeltery_controller"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.5d
+			y: 6.0d
+			shape: "square"
+			subtitle: "You cant keep using those stone tools."
+			description: ["For you to progress you will need to craft stronger tools. To do that you will need to set up a tinkers smeltery."]
+			dependencies: ["186CB0917B42C66D"]
+			id: "1C6DA0A26FDFEA58"
+			tasks: [
+				{
+					id: "003713F251888FE9"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_bricks"
+						Count: 1b
+						tag: { }
+					}
+					count: 9L
+					only_from_crafting: false
+				}
+				{
+					id: "72953FE6DD5F9A18"
+					type: "item"
+					item: "tconstruct:seared_basin"
+					only_from_crafting: false
+				}
+				{
+					id: "736814A976922A0A"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_table"
+						Count: 1b
+						tag: { }
+					}
+					only_from_crafting: false
+				}
+				{
+					id: "1E8AD6E31BD57EB4"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: { }
+					}
+					only_from_crafting: false
+				}
+				{
+					id: "5742F5E7104B70F7"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_drain"
+						Count: 1b
+						tag: { }
+					}
+					only_from_crafting: false
+				}
+				{
+					id: "6C167FD49E353098"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+					only_from_crafting: false
+				}
+				{
+					id: "5E325AE4533EC65B"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+					only_from_crafting: false
+				}
+			]
+			rewards: [{
+				id: "41745E4C18CE4179"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
+			}]
+		}
+		{
+			title: "A better pickaxe"
+			x: 5.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "you cant do much with that stone pickaxe."
+			description: [
+				"This pickaxe has the mining level of diamonds and it is able to mine faster than most pickaxes that arent made out of amethyst bronze with a comparable durability and mining level."
+				""
+				"To get skyslone you need to find a floating white geode which comtains skyslime."
+				""
+				"Make sure to gather extra slime to repair the pickaxe in a cheaper way, otherwise you will have to get more skyslime for your mining needs."
+			]
+			dependencies: ["1C6DA0A26FDFEA58"]
+			id: "1E651AFB125A52F6"
 			tasks: [{
-				id: "7690C62E58048117"
+				id: "47AB7F99297A7C07"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.44f
+							"tconstruct:mining_speed": 7.2000003f
+							"tconstruct:attack_damage": 2.5f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:durability": 624.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overcast"
+								level: 2s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 1s
+							}
+						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:slimesteel"
+						]
+						tic_volatile_data: {
+							upgrades: 1
+							"tconstruct:overslime_cap": 200
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+							"tconstruct:overslime": 200
+						}
+					}
+				}
+				only_from_crafting: false
+				match_nbt: false
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "1D738C07EFBFFC19"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "Repairing the tools"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "with great speed comes... low durability."
+			description: ["Before you upgrade the tools you will use this item pretty often, so its good to get started crafting them."]
+			dependencies: [
+				"5B2E4DA7AC059445"
+				"1E651AFB125A52F6"
+				"16BEB6120E76518A"
+			]
+			id: "14910E7AB6A0AEF6"
+			tasks: [{
+				id: "33B19D2128EA5582"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:slimesteel"
+					}
+				}
+				count: 4L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "376713CF48C33213"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "The mattock"
+			x: 5.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "you cant chop trees and plant seeds without this one."
+			description: ["Create a fast mattock with a similar design to the pickaxe you made before."]
+			dependencies: ["1E651AFB125A52F6"]
+			id: "5B2E4DA7AC059445"
+			tasks: [{
+				id: "4034FA382E0E5E8B"
+				type: "item"
+				item: {
+					id: "tconstruct:mattock"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 1.1f
+							"tconstruct:attack_damage": 1.1f
+							"tconstruct:durability": 1.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.08f
+							"tconstruct:mining_speed": 7.9200006f
+							"tconstruct:attack_damage": 4.4f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:durability": 780.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 3s
+							}
+							{
+								name: "tconstruct:knockback"
+								level: 1s
+							}
+							{
+								name: "tconstruct:overcast"
+								level: 2s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 1s
+							}
+							{
+								name: "tconstruct:hoe_till"
+								level: 1s
+							}
+						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:slimesteel"
+						]
+						tic_volatile_data: {
+							upgrades: 1
+							"tconstruct:overslime_cap": 224
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+							"tconstruct:overslime": 224
+						}
+					}
+				}
+				only_from_crafting: false
+				match_nbt: false
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5CE39F63FF7C34A4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "The ultimate starter mining tool?"
+			x: 5.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "This is the best tool to start off with with how much it can be upgraded."
+			description: ["This tool might seem weak at first and barely even on top if you dont upgrade the tool. With upgrades the tool will become unstoppable."]
+			dependencies: ["3897F6E31C910CCD"]
+			id: "16BEB6120E76518A"
+			tasks: [{
+				id: "7244F7389DEFB737"
+				type: "item"
+				item: {
+					id: "tconstruct:sledge_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.90000004f
+							"tconstruct:mining_speed": 3.6000001f
+							"tconstruct:attack_damage": 6.4125f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:durability": 1456.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 2s
+							}
+							{
+								name: "tconstruct:smite"
+								level: 2s
+							}
+							{
+								name: "tconstruct:overcast"
+								level: 1s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 3s
+							}
+						]
+						tic_upgrades: [{
+							name: "tconstruct:overslime"
+							level: 1s
+						}]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+						]
+						tic_volatile_data: {
+							upgrades: 3
+							"tconstruct:overslime_cap": 337
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+							"tconstruct:overslime": 337
+						}
+					}
+				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "37F82445E1F3EC86"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "The ultimate starter mining tool"
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "This tool has more speed and durability than any other starting tool."
+			description: [
+				"With this tools rose gold parts comes great upgradability."
+				""
+				"To create this tool you need to add a diamond, emerald and 15 blocks of redstone."
+				""
+				"When upgraded your tool will shred trough terrain like no other."
+			]
+			dependencies: ["16BEB6120E76518A"]
+			optional: true
+			id: "2551958CC3D63E30"
+			tasks: [{
+				id: "22440D01CDF8453E"
+				type: "item"
+				item: {
+					id: "tconstruct:sledge_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:attack_damage": 1.6875f
+							"tconstruct:durability": 4.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.90000004f
+							"tconstruct:mining_speed": 9.2f
+							"tconstruct:attack_damage": 7.0875f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:durability": 5184.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime"
+								level: 2s
+							}
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 3s
+							}
+							{
+								name: "tconstruct:smite"
+								level: 2s
+							}
+							{
+								name: "tconstruct:overcast"
+								level: 1s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 3s
+							}
+						]
+						tic_upgrades: [
+							{
+								name: "tconstruct:overslime"
+								level: 1s
+							}
+							{
+								name: "tconstruct:emerald"
+								level: 1s
+							}
+							{
+								name: "tconstruct:diamond"
+								level: 1s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 3s
+							}
+						]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:slimesteel"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+							"tconstruct:rose_gold"
+						]
+						tic_volatile_data: {
+							"tconstruct:rarity": 1
+							upgrades: 3
+							"tconstruct:overslime_cap": 337
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: -3
+							"tconstruct:haste": 45
+							"tconstruct:overslime": 337
+						}
+					}
+				}
+				only_from_crafting: false
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "5049B005FE61044F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "The mighty tinker anvil"
+			x: 8.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "This one block is whats needed to progress in tinkers."
+			description: ["Although quite costly to make, its going to pay off quite well with the tools it allows you to make."]
+			dependencies: [
+				"5B2E4DA7AC059445"
+				"1E651AFB125A52F6"
+			]
+			id: "3897F6E31C910CCD"
+			tasks: [{
+				id: "496C472F2246AFD2"
+				type: "item"
+				item: "tconstruct:tinkers_anvil"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "21C0D70FC920AAD0"
+				type: "choice"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "A fast attacking broad sword?"
+			x: 9.0d
+			y: -1.5d
+			shape: "pentagon"
+			subtitle: "Yes you heard me right, this broad sword can attack quite fast."
+			description: ["Out of all the materials, the most important one is honey. If you didnt destroy those bee hives in the island you should be able to get the honey required to get pig iron."]
+			dependencies: ["3897F6E31C910CCD"]
+			id: "78A17916B90497AA"
+			tasks: [{
+				id: "4D9BBA1EABEFCAB9"
+				type: "item"
+				item: {
+					id: "tconstruct:cleaver"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 1.3453126f
+							"tconstruct:attack_damage": 9.05625f
+							"tconstruct:harvest_tier": "minecraft:diamond"
+							"tconstruct:durability": 1382.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:lacerating"
+								level: 1s
+							}
+							{
+								name: "tconstruct:severing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:tasty"
+								level: 2s
+							}
+							{
+								name: "tconstruct:enhanced"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_materials: [
+							"tconstruct:nahuatl"
+							"tconstruct:rose_gold"
+							"tconstruct:pig_iron"
+							"tconstruct:pig_iron"
+						]
+						tic_volatile_data: {
+							upgrades: 1
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+				only_from_crafting: false
+				weak_nbt_match: true
+			}]
+			rewards: [{
+				id: "33AB633EBD61B46D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			title: "Engineering"
+			icon: "kubejs:engineer"
+			disable_toast: true
+			x: 5.5d
+			y: 8.5d
+			id: "186CB0917B42C66D"
+			tasks: [{
+				id: "5F32CDF7B195BCE6"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "2F91407F11496706"
+				type: "command"
+				title: "Gain Engineering Panel Access"
+				icon: "artis:engineering_panel"
+				command: "/phase grant @p engineer"
+				player_command: false
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "6FFC19737D17DEAD"
+			tasks: [{
+				id: "645B147D691B633D"
+				type: "item"
+				item: "create:wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7D744DD04157E74D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "6192482C53032D56"
+			tasks: [{
+				id: "0BAF0C61497C4918"
+				type: "item"
+				item: "indrev:wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "5501EAE36108D5D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "0C12203908115B80"
+			tasks: [{
+				id: "66DF3E576C5429F7"
+				type: "item"
+				item: "modern_industrialization:wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "18083AA2AB2938C6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "1D35DD7B20E11922"
+			tasks: [{
+				id: "227CA88E99CF9D15"
+				type: "item"
+				item: "platforms:wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "59EE673241140100"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "62680BF3678A8BE7"
+			tasks: [{
+				id: "0E75217B07B669CD"
+				type: "item"
+				item: "ae2:certus_quartz_wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "352D6ADCC7A6690A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "2A0DD98C7F2B6F93"
+			tasks: [{
+				id: "76BB0C2292E9CD6D"
+				type: "item"
+				item: "ae2:nether_quartz_wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "67BE38A23614A944"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "023F74F1FF301B92"
+			tasks: [{
+				id: "42895051C6AA02FF"
+				type: "item"
+				item: "ad_astra:wrench"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "57118F4A59B3324C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.5d
+			dependencies: ["3724AE9DA05EBD1D"]
+			id: "36B0B3FA2029294D"
+			tasks: [{
+				id: "3D85203A95527D92"
 				type: "advancement"
-				advancement: "indrev:industrial_smelter"
+				advancement: "create:burner"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "36F05DA8023B7C85"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
-			x: -0.5d
+			x: 9.0d
+			y: 8.5d
+			dependencies: ["186CB0917B42C66D"]
+			id: "3724AE9DA05EBD1D"
+			tasks: [{
+				id: "4C42CF3B988005E8"
+				type: "advancement"
+				advancement: "create:mechanical_mixer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "56CA669FB4943890"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			description: [
+				"Started by “Noven the Third”, “Industrial Revolution” most commonly referred to as “Indrev” Is a corporation started in order to fill the gap in axes that were not cool enough. Thus spawned the “Gamer Axe”. This propelled Noven to hire a team of engineers to create his first laser.. Which in turn also gave you a nice tan."
+				""
+				"To not be outdone by himself, Noven created modular armor to fill the gap in having to eat and charge his communication device. This spawned various other enhancements which eventually led to Indrevians grafting technology to them, causing them to become cyborg and naming their own species after the company."
+				""
+				"Indrev technology is regarded to be some of the best in the universe. However, they are driven by profit, so on the very rare occasion, machines can malfunction due to not passing QA to meet deadlines."
+				""
+				"Notable traits are their not so subtle 1950’s like advertising and their insatiable urge to gain money."
+			]
+			dependencies: [
+				"5E79F564152B88C8"
+				"186CB0917B42C66D"
+			]
+			hide: true
+			id: "0A2BF365A5D0D9EE"
+			tasks: [{
+				id: "4D4AC28C50C45B99"
+				type: "checkmark"
+				title: "Indrev"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["0A2BF365A5D0D9EE"]
+			id: "3FC719135C7B22B3"
+			tasks: [{
+				id: "3FAAB2E7236D6685"
+				type: "item"
+				item: "indrev:circuit_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0B623392BB4EEDC4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "06252A848CE80A1B"
+			tasks: [{
+				id: "0113779E73346656"
+				type: "item"
+				item: "indrev:circuit_mk2"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "42B08E40722D6625"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["06252A848CE80A1B"]
+			id: "775C346406100518"
+			tasks: [{
+				id: "671135A214769C20"
+				type: "item"
+				item: "indrev:circuit_mk3"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0D160BF2885A6A4C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			dependencies: ["775C346406100518"]
+			id: "4913AF9565D2F063"
+			tasks: [{
+				id: "63E3F0AFEC1E5284"
+				type: "item"
+				item: "indrev:circuit_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0B1CF9F88C7A14AA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
+			}]
+		}
+		{
+			title: "NASA Workbench"
+			icon: "ad_astra:nasa_workbench"
+			x: 3.0d
+			y: 9.0d
+			dependencies: ["186CB0917B42C66D"]
+			id: "1273A4E0567699A6"
+			rewards: [{
+				id: "3B45924B490EB928"
+				type: "command"
+				title: "NASA Workbench Recipe"
+				icon: "ad_astra:nasa_workbench"
+				command: "/phase grant @p nasa"
+				player_command: false
+			}]
+		}
+		{
+			title: "Desh Cable Research"
+			x: 2.5d
+			y: 13.5d
+			dependencies: [
+				"023F74F1FF301B92"
+				"7F425AB3E4DA8AA8"
+			]
+			hide: true
+			id: "2BEBEB7D1CD4E7C0"
+			tasks: [{
+				id: "24D884E2820486B8"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "434C5D893D99F95D"
+				type: "command"
+				title: "Desh Cable Research Unlock"
+				icon: "ad_astra:desh_cable"
+				command: "/phase grant @p deshcable"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "512C555C18DDA0C6"
+			tasks: [{
+				id: "5A3DC406CA2615F9"
+				type: "item"
+				item: "indrev:energy_reader"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3273D6F416B59616"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "33D591AF097D9D38"
+			tasks: [{
+				id: "30C18D0B5F0DD7CB"
+				type: "item"
+				item: "indrev:pump_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "126BB55EDC3AF8C2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: ["06252A848CE80A1B"]
+			id: "69AE4DD152FE40B2"
+			tasks: [{
+				id: "3879038CC5FF68F8"
+				type: "item"
+				item: "indrev:tier_upgrade_mk2"
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			dependencies: ["775C346406100518"]
+			id: "6FBFE58A24280365"
+			tasks: [{
+				id: "162469FA28E9C890"
+				type: "item"
+				item: "indrev:tier_upgrade_mk3"
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			dependencies: ["4913AF9565D2F063"]
+			id: "7618F079AA6BB9A2"
+			tasks: [{
+				id: "3CBBD780A10C6C7B"
+				type: "item"
+				item: "indrev:tier_upgrade_mk4"
+				only_from_crafting: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["06252A848CE80A1B"]
+			id: "4CF2F295CA6DED99"
+			tasks: [{
+				id: "4629747FADF02CA4"
+				type: "item"
+				item: "indrev:solid_infuser_mk1"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "53AB6050A5834CD4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["775C346406100518"]
+			id: "08ED6ED0C804F39C"
+			tasks: [{
+				id: "47F50B307A755DE5"
+				type: "item"
+				item: "indrev:enriched_nikolite_dust"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "0FECE25C574147AC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -2.0d
 			y: 3.0d
-			id: "3D26E218B2054FBE"
+			dependencies: ["4913AF9565D2F063"]
+			id: "006BA05C60692161"
 			tasks: [{
-				id: "50908D449AC7181D"
-				type: "advancement"
-				advancement: "modern_industrialization:vacuum_freezer"
-				criterion: ""
+				id: "05632D237AE4D3FF"
+				type: "item"
+				item: "indrev:enriched_nikolite_ingot"
+				count: 10L
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "40538D08A7E36AFD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "674165D33D107B39"
+			tasks: [{
+				id: "03E83958870510CF"
+				type: "item"
+				item: "indrev:charge_pad_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "484CC269A5B3951D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "6DDC6161530A0AD7"
+			tasks: [{
+				id: "6CE3B88A52B3A6FE"
+				type: "item"
+				item: "indrev:condenser_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3A3E7D7B91320896"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "242B70FE839992B6"
+			tasks: [{
+				id: "1EDA692B5D050B7D"
+				type: "item"
+				item: "indrev:smelter_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "2FB1BC7B7CCE3964"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "3136B4C86ED32A5C"
+			tasks: [{
+				id: "15F15F1747B7FE88"
+				type: "item"
+				item: "indrev:mining_rig_mk4"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "232EE2170B953E96"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["006BA05C60692161"]
+			id: "75B2CAE549E859C4"
+			tasks: [{
+				id: "6815444FCFC4A875"
+				type: "item"
+				item: "indrev:drill_bottom"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "792AF29943F5242A"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.5d
+			dependencies: ["1B2650377A0E5FF5"]
+			id: "1EAB97E3B0467FC3"
+			tasks: [{
+				id: "2D50ABDF3F1F8F99"
+				type: "item"
+				item: "rswires:red_alloy_wire"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "1B1DA18472E8B87D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			dependencies: ["186CB0917B42C66D"]
+			id: "2AF8DDB5106ADAC3"
+			tasks: [{
+				id: "1A2EDFE0C3A661A3"
+				type: "item"
+				item: "fabricaeexnihilo:porcelain_crucible"
+			}]
+			rewards: [{
+				id: "7C6517EDDF0CEF7C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 	]

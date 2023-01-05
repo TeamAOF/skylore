@@ -14,7 +14,7 @@
        "item": "minecraft:smooth_basalt"
      },
 "4":{
-       "item": "blockus:viridite"
+       "item": "extractinator:silt"
      },
 "5":{
        "item": "create:crimsite"
@@ -25,7 +25,7 @@
      "count": 1
    },
       "catalyst": {
-     "item": "earth:redstone_fossil"
+     "item": "mcdw:hammer_boneclub"
    },
    "cost": 1
 }

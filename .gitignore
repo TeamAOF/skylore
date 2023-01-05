@@ -3,6 +3,8 @@
 !/automation/
 !/config/
 !/kubejs/
+!localMods/
+/localMods/*
 !/offlineMods/
 !/resources/
 !/serverMods/
