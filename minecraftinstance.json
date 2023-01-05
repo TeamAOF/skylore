@@ -1084,16 +1084,6 @@
                                                   }
                             },
                             {
-                                "addonID":  659897,
-                                "name":  "Iris \u0026 Oculus Flywheel Compat",
-                                "installedFile":  {
-                                                      "id":  4032748,
-                                                      "fileName":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4032/748/iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
-                                                      "FileNameOnDisk":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  455508,
                                 "name":  "Iris Shaders",
                                 "installedFile":  {
