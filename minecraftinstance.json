@@ -864,16 +864,6 @@
                                                   }
                             },
                             {
-                                "addonID":  486392,
-                                "name":  "Flywheel",
-                                "installedFile":  {
-                                                      "id":  4174759,
-                                                      "fileName":  "flywheel-forge-1.19.2-0.6.8.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/759/flywheel-forge-1.19.2-0.6.8.jar",
-                                                      "FileNameOnDisk":  "flywheel-forge-1.19.2-0.6.8.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  547434,
                                 "name":  "Forge Config API Port",
                                 "installedFile":  {
