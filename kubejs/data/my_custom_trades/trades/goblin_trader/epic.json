@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "goblintraders:apple_cape",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 120,
+      "merchant_experience": 15,
+      "player_experience": 200
+    }
+  ]
+}

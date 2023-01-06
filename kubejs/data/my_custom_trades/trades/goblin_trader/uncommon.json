@@ -1,0 +1,53 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:gunpowder",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "merchant_experience": 2,
+      "player_experience": 20
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:sponge",
+        "count": 8
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 8,
+      "merchant_experience": 3,
+      "player_experience": 30
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:hay_block",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:bronze_coin",
+        "count": 50
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 1,
+      "player_experience": 10
+    }
+  ]
+}
