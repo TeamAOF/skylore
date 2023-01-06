@@ -16,8 +16,6 @@ onEvent('recipes', (event) => {
       "processingTime": 1050
     }
   )
-})
-onEvent('recipes', (event) => {
 
   event.custom(
     {
@@ -35,8 +33,23 @@ onEvent('recipes', (event) => {
       "processingTime": 1050
     }
   )
-})
-onEvent('recipes', (event) => {
+
+  event.custom(
+    {
+      "type": "create:milling",
+      "ingredients": [
+        {
+          "item": "minecraft:sand"
+        }
+      ],
+      "results": [
+        {
+          "item": "fabricaeexnihilo:silt"
+        }
+      ],
+      "processingTime": 1050
+    }
+  )
 
   event.custom(
     {
