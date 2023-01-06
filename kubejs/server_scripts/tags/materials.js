@@ -3,7 +3,7 @@
 ////////////////////////
 
 
-ServerEvents.tags('item', event => {
+onEvent('tags.items', event => {
 
     // Create (Common Tag Conversion)
     const create_ingots_blocks = [
