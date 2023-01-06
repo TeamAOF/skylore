@@ -1,4 +1,4 @@
-{
+﻿{
     "cachedScans":  [
 
                     ],
@@ -1094,6 +1094,16 @@
                                                   }
                             },
                             {
+                                "addonID":  325471,
+                                "name":  "Inventory Sorting",
+                                "installedFile":  {
+                                                      "id":  3822195,
+                                                      "fileName":  "InventorySorter-1.8.8-1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3822/195/InventorySorter-1.8.8-1.18.jar",
+                                                      "FileNameOnDisk":  "InventorySorter-1.8.8-1.18.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  455508,
                                 "name":  "Iris Shaders",
                                 "installedFile":  {
@@ -1704,6 +1714,16 @@
                                                   }
                             },
                             {
+                                "addonID":  616330,
+                                "name":  "Realistic Sleep (Fabric/Quilt)",
+                                "installedFile":  {
+                                                      "id":  4040610,
+                                                      "fileName":  "realisticsleep-1.6.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4040/610/realisticsleep-1.6.0.jar",
+                                                      "FileNameOnDisk":  "realisticsleep-1.6.0.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  511319,
                                 "name":  "Reese\u0027s Sodium Options",
                                 "installedFile":  {
@@ -1924,16 +1944,6 @@
                                                   }
                             },
                             {
-                                "addonID":  513689,
-                                "name":  "Smooth Swapping (Fabric)",
-                                "installedFile":  {
-                                                      "id":  4123006,
-                                                      "fileName":  "Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4123/6/Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar",
-                                                      "FileNameOnDisk":  "Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  496835,
                                 "name":  "Soaring Structures 2 - Forge / Fabric",
                                 "installedFile":  {
@@ -2141,6 +2151,16 @@
                                                       "fileName":  "Tiny-Coal-Fabric-1.18.2-1.0.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3970/550/Tiny-Coal-Fabric-1.18.2-1.0.1.jar",
                                                       "FileNameOnDisk":  "Tiny-Coal-Fabric-1.18.2-1.0.1.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  411557,
+                                "name":  "ToolTipFix",
+                                "installedFile":  {
+                                                      "id":  3543273,
+                                                      "fileName":  "tooltipfix-1.0.4-1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3543/273/tooltipfix-1.0.4-1.18.jar",
+                                                      "FileNameOnDisk":  "tooltipfix-1.0.4-1.18.jar"
                                                   }
                             },
                             {
