@@ -41,6 +41,22 @@ onEvent('recipes', (event) => {
       "processingTime": 350
     }
   )
+    event.custom(
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:planks"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "processingTime": 350
+    }
+  )
 })
 onEvent('recipes', (event) => {
 
