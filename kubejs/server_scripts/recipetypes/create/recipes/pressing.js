@@ -41,6 +41,8 @@ onEvent('recipes', (event) => {
       "processingTime": 350
     }
   )
+})
+onEvent('recipes', (event) => {
     event.custom(
     {
       "type": "create:pressing",
