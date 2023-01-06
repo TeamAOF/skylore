@@ -71,7 +71,4 @@ onEvent('tags.items', event => {
     // event.add("c:dusts/silver", "modern_industrialization:silver_dust")
     // event.add("c:dusts/tin", "modern_industrialization:tin_dust")
 
-    event.add("c:plates/brass", "techreborn:brass_plate")
-    event.add("c:nuggets/zinc", "techreborn:zinc_nugget")
-
 });
