@@ -1,0 +1,18 @@
+{
+  "type": "extractinator:extractinating",
+  "input": {
+    "tag": "extractinator:stones"
+  },
+  "drops": [
+    {
+      "drop": "#extractinator:common_drops",
+      "drop_chance": 0.010,
+      "min_drop_count": 1,
+      "max_drop_count": 2
+    },
+    {
+      "drop": "#extractinator:rare_drops",
+      "drop_chance": 0.0025
+    }
+  ]
+}

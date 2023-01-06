@@ -183,11 +183,11 @@ onEvent('gamephases.initialize', event => {
 
 onEvent('gamephases.initialize', event => {
     event.phase('infection')
-     .entity('immortuoscalyx:infhuman')
-	 .entity('immortuoscalyx:infdiver')
-	 .entity('immortuoscalyx:infvillager')
-	 .entity('immortuoscalyx:infig')
-	 .entity('immortuoscalyx:infplayer')
+     .entity('immortuoscalyx:infectedhuman')
+	 .entity('immortuoscalyx:infecteddiver')
+	 .entity('immortuoscalyx:infectedvillager')
+	 .entity('immortuoscalyx:infectedig')
+	 .entity('immortuoscalyx:infectedplayer')
 });
 
 //Blocks -------------------------------------------------
