@@ -1,4 +1,4 @@
-console.log("Phases on stun!");
+console.log('Phases on stun!');
 
 // Professions tables
 
@@ -24,6 +24,38 @@ onEvent('gamephases.initialize', event => {
 	event.phase('earthex')
 		.item('artis:earth_examiner')
 });
+
+//VS Gate
+
+onEvent('gamephases.initialize', event => {
+    event.phase('vshelm')
+		.item('vs_eureka:oak_ship_helm')
+		.item('vs_eureka:spruce_ship_helm')
+		.item('vs_eureka:acacia_ship_helm')
+		.item('vs_eureka:dark_oak_ship_helm')
+		.item('vs_eureka:birch_ship_helm')
+		.item('vs_eureka:jungle_ship_helm')
+		.item('vs_eureka:crimson_ship_helm')
+		.item('vs_eureka:warped_ship_helm')
+});
+
+//Anvil Gate
+
+onEvent('gamephases.initialize', event => {
+    event.phase('anvil')
+        .item('minecraft:anvil')
+		.item('minecraft:chipped_anvil')
+		.item('minecraft:damaged_anvil')
+});
+
+//Glider Wings
+
+onEvent('gamephases.initialize', event => {
+    event.phase('glider_wings')
+        .item('kibe:glider_left_wing')
+		.item('kibe:glider_right_wing')
+});
+
 // Mega Table
 onEvent('gamephases.initialize', event => {
     event.phase('nulla')
@@ -81,6 +113,7 @@ onEvent('gamephases.initialize', event => {
 		.item('hwg:meanie_gun_1')
 		.item('hwg:meanie_gun_2')
 });
+
 //Scanner Quests
 onEvent('gamephases.initialize', event => {
     event.phase('scanner')
