@@ -6,7 +6,7 @@
       "type": "minecraft:the_end"
     },
     "seed": 0,
-    "settings": "minecraft:the_end",    
+    "settings": "minecraft:end",    
 	"hex_settings": {
       "biome_scale": 9,
       "hex_size": 150,
