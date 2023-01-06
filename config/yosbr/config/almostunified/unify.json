@@ -1,8 +1,8 @@
 {
   "modPriorities": [
     "modern_industrialization",
+	"create",
     "ad_astra",
-    "create",
     "indrev",
     "techreborn",
     "farmersdelight",
