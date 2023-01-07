@@ -22,3 +22,11 @@ onEvent('block.registry', event => {
     .tagBlock('minecraft:needs_iron_tool')
     .dustColor(color.GOLD)
 })
+ onEvent('block.registry', event => {
+  event.create('zinc_block')
+    .material('iron')
+    .hardness(0.5)
+    .displayName('Zinc_Block')
+    .tagBlock('minecraft:needs_iron_tool')
+    .dustColor(color.GRAY)
+})
