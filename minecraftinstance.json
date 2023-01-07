@@ -2024,16 +2024,6 @@
                                                   }
                             },
                             {
-                                "addonID":  491151,
-                                "name":  "Structures\u0027 Compass",
-                                "installedFile":  {
-                                                      "id":  3749662,
-                                                      "fileName":  "structures_compass-fabric-1.18.2-1.4.2.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
-                                                      "FileNameOnDisk":  "structures_compass-fabric-1.18.2-1.4.2.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  575588,
                                 "name":  "Subterrestrial",
                                 "installedFile":  {
