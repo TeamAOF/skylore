@@ -1,0 +1,165 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:emerald",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:blaze_rod",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:ender_pearl",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:iron_ingot",
+        "count": 2
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 30,
+      "merchant_experience": 2,
+      "player_experience": 20
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 2
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 30,
+      "merchant_experience": 3,
+      "player_experience": 30
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:copper_ingot",
+        "count": 4
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 30,
+      "merchant_experience": 3,
+      "player_experience": 30
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:coal",
+        "count": 32
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 24,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:flint",
+        "count": 24
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 32,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:cobblestone",
+        "count": 64
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 128,
+      "merchant_experience": 1,
+      "player_experience": 10
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:bread",
+        "count": 32
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 15,
+      "merchant_experience": 1,
+      "player_experience": 10
+    }
+  ]
+}

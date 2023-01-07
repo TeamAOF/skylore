@@ -1,0 +1,277 @@
+{
+  "replace": true,
+  "trades": [
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:experience_bottle",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 3
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:name_tag",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 24
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 2,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:blue_ice",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 1
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 64,
+      "merchant_experience": 4,
+      "player_experience": 40
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_cat",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_blocks",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_chirp",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_mellohi",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_basic",
+      "offer_item": {
+        "item": "minecraft:music_disc_stal",
+        "count": 1
+      },
+      "payment_item": {
+        "item": "numismatic-overhaul:silver_coin",
+        "count": 4
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 5,
+      "player_experience": 50
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:luck_of_the_sea",
+      "offer_level": 5,
+      "payment_level": 3
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:lure",
+      "offer_level": 5,
+      "payment_level": 3
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:efficiency",
+      "offer_level": 6,
+      "payment_level": 5
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:unbreaking",
+      "offer_level": 4,
+      "payment_level": 3
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:fortune",
+      "offer_level": 4,
+      "payment_level": 3
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_axe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:efficiency",
+      "offer_level": 6,
+      "payment_level": 5
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_axe",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:unbreaking",
+      "offer_level": 4,
+      "payment_level": 3
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_shovel",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:efficiency",
+      "offer_level": 6,
+      "payment_level": 5
+    },
+    {
+      "required": true,
+      "type": "goblintraders:upgraded_enchanted_item",
+      "item": {
+        "item": "minecraft:diamond_shovel",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "max_trades": 1,
+      "merchant_experience": 7,
+      "player_experience": 100,
+      "enchantment": "minecraft:unbreaking",
+      "offer_level": 4,
+      "payment_level": 3
+    }
+  ]
+}

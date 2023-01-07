@@ -56,6 +56,10 @@ onEvent('tags.items', event => {
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
+    
+    // event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
+    // event.add("c:dusts/silver", "modern_industrialization:silver_dust")
+    // event.add("c:dusts/tin", "modern_industrialization:tin_dust")
 
     // Indrev
     event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')

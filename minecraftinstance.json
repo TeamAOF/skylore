@@ -1,4 +1,4 @@
-﻿{
+{
     "cachedScans":  [
 
                     ],
@@ -481,6 +481,16 @@
                                                       "fileName":  "create-fabric-0.5.0g-792+1.18.2.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4110/535/create-fabric-0.5.0g-792+1.18.2.jar",
                                                       "FileNameOnDisk":  "create-fabric-0.5.0g-792+1.18.2.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  790765,
+                                "name":  "Create Sifting Refabricated",
+                                "installedFile":  {
+                                                      "id":  4301251,
+                                                      "fileName":  "createsifter-1.18.2-1.3.3.g.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4301/251/createsifter-1.18.2-1.3.3.g.jar",
+                                                      "FileNameOnDisk":  "createsifter-1.18.2-1.3.3.g.jar"
                                                   }
                             },
                             {
@@ -1084,13 +1094,13 @@
                                                   }
                             },
                             {
-                                "addonID":  659897,
-                                "name":  "Iris \u0026 Oculus Flywheel Compat",
+                                "addonID":  325471,
+                                "name":  "Inventory Sorting",
                                 "installedFile":  {
-                                                      "id":  4032748,
-                                                      "fileName":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4032/748/iris-flywheel-compat-1.18.2-0.1.7-BETA.jar",
-                                                      "FileNameOnDisk":  "iris-flywheel-compat-1.18.2-0.1.7-BETA.jar"
+                                                      "id":  3822195,
+                                                      "fileName":  "InventorySorter-1.8.8-1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3822/195/InventorySorter-1.8.8-1.18.jar",
+                                                      "FileNameOnDisk":  "InventorySorter-1.8.8-1.18.jar"
                                                   }
                             },
                             {
@@ -1704,6 +1714,16 @@
                                                   }
                             },
                             {
+                                "addonID":  616330,
+                                "name":  "Realistic Sleep (Fabric/Quilt)",
+                                "installedFile":  {
+                                                      "id":  4040610,
+                                                      "fileName":  "realisticsleep-1.6.0.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4040/610/realisticsleep-1.6.0.jar",
+                                                      "FileNameOnDisk":  "realisticsleep-1.6.0.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  511319,
                                 "name":  "Reese\u0027s Sodium Options",
                                 "installedFile":  {
@@ -1924,16 +1944,6 @@
                                                   }
                             },
                             {
-                                "addonID":  513689,
-                                "name":  "Smooth Swapping (Fabric)",
-                                "installedFile":  {
-                                                      "id":  4123006,
-                                                      "fileName":  "Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4123/6/Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar",
-                                                      "FileNameOnDisk":  "Smooth Swapping 0.6.1 (1.18.2)-0.6.1.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  496835,
                                 "name":  "Soaring Structures 2 - Forge / Fabric",
                                 "installedFile":  {
@@ -2011,16 +2021,6 @@
                                                       "fileName":  "structure-tools-1.0.22.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3837/169/structure-tools-1.0.22.jar",
                                                       "FileNameOnDisk":  "structure-tools-1.0.22.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  491151,
-                                "name":  "Structures\u0027 Compass",
-                                "installedFile":  {
-                                                      "id":  3749662,
-                                                      "fileName":  "structures_compass-fabric-1.18.2-1.4.2.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3749/662/structures_compass-fabric-1.18.2-1.4.2.jar",
-                                                      "FileNameOnDisk":  "structures_compass-fabric-1.18.2-1.4.2.jar"
                                                   }
                             },
                             {
@@ -2141,6 +2141,16 @@
                                                       "fileName":  "Tiny-Coal-Fabric-1.18.2-1.0.1.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3970/550/Tiny-Coal-Fabric-1.18.2-1.0.1.jar",
                                                       "FileNameOnDisk":  "Tiny-Coal-Fabric-1.18.2-1.0.1.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  411557,
+                                "name":  "ToolTipFix",
+                                "installedFile":  {
+                                                      "id":  3543273,
+                                                      "fileName":  "tooltipfix-1.0.4-1.18.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3543/273/tooltipfix-1.0.4-1.18.jar",
+                                                      "FileNameOnDisk":  "tooltipfix-1.0.4-1.18.jar"
                                                   }
                             },
                             {

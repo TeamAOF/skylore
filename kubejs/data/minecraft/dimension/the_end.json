@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "biome_source": {
+      "seed": 0,
+      "type": "minecraft:the_end"
+    },
+    "seed": 0,
+    "settings": "minecraft:end",    
+	"hex_settings": {
+      "biome_scale": 9,
+      "hex_size": 150,
+      "hex_border_threshold": 0.1,
+      "bottom_border": {
+        "min_height": -128,
+        "max_height": 320,
+        "state": {
+				"Name": "minecraft:air",
+				"Properties": {}
+        }
+      }
+      // No "top_border" field indicates the border should be just air, as is in the overworld
+    },
+    "type": "hexlands:hexlands",
+		"hex_settings": {
+		"biome_scale": 2,
+		"hex_size": 100,
+		"hex_border_threshold": 0.2,
+		"bottom_border": {
+			"min_height": 448,
+			"max_height": 448,
+			"state": {
+				"Name": "minecraft:air",
+				"Properties": {}
+			}
+		}
+	}
+  }
+}
