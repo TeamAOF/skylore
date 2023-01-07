@@ -23,18 +23,6 @@ onEvent('tags.items', event => {
         'brass',
     ];
 
-    const create_crushed = [
-        'copper',
-        'iron',
-        'gold',
-        'zinc',
-        'uranium',
-        'silver',
-        'tin',
-        'lead',
-        'nickel'
-    ];
-
     create_ingots_blocks.forEach((item) => {
         event.add("c:" + item + "_ingots", "create:" + item + "_ingot")
         event.add("c:" + item + "_blocks", "create:" + item + "_block")
@@ -48,13 +36,6 @@ onEvent('tags.items', event => {
         event.add("c:" + item + "_plates", "create:" + item + "_sheet")
     });
 
-    /*
-    create_crushed.forEach((item) => {
-        event.add("c:" + item + "_dusts", "create:crushed_" + item + "_ore")
-    });
-    */
-
-    // Misc
     event.add("c:brass_ingots", "create:brass_ingot")
     event.add("c:brass_nuggets", "create:brass_nugget")
     event.add("c:brass_ingots", "create:brass_ingot")
@@ -62,13 +43,36 @@ onEvent('tags.items', event => {
     event.add("c:raw_zinc_ores", "create:raw_zinc")
     event.add("c:gold_plates", "create:golden_sheet")
 
+    // Modern Industrialization
+    event.add("c:copper_rods", "modern_industrialization:copper_rod")
+    event.add("c:rods/copper", "modern_industrialization:copper_rod")
+    event.add("c:gold_rods", "modern_industrialization:gold_rod")
+    event.add("c:rods/gold", "modern_industrialization:gold_rod")
+    event.add("c:rods/iron", "modern_industrialization:iron_rod")
+    event.add("c:dusts/diamond", "modern_industrialization:diamond_dust")
+
     event.add("c:plates/gold", "modern_industrialization:gold_plate")
     event.add("c:plates/iron", "modern_industrialization:iron_plate")
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
+    
     // event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
     // event.add("c:dusts/silver", "modern_industrialization:silver_dust")
     // event.add("c:dusts/tin", "modern_industrialization:tin_dust")
+
+    // Indrev
+    event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
+    event.add('c:raw_silver_blocks', 'indrev:raw_silver_block')
+    event.add('c:raw_tungsten_blocks', 'indrev:raw_tungsten_block')
+    event.add('c:raw_tin_blocks', 'indrev:raw_tin_block')
+
+    // Create Filtering
+    event.add("c:plates", "modern_industrialization:iron_plate")
+    event.add("c:plates", "modern_industrialization:gold_plate")
+    event.add("c:plates", "modern_industrialization:copper_plate")
+
+    // Netherrack
+    event.add("c:netherrack_dusts", "create:cinder_flour")
 
 });
