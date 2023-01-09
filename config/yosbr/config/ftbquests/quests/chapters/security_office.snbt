@@ -27,6 +27,8 @@
 			x: -1.0d
 			y: 0.5d
 			description: ["You specialize in killing things with any weapon. Prove it."]
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "3A533982BC1CDF3C"
 			tasks: [{
 				id: "105CC4B1EFDD9AB4"
