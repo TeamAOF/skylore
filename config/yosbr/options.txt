@@ -194,8 +194,8 @@ key_key.the_bumblezone.beehemoth_down:key.keyboard.caps.lock
 key_key.walljump.walljump:key.keyboard.left.shift
 key_keys.wearablebackpacks.open_backpack:key.keyboard.b
 key_iris.keybind.reload:key.keyboard.unknown
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.toggleShaders:key.keyboard.unknown
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 soundCategory_master:0.25919393
 soundCategory_music:0.053202026
 soundCategory_record:0.50513864
