@@ -504,6 +504,16 @@
                                                   }
                             },
                             {
+                                "addonID":  257814,
+                                "name":  "CreativeCore",
+                                "installedFile":  {
+                                                      "id":  3827354,
+                                                      "fileName":  "CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3827/354/CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar",
+                                                      "FileNameOnDisk":  "CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  415438,
                                 "name":  "Croptopia",
                                 "installedFile":  {
