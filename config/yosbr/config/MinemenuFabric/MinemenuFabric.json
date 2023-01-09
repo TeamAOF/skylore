@@ -49,7 +49,7 @@
           "type": "keyselect",
           "data": {
             "key": "iris.keybind.shaderPackSelection",
-            "releaseDelay": 10
+            "releaseDelay": 25001
           }
         },
         "1": {
@@ -91,7 +91,7 @@
           "type": "keyselect",
           "data": {
             "key": "keybinds.bettercombat.toggle_mine_with_weapons",
-            "releaseDelay": 10
+            "releaseDelay": 25001
           }
         },
         "5": {
