@@ -66,17 +66,6 @@
             "releaseDelay": 25001
           }
         },
-        "2": {
-          "name": "Professions Stats",
-          "icon": {
-            "iconItem": "minecraft:netherite_pickaxe",
-            "enchanted": false,
-            "skullOwner": "",
-            "customModelData": 0
-          },
-          "type": "print",
-          "data": "/professions stats"
-        },
         "3": {
           "name": "View Origin",
           "icon": {
