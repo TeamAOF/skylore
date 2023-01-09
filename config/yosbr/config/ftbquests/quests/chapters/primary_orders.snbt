@@ -20,6 +20,8 @@
 				""
 				"You should use the xp from quests to upgrade your stats as  you want to survive as long as possible, there is a second tab in your inventory for upgrading yourself."
 			]
+			dependencies: ["34549E6620C19F9C"]
+			hide: true
 			dependency_requirement: "all_started"
 			id: "350E66C2C959C83E"
 			tasks: [
@@ -51,7 +53,7 @@
 			x: 3.0d
 			y: 5.5d
 			shape: "pentagon"
-			subtitle: "No one will survive without a sword."
+			subtitle: "No one will survive without a weapon."
 			description: [
 				"This land is dangerous. The monsters are starting to learn from you, they get stronger and better every night."
 				""
@@ -62,51 +64,18 @@
 			dependencies: ["172F16A31F27C507"]
 			id: "69AD5130633DDD7F"
 			tasks: [{
-				id: "59D90FDC94DAD87F"
+				id: "0D8423FF45B1E118"
 				type: "item"
+				title: "Make a weapon"
 				item: {
-					id: "tconstruct:sword"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.5f
-							"tconstruct:durability": 1.1f
-						}
-						tic_stats: {
-							"tconstruct:attack_speed": 1.6f
-							"tconstruct:mining_speed": 2.05f
-							"tconstruct:attack_damage": 4.0f
-							"tconstruct:harvest_tier": "minecraft:stone"
-							"tconstruct:durability": 135.3f
-						}
-						tic_broken: 0b
-						tic_modifiers: [
-							{
-								name: "tconstruct:cultivated"
-								level: 1s
-							}
-							{
-								name: "tconstruct:stonebound"
-								level: 2s
-							}
-							{
-								name: "tconstruct:silky_shears"
-								level: 1s
-							}
-						]
-						Damage: 0
-						tic_materials: [
-							"tconstruct:rock#stone"
-							"tconstruct:wood#oak"
-							"tconstruct:rock#stone"
-						]
-						tic_persistent_data: {
-							abilities: 1
-							upgrades: 3
-						}
+						value: "c:melee_weapons"
 					}
 				}
 				only_from_crafting: false
+				match_nbt: false
 			}]
 			rewards: [
 				{
@@ -162,26 +131,88 @@
 			dependencies: ["0B1526E9DC5D4891"]
 			id: "6D61083CFD3B34F0"
 			tasks: [{
-				id: "390704309AF1C469"
+				id: "780ED0929CDAF306"
 				type: "item"
-				title: "Bed"
+				title: "Make a bed"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "campanion:sleeping_bag"
+								id: "minecraft:orange_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:magenta_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:light_blue_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:yellow_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:lime_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:pink_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:gray_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:light_gray_bed"
 								Count: 1b
 							}
 							{
 								id: "minecraft:white_bed"
 								Count: 1b
 							}
+							{
+								id: "minecraft:cyan_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:purple_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:blue_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:brown_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:green_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:red_bed"
+								Count: 1b
+							}
+							{
+								id: "minecraft:black_bed"
+								Count: 1b
+							}
+							{
+								id: "campanion:sleeping_bag"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
 						]
 					}
 				}
-				only_from_crafting: false
 			}]
 			rewards: [
 				{
@@ -241,6 +272,7 @@
 			shape: "octagon"
 			subtitle: "Light up the island to save yourself from death."
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "6FCEED4EF1874605"
 			tasks: [{
 				id: "4AECD49BF308B54E"
@@ -363,6 +395,7 @@
 			subtitle: "This will unlock enchantments"
 			description: ["Whether it be improving durability or vein mining. This will help enhance your tools."]
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "2B3D0F080674DB5F"
 			tasks: [{
 				id: "2D1E5B6F807D7A12"
@@ -399,7 +432,14 @@
 		{
 			x: 1.0d
 			y: -1.0d
+			subtitle: "Get some worms... to put them back in trees"
+			description: [
+				"This is an easy way to get string"
+				""
+				"Get silkworms from trees with a crook. Then take those worms and put them back in trees to get string."
+			]
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "0B1526E9DC5D4891"
 			tasks: [{
 				id: "397F1CA3D7C6CF97"
@@ -593,6 +633,7 @@
 			y: -1.0d
 			subtitle: "Mass Melting"
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "203053D584AB210D"
 			tasks: [
 				{
@@ -662,6 +703,7 @@
 				"To start off with you should create a livingroom, kitchen, bedroom and extra places for machines."
 			]
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "171FEBF60B0C8CB5"
 			tasks: [{
 				id: "61F2C41FCB01BC89"
@@ -674,6 +716,7 @@
 			y: 1.0d
 			subtitle: "With limited resources, you are going to have to be crafty"
 			dependencies: ["350E66C2C959C83E"]
+			hide: true
 			id: "172F16A31F27C507"
 			tasks: [{
 				id: "0A100196A40EAF5E"

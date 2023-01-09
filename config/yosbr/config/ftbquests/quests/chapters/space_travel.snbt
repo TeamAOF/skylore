@@ -1,9 +1,10 @@
 {
 	id: "6C10096130A51871"
 	group: "4E03E5FEAE87C266"
-	order_index: 1
+	order_index: 2
 	filename: "space_travel"
 	title: "Space Travel"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

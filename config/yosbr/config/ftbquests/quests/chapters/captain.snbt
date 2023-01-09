@@ -25,6 +25,8 @@
 			disable_toast: true
 			x: -1.5d
 			y: -5.0d
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "7203022EBB0D10CA"
 			tasks: [{
 				id: "36D1FEC25C2B6BF0"
