@@ -203,11 +203,12 @@ onEvent('recipes', (event) => {
 		"inmis:bejeweled_backpack",
 		"inmis:blazing_backpack",
 		"inmis:withered_backpack",
-		"inmis:endless_backpack"
+		"inmis:endless_backpack",
+		"ad_astra:hammer"
     ];
 	
 
     id.forEach((id) => {
-        event.remove({ 'id': id });
+        event.remove({ 'output': id });
     });
 });
