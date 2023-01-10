@@ -1,7 +1,0 @@
-{
-	id: "7F33513CA7BF1BBD"
-	order_index: 15
-	title: "steak sand"
-	loot_size: 1
-	rewards: [{ item: "valley:steak_sandwich" }]
-}

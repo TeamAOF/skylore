@@ -1,7 +1,0 @@
-{
-	id: "589D6AAE694F4F5F"
-	order_index: 10
-	title: "security panel"
-	loot_size: 1
-	rewards: [{ item: "artis:security_panel" }]
-}

@@ -1,7 +1,0 @@
-{
-	id: "134922743776FE53"
-	order_index: 30
-	title: "heart"
-	loot_size: 1
-	rewards: [{ item: "artifacts:crystal_heart" }]
-}

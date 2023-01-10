@@ -1,7 +1,0 @@
-{
-	id: "528929E29F47585D"
-	order_index: 56
-	title: "Fuel"
-	loot_size: 1
-	rewards: [{ item: "hwg:fuel_tank" }]
-}

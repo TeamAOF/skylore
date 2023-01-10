@@ -1,7 +1,0 @@
-{
-	id: "0D92DF64C9290E38"
-	order_index: 40
-	title: "engineer 10"
-	loot_size: 1
-	rewards: [{ item: "modern_industrialization:electronic_circuit", count: 10 }]
-}
