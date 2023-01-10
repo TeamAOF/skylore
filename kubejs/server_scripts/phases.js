@@ -241,7 +241,7 @@ onEvent('gamephases.initialize', event => {
         .item('inmis:bejeweled_backpack')
 
     event.phase('blazing_backpack')
-        item('inmis:blazing_backpack')
+        .item('inmis:blazing_backpack')
 
     event.phase('withered_backpack')
         .item('inmis:withered_backpack')
