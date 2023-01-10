@@ -10,7 +10,7 @@
        "item": "minecraft:netherite_leggings"
      },
 	      "+": {
-       "item": "adventurez:tconstruct:netherite_nugget"
+       "item": "tconstruct:netherite_nugget"
      }
    },
    "result": {
