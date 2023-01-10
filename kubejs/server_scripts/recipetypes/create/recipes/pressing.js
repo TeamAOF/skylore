@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "minecraft:planks"
+          "item": "minecraft:logs"
         }
       ],
       "results": [
