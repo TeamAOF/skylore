@@ -41,14 +41,6 @@ onEvent('gamephases.initialize', event => {
 		.item('vs_eureka:warped_ship_helm')
 });
 
-//Anvil Gate
-
-onEvent('gamephases.initialize', event => {
-    event.phase('anvil')
-        .item('minecraft:anvil')
-		.item('minecraft:chipped_anvil')
-		.item('minecraft:damaged_anvil')
-});
 
 //Glider Wings
 
@@ -303,8 +295,8 @@ onEvent('gamephases.initialize', event => {
 		.block('modern_industrialization:deepslate_antimony_ore', 'minecraft:deepslate')
         
     event.phase('nether')
-		.block('minecraft:nether_portal', 'minecraft:air')
+		.block('minecraft:nether_portal', 'minecraft:dirt')
 
     event.phase('end')
-        .block('minecraft:end_portal', 'minecraft:air')
+        .block('minecraft:end_portal', 'minecraft:dirt')
 });

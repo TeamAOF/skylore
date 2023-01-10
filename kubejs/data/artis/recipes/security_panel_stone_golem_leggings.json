@@ -10,7 +10,7 @@
        "item": "minecraft:netherite_leggings"
      },
 	      "+": {
-       "item": "adventurez:gilded_netherite_fragment"
+       "item": "adventurez:tconstruct:netherite_nugget"
      }
    },
    "result": {
