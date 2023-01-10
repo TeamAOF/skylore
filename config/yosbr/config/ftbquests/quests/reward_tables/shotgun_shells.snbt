@@ -1,7 +1,0 @@
-{
-	id: "1C1837EBE1C7957C"
-	order_index: 55
-	title: "Shotgun Shells"
-	loot_size: 1
-	rewards: [{ item: "hwg:shotgun_shell", count: 64 }]
-}

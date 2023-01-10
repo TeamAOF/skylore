@@ -1,7 +1,0 @@
-{
-	id: "51FE2A2EEFABF53B"
-	order_index: 7
-	title: "tech bench"
-	loot_size: 1
-	rewards: [{ item: "artis:tech_bench" }]
-}

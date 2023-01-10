@@ -1,7 +1,0 @@
-{
-	id: "7F5D74EA28A20BD8"
-	order_index: 13
-	title: "controller rail"
-	loot_size: 1
-	rewards: [{ item: "create:controller_rail" }]
-}
