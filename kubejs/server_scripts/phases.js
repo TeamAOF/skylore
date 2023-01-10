@@ -1,6 +1,8 @@
 console.log('Phases on stun!');
 
-// Professions tables
+//Items --------------------------------------
+
+//Professions tables
 
 onEvent('gamephases.initialize', event => {
     event.phase('chef')
@@ -185,6 +187,67 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('oxysensor')
         .item('ad_astra:oxygen_sensor')
+});
+
+// Vanilla tools no pickup
+
+onEvent('gamephases.initialize', event => {
+    event.phase('vanilla_tools_no_pickup')
+       .item('minecraft:netherite_pickaxe')
+       .item('minecraft:netherite_axe')
+       .item('minecraft:netherite_sword')
+       .item('minecraft:netherite_shovel')
+       .item('minecraft:netherite_hoe')
+       .item('minecraft:diamond_pickaxe')
+       .item('minecraft:diamond_axe')
+       .item('minecraft:diamond_sword')
+       .item('minecraft:diamond_shovel')
+       .item('minecraft:diamond_hoe')
+       .item('minecraft:iron_pickaxe')
+       .item('minecraft:iron_axe')
+       .item('minecraft:iron_sword')
+       .item('minecraft:iron_shovel')
+       .item('minecraft:iron_hoe')
+       .item('minecraft:stone_pickaxe')
+       .item('minecraft:stone_axe')
+       .item('minecraft:stone_sword')
+       .item('minecraft:stone_shovel')
+       .item('minecraft:stone_hoe')
+       .item('minecraft:golden_pickaxe')
+       .item('minecraft:golden_axe')
+       .item('minecraft:golden_sword')
+       .item('minecraft:golden_shovel')
+       .item('minecraft:golden_hoe')
+       .item('minecraft:wooden_pickaxe')
+       .item('minecraft:wooden_axe')
+       .item('minecraft:wooden_sword')
+       .item('minecraft:wooden_shovel')
+       .item('minecraft:wooden_hoe')
+});
+
+// inmis backpacks
+
+onEvent('gamephases.initialize', event => {
+    event.phase('frayed_backpack')
+        .item('inmis:frayed_backpack')
+    
+    event.phase('plated_backpack')
+        .item('inmis:plated_backpack')
+
+    event.phase('gilded_backpack')
+        .item('inmis:gilded_backpack')
+
+    event.phase('bejeweled_backpack')
+        .item('inmis:bejeweled_backpack')
+
+    event.phase('blazing_backpack')
+        item('inmis:blazing_backpack')
+
+    event.phase('withered_backpack')
+        .item('inmis:withered_backpack')
+
+    event.phase('endless_backpack')
+        .item('inmis:endless_backpack')
 });
 
 //Mobs -------------------------------------------
