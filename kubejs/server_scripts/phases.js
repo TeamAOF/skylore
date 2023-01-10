@@ -225,6 +225,31 @@ onEvent('gamephases.initialize', event => {
        .item('minecraft:wooden_hoe')
 });
 
+// inmis backpacks
+
+onEvent('gamephases.initialize', event => {
+    event.phase('frayed_backpack')
+        .item('inmis:frayed_backpack')
+    
+    event.phase('plated_backpack')
+        .item('inmis:plated_backpack')
+
+    event.phase('gilded_backpack')
+        .item('inmis:gilded_backpack')
+
+    event.phase('bejeweled_backpack')
+        .item('inmis:bejeweled_backpack')
+
+    event.phase('blazing_backpack')
+        item('inmis:blazing_backpack')
+
+    event.phase('withered_backpack')
+        .item('inmis:withered_backpack')
+
+    event.phase('endless_backpack')
+        .item('inmis:endless_backpack')
+});
+
 //Mobs -------------------------------------------
 
 onEvent('gamephases.initialize', event => {
