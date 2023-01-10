@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
       }
     )
   })
-
+  items.forEach((item) => {
   event.custom(
     {
       "type": "create:pressing",
@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
     }
   )
 })
-
+  items.forEach((item) => {
     event.custom(
     {
       "type": "create:pressing",
