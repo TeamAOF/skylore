@@ -263,6 +263,8 @@ onEvent('gamephases.initialize', event => {
 	 .entity('minecraft:spider')
 	 .entity('minecraft:witch')
 	 .entity('minecraft:zombie_villager')
+	 .entity('minecraft:stray')
+	 
 	 
 	 
      
