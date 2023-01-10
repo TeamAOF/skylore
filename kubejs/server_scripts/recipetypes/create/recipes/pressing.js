@@ -83,19 +83,19 @@ onEvent('recipes', (event) => {
 
 onEvent('recipes', (event) => {
     event.custom(
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "minecraft:logs"
-        }
-      ],
-      "results": [
-        {
-          "item": "minecraft:bowl"
-        }
-      ],
-      "processingTime": 350
-    }
-  )
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "processingTime": 350
+      }
+    )
 })
