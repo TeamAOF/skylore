@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
     }
   )
 })
-onEvent('recipes', (event) => {
+
     event.custom(
     {
       "type": "create:pressing",
@@ -60,6 +60,7 @@ onEvent('recipes', (event) => {
     }
   )
 })
+
 onEvent('recipes', (event) => {
 
     const plates = [
