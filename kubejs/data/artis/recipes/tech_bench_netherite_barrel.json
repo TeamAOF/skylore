@@ -1,5 +1,5 @@
 {
-  "type": "artis:engineer_panel_shapeless",
+  "type": "artis:engineering_panel_shapeless",
   "ingredients": [
     {
       "item": "expandedstorage:obsidian_barrel"
