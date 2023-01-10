@@ -303,8 +303,8 @@ onEvent('gamephases.initialize', event => {
 		.block('modern_industrialization:deepslate_antimony_ore', 'minecraft:deepslate')
         
     event.phase('nether')
-		.block('minecraft:nether_portal', 'minecraft:stone')
+		.block('minecraft:nether_portal', 'minecraft:air')
 
     event.phase('end')
-        .block('minecraft:end_portal', 'minecraft:stone')
+        .block('minecraft:end_portal', 'minecraft:air')
 });
