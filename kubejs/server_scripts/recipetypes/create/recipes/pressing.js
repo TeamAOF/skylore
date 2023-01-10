@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
       }
     )
   })
-  items.forEach((item) => {
+
   event.custom(
     {
       "type": "create:pressing",
@@ -42,24 +42,7 @@ onEvent('recipes', (event) => {
     }
   )
 })
-  items.forEach((item) => {
-    event.custom(
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "minecraft:logs"
-        }
-      ],
-      "results": [
-        {
-          "item": "minecraft:bowl"
-        }
-      ],
-      "processingTime": 350
-    }
-  )
-})
+
 
 onEvent('recipes', (event) => {
 
@@ -96,4 +79,23 @@ onEvent('recipes', (event) => {
             ],
         })
     });
+})
+
+onEvent('recipes', (event) => {
+    event.custom(
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:logs"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ],
+      "processingTime": 350
+    }
+  )
 })
