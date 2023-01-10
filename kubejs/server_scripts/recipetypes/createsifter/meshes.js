@@ -28,7 +28,6 @@ onEvent('recipes', (event) => {
         }
     }).id("createsifter:zinc_mesh")
 })
-})
 onEvent('recipes', (event) => {
     event.shaped("createsifer:andesite_mesh",[
         "###",

@@ -814,16 +814,6 @@
                                                   }
                             },
                             {
-                                "addonID":  349559,
-                                "name":  "FallingTree (Forge\u0026Fabric)",
-                                "installedFile":  {
-                                                      "id":  3975186,
-                                                      "fileName":  "FallingTree-1.18.2-3.5.4.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3975/186/FallingTree-1.18.2-3.5.4.jar",
-                                                      "FileNameOnDisk":  "FallingTree-1.18.2-3.5.4.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  416796,
                                 "name":  "FancyMenu [Fabric]",
                                 "installedFile":  {
