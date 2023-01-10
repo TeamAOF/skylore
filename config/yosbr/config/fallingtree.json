@@ -24,7 +24,7 @@
     "adjacentStopMode": "STOP_ALL"
   },
   "tools": {
-    "allowed": [#c:axes],
+    "allowed": ["#c:axes","tconstruct:mattock"],
     "denied": [],
     "preserve": false,
     "ignoreTools": false,
