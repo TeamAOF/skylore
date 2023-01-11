@@ -5,6 +5,10 @@
 
 onEvent('tags.items', event => {
   
+  // Diamond
+
+  event.add('c:gems/diamond', 'minecraft:diamond')
+  
   event.add('minecraft:coals', 'modern_industrialization:lignite_coal')
 
   event.add('c:workbench', 'minecraft:crafting_table')
