@@ -927,20 +927,20 @@
                                 "addonID":  472657,
                                 "name":  "FTB Chunks (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4174584,
-                                                      "fileName":  "ftb-chunks-fabric-1802.3.11-build.213.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
-                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.11-build.213.jar"
+                                                      "id":  4229119,
+                                                      "fileName":  "ftb-chunks-fabric-1802.3.12-build.217.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/119/ftb-chunks-fabric-1802.3.12-build.217.jar",
+                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.12-build.217.jar"
                                                   }
                             },
                             {
                                 "addonID":  438495,
                                 "name":  "FTB Library (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4135531,
-                                                      "fileName":  "ftb-library-fabric-1802.3.8-build.163.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/531/ftb-library-fabric-1802.3.8-build.163.jar",
-                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.8-build.163.jar"
+                                                      "id":  4210934,
+                                                      "fileName":  "ftb-library-fabric-1802.3.9-build.167.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4210/934/ftb-library-fabric-1802.3.9-build.167.jar",
+                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.9-build.167.jar"
                                                   }
                             },
                             {
