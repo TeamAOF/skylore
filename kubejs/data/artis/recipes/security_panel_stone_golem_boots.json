@@ -10,7 +10,7 @@
        "item": "minecraft:netherite_boots"
      },
 	      "+": {
-       "item": "adventurez:gilded_netherite_fragment"
+       "item": "tconstruct:netherite_nugget"
      }
    },
    "result": {

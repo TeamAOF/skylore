@@ -84,6 +84,16 @@
                                                   }
                             },
                             {
+                                "addonID":  254284,
+                                "name":  "AmbientSounds 5",
+                                "installedFile":  {
+                                                      "id":  3738298,
+                                                      "fileName":  "AmbientSounds_FABRIC_v5.0.16_mc1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3738/298/AmbientSounds_FABRIC_v5.0.16_mc1.18.2.jar",
+                                                      "FileNameOnDisk":  "AmbientSounds_FABRIC_v5.0.16_mc1.18.2.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  610492,
                                 "name":  "Another Furniture",
                                 "installedFile":  {
@@ -227,10 +237,10 @@
                                 "addonID":  303557,
                                 "name":  "Better Animals Plus",
                                 "installedFile":  {
-                                                      "id":  4239040,
-                                                      "fileName":  "betteranimalsplus-1.18.2-11.0.8-fabric.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4239/40/betteranimalsplus-1.18.2-11.0.8-fabric.jar",
-                                                      "FileNameOnDisk":  "betteranimalsplus-1.18.2-11.0.8-fabric.jar"
+                                                      "id":  4318510,
+                                                      "fileName":  "betteranimalsplus-1.18.2-11.0.10-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4318/510/betteranimalsplus-1.18.2-11.0.10-fabric.jar",
+                                                      "FileNameOnDisk":  "betteranimalsplus-1.18.2-11.0.10-fabric.jar"
                                                   }
                             },
                             {
@@ -247,10 +257,10 @@
                                 "addonID":  639842,
                                 "name":  "Better Combat [Fabric \u0026 Forge]",
                                 "installedFile":  {
-                                                      "id":  4211947,
-                                                      "fileName":  "bettercombat-fabric-1.5.3+1.18.2.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4211/947/bettercombat-fabric-1.5.3+1.18.2.jar",
-                                                      "FileNameOnDisk":  "bettercombat-fabric-1.5.3+1.18.2.jar"
+                                                      "id":  4311792,
+                                                      "fileName":  "bettercombat-fabric-1.5.4+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4311/792/bettercombat-fabric-1.5.4+1.18.2.jar",
+                                                      "FileNameOnDisk":  "bettercombat-fabric-1.5.4+1.18.2.jar"
                                                   }
                             },
                             {
@@ -277,10 +287,10 @@
                                 "addonID":  228525,
                                 "name":  "Bookshelf",
                                 "installedFile":  {
-                                                      "id":  3961346,
-                                                      "fileName":  "Bookshelf-Fabric-1.18.2-13.2.50.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3961/346/Bookshelf-Fabric-1.18.2-13.2.50.jar",
-                                                      "FileNameOnDisk":  "Bookshelf-Fabric-1.18.2-13.2.50.jar"
+                                                      "id":  4064970,
+                                                      "fileName":  "Bookshelf-Fabric-1.18.2-13.2.51.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4064/970/Bookshelf-Fabric-1.18.2-13.2.51.jar",
+                                                      "FileNameOnDisk":  "Bookshelf-Fabric-1.18.2-13.2.51.jar"
                                                   }
                             },
                             {
@@ -427,10 +437,10 @@
                                 "addonID":  678036,
                                 "name":  "Combat Roll [Fabric \u0026 Forge]",
                                 "installedFile":  {
-                                                      "id":  4126029,
-                                                      "fileName":  "combatroll-fabric-1.1.1+1.18.2.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4126/29/combatroll-fabric-1.1.1+1.18.2.jar",
-                                                      "FileNameOnDisk":  "combatroll-fabric-1.1.1+1.18.2.jar"
+                                                      "id":  4312313,
+                                                      "fileName":  "combatroll-fabric-1.1.2+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4312/313/combatroll-fabric-1.1.2+1.18.2.jar",
+                                                      "FileNameOnDisk":  "combatroll-fabric-1.1.2+1.18.2.jar"
                                                   }
                             },
                             {
@@ -451,6 +461,16 @@
                                                       "fileName":  "Controlling-fabric-1.18.2-9.0+22.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3950/208/Controlling-fabric-1.18.2-9.0+22.jar",
                                                       "FileNameOnDisk":  "Controlling-fabric-1.18.2-9.0+22.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  311120,
+                                "name":  "Couplings",
+                                "installedFile":  {
+                                                      "id":  3816074,
+                                                      "fileName":  "Couplings-1.8.1+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3816/74/Couplings-1.8.1+1.18.2.jar",
+                                                      "FileNameOnDisk":  "Couplings-1.8.1+1.18.2.jar"
                                                   }
                             },
                             {
@@ -491,6 +511,16 @@
                                                       "fileName":  "createsifter-1.18.2-1.3.3.g.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/4301/251/createsifter-1.18.2-1.3.3.g.jar",
                                                       "FileNameOnDisk":  "createsifter-1.18.2-1.3.3.g.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  257814,
+                                "name":  "CreativeCore",
+                                "installedFile":  {
+                                                      "id":  3827354,
+                                                      "fileName":  "CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3827/354/CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar",
+                                                      "FileNameOnDisk":  "CreativeCore_FABRIC_v2.6.12_mc1.18.2.jar"
                                                   }
                             },
                             {
@@ -547,10 +577,10 @@
                                 "addonID":  242195,
                                 "name":  "Dark Utilities",
                                 "installedFile":  {
-                                                      "id":  3830308,
-                                                      "fileName":  "DarkUtilities-Fabric-1.18.2-10.0.5.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3830/308/DarkUtilities-Fabric-1.18.2-10.0.5.jar",
-                                                      "FileNameOnDisk":  "DarkUtilities-Fabric-1.18.2-10.0.5.jar"
+                                                      "id":  4325786,
+                                                      "fileName":  "DarkUtilities-Fabric-1.18.2-10.1.6.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4325/786/DarkUtilities-Fabric-1.18.2-10.1.6.jar",
+                                                      "FileNameOnDisk":  "DarkUtilities-Fabric-1.18.2-10.1.6.jar"
                                                   }
                             },
                             {
@@ -635,7 +665,7 @@
                             },
                             {
                                 "addonID":  556381,
-                                "name":  "Effective ðŸ’¦",
+                                "name":  "Effective 💦",
                                 "installedFile":  {
                                                       "id":  3735277,
                                                       "fileName":  "effective-1.2.1.jar",
@@ -794,16 +824,6 @@
                                                   }
                             },
                             {
-                                "addonID":  349559,
-                                "name":  "FallingTree (Forge\u0026Fabric)",
-                                "installedFile":  {
-                                                      "id":  3975186,
-                                                      "fileName":  "FallingTree-1.18.2-3.5.4.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3975/186/FallingTree-1.18.2-3.5.4.jar",
-                                                      "FileNameOnDisk":  "FallingTree-1.18.2-3.5.4.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  416796,
                                 "name":  "FancyMenu [Fabric]",
                                 "installedFile":  {
@@ -907,40 +927,40 @@
                                 "addonID":  472657,
                                 "name":  "FTB Chunks (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4174584,
-                                                      "fileName":  "ftb-chunks-fabric-1802.3.11-build.213.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
-                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.11-build.213.jar"
+                                                      "id":  4229119,
+                                                      "fileName":  "ftb-chunks-fabric-1802.3.12-build.217.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/119/ftb-chunks-fabric-1802.3.12-build.217.jar",
+                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.12-build.217.jar"
                                                   }
                             },
                             {
                                 "addonID":  438495,
                                 "name":  "FTB Library (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4135531,
-                                                      "fileName":  "ftb-library-fabric-1802.3.8-build.163.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/531/ftb-library-fabric-1802.3.8-build.163.jar",
-                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.8-build.163.jar"
+                                                      "id":  4210934,
+                                                      "fileName":  "ftb-library-fabric-1802.3.9-build.167.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4210/934/ftb-library-fabric-1802.3.9-build.167.jar",
+                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.9-build.167.jar"
                                                   }
                             },
                             {
                                 "addonID":  438496,
                                 "name":  "FTB Quests (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4070027,
-                                                      "fileName":  "ftb-quests-fabric-1802.3.10-build.138.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4070/27/ftb-quests-fabric-1802.3.10-build.138.jar",
-                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.10-build.138.jar"
+                                                      "id":  4297567,
+                                                      "fileName":  "ftb-quests-fabric-1802.3.12-build.157.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4297/567/ftb-quests-fabric-1802.3.12-build.157.jar",
+                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.12-build.157.jar"
                                                   }
                             },
                             {
                                 "addonID":  438497,
                                 "name":  "FTB Teams (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4135752,
-                                                      "fileName":  "ftb-teams-fabric-1802.2.8-build.78.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/752/ftb-teams-fabric-1802.2.8-build.78.jar",
-                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.8-build.78.jar"
+                                                      "id":  4229137,
+                                                      "fileName":  "ftb-teams-fabric-1802.2.9-build.88.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/137/ftb-teams-fabric-1802.2.9-build.88.jar",
+                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.9-build.88.jar"
                                                   }
                             },
                             {
@@ -1145,7 +1165,7 @@
                             },
                             {
                                 "addonID":  324717,
-                                "name":  "Jade ðŸ”",
+                                "name":  "Jade 🔍",
                                 "installedFile":  {
                                                       "id":  4160646,
                                                       "fileName":  "Jade-1.18.2-fabric-5.99.10.jar",
@@ -1555,7 +1575,7 @@
                             },
                             {
                                 "addonID":  532610,
-                                "name":  "oÏ‰o (owo-lib)",
+                                "name":  "oωo (owo-lib)",
                                 "installedFile":  {
                                                       "id":  3824297,
                                                       "fileName":  "owo-lib-0.7.2-no-cme+1.18.jar",
@@ -1587,10 +1607,10 @@
                                 "addonID":  319596,
                                 "name":  "Pehkui",
                                 "installedFile":  {
-                                                      "id":  4282373,
-                                                      "fileName":  "Pehkui-3.6.2+1.14.4-1.19.3.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4282/373/Pehkui-3.6.2+1.14.4-1.19.3.jar",
-                                                      "FileNameOnDisk":  "Pehkui-3.6.2+1.14.4-1.19.3.jar"
+                                                      "id":  4314945,
+                                                      "fileName":  "Pehkui-3.6.3+1.14.4-1.19.3.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4314/945/Pehkui-3.6.3+1.14.4-1.19.3.jar",
+                                                      "FileNameOnDisk":  "Pehkui-3.6.3+1.14.4-1.19.3.jar"
                                                   }
                             },
                             {
@@ -1627,10 +1647,10 @@
                                 "addonID":  536610,
                                 "name":  "Platforms [Fabric]",
                                 "installedFile":  {
-                                                      "id":  4053276,
-                                                      "fileName":  "platforms-fabric-1.18-1.2.6.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4053/276/platforms-fabric-1.18-1.2.6.jar",
-                                                      "FileNameOnDisk":  "platforms-fabric-1.18-1.2.6.jar"
+                                                      "id":  4311845,
+                                                      "fileName":  "platforms-fabric-1.18-1.2.7.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4311/845/platforms-fabric-1.18-1.2.7.jar",
+                                                      "FileNameOnDisk":  "platforms-fabric-1.18-1.2.7.jar"
                                                   }
                             },
                             {
@@ -1854,16 +1874,6 @@
                                                   }
                             },
                             {
-                                "addonID":  574856,
-                                "name":  "Rubidium",
-                                "installedFile":  {
-                                                      "id":  4167344,
-                                                      "fileName":  "rubidium-0.6.3.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4167/344/rubidium-0.6.3.jar",
-                                                      "FileNameOnDisk":  "rubidium-0.6.3.jar"
-                                                  }
-                            },
-                            {
                                 "addonID":  393149,
                                 "name":  "Runelic",
                                 "installedFile":  {
@@ -1934,6 +1944,16 @@
                                                   }
                             },
                             {
+                                "addonID":  416089,
+                                "name":  "Simple Voice Chat",
+                                "installedFile":  {
+                                                      "id":  4271650,
+                                                      "fileName":  "voicechat-fabric-1.18.2-2.3.26.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4271/650/voicechat-fabric-1.18.2-2.3.26.jar",
+                                                      "FileNameOnDisk":  "voicechat-fabric-1.18.2-2.3.26.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  659887,
                                 "name":  "Simply Swords [Fabric \u0026 Forge]",
                                 "installedFile":  {
@@ -1961,6 +1981,16 @@
                                                       "fileName":  "sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3669/187/sodium-fabric-mc1.18.2-0.4.1+build.15.jar",
                                                       "FileNameOnDisk":  "sodium-fabric-mc1.18.2-0.4.1+build.15.jar"
+                                                  }
+                            },
+                            {
+                                "addonID":  535489,
+                                "name":  "Sound Physics Remastered",
+                                "installedFile":  {
+                                                      "id":  3804243,
+                                                      "fileName":  "soundphysics-fabric-1.18.2-1.0.6.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3804/243/soundphysics-fabric-1.18.2-1.0.6.jar",
+                                                      "FileNameOnDisk":  "soundphysics-fabric-1.18.2-1.0.6.jar"
                                                   }
                             },
                             {

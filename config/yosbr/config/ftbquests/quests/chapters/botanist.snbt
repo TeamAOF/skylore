@@ -26,6 +26,8 @@
 			disable_toast: true
 			x: 0.5d
 			y: 1.0d
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "46CC82F993D692F1"
 			tasks: [{
 				id: "79409A88A51BD75E"
@@ -196,9 +198,9 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: 1.0d
-			dependencies: ["4A4C26EC5448C736"]
+			dependencies: ["41AC58B29A7AA952"]
 			id: "46222FDF971B1C0E"
 			tasks: [{
 				id: "076B695E4BCA94C3"
@@ -213,7 +215,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: 2.0d
 			dependencies: ["46222FDF971B1C0E"]
 			id: "174EE9B31D6C84C6"
@@ -230,9 +232,9 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: 1.0d
-			dependencies: ["46222FDF971B1C0E"]
+			dependencies: ["4A4C26EC5448C736"]
 			id: "41AC58B29A7AA952"
 			tasks: [{
 				id: "5EAE63ABA4669C2D"
@@ -247,7 +249,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: 2.0d
 			dependencies: ["41AC58B29A7AA952"]
 			id: "15990640967A68D4"
@@ -551,9 +553,10 @@
 			hide: true
 			id: "5DFC98275B1F19DF"
 			tasks: [{
-				id: "7E9B661191D13810"
-				type: "item"
-				item: "artis:engineering_panel"
+				id: "3A0C54915086594C"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
 				id: "5AEBCFF72ED692D8"
@@ -563,7 +566,7 @@
 			}]
 		}
 		{
-			title: "Gliders"
+			title: "Gliders Research"
 			icon: {
 				id: "kibe:white_glider"
 				Count: 1b
@@ -574,107 +577,19 @@
 			dependencies: ["5DFC98275B1F19DF"]
 			id: "4882C8589F4C114D"
 			tasks: [{
-				id: "778F9DE17B4DC5E6"
-				type: "item"
-				icon: {
-					id: "kibe:white_glider"
-					Count: 1b
-					tag: { }
-				}
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "kibe:light_gray_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:magenta_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:orange_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:white_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:light_blue_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:yellow_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:lime_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:pink_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:gray_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:cyan_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:blue_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:purple_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:green_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:brown_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:red_glider"
-								Count: 1b
-								tag: { }
-							}
-							{
-								id: "kibe:black_glider"
-								Count: 1b
-								tag: { }
-							}
-						]
-					}
-				}
+				id: "09B59976EEC53402"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
-				id: "1DA59D35E175E9FC"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 4
+				id: "3D469CCA1A1F7215"
+				type: "command"
+				title: "Unlock Glider Wings"
+				icon: "kibe:glider_left_wing"
+				auto: "enabled"
+				command: "/phase grant @p glider_wings"
+				player_command: false
 			}]
 		}
 		{
@@ -714,68 +629,34 @@
 			}]
 		}
 		{
-			title: "Ship Helm"
+			title: "Ship Helm Research"
+			icon: "vs_eureka:oak_ship_helm"
 			x: -14.0d
 			y: 0.0d
-			subtitle: "Unlocks Space Travel"
+			subtitle: "Unlocks Space Travel Quests"
 			dependencies: ["009A42C4E1B4237E"]
 			id: "412B5E46ABDF0230"
 			tasks: [{
-				id: "74E3E8C37617568D"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "vs_eureka:oak_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:spruce_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:birch_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:jungle_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:acacia_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:dark_oak_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:crimson_ship_helm"
-								Count: 1b
-							}
-							{
-								id: "vs_eureka:warped_ship_helm"
-								Count: 1b
-							}
-						]
-					}
-				}
+				id: "32EF8DA0BAB1404B"
+				type: "xp"
+				value: 20L
+				points: false
 			}]
 			rewards: [
-				{
-					id: "78F0DA3F6300DD49"
-					type: "item"
-					item: "create:experience_nugget"
-					count: 3
-				}
 				{
 					id: "57B51ED3F8066164"
 					type: "command"
 					auto: "invisible"
 					command: "/phase grant @p astrodux"
+					player_command: false
+				}
+				{
+					id: "314BC3E30E8A6445"
+					type: "command"
+					title: "VS Helm Unlock"
+					icon: "vs_eureka:oak_ship_helm"
+					auto: "enabled"
+					command: "/phase grant @p vshelm"
 					player_command: false
 				}
 			]
@@ -1687,4 +1568,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

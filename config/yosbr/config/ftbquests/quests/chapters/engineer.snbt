@@ -101,9 +101,37 @@
 			dependencies: ["2AF8DDB5106ADAC3"]
 			id: "5D22CAA6D81CEB01"
 			tasks: [{
-				id: "529816326A92DC39"
+				id: "42BA17EA29A29DBC"
 				type: "item"
-				item: "kibe:cobblestone_generator_mk1"
+				title: "Make a Cobblegen"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "kibe:cobblestone_generator_mk5"
+								Count: 1b
+							}
+							{
+								id: "kibe:cobblestone_generator_mk4"
+								Count: 1b
+							}
+							{
+								id: "kibe:cobblestone_generator_mk3"
+								Count: 1b
+							}
+							{
+								id: "kibe:cobblestone_generator_mk2"
+								Count: 1b
+							}
+							{
+								id: "kibe:cobblestone_generator_mk1"
+								Count: 1b
+							}
+						]
+					}
+				}
 				only_from_crafting: false
 			}]
 			rewards: [{
@@ -185,18 +213,16 @@
 			id: "129B3575B106FD1E"
 			tasks: [
 				{
-					id: "46A3D5C2D5CE8BD7"
+					id: "19DA1C52BEBAD481"
 					type: "item"
-					item: "modern_industrialization:copper_tiny_dust"
+					item: "fabricaeexnihilo:raw_copper_piece"
 					count: 50L
-					only_from_crafting: false
 				}
 				{
-					id: "524208AFF6BC719F"
+					id: "3E14A2504A9B63BA"
 					type: "item"
-					item: "modern_industrialization:tin_tiny_dust"
-					count: 40L
-					only_from_crafting: false
+					item: "fabricaeexnihilo:raw_tin_piece"
+					count: 50L
 				}
 			]
 			rewards: [{
@@ -376,18 +402,25 @@
 			}]
 		}
 		{
+			title: "Lead Dust"
 			icon: "minecraft:sand"
 			x: 8.0d
 			y: 15.0d
 			dependencies: ["68751941C2C6B5CF"]
 			hide: true
-			optional: true
 			id: "2486A49B7A82BD73"
 			tasks: [
 				{
 					id: "0FB8EA8EC772BFFE"
 					type: "item"
-					item: "modern_industrialization:lead_tiny_dust"
+					title: "Any #c:lead_tiny_dusts"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:lead_tiny_dusts"
+						}
+					}
 					count: 30L
 					only_from_crafting: false
 				}
@@ -529,7 +562,7 @@
 			description: [
 				"This pickaxe has the mining level of diamonds and it is able to mine faster than most pickaxes that arent made out of amethyst bronze with a comparable durability and mining level."
 				""
-				"To get skyslone you need to find a floating white geode which comtains skyslime."
+				"To get skystone you need to find a floating white geode which contains skyslime."
 				""
 				"Make sure to gather extra slime to repair the pickaxe in a cheaper way, otherwise you will have to get more skyslime for your mining needs."
 			]
@@ -604,8 +637,8 @@
 		}
 		{
 			title: "Repairing the tools"
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: 0.5d
 			subtitle: "with great speed comes... low durability."
 			description: ["Before you upgrade the tools you will use this item pretty often, so its good to get started crafting them."]
 			dependencies: [
@@ -721,7 +754,7 @@
 		{
 			title: "The ultimate starter mining tool?"
 			x: 5.5d
-			y: -1.5d
+			y: -1.0d
 			shape: "square"
 			subtitle: "This is the best tool to start off with with how much it can be upgraded."
 			description: ["This tool might seem weak at first and barely even on top if you dont upgrade the tool. With upgrades the tool will become unstoppable."]
@@ -799,8 +832,8 @@
 		}
 		{
 			title: "The ultimate starter mining tool"
-			x: 6.5d
-			y: -3.0d
+			x: 5.5d
+			y: -2.5d
 			shape: "square"
 			subtitle: "This tool has more speed and durability than any other starting tool."
 			description: [
@@ -914,8 +947,8 @@
 		}
 		{
 			title: "The mighty tinker anvil"
-			x: 8.0d
-			y: 0.0d
+			x: 7.5d
+			y: 0.5d
 			shape: "square"
 			subtitle: "This one block is whats needed to progress in tinkers."
 			description: ["Although quite costly to make, its going to pay off quite well with the tools it allows you to make."]
@@ -940,7 +973,7 @@
 		{
 			title: "A fast attacking broad sword?"
 			x: 9.0d
-			y: -1.5d
+			y: 0.5d
 			shape: "pentagon"
 			subtitle: "Yes you heard me right, this broad sword can attack quite fast."
 			description: ["Out of all the materials, the most important one is honey. If you didnt destroy those bee hives in the island you should be able to get the honey required to get pig iron."]
@@ -1020,6 +1053,8 @@
 			disable_toast: true
 			x: 5.5d
 			y: 8.5d
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "186CB0917B42C66D"
 			tasks: [{
 				id: "5F32CDF7B195BCE6"
@@ -1028,12 +1063,10 @@
 				points: false
 			}]
 			rewards: [{
-				id: "2F91407F11496706"
-				type: "command"
-				title: "Gain Engineering Panel Access"
-				icon: "artis:engineering_panel"
-				command: "/phase grant @p engineer"
-				player_command: false
+				id: "17D5096E6C73A96D"
+				type: "toast"
+				title: "Engineer Time"
+				description: ""
 			}]
 		}
 		{
@@ -1588,4 +1621,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

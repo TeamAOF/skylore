@@ -40,6 +40,8 @@
 			disable_toast: true
 			x: 4.5d
 			y: -4.5d
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "2E8711EA762548F2"
 			tasks: [{
 				id: "4156E7C803B19A11"
@@ -789,4 +791,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

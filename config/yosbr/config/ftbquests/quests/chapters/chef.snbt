@@ -27,6 +27,8 @@
 			x: 1.5d
 			y: -64.0d
 			description: ["You need to show a little prowess to get this goat cheese."]
+			dependencies: ["2866D1559387E68A"]
+			hide: true
 			id: "2B1E87EA80F17E5B"
 			tasks: [{
 				id: "753D9419A8D22A25"
@@ -2264,4 +2266,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

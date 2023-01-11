@@ -77,7 +77,7 @@
         "hardness": 4,
         "resistance": 3
       },
-	  "catalyst_slot": true, // adds an additional slot to use up an items durability or other resources like power added via API
+	  "catalyst_slot": false, // adds an additional slot to use up an items durability or other resources like power added via API
       "requires_tool": true,
       "tags": [
         "minecraft:blocks/needs_stone_tool",

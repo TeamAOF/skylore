@@ -42,24 +42,8 @@ onEvent('recipes', (event) => {
     }
   )
 })
-onEvent('recipes', (event) => {
-    event.custom(
-    {
-      "type": "create:pressing",
-      "ingredients": [
-        {
-          "item": "minecraft:planks"
-        }
-      ],
-      "results": [
-        {
-          "item": "minecraft:bowl"
-        }
-      ],
-      "processingTime": 350
-    }
-  )
-})
+
+
 onEvent('recipes', (event) => {
 
     const plates = [
@@ -95,4 +79,23 @@ onEvent('recipes', (event) => {
             ],
         })
     });
+})
+
+onEvent('recipes', (event) => {
+    event.custom(
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:bowl"
+          }
+        ],
+        "processingTime": 350
+      }
+    )
 })

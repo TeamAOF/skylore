@@ -2,6 +2,6 @@
 
 onEvent('recipes', (event) => {
 	
-  event.shapeless('artis:engineering_panel', ['minecraft:crafting_table', 'minecraft:redstone'])
+  event.shapeless('artis:engineering_panel', ['c:workbenches', 'minecraft:redstone'])
 
 });
