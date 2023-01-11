@@ -1,0 +1,7 @@
+{
+	id: "20CEB366F059C534"
+	order_index: 45
+	title: "stack of copper ore"
+	loot_size: 1
+	rewards: [{ item: "minecraft:copper_ore", count: 64 }]
+}

@@ -198,9 +198,9 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: 1.0d
-			dependencies: ["4A4C26EC5448C736"]
+			dependencies: ["41AC58B29A7AA952"]
 			id: "46222FDF971B1C0E"
 			tasks: [{
 				id: "076B695E4BCA94C3"
@@ -215,7 +215,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -4.0d
 			y: 2.0d
 			dependencies: ["46222FDF971B1C0E"]
 			id: "174EE9B31D6C84C6"
@@ -232,9 +232,9 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: 1.0d
-			dependencies: ["46222FDF971B1C0E"]
+			dependencies: ["4A4C26EC5448C736"]
 			id: "41AC58B29A7AA952"
 			tasks: [{
 				id: "5EAE63ABA4669C2D"
@@ -249,7 +249,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -3.0d
 			y: 2.0d
 			dependencies: ["41AC58B29A7AA952"]
 			id: "15990640967A68D4"
@@ -553,9 +553,10 @@
 			hide: true
 			id: "5DFC98275B1F19DF"
 			tasks: [{
-				id: "7E9B661191D13810"
-				type: "item"
-				item: "artis:engineering_panel"
+				id: "3A0C54915086594C"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
 				id: "5AEBCFF72ED692D8"
@@ -1567,4 +1568,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

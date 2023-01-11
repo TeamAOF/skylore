@@ -206,6 +206,7 @@
 					Count: 1b
 					tag: { }
 				}
+				count: 4L
 			}]
 			rewards: [{
 				id: "4945444D9B417755"
@@ -239,4 +240,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

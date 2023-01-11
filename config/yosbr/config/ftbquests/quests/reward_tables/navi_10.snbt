@@ -1,0 +1,13 @@
+{
+	id: "2142C8D95A4C7DD4"
+	order_index: 22
+	title: "navi 10"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "structures_compass:structures_compass"
+			Count: 1b
+			tag: { }
+		}
+	}]
+}

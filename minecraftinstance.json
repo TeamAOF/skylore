@@ -464,6 +464,16 @@
                                                   }
                             },
                             {
+                                "addonID":  311120,
+                                "name":  "Couplings",
+                                "installedFile":  {
+                                                      "id":  3816074,
+                                                      "fileName":  "Couplings-1.8.1+1.18.2.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3816/74/Couplings-1.8.1+1.18.2.jar",
+                                                      "FileNameOnDisk":  "Couplings-1.8.1+1.18.2.jar"
+                                                  }
+                            },
+                            {
                                 "addonID":  576449,
                                 "name":  "Coxinha Utilities",
                                 "installedFile":  {
@@ -567,10 +577,10 @@
                                 "addonID":  242195,
                                 "name":  "Dark Utilities",
                                 "installedFile":  {
-                                                      "id":  3830308,
-                                                      "fileName":  "DarkUtilities-Fabric-1.18.2-10.0.5.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3830/308/DarkUtilities-Fabric-1.18.2-10.0.5.jar",
-                                                      "FileNameOnDisk":  "DarkUtilities-Fabric-1.18.2-10.0.5.jar"
+                                                      "id":  4325786,
+                                                      "fileName":  "DarkUtilities-Fabric-1.18.2-10.1.6.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4325/786/DarkUtilities-Fabric-1.18.2-10.1.6.jar",
+                                                      "FileNameOnDisk":  "DarkUtilities-Fabric-1.18.2-10.1.6.jar"
                                                   }
                             },
                             {
@@ -677,10 +687,10 @@
                                 "addonID":  530668,
                                 "name":  "Ellemes\u0027 Container Library",
                                 "installedFile":  {
-                                                      "id":  3992867,
-                                                      "fileName":  "ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3992/867/ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar",
-                                                      "FileNameOnDisk":  "ellemes-container-library-2.1.0-alpha.12+1.18.2-fabric.jar"
+                                                      "id":  3813785,
+                                                      "fileName":  "ellemes-container-library-1.4.0-beta.2+1.18.2-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3813/785/ellemes-container-library-1.4.0-beta.2+1.18.2-fabric.jar",
+                                                      "FileNameOnDisk":  "ellemes-container-library-1.4.0-beta.2+1.18.2-fabric.jar"
                                                   }
                             },
                             {
@@ -927,30 +937,30 @@
                                 "addonID":  438495,
                                 "name":  "FTB Library (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4210934,
-                                                      "fileName":  "ftb-library-fabric-1802.3.9-build.167.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4210/934/ftb-library-fabric-1802.3.9-build.167.jar",
-                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.9-build.167.jar"
+                                                      "id":  4135531,
+                                                      "fileName":  "ftb-library-fabric-1802.3.8-build.163.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/531/ftb-library-fabric-1802.3.8-build.163.jar",
+                                                      "FileNameOnDisk":  "ftb-library-fabric-1802.3.8-build.163.jar"
                                                   }
                             },
                             {
                                 "addonID":  438496,
                                 "name":  "FTB Quests (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4297567,
-                                                      "fileName":  "ftb-quests-fabric-1802.3.12-build.157.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4297/567/ftb-quests-fabric-1802.3.12-build.157.jar",
-                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.12-build.157.jar"
+                                                      "id":  4070027,
+                                                      "fileName":  "ftb-quests-fabric-1802.3.10-build.138.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4070/27/ftb-quests-fabric-1802.3.10-build.138.jar",
+                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.10-build.138.jar"
                                                   }
                             },
                             {
                                 "addonID":  438497,
                                 "name":  "FTB Teams (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4229137,
-                                                      "fileName":  "ftb-teams-fabric-1802.2.9-build.88.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/137/ftb-teams-fabric-1802.2.9-build.88.jar",
-                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.9-build.88.jar"
+                                                      "id":  4135752,
+                                                      "fileName":  "ftb-teams-fabric-1802.2.8-build.78.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/752/ftb-teams-fabric-1802.2.8-build.78.jar",
+                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.8-build.78.jar"
                                                   }
                             },
                             {
@@ -1861,16 +1871,6 @@
                                                       "fileName":  "rswires-4.13.0.jar",
                                                       "downloadUrl":  "https://edge.forgecdn.net/files/3667/421/rswires-4.13.0.jar",
                                                       "FileNameOnDisk":  "rswires-4.13.0.jar"
-                                                  }
-                            },
-                            {
-                                "addonID":  574856,
-                                "name":  "Rubidium",
-                                "installedFile":  {
-                                                      "id":  4167344,
-                                                      "fileName":  "rubidium-0.6.3.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4167/344/rubidium-0.6.3.jar",
-                                                      "FileNameOnDisk":  "rubidium-0.6.3.jar"
                                                   }
                             },
                             {

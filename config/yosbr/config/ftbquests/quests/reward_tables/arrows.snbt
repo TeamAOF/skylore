@@ -1,0 +1,7 @@
+{
+	id: "66BA382DC03F02D0"
+	order_index: 57
+	title: "arrows"
+	loot_size: 1
+	rewards: [{ item: "minecraft:arrow", count: 64 }]
+}

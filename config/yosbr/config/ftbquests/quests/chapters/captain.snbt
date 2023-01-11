@@ -430,6 +430,8 @@
 			}]
 		}
 		{
+			title: "Frayed Backpack Research"
+			icon: "inmis:frayed_backpack"
 			x: 4.5d
 			y: -6.5d
 			dependencies: ["52CE677200EBA77A"]
@@ -441,130 +443,147 @@
 				points: false
 			}]
 			rewards: [{
-				id: "327A714032CD9869"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6421114608467573967L
+				id: "2B21E5A948106EB8"
+				type: "command"
+				title: "Frayed Backpack Recipe Unlock"
+				icon: "inmis:frayed_backpack"
+				auto: "enabled"
+				command: "/phase grant @p frayed_backpack"
+				player_command: false
 			}]
 		}
 		{
+			title: "Withered Backpack Research"
+			icon: "inmis:withered_backpack"
+			x: 4.5d
+			y: -14.0d
+			dependencies: ["36BDDAE3405F6923"]
+			id: "045CEDC13CD77D06"
+			tasks: [{
+				id: "0F6CE092D817A8D2"
+				type: "xp"
+				value: 60L
+				points: false
+			}]
+			rewards: [{
+				id: "5820799739F07EFE"
+				type: "command"
+				title: "Withered Backpack Recipe Unlock"
+				icon: "inmis:withered_backpack"
+				command: "/phase grant @p withered_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Plated Backpack Research"
+			icon: "inmis:plated_backpack"
 			x: 4.5d
 			y: -8.0d
 			dependencies: ["719549F5D342A47F"]
-			id: "2C9C192282645FD8"
+			id: "6DDE688B0FF3603D"
 			tasks: [{
-				id: "7903B74F0FC92A3D"
-				type: "item"
-				item: "inmis:frayed_backpack"
+				id: "1C449B915729F2B9"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
-				id: "7A25B4B056C82759"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6421114608467573967L
+				id: "1F14AFA0985F5DEC"
+				type: "command"
+				title: "Plated Backpack Recipe Unlock"
+				icon: "inmis:plated_backpack"
+				command: "/phase grant @p plated_backpack"
+				player_command: false
 			}]
 		}
 		{
+			title: "Gilded Backpack Research"
+			icon: "inmis:gilded_backpack"
 			x: 4.5d
 			y: -9.5d
-			dependencies: ["2C9C192282645FD8"]
-			id: "7067193536A4DFC2"
+			dependencies: ["6DDE688B0FF3603D"]
+			id: "20BE23C2006AA770"
 			tasks: [{
-				id: "65584283946DEC25"
-				type: "item"
-				item: "inmis:plated_backpack"
+				id: "0B3F0263ED705CD2"
+				type: "xp"
+				value: 20L
+				points: false
 			}]
 			rewards: [{
-				id: "309695B9E8C8F43C"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
+				id: "0BFF47174C736681"
+				type: "command"
+				title: "Gilded Backpack Recipe Unlock"
+				icon: "inmis:gilded_backpack"
+				command: "/phase grant @p gilded_backpack"
+				player_command: false
 			}]
 		}
 		{
+			title: "Bejeweled Backpack Research"
+			icon: "inmis:bejeweled_backpack"
 			x: 4.5d
 			y: -11.0d
-			dependencies: ["7067193536A4DFC2"]
-			id: "2C9169D9C4E7CCF8"
+			dependencies: ["20BE23C2006AA770"]
+			id: "221C967EE3D181BD"
 			tasks: [{
-				id: "3E6E20F6131CA4F3"
-				type: "item"
-				item: "inmis:gilded_backpack"
+				id: "292F23BF94B67870"
+				type: "xp"
+				value: 40L
+				points: false
 			}]
 			rewards: [{
-				id: "4B7F9849F8360D58"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 3534262378248187539L
+				id: "37AE08143DA2193B"
+				type: "command"
+				title: "Bejeweled Backack Recipe Unlock"
+				icon: "inmis:bejeweled_backpack"
+				command: "/phase grant @p bejeweled_backpack"
+				player_command: false
 			}]
 		}
 		{
+			title: "Blazing Backpack Recipe Unlock"
+			icon: "inmis:blazing_backpack"
 			x: 4.5d
 			y: -12.5d
-			dependencies: ["2C9169D9C4E7CCF8"]
-			id: "037B3131E328AEBB"
+			dependencies: ["221C967EE3D181BD"]
+			id: "36BDDAE3405F6923"
 			tasks: [{
-				id: "111DEED319CC81D6"
-				type: "item"
-				item: "inmis:bejeweled_backpack"
+				id: "2FAA05CC4222D13E"
+				type: "xp"
+				value: 60L
+				points: false
 			}]
 			rewards: [{
-				id: "241D6D21825AB2A4"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
+				id: "152CDC8CF2A6EFCB"
+				type: "command"
+				title: "Blazing Backpack Recipe Unlock"
+				icon: "inmis:blazing_backpack"
+				command: "/phase grant @p blazing_backpack"
+				player_command: false
 			}]
 		}
 		{
-			x: 4.5d
-			y: -14.0d
-			dependencies: ["037B3131E328AEBB"]
-			id: "045CEDC13CD77D06"
-			tasks: [{
-				id: "01307A2696D182B7"
-				type: "item"
-				item: "inmis:blazing_backpack"
-			}]
-			rewards: [{
-				id: "402ECE9B73ED3FB0"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 9015732949868242056L
-			}]
-		}
-		{
+			title: "Endless Backpack Research"
+			icon: "inmis:endless_backpack"
 			x: 4.5d
 			y: -15.5d
 			dependencies: ["045CEDC13CD77D06"]
-			id: "4888FF05CD290863"
+			id: "4DC6F30B86587817"
 			tasks: [{
-				id: "5A5B3AEB9BB9CDD9"
-				type: "item"
-				item: "inmis:withered_backpack"
+				id: "1F50E5C7E725D86D"
+				type: "xp"
+				value: 80L
+				points: false
 			}]
 			rewards: [{
-				id: "02D498D5C3AEFB79"
-				type: "choice"
-				exclude_from_claim_all: true
-				table_id: 6540879071985987644L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -17.0d
-			dependencies: ["4888FF05CD290863"]
-			id: "2E57A2FE92C293B3"
-			tasks: [{
-				id: "615A171976861AB6"
-				type: "item"
-				item: "inmis:endless_backpack"
-			}]
-			rewards: [{
-				id: "7C89ABBB8E02D88A"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6009508235035804685L
+				id: "2E60D290CF5F9A29"
+				type: "command"
+				title: "Endless Backpack Recipe Unlock"
+				icon: "inmis:endless_backpack"
+				command: "/phase grant @p endless_backpack"
+				player_command: false
 			}]
 		}
 	]
+	quest_links: [ ]
 }
