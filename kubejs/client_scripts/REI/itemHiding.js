@@ -59,7 +59,8 @@ const itemRemove = [
 	"fabricaeexnihilo:doll_enderman",
 	"fabricaeexnihilo:doll_guardian",
 	"fabricaeexnihilo:doll_shulker",
-	"twilightforest:uncrafting_table"
+	"twilightforest:uncrafting_table",
+	"croptopia:knife"
 ]
 onEvent('rei.hide.items', event => {
 
