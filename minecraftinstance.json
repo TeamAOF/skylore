@@ -767,10 +767,10 @@
                                 "addonID":  317856,
                                 "name":  "Expanded Storage",
                                 "installedFile":  {
-                                                      "id":  4022956,
-                                                      "fileName":  "expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4022/956/expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar",
-                                                      "FileNameOnDisk":  "expandedstorage-8.1.0-alpha.7+1.18.2-fabric.jar"
+                                                      "id":  3818504,
+                                                      "fileName":  "expandedstorage-7.4.0-beta.4+1.18.2-fabric.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/3818/504/expandedstorage-7.4.0-beta.4+1.18.2-fabric.jar",
+                                                      "FileNameOnDisk":  "expandedstorage-7.4.0-beta.4+1.18.2-fabric.jar"
                                                   }
                             },
                             {
@@ -927,10 +927,10 @@
                                 "addonID":  472657,
                                 "name":  "FTB Chunks (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4229119,
-                                                      "fileName":  "ftb-chunks-fabric-1802.3.12-build.217.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/119/ftb-chunks-fabric-1802.3.12-build.217.jar",
-                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.12-build.217.jar"
+                                                      "id":  4174584,
+                                                      "fileName":  "ftb-chunks-fabric-1802.3.11-build.213.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4174/584/ftb-chunks-fabric-1802.3.11-build.213.jar",
+                                                      "FileNameOnDisk":  "ftb-chunks-fabric-1802.3.11-build.213.jar"
                                                   }
                             },
                             {
@@ -947,20 +947,20 @@
                                 "addonID":  438496,
                                 "name":  "FTB Quests (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4070027,
-                                                      "fileName":  "ftb-quests-fabric-1802.3.10-build.138.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4070/27/ftb-quests-fabric-1802.3.10-build.138.jar",
-                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.10-build.138.jar"
+                                                      "id":  4297567,
+                                                      "fileName":  "ftb-quests-fabric-1802.3.12-build.157.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4297/567/ftb-quests-fabric-1802.3.12-build.157.jar",
+                                                      "FileNameOnDisk":  "ftb-quests-fabric-1802.3.12-build.157.jar"
                                                   }
                             },
                             {
                                 "addonID":  438497,
                                 "name":  "FTB Teams (Fabric)",
                                 "installedFile":  {
-                                                      "id":  4135752,
-                                                      "fileName":  "ftb-teams-fabric-1802.2.8-build.78.jar",
-                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4135/752/ftb-teams-fabric-1802.2.8-build.78.jar",
-                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.8-build.78.jar"
+                                                      "id":  4229137,
+                                                      "fileName":  "ftb-teams-fabric-1802.2.9-build.88.jar",
+                                                      "downloadUrl":  "https://edge.forgecdn.net/files/4229/137/ftb-teams-fabric-1802.2.9-build.88.jar",
+                                                      "FileNameOnDisk":  "ftb-teams-fabric-1802.2.9-build.88.jar"
                                                   }
                             },
                             {
