@@ -43,6 +43,13 @@ onEvent('tags.items', event => {
     event.add("c:raw_zinc_ores", "create:raw_zinc")
     event.add("c:gold_plates", "create:golden_sheet")
 
+    // Create Additions
+    event.add("c:zinc_plates", "createaddition:zinc_sheet")
+    event.add("c:diamond_dusts", "createaddition:diamond_grit")
+    event.add("c:iron_rods", "createaddition:iron_rod")
+    event.add("c:gold_rods", "createaddition:gold_rod")
+    event.add("c:copper_rods", "createaddition:copper_rod")
+
     // Modern Industrialization
     event.add("c:copper_rods", "modern_industrialization:copper_rod")
     event.add("c:rods/copper", "modern_industrialization:copper_rod")
@@ -56,7 +63,7 @@ onEvent('tags.items', event => {
     event.add("c:plates/copper", "modern_industrialization:copper_plate")
     event.add("c:nuggets/copper", "modern_industrialization:copper_nugget")
     event.add("c:plates/bronze", "modern_industrialization:bronze_plate")
-    
+
     // event.add("c:dusts/uranium", "modern_industrialization:uranium_dust")
     // event.add("c:dusts/silver", "modern_industrialization:silver_dust")
     // event.add("c:dusts/tin", "modern_industrialization:tin_dust")
