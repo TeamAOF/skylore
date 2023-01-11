@@ -38,7 +38,8 @@ onEvent('recipes', (event) => {
 		'minecraft:wooden_axe',
 		'minecraft:wooden_sword',
 		'minecraft:wooden_shovel',
-		'minecraft:wooden_hoe'
+		'minecraft:wooden_hoe',
+		'croptopia:knife'
 	]
 
     idRemove.forEach((id) => {

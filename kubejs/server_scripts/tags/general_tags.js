@@ -9,6 +9,14 @@ onEvent('tags.items', event => {
 
   event.add('c:workbench', 'minecraft:crafting_table')
 
+    // Knives
+
+    event.add('c:knives', 'farmersdelight:flint_knife')
+    event.add('c:knives', 'farmersdelight:iron_knife')
+    event.add('c:knives', 'farmersdelight:golden_knife')
+    event.add('c:knives', 'farmersdelight:diamond_knife')
+    event.add('c:knives', 'farmersdelight:netherite_knife')
+
   // Indrev
 
   event.add('c:raw_lead_blocks', 'indrev:raw_lead_block')
