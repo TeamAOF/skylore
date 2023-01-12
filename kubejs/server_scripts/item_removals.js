@@ -204,7 +204,8 @@ onEvent('recipes', (event) => {
 		"inmis:blazing_backpack",
 		"inmis:withered_backpack",
 		"inmis:endless_backpack",
-		"ad_astra:hammer"
+		"ad_astra:hammer",
+		"coxinhautilities:grannys_sink"
     ];
 	
 
