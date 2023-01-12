@@ -587,24 +587,6 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.5d
-			dependencies: ["7EA788BEDF84A0B9"]
-			id: "633657614CD58EFE"
-			tasks: [{
-				id: "5A5300D55D7A853D"
-				type: "item"
-				item: "chestcavity:golem_core"
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "2975451F5EA25B7E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6009508235035804685L
-			}]
-		}
-		{
 			x: 9.0d
 			y: -4.5d
 			dependencies: ["2E8711EA762548F2"]
@@ -788,6 +770,40 @@
 				id: "552F094804F98D4F"
 				type: "checkmark"
 				title: "Infection Research"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["1602909A2303CD5F"]
+			id: "675852C7A570343D"
+			tasks: [{
+				id: "4E1730CE2AD6D56F"
+				type: "checkmark"
+				title: "Blending Technology and Medicine"
+			}]
+		}
+		{
+			title: "Golem Surgery"
+			icon: "chestcavity:golem_core"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "This basically makes you invulnerable"
+			dependencies: ["675852C7A570343D"]
+			id: "5CDB1EF1491D6C7A"
+			tasks: [{
+				id: "0F5FA66E7A692CDA"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "487F4B7C27BE7DD4"
+				type: "command"
+				title: "Unlock Golem Surgery"
+				icon: "chestcavity:golem_core"
+				command: "/phase grant @p golem_surgery"
+				player_command: false
 			}]
 		}
 	]

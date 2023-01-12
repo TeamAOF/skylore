@@ -216,6 +216,16 @@ onEvent('gamephases.initialize', event => {
        .item('minecraft:wooden_shovel')
        .item('minecraft:wooden_hoe')
 });
+// Medical Gating
+onEvent('gamephases.initialize', event => {
+    event.phase('golem_surgery')
+        .item('chestcavity:golem_core')
+        .item('chestcavity:golem_plating')
+        .item('chestcavity:inner_furnace')
+        .item('chestcavity:golem_cable')
+        .item('chestcavity:piston_muscle')
+});
+
 
 // inmis backpacks
 

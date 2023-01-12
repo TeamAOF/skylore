@@ -559,10 +559,10 @@
 				points: false
 			}]
 			rewards: [{
-				id: "5AEBCFF72ED692D8"
-				type: "item"
-				item: "create:experience_nugget"
-				count: 10
+				id: "7A4494A4E171CE0B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
 			}]
 		}
 		{

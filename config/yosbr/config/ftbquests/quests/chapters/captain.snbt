@@ -413,6 +413,7 @@
 		}
 		{
 			title: "Sacrifice to find"
+			icon: "ae2:sky_compass"
 			x: 4.5d
 			y: -3.5d
 			dependencies: ["52CE677200EBA77A"]

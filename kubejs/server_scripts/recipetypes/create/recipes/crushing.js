@@ -16,6 +16,22 @@ onEvent('recipes', (event) => {
       "processingTime": 350
     }
   )
+    event.custom(
+    {
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "tag": "c:certus_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:certus_quartz_dust"
+        }
+      ],
+      "processingTime": 350
+    }
+  )
 
   event.custom(
     {

@@ -17,6 +17,20 @@
 				type: "checkmark"
 				title: "Professional Chef"
 			}]
+			rewards: [
+				{
+					id: "5464ADA879BF10FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "5218D84DCD6C2FEF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -28,6 +42,20 @@
 				type: "item"
 				item: "croptopia:tostada"
 			}]
+			rewards: [
+				{
+					id: "5916134318659AD6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "5EFD0B9457C4BD49"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -39,6 +67,20 @@
 				type: "item"
 				item: "croptopia:carnitas"
 			}]
+			rewards: [
+				{
+					id: "3AA2E459151BA8E8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "7A201F642DD5D2CE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -50,6 +92,20 @@
 				type: "item"
 				item: "croptopia:enchilada"
 			}]
+			rewards: [
+				{
+					id: "5D2F0FB0064B3015"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "236DC3A3B137FCFE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -61,6 +117,20 @@
 				type: "item"
 				item: "farmersdelight:hamburger"
 			}]
+			rewards: [
+				{
+					id: "3014C3FEAA18E2DA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6CABC4DD04D93032"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -72,6 +142,20 @@
 				type: "item"
 				item: "croptopia:quesadilla"
 			}]
+			rewards: [
+				{
+					id: "523A8A749FEB5E42"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6A3E623EC8087AD3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -83,6 +167,20 @@
 				type: "item"
 				item: "croptopia:pizza"
 			}]
+			rewards: [
+				{
+					id: "715A871EAA3E2446"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0D3612DE48B8419C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -94,6 +192,20 @@
 				type: "item"
 				item: "croptopia:cheeseburger"
 			}]
+			rewards: [
+				{
+					id: "7A674576838687A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6E7567A293C2BE61"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -105,6 +217,20 @@
 				type: "item"
 				item: "croptopia:hamburger"
 			}]
+			rewards: [
+				{
+					id: "26632588420B92D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "5CE19CE7CEEF0640"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -116,6 +242,20 @@
 				type: "item"
 				item: "croptopia:anchovy_pizza"
 			}]
+			rewards: [
+				{
+					id: "0B6B756B94D76046"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "41A618416878CB69"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -127,6 +267,20 @@
 				type: "item"
 				item: "croptopia:onion_rings"
 			}]
+			rewards: [
+				{
+					id: "7F2C99F95BF00B71"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "39A01FA2788379A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -138,6 +292,20 @@
 				type: "item"
 				item: "croptopia:ham_sandwich"
 			}]
+			rewards: [
+				{
+					id: "260216938CB1F5CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2496849090C71E8C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -149,6 +317,20 @@
 				type: "item"
 				item: "croptopia:peanut_butter_and_jam"
 			}]
+			rewards: [
+				{
+					id: "3D1A1B21D1CB5FB2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "1891BF13F6B7E058"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -161,6 +343,20 @@
 				type: "item"
 				item: "croptopia:toast_sandwich"
 			}]
+			rewards: [
+				{
+					id: "04F4F85020D727A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "246B7AF40921AE13"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -172,6 +368,20 @@
 				type: "item"
 				item: "croptopia:banana_nut_bread"
 			}]
+			rewards: [
+				{
+					id: "40EF97CEA6B6D564"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0783092812102726"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -183,6 +393,20 @@
 				type: "item"
 				item: "croptopia:churros"
 			}]
+			rewards: [
+				{
+					id: "5D1D5C9E79D50433"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6816876FE08D12FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -194,6 +418,20 @@
 				type: "item"
 				item: "croptopia:lemon_coconut_bar"
 			}]
+			rewards: [
+				{
+					id: "175D11914FBBEEB6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "64BC3463DC823156"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -205,6 +443,20 @@
 				type: "item"
 				item: "farmersdelight:melon_juice"
 			}]
+			rewards: [
+				{
+					id: "12707C162BE2090C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "1C3A41948D33696E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -216,6 +468,20 @@
 				type: "item"
 				item: "farmersdelight:melon_popsicle"
 			}]
+			rewards: [
+				{
+					id: "3EF557CE8ADDA215"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "4603D9516163884D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -227,6 +493,20 @@
 				type: "item"
 				item: "croptopia:macaron"
 			}]
+			rewards: [
+				{
+					id: "342C1274CB0CC1CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "4A7F2F448001AAA8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -238,6 +518,20 @@
 				type: "item"
 				item: "croptopia:meringue"
 			}]
+			rewards: [
+				{
+					id: "720F6126627DEDC6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6E5525D23A488772"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -249,6 +543,20 @@
 				type: "item"
 				item: "croptopia:nougat"
 			}]
+			rewards: [
+				{
+					id: "09014807EF5AC61D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "411F34E87B0C19EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -260,6 +568,20 @@
 				type: "item"
 				item: "croptopia:yam_jam"
 			}]
+			rewards: [
+				{
+					id: "0D1BACA0B4971EC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "05F88F5B8E8C668B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -271,6 +593,20 @@
 				type: "item"
 				item: "croptopia:trail_mix"
 			}]
+			rewards: [
+				{
+					id: "4FC0C38E03715A6B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "25B67A9ED28B13F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -282,6 +618,20 @@
 				type: "item"
 				item: "croptopia:roasted_pumpkin_seeds"
 			}]
+			rewards: [
+				{
+					id: "33E35A1C0797876B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "20DF79DDA7ED1326"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -293,6 +643,20 @@
 				type: "item"
 				item: "croptopia:roasted_sunflower_seeds"
 			}]
+			rewards: [
+				{
+					id: "43005FCD27E2D2A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "66C23ABA1A830DD5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -304,6 +668,20 @@
 				type: "item"
 				item: "croptopia:protein_bar"
 			}]
+			rewards: [
+				{
+					id: "6D8E2401F05BD6E0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2AD4F70DAF50DBEE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -315,6 +693,20 @@
 				type: "item"
 				item: "valley:pumpkin_soup"
 			}]
+			rewards: [
+				{
+					id: "3877A1FC19AB16D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "4859900926E67C14"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -326,6 +718,20 @@
 				type: "item"
 				item: "croptopia:spaghetti_squash"
 			}]
+			rewards: [
+				{
+					id: "07C24D671E2C7359"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "1638AD7EA9A072DE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -337,6 +743,20 @@
 				type: "item"
 				item: "croptopia:ajvar"
 			}]
+			rewards: [
+				{
+					id: "087C39217F312D4F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "1D0C1A59CAABFF3A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -348,6 +768,20 @@
 				type: "item"
 				item: "croptopia:chicken_and_rice"
 			}]
+			rewards: [
+				{
+					id: "16D34FAA8B72D8CE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "6A57F4A7911E4AFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -359,6 +793,20 @@
 				type: "item"
 				item: "croptopia:chicken_and_dumplings"
 			}]
+			rewards: [
+				{
+					id: "59CBAC23FCAFAFB8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0B7E447787CA73D5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -370,6 +818,20 @@
 				type: "item"
 				item: "croptopia:tofu_and_dumplings"
 			}]
+			rewards: [
+				{
+					id: "60D2C36444541DD8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2288B482E20AF3E5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -381,6 +843,20 @@
 				type: "item"
 				item: "farmersdelight:beef_stew"
 			}]
+			rewards: [
+				{
+					id: "397DE805238D38B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "4DD40DCA0415B113"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -392,6 +868,20 @@
 				type: "item"
 				item: "croptopia:pork_and_beans"
 			}]
+			rewards: [
+				{
+					id: "685E58055230F82E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "33C7662F77D8BD82"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -403,6 +893,20 @@
 				type: "item"
 				item: "croptopia:potato_soup"
 			}]
+			rewards: [
+				{
+					id: "787AE5B74417FA68"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "78463792AF0E97B4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -414,6 +918,20 @@
 				type: "item"
 				item: "croptopia:mashed_potatoes"
 			}]
+			rewards: [
+				{
+					id: "008FFA10510B5362"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "13E67972713011FF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -425,6 +943,20 @@
 				type: "item"
 				item: "croptopia:dauphine_potatoes"
 			}]
+			rewards: [
+				{
+					id: "0C90F6CD763F0D27"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "45B257769759FC7F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -436,6 +968,20 @@
 				type: "item"
 				item: "croptopia:egg_roll"
 			}]
+			rewards: [
+				{
+					id: "4CDA2731970A0237"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "30A1D7AC4B5796DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -447,6 +993,20 @@
 				type: "item"
 				item: "croptopia:deep_fried_shrimp"
 			}]
+			rewards: [
+				{
+					id: "219C7D1769D4626A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "7D14F8986FD2FB89"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -458,6 +1018,20 @@
 				type: "item"
 				item: "croptopia:sushi"
 			}]
+			rewards: [
+				{
+					id: "446AF784BAA9B8DE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "1A497AB7D5EB7C96"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -469,6 +1043,20 @@
 				type: "item"
 				item: "croptopia:tuna_roll"
 			}]
+			rewards: [
+				{
+					id: "283B79F72C64CAD4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "19CB6DF6B1D72A55"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -480,6 +1068,20 @@
 				type: "item"
 				item: "croptopia:beef_stir_fry"
 			}]
+			rewards: [
+				{
+					id: "73C729F663B5BB90"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2E1F1D85906F1CC6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -491,6 +1093,20 @@
 				type: "item"
 				item: "croptopia:stir_fry"
 			}]
+			rewards: [
+				{
+					id: "024466A062FFD7E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2276201F27858802"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -502,6 +1118,20 @@
 				type: "item"
 				item: "croptopia:buttered_green_beans"
 			}]
+			rewards: [
+				{
+					id: "4006B60E52CDF328"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "006F81A4FBAF53E2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -513,6 +1143,20 @@
 				type: "item"
 				item: "croptopia:caesar_salad"
 			}]
+			rewards: [
+				{
+					id: "30CA5B39158C652F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "53052231BFA0C10A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -524,6 +1168,20 @@
 				type: "item"
 				item: "croptopia:crab_legs"
 			}]
+			rewards: [
+				{
+					id: "514B519DE89FB949"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "3C03C4A03172B191"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -535,6 +1193,20 @@
 				type: "item"
 				item: "croptopia:grilled_oysters"
 			}]
+			rewards: [
+				{
+					id: "50F8450F0F4C91D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "62E02C8F383C4585"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -546,6 +1218,20 @@
 				type: "item"
 				item: "croptopia:steamed_clams"
 			}]
+			rewards: [
+				{
+					id: "2A0E2E114ED7C321"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "56669819BCDAB73B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -557,6 +1243,20 @@
 				type: "item"
 				item: "croptopia:wine"
 			}]
+			rewards: [
+				{
+					id: "4034394D092A0E7D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0E5221A04A79CAC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -568,6 +1268,20 @@
 				type: "item"
 				item: "croptopia:rum"
 			}]
+			rewards: [
+				{
+					id: "78D6C46452767C1A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "73BF4998D5EED4A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -579,6 +1293,20 @@
 				type: "item"
 				item: "croptopia:mead"
 			}]
+			rewards: [
+				{
+					id: "13E0417816777ECE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "106B04DAE6BC9BB8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -590,6 +1318,20 @@
 				type: "item"
 				item: "croptopia:beer"
 			}]
+			rewards: [
+				{
+					id: "0C8D4FA214C23018"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "014A93287AA54B74"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -610,6 +1352,20 @@
 				type: "checkmark"
 				title: "Beyond Juice"
 			}]
+			rewards: [
+				{
+					id: "696C42C6081B6FAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "724111B445E2ACE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -621,6 +1377,20 @@
 				type: "item"
 				item: "croptopia:apple_juice"
 			}]
+			rewards: [
+				{
+					id: "152848ABEDDA893A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "731872A663A0429B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -632,6 +1402,20 @@
 				type: "item"
 				item: "croptopia:melon_juice"
 			}]
+			rewards: [
+				{
+					id: "6F004740B725344F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "06EB1A261BBCC566"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -643,6 +1427,20 @@
 				type: "item"
 				item: "croptopia:pineapple_juice"
 			}]
+			rewards: [
+				{
+					id: "194E4C97BD63D024"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "787E0D0028A36D2F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -654,6 +1452,20 @@
 				type: "item"
 				item: "croptopia:cranberry_juice"
 			}]
+			rewards: [
+				{
+					id: "0698EE4C0D00A1D5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "18DFF94647596ED6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -665,6 +1477,20 @@
 				type: "item"
 				item: "croptopia:grape_juice"
 			}]
+			rewards: [
+				{
+					id: "70802E8649119D08"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0469C207825E4963"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -676,6 +1502,20 @@
 				type: "item"
 				item: "croptopia:saguaro_juice"
 			}]
+			rewards: [
+				{
+					id: "36FEC4BEF4FD49D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2A7F0DD1B1AB9E22"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -687,6 +1527,20 @@
 				type: "item"
 				item: "croptopia:tomato_juice"
 			}]
+			rewards: [
+				{
+					id: "311B810B44A68581"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "609F012D731B4A0C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -698,6 +1552,20 @@
 				type: "item"
 				item: "croptopia:orange_juice"
 			}]
+			rewards: [
+				{
+					id: "04883900C2439BF3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "749DB6DD2D5BC0F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -709,6 +1577,20 @@
 				type: "item"
 				item: "valley:tomato_juice"
 			}]
+			rewards: [
+				{
+					id: "2B3183EC41CC9523"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "21DDC1D781FE74AD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -720,6 +1602,20 @@
 				type: "item"
 				item: "valley:green_bean_juice"
 			}]
+			rewards: [
+				{
+					id: "42B11B6AFE316ED7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "7D64679674118799"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -7.5d
@@ -731,6 +1627,20 @@
 				type: "item"
 				item: "valley:apple_juice"
 			}]
+			rewards: [
+				{
+					id: "743286EF87E44996"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "0EBAECE8026F9202"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -8.5d
@@ -742,6 +1652,20 @@
 				type: "item"
 				item: "valley:carrot_juice"
 			}]
+			rewards: [
+				{
+					id: "2E517830B501CC28"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2F1D9ABAF8B6FA55"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -753,6 +1677,20 @@
 				type: "item"
 				item: "valley:beet_juice"
 			}]
+			rewards: [
+				{
+					id: "09B414D394FB7A40"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "5CF4C12DA2235EA7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -764,6 +1702,20 @@
 				type: "item"
 				item: "valley:eggplant_juice"
 			}]
+			rewards: [
+				{
+					id: "193AB01C1E966E13"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "2CEE9A9B220F8359"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -8.5d
@@ -775,6 +1727,20 @@
 				type: "item"
 				item: "valley:glow_berry_juice"
 			}]
+			rewards: [
+				{
+					id: "7A9A6FC2097BDEFA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "3CE626A56960D5F5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -7.5d
@@ -786,6 +1752,20 @@
 				type: "item"
 				item: "valley:suspicious_juice"
 			}]
+			rewards: [
+				{
+					id: "0C50F9BC57D49BA2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "7039D30AAA433F15"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -797,6 +1777,20 @@
 				type: "checkmark"
 				title: "Get Juiced"
 			}]
+			rewards: [
+				{
+					id: "3E27AE1054EE721F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9015732949868242056L
+				}
+				{
+					id: "280D9C11F3AF720D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 	]
 	quest_links: [ ]

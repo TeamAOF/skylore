@@ -213,15 +213,15 @@
 			id: "129B3575B106FD1E"
 			tasks: [
 				{
-					id: "19DA1C52BEBAD481"
+					id: "005F6428CE3F4717"
 					type: "item"
-					item: "fabricaeexnihilo:raw_copper_piece"
+					item: "modern_industrialization:tin_tiny_dust"
 					count: 50L
 				}
 				{
-					id: "3E14A2504A9B63BA"
+					id: "42AD72EB01161A80"
 					type: "item"
-					item: "fabricaeexnihilo:raw_tin_piece"
+					item: "modern_industrialization:annealed_copper_tiny_dust"
 					count: 50L
 				}
 			]
@@ -744,12 +744,33 @@
 				match_nbt: false
 				weak_nbt_match: true
 			}]
-			rewards: [{
-				id: "5CE39F63FF7C34A4"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
+			rewards: [
+				{
+					id: "5CE39F63FF7C34A4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 8610730502767635143L
+				}
+				{
+					id: "6510DE9296846D76"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+				{
+					id: "2E511DDC6C2107EE"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+				{
+					id: "36AC01AB6D6CF721"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: ""
+				}
+			]
 		}
 		{
 			title: "The ultimate starter mining tool?"
@@ -822,6 +843,7 @@
 					}
 				}
 				only_from_crafting: false
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "37F82445E1F3EC86"
@@ -936,6 +958,7 @@
 					}
 				}
 				only_from_crafting: false
+				match_nbt: true
 				weak_nbt_match: true
 			}]
 			rewards: [{
@@ -1038,7 +1061,7 @@
 					}
 				}
 				only_from_crafting: false
-				weak_nbt_match: true
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "33AB633EBD61B46D"

@@ -9,6 +9,7 @@
 		Count: 1b
 		tag: { }
 	}
+	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -41,6 +42,7 @@
 		{
 			title: "Stack of Bullets"
 			icon: "hwg:bullets"
+			disable_toast: true
 			x: 27.0d
 			y: -17.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -55,6 +57,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "5720227FE138FD9E"
@@ -66,6 +69,7 @@
 		{
 			title: "Stack of Shotgun Shells"
 			icon: "hwg:shotgun_shell"
+			disable_toast: true
 			x: 25.5d
 			y: -17.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -80,6 +84,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "44A3B3FA0499DF32"
@@ -91,6 +96,7 @@
 		{
 			title: "Fuel Tank"
 			icon: "hwg:fuel_tank"
+			disable_toast: true
 			x: 24.0d
 			y: -17.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -105,6 +111,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "2833A869C7A01911"
@@ -115,6 +122,7 @@
 		{
 			title: "Stack of Arrows"
 			icon: "minecraft:arrow"
+			disable_toast: true
 			x: 24.0d
 			y: -15.5d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -129,6 +137,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "046146CADC9345B3"
@@ -140,6 +149,7 @@
 		{
 			title: "Cali Taco"
 			icon: "tacocraft:california_taco"
+			disable_toast: true
 			x: 27.0d
 			y: -15.5d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -155,16 +165,31 @@
 					tag: { }
 				}
 				count: 50L
+				consume_items: true
 			}]
-			rewards: [{
-				id: "1EA2A8BA569B906E"
-				type: "item"
-				item: "tacocraft:california_taco"
-			}]
+			rewards: [
+				{
+					id: "1EA2A8BA569B906E"
+					type: "item"
+					item: "tacocraft:california_taco"
+				}
+				{
+					id: "20228834C4F5300E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "01DEDEB6A0380AC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			title: "12 Golden Carrots"
 			icon: "minecraft:golden_carrot"
+			disable_toast: true
 			x: 24.0d
 			y: -14.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -179,6 +204,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "45CFB8918E1D5453"
@@ -192,6 +218,7 @@
 		{
 			title: "MRE"
 			icon: "campanion:mre"
+			disable_toast: true
 			x: 25.5d
 			y: -14.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -207,6 +234,7 @@
 					tag: { }
 				}
 				count: 4L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "4945444D9B417755"
@@ -217,6 +245,7 @@
 		{
 			title: "Big Breakfast"
 			icon: "croptopia:the_big_breakfast"
+			disable_toast: true
 			x: 27.0d
 			y: -14.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
@@ -231,6 +260,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: true
 			}]
 			rewards: [{
 				id: "2534D379EC1D4883"
