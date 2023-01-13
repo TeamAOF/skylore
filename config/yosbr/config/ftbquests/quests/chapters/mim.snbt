@@ -167,24 +167,11 @@
 				count: 50L
 				consume_items: true
 			}]
-			rewards: [
-				{
-					id: "1EA2A8BA569B906E"
-					type: "item"
-					item: "tacocraft:california_taco"
-				}
-				{
-					id: "20228834C4F5300E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "01DEDEB6A0380AC5"
-					type: "random"
-					exclude_from_claim_all: true
-					table_id: 6009508235035804685L
-				}
-			]
+			rewards: [{
+				id: "1EA2A8BA569B906E"
+				type: "item"
+				item: "tacocraft:california_taco"
+			}]
 		}
 		{
 			title: "12 Golden Carrots"
