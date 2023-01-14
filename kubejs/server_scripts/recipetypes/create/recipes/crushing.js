@@ -100,7 +100,36 @@ onEvent('recipes', (event) => {
       "processingTime": 350
     }
   )
+// valley ore
 
+    event.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "valley:mixed_ore"
+            }
+        ],
+        "results": [
+		Item.of('minecraft:raw_iron').withChance(0.33),
+		Item.of('minecraft:raw_copper').withChance(0.33),
+		Item.of('minecraft:raw_gold').withChance(0.33)
+        ],
+        "processingTime": 150
+    })
+	    event.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "valley:deepslate_mixed_ore"
+            }
+        ],
+        "results": [
+		Item.of('minecraft:raw_iron').withChance(0.33),
+		Item.of('minecraft:raw_copper').withChance(0.33),
+		Item.of('minecraft:raw_gold').withChance(0.33)
+        ],
+        "processingTime": 150
+    })
   const spectrum = [
     'topaz',
     'amethyst',
@@ -275,5 +304,4 @@ event.custom({
             ],
         })
     });
-
 })

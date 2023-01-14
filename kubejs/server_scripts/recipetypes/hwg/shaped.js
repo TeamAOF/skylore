@@ -13,7 +13,7 @@ onEvent('recipes', (event) => {
                     "item": "minecraft:stone_slab"
                 },
                 "L": {
-                    "item": "minecraft:gun_powder"
+                    "item": "minecraft:gunpowder"
                 },
                 "C": {
                     "item": "minecraft:iron_block"
