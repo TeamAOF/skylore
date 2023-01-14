@@ -1,13 +1,6 @@
 onEvent('recipes', (event) => {
 
 	const idRemove = [
-		"createsifter:sifting/gravel_brass_mesh",
-		"createsifter:sifting/gravel_andesite_mesh",
-		"createsifter:sifting/gravel_zinc_mesh",
-		"createsifter:sifting/sand_string_mesh",
-		"createsifter:sifting/sand_zinc_mesh",
-		"createsifter:sifting/sand_andesite_mesh",
-		"createsifter:sifting/sand_brass_mesh",
 		"twilightforest:uncrafting_table",
 		'minecraft:netherite_pickaxe',
 		'minecraft:netherite_axe',
@@ -46,11 +39,4 @@ onEvent('recipes', (event) => {
         event.remove({'id': id});
     });
 
-	const typeRemove = [
-		"fabricaeexnihilo:sieve"
-	]
-
-	typeRemove.forEach((id) => {
-        event.remove({'type': id});
-    });
 });
