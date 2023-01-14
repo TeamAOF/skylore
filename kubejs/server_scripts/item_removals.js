@@ -171,8 +171,8 @@ onEvent('recipes', (event) => {
 		"inmis:blazing_backpack",
 		"inmis:withered_backpack",
 		"inmis:endless_backpack",
-		"ad_astra:hammer",
-		"coxinhautilities:grannys_sink"
+		"coxinhautilities:grannys_sink",
+		"twilightforest:uncrafting_table"
     ];
 	
 
