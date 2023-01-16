@@ -1,0 +1,9 @@
+{
+  "max_horizontal_distance": 5000,
+  "min_horizontal_distance": 0,
+  "min_y_height": 100,
+  "max_y_height": 145,
+  "max_y_offset": 8,
+  "cooldownInTicks": 1200,
+  "forceLoadChunks": true
+}
