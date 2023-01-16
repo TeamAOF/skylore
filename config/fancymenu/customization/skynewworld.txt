@@ -1,0 +1,181 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_525
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=50510011%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=50510011%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=3451511%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=345185%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=505185%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=505120%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=345100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=505100%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=3451001%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=3451001%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=345972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=505972%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=5051001%
+  orientation = top-centered
+  x = 5
+  action = movebutton
+  y = 100
+}
+
+customization {
+  identifier = %id=5051001%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=505151%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=345151%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 151
+}
+
+customization {
+  identifier = %id=345151%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+
+customization {
+  identifier = %id=3451851%
+  orientation = top-centered
+  x = -155
+  action = movebutton
+  y = 185
+}
+
+customization {
+  identifier = %id=3451851%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\buttonhover.png
+  backgroundnormal = config\buttonnorm.png
+}
+

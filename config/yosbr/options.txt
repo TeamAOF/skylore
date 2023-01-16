@@ -37,9 +37,9 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["Fabric Mods","minecraft/supporteatinganimation"]
+resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","loadmyresources.hiddenpack","resources/simplehats_hatdl.zip"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:barb.alloffabric.com:25567
 lang:en_us
 soundDevice:
 chatVisibility:0

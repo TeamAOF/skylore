@@ -16,6 +16,17 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1440
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
   keepaspectratio = true
   action = backgroundoptions
 }
@@ -115,23 +126,19 @@ customization {
 }
 
 customization {
-  orientation = top-centered
-  delayappearanceseconds = 3.0
-  path = config/skyloretitlev2.png
-  fadein = true
-  fadeinspeed = 0.5
-  x = -167
+  path = kubejs/assets/skylore/textures/skyloretitlev2.png
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = -68
   width = 338
   action = addtexture
-  actionid = 59a41b9d-75e8-4213-95ec-a7e19e1cf61b1660752651078
-  y = -5
-  delayappearance = true
-  delayappearanceeverytime = false
+  actionid = c233d024-3fcc-4475-934a-9b41178c60c61673902941753
+  y = -111
   height = 100
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -149,16 +156,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\buttonhover.png
-  backgroundnormal = config\buttonnorm.png
-}
-
-customization {
-  identifier = %id=376310%
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -176,7 +174,7 @@ customization {
 }
 
 customization {
-  identifier = %id=400334%
+  identifier = %id=376310%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
@@ -185,7 +183,7 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
