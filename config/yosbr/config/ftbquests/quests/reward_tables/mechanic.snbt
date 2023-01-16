@@ -1,7 +1,0 @@
-{
-	id: "7A8166BF8C4F80E3"
-	order_index: 38
-	title: "mechanic"
-	loot_size: 1
-	rewards: [{ item: "artis:mech_bench" }]
-}

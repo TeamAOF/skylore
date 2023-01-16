@@ -1,0 +1,15 @@
+{
+	id: "781350B20DD7B3A8"
+	order_index: 26
+	title: "doctor 10"
+	loot_size: 10
+	rewards: [{
+		item: {
+			id: "squirtingsyringe:heal_syringe"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

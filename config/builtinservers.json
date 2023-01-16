@@ -1,0 +1,15 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "Skylore EU",
+      "address": "barb.alloffabric.com:25565",
+      "forced": false
+    },
+    {
+      "name": "Skylore NA",
+      "address": "betty.alloffabric.com:25567",
+      "forced": false
+    }
+  ]
+}

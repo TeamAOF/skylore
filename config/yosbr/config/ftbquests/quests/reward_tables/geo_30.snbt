@@ -1,7 +1,0 @@
-{
-	id: "5388A7ABF60CC7C1"
-	order_index: 34
-	title: "geo 30"
-	loot_size: 1
-	rewards: [{ item: "scannable:rare_ores_module" }]
-}

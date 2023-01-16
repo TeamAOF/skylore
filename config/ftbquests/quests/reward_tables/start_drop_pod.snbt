@@ -1,0 +1,7 @@
+{
+	id: "1ECCB651F56F3A6F"
+	order_index: 0
+	title: "Start Drop Pod"
+	loot_size: 1
+	rewards: [{ item: "immortuoscalyx:healthscanner" }]
+}

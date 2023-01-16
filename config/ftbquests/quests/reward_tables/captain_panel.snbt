@@ -1,0 +1,7 @@
+{
+	id: "1583CC32613B71DE"
+	order_index: 5
+	title: "Captain Panel"
+	loot_size: 1
+	rewards: [{ item: "artis:ops_panel" }]
+}

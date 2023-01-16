@@ -1,7 +1,0 @@
-{
-	id: "15A54032241E6E54"
-	order_index: 24
-	title: "navi 30"
-	loot_size: 1
-	rewards: [{ item: "sextant:navigation_kit" }]
-}

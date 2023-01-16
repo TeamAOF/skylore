@@ -1,0 +1,811 @@
+{
+	id: "4EF7438DE6AC207A"
+	group: "38D73AD51340A19B"
+	order_index: 2
+	filename: "doctor"
+	title: "Medical"
+	icon: "kubejs:doctor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -3.0d
+			y: 1.5d
+			width: 6.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "skylore:textures/doctordesc.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "squirtingsyringe:textures/item/syringe.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Medical Officer"
+			icon: "kubejs:doctor"
+			disable_toast: true
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["2866D1559387E68A"]
+			hide: true
+			id: "2E8711EA762548F2"
+			tasks: [{
+				id: "4156E7C803B19A11"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "47AE70EC7C6C4BE7"
+				type: "command"
+				title: "Gain Examination Table Access"
+				icon: "artis:examination_table"
+				command: "/phase grant @p medical"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			subtitle: "Parasite control requires a special syringe."
+			dependencies: ["1B1DAEC4C9783787"]
+			hide: true
+			id: "556AC8A73B938089"
+			tasks: [{
+				id: "7601D0595292CA61"
+				type: "item"
+				item: "immortuoscalyx:syringe"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "6330A30F90BB6496"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			dependencies: ["305035EE1DD3009E"]
+			id: "08CBDE18227CF305"
+			tasks: [{
+				id: "7415C9DB991BEB0E"
+				type: "item"
+				item: "squirtingsyringe:syringe"
+			}]
+			rewards: [{
+				id: "289FE63C8B4EE3D5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6421114608467573967L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			dependencies: ["08CBDE18227CF305"]
+			id: "25275C639A40BF15"
+			tasks: [{
+				id: "69BD2E1F736E61FD"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:heal_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DB6945AA3B24F61"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.5d
+			dependencies: ["08CBDE18227CF305"]
+			id: "0FF9503222807B03"
+			tasks: [{
+				id: "798703BA83E60150"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:ghost_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7325D25DCD6713D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			dependencies: ["08CBDE18227CF305"]
+			id: "41D98416BC32F90F"
+			tasks: [{
+				id: "32A6B1D0B442BF93"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:warrior_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14938142AE70A680"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -4.5d
+			dependencies: ["1CB7EA7AC9C1A6EB"]
+			id: "0630DEC39202BEBA"
+			tasks: [{
+				id: "1DA5477EAFF6F03C"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:mining_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DE58EFA666BDC5F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			dependencies: ["08CBDE18227CF305"]
+			id: "4A44EE1FB539BD5B"
+			tasks: [{
+				id: "177358AEB32D980D"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:mushroom_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1598E9785A48FAA8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["08CBDE18227CF305"]
+			id: "5F9A7B30EF21FB36"
+			tasks: [{
+				id: "289DEFE681B8AC75"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:falling_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "724D785810A19834"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -7.0d
+			dependencies: ["08CBDE18227CF305"]
+			id: "7648385453AEC740"
+			tasks: [{
+				id: "27DBE6ECAD38030B"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:fire_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "761770C8F9EDD812"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			dependencies: ["08CBDE18227CF305"]
+			id: "2D025D6B22DD7939"
+			tasks: [{
+				id: "47E1CDABF6438963"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:luck_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E8E2E73F238FDA0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			dependencies: ["08CBDE18227CF305"]
+			id: "1CB7EA7AC9C1A6EB"
+			tasks: [{
+				id: "185D715DB1ACA611"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:remove_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "290403A03BBE52A9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			dependencies: ["08CBDE18227CF305"]
+			id: "44FE5D3DB5E5EE9E"
+			tasks: [{
+				id: "38AD8CACA3A35530"
+				type: "item"
+				item: {
+					id: "squirtingsyringe:focus_syringe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BDBDFCE4109EEF4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["364981504A6D6623"]
+			id: "51B8ABC48886C04A"
+			tasks: [{
+				id: "7669A430A1E476CB"
+				type: "item"
+				item: "immortuoscalyx:immortuoseggs"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7444D704FE11203D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["364981504A6D6623"]
+			id: "27E63976C343CC4A"
+			tasks: [{
+				id: "7C9D444ED318EC37"
+				type: "item"
+				item: "immortuoscalyx:unstablestrand"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "43C41FD0EE4504AD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["364981504A6D6623"]
+			id: "2A0D3B6FA70246CC"
+			tasks: [{
+				id: "5C371AF3F53B1A29"
+				type: "item"
+				item: "immortuoscalyx:stablizedstrand"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "5678E9B8E1FFE020"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["556AC8A73B938089"]
+			id: "2B6B3FBA804B09DD"
+			tasks: [{
+				id: "3FD80627115E276F"
+				type: "item"
+				item: "immortuoscalyx:antiparasitic"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "198849F55C34DB51"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["2B6B3FBA804B09DD"]
+			id: "364981504A6D6623"
+			tasks: [{
+				id: "461F5FE557FEE301"
+				type: "item"
+				item: "immortuoscalyx:calyxanide"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "69A8BB8803736FAD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["776CFC81987232B8"]
+			id: "4130995FD3610612"
+			tasks: [{
+				id: "4BFA2758C506199B"
+				type: "item"
+				item: "immortuoscalyx:healthscanner"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "3DE9A6BE44598B14"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["2B6B3FBA804B09DD"]
+			id: "776CFC81987232B8"
+			tasks: [{
+				id: "54618F870359F8D7"
+				type: "item"
+				item: "immortuoscalyx:infection_scanner"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "1D7E01E17D20CBF9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "Put your heart next to mine"
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["1602909A2303CD5F"]
+			id: "3E6506CF911F2C91"
+			tasks: [{
+				id: "180E57AFD976C19C"
+				type: "item"
+				item: "chestcavity:heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "264A3933EFF6BCEB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "Like a Surgeon"
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "1602909A2303CD5F"
+			tasks: [{
+				id: "08F89806418ADF76"
+				type: "item"
+				item: {
+					id: "chestcavity:wooden_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "77E1446226B2294F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "Cut for the very first time"
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["1602909A2303CD5F"]
+			id: "7F06BB9156957A18"
+			tasks: [{
+				id: "32FA4736EBCA39D6"
+				type: "item"
+				item: "chestcavity:chest_opener"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "422D33D92B58DCE6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["78C3341B8912A232"]
+			id: "2AFCDCDF26AB18AA"
+			tasks: [{
+				id: "3ABD4ED42CC3139A"
+				type: "item"
+				item: "chestcavity:fireproof_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "452D468719DED5AD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["3E6506CF911F2C91"]
+			id: "78C3341B8912A232"
+			tasks: [{
+				id: "23D4FF7487ABCE1C"
+				type: "item"
+				item: "chestcavity:animal_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "079389F2566E8241"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: ["2AFCDCDF26AB18AA"]
+			id: "64D7661402CDEC45"
+			tasks: [{
+				id: "627E26E2EBA04A8D"
+				type: "item"
+				item: "chestcavity:ender_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4D38A0D60A075B25"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6540879071985987644L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["64D7661402CDEC45"]
+			id: "7EA788BEDF84A0B9"
+			tasks: [{
+				id: "0A3AEBA3ABC73183"
+				type: "item"
+				item: "chestcavity:dragon_heart"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "71B3D6138D8610D7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["2E8711EA762548F2"]
+			id: "305035EE1DD3009E"
+			tasks: [{
+				id: "7FBE39CAED4E18AE"
+				type: "checkmark"
+				title: "Medicinal Enhancements"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["3E6506CF911F2C91"]
+			id: "2CB063E1D04662D7"
+			tasks: [{
+				id: "51E7CC516F887B5C"
+				type: "item"
+				item: "chestcavity:lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "41942C6393090F32"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["2CB063E1D04662D7"]
+			id: "4727163989F41B85"
+			tasks: [{
+				id: "711294E0DB9D0C33"
+				type: "item"
+				item: "chestcavity:animal_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7A96A382B8F57995"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["4727163989F41B85"]
+			id: "3C977EB0BFAE0158"
+			tasks: [{
+				id: "17D3B5A62D422583"
+				type: "item"
+				item: "chestcavity:fireproof_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "4990C8EA8388E3A6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["3C977EB0BFAE0158"]
+			id: "35BC36791EE8BD88"
+			tasks: [{
+				id: "347C85AABAD2EE5B"
+				type: "item"
+				item: "chestcavity:ender_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "6A0D2859F10427C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["35BC36791EE8BD88"]
+			id: "0FDC6A670CEFBC35"
+			tasks: [{
+				id: "6363E63B0C70E77C"
+				type: "item"
+				item: "chestcavity:dragon_lung"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "796C5E23C84DB367"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
+			}]
+		}
+		{
+			title: "Oxygen Research"
+			icon: {
+				id: "ad_astra:oxygen_tank"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["4727163989F41B85"]
+			id: "2F068F2F28266C55"
+			tasks: [{
+				id: "722A5D676C09F765"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "0DCB6301BAF0DC78"
+				type: "command"
+				title: "Oxygen Tank Recipe Unlock"
+				icon: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: { }
+				}
+				command: "/phase grant @p oxygentank"
+				player_command: false
+			}]
+		}
+		{
+			title: "Oxygen Research 2"
+			icon: "ad_astra:oxygen_distributor"
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["3C977EB0BFAE0158"]
+			id: "1BE0DB7FCBD558C2"
+			tasks: [{
+				id: "4FFEF29FB60DE864"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "660C1A286F67142B"
+				type: "item"
+				item: "ad_astra:oxygen_distributor"
+			}]
+		}
+		{
+			title: "Oxygen Research 3"
+			icon: "ad_astra:oxygen_sensor"
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["35BC36791EE8BD88"]
+			id: "3932F5437CE17418"
+			tasks: [{
+				id: "7D615D91A299307B"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "71A063E940A940BB"
+				type: "command"
+				title: "Oxygen Sensor Research"
+				icon: "ad_astra:oxygen_sensor"
+				command: "/phase grant @p oxysensor"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: [
+				"2E8711EA762548F2"
+				"23CB8D088145F296"
+			]
+			id: "1B1DAEC4C9783787"
+			tasks: [{
+				id: "552F094804F98D4F"
+				type: "checkmark"
+				title: "Infection Research"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["1602909A2303CD5F"]
+			id: "675852C7A570343D"
+			tasks: [{
+				id: "4E1730CE2AD6D56F"
+				type: "checkmark"
+				title: "Blending Technology and Medicine"
+			}]
+		}
+		{
+			title: "Golem Surgery"
+			icon: "chestcavity:golem_core"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "This basically makes you invulnerable"
+			dependencies: ["675852C7A570343D"]
+			id: "5CDB1EF1491D6C7A"
+			tasks: [{
+				id: "0F5FA66E7A692CDA"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "487F4B7C27BE7DD4"
+				type: "command"
+				title: "Unlock Golem Surgery"
+				icon: "chestcavity:golem_core"
+				command: "/phase grant @p golem_surgery"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,7 @@
+{
+	id: "01B8EA23D7EA9FCC"
+	order_index: 33
+	title: "geo 20"
+	loot_size: 1
+	rewards: [{ item: "scannable:common_ores_module" }]
+}

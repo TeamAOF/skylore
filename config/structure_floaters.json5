@@ -1,0 +1,29 @@
+{
+	/*  Attempts to remove any nbt piece being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeWorldBottomPieces": true,
+	/*  Attempts to remove any structure being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeStructuresOffIslands": false,
+	/*  Attempts to remove the pillars from nether fortress and desert temples and the likes.
+	    Best for floating island terrain
+	*/
+	"removeStructurePillars": true,
+	/*  Attempts to move structure to a specific height. Only applies if removeWorldBottomStructures is false.
+	*/
+	"snapStructureToHeight": 81,
+	/*  Configured structures to ignore modifying the height of.
+	*/
+	"configuredStructures": "minecraft:stronghold,minecraft:mineshaft_mesa,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument",
+	/*  Raises up the pieces of the configured structure to the snapStructureToHeight without affecting the pieces already or above snapStructureToHeight.
+	    Think villages where each house is separate from each other and can be at different heights.
+	*/
+	"configuredStructuresToRaiseEachPieceSeparately": "minecraft:village_taiga,minecraft:village_savanna,minecraft:village_desert,minecraft:village_plains,minecraft:village_snowy,minecraft:pillager_outpost,graveyard:crypt,stoneholm:underground_village",
+	/*  Overrides the snapStructureToHeight to the specified y value here. State structure name, space, then y value for it. Add comma after y value for next entry.
+	    Example:
+	    "minecraft:village_taiga 50, minecraft:village_desert 70, minecraft:village_snowy 20"
+	*/
+	"yValueOverridePerStructure": "minecraft:village_taiga 81, minecraft:village_desert 81, minecraft:village_snowy 81,  stoneholm:underground_village 10, graveyard:crypt 30, minecraft:mineshaft 30, repurposed_structures:mineshaft_generic 30, bettermineshafts:mineshaft 30"
+}

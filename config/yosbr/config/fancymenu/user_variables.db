@@ -1,6 +1,0 @@
-type = cached_variables
-
-variables {
-  mutebackgroundsounds = false
-}
-

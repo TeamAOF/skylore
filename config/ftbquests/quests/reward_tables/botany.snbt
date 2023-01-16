@@ -1,0 +1,15 @@
+{
+	id: "1286903DEB79AD67"
+	order_index: 21
+	title: "botany 10"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "lootcrates:common_loot_bag"
+			Count: 1b
+			tag: {
+				LootTable: "minecraft:chests/village/village_tannery"
+			}
+		}
+	}]
+}

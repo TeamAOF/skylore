@@ -1,0 +1,13 @@
+{
+	id: "7B71080563F388EB"
+	order_index: 31
+	title: "fancy foods"
+	loot_size: 1
+	rewards: [
+		{ item: "croptopia:burrito" }
+		{ item: "croptopia:crab_legs" }
+		{ item: "croptopia:lemon_chicken" }
+		{ item: "croptopia:treacle_tart" }
+		{ item: "croptopia:sticky_toffee_pudding" }
+	]
+}

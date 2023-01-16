@@ -1,0 +1,1744 @@
+{
+	id: "0EAA560971FA63FB"
+	group: "38D73AD51340A19B"
+	order_index: 5
+	filename: "security_office"
+	title: "Security"
+	icon: "kubejs:security_officer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -6.5d
+		y: -4.0d
+		width: 6.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "skylore:textures/securityofficedesc.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Become Security Officer"
+			icon: "kubejs:security_officer"
+			disable_toast: true
+			x: -1.0d
+			y: 0.5d
+			description: ["You specialize in killing things with any weapon. Prove it."]
+			dependencies: ["2866D1559387E68A"]
+			hide: true
+			id: "3A533982BC1CDF3C"
+			tasks: [{
+				id: "105CC4B1EFDD9AB4"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "605DD7FE1C28A39F"
+				type: "command"
+				title: "Gain Security Panel Access"
+				icon: "artis:security_panel"
+				command: "/phase grant @p security"
+				player_command: false
+			}]
+		}
+		{
+			title: "Iron Advanced Weapon"
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "73153F61D47E7FA3"
+			tasks: [{
+				id: "0585B7C026310C44"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:iron_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_warglaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:iron_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Gold Advanced Weapon"
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["73153F61D47E7FA3"]
+			id: "7EA2551CDDC848DC"
+			tasks: [{
+				id: "5189D8F119ECEA42"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:gold_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_warglaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:gold_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Diamond Advanced Weapon"
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["7EA2551CDDC848DC"]
+			id: "0DA5C6205FA19091"
+			tasks: [{
+				id: "696EF0C741B4F700"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:diamond_warglaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:diamond_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Netherite Advanced Weapon"
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["0DA5C6205FA19091"]
+			id: "7A38C8E57EAEFA7F"
+			tasks: [{
+				id: "50F4117E1921E5A5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:netherite_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_warglaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:netherite_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Runic Advanced Weapon"
+			x: -7.0d
+			y: -1.0d
+			dependencies: ["7A38C8E57EAEFA7F"]
+			id: "05E32A8FB9A0CA6B"
+			tasks: [{
+				id: "0C7D0B29A3C101D5"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:runic_claymore"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_cutlass"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_sai"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_spear"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_glaive"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_katana"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_rapier"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_twinblade"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_longsword"
+								Count: 1b
+								tag: {
+									Damage: 0
+									runic_power: 32
+								}
+							}
+							{
+								id: "simplyswords:runic_chakram"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_greataxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_greathammer"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "simplyswords:runic_scythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "34CBD8D1CEB3850E"
+			tasks: [{
+				id: "27321421115884DE"
+				type: "item"
+				item: {
+					id: "simplyswords:brimstone_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "777A484719BD2759"
+			tasks: [{
+				id: "5213056B616C2D21"
+				type: "item"
+				item: {
+					id: "simplyswords:watcher_claymore"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "659FEFBD0AB024E4"
+			tasks: [{
+				id: "2FE88A125BD29848"
+				type: "item"
+				item: {
+					id: "simplyswords:storms_edge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "3D416D494E8DD275"
+			tasks: [{
+				id: "4CB1A7BE2C92B395"
+				type: "item"
+				item: {
+					id: "simplyswords:stormbringer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "661C0C73B3F6E816"
+			tasks: [{
+				id: "4A4A51D3650F0CB3"
+				type: "item"
+				item: {
+					id: "simplyswords:sword_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "25A1954092060953"
+			tasks: [{
+				id: "3ABEEC8C51F9E6E9"
+				type: "item"
+				item: {
+					id: "simplyswords:bramblethorn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "00E73EC7B856AF45"
+			tasks: [{
+				id: "3C5932621F84A987"
+				type: "item"
+				item: {
+					id: "simplyswords:watching_warglaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "0CB3384D6D60AD93"
+			tasks: [{
+				id: "41EB703B9D68F5F3"
+				type: "item"
+				item: {
+					id: "simplyswords:toxic_longsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "556A63171A2E19C5"
+			tasks: [{
+				id: "59317FD4A1325E2A"
+				type: "item"
+				item: {
+					id: "simplyswords:emberblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "547667A0D1993984"
+			tasks: [{
+				id: "4D9EF04ECC3E04DB"
+				type: "item"
+				item: {
+					id: "simplyswords:hearthflame"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "5D2DE894E60B097E"
+			tasks: [{
+				id: "4A7AF669EE623FB3"
+				type: "item"
+				item: {
+					id: "simplyswords:soulkeeper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "642F24F93D705DA7"
+			tasks: [{
+				id: "1A3736A4AFED1D5F"
+				type: "item"
+				item: {
+					id: "simplyswords:twisted_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "37F31157AC22C21A"
+			tasks: [{
+				id: "39C73FB8FEA856DB"
+				type: "item"
+				item: {
+					id: "simplyswords:soulstealer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "1266C46050F4D911"
+			tasks: [{
+				id: "463FE3BF1786B074"
+				type: "item"
+				item: {
+					id: "simplyswords:soulrender"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "71A1FF506DC41F15"
+			tasks: [{
+				id: "6A081C7E648E057F"
+				type: "item"
+				item: {
+					id: "simplyswords:soulpyre"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "0ABC836F3E209C57"
+			tasks: [{
+				id: "6BA9067BC258F88F"
+				type: "item"
+				item: {
+					id: "simplyswords:frostfall"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "00A4A89019E486D5"
+			tasks: [{
+				id: "5FB2BDD1C3F5681C"
+				type: "item"
+				item: {
+					id: "simplyswords:molten_edge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 5.0d
+			dependencies: ["6FB7BAA342A7C916"]
+			id: "4CA5854CBF1023C1"
+			tasks: [{
+				id: "660B53B9AF511457"
+				type: "item"
+				item: {
+					id: "simplyswords:mjolnir"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "6FB7BAA342A7C916"
+			tasks: [{
+				id: "0BF5AECBDC601E55"
+				type: "checkmark"
+				title: "Legendary Weapons"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["7D251D3E72DD18DA"]
+			id: "61DE2BC51A6E40A6"
+			tasks: [{
+				id: "05FE10C33EE839C7"
+				type: "item"
+				item: "hwg:gun_table"
+			}]
+			rewards: [
+				{
+					id: "70EA8D39EA9E5718"
+					type: "command"
+					command: "/phase grant @p level1gun"
+					player_command: false
+				}
+				{
+					id: "6C678809EA0FD61E"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 15
+				}
+				{
+					id: "37B3C4AD5D3506E3"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "hwg:hwgbook"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			dependencies: ["72F001D615108D52"]
+			id: "2F8AA699EA8DF17F"
+			tasks: [{
+				id: "3F0E0B7C1812D2A0"
+				type: "item"
+				item: {
+					id: "hwg:pistol"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["2F8AA699EA8DF17F"]
+			id: "080EC3E36A0F0F9A"
+			tasks: [{
+				id: "796F3447B9F3A9A3"
+				type: "item"
+				item: {
+					id: "hwg:luger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["080EC3E36A0F0F9A"]
+			id: "6ABFD6786FFF1F47"
+			tasks: [{
+				id: "36283658E7CCAA57"
+				type: "item"
+				item: {
+					id: "hwg:spistol"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["61DE2BC51A6E40A6"]
+			id: "72F001D615108D52"
+			tasks: [{
+				id: "6E5EF21B59D8D17F"
+				type: "item"
+				item: {
+					id: "hwg:flare_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			dependencies: ["130B4BEC6B841542"]
+			id: "34A4C3127160C8A0"
+			tasks: [{
+				id: "3A346BBF740E98B2"
+				type: "item"
+				item: "hwg:ak47"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 6.5d
+			dependencies: ["130B4BEC6B841542"]
+			id: "68E85917BED00CDE"
+			tasks: [{
+				id: "37C7B12A614548C0"
+				type: "item"
+				item: "hwg:smg"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["6ABFD6786FFF1F47"]
+			id: "1A9CB4C40D530F98"
+			tasks: [{
+				id: "78E161F6EC865D09"
+				type: "item"
+				item: {
+					id: "hwg:shotgun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			dependencies: ["53776A6BABA24278"]
+			id: "130B4BEC6B841542"
+			tasks: [{
+				id: "14B08DBD089206D8"
+				type: "item"
+				item: "hwg:tommy_gun"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			dependencies: ["130B4BEC6B841542"]
+			id: "4FC1C96B63464D87"
+			tasks: [{
+				id: "28554BCCF4114C62"
+				type: "item"
+				item: {
+					id: "hwg:sniper_rifle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.5d
+			dependencies: ["6AF446CC8C449D37"]
+			id: "2F73167A8F7BF468"
+			tasks: [{
+				id: "41B6ECE0A0FDB9AF"
+				type: "item"
+				item: {
+					id: "hwg:grenade_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.5d
+			dependencies: ["619049378E6DA657"]
+			id: "6AF446CC8C449D37"
+			tasks: [{
+				id: "03853B6F4D7D3277"
+				type: "item"
+				item: {
+					id: "hwg:rocketlauncher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 9.5d
+			dependencies: ["6AF446CC8C449D37"]
+			id: "7592FFF369B5A9A4"
+			tasks: [{
+				id: "56EA062751C782AB"
+				type: "item"
+				item: {
+					id: "hwg:flamethrower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.5d
+			dependencies: ["6AF446CC8C449D37"]
+			id: "6E75E62B1814FE05"
+			tasks: [{
+				id: "6B501E229E8CA37C"
+				type: "item"
+				item: {
+					id: "hwg:minigun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 12.5d
+			dependencies: ["1E322607376B3DCE"]
+			id: "79D692AC9D98A073"
+			tasks: [{
+				id: "254E273020D8B35A"
+				type: "item"
+				item: {
+					id: "hwg:balrog_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 11.5d
+			dependencies: ["6E75E62B1814FE05"]
+			id: "1E322607376B3DCE"
+			tasks: [{
+				id: "45A1AA1B4830836D"
+				type: "item"
+				item: {
+					id: "hwg:brimstone_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Prepare to Ramp up security"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "Atmos is scary, you may need to upgrade security"
+			description: ["WARNING: Atmos will react to this, Creepers will start to spawn"]
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "7D251D3E72DD18DA"
+			tasks: [
+				{
+					id: "044589798D7C1A07"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 64L
+				}
+				{
+					id: "3BD9A3FFF49DD95D"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 64L
+				}
+				{
+					id: "3CBD8EB582C30F16"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "3297DA7A0433CD05"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 20
+				}
+				{
+					id: "28415A4BBB6870A3"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p guntable"
+					player_command: false
+				}
+				{
+					id: "5D0CC9DE006E3743"
+					type: "command"
+					auto: "no_toast"
+					command: "/phase grant @p creeper"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Load up"
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["6ABFD6786FFF1F47"]
+			id: "53776A6BABA24278"
+			tasks: [
+				{
+					id: "219176E7FA833683"
+					type: "item"
+					item: "hwg:bullets"
+					count: 64L
+				}
+				{
+					id: "45190CA4F041753F"
+					type: "item"
+					item: "hwg:shotgun_shell"
+					count: 64L
+				}
+				{
+					id: "4CD9E93D09DA8970"
+					type: "item"
+					title: "Flares"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "hwg:brown_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:pink_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:lime_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:black_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:gray_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:cyan_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:blue_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:red_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:green_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:white_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:orange_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:purple_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:yellow_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:magenta_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:lightblue_flare"
+									Count: 1b
+								}
+								{
+									id: "hwg:lightgray_flare"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "5785927569EF7A96"
+					type: "item"
+					item: "create:experience_nugget"
+					count: 50
+				}
+				{
+					id: "177E20E794C96F30"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p level2gun"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Go Doom Guy on This Planet"
+			x: 9.5d
+			y: 9.5d
+			dependencies: ["4FC1C96B63464D87"]
+			id: "619049378E6DA657"
+			tasks: [
+				{
+					id: "0FC530A72C4E269A"
+					type: "item"
+					item: "hwg:sniper_round"
+					count: 64L
+				}
+				{
+					id: "6ECDE1182DC89DBB"
+					type: "kill"
+					title: "Kill 100 Zombies"
+					icon: "minecraft:zombie_head"
+					entity: "minecraft:zombie"
+					value: 100L
+				}
+				{
+					id: "5E8D13B8BF20277F"
+					type: "kill"
+					title: "Kill 100 Creepers"
+					icon: "minecraft:creeper_head"
+					entity: "minecraft:creeper"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "6E3E7D39EF9CB1F0"
+					type: "item"
+					item: "minecraft:creeper_head"
+				}
+				{
+					id: "3A3F1097388583A2"
+					type: "item"
+					item: "minecraft:zombie_head"
+				}
+				{
+					id: "1BD150C7C01972E1"
+					type: "command"
+					auto: "invisible"
+					command: "/phase grant @p level3gun"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: [
+				"2F8AA699EA8DF17F"
+				"619049378E6DA657"
+			]
+			hide: true
+			id: "2E5544E06864B4A2"
+			tasks: [{
+				id: "506925551A2263EC"
+				type: "item"
+				item: {
+					id: "hwg:golden_gun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: [
+				"080EC3E36A0F0F9A"
+				"619049378E6DA657"
+			]
+			hide: true
+			id: "5DF8923F39545C16"
+			tasks: [{
+				id: "2AE895C95518F35F"
+				type: "item"
+				item: {
+					id: "hwg:meanie_gun_1"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.5d
+			dependencies: [
+				"5DF8923F39545C16"
+				"619049378E6DA657"
+			]
+			hide: true
+			id: "1ABCCA26D42DDB24"
+			tasks: [{
+				id: "57D7FC84A4A1A0A7"
+				type: "item"
+				item: {
+					id: "hwg:meanie_gun_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: [
+				"72F001D615108D52"
+				"619049378E6DA657"
+			]
+			hide: true
+			id: "4ABB7EEB3FB89F29"
+			tasks: [{
+				id: "4793B8DCF5444056"
+				type: "item"
+				item: {
+					id: "hwg:hellhorse_revolver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "World Scanner"
+			icon: {
+				id: "scannable:scanner"
+				Count: 1b
+				tag: {
+					energy: 5000L
+				}
+			}
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "6C70AE35CA4F4D3E"
+			tasks: [{
+				id: "26648C0A41E5C4E5"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "086ED8EB55E211AE"
+				type: "command"
+				title: "Unlock Scanner Research"
+				icon: "scannable:scanner"
+				command: "/phase grant @p scanner"
+				player_command: false
+			}]
+		}
+		{
+			title: "Blank Scanner Module Research"
+			icon: "scannable:blank_module"
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["6C70AE35CA4F4D3E"]
+			id: "26241C2D6F3A0267"
+			tasks: [{
+				id: "59F5A54A06D0FC5D"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "1420D53D2543B546"
+				type: "command"
+				title: "Unlock Blank Scanner Module"
+				icon: "scannable:blank_module"
+				command: "/phase grant @p blank_module"
+				player_command: false
+			}]
+		}
+		{
+			title: "Animal Module Research"
+			icon: "scannable:friendly_entity_module"
+			x: 3.0d
+			y: -4.0d
+			dependencies: ["38A13C114155CFEB"]
+			id: "00C92BE41ACA27F8"
+			tasks: [{
+				id: "4809C8ADC54E91FD"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "720846313E1E3376"
+				type: "command"
+				title: "Unlock Animal Scanner"
+				icon: "scannable:friendly_entity_module"
+				command: "/phase grant @p friendly"
+				player_command: false
+			}]
+		}
+		{
+			title: "Monster Module Research"
+			icon: "scannable:hostile_entity_module"
+			x: 4.0d
+			y: -5.0d
+			dependencies: ["00C92BE41ACA27F8"]
+			id: "726D1FC3A2118C81"
+			tasks: [{
+				id: "15563C2E561916D0"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "7CBC7B46D22EBDDF"
+				type: "command"
+				title: "Monster Scanner Unlock"
+				icon: "scannable:hostile_entity_module"
+				command: "/phase grant @p hostile"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fluid Module Research"
+			icon: "scannable:fluid_module"
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["26241C2D6F3A0267"]
+			id: "38A13C114155CFEB"
+			tasks: [{
+				id: "52E902D4766F1F0B"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5DBBC14FFDAF7876"
+				type: "command"
+				title: "Fluid Module Unlock"
+				icon: "scannable:fluid_module"
+				command: "/phase grant @p fluid"
+				player_command: false
+			}]
+		}
+		{
+			title: "Entity Module Research"
+			icon: "scannable:entity_module"
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["726D1FC3A2118C81"]
+			id: "39F8690739BB138C"
+			tasks: [{
+				id: "23F93A6CB1FF6DCA"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "509EBA6C41F85471"
+				type: "command"
+				title: "Unlock Entity Module"
+				icon: "scannable:entity_module"
+				command: "/phase grant @p entity"
+				player_command: false
+			}]
+		}
+		{
+			title: "Block Module Research"
+			icon: "scannable:block_module"
+			x: 8.0d
+			y: -9.0d
+			dependencies: ["26EBD331445BE1A1"]
+			id: "4C1E739510B4AAEB"
+			tasks: [{
+				id: "34DA89B743FEE409"
+				type: "xp"
+				value: 25L
+				points: false
+			}]
+			rewards: [{
+				id: "04B35105CD13D149"
+				type: "command"
+				title: "Block Module Unlock"
+				icon: "scannable:block_module"
+				command: "/phase grant @p block"
+				player_command: false
+			}]
+		}
+		{
+			title: "Rare Ore Module Research"
+			icon: "scannable:rare_ores_module"
+			x: 7.0d
+			y: -8.0d
+			dependencies: ["458182586F313392"]
+			id: "26EBD331445BE1A1"
+			tasks: [{
+				id: "186686FF571F520A"
+				type: "xp"
+				value: 25L
+				points: false
+			}]
+			rewards: [{
+				id: "6B8A7EBE88A89762"
+				type: "command"
+				title: "Rare Ore Module Unlock"
+				icon: "scannable:rare_ores_module"
+				command: "/phase grant @p rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "Common Ore Module Research"
+			icon: "scannable:common_ores_module"
+			x: 6.0d
+			y: -7.0d
+			dependencies: ["39F8690739BB138C"]
+			id: "458182586F313392"
+			tasks: [{
+				id: "79AE1FD15B37B22C"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "102B374743BBC7BC"
+				type: "command"
+				title: "Unlock Common Ore Module"
+				icon: "scannable:common_ores_module"
+				command: "/phase grant @p common"
+				player_command: false
+			}]
+		}
+		{
+			title: "Range Module Unlock"
+			icon: "scannable:range_module"
+			x: 9.0d
+			y: -10.0d
+			dependencies: ["4C1E739510B4AAEB"]
+			id: "639E3D98DB346AA7"
+			tasks: [{
+				id: "42E9125C423A01DD"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "0965E06FDC2EB026"
+				type: "command"
+				title: "Range Module Unlock"
+				icon: "scannable:range_module"
+				command: "/phase grant @p range"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

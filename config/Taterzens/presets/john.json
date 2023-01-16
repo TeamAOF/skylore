@@ -1,0 +1,121 @@
+{
+  "Brain": {
+    "memories": {}
+  },
+  "HurtByTimestamp": 0,
+  "Attributes": [
+    {
+      "Base": 0.2505,
+      "Name": "minecraft:generic.movement_speed"
+    },
+    {
+      "Base": 0.0,
+      "Name": "stepheightentityattribute:stepheight"
+    }
+  ],
+  "Invulnerable": 1,
+  "FallFlying": 0,
+  "cardinal_components": {
+    "bewitchment:minion": {
+      "MasterUUID": ""
+    },
+    "bewitchment:curses": {
+      "Curses": []
+    },
+    "bewitchment:fake_mob": {
+      "TargetUUID": ""
+    },
+    "apoli:powers": {
+      "Powers": []
+    },
+    "bewitchment:additional_water_data": {
+      "WetTimer": 0,
+      "Submerged": 0
+    },
+    "immortuoscalyx:infection": {
+      "infectionProgression": 0,
+      "infectionResistance": 1.0,
+      "infectionFollower": 0,
+      "infectionTimer": 0
+    },
+    "bewitchment:blood": {
+      "Blood": 100
+    },
+    "bewitchment:familiar": {
+      "Familiar": 0
+    }
+  },
+  "PortalCooldown": 0,
+  "AbsorptionAmount": 0.0,
+  "FallDistance": 0.0,
+  "cpaCooldown": 0,
+  "TaterzenNPCTag": {
+    "Messages": [],
+    "Behaviour": "FRIENDLY",
+    "BungeeCommands": [],
+    "BodyRotations": {
+      "XRot": 0.0,
+      "YRot": 158.80057
+    },
+    "skin": {
+      "signature": "BUwvwylZHwkUmcOZvovRi3NyHxSTvPwaHQolq356ROr7aIpn20xHfemf3Fdvf28wJoFXpCTkGyH0VUxGerhSYzV7kEaxg8XsozeVxLYm/oK9imH1/pFjJ3vmliISnfJ60v9CVTj20RRY+bIRJASSLzFLIri2iTUs5RFMhwIakM9JiuOyA+4Qwbd3mvKwf22XvUSuY7bQ4LiPWx9zBPTE54vt7GNhlR2vNVftf10Tk3Qk7fIHhji/yOsWLf7AHItedAHLYpUYWWI6VpypKb0Y7IfKg75EdfDKyKznIVr+9oBWbtyO/tS953u4sJMATnLuGhioen3KhmhNsWOg3+AUhiPd4ON0DbAdgLAnayvZZ6AKAGoPhr9Sbq2iMOMkprCdvaN2eHjUxsxw8Pbw4SWOCawW953cJPUl4JeiPFEOAFJ4RORERIQ07E0Vvp7iA3Mx+gTkRty73shamwGDmx0eJQjHxBPoDUhw6axhW0n/KOoh98LuEmymhTDhFGTpEPPAZtE9riWU7gJb6+XT+ByM0WJBeyezZdhNmyjledVufQ8LGnogJQj+xOxDnWLRrsfsnNRn0KVZ1nZFES4tXuAfdObcFUHgHj5XnG/0IwpV6DGzB+U1YNKSNUFRevJTnDI2rzSeL1byakz8riKADCHPZijObk0N66WcX8m1QMqGMAg=",
+      "value": "ewogICJ0aW1lc3RhbXAiIDogMTY0MjcwNTQ0NjgyOCwKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM1MDY4NjEzZDQ2OTc5MWExNjM1ODE5ODYxMDAwNDMyZTcwMDc3NWYyZDllNmFmOGVjMGQzNjRhZGQ4NGRlNmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+    },
+    "PermissionLevel": 4,
+    "SkinLayers": 127,
+    "PathTargets": [],
+    "LockedBy": [
+      -1919351212,
+      -2022617598,
+      -1956550823,
+      1028873063
+    ],
+    "Follow": {
+      "Type": "NONE"
+    },
+    "AllowFlight": 0,
+    "Pose": "STANDING",
+    "Commands": [],
+    "movement": "FREE",
+    "Tags": {
+      "SneakNameType": 0,
+      "AllowFlight": 0,
+      "AllowSounds": 0,
+      "AllowRiding": 0,
+      "JumpAttack": 1,
+      "DropsAllowed": 0,
+      "Leashable": 0,
+      "Pushable": 0
+    },
+    "Professions": []
+  },
+  "DeathTime": 0,
+  "PersistenceRequired": 1,
+  "BalmData": {},
+  "BMLootBlock": 0,
+  "cpadidTP": 0,
+  "Health": 20.0,
+  "KubeJSPersistentData": {},
+  "LeftHanded": 0,
+  "Air": 300,
+  "OnGround": 0,
+  "HandItems": [
+    {},
+    {}
+  ],
+  "CustomName": "{\"text\":\"John the woken\"}",
+  "Fire": -1,
+  "ArmorItems": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "arcanus": {
+    "IsDiscombobulated": 0,
+    "DiscombobulatedTimer": 0
+  },
+  "CanPickUpLoot": 1,
+  "HurtTime": 0,
+  "CustomNameVisible": 1
+}
