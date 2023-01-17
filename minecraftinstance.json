@@ -14,8 +14,8 @@
     },
     "isUnlocked": true,
     "javaArgsOverride": null,
-    "lastPlayed": "2023-01-17T02:10:12.0019074Z",
-    "playedCount": 26,
+    "lastPlayed": "2023-01-17T02:25:05.6936687Z",
+    "playedCount": 27,
     "manifest": null,
     "fileDate": "0001-01-01T00:00:00",
     "installedModpack": null,
@@ -33,8 +33,8 @@
     "name": "AOF : Skylore",
     "cachedScans": [],
     "isValid": true,
-    "lastPreviousMatchUpdate": "2023-01-17T01:56:34.5090761Z",
-    "lastRefreshAttempt": "2023-01-16T21:10:55.1418185-05:00",
+    "lastPreviousMatchUpdate": "2023-01-17T02:41:42.3067282Z",
+    "lastRefreshAttempt": "2023-01-16T21:41:46.1992-05:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
     "gameVersionFlavor": null,
@@ -976,8 +976,8 @@
                     }
                 ]
             },
-            "dateInstalled": "2023-01-17T02:10:32.4790953Z",
-            "dateUpdated": "2023-01-17T02:10:32.4790953Z",
+            "dateInstalled": "2023-01-17T02:42:06.4456947Z",
+            "dateUpdated": "2023-01-17T02:42:06.4456947Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 4,
             "installSource": 0,
@@ -1897,8 +1897,8 @@
                     }
                 ]
             },
-            "dateInstalled": "2023-01-17T02:10:32.5175094Z",
-            "dateUpdated": "2023-01-17T02:10:32.5175094Z",
+            "dateInstalled": "2023-01-17T02:42:06.4811567Z",
+            "dateUpdated": "2023-01-17T02:42:06.4811567Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 4,
             "installSource": 0,
@@ -4145,8 +4145,8 @@
                     }
                 ]
             },
-            "dateInstalled": "2023-01-17T02:10:32.4970501Z",
-            "dateUpdated": "2023-01-17T02:10:32.4970501Z",
+            "dateInstalled": "2023-01-17T02:42:06.4611663Z",
+            "dateUpdated": "2023-01-17T02:42:06.4611663Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 4,
             "installSource": 0,
@@ -26831,8 +26831,8 @@
                     }
                 ]
             },
-            "dateInstalled": "2023-01-17T02:10:32.5045441Z",
-            "dateUpdated": "2023-01-17T02:10:32.5045441Z",
+            "dateInstalled": "2023-01-17T02:42:06.4676828Z",
+            "dateUpdated": "2023-01-17T02:42:06.4676828Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
             "status": 4,
             "installSource": 0,
@@ -47220,7 +47220,7 @@
             "preferenceAutoInstallUpdates": false,
             "preferenceAlternateFile": false,
             "preferenceIsIgnored": false,
-            "isModified": false,
+            "isModified": true,
             "isWorkingCopy": false,
             "isFuzzyMatch": false,
             "manifestName": null,
