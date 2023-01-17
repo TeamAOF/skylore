@@ -181,15 +181,6 @@ onEvent('gamephases.initialize', event => {
         .item('ad_astra:oxygen_sensor')
 });
 
-// Medical Gating
-onEvent('gamephases.initialize', event => {
-    event.phase('golem_surgery')
-        .item('chestcavity:golem_core')
-        .item('chestcavity:golem_plating')
-        .item('chestcavity:inner_furnace')
-        .item('chestcavity:golem_cable')
-        .item('chestcavity:piston_muscle')
-});
 
 
 // inmis backpacks
@@ -253,6 +244,67 @@ onEvent('gamephases.initialize', event => {
 	 .entity('immortuoscalyx:infectedvillager')
 	 .entity('immortuoscalyx:infectedig')
 	 .entity('immortuoscalyx:infectedplayer')
+});
+
+//Drawers
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_book')
+		.item('extended_drawers:guide_book')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_drawer')
+		.item('extended_drawers:single_drawer')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_ddrawer')
+		.item('extended_drawers:double_drawer')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_qdrawer')
+		.item('extended_drawers:quad_drawer')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_controller')
+		.item('extended_drawers:controller')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('ed_connector')
+		.item('extended_drawers:connector')
+});
+
+//Engineering
+
+onEvent('gamephases.initialize', event => {
+    event.phase('indrev_solargen')
+		.item('indrev:solar_generator_mk1')
+});
+
+
+//Science
+onEvent('gamephases.initialize', event => {
+    event.phase('indrev_solargen')
+		.item('indrev:solar_generator_mk1')
+});
+
+// Medical Gating
+onEvent('gamephases.initialize', event => {
+    event.phase('golem_surgery')
+        .item('chestcavity:golem_core')
+        .item('chestcavity:golem_plating')
+        .item('chestcavity:inner_furnace')
+        .item('chestcavity:golem_cable')
+        .item('chestcavity:piston_muscle')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('syringe')
+		.item('squirtingsyringe:syringe')
 });
 
 //Blocks -------------------------------------------------
