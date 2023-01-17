@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'Team Aof Presents Skylore';
+S:customwindowtitle = 'Team AOF Presents Skylore';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'false';
 
