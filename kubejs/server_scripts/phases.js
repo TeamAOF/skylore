@@ -408,6 +408,14 @@ onEvent('gamephases.initialize', event => {
 		.item('extractinator:extractinator')
 });
 
+//Big Torch
+
+onEvent('gamephases.initialize', event => {
+    event.phase('big_torch')
+		.item('kibe:big_torch')
+});
+
+
 //Blocks -------------------------------------------------
 
 onEvent('gamephases.initialize', event => {
