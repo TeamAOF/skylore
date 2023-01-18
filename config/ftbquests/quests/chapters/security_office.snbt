@@ -1739,6 +1739,77 @@
 				player_command: false
 			}]
 		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["3A533982BC1CDF3C"]
+			id: "16A7947C49409E43"
+			tasks: [{
+				id: "036F6EFCE58685B2"
+				type: "kill"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 20L
+			}]
+		}
+		{
+			icon: "minecraft:skeleton_skull"
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["16A7947C49409E43"]
+			id: "7D16911586FA6694"
+			tasks: [{
+				id: "6CEF4CFD196DB96A"
+				type: "kill"
+				entity: "minecraft:skeleton"
+				value: 20L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["7D16911586FA6694"]
+			id: "075A7FADEDF4247D"
+			tasks: [{
+				id: "1A4CF973D4A3579B"
+				type: "kill"
+				entity: "immortuoscalyx:infectedvillager"
+				value: 5L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["075A7FADEDF4247D"]
+			id: "133911E85DC5B993"
+			tasks: [{
+				id: "422023FBAD362AE2"
+				type: "kill"
+				entity: "immortuoscalyx:infectedig"
+				value: 1L
+			}]
+		}
+		{
+			title: "Big Torch Research"
+			icon: "kibe:big_torch"
+			x: -4.0d
+			y: 7.5d
+			dependencies: ["133911E85DC5B993"]
+			id: "448D1D0049B61F90"
+			tasks: [{
+				id: "1D5D9837932DB5AD"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "4CBE0D5716546DEB"
+				type: "command"
+				icon: "kibe:big_torch"
+				command: "/phase grant @p big_torch"
+				player_command: false
+			}]
+		}
 	]
 	quest_links: [ ]
 }
