@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
 
     const id = [
-		'kibe:slime_boots',
+		"kibe:slime_boots",
 		"hwg:gun_table",
 		"inmis:plated_backpack",
 		"inmis:gilded_backpack",
@@ -10,7 +10,9 @@ onEvent('recipes', (event) => {
 		"inmis:withered_backpack",
 		"inmis:endless_backpack",
 		"coxinhautilities:grannys_sink",
-		"twilightforest:uncrafting_table"
+		"twilightforest:uncrafting_table",
+		"doodads:doodad_bundle"
+		
     ];
 	
 
