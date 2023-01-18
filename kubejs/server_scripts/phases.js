@@ -307,6 +307,107 @@ onEvent('gamephases.initialize', event => {
 		.item('squirtingsyringe:syringe')
 });
 
+//Primary Orders
+
+onEvent('gamephases.initialize', event => {
+    event.phase('spore_sword')
+		.item('doodads:spore_sword')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('paintbrush')
+		.item('doodads:paintbrush')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('beaver_teeth')
+		.item('doodads:beaver_teeth')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('bendy_straw')
+		.item('doodads:bendy_straw')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('soggy_glove')
+		.item('doodads:soggy_glove')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('loggers_glove')
+		.item('doodads:loggers_glove')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('sun_ring')
+		.item('doodads:sun_ring')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('moon_ring')
+		.item('doodads:moon_ring')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('celestial_ring')
+		.item('doodads:celestial_ring')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('cactus_ring')
+		.item('doodads:cactus_ring')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('midnights_eye')
+		.item('doodads:midnights_eye')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('glare_plushie')
+		.item('doodads:glare_plushie')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('slimey_shoes')
+		.item('doodads:slimey_shoes')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('shulker_aglet')
+		.item('doodads:shulker_aglet')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('blossom_belt')
+		.item('doodads:blossom_belt')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('duct_tape')
+		.item('doodads:duct_tape')
+});
+
+onEvent('gamephases.initialize', event => {
+    event.phase('magic_plum')
+		.item('doodads:magic_plum')
+});
+
+//Artifacts
+
+onEvent('gamephases.initialize', event => {
+    event.phase('everlasting_beef')
+		.item('artifacts:everlasting_beef')
+});
+
+//Extractinator
+
+onEvent('gamephases.initialize', event => {
+    event.phase('extractinator')
+		.item('extractinator:extractinator')
+});
+
 //Blocks -------------------------------------------------
 
 onEvent('gamephases.initialize', event => {

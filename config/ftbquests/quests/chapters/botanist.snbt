@@ -1043,34 +1043,6 @@
 			}]
 		}
 		{
-			title: "Investigate the silk worm"
-			x: 1.5d
-			y: 2.5d
-			subtitle: "You're probably gonna need this"
-			dependencies: ["46CC82F993D692F1"]
-			id: "0A685101FD7EB730"
-			tasks: [{
-				id: "1CFEAC60CB4AFAAB"
-				type: "item"
-				item: "fabricaeexnihilo:raw_silkworm"
-				count: 50L
-			}]
-			rewards: [{
-				id: "6A4777048EEEA554"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
 			title: "Research Nuclear Power"
 			icon: "modern_industrialization:uranium_ore"
 			x: 6.0d
@@ -1437,23 +1409,6 @@
 		}
 		{
 			x: -8.0d
-			y: -1.5d
-			dependencies: ["08454245DC71BA14"]
-			id: "1C92F179450F9ABB"
-			tasks: [{
-				id: "623F695BAD3BC08B"
-				type: "item"
-				item: "extractinator:extractinator"
-			}]
-			rewards: [{
-				id: "75833AB782FAAF86"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
-			}]
-		}
-		{
-			x: -8.0d
 			y: -0.5d
 			dependencies: ["08454245DC71BA14"]
 			id: "511CEBBEAA8C03F4"
@@ -1565,6 +1520,27 @@
 				type: "item"
 				item: "create:experience_nugget"
 				count: 3
+			}]
+		}
+		{
+			title: "Extractinator Usage"
+			icon: "extractinator:extractinator"
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["433E3A027B98170A"]
+			id: "5E8499FD719B6A35"
+			tasks: [{
+				id: "1B275AAA6DF515C5"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "2C5676C03B2660AF"
+				type: "command"
+				icon: "extractinator:extractinator"
+				command: "/phase grant @p extractinator"
+				player_command: false
 			}]
 		}
 	]

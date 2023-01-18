@@ -394,6 +394,12 @@
 				"19DD171BEC1B4596"
 			]
 			id: "016271CE91A69F28"
+			tasks: [{
+				id: "78602F796AA9C304"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
 			rewards: [
 				{
 					id: "1853D22D043A16E5"
@@ -582,6 +588,150 @@
 				title: "Endless Backpack Recipe Unlock"
 				icon: "inmis:endless_backpack"
 				command: "/phase grant @p endless_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Extended Drawers Guide"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "extended_drawers:guide"
+				}
+			}
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["7203022EBB0D10CA"]
+			id: "6D392B0EAE79566A"
+			tasks: [{
+				id: "24244511110ADEB1"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5DAC9B53F767E9BA"
+				type: "command"
+				title: "Extended Drawers Guide Recipe"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extended_drawers:guide"
+					}
+				}
+				command: "/phase grant @p ed_book"
+				player_command: false
+			}]
+		}
+		{
+			title: "Drawer Research"
+			icon: "extended_drawers:single_drawer"
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["6D392B0EAE79566A"]
+			id: "5DF28B180C3F8AB6"
+			tasks: [{
+				id: "15EB1E8080C256D0"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "4A9788E1DDAC5327"
+				type: "command"
+				title: "Extended Drawer Research"
+				icon: "extended_drawers:single_drawer"
+				command: "/phase grant @p ed_drawer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Access Point Research"
+			icon: "extended_drawers:controller"
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "7B9EA216B276EA9A"
+			tasks: [{
+				id: "3A03A9E30E3818D8"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "5B59D35A1128E50F"
+				type: "command"
+				title: "Access Point Research"
+				icon: "extended_drawers:controller"
+				command: "/phase grant @p ed_controller"
+				player_command: false
+			}]
+		}
+		{
+			title: "Double Drawer Research"
+			icon: "extended_drawers:double_drawer"
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "73DC89077EABC0B7"
+			tasks: [{
+				id: "2039DE51387D0DB7"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "4B674A27C61B8407"
+				type: "command"
+				title: "Double Drawer Research"
+				icon: "extended_drawers:double_drawer"
+				command: "/phase grant @p ed_ddrawer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Quad Drawer Research"
+			icon: "extended_drawers:quad_drawer"
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["73DC89077EABC0B7"]
+			id: "7ECB704C05BB4A50"
+			tasks: [{
+				id: "0C3F8BCB36C24012"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "53B3C816F1237BE8"
+				type: "command"
+				title: "Quad Drawer Research"
+				icon: "extended_drawers:quad_drawer"
+				command: "/phase grant @p ed_qdrawer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Drawer Connector Research"
+			icon: "extended_drawers:connector"
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "277816B706732D94"
+			tasks: [{
+				id: "094EE48C4A4330B7"
+				type: "xp"
+				value: 3L
+				points: false
+			}]
+			rewards: [{
+				id: "2C3F063D5755458A"
+				type: "command"
+				title: "Drawer Connector Recipe"
+				icon: "extended_drawers:connector"
+				command: "/say Hi, @p!/phase grant @p ed_connector"
 				player_command: false
 			}]
 		}
