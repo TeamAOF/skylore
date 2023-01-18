@@ -26,10 +26,9 @@
 			dependencies: ["186CB0917B42C66D"]
 			id: "1B2650377A0E5FF5"
 			tasks: [{
-				id: "33817A1CAB7A6AD0"
+				id: "307808BB525B1883"
 				type: "item"
 				item: "logicates:logicate_fabricator"
-				only_from_crafting: false
 			}]
 			rewards: [{
 				id: "4ACEF1CAF5605058"
@@ -84,390 +83,6 @@
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 6421114608467573967L
-			}]
-		}
-		{
-			title: "Start the automation"
-			x: 5.5d
-			y: 11.0d
-			subtitle: "Is this skyblock?"
-			description: [
-				"You need to gather materials from the island, there are a few ore varians in the stone from your observations. make sure to grab a few."
-				""
-				"It seems like a cobblestone generator is a great start. You know as you heard of the new sifting technology by the creators of create. You had the lucky chance to see the new blueprints for it just before your journey."
-				""
-				"From what you observed after searching the island you saw water and lava, but there wasnt much lava left from the crash, you will have to get it from the exNihilo starter technology you learned long ago."
-			]
-			dependencies: ["2AF8DDB5106ADAC3"]
-			id: "5D22CAA6D81CEB01"
-			tasks: [{
-				id: "42BA17EA29A29DBC"
-				type: "item"
-				title: "Make a Cobblegen"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "kibe:cobblestone_generator_mk5"
-								Count: 1b
-							}
-							{
-								id: "kibe:cobblestone_generator_mk4"
-								Count: 1b
-							}
-							{
-								id: "kibe:cobblestone_generator_mk3"
-								Count: 1b
-							}
-							{
-								id: "kibe:cobblestone_generator_mk2"
-								Count: 1b
-							}
-							{
-								id: "kibe:cobblestone_generator_mk1"
-								Count: 1b
-							}
-						]
-					}
-				}
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "3A9B23266AD5FB16"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			title: "Sifter materials"
-			x: 5.5d
-			y: 12.0d
-			subtitle: "The sifter cant process cobblestone."
-			description: [
-				"You need to first mill the cobblestone into something more fine. The sifter will be able to extract materials from gravel."
-				""
-				"The press will create crushed varians of some stone variats that are needed for getting materials from."
-			]
-			dependencies: ["5D22CAA6D81CEB01"]
-			id: "33E3FA607A0F2D0B"
-			tasks: [
-				{
-					id: "43DF736CECF8AB1F"
-					type: "item"
-					item: "create:millstone"
-					only_from_crafting: false
-				}
-				{
-					id: "589D140890F37077"
-					type: "item"
-					item: "create:mechanical_press"
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "6333D7BEE3CA7CA5"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			title: "Auto sifting time"
-			x: 5.5d
-			y: 13.0d
-			subtitle: "The better age of sifting."
-			description: ["You can use this item for sifting various crushed stones. This will allow you to automate select resources."]
-			dependencies: ["33E3FA607A0F2D0B"]
-			id: "68751941C2C6B5CF"
-			tasks: [
-				{
-					id: "745F9A01112DC905"
-					type: "item"
-					item: "createsifter:sifter"
-					only_from_crafting: false
-				}
-				{
-					id: "7EB97FC13BB4A199"
-					type: "item"
-					item: "createsifter:string_mesh"
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "7043BEB06FFBF64D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3534262378248187539L
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_granite"
-			x: 2.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "129B3575B106FD1E"
-			tasks: [
-				{
-					id: "005F6428CE3F4717"
-					type: "item"
-					item: "modern_industrialization:tin_tiny_dust"
-					count: 50L
-				}
-				{
-					id: "42AD72EB01161A80"
-					type: "item"
-					item: "modern_industrialization:annealed_copper_tiny_dust"
-					count: 50L
-				}
-			]
-			rewards: [{
-				id: "29E66FBD4336F315"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "kubejs:crushed_deepslate"
-			x: 3.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "4BE77E59F2770AF9"
-			tasks: [
-				{
-					id: "1E90047CEF8953F5"
-					type: "item"
-					item: "modern_industrialization:diamond_tiny_dust"
-					count: 5L
-					only_from_crafting: false
-				}
-				{
-					id: "247F045835E23D56"
-					type: "item"
-					item: "modern_industrialization:emerald_tiny_dust"
-					count: 15L
-					only_from_crafting: false
-				}
-				{
-					id: "1E42C664BA4C31B4"
-					type: "item"
-					item: "modern_industrialization:lapis_tiny_dust"
-					count: 25L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "752C914ACBAD2C01"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_andesite"
-			x: 4.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "19A63757A1E1A88F"
-			tasks: [
-				{
-					id: "15E4DF1922278D2A"
-					type: "item"
-					item: "fabricaeexnihilo:tuff_pebble"
-					count: 75L
-					only_from_crafting: false
-				}
-				{
-					id: "0B59E42860D0B3F3"
-					type: "item"
-					item: "fabricaeexnihilo:deepslate_pebble"
-					count: 25L
-					only_from_crafting: false
-				}
-				{
-					id: "5F8A5D681D777EC3"
-					type: "item"
-					item: "fabricaeexnihilo:calcite_pebble"
-					count: 10L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "2E3E6CCCD8899967"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:crushed_diorite"
-			x: 5.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "7912C47CB0EA6CB4"
-			tasks: [
-				{
-					id: "1E62D4417CEB6510"
-					type: "item"
-					item: "modern_industrialization:bauxite_tiny_dust"
-					count: 35L
-					only_from_crafting: false
-				}
-				{
-					id: "1A03B1AA506F1891"
-					type: "item"
-					item: "modern_industrialization:nickel_tiny_dust"
-					count: 25L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "1CD61173AECEA387"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "minecraft:gravel"
-			x: 6.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "3CAC67E1AF24B372"
-			tasks: [
-				{
-					id: "41C31334B1739CB7"
-					type: "item"
-					item: "modern_industrialization:iron_tiny_dust"
-					count: 50L
-					only_from_crafting: false
-				}
-				{
-					id: "13CC957183759F1A"
-					type: "item"
-					item: "modern_industrialization:coal_tiny_dust"
-					count: 40L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "258231742D21257C"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "minecraft:red_sand"
-			x: 7.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "1CC9383005F7813F"
-			tasks: [
-				{
-					id: "536108B6B26451ED"
-					type: "item"
-					item: "modern_industrialization:lead_tiny_dust"
-					count: 30L
-					only_from_crafting: false
-				}
-				{
-					id: "451563D53F0BAB4A"
-					type: "item"
-					item: "modern_industrialization:gold_tiny_dust"
-					count: 10L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "18683AC5B88169E9"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			title: "Lead Dust"
-			icon: "minecraft:sand"
-			x: 8.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			id: "2486A49B7A82BD73"
-			tasks: [
-				{
-					id: "0FB8EA8EC772BFFE"
-					type: "item"
-					title: "Any #c:lead_tiny_dusts"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "c:lead_tiny_dusts"
-						}
-					}
-					count: 30L
-					only_from_crafting: false
-				}
-				{
-					id: "14E699BD58DB182D"
-					type: "item"
-					item: "modern_industrialization:redstone_tiny_dust"
-					count: 50L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "16C5E94E157BDEC2"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			icon: "fabricaeexnihilo:dust"
-			x: 9.0d
-			y: 15.0d
-			dependencies: ["68751941C2C6B5CF"]
-			hide: true
-			optional: true
-			id: "1FD43FF522FEE056"
-			tasks: [
-				{
-					id: "18421881E1233A71"
-					type: "item"
-					item: "minecraft:bone_meal"
-					count: 30L
-					only_from_crafting: false
-				}
-				{
-					id: "568378DD3C428BD2"
-					type: "item"
-					item: "minecraft:blaze_powder"
-					count: 10L
-					only_from_crafting: false
-				}
-			]
-			rewards: [{
-				id: "1BA86B582B8B5004"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
 			}]
 		}
 		{
@@ -1165,36 +780,33 @@
 			}]
 		}
 		{
-			x: -2.0d
+			title: "AE2 Wrenches"
+			x: -1.0d
 			y: 12.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "62680BF3678A8BE7"
 			tasks: [{
-				id: "0E75217B07B669CD"
+				id: "14340BD8EEE81F8A"
 				type: "item"
-				item: "ae2:certus_quartz_wrench"
-				only_from_crafting: false
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:nether_quartz_wrench"
+								Count: 1b
+							}
+							{
+								id: "ae2:certus_quartz_wrench"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "352D6ADCC7A6690A"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6421114608467573967L
-			}]
-		}
-		{
-			x: -1.0d
-			y: 12.5d
-			dependencies: ["186CB0917B42C66D"]
-			id: "2A0DD98C7F2B6F93"
-			tasks: [{
-				id: "76BB0C2292E9CD6D"
-				type: "item"
-				item: "ae2:nether_quartz_wrench"
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "67BE38A23614A944"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 6421114608467573967L
@@ -1357,6 +969,12 @@
 			y: 9.0d
 			dependencies: ["186CB0917B42C66D"]
 			id: "1273A4E0567699A6"
+			tasks: [{
+				id: "05108AB9D882AF32"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
 			rewards: [{
 				id: "3B45924B490EB928"
 				type: "command"
@@ -1368,6 +986,7 @@
 		}
 		{
 			title: "Desh Cable Research"
+			icon: "ad_astra:desh_cable"
 			x: 2.5d
 			y: 13.5d
 			dependencies: [
@@ -1438,6 +1057,12 @@
 				item: "indrev:tier_upgrade_mk2"
 				only_from_crafting: false
 			}]
+			rewards: [{
+				id: "3B48686E7A7BDA9F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
 		}
 		{
 			x: -1.0d
@@ -1450,6 +1075,12 @@
 				item: "indrev:tier_upgrade_mk3"
 				only_from_crafting: false
 			}]
+			rewards: [{
+				id: "600F7C492F39445D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
 		}
 		{
 			x: -2.0d
@@ -1461,6 +1092,12 @@
 				type: "item"
 				item: "indrev:tier_upgrade_mk4"
 				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "7003E7E2D6670AFD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1990121793024525641L
 			}]
 		}
 		{
@@ -1627,20 +1264,25 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 10.0d
-			dependencies: ["186CB0917B42C66D"]
-			id: "2AF8DDB5106ADAC3"
+			title: "Solar Panel Research"
+			icon: "indrev:solar_generator_mk1"
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["3FC719135C7B22B3"]
+			id: "41C72A27525BD9CD"
 			tasks: [{
-				id: "1A2EDFE0C3A661A3"
-				type: "item"
-				item: "fabricaeexnihilo:porcelain_crucible"
+				id: "0089096CC0E1623E"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
-				id: "7C6517EDDF0CEF7C"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
+				id: "1AFFA11FFFD2C420"
+				type: "command"
+				title: "Solar Panel Research"
+				icon: "indrev:solar_generator_mk1"
+				command: "/phase grant @p indrev_solargen"
+				player_command: false
 			}]
 		}
 	]

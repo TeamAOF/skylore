@@ -26,19 +26,26 @@
 			id: "350E66C2C959C83E"
 			tasks: [
 				{
-					id: "2AB872339E08F580"
+					id: "77FC1B60C956E038"
 					type: "item"
-					item: "tconstruct:tinker_station"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 				{
-					id: "77800E18D890644D"
+					id: "58597224B1F6DB38"
 					type: "item"
-					item: "tconstruct:crafting_station"
-				}
-				{
-					id: "45C9CE231E563983"
-					type: "item"
-					item: "tconstruct:part_builder"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 			rewards: [{
@@ -49,19 +56,19 @@
 			}]
 		}
 		{
-			title: "Fighting off the danger"
-			x: 3.0d
-			y: 5.5d
+			title: "Fighting off the danger around you"
+			x: 8.0d
+			y: 1.5d
 			shape: "pentagon"
-			subtitle: "No one will survive without a weapon."
+			subtitle: "It seems like a few monster are able to spawn near you, maybe you should craft a sword?"
 			description: [
-				"This land is dangerous. The monsters are starting to learn from you, they get stronger and better every night."
+				"It seems like this planet has some weird creatures that want to kill you. Maybe its best to craft a sword?"
 				""
-				"Its important to craft a weapon, otherwise you die."
+				"So you dont have to evade the monsters consider crafting a sword to defend yourself."
 				""
-				"NOTE: Difficulty get's much harder from here."
+				"There is a legend that the planet Atmos is a sentient being. Many expeditions have been sent to Atmos, but none have returned, leading to the creation of various conspiracy theories to explain their disappearance."
 			]
-			dependencies: ["172F16A31F27C507"]
+			dependencies: ["1B3CF7879C573261"]
 			id: "69AD5130633DDD7F"
 			tasks: [{
 				id: "0D8423FF45B1E118"
@@ -96,15 +103,15 @@
 			]
 		}
 		{
-			title: "A long range weapon"
-			x: 5.0d
-			y: 5.5d
+			title: "Slingshot Survival"
+			x: 10.0d
+			y: 1.0d
 			shape: "pentagon"
-			subtitle: "You might find yourself dying from skeletons a lot..."
+			subtitle: "Crafting a Slingshot"
 			description: [
-				"This is the tool that allows you to shoot back a skeletons without having to craft a bow. "
+				"You've come to realize that on Atmos, a bow may not be the most practical weapon for your current situation. "
 				""
-				"This is recommended to craft as early as possible for the best chance of survival."
+				"A slingshot is a more efficient option that can be crafted using readily available resources. Your task is to craft one to increase your chances of survival."
 			]
 			dependencies: ["69AD5130633DDD7F"]
 			id: "112B8BBE4ED3972E"
@@ -122,13 +129,17 @@
 			}]
 		}
 		{
-			title: "Risk avoidance"
+			title: "Safe Sleep"
 			x: 2.0d
 			y: -2.0d
 			shape: "hexagon"
-			subtitle: "Get a bed."
-			description: ["There are possibly unknown enemies out to get you in the night. Sleep trough the night to avoid them as long as possible."]
-			dependencies: ["0B1526E9DC5D4891"]
+			subtitle: "Crafting a Bed"
+			description: [
+				"The night on Atmos is dangerous, with deadly mobs roaming around. Crafting a bed allows you to skip the night and fast forward to morning, avoiding these dangers."
+				""
+				"Your task is to craft a bed and make surviving the night easier. With a bed, you can avoid the dangerous mobs and gather resources safely."
+			]
+			dependencies: ["350E66C2C959C83E"]
 			id: "6D61083CFD3B34F0"
 			tasks: [{
 				id: "780ED0929CDAF306"
@@ -238,12 +249,12 @@
 			]
 		}
 		{
-			title: "Deflect enemy projectiles"
-			x: 3.5d
-			y: 7.5d
+			title: "Shield Up"
+			x: 9.557142857142864d
+			y: -0.19285714285714306d
 			shape: "pentagon"
-			subtitle: "This is a must have in combat against skeletons."
-			description: ["Shields get brung up 5 times faster in this modpack so make sure to craft one as they are way better now."]
+			subtitle: "Crafting a Shield"
+			description: ["Enemies on Atmos shoot arrows, making survival difficult. To increase your chances, craft a shield. It's essential for survival. Remember to equip it before facing enemies."]
 			dependencies: ["69AD5130633DDD7F"]
 			id: "18B3495B32114373"
 			tasks: [{
@@ -267,8 +278,8 @@
 		}
 		{
 			title: "Avert unknown enemy spawning"
-			x: -1.0d
-			y: 1.0d
+			x: 0.5d
+			y: -2.0d
 			shape: "octagon"
 			subtitle: "Light up the island to save yourself from death."
 			dependencies: ["350E66C2C959C83E"]
@@ -290,8 +301,8 @@
 		}
 		{
 			title: "Placing torches isnt enough"
-			x: -2.0d
-			y: 2.0d
+			x: -0.5d
+			y: -3.0d
 			shape: "octagon"
 			subtitle: "This is the faster way of lighting up an area."
 			description: ["This tool can be paired greatly with a future held glider to light up islands from above. This will allow you to light up areas even when enemies are spawning."]
@@ -312,8 +323,8 @@
 		}
 		{
 			title: "Effective mob proofing"
-			x: -3.0d
-			y: 3.0d
+			x: -1.5d
+			y: -4.0d
 			shape: "octagon"
 			subtitle: "The tool that allows you to light up an island without doubt."
 			description: ["This torch is the safest way to make sure when you are caving you wont experience deaths and probable loosing of items. Simply show chunk boundaries and place one of these in each chunk to make sure no mobs can even spawn on the island."]
@@ -374,8 +385,8 @@
 		}
 		{
 			title: "You dont die?"
-			x: 0.0d
-			y: -3.0d
+			x: 1.0d
+			y: -4.5d
 			subtitle: "It seems like you cant die on this planet..."
 			description: ["It seems like when you die you... respawn? This is odd as in your planet people died and were forever lost."]
 			secret: true
@@ -386,12 +397,18 @@
 				stat: "minecraft:deaths"
 				value: 1
 			}]
+			rewards: [{
+				id: "4465D43C938A52D2"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
 		}
 		{
 			title: "Tool Enhancements"
 			icon: "minecraft:enchanting_table"
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: -0.5d
 			subtitle: "This will unlock enchantments"
 			description: ["Whether it be improving durability or vein mining. This will help enhance your tools."]
 			dependencies: ["350E66C2C959C83E"]
@@ -412,90 +429,12 @@
 					player_command: false
 				}
 				{
-					id: "1ECF9EFE522129A8"
-					type: "item"
-					item: "create:experience_nugget"
-					count: 15
-				}
-				{
-					id: "650111A9C36A4DF0"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:bronze_coin"
-						Count: 1b
-						tag: { }
-					}
-					count: 30
+					id: "17024A0793CD95A2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3534262378248187539L
 				}
 			]
-		}
-		{
-			x: 1.0d
-			y: -1.0d
-			subtitle: "Get some worms... to put them back in trees"
-			description: [
-				"This is an easy way to get string"
-				""
-				"Get silkworms from trees with a crook. Then take those worms and put them back in trees to get string."
-			]
-			dependencies: ["350E66C2C959C83E"]
-			hide: true
-			id: "0B1526E9DC5D4891"
-			tasks: [{
-				id: "397F1CA3D7C6CF97"
-				type: "item"
-				item: {
-					id: "fabricaeexnihilo:wooden_crook"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "777ADB680AF951EB"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			x: -3.0d
-			y: 5.5d
-			subtitle: "It seems there are some violent folk around here."
-			description: [
-				"Some villagers aren't so kind. Is this a sign of what is to come?"
-				""
-				"The glow berry might be a key to this aggression."
-			]
-			dependencies: [
-				"69AD5130633DDD7F"
-				"7CE60BC0A027E3E7"
-				"4DACB278D6F2F298"
-			]
-			hide_text_until_complete: true
-			id: "2B6DCF762612E7F9"
-			tasks: [{
-				id: "047EBF870840A027"
-				type: "kill"
-				title: "Traitor's Afoot Kill 10 Pillagers"
-				icon: {
-					id: "indrev:tin_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-				entity: "minecraft:pillager"
-				value: 10L
-			}]
-			rewards: [{
-				id: "60B4E3279729E4CF"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6009508235035804685L
-			}]
 		}
 		{
 			title: "Explore the Church of Beryl"
@@ -510,15 +449,15 @@
 			}]
 		}
 		{
-			title: "Review Resources"
-			x: -5.5d
+			title: "Create a stockpile of resources"
+			x: -0.5d
 			y: -1.0d
-			subtitle: "Proper protocol states to stockpile"
-			dependencies: [
-				"27301782033D3481"
-				"7CF3EE0C76CD0399"
-				"56CA1B09A6CE5380"
+			subtitle: "The crash landing protocol necessitates the stockpiling of certain items."
+			description: [
+				""
+				"According to the crash landing protocol, it is crucial to amass a sufficient supply of resources. This stockpile will provide aid to players during unexpected resource shortages."
 			]
+			dependencies: ["350E66C2C959C83E"]
 			id: "4DACB278D6F2F298"
 			tasks: [
 				{
@@ -565,44 +504,12 @@
 			}]
 		}
 		{
-			title: "Screw going green."
-			x: -4.0d
-			y: 7.5d
-			secret: true
-			id: "05A5CA1D4BEC6C15"
-			tasks: [{
-				id: "5E738388B53C73F5"
-				type: "item"
-				item: "modern_industrialization:uranium_fuel_rod"
-				only_from_crafting: false
-			}]
-		}
-		{
-			title: "Go Green."
-			x: -2.5d
-			y: 7.5d
-			dependencies: ["2B6DCF762612E7F9"]
-			id: "797BD9D48762338B"
-			tasks: [{
-				id: "71C023932D82A032"
-				type: "item"
-				item: "indrev:solar_generator_mk1"
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "1AE564A06F9868E0"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
-			}]
-		}
-		{
 			title: "Investigate the glow berry"
-			x: -5.5d
-			y: 5.5d
-			subtitle: "This strange berry may provide some answers"
+			x: -3.5d
+			y: 1.0d
+			subtitle: "This strange berry may provide some answers to one of lifes most important questions."
 			description: ["Review Medical Officer Tasks to Learn More"]
-			dependencies: ["2B6DCF762612E7F9"]
+			dependencies: ["350E66C2C959C83E"]
 			hide: true
 			hide_text_until_complete: true
 			id: "23CB8D088145F296"
@@ -693,323 +600,629 @@
 			}]
 		}
 		{
-			title: "Setting up a base "
-			x: -1.0d
-			y: -1.0d
-			subtitle: "Build buildings as a living space for your team."
-			description: [
-				"It is important to start building buildings where you can do various activities. "
-				""
-				"To start off with you should create a livingroom, kitchen, bedroom and extra places for machines."
-			]
+			title: "And My Axe"
+			x: 1.5d
+			y: 1.0d
 			dependencies: ["350E66C2C959C83E"]
-			hide: true
-			id: "171FEBF60B0C8CB5"
+			id: "60473FD387E9BFC8"
 			tasks: [{
-				id: "61F2C41FCB01BC89"
-				type: "checkmark"
-				title: "Start building"
+				id: "7400A3FA3E35F23F"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:axes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "37707B82876A63AF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
 			}]
 		}
 		{
+			title: "I Can Dig It"
 			x: 1.5d
-			y: 1.0d
-			subtitle: "With limited resources, you are going to have to be crafty"
+			y: 3.0d
 			dependencies: ["350E66C2C959C83E"]
-			hide: true
-			id: "172F16A31F27C507"
+			id: "36138B79F67D54F4"
 			tasks: [{
-				id: "0A100196A40EAF5E"
+				id: "0AD63763A0A27066"
 				type: "item"
 				item: {
-					id: "fabricaeexnihilo:wooden_hammer"
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:shovels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D885239A6D5F388"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "Pick It Real Good"
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "26F2E1857D7CA7A9"
+			tasks: [{
+				id: "115AF16B5E63B8AF"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:pickaxes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6208DCEC20C449D1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "I Got Hoes"
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "43440E28112A019C"
+			tasks: [{
+				id: "7EA4F205F01CAFE6"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:hoes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "73FF42BF174859BE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			title: "Chestplate"
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "3A204DC8CA54E397"
+			tasks: [{
+				id: "5D1AB0197739553A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:chestplates"
+					}
+				}
+			}]
+		}
+		{
+			title: "Leggings"
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "7C390A0640799D1B"
+			tasks: [{
+				id: "7383C8B452B44665"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:leggings"
+					}
+				}
+			}]
+		}
+		{
+			title: "Boots"
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "16A23B7E46D2F79C"
+			tasks: [{
+				id: "4BA79FD279416E77"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:boots"
+					}
+				}
+			}]
+		}
+		{
+			title: "Helmet"
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["350E66C2C959C83E"]
+			id: "4681785E146D5413"
+			tasks: [{
+				id: "6515F66290F5B26F"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "c:helmets"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "It appears that the legends may have been accurate... perhaps you could eliminate the hordes of zombies?"
+			description: ["Your task is to eliminate 15 zombies in order to stop the endless spawn on Atmos. This will not be an easy feat, as the hordes may be stronger than you expect."]
+			dependencies: ["69AD5130633DDD7F"]
+			id: "36E54CEBEEDDEF72"
+			tasks: [{
+				id: "6545F4246A0C12AF"
+				type: "kill"
+				title: "Kill 15 Zombies"
+				icon: "minecraft:zombie_head"
+				entity: "minecraft:zombie"
+				value: 15L
+			}]
+			rewards: [{
+				id: "75BC0707407AF0B5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: 8.12857142857144d
+			y: -0.30714285714285694d
+			subtitle: "Skeleton slaying."
+			description: [
+				"Skeletons spawn endlessly on Atmos, and their arrows make them dangerous. You want to try and stop them by killing 15. It won't be easy, but it's worth a try. You'll need to be careful, use your weapons and shield wisely."
+				""
+				"Even if you die, getting your items back won't be easy. You gotta be smart and weigh the risks. Maybe it'll work and the skeletons will stop spawning."
+			]
+			dependencies: ["69AD5130633DDD7F"]
+			id: "142B469D8437800C"
+			tasks: [{
+				id: "7BA837CA42CAF868"
+				type: "kill"
+				title: "Kill 15 Skeleton"
+				icon: "minecraft:skeleton_skull"
+				entity: "minecraft:skeleton"
+				value: 15L
+			}]
+			rewards: [{
+				id: "397BE3BD65A6A3EA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 9015732949868242056L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "What's up with this strange planet"
+			description: [
+				"The quests after this will make Atmos react to you."
+				""
+				"Make sure you are leveled up with enough protection."
+			]
+			dependencies: ["350E66C2C959C83E"]
+			id: "1B3CF7879C573261"
+			tasks: [{
+				id: "1EBDDECDF5778EB2"
+				type: "checkmark"
+				title: "Atmos"
+			}]
+			rewards: [{
+				id: "67701A37FFAF6930"
+				type: "toast"
+				title: "Atmos Fear"
+				icon: {
+					id: "graveyard:bone_dagger"
 					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "60AEC223678FBA02"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
+				auto: "invisible"
+				description: ""
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
-			subtitle: "Claymation"
-			dependencies: ["172F16A31F27C507"]
-			id: "2D81A6754F64C590"
-			tasks: [{
-				id: "12579A1EBCEB2DBF"
-				type: "item"
-				item: "fabricaeexnihilo:oak_barrel"
-				only_from_crafting: false
-			}]
-			rewards: [
-				{
-					id: "54CAC5E02D1101E5"
-					type: "item"
-					item: "create:experience_nugget"
-					count: 10
+			icon: {
+				id: "doodads:spore_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
 				}
-				{
-					id: "198241247E89FD13"
-					type: "item"
-					item: {
-						id: "numismatic-overhaul:bronze_coin"
-						Count: 1b
-						tag: { }
-					}
-					count: 15
-				}
-			]
-		}
-		{
-			x: 6.5d
-			y: -0.5d
-			dependencies: ["2D81A6754F64C590"]
-			id: "058E3B44F10D6FC7"
-			tasks: [{
-				id: "124114632B483E42"
-				type: "item"
-				item: "create:andesite_alloy"
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "78DDA75C69D2428F"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:bronze_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 15
-			}]
-		}
-		{
-			x: 0.5d
-			y: 3.0d
-			dependencies: ["172F16A31F27C507"]
-			id: "0CC2BD2656FDD5D2"
-			tasks: [{
-				id: "77B13896F170F8DE"
-				type: "item"
-				item: "minecraft:sand"
-				count: 64L
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "767175602EFB94D0"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			x: -0.5d
-			y: 2.5d
-			dependencies: ["172F16A31F27C507"]
-			id: "3B871D7DA8866A62"
-			tasks: [{
-				id: "4DE5492F7193854B"
-				type: "item"
-				item: "minecraft:gravel"
-				count: 64L
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "7312F1456EACE3F4"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
+			}
 			x: 5.0d
-			y: 1.5d
-			dependencies: ["2D81A6754F64C590"]
-			id: "28DC20436EB11425"
+			y: 6.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "50210B5F86D36139"
 			tasks: [{
-				id: "07B7E47A02B68006"
-				type: "item"
-				item: "minecraft:clay"
+				id: "4A3F91B40F05640D"
+				type: "xp"
+				value: 20L
+				points: false
 			}]
 			rewards: [{
-				id: "198A2AB2EBED37F6"
-				type: "item"
-				item: {
-					id: "numismatic-overhaul:bronze_coin"
-					Count: 1b
-					tag: { }
-				}
-				count: 15
+				id: "4779CE1CF0FDC917"
+				type: "command"
+				command: "/phase grant @p spore_sword"
+				player_command: false
 			}]
 		}
 		{
-			title: "The livingroom"
-			x: -3.0d
-			y: -1.0d
-			subtitle: "Create a livingroom."
-			description: ["you should create a big enough room to fit a few tables chairs and sofas. If you are interested then you can create a dining table"]
-			dependencies: ["171FEBF60B0C8CB5"]
-			id: "7CF3EE0C76CD0399"
-			tasks: [
-				{
-					id: "06F45A044546A176"
-					type: "item"
-					title: "Table"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "another_furniture:tables"
-						}
-					}
-				}
-				{
-					id: "7BAA23E2886A0FF5"
-					type: "item"
-					title: "Chair"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "another_furniture:chairs"
-						}
-					}
-				}
-				{
-					id: "6A3D015469F9F3BC"
-					type: "item"
-					title: "Sofa"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "another_furniture:sofas"
-						}
-					}
-				}
-			]
+			icon: "doodads:paintbrush"
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "0D3BF549A869B466"
+			tasks: [{
+				id: "54BE7EF45F496E6E"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
 			rewards: [{
-				id: "3AA497183BB59094"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6421114608467573967L
+				id: "74D49C9518A23052"
+				type: "command"
+				command: "/phase grant @p paintbrush"
+				player_command: false
 			}]
 		}
 		{
-			title: "The kitchen"
-			x: -2.5d
-			y: -2.0d
-			subtitle: "Make a room where you can make food."
-			description: ["you should build a pretty good sized room for this one as it will need space for all of the blocks."]
-			dependencies: ["171FEBF60B0C8CB5"]
-			id: "56CA1B09A6CE5380"
-			tasks: [
-				{
-					id: "00821D334EAFB8F7"
-					type: "item"
-					item: "sandwichable:sandwich_table"
-				}
-				{
-					id: "3D407CBFEDED8221"
-					type: "item"
-					item: {
-						id: "sandwichable:stone_kitchen_knife"
-						Count: 1b
-						tag: {
-							KnifeData: {
-								maxSharpness: 132
-								sharpness: 132
-							}
-						}
-					}
-				}
-				{
-					id: "35E575596BDB1078"
-					type: "item"
-					title: "Cutting Board"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "sandwichable:cutting_boards"
-						}
-					}
-				}
-				{
-					id: "48AB097EAB96854F"
-					type: "item"
-					item: "farmersdelight:stove"
-				}
-				{
-					id: "6A0B1DDA0BD28B7B"
-					type: "item"
-					item: "farmersdelight:cooking_pot"
-				}
-				{
-					id: "2A936E50106EF161"
-					type: "item"
-					item: {
-						id: "farmersdelight:skillet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			icon: "doodads:beaver_teeth"
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "76696FADD9A62FFC"
+			tasks: [{
+				id: "37BD42B16B39814F"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
 			rewards: [{
-				id: "3453DBA410114CA8"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6540879071985987644L
+				id: "55F524AA0EB864EC"
+				type: "command"
+				command: "/phase grant @p beaver_teeth"
+				player_command: false
 			}]
 		}
 		{
-			title: "Bedroom"
-			x: -2.5d
-			y: 0.0d
-			subtitle: "A place to sleep."
-			description: ["Make a place where you can sleep through the night."]
-			dependencies: ["171FEBF60B0C8CB5"]
-			id: "27301782033D3481"
-			tasks: [
-				{
-					id: "13A4E95D6F094BA9"
-					type: "item"
-					title: "Any #farmersdelight:cabinets"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "farmersdelight:cabinets"
-						}
-					}
-				}
-				{
-					id: "29EB9763BC1FC2C7"
-					type: "item"
-					title: "Any #minecraft:beds"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:beds"
-						}
-					}
-				}
-			]
+			icon: "doodads:bendy_straw"
+			x: 5.0d
+			y: 7.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "72EEB05FFAF2EF79"
+			tasks: [{
+				id: "281331EC3287954E"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
 			rewards: [{
-				id: "315C240ED3374E9D"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 3534262378248187539L
+				id: "4892EFA87C1E2AA5"
+				type: "command"
+				command: "/phase grant @p bendy_straw"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:soggy_glove"
+			x: 11.0d
+			y: 6.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "1D0C9880867B23B0"
+			tasks: [{
+				id: "3070B299BD260F62"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "4303F2FC6B7724B3"
+				type: "command"
+				command: "/phase grant @p soggy_glove"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:loggers_glove"
+			x: 5.0d
+			y: 9.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "2B843631BD80C679"
+			tasks: [{
+				id: "1C6F7B126AD9E9A5"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "2474B21D284DF531"
+				type: "command"
+				command: "/phase grant @p loggers_glove"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:sun_ring"
+			x: 11.0d
+			y: 3.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "7690417781949E39"
+			tasks: [{
+				id: "52F691EC60485866"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "4023BC9BB35DF592"
+				type: "command"
+				command: "/phase grant @p sun_ring"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:moon_ring"
+			x: 11.0d
+			y: 9.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "188B93C1E062D0DD"
+			tasks: [{
+				id: "7F8BD2FE5AD2146D"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "1F12C2098A3A517B"
+				type: "command"
+				command: "/phase grant @p moon_ring"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:celestial_ring"
+			x: 8.0d
+			y: 10.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "3DF508826DABB159"
+			tasks: [{
+				id: "4232CB764CF00C90"
+				type: "xp"
+				value: 40L
+				points: false
+			}]
+			rewards: [{
+				id: "48859EF5BDDBE47B"
+				type: "command"
+				command: "/phase grant @p celestial_ring"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:cactus_ring"
+			x: 5.0d
+			y: 8.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "04E3CC6101F9CC0B"
+			tasks: [{
+				id: "44E018A4BFB364A1"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "5B6D97ED4855A7A4"
+				type: "command"
+				command: "/phase grant @p cactus_ring"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:midnights_eye"
+			x: 11.0d
+			y: 7.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "7E0C65EFAAF9B3F5"
+			tasks: [{
+				id: "64DF2CCFA1547852"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "36F1B14003201816"
+				type: "command"
+				command: "/phase grant @p midnights_eye"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:glare_plushie"
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "77BFA72A1F8CA990"
+			tasks: [{
+				id: "5A1E1BF7152BC5CF"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "17A1597171CD9CB4"
+				type: "command"
+				command: "/phase grant @p glare_plushie"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:slimey_shoes"
+			x: 11.0d
+			y: 10.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "49061BF88DBAA839"
+			tasks: [{
+				id: "4411FA183ADA7609"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "188A153131ED9C28"
+				type: "command"
+				command: "/phase grant @p slimey_shoes"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:shulker_aglet"
+			x: 11.0d
+			y: 8.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "5F82B270CAB04AA0"
+			tasks: [{
+				id: "213271A0B089EA50"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "745DE536F89F20C2"
+				type: "command"
+				command: "/phase grant @p shulker_aglet"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:blossom_belt"
+			x: 11.0d
+			y: 4.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "61306CB5732B42C4"
+			tasks: [{
+				id: "4F44281927EA72BE"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "707F8E294BA40D75"
+				type: "command"
+				command: "/phase grant @p blossom_belt"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:duct_tape"
+			x: 5.0d
+			y: 10.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "7EBE1134EECE09C3"
+			tasks: [{
+				id: "4869D8CA855BF56D"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5DEADB93F08EA998"
+				type: "command"
+				command: "/phase grant @p duct_tape"
+				player_command: false
+			}]
+		}
+		{
+			icon: "doodads:magic_plum"
+			x: 11.0d
+			y: 5.5d
+			dependencies: ["7403AEC549FCEA83"]
+			id: "48AAF253A78026B3"
+			tasks: [{
+				id: "6637972125341B38"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "5CD8B4143DFEAD86"
+				type: "command"
+				command: "/phase grant @p magic_plum"
+				player_command: false
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			subtitle: "The Planetary Alliance Can Send Some Assistance"
+			description: ["Automatons, losing the will to further their lives, roam the universe with supplies as a way to gain redstone. They can find you anywhere and can drop you supplies anywhere."]
+			dependencies: ["69AD5130633DDD7F"]
+			id: "7403AEC549FCEA83"
+			tasks: [{
+				id: "3D3E2846FAFA8AA6"
+				type: "checkmark"
+				title: "Planetary Alliance Assistance"
+			}]
+		}
+		{
+			icon: "artifacts:everlasting_beef"
+			x: 8.0d
+			y: 13.0d
+			dependencies: [
+				"3DF508826DABB159"
+				"5F82B270CAB04AA0"
+				"7EBE1134EECE09C3"
+				"1D0C9880867B23B0"
+				"77BFA72A1F8CA990"
+				"7690417781949E39"
+				"61306CB5732B42C4"
+				"48AAF253A78026B3"
+				"2B843631BD80C679"
+				"7E0C65EFAAF9B3F5"
+				"04E3CC6101F9CC0B"
+				"50210B5F86D36139"
+				"188B93C1E062D0DD"
+				"72EEB05FFAF2EF79"
+				"49061BF88DBAA839"
+				"0D3BF549A869B466"
+				"76696FADD9A62FFC"
+			]
+			id: "234769A93C239E66"
+			tasks: [{
+				id: "353298E08C3FA613"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "7B6CFB338F9E6497"
+				type: "command"
+				command: "/phase grant @p everlasting_beef"
+				player_command: false
 			}]
 		}
 	]
