@@ -53,7 +53,7 @@
       "type": "category",
       "data": {
         "0": {
-          "name": "Voice Chat Settings",
+          "name": "Voice Chat Gui",
           "icon": {
             "iconItem": "ae2:wireless_receiver",
             "enchanted": false,
@@ -62,7 +62,7 @@
           },
           "type": "keyselect",
           "data": {
-            "key": "key.voice_chat_settings",
+            "key": "key.voice_chat_gui",
             "releaseDelay": 25001
           }
         },
