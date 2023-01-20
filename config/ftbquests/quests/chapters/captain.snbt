@@ -34,14 +34,6 @@
 				value: 30L
 				points: false
 			}]
-			rewards: [{
-				id: "54973C50C0DB67A3"
-				type: "command"
-				title: "Gain Ops Panel Access"
-				icon: "artis:ops_panel"
-				command: "/phase grant @p ops"
-				player_command: false
-			}]
 		}
 		{
 			x: -5.0d
@@ -406,6 +398,7 @@
 					type: "command"
 					title: "Fluix Unlock"
 					icon: "ae2:fluix_crystal_seed"
+					auto: "enabled"
 					command: "/phase grant @p fluix"
 					player_command: false
 				}
@@ -463,8 +456,8 @@
 			title: "Withered Backpack Research"
 			icon: "inmis:withered_backpack"
 			x: 4.5d
-			y: -14.0d
-			dependencies: ["36BDDAE3405F6923"]
+			y: -12.5d
+			dependencies: ["221C967EE3D181BD"]
 			id: "045CEDC13CD77D06"
 			tasks: [{
 				id: "0F6CE092D817A8D2"
@@ -550,7 +543,7 @@
 		{
 			title: "Blazing Backpack Recipe Unlock"
 			icon: "inmis:blazing_backpack"
-			x: 4.5d
+			x: 6.5d
 			y: -12.5d
 			dependencies: ["221C967EE3D181BD"]
 			id: "36BDDAE3405F6923"
@@ -731,8 +724,228 @@
 				type: "command"
 				title: "Drawer Connector Recipe"
 				icon: "extended_drawers:connector"
-				command: "/say Hi, @p!/phase grant @p ed_connector"
+				command: "/phase grant @p ed_connector"
 				player_command: false
+			}]
+		}
+		{
+			title: "Regular Conveyor Belt Research"
+			icon: "kibe:regular_conveyor_belt"
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["7203022EBB0D10CA"]
+			id: "7E4E872074A930C9"
+			tasks: [{
+				id: "798276849D293FA0"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "1A02ECC60E984D23"
+				type: "command"
+				title: "Unlock Recipe"
+				icon: "kibe:regular_conveyor_belt"
+				command: "/phase grant @p regular_conveyor_belt"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fast Conveyor Belt Research"
+			icon: "kibe:fast_conveyor_belt"
+			x: 1.5d
+			y: -8.5d
+			dependencies: ["7E4E872074A930C9"]
+			id: "7FD795325E7B29CE"
+			tasks: [{
+				id: "5ADEB15920AA207A"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "5F55215B1F65AFB2"
+				type: "command"
+				title: "Unlock Recipe"
+				icon: "kibe:fast_conveyor_belt"
+				command: "/phase grant @p fast_conveyor_belt"
+				player_command: false
+			}]
+		}
+		{
+			title: "Express Conveyor Belt Research"
+			icon: "kibe:express_conveyor_belt"
+			x: 1.5d
+			y: -10.5d
+			dependencies: ["7FD795325E7B29CE"]
+			id: "74C2BD71A974C697"
+			tasks: [{
+				id: "2E8EA9FB575F7649"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "4270D8479B565E33"
+				type: "command"
+				title: "Unlock Recipe"
+				icon: "kibe:express_conveyor_belt"
+				command: "/phase grant @p express_conveyor_belt"
+				player_command: false
+			}]
+		}
+		{
+			title: "Satelite network"
+			icon: "kubejs:navigator"
+			disable_toast: true
+			x: -1.5d
+			y: -10.0d
+			description: ["Create a Satellite network in order to enable navigation."]
+			dependencies: ["7203022EBB0D10CA"]
+			secret: true
+			id: "293B1AC85D41551F"
+			tasks: [
+				{
+					id: "3BA2EC67A552578E"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "0337152F2CEF362F"
+					type: "item"
+					item: "indrev:circuit_mk1"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2847A8CA3724C2DD"
+					type: "item"
+					item: "modern_industrialization:electronic_circuit"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6C7E641ED0B6EFDF"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -14.0d
+			dependencies: ["3D4EEA262A65D67D"]
+			id: "2447B72D3667476F"
+			tasks: [{
+				id: "04DF46DBF79CBAE0"
+				type: "advancement"
+				advancement: "moreachievements:far_lands"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4AEF214DF418D046"
+				type: "item"
+				item: "relicex:tome"
+				count: 5
+			}]
+		}
+		{
+			x: -4.5d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "3D4EEA262A65D67D"
+			tasks: [{
+				id: "64165FAA352A4555"
+				type: "biome"
+				icon: "minecraft:oak_sapling"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "548FFCF67DCC58FB"
+			tasks: [{
+				id: "1E83230344DEB4DD"
+				type: "biome"
+				icon: "minecraft:sand"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			icon: "byg:aspen_sapling"
+			x: -3.5d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "04DDF3DC1B35B4B8"
+			tasks: [{
+				id: "75DD78F7232615CE"
+				type: "biome"
+				biome: "byg:aspen_forest"
+			}]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: -2.5d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "762FB35668EB0A5A"
+			tasks: [{
+				id: "23AC7785EF0BE15F"
+				type: "biome"
+				biome: "minecraft:jungle"
+			}]
+		}
+		{
+			icon: "minecraft:red_sand"
+			x: -1.0d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "2FE649E6E484FAF0"
+			tasks: [{
+				id: "43BDC162A8AE4640"
+				type: "biome"
+				biome: "minecraft:badlands"
+			}]
+		}
+		{
+			icon: "byg:fir_sapling"
+			x: 0.0d
+			y: -14.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "546317199909BD41"
+			tasks: [{
+				id: "5BDE50ED4E870238"
+				type: "biome"
+				biome: "byg:coniferous_forest"
+			}]
+		}
+		{
+			x: -1.8364661654135404d
+			y: -17.48872180451128d
+			subtitle: "Somebody needs to know where we are going"
+			dependencies: [
+				"3D4EEA262A65D67D"
+				"546317199909BD41"
+				"2FE649E6E484FAF0"
+				"762FB35668EB0A5A"
+				"04DDF3DC1B35B4B8"
+				"548FFCF67DCC58FB"
+			]
+			id: "0B3ACA03E180AF01"
+			tasks: [{
+				id: "5219A171BA1BD164"
+				type: "checkmark"
+				title: "Captain of direction"
+			}]
+			rewards: [{
+				id: "5383498DBFD9EF6E"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 	]

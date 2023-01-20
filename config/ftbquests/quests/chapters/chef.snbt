@@ -36,14 +36,6 @@
 				value: 10L
 				points: false
 			}]
-			rewards: [{
-				id: "08A642AF12D3A9A7"
-				type: "command"
-				title: "Gain Chef Table Access"
-				icon: "artis:chef_table"
-				command: "/phase grant @p chef"
-				player_command: false
-			}]
 		}
 		{
 			x: 1.5d

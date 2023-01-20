@@ -1,0 +1,21 @@
+{
+	id: "7FA218B1D7A6F329"
+	order_index: 58
+	title: "Culture Boosts"
+	loot_size: 1
+	rewards: [
+		{ item: "create:experience_nugget", count: 50 }
+		{
+			item: {
+				id: "numismatic-overhaul:silver_coin"
+				Count: 1b
+				tag: { }
+			}
+			count: 10
+		}
+		{
+			xp_levels: 5
+			type: "xp_levels"
+		}
+	]
+}

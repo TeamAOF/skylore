@@ -35,14 +35,6 @@
 				value: 30L
 				points: false
 			}]
-			rewards: [{
-				id: "347C81CAB9D19340"
-				type: "command"
-				title: "Gain Science Panel Access"
-				icon: "artis:science_panel"
-				command: "/phase grant @p science"
-				player_command: false
-			}]
 		}
 		{
 			x: -3.0d
@@ -412,7 +404,7 @@
 					type: "command"
 					title: "Blue and Shiny"
 					icon: "indrev:nikolite_dust"
-					command: "/phase grant @p indrev"
+					command: "/phase grant @p nikolite"
 					player_command: false
 				}
 				{
@@ -420,6 +412,7 @@
 					type: "item"
 					item: "create:experience_nugget"
 					count: 20
+					random_bonus: 50
 				}
 			]
 		}
@@ -570,7 +563,9 @@
 			icon: {
 				id: "kibe:white_glider"
 				Count: 1b
-				tag: { }
+				tag: {
+					Damage: 0
+				}
 			}
 			x: -14.0d
 			y: -3.0d
@@ -1015,54 +1010,69 @@
 			rewards: [{
 				id: "23F7F41FF6DB11CC"
 				type: "command"
+				title: "Desh Ingot Research"
 				icon: "ad_astra:desh_ingot"
 				command: "/phase grant @p desh"
 				player_command: false
 			}]
 		}
 		{
+			title: "Ostrum Ingot Research"
+			icon: "ad_astra:ostrum_ingot"
 			x: 8.5d
 			y: -1.5d
 			dependencies: ["13D1D05BD914D7B2"]
 			id: "166AA7A58FA6DE7E"
 			tasks: [{
-				id: "6E7D4C243284FD27"
-				type: "item"
-				item: "ad_astra:ostrum_ingot"
+				id: "2742E4A37F83089B"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "36B43DCBF635503B"
+				type: "command"
+				title: "Ostrum Ingot Recipe Unlock"
+				icon: "ad_astra:ostrum_ingot"
+				command: "/phase grant @p ostrum_ingot"
+				player_command: false
 			}]
 		}
 		{
+			title: "Calorite Ingot Research"
+			icon: "ad_astra:calorite_ingot"
 			x: 10.0d
 			y: -2.0d
 			dependencies: ["166AA7A58FA6DE7E"]
 			id: "76F4404DB374B09C"
 			tasks: [{
-				id: "4162A0708EB3C401"
-				type: "item"
-				item: "ad_astra:calorite_ingot"
+				id: "6F3FC281B07A930A"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "221ACE82E93247A5"
+				type: "command"
+				title: "Calorite Ingot Recipe Unlock"
+				icon: "ad_astra:calorite_ingot"
+				command: "/phase grant @p calorite_ingot"
+				player_command: false
 			}]
 		}
 		{
-			title: "Research Nuclear Power"
+			title: "Uranium Research"
 			icon: "modern_industrialization:uranium_ore"
-			x: 6.0d
-			y: -2.0d
-			dependencies: ["014AB8B1840114D8"]
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["08454245DC71BA14"]
 			id: "713DF1ED6DCE9257"
-			tasks: [
-				{
-					id: "71F4A49DC96A8139"
-					type: "item"
-					item: "kubejs:radiated_stone"
-					count: 64L
-				}
-				{
-					id: "560DBEA302E1F12B"
-					type: "xp"
-					value: 10L
-					points: false
-				}
-			]
+			tasks: [{
+				id: "560DBEA302E1F12B"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
 			rewards: [{
 				id: "25476FA00EA957A2"
 				type: "command"
@@ -1398,65 +1408,6 @@
 				value: 20L
 				points: false
 			}]
-			rewards: [{
-				id: "0A498C3B84848DC7"
-				type: "command"
-				title: "Unlock Earth Examiner Usage"
-				icon: "artis:earth_examiner"
-				command: "/phase grant @p earthex"
-				player_command: false
-			}]
-		}
-		{
-			x: -8.0d
-			y: -0.5d
-			dependencies: ["08454245DC71BA14"]
-			id: "511CEBBEAA8C03F4"
-			tasks: [{
-				id: "7BBF924A79BB86FD"
-				type: "item"
-				item: "artifacts:obsidian_skull"
-			}]
-			rewards: [{
-				id: "30C47E1295D0B053"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
-			}]
-		}
-		{
-			x: -7.5d
-			y: -2.5d
-			dependencies: ["08454245DC71BA14"]
-			id: "3EBC5488E23D324F"
-			tasks: [{
-				id: "5840739FA22A12E3"
-				type: "item"
-				item: "artifacts:lucky_scarf"
-			}]
-			rewards: [{
-				id: "21305ED2BC25FD2D"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
-			}]
-		}
-		{
-			x: -7.0d
-			y: 0.0d
-			dependencies: ["08454245DC71BA14"]
-			id: "493694C49CB3DE52"
-			tasks: [{
-				id: "3F5754BA0ECF923A"
-				type: "item"
-				item: "artifacts:digging_claws"
-			}]
-			rewards: [{
-				id: "58D8CFA355073EBB"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 1990121793024525641L
-			}]
 		}
 		{
 			x: 2.0d
@@ -1540,6 +1491,28 @@
 				type: "command"
 				icon: "extractinator:extractinator"
 				command: "/phase grant @p extractinator"
+				player_command: false
+			}]
+		}
+		{
+			title: "Uraninite Research"
+			icon: "powah:uraninite_ore_poor"
+			x: -7.5d
+			y: -2.5d
+			dependencies: ["08454245DC71BA14"]
+			id: "5FC0BF43473A326D"
+			tasks: [{
+				id: "0671CE37D9A25318"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "7C185CFDB95C8FF8"
+				type: "command"
+				title: "Gain The Ability To Identify Uraninite"
+				icon: "powah:uraninite_ore_poor"
+				command: "/phase grant @p uraninite"
 				player_command: false
 			}]
 		}

@@ -31,6 +31,8 @@
 				"Pressing the R key will bring up the augmented reality menu."
 				""
 				"This menu can be used to do various actions that would normally require a keybind to be set beforehand."
+				""
+				"Axes are considered weapons, so if you find you can't use it. Go to R menu > settings > mine with weapons toggle."
 			]
 			dependencies: ["795B8255119B5912"]
 			id: "66803E08CE167810"
@@ -115,28 +117,28 @@
 				{
 					id: "410AB4B90D6AB98C"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/title @p times 4 120 4"
 					player_command: false
 				}
 				{
 					id: "4F320DE94E758CAA"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/title @p subtitle \"It shows important information about the modpack\""
 					player_command: false
 				}
 				{
 					id: "35232FED4389BA45"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/title @p times 4 120 4"
 					player_command: false
 				}
 				{
 					id: "09D31BCB3BA6EAAE"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/title @p title \"Open the questbook to begin\""
 					player_command: false
 				}
@@ -173,6 +175,31 @@
 				id: "59D630F226EB2906"
 				type: "checkmark"
 				title: "Professions"
+			}]
+		}
+		{
+			icon: "artifacts:crystal_heart"
+			x: -1.0d
+			y: -8.0d
+			subtitle: "A little something to get you started."
+			dependencies: [
+				"5CBC7C5782DDD486"
+				"0E3AC4F0A925DE3C"
+				"2866D1559387E68A"
+				"66803E08CE167810"
+				"34549E6620C19F9C"
+			]
+			id: "5EF2745CC5DA9B1C"
+			tasks: [{
+				id: "0DDFE066197A910D"
+				type: "checkmark"
+				title: "Mission Begins"
+			}]
+			rewards: [{
+				id: "6537C12DD792B02E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6009508235035804685L
 			}]
 		}
 	]

@@ -1,0 +1,1385 @@
+{
+	id: "2523788969F6A775"
+	group: "4E03E5FEAE87C266"
+	order_index: 2
+	filename: "culture_quests"
+	title: "Culture Quests"
+	icon: "croptopia:wine"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: 10.5d
+			id: "759BED1B6183C87E"
+			tasks: [{
+				id: "091C5582C24BA553"
+				type: "checkmark"
+				title: "Explore Your Species' Culture"
+			}]
+		}
+		{
+			icon: "magicfungi:vivifica_mushroom"
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["759BED1B6183C87E"]
+			id: "106C4DFCC3B8E693"
+			tasks: [{
+				id: "5569B7C0D885D973"
+				type: "advancement"
+				advancement: "enoki:choose_enoki"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "minecraft:redstone_block"
+			x: -7.0d
+			y: 15.0d
+			dependencies: ["759BED1B6183C87E"]
+			id: "3F22189167D2EB34"
+			tasks: [{
+				id: "63F3975B81CEC118"
+				type: "advancement"
+				advancement: "automaton:choose_automaton"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "playdate:steve_plush"
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["759BED1B6183C87E"]
+			id: "67C28523BF4B6FFB"
+			tasks: [{
+				id: "3EDD0FF73D8A1194"
+				type: "advancement"
+				advancement: "human:choose_human"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "minecraft:glow_berries"
+			x: 5.5d
+			y: 24.5d
+			dependencies: ["759BED1B6183C87E"]
+			id: "58C7ABED2C9BD85A"
+			tasks: [{
+				id: "171CB8F776FA651A"
+				type: "advancement"
+				advancement: "dina:choose_laevis"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0B9D0FCBB51EFB91"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			icon: "magicfungi:morbus_mushroom"
+			x: 12.0d
+			y: 15.0d
+			subtitle: "Tenebris are the murdery type."
+			description: ["The Anti Species to the Enoki. This species is a collection of mycelium which animates collections of ancient wood to gain a single bipedal form. The difference to that of the Enoki is that instead of a singularity of spores that fight to work together, this is a single spore that fought for itself through rare and immense natural power. Because of this the Tenebris reject all Enoki culture and magic. The Tenebris are masters of the dark arts and have natural born abilities that are completely different from the Enoki.There are few Tenebris, however they mostly deal with the dark arts and magic."]
+			dependencies: ["759BED1B6183C87E"]
+			id: "194E73FC9581546D"
+			tasks: [{
+				id: "7C1E4744A5DA8043"
+				type: "advancement"
+				advancement: "dina:choose_tenebris"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "minecraft:amethyst_shard"
+			x: -0.5d
+			y: 19.5d
+			dependencies: ["759BED1B6183C87E"]
+			id: "07F753EE9D19A275"
+			tasks: [{
+				id: "44A75D125628F88D"
+				type: "advancement"
+				advancement: "beryl:choose_beryl"
+				criterion: ""
+			}]
+		}
+		{
+			icon: "indrev:nikolite_dust"
+			x: 12.5d
+			y: 4.0d
+			dependencies: ["759BED1B6183C87E"]
+			id: "195E89B6A503CC0E"
+			tasks: [{
+				id: "1781B1724EF205AB"
+				type: "advancement"
+				advancement: "indrevian:choose_indrev"
+				criterion: ""
+			}]
+		}
+		{
+			x: 16.0d
+			y: 17.5d
+			description: ["Kill one of every villager profession with a crossbow"]
+			dependencies: ["194E73FC9581546D"]
+			id: "0C12A9019977CEFA"
+			tasks: [{
+				id: "6E89FE81641928F2"
+				type: "advancement"
+				advancement: "minecraft:adventure/whos_the_pillager_now"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "177807FA53CDE2F2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			icon: "spectrum:villager_head"
+			x: 14.5d
+			y: 19.5d
+			dependencies: ["194E73FC9581546D"]
+			id: "05A47F5F2D3D612F"
+			tasks: [{
+				id: "789D93B59FD05930"
+				type: "questsadditions:killnbt"
+				title: "Kill 100 Villagers with a stick"
+				entity: "minecraft:villager"
+				value: 100L
+				nbt: { }
+				checkItem: true
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "4A67713DEB7E0B08"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 15.0d
+			dependencies: ["194E73FC9581546D"]
+			id: "3E30B926E83D6126"
+			tasks: [{
+				id: "11B44345D80DED59"
+				type: "advancement"
+				title: "Kill 50 Bats"
+				advancement: "moreachievements:batman"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2519A0CA33555CCA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 12.5d
+			dependencies: ["194E73FC9581546D"]
+			id: "7D19BAD3435E4166"
+			tasks: [{
+				id: "355B56BC9CBDA6DB"
+				type: "advancement"
+				title: "Get an animal head as a trophy"
+				advancement: "betteranimalsplus:animal_head_first"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5B08C3B5679C4FCC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 19.5d
+			subtitle: "Listen to their screams"
+			dependencies: ["194E73FC9581546D"]
+			id: "4F6C95F97EB1553A"
+			tasks: [{
+				id: "6E5A1DFDE1CF41A1"
+				type: "kill"
+				title: "Kill 100 Horses"
+				icon: "simplehats:horsemask"
+				entity: "minecraft:horse"
+				value: 100L
+			}]
+			rewards: [{
+				id: "011D3E545D790196"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "39F26ABA3A65C75C"
+			tasks: [{
+				id: "7437E1D4F76FBCF9"
+				type: "advancement"
+				advancement: "moreachievements:overachiever"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "505905E16B2AB986"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "3BCA94EAFB802979"
+			tasks: [{
+				id: "46D06FF82956C906"
+				type: "advancement"
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1E7F6DDF01185704"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 9.489010989011007d
+			y: 19.699911695447405d
+			dependencies: ["194E73FC9581546D"]
+			id: "3B26F8C12F7B450D"
+			tasks: [{
+				id: "7C1F5403A4DCF927"
+				type: "advancement"
+				advancement: "betteranimalsplus:animal_head_all"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1F08C89C034CE74B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "4AB425CA883CCAC9"
+			tasks: [{
+				id: "7740C8BA69C8CB18"
+				type: "advancement"
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "06B7887DDCCF2F9F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "15B8DB212EF9DEB8"
+			tasks: [{
+				id: "04D65D1700D425E8"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/witch_quest"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "43E9377499546839"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 9.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "2F1FB2355E3B1729"
+			tasks: [{
+				id: "11043B85ABEFBD5B"
+				type: "advancement"
+				advancement: "valley:exploration/midas_taste"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "510A69970910D3CF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "23080E9D5030A516"
+			tasks: [{
+				id: "1192E82587B13612"
+				type: "advancement"
+				advancement: "spectrum:midgame/equip_neat_ring"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3EEFC37352B33268"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 27.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "44D15907D15E8073"
+			tasks: [{
+				id: "2337F48C73B05D40"
+				type: "advancement"
+				advancement: "adorn:stone_torch"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "07785E89CCFDBECC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 29.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "3D2289CB63E85978"
+			tasks: [{
+				id: "08FAE978C51CE3F7"
+				type: "advancement"
+				advancement: "valley:exploration/sunshine"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "281DAB8DC6783AFE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 22.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "3EC034C27E154268"
+			tasks: [{
+				id: "75DE67E2D3817230"
+				type: "advancement"
+				advancement: "valley:exploration/farmsteader"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "000EE3EF7C7CE56D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "5AF94016E92C34B6"
+			tasks: [{
+				id: "7306B4B60CC050C3"
+				type: "advancement"
+				advancement: "inmis:bejeweled_backpack"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C0285376092EFAF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 26.0d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "26F25383D3438507"
+			tasks: [{
+				id: "0DE282887BBB8DF0"
+				type: "advancement"
+				advancement: "byg:husbandry/berrily_alive"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3203F4E9A169D059"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 18.0d
+			dependencies: ["194E73FC9581546D"]
+			id: "491790F5BC19363B"
+			tasks: [{
+				id: "62E026BBC4DEC1A9"
+				type: "advancement"
+				advancement: "tconstruct:world/blood_island"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "614242A1DC2B08C0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 23.5d
+			dependencies: ["07F753EE9D19A275"]
+			id: "244E4DDF90DA3767"
+			tasks: [{
+				id: "6986AF2A47A83BAD"
+				type: "advancement"
+				advancement: "indrev:cable_mk3"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C83E76297A128B2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 21.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "57E5F875F4734E3B"
+			tasks: [{
+				id: "2BF58E1973CD9AAC"
+				type: "advancement"
+				advancement: "friendsandfoes:husbandry/tame_a_glare"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7CD746B85682EBC0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 23.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "1C4EB47627533714"
+			tasks: [{
+				id: "302CC90F981F0C4B"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/glowshroom_stew"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "69A684086BCF37C3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 25.5d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "0EEE3D596E8EA583"
+			tasks: [{
+				id: "6426FA0DBCD261D1"
+				type: "advancement"
+				advancement: "additionaladditions:obtain_glow_stick"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "035AEF8F119E434C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 1.5329670329670506d
+			y: 19.304307299843018d
+			dependencies: ["07F753EE9D19A275"]
+			id: "26D43C87C99C6DAC"
+			tasks: [{
+				id: "26E9E07681F871A0"
+				type: "advancement"
+				advancement: "the_bumblezone:the_bumblezone/honey_crystal/obtain_honey_crystal_block"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3426FBF6D43C5AF3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 22.0d
+			dependencies: ["07F753EE9D19A275"]
+			id: "7D168696116546F7"
+			tasks: [{
+				id: "10505C33E330D9C0"
+				type: "advancement"
+				advancement: "mythicmetals:kyber"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0A9987A81C14AFEE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "5322B870716FD97F"
+			tasks: [{
+				id: "4F0B8D9BDE102F48"
+				type: "advancement"
+				advancement: "additionaladditions:obtain_gilded_netherite"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3F68BECFBB0C22CF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "6CBEF4C73F43653B"
+			tasks: [{
+				id: "3CB8C093FB2E204D"
+				type: "advancement"
+				advancement: "twilightforest:arctic_armor_dyed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "14997E90F73B3829"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 17.5d
+			dependencies: ["07F753EE9D19A275"]
+			id: "6C4CF61A1F2CB6E9"
+			tasks: [{
+				id: "6312018809FF4B31"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/illunite_shard"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "26C09CF3C6937089"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 25.0d
+			dependencies: ["07F753EE9D19A275"]
+			id: "71693E8017A8EFDA"
+			tasks: [{
+				id: "7FF04F9E6A7C1A14"
+				type: "advancement"
+				advancement: "create:sturdy_sheet"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "611E2163CFFEE031"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 14.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "5E6CAF1CBEB87A6D"
+			tasks: [{
+				id: "4E7C100C3319DE0C"
+				type: "advancement"
+				advancement: "spectrum:midgame/carry_too_many_heavy_gravity_blocks"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "416339D89B22C90C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 7.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "0610C32A515C2329"
+			tasks: [{
+				id: "4655C62C64E1A642"
+				type: "advancement"
+				advancement: "indrev:gamer_axe"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "017EC31E2FB9EF22"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "5793C54B17E34FE5"
+			tasks: [{
+				id: "13E5A1FA682893F2"
+				type: "advancement"
+				advancement: "moreachievements:saveyourdogfromarrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4532F1EDB86E2A91"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "669B7396563C2977"
+			tasks: [{
+				id: "1C351C668B716426"
+				type: "advancement"
+				advancement: "magicfungi:heart_of_vivifica"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "78BFED359CD8ECCD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 7.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "70B64AD3E1CE96CB"
+			tasks: [{
+				id: "5E509FBD5825CF53"
+				type: "advancement"
+				advancement: "magicfungi:vivifica_glyphs"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2E7BF877157851DB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -4.70879120879119d
+			y: 1.0185930141287258d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "4AC26E52C49E2492"
+			tasks: [{
+				id: "1D40559B0AD58AFA"
+				type: "advancement"
+				advancement: "magicfungi:vivifica_spells"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "170A92BC1D1257F5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 15.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "1FF4C2DCDDFB87FB"
+			tasks: [{
+				id: "7CD70B45E9C57CEB"
+				type: "advancement"
+				advancement: "minecraft:adventure/lightning_rod_with_villager_no_fire"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6F3F84EF4000FD28"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "2A660A8C7D573CA9"
+			tasks: [{
+				id: "241E20C7FFBB52C0"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/all_glowshrooms"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "05A37B8743CFD8B2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 12.5d
+			dependencies: ["194E73FC9581546D"]
+			id: "3F98829574E4F648"
+			tasks: [{
+				id: "7D7D6C08206D1BA4"
+				type: "advancement"
+				advancement: "additionaladditions:shot_self_scoped_crossbow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "57E5A5101C17647E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -1.0d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "46A0A2A7B7D9ADC5"
+			tasks: [{
+				id: "049DA959A04C17D9"
+				type: "advancement"
+				advancement: "minecraft:adventure/trade_at_world_height"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6D66A3CC811A63C1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "54DD77D8131B5419"
+			tasks: [{
+				id: "08ED67DB6FE78455"
+				type: "advancement"
+				advancement: "farmersdelight:main/get_mushroom_colony"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A20268432483B37"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 4.0d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "713BF404E65DB76B"
+			tasks: [{
+				id: "23E1C33B01AA8673"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/blighted_stone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6D60FB7E006CADDC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "65A812478D76F940"
+			tasks: [{
+				id: "435DD6FD2AA86715"
+				type: "advancement"
+				advancement: "magicfungi:mushroom_stew"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2DC5C9809F9715CA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 8.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "3A5A9BA2E617F1A2"
+			tasks: [{
+				id: "2E59866BAF5C4714"
+				type: "advancement"
+				advancement: "mythicmetals:mythril"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "64BAE200FEA2B434"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 15.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "1FD7D8BC2ECF7F9F"
+			tasks: [{
+				id: "730CC2A4DCAEC4E0"
+				type: "advancement"
+				advancement: "create:musical_arm"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3BEDA6A9BB94836D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 18.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "6A02A6529C33BA2E"
+			tasks: [{
+				id: "2440149E8DE55FEB"
+				type: "advancement"
+				advancement: "modern_industrialization:advanced_upgrade"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "44E1F5197A9E1B42"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 26.5d
+			dependencies: ["07F753EE9D19A275"]
+			id: "20F85BCF3C13FBFC"
+			tasks: [{
+				id: "045D913D2A4C6A1E"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_moonstone_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6CD2C2426F0D1A26"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 2.6530612244897966d
+			y: 30.07015306122448d
+			dependencies: ["58C7ABED2C9BD85A"]
+			id: "098FAEE3563C0178"
+			tasks: [{
+				id: "49E742C373D3E68B"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/lightning_bug_bottle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5AC873D032E24391"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 27.5d
+			dependencies: ["07F753EE9D19A275"]
+			id: "068E461738B98892"
+			tasks: [{
+				id: "520BD2B503863B35"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_shards"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "13E33A43E2088D1F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 10.5d
+			dependencies: ["195E89B6A503CC0E"]
+			id: "23D97A6D84AA06F3"
+			tasks: [{
+				id: "701039768655BFDA"
+				type: "advancement"
+				advancement: "mythicmetals:midas_gold"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29F9AC9479015F9A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 19.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "21DACAF147898736"
+			tasks: [{
+				id: "02E55751FFE14D15"
+				type: "advancement"
+				advancement: "ae2:main/network3"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "562DAC5E76429AAC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 11.5d
+			dependencies: ["3F22189167D2EB34"]
+			id: "1CE209A0CC9578CF"
+			tasks: [{
+				id: "52574ADD5136185C"
+				type: "advancement"
+				advancement: "tconstruct:tools/modified"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "100CEF6E961BC68F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "4B5A70DA054378E6"
+			tasks: [{
+				id: "4723BAED35A3C15D"
+				type: "advancement"
+				advancement: "farmersdelight:main/place_cooking_pot"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1FCDFC26C004956D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 18.0d
+			dependencies: ["3F22189167D2EB34"]
+			id: "559D52738F7A0ED8"
+			tasks: [{
+				id: "4DEB2030FC28EFE0"
+				type: "advancement"
+				advancement: "create:deployer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40B532838F55344F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			title: "Love the redstone things"
+			x: -7.0d
+			y: 18.5d
+			dependencies: ["3F22189167D2EB34"]
+			id: "0660DD7215E78F70"
+			tasks: [
+				{
+					id: "3A9E38D805952FD4"
+					type: "item"
+					item: "minecraft:redstone_ore"
+					count: 64L
+				}
+				{
+					id: "4631DAF153BBFB79"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 64L
+				}
+				{
+					id: "46CEF4190E3CD909"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 64L
+				}
+				{
+					id: "71731D8180033904"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "64311EABCAD01CA5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "343F5DAABF811968"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9196940541150294825L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 14.0d
+			dependencies: ["194E73FC9581546D"]
+			id: "74F33CC6155A3C1C"
+			tasks: [{
+				id: "48CA0A3CC1AE4FA5"
+				type: "advancement"
+				advancement: "minecraft:adventure/sniper_duel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "18FD020678621D25"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "2EB6AD19C18D571E"
+			tasks: [{
+				id: "5E9052D04EAA9FFD"
+				type: "advancement"
+				advancement: "valley:exploration/climbing_axe"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36C4094E253F3EED"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "3F926136BA60389D"
+			tasks: [{
+				id: "632D9E78659196E9"
+				type: "advancement"
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "692EAF69FF2EE230"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "367E7B4546BD9A55"
+			tasks: [{
+				id: "0FD7D190700565B9"
+				type: "advancement"
+				advancement: "mostructures:barn_house"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "60A8DAAD35699892"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "39EF97995589B1B4"
+			tasks: [{
+				id: "57E2017FE071A0F5"
+				type: "advancement"
+				advancement: "minecraft:adventure/summon_iron_golem"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7DC9E2967BD4B70E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 10.0d
+			dependencies: ["106C4DFCC3B8E693"]
+			id: "42E40EB020BC7F2F"
+			tasks: [{
+				id: "1596A8F95A2A61F3"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/cladded_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6E5D796B666071EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "7BB9EC3181656FE5"
+			tasks: [{
+				id: "06B8D1C11CBFB936"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/witch_hat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1DBB6B1B84606552"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 16.0d
+			dependencies: ["194E73FC9581546D"]
+			id: "5C569003BF01DA06"
+			tasks: [{
+				id: "34A061AB82D500C8"
+				type: "advancement"
+				advancement: "magicfungi:morbus_clock"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5E9FA106DBBB94DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "65A8F5D49F01D725"
+			tasks: [{
+				id: "02A74E03CBD86CFD"
+				type: "advancement"
+				advancement: "betteranimalsplus:ride_reindeer"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "35393463F888E11B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "216B5DCF3DF07175"
+			tasks: [{
+				id: "444691D49B064405"
+				type: "advancement"
+				advancement: "adorn:sofa"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2F23659726AE1717"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "2243B9D83C57ECC8"
+			tasks: [{
+				id: "6E97E518D84931C4"
+				type: "advancement"
+				advancement: "moreachievements:invisibility"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4C2DC73CF3C2C40D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			dependencies: ["194E73FC9581546D"]
+			id: "51B7E2872AB700EB"
+			tasks: [{
+				id: "72BC895CF7774EB5"
+				type: "advancement"
+				advancement: "magicfungi:heart_of_morbus"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5E3F747FE0BCB390"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "05C76D7FA1A45D85"
+			tasks: [{
+				id: "78C70813547ECB6F"
+				type: "advancement"
+				advancement: "additionaladditions:obtain_mysterious_bundle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "546556B7984C9DF5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "3A5D2EB9E74ED568"
+			tasks: [{
+				id: "626EDE4DE350BF12"
+				type: "advancement"
+				advancement: "create:red_signal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "385108D45CED6E0C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["67C28523BF4B6FFB"]
+			id: "3EC87265ABF87F8C"
+			tasks: [{
+				id: "09E87CCC3783C420"
+				type: "advancement"
+				advancement: "biomemakeover:biomemakeover/cursed_hat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4BF0511058EAA4CA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 9196940541150294825L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

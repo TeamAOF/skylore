@@ -14,8 +14,8 @@
     },
     "isUnlocked": true,
     "javaArgsOverride": null,
-    "lastPlayed": "2023-01-19T15:33:33.0073066Z",
-    "playedCount": 58,
+    "lastPlayed": "2023-01-20T21:25:37.6491003Z",
+    "playedCount": 66,
     "manifest": null,
     "fileDate": "0001-01-01T00:00:00",
     "installedModpack": null,
@@ -27,14 +27,14 @@
     "allocatedMemory": 4096,
     "profileImagePath": "C:\\Users\\dinan\\curseforge\\minecraft\\Instances\\SKYLORE\\profileImage\\Skylore_Icon_V3.png",
     "isVanilla": false,
-    "guid": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+    "guid": "facf7d23-93fa-47c6-8f5c-58776338b0df",
     "gameTypeID": 432,
     "installPath": "C:\\Users\\dinan\\curseforge\\minecraft\\Instances\\SKYLORE\\",
     "name": "SKYLORE",
     "cachedScans": [],
     "isValid": true,
-    "lastPreviousMatchUpdate": "2023-01-19T15:26:18.8955493Z",
-    "lastRefreshAttempt": "2023-01-19T10:26:20.2251682-05:00",
+    "lastPreviousMatchUpdate": "2023-01-20T21:16:27.5317135Z",
+    "lastRefreshAttempt": "2023-01-20T16:16:28.5212995-05:00",
     "isEnabled": true,
     "gameVersion": "1.18.2",
     "gameVersionFlavor": null,
@@ -56,14 +56,14 @@
         "SavedVariablesProfile": null,
         "LastSyncDate": "0001-01-01T00:00:00"
     },
-    "installDate": "2023-01-19T01:51:58.3397379Z",
+    "installDate": "2023-01-19T16:00:46.7960636Z",
     "installedAddons": [
         {
             "instanceID": "3fa3bd3e-ec96-4702-b7b7-cb3357293747",
             "modSource": 0,
             "addonID": 227639,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "The Twilight Forest",
             "modFolderPath": null,
             "authors": [
@@ -340,7 +340,7 @@
             "modSource": 0,
             "addonID": 456457,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Axes Are Weapons (Fabric/Forge)",
             "modFolderPath": null,
             "authors": [
@@ -636,7 +636,7 @@
             "modSource": 0,
             "addonID": 535960,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Bridges - Oh The Biomes You'll Go",
             "modFolderPath": null,
             "authors": [
@@ -858,7 +858,7 @@
             "modSource": 0,
             "addonID": 678036,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Combat Roll [Fabric & Forge]",
             "modFolderPath": null,
             "authors": [
@@ -972,7 +972,7 @@
             "dateInstalled": "2023-01-18T22:45:45.3417755Z",
             "dateUpdated": "2023-01-18T22:45:45.3417755Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -1086,7 +1086,7 @@
             "modSource": 0,
             "addonID": 597988,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Roughly Enough Professions (REP)",
             "modFolderPath": null,
             "authors": [
@@ -1281,7 +1281,7 @@
             "modSource": 0,
             "addonID": 416089,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Simple Voice Chat",
             "modFolderPath": null,
             "authors": [
@@ -1543,7 +1543,7 @@
             "modSource": 0,
             "addonID": 560975,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MoreAchievements [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -1715,7 +1715,7 @@
             "modSource": 0,
             "addonID": 616330,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Realistic Sleep (Fabric/Quilt)",
             "modFolderPath": null,
             "authors": [
@@ -1879,7 +1879,7 @@
             "dateInstalled": "2023-01-18T22:45:45.3455507Z",
             "dateUpdated": "2023-01-18T22:45:45.3455507Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -2043,7 +2043,7 @@
             "modSource": 0,
             "addonID": 536603,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ShetiPhianCore [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -2283,7 +2283,7 @@
             "modSource": 0,
             "addonID": 416379,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Villager Names (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -2502,7 +2502,7 @@
             "modSource": 0,
             "addonID": 411557,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ToolTipFix",
             "modFolderPath": null,
             "authors": [
@@ -2720,7 +2720,7 @@
             "modSource": 0,
             "addonID": 658587,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "playerAnimator",
             "modFolderPath": null,
             "authors": [
@@ -2948,7 +2948,7 @@
             "modSource": 0,
             "addonID": 508556,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Additional Additions | Fabric",
             "modFolderPath": null,
             "authors": [
@@ -3168,7 +3168,7 @@
             "modSource": 0,
             "addonID": 438365,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Bosses of Mass Destruction",
             "modFolderPath": null,
             "authors": [
@@ -3420,7 +3420,7 @@
             "modSource": 0,
             "addonID": 482731,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's Quivers",
             "modFolderPath": null,
             "authors": [
@@ -3612,7 +3612,7 @@
             "modSource": 0,
             "addonID": 391812,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mobs Attempt Parkour",
             "modFolderPath": null,
             "authors": [
@@ -3792,7 +3792,7 @@
             "modSource": 0,
             "addonID": 532730,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Library Ferret - Fabric",
             "modFolderPath": null,
             "authors": [
@@ -3994,7 +3994,7 @@
             "modSource": 0,
             "addonID": 530668,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Ellemes' Container Library",
             "modFolderPath": null,
             "authors": [
@@ -4113,7 +4113,7 @@
             "dateInstalled": "2023-01-18T22:45:45.3582468Z",
             "dateUpdated": "2023-01-18T22:45:45.3582468Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -4232,7 +4232,7 @@
             "modSource": 0,
             "addonID": 619983,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Updated Wall-Jump! [FABRIC]",
             "modFolderPath": null,
             "authors": [
@@ -4458,7 +4458,7 @@
             "modSource": 0,
             "addonID": 248787,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "AppleSkin",
             "modFolderPath": null,
             "authors": [
@@ -4660,7 +4660,7 @@
             "modSource": 0,
             "addonID": 536610,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Platforms [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -4892,7 +4892,7 @@
             "modSource": 0,
             "addonID": 396094,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Armor Points ++ / Health Stacking",
             "modFolderPath": null,
             "authors": [
@@ -5104,7 +5104,7 @@
             "modSource": 0,
             "addonID": 324717,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Jade 🔍",
             "modFolderPath": null,
             "authors": [
@@ -5316,7 +5316,7 @@
             "modSource": 0,
             "addonID": 411357,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Botany Trees",
             "modFolderPath": null,
             "authors": [
@@ -5508,7 +5508,7 @@
             "modSource": 0,
             "addonID": 449974,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mob Origins",
             "modFolderPath": null,
             "authors": [
@@ -5710,7 +5710,7 @@
             "modSource": 0,
             "addonID": 438718,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Alloy Forgery",
             "modFolderPath": null,
             "authors": [
@@ -5930,7 +5930,7 @@
             "modSource": 0,
             "addonID": 575588,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Subterrestrial",
             "modFolderPath": null,
             "authors": [
@@ -6112,7 +6112,7 @@
             "modSource": 0,
             "addonID": 658286,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Automobility",
             "modFolderPath": null,
             "authors": [
@@ -6342,7 +6342,7 @@
             "modSource": 0,
             "addonID": 421147,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ItemFlexer",
             "modFolderPath": null,
             "authors": [
@@ -6504,7 +6504,7 @@
             "modSource": 0,
             "addonID": 404828,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "RpgZ",
             "modFolderPath": null,
             "authors": [
@@ -6727,7 +6727,7 @@
             "modSource": 0,
             "addonID": 565956,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "TerraBlender (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -6742,13 +6742,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/478/13/256/256/637773349975382748.png",
             "tags": [],
             "installedFile": {
-                "id": 3957975,
-                "fileName": "TerraBlender-fabric-1.18.2-1.2.0.126.jar",
-                "fileDate": "2022-08-30T00:46:52.973Z",
-                "fileLength": 307219,
+                "id": 3816496,
+                "fileName": "TerraBlender-fabric-1.18.2-1.1.0.102.jar",
+                "fileDate": "2022-06-04T00:47:27.093Z",
+                "fileLength": 307687,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3957/975/TerraBlender-fabric-1.18.2-1.2.0.126.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/3816/496/TerraBlender-fabric-1.18.2-1.1.0.102.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
@@ -6761,7 +6761,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3396024708,
+                        "fingerprint": 1247164930,
                         "invalidFingerprint": false
                     },
                     {
@@ -6776,7 +6776,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 90247955,
+                        "fingerprint": 3048133058,
                         "invalidFingerprint": false
                     },
                     {
@@ -6786,17 +6786,17 @@
                     },
                     {
                         "foldername": "terrablender.mixins.json",
-                        "fingerprint": 1836354330,
+                        "fingerprint": 3767567741,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "terrablender_fabric.mixins.json",
-                        "fingerprint": 502904098,
+                        "fingerprint": 3373676854,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "terrablender.accesswidener",
-                        "fingerprint": 1081761614,
+                        "fingerprint": 2531285947,
                         "invalidFingerprint": false
                     },
                     {
@@ -6805,22 +6805,17 @@
                         "invalidFingerprint": false
                     },
                     {
-                        "foldername": "data",
-                        "fingerprint": 2611306458,
-                        "invalidFingerprint": false
-                    },
-                    {
                         "foldername": "TerraBlender-fabric-refmap.json",
-                        "fingerprint": 2862986868,
+                        "fingerprint": 2738841525,
                         "invalidFingerprint": false
                     },
                     {
                         "foldername": "terrablender",
-                        "fingerprint": 136387394,
+                        "fingerprint": 818311566,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1496646385,
+                "packageFingerprint": 722574027,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -6842,13 +6837,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 565956,
-                "fileNameOnDisk": "TerraBlender-fabric-1.18.2-1.2.0.126.jar",
+                "fileNameOnDisk": "TerraBlender-fabric-1.18.2-1.1.0.102.jar",
                 "Hashes": []
             },
-            "dateInstalled": "2022-12-19T21:45:36.7264984Z",
-            "dateUpdated": "2023-01-14T06:03:08.8676668Z",
-            "dateLastUpdateAttempted": "2023-01-14T06:03:08.8676668Z",
-            "status": 5,
+            "dateInstalled": "2023-01-20T04:42:24.2846703Z",
+            "dateUpdated": "2023-01-20T04:42:24.2966366Z",
+            "dateLastUpdateAttempted": "2023-01-20T04:42:24.2966366Z",
+            "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -6969,7 +6964,7 @@
             "modSource": 0,
             "addonID": 577629,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Playdate",
             "modFolderPath": null,
             "authors": [
@@ -7174,7 +7169,7 @@
             "modSource": 0,
             "addonID": 465336,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Terrarian Slimes",
             "modFolderPath": null,
             "authors": [
@@ -7384,7 +7379,7 @@
             "modSource": 0,
             "addonID": 438496,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FTB Quests (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -7508,7 +7503,7 @@
             "dateInstalled": "2023-01-18T22:45:45.354604Z",
             "dateUpdated": "2023-01-18T22:45:45.354604Z",
             "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -7629,7 +7624,7 @@
             "modSource": 0,
             "addonID": 639842,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Better Combat [Fabric & Forge]",
             "modFolderPath": null,
             "authors": [
@@ -7877,7 +7872,7 @@
             "modSource": 0,
             "addonID": 560323,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Feature NBT Deadlock Be Gone",
             "modFolderPath": null,
             "authors": [
@@ -8059,7 +8054,7 @@
             "modSource": 0,
             "addonID": 310111,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Roughly Enough Items Fabric/Forge (REI)",
             "modFolderPath": null,
             "authors": [
@@ -8329,7 +8324,7 @@
             "modSource": 0,
             "addonID": 603972,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Quality of Life (QoL) Fixes",
             "modFolderPath": null,
             "authors": [
@@ -8577,7 +8572,7 @@
             "modSource": 0,
             "addonID": 438497,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FTB Teams (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -8716,7 +8711,7 @@
             "modSource": 0,
             "addonID": 455508,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Iris Shaders",
             "modFolderPath": null,
             "authors": [
@@ -9063,7 +9058,7 @@
             "modSource": 0,
             "addonID": 448231,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FTB Ultimine (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -9297,7 +9292,7 @@
             "modSource": 0,
             "addonID": 502664,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Exline's Wool to String",
             "modFolderPath": null,
             "authors": [
@@ -9469,7 +9464,7 @@
             "modSource": 0,
             "addonID": 225738,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MmmMmmMmmMmm (Target Dummy)",
             "modFolderPath": null,
             "authors": [
@@ -9661,7 +9656,7 @@
             "modSource": 0,
             "addonID": 610525,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Fleeing Animals",
             "modFolderPath": null,
             "authors": [
@@ -9897,7 +9892,7 @@
             "modSource": 0,
             "addonID": 325471,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Inventory Sorting",
             "modFolderPath": null,
             "authors": [
@@ -10079,7 +10074,7 @@
             "modSource": 0,
             "addonID": 238086,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "KubeJS",
             "modFolderPath": null,
             "authors": [
@@ -10369,7 +10364,7 @@
             "modSource": 0,
             "addonID": 388832,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Kibe Utilities",
             "modFolderPath": null,
             "authors": [
@@ -10477,19 +10472,12 @@
                 "projectStatus": 4,
                 "projectId": 388832,
                 "fileNameOnDisk": "kibe-1.9.11-BETA+1.18.jar",
-                "Hashes": [
-                    {
-                        "Value": "0db569c02dd961be594a6dd839839006500c243e"
-                    },
-                    {
-                        "Value": "113811dbfd021add6fff2da18a9e3fa5"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2023-01-19T15:24:10.5542634Z",
             "dateUpdated": "2023-01-19T15:24:10.5562596Z",
             "dateLastUpdateAttempted": "2023-01-19T15:24:10.5562596Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -10594,14 +10582,7 @@
                 "projectStatus": 4,
                 "projectId": 388832,
                 "fileNameOnDisk": "kibe-1.9.11-BETA+1.18.jar",
-                "Hashes": [
-                    {
-                        "Value": "0db569c02dd961be594a6dd839839006500c243e"
-                    },
-                    {
-                        "Value": "113811dbfd021add6fff2da18a9e3fa5"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -10609,7 +10590,7 @@
             "modSource": 0,
             "addonID": 527023,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Eating Animation [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -10821,177 +10802,11 @@
             }
         },
         {
-            "instanceID": "3ad69eff-1a89-4b60-9919-5102c90839e3",
-            "modSource": 0,
-            "addonID": 551890,
-            "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
-            "name": "Polymer",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Patbox"
-                }
-            ],
-            "primaryAuthor": "Patbox",
-            "primaryCategoryId": 421,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/polymer",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/461/232/256/256/637740708510978283.png",
-            "tags": [],
-            "installedFile": {
-                "id": 4353195,
-                "fileName": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "fileDate": "2023-01-19T07:03:19.77Z",
-                "fileLength": 503250,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4353/195/polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1453233526,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_polymer-all",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 674303577,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2735965296,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4119167443,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 551890,
-                "fileNameOnDisk": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "4a9376fed6c866ffed7b472c69d138e2b29169c0"
-                    },
-                    {
-                        "Value": "1683271d81498a59328e2f9ecbfe29e6"
-                    }
-                ]
-            },
-            "dateInstalled": "2023-01-19T15:19:47.7220956Z",
-            "dateUpdated": "2023-01-19T15:19:47.7240896Z",
-            "dateLastUpdateAttempted": "2023-01-19T15:19:47.7240896Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 4353195,
-                "fileName": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "fileDate": "2023-01-19T07:03:19.77Z",
-                "fileLength": 503250,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4353/195/polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 1453233526,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_polymer-all",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 674303577,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2735965296,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 4119167443,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 551890,
-                "fileNameOnDisk": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "4a9376fed6c866ffed7b472c69d138e2b29169c0"
-                    },
-                    {
-                        "Value": "1683271d81498a59328e2f9ecbfe29e6"
-                    }
-                ]
-            }
-        },
-        {
             "instanceID": "f7551717-d0b7-4a4b-8dbd-7d6032ee84f5",
             "modSource": 0,
             "addonID": 311120,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Couplings",
             "modFolderPath": null,
             "authors": [
@@ -11163,7 +10978,7 @@
             "modSource": 0,
             "addonID": 631990,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Simple Hats",
             "modFolderPath": null,
             "authors": [
@@ -11393,7 +11208,7 @@
             "modSource": 0,
             "addonID": 369254,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Inmis",
             "modFolderPath": null,
             "authors": [
@@ -11595,7 +11410,7 @@
             "modSource": 0,
             "addonID": 453925,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Fences and Walls",
             "modFolderPath": null,
             "authors": [
@@ -11843,7 +11658,7 @@
             "modSource": 0,
             "addonID": 242223,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Just Enough Calculation",
             "modFolderPath": null,
             "authors": [
@@ -12091,7 +11906,7 @@
             "modSource": 0,
             "addonID": 242195,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Dark Utilities",
             "modFolderPath": null,
             "authors": [
@@ -12333,7 +12148,7 @@
             "modSource": 0,
             "addonID": 514882,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Advancement Plaques [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -12547,7 +12362,7 @@
             "modSource": 0,
             "addonID": 409221,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "PlayerEx",
             "modFolderPath": null,
             "authors": [
@@ -12807,7 +12622,7 @@
             "modSource": 0,
             "addonID": 419699,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Architectury API (Fabric/Forge)",
             "modFolderPath": null,
             "authors": [
@@ -13059,7 +12874,7 @@
             "modSource": 0,
             "addonID": 613215,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Goodall",
             "modFolderPath": null,
             "authors": [
@@ -13277,7 +13092,7 @@
             "modSource": 0,
             "addonID": 388172,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "GeckoLib",
             "modFolderPath": null,
             "authors": [
@@ -13508,7 +13323,7 @@
             "modSource": 0,
             "addonID": 733166,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Ultimine Addition",
             "modFolderPath": null,
             "authors": [
@@ -13523,22 +13338,22 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/671/821/256/256/638064178998954848.png",
             "tags": [],
             "installedFile": {
-                "id": 4276933,
-                "fileName": "ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
-                "fileDate": "2022-12-28T21:06:32.377Z",
-                "fileLength": 197513,
+                "id": 4354907,
+                "fileName": "ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
+                "fileDate": "2023-01-20T10:58:16.027Z",
+                "fileLength": 196437,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4276/933/ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/907/ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 448231,
+                        "addonId": 547434,
                         "type": 3
                     },
                     {
-                        "addonId": 547434,
+                        "addonId": 448231,
                         "type": 3
                     }
                 ],
@@ -13546,7 +13361,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3677397091,
+                        "fingerprint": 1363560969,
                         "invalidFingerprint": false
                     },
                     {
@@ -13566,7 +13381,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1268218829,
+                        "fingerprint": 346118039,
                         "invalidFingerprint": false
                     },
                     {
@@ -13586,11 +13401,11 @@
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 685410852,
+                        "fingerprint": 804861069,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1784916739,
+                "packageFingerprint": 2109216460,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -13612,13 +13427,13 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 733166,
-                "fileNameOnDisk": "ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
+                "fileNameOnDisk": "ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
                 "Hashes": []
             },
             "dateInstalled": "2023-01-15T04:50:23.9044811Z",
-            "dateUpdated": "2023-01-15T04:50:23.9074218Z",
-            "dateLastUpdateAttempted": "2023-01-15T04:50:23.9074218Z",
-            "status": 5,
+            "dateUpdated": "2023-01-20T15:53:57.3447949Z",
+            "dateLastUpdateAttempted": "2023-01-20T15:53:57.3447949Z",
+            "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -13630,22 +13445,22 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4276933,
-                "fileName": "ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
-                "fileDate": "2022-12-28T21:06:32.377Z",
-                "fileLength": 197513,
+                "id": 4354907,
+                "fileName": "ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
+                "fileDate": "2023-01-20T10:58:16.027Z",
+                "fileLength": 196437,
                 "releaseType": 2,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4276/933/ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/907/ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
                     {
-                        "addonId": 448231,
+                        "addonId": 547434,
                         "type": 3
                     },
                     {
-                        "addonId": 547434,
+                        "addonId": 448231,
                         "type": 3
                     }
                 ],
@@ -13653,7 +13468,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3677397091,
+                        "fingerprint": 1363560969,
                         "invalidFingerprint": false
                     },
                     {
@@ -13673,7 +13488,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 1268218829,
+                        "fingerprint": 346118039,
                         "invalidFingerprint": false
                     },
                     {
@@ -13693,11 +13508,11 @@
                     },
                     {
                         "foldername": "net",
-                        "fingerprint": 685410852,
+                        "fingerprint": 804861069,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 1784916739,
+                "packageFingerprint": 2109216460,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -13719,7 +13534,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 733166,
-                "fileNameOnDisk": "ultimine_addition-fabric-1.18.2-v0.1.0-beta.jar",
+                "fileNameOnDisk": "ultimine_addition-fabric-1.18.2-v0.1.0a-beta.jar",
                 "Hashes": []
             }
         },
@@ -13728,7 +13543,7 @@
             "modSource": 0,
             "addonID": 398022,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Earth2Java",
             "modFolderPath": null,
             "authors": [
@@ -13956,7 +13771,7 @@
             "modSource": 0,
             "addonID": 560262,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Croptopia's Chocolaterie [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -14166,7 +13981,7 @@
             "modSource": 0,
             "addonID": 536984,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "St'ructure Tools",
             "modFolderPath": null,
             "authors": [
@@ -14389,7 +14204,7 @@
             "modSource": 0,
             "addonID": 378266,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mo' Structures (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -14599,7 +14414,7 @@
             "modSource": 0,
             "addonID": 580136,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Quests Additions (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -14789,7 +14604,7 @@
             "modSource": 0,
             "addonID": 584511,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "The Graveyard Biomes (FABRIC)",
             "modFolderPath": null,
             "authors": [
@@ -14991,7 +14806,7 @@
             "modSource": 0,
             "addonID": 395272,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Tiny Coal",
             "modFolderPath": null,
             "authors": [
@@ -15188,7 +15003,7 @@
             "modSource": 0,
             "addonID": 664356,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Roughly Enough Trades",
             "modFolderPath": null,
             "authors": [
@@ -15378,7 +15193,7 @@
             "modSource": 0,
             "addonID": 415681,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Connectible Chains [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -15576,217 +15391,11 @@
             }
         },
         {
-            "instanceID": "5dc91c8b-1b02-4142-866f-a9775723d6f0",
-            "modSource": 0,
-            "addonID": 497175,
-            "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
-            "name": "Universal Graves",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "Patbox"
-                }
-            ],
-            "primaryAuthor": "Patbox",
-            "primaryCategoryId": 435,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/universal-graves",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/469/600/256/256/637755254774483191.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3813884,
-                "fileName": "graves-2.0.3+1.18.2.jar",
-                "fileDate": "2022-06-01T20:09:33.947Z",
-                "fileLength": 967177,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3813/884/graves-2.0.3+1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3912670532,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_graves",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 208444709,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2753032765,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "universal-graves.mixins.json",
-                        "fingerprint": 3199150020,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 4083672612,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "graves-refmap.json",
-                        "fingerprint": 3744420938,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "eu",
-                        "fingerprint": 2404037500,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3725591040,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 497175,
-                "fileNameOnDisk": "graves-2.0.3+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "9dc56f843fdb2510bf9adb388feb3df22b0c3600"
-                    },
-                    {
-                        "Value": "f5d5bcd41ddff108421db6ddc0471adb"
-                    }
-                ]
-            },
-            "dateInstalled": "2023-01-19T15:19:40.9410068Z",
-            "dateUpdated": "2023-01-19T15:19:40.9519485Z",
-            "dateLastUpdateAttempted": "2023-01-19T15:19:40.9519485Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3813884,
-                "fileName": "graves-2.0.3+1.18.2.jar",
-                "fileDate": "2022-06-01T20:09:33.947Z",
-                "fileLength": 967177,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3813/884/graves-2.0.3+1.18.2.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 3912670532,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "LICENSE_graves",
-                        "fingerprint": 1136524626,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 208444709,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 2753032765,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "universal-graves.mixins.json",
-                        "fingerprint": 3199150020,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 4083672612,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "graves-refmap.json",
-                        "fingerprint": 3744420938,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "eu",
-                        "fingerprint": 2404037500,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 3725591040,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 497175,
-                "fileNameOnDisk": "graves-2.0.3+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "9dc56f843fdb2510bf9adb388feb3df22b0c3600"
-                    },
-                    {
-                        "Value": "f5d5bcd41ddff108421db6ddc0471adb"
-                    }
-                ]
-            }
-        },
-        {
             "instanceID": "cad6ec84-91ed-4964-a7ee-4448838cf57e",
             "modSource": 0,
             "addonID": 532610,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "oωo (owo-lib)",
             "modFolderPath": null,
             "authors": [
@@ -15978,7 +15587,7 @@
             "modSource": 0,
             "addonID": 254284,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "AmbientSounds 5",
             "modFolderPath": null,
             "authors": [
@@ -16180,7 +15789,7 @@
             "modSource": 0,
             "addonID": 695277,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's Airships",
             "modFolderPath": null,
             "authors": [
@@ -16386,7 +15995,7 @@
             "modSource": 0,
             "addonID": 383725,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Enhanced Mushrooms",
             "modFolderPath": null,
             "authors": [
@@ -16654,7 +16263,7 @@
             "modSource": 0,
             "addonID": 365521,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Pling",
             "modFolderPath": null,
             "authors": [
@@ -16920,7 +16529,7 @@
             "modSource": 0,
             "addonID": 554340,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Catwalks Inc.",
             "modFolderPath": null,
             "authors": [
@@ -17122,7 +16731,7 @@
             "modSource": 0,
             "addonID": 461316,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Wireless Networks",
             "modFolderPath": null,
             "authors": [
@@ -17324,7 +16933,7 @@
             "modSource": 0,
             "addonID": 426206,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MC Dungeons Armors",
             "modFolderPath": null,
             "authors": [
@@ -17561,7 +17170,7 @@
             "modSource": 0,
             "addonID": 396234,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Pig Pen Cipher",
             "modFolderPath": null,
             "authors": [
@@ -17755,7 +17364,7 @@
             "modSource": 0,
             "addonID": 510974,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Interactic",
             "modFolderPath": null,
             "authors": [
@@ -17947,7 +17556,7 @@
             "modSource": 0,
             "addonID": 502372,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Lights and Lamps",
             "modFolderPath": null,
             "authors": [
@@ -18139,7 +17748,7 @@
             "modSource": 0,
             "addonID": 256717,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Clumps",
             "modFolderPath": null,
             "authors": [
@@ -18311,7 +17920,7 @@
             "modSource": 0,
             "addonID": 250398,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Controlling",
             "modFolderPath": null,
             "authors": [
@@ -18503,7 +18112,7 @@
             "modSource": 0,
             "addonID": 318449,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Cardinal Components",
             "modFolderPath": null,
             "authors": [
@@ -18682,7 +18291,7 @@
             "modSource": 0,
             "addonID": 223794,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Applied Energistics 2",
             "modFolderPath": null,
             "authors": [
@@ -18886,7 +18495,7 @@
             "modSource": 0,
             "addonID": 446253,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Better Biome Blend",
             "modFolderPath": null,
             "authors": [
@@ -19108,7 +18717,7 @@
             "modSource": 0,
             "addonID": 534835,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Load My Resources [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -19314,7 +18923,7 @@
             "modSource": 0,
             "addonID": 258371,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Valkyrien Skies (Forge/Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -19765,7 +19374,7 @@
             "modSource": 0,
             "addonID": 521783,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Starlight (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -19957,7 +19566,7 @@
             "modSource": 0,
             "addonID": 411816,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Simple Discord RPC [Forge/Fabric/Quilt]",
             "modFolderPath": null,
             "authors": [
@@ -20174,7 +19783,7 @@
             "modSource": 0,
             "addonID": 391708,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Industrial Revolution",
             "modFolderPath": null,
             "authors": [
@@ -20392,7 +20001,7 @@
             "modSource": 0,
             "addonID": 459929,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Applied Energistics 2 Wireless Terminals",
             "modFolderPath": null,
             "authors": [
@@ -20631,7 +20240,7 @@
             "modSource": 0,
             "addonID": 563800,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "AE2 Things",
             "modFolderPath": null,
             "authors": [
@@ -20841,7 +20450,7 @@
             "modSource": 0,
             "addonID": 433518,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "LazyDFU",
             "modFolderPath": null,
             "authors": [
@@ -21251,7 +20860,7 @@
             "modSource": 0,
             "addonID": 412182,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Biome Makeover",
             "modFolderPath": null,
             "authors": [
@@ -21501,7 +21110,7 @@
             "modSource": 0,
             "addonID": 556381,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Effective 💦",
             "modFolderPath": null,
             "authors": [
@@ -21703,7 +21312,7 @@
             "modSource": 0,
             "addonID": 363569,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Windows",
             "modFolderPath": null,
             "authors": [
@@ -21895,7 +21504,7 @@
             "modSource": 0,
             "addonID": 446499,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Taterzens [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -22003,9 +21612,9 @@
                 "fileNameOnDisk": "taterzens-1.9.6-fabric.jar",
                 "Hashes": []
             },
-            "dateInstalled": "2023-01-11T02:43:38.2616874Z",
-            "dateUpdated": "2023-01-11T02:43:38.2636828Z",
-            "dateLastUpdateAttempted": "2023-01-11T02:43:38.2636828Z",
+            "dateInstalled": "2023-01-20T04:12:53.3414953Z",
+            "dateUpdated": "2023-01-20T04:12:53.3444876Z",
+            "dateLastUpdateAttempted": "2023-01-20T04:12:53.3444876Z",
             "status": 3,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -22117,7 +21726,7 @@
             "modSource": 0,
             "addonID": 649882,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Doodads [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -22327,7 +21936,7 @@
             "modSource": 0,
             "addonID": 648781,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Reacharound",
             "modFolderPath": null,
             "authors": [
@@ -22575,7 +22184,7 @@
             "modSource": 0,
             "addonID": 550579,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ServerCore",
             "modFolderPath": null,
             "authors": [
@@ -22757,7 +22366,7 @@
             "modSource": 0,
             "addonID": 379680,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Grind Enchantments",
             "modFolderPath": null,
             "authors": [
@@ -22985,7 +22594,7 @@
             "modSource": 0,
             "addonID": 397434,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Polymorph (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -23205,7 +22814,7 @@
             "modSource": 0,
             "addonID": 535399,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Structure Floater Fabric",
             "modFolderPath": null,
             "authors": [
@@ -23305,7 +22914,7 @@
             "dateInstalled": "2023-01-19T01:30:46.5737041Z",
             "dateUpdated": "2023-01-19T01:49:02.1834239Z",
             "dateLastUpdateAttempted": "2023-01-19T01:49:02.1834239Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -23405,7 +23014,7 @@
             "modSource": 0,
             "addonID": 348521,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Cloth Config API (Fabric/Forge)",
             "modFolderPath": null,
             "authors": [
@@ -23626,7 +23235,7 @@
             "modSource": 0,
             "addonID": 60089,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mouse Tweaks",
             "modFolderPath": null,
             "authors": [
@@ -23842,7 +23451,7 @@
             "modSource": 0,
             "addonID": 352039,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Roofs",
             "modFolderPath": null,
             "authors": [
@@ -24034,7 +23643,7 @@
             "modSource": 0,
             "addonID": 659887,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Simply Swords [Fabric & Forge]",
             "modFolderPath": null,
             "authors": [
@@ -24294,7 +23903,7 @@
             "modSource": 0,
             "addonID": 633823,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Almost Unified",
             "modFolderPath": null,
             "authors": [
@@ -24528,7 +24137,7 @@
             "modSource": 0,
             "addonID": 417510,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Falling Leaves (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -24736,7 +24345,7 @@
             "modSource": 0,
             "addonID": 511319,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Reese's Sodium Options",
             "modFolderPath": null,
             "authors": [
@@ -24968,7 +24577,7 @@
             "modSource": 0,
             "addonID": 433175,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Chunky (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -25194,7 +24803,7 @@
             "modSource": 0,
             "addonID": 470193,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Connectivity[Forge/Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -25400,7 +25009,7 @@
             "modSource": 0,
             "addonID": 506412,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Magic Fungi",
             "modFolderPath": null,
             "authors": [
@@ -25652,7 +25261,7 @@
             "modSource": 0,
             "addonID": 496835,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Soaring Structures 2 - Forge / Fabric",
             "modFolderPath": null,
             "authors": [
@@ -25834,7 +25443,7 @@
             "modSource": 0,
             "addonID": 618433,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "AutoTag",
             "modFolderPath": null,
             "authors": [
@@ -26016,7 +25625,7 @@
             "modSource": 0,
             "addonID": 391366,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Repurposed Structures (Quilt/Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -26244,7 +25853,7 @@
             "modSource": 0,
             "addonID": 517494,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Right-Click-Harvest",
             "modFolderPath": null,
             "authors": [
@@ -26396,7 +26005,7 @@
             "modSource": 0,
             "addonID": 656665,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Jade Addons (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -26604,7 +26213,7 @@
             "modSource": 0,
             "addonID": 393236,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Patchouli (Fabric/Quilt)",
             "modFolderPath": null,
             "authors": [
@@ -26834,7 +26443,7 @@
             "modSource": 0,
             "addonID": 228525,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Bookshelf",
             "modFolderPath": null,
             "authors": [
@@ -27036,7 +26645,7 @@
             "modSource": 0,
             "addonID": 551364,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Friends&Foes (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -27258,7 +26867,7 @@
             "modSource": 0,
             "addonID": 399648,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Promenade",
             "modFolderPath": null,
             "authors": [
@@ -27492,7 +27101,7 @@
             "modSource": 0,
             "addonID": 664439,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Logicates",
             "modFolderPath": null,
             "authors": [
@@ -27702,7 +27311,7 @@
             "modSource": 0,
             "addonID": 514734,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Data Attributes",
             "modFolderPath": null,
             "authors": [
@@ -27918,7 +27527,7 @@
             "modSource": 0,
             "addonID": 438495,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FTB Library (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -28151,7 +27760,7 @@
             "modSource": 0,
             "addonID": 567114,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Extractinator",
             "modFolderPath": null,
             "authors": [
@@ -28383,7 +27992,7 @@
             "modSource": 0,
             "addonID": 544350,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Pollen",
             "modFolderPath": null,
             "authors": [
@@ -28663,7 +28272,7 @@
             "modSource": 0,
             "addonID": 486080,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "More Villagers [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -28888,7 +28497,7 @@
             "modSource": 0,
             "addonID": 442332,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MC Story Mode Armors [Forge / Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -29172,7 +28781,7 @@
             "modSource": 0,
             "addonID": 515172,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Drippy Loading Screen [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -29396,7 +29005,7 @@
             "modSource": 0,
             "addonID": 409184,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Carrier",
             "modFolderPath": null,
             "authors": [
@@ -29604,7 +29213,7 @@
             "modSource": 0,
             "addonID": 399520,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "DisFabric",
             "modFolderPath": null,
             "authors": [
@@ -29779,7 +29388,7 @@
             "modSource": 0,
             "addonID": 618770,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Paginated Advancements",
             "modFolderPath": null,
             "authors": [
@@ -29997,7 +29606,7 @@
             "modSource": 0,
             "addonID": 582729,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FibLib",
             "modFolderPath": null,
             "authors": [
@@ -30093,7 +29702,7 @@
             "dateInstalled": "2023-01-18T23:37:08.8907021Z",
             "dateUpdated": "2023-01-18T23:37:08.8927057Z",
             "dateLastUpdateAttempted": "2023-01-18T23:37:08.8927057Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -30189,7 +29798,7 @@
             "modSource": 0,
             "addonID": 649050,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Pigeon Post [FABRIC]",
             "modFolderPath": null,
             "authors": [
@@ -30431,7 +30040,7 @@
             "modSource": 0,
             "addonID": 547434,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Forge Config API Port",
             "modFolderPath": null,
             "authors": [
@@ -30737,7 +30346,7 @@
             "modSource": 0,
             "addonID": 610492,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Another Furniture",
             "modFolderPath": null,
             "authors": [
@@ -30968,7 +30577,7 @@
             "modSource": 0,
             "addonID": 317856,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Expanded Storage",
             "modFolderPath": null,
             "authors": [
@@ -31252,7 +30861,7 @@
             "modSource": 0,
             "addonID": 480786,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "RpgDifficulty",
             "modFolderPath": null,
             "authors": [
@@ -31460,7 +31069,7 @@
             "modSource": 0,
             "addonID": 667894,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Hephaestus Fabric",
             "modFolderPath": null,
             "authors": [
@@ -31658,273 +31267,11 @@
             }
         },
         {
-            "instanceID": "e743c404-97a0-4e40-9163-0389124b1dd1",
-            "modSource": 0,
-            "addonID": 419697,
-            "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
-            "name": "Architectury API (UNUSED)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "shedaniel"
-                },
-                {
-                    "Name": "MaxNeedsSnacks"
-                },
-                {
-                    "Name": "Juicebus"
-                }
-            ],
-            "primaryAuthor": "shedaniel",
-            "primaryCategoryId": 421,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/architectury-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/313/418/256/256/637408811210745557.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3782867,
-                "fileName": "architectury-4.4.56.jar",
-                "fileDate": "2022-05-07T14:04:18.483Z",
-                "fileLength": 572396,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3782/867/architectury-4.4.56.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 943187478,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.accessWidener",
-                        "fingerprint": 1437933533,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common.mixins.json",
-                        "fingerprint": 100246097,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common-refmap.json",
-                        "fingerprint": 2430096601,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.mixins.json",
-                        "fingerprint": 3848551503,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 687661887,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 337711864,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 1805902527,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 3298375152,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_architectury_common_cb995d07ac75484ea21fa8f9db62781b_b1f47724e7a89615eb4217ffe4610e40013e856852774f683b0fc7be3170d00aarchitectury4456devjar",
-                        "fingerprint": 1725549095,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2826062029,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 419697,
-                "fileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": [
-                    {
-                        "Value": "0afaf0dfa0b9157119cbadd56328a05153822cb5"
-                    },
-                    {
-                        "Value": "488c00ce5d0df09fc5e96b09caeb4646"
-                    }
-                ]
-            },
-            "dateInstalled": "2023-01-19T15:31:21.7623475Z",
-            "dateUpdated": "2023-01-19T15:31:21.7643413Z",
-            "dateLastUpdateAttempted": "2023-01-19T15:31:21.7643413Z",
-            "status": 4,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3782867,
-                "fileName": "architectury-4.4.56.jar",
-                "fileDate": "2022-05-07T14:04:18.483Z",
-                "fileLength": 572396,
-                "releaseType": 1,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3782/867/architectury-4.4.56.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 943187478,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.accessWidener",
-                        "fingerprint": 1437933533,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common.mixins.json",
-                        "fingerprint": 100246097,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-common-refmap.json",
-                        "fingerprint": 2430096601,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury.mixins.json",
-                        "fingerprint": 3848551503,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 687661887,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "icon.png",
-                        "fingerprint": 337711864,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury-fabric-refmap.json",
-                        "fingerprint": 1805902527,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 3298375152,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_architectury_common_cb995d07ac75484ea21fa8f9db62781b_b1f47724e7a89615eb4217ffe4610e40013e856852774f683b0fc7be3170d00aarchitectury4456devjar",
-                        "fingerprint": 1725549095,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2826062029,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2",
-                    "1.18-Snapshot"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    },
-                    {
-                        "gameVersion": "1.18",
-                        "gameVersionName": "1.18-Snapshot",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 419697,
-                "fileNameOnDisk": "architectury-4.4.56.jar",
-                "Hashes": [
-                    {
-                        "Value": "0afaf0dfa0b9157119cbadd56328a05153822cb5"
-                    },
-                    {
-                        "Value": "488c00ce5d0df09fc5e96b09caeb4646"
-                    }
-                ]
-            }
-        },
-        {
             "instanceID": "a6e02cfa-a1f8-4249-a7e3-8a205b1b0c82",
             "modSource": 0,
             "addonID": 666672,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "InmisAddon",
             "modFolderPath": null,
             "authors": [
@@ -32140,7 +31487,7 @@
             "modSource": 0,
             "addonID": 480911,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "DualWielding",
             "modFolderPath": null,
             "authors": [
@@ -32332,7 +31679,7 @@
             "modSource": 0,
             "addonID": 392559,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "JLine for Dedicated Server",
             "modFolderPath": null,
             "authors": [
@@ -32347,13 +31694,13 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/282/621/256/256/637289979088818807.png",
             "tags": [],
             "installedFile": {
-                "id": 4352190,
-                "fileName": "jline4mcdsrv-0.4.1.jar",
-                "fileDate": "2023-01-18T18:10:35.77Z",
-                "fileLength": 1338790,
+                "id": 4354108,
+                "fileName": "jline4mcdsrv-0.4.2.jar",
+                "fileDate": "2023-01-19T21:34:52.033Z",
+                "fileLength": 1339083,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4352/190/jline4mcdsrv-0.4.1.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/108/jline4mcdsrv-0.4.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -32361,7 +31708,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3037122002,
+                        "fingerprint": 1973887812,
                         "invalidFingerprint": false
                     },
                     {
@@ -32376,7 +31723,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2532591999,
+                        "fingerprint": 1032559117,
                         "invalidFingerprint": false
                     },
                     {
@@ -32391,11 +31738,11 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 1081920645,
+                        "fingerprint": 1662950349,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3396629029,
+                "packageFingerprint": 1452601133,
                 "gameVersion": [
                     "1.17.1",
                     "1.19.3",
@@ -32406,6 +31753,7 @@
                     "1.19.2",
                     "1.19.1",
                     "1.18",
+                    "Server",
                     "1.19"
                 ],
                 "sortableGameVersion": [
@@ -32455,6 +31803,11 @@
                         "gameVersionTypeId": 73250
                     },
                     {
+                        "gameVersion": "",
+                        "gameVersionName": "Server",
+                        "gameVersionTypeId": 75208
+                    },
+                    {
                         "gameVersion": "1.19",
                         "gameVersionName": "1.19",
                         "gameVersionTypeId": 73407
@@ -32465,12 +31818,12 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 392559,
-                "fileNameOnDisk": "jline4mcdsrv-0.4.1.jar",
+                "fileNameOnDisk": "jline4mcdsrv-0.4.2.jar",
                 "Hashes": []
             },
             "dateInstalled": "2023-01-17T02:09:30.9481346Z",
-            "dateUpdated": "2023-01-18T20:26:15.6781006Z",
-            "dateLastUpdateAttempted": "2023-01-18T20:26:15.6781006Z",
+            "dateUpdated": "2023-01-20T04:12:34.8436726Z",
+            "dateLastUpdateAttempted": "2023-01-20T04:12:34.8436726Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -32483,13 +31836,13 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4352190,
-                "fileName": "jline4mcdsrv-0.4.1.jar",
-                "fileDate": "2023-01-18T18:10:35.77Z",
-                "fileLength": 1338790,
+                "id": 4354108,
+                "fileName": "jline4mcdsrv-0.4.2.jar",
+                "fileDate": "2023-01-19T21:34:52.033Z",
+                "fileLength": 1339083,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4352/190/jline4mcdsrv-0.4.1.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/108/jline4mcdsrv-0.4.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [],
@@ -32497,7 +31850,7 @@
                 "modules": [
                     {
                         "foldername": "META-INF",
-                        "fingerprint": 3037122002,
+                        "fingerprint": 1973887812,
                         "invalidFingerprint": false
                     },
                     {
@@ -32512,7 +31865,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 2532591999,
+                        "fingerprint": 1032559117,
                         "invalidFingerprint": false
                     },
                     {
@@ -32527,11 +31880,11 @@
                     },
                     {
                         "foldername": "org",
-                        "fingerprint": 1081920645,
+                        "fingerprint": 1662950349,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 3396629029,
+                "packageFingerprint": 1452601133,
                 "gameVersion": [
                     "1.17.1",
                     "1.19.3",
@@ -32542,6 +31895,7 @@
                     "1.19.2",
                     "1.19.1",
                     "1.18",
+                    "Server",
                     "1.19"
                 ],
                 "sortableGameVersion": [
@@ -32591,6 +31945,11 @@
                         "gameVersionTypeId": 73250
                     },
                     {
+                        "gameVersion": "",
+                        "gameVersionName": "Server",
+                        "gameVersionTypeId": 75208
+                    },
+                    {
                         "gameVersion": "1.19",
                         "gameVersionName": "1.19",
                         "gameVersionTypeId": 73407
@@ -32601,7 +31960,7 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 392559,
-                "fileNameOnDisk": "jline4mcdsrv-0.4.1.jar",
+                "fileNameOnDisk": "jline4mcdsrv-0.4.2.jar",
                 "Hashes": []
             }
         },
@@ -32610,7 +31969,7 @@
             "modSource": 0,
             "addonID": 576449,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Coxinha Utilities",
             "modFolderPath": null,
             "authors": [
@@ -32828,7 +32187,7 @@
             "modSource": 0,
             "addonID": 527942,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ValleyCraft",
             "modFolderPath": null,
             "authors": [
@@ -33038,7 +32397,7 @@
             "modSource": 0,
             "addonID": 422316,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Advancements Debug",
             "modFolderPath": null,
             "authors": [
@@ -33544,7 +32903,7 @@
             "modSource": 0,
             "addonID": 317121,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Cloth API (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -33701,7 +33060,7 @@
             "modSource": 0,
             "addonID": 401236,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Artifacts (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -33956,7 +33315,7 @@
             "modSource": 0,
             "addonID": 577356,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Roofs - Oh The Biomes You'll Go",
             "modFolderPath": null,
             "authors": [
@@ -34154,7 +33513,7 @@
             "modSource": 0,
             "addonID": 335493,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Dynamic FPS",
             "modFolderPath": null,
             "authors": [
@@ -34410,7 +33769,7 @@
             "modSource": 0,
             "addonID": 320215,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Adorn",
             "modFolderPath": null,
             "authors": [
@@ -34764,7 +34123,7 @@
             "modSource": 0,
             "addonID": 633483,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Powah! (Rearchitected)",
             "modFolderPath": null,
             "authors": [
@@ -34984,7 +34343,7 @@
             "modSource": 0,
             "addonID": 482834,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Farmer's Delight [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -35192,7 +34551,7 @@
             "modSource": 0,
             "addonID": 559380,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Hover Pets",
             "modFolderPath": null,
             "authors": [
@@ -35384,7 +34743,7 @@
             "modSource": 0,
             "addonID": 448233,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Entity Culling Fabric/Forge",
             "modFolderPath": null,
             "authors": [
@@ -35610,7 +34969,7 @@
             "modSource": 0,
             "addonID": 394468,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Sodium",
             "modFolderPath": null,
             "authors": [
@@ -35820,7 +35179,7 @@
             "modSource": 0,
             "addonID": 570109,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "VanitySlots",
             "modFolderPath": null,
             "authors": [
@@ -36082,7 +35441,7 @@
             "modSource": 0,
             "addonID": 356118,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Flonters",
             "modFolderPath": null,
             "authors": [
@@ -36284,7 +35643,7 @@
             "modSource": 0,
             "addonID": 280510,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "AttributeFix",
             "modFolderPath": null,
             "authors": [
@@ -36474,11 +35833,285 @@
             }
         },
         {
+            "instanceID": "3f3ce2d9-8a72-489e-99bb-876cdf018461",
+            "modSource": 0,
+            "addonID": 395864,
+            "gameID": 432,
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
+            "name": "KubeJS (Old)",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "shedaniel"
+                },
+                {
+                    "Name": "LatvianModder"
+                },
+                {
+                    "Name": "MaxNeedsSnacks"
+                }
+            ],
+            "primaryAuthor": "shedaniel",
+            "primaryCategoryId": 5314,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/kubejs-fabric",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/345/642/256/256/637493440188807406.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3764765,
+                "fileName": "kubejs-fabric-1802.5.1-build.353.jar",
+                "fileDate": "2022-04-23T12:01:27.267Z",
+                "fileLength": 945108,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3764/765/kubejs-fabric-1802.5.1-build.353.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 416294,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 773020861,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs_logo.png",
+                        "fingerprint": 658118443,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-common.mixins.json",
+                        "fingerprint": 2150256993,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2083650698,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 3279136865,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-common-refmap.json",
+                        "fingerprint": 3864344365,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 483169433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-fabric.mixins.json",
+                        "fingerprint": 732513524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.accesswidener",
+                        "fingerprint": 400697164,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.plugins.txt",
+                        "fingerprint": 1891469756,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-fabric-refmap.json",
+                        "fingerprint": 3081024461,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dev",
+                        "fingerprint": 2795303524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_KubeJS118_common_05de54f2ee8d4e15be4addd4a8e5aee0_04c2184250087b141d40a243b6fc1de997a278a13d8a914dd74ecadd9a1ce7abkubejs180251build353devjar",
+                        "fingerprint": 466363512,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2180537013,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 395864,
+                "fileNameOnDisk": "kubejs-fabric-1802.5.1-build.353.jar",
+                "Hashes": []
+            },
+            "dateInstalled": "2023-01-20T04:12:32.4042316Z",
+            "dateUpdated": "2023-01-20T04:12:32.4071935Z",
+            "dateLastUpdateAttempted": "2023-01-20T04:12:32.4071935Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3764765,
+                "fileName": "kubejs-fabric-1802.5.1-build.353.jar",
+                "fileDate": "2022-04-23T12:01:27.267Z",
+                "fileLength": 945108,
+                "releaseType": 2,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3764/765/kubejs-fabric-1802.5.1-build.353.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [
+                    {
+                        "addonId": 419697,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 416294,
+                        "type": 3
+                    },
+                    {
+                        "addonId": 306612,
+                        "type": 3
+                    }
+                ],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 773020861,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs_logo.png",
+                        "fingerprint": 658118443,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-common.mixins.json",
+                        "fingerprint": 2150256993,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 2083650698,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 3279136865,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-common-refmap.json",
+                        "fingerprint": 3864344365,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 483169433,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-fabric.mixins.json",
+                        "fingerprint": 732513524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.accesswidener",
+                        "fingerprint": 400697164,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs.plugins.txt",
+                        "fingerprint": 1891469756,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "kubejs-fabric-refmap.json",
+                        "fingerprint": 3081024461,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "dev",
+                        "fingerprint": 2795303524,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "architectury_inject_KubeJS118_common_05de54f2ee8d4e15be4addd4a8e5aee0_04c2184250087b141d40a243b6fc1de997a278a13d8a914dd74ecadd9a1ce7abkubejs180251build353devjar",
+                        "fingerprint": 466363512,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 2180537013,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 395864,
+                "fileNameOnDisk": "kubejs-fabric-1802.5.1-build.353.jar",
+                "Hashes": []
+            }
+        },
+        {
             "instanceID": "e1c67771-00de-4b5b-be67-ce98894b822b",
             "modSource": 0,
             "addonID": 474114,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Huge Structure Blocks [Fabric & Forge]",
             "modFolderPath": null,
             "authors": [
@@ -36662,7 +36295,7 @@
             "modSource": 0,
             "addonID": 500525,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Balm (Fabric Edition)",
             "modFolderPath": null,
             "authors": [
@@ -36862,7 +36495,7 @@
             "modSource": 0,
             "addonID": 513994,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's Eoka Pistol",
             "modFolderPath": null,
             "authors": [
@@ -37124,7 +36757,7 @@
             "modSource": 0,
             "addonID": 522216,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "HexLands II",
             "modFolderPath": null,
             "authors": [
@@ -37356,7 +36989,7 @@
             "modSource": 0,
             "addonID": 570630,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "LootJS: KubeJS Addon",
             "modFolderPath": null,
             "authors": [
@@ -37598,7 +37231,7 @@
             "modSource": 0,
             "addonID": 407311,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MC Dungeons Weapons",
             "modFolderPath": null,
             "authors": [
@@ -37859,7 +37492,7 @@
             "modSource": 0,
             "addonID": 624165,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Create Fabric",
             "modFolderPath": null,
             "authors": [
@@ -38119,7 +37752,7 @@
             "modSource": 0,
             "addonID": 794312,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's RTP",
             "modFolderPath": null,
             "authors": [
@@ -38371,7 +38004,7 @@
             "modSource": 0,
             "addonID": 631603,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FURC (Fabric Universal Remote Control)",
             "modFolderPath": null,
             "authors": [
@@ -38563,7 +38196,7 @@
             "modSource": 0,
             "addonID": 456956,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Chipped",
             "modFolderPath": null,
             "authors": [
@@ -38785,7 +38418,7 @@
             "modSource": 0,
             "addonID": 686058,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's Spiders",
             "modFolderPath": null,
             "authors": [
@@ -39023,7 +38656,7 @@
             "modSource": 0,
             "addonID": 463169,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Motschen's Puddles",
             "modFolderPath": null,
             "authors": [
@@ -39235,7 +38868,7 @@
             "modSource": 0,
             "addonID": 266784,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Scannable",
             "modFolderPath": null,
             "authors": [
@@ -39465,7 +39098,7 @@
             "modSource": 0,
             "addonID": 541578,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Item Highlighter [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -39707,7 +39340,7 @@
             "modSource": 0,
             "addonID": 633997,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "CTM Refabricated",
             "modFolderPath": null,
             "authors": [
@@ -39889,7 +39522,7 @@
             "modSource": 0,
             "addonID": 325492,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Light Overlay (Rift/Forge/Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -40129,7 +39762,7 @@
             "modSource": 0,
             "addonID": 433760,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Not Enough Animations",
             "modFolderPath": null,
             "authors": [
@@ -40345,7 +39978,7 @@
             "modSource": 0,
             "addonID": 392015,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Eldritch Mobs",
             "modFolderPath": null,
             "authors": [
@@ -40567,7 +40200,7 @@
             "modSource": 0,
             "addonID": 507130,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nyf's Expert Tweaks",
             "modFolderPath": null,
             "authors": [
@@ -40785,7 +40418,7 @@
             "modSource": 0,
             "addonID": 665532,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Roughly Enough Loot Tables",
             "modFolderPath": null,
             "authors": [
@@ -40965,7 +40598,7 @@
             "modSource": 0,
             "addonID": 378036,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Where Is It",
             "modFolderPath": null,
             "authors": [
@@ -41197,7 +40830,7 @@
             "modSource": 0,
             "addonID": 306612,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Fabric API",
             "modFolderPath": null,
             "authors": [
@@ -41342,7 +40975,7 @@
             "modSource": 0,
             "addonID": 459496,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Indium",
             "modFolderPath": null,
             "authors": [
@@ -41546,7 +41179,7 @@
             "modSource": 0,
             "addonID": 391378,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Oh The Biomes You'll Go Refabricated",
             "modFolderPath": null,
             "authors": [
@@ -41814,7 +41447,7 @@
             "modSource": 0,
             "addonID": 472657,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FTB Chunks (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -42081,7 +41714,7 @@
             "modSource": 0,
             "addonID": 373093,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "TacoCraft",
             "modFolderPath": null,
             "authors": [
@@ -42291,7 +41924,7 @@
             "modSource": 0,
             "addonID": 308702,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mod Menu",
             "modFolderPath": null,
             "authors": [
@@ -42483,7 +42116,7 @@
             "modSource": 0,
             "addonID": 704465,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Let's do Wine!",
             "modFolderPath": null,
             "authors": [
@@ -42705,7 +42338,7 @@
             "modSource": 0,
             "addonID": 257814,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "CreativeCore",
             "modFolderPath": null,
             "authors": [
@@ -42917,7 +42550,7 @@
             "modSource": 0,
             "addonID": 319596,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Pehkui",
             "modFolderPath": null,
             "authors": [
@@ -43193,7 +42826,7 @@
             "modSource": 0,
             "addonID": 475964,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Essential Commands",
             "modFolderPath": null,
             "authors": [
@@ -43383,7 +43016,7 @@
             "modSource": 0,
             "addonID": 400933,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Trapdoors",
             "modFolderPath": null,
             "authors": [
@@ -43575,7 +43208,7 @@
             "modSource": 0,
             "addonID": 448106,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Happiness (is a) Warm Gun",
             "modFolderPath": null,
             "authors": [
@@ -43792,11 +43425,217 @@
             }
         },
         {
+            "instanceID": "e8f1318a-686a-46af-9ce9-3c300fc35d59",
+            "modSource": 0,
+            "addonID": 497175,
+            "gameID": 432,
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
+            "name": "Universal Graves",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Patbox"
+                }
+            ],
+            "primaryAuthor": "Patbox",
+            "primaryCategoryId": 435,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/universal-graves",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/469/600/256/256/637755254774483191.png",
+            "tags": [],
+            "installedFile": {
+                "id": 3813884,
+                "fileName": "graves-2.0.3+1.18.2.jar",
+                "fileDate": "2022-06-01T20:09:33.947Z",
+                "fileLength": 967177,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3813/884/graves-2.0.3+1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3912670532,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_graves",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 208444709,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2753032765,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "universal-graves.mixins.json",
+                        "fingerprint": 3199150020,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 4083672612,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "graves-refmap.json",
+                        "fingerprint": 3744420938,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "eu",
+                        "fingerprint": 2404037500,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3725591040,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 497175,
+                "fileNameOnDisk": "graves-2.0.3+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "9dc56f843fdb2510bf9adb388feb3df22b0c3600"
+                    },
+                    {
+                        "Value": "f5d5bcd41ddff108421db6ddc0471adb"
+                    }
+                ]
+            },
+            "dateInstalled": "2023-01-20T21:11:58.8761593Z",
+            "dateUpdated": "2023-01-20T21:11:58.878153Z",
+            "dateLastUpdateAttempted": "2023-01-20T21:11:58.878153Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 3813884,
+                "fileName": "graves-2.0.3+1.18.2.jar",
+                "fileDate": "2022-06-01T20:09:33.947Z",
+                "fileLength": 967177,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/3813/884/graves-2.0.3+1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 3912670532,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_graves",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 208444709,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2753032765,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "universal-graves.mixins.json",
+                        "fingerprint": 3199150020,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "data",
+                        "fingerprint": 4083672612,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "graves-refmap.json",
+                        "fingerprint": 3744420938,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "eu",
+                        "fingerprint": 2404037500,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 3725591040,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 497175,
+                "fileNameOnDisk": "graves-2.0.3+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "9dc56f843fdb2510bf9adb388feb3df22b0c3600"
+                    },
+                    {
+                        "Value": "f5d5bcd41ddff108421db6ddc0471adb"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "95c0fb04-4534-4b4b-8dd8-17005d604ebf",
             "modSource": 0,
             "addonID": 493348,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Styled Chat",
             "modFolderPath": null,
             "authors": [
@@ -43990,7 +43829,7 @@
             "modSource": 0,
             "addonID": 654384,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Eureka! Airships! (Forge/Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -44218,7 +44057,7 @@
             "modSource": 0,
             "addonID": 568316,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Numismatic Overhaul",
             "modFolderPath": null,
             "authors": [
@@ -44431,7 +44270,7 @@
             "modSource": 0,
             "addonID": 472839,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Game Phases",
             "modFolderPath": null,
             "authors": [
@@ -44446,20 +44285,16 @@
             "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/371/847/256/256/637542053164890018.png",
             "tags": [],
             "installedFile": {
-                "id": 4352669,
-                "fileName": "game-phases-1.4.2+1.18.2.jar",
-                "fileDate": "2023-01-18T22:41:12.18Z",
-                "fileLength": 57636,
+                "id": 4354086,
+                "fileName": "game-phases-1.4.3+1.18.2.jar",
+                "fileDate": "2023-01-19T21:22:11.477Z",
+                "fileLength": 57274,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4352/669/game-phases-1.4.2+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/86/game-phases-1.4.3+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 395864,
-                        "type": 3
-                    },
                     {
                         "addonId": 419697,
                         "type": 3
@@ -44471,6 +44306,10 @@
                     {
                         "addonId": 310111,
                         "type": 2
+                    },
+                    {
+                        "addonId": 395864,
+                        "type": 3
                     }
                 ],
                 "isAvailable": true,
@@ -44492,7 +44331,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 953534864,
+                        "fingerprint": 1197266597,
                         "invalidFingerprint": false
                     },
                     {
@@ -44507,11 +44346,11 @@
                     },
                     {
                         "foldername": "draylar",
-                        "fingerprint": 2204105870,
+                        "fingerprint": 4172618742,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2634412678,
+                "packageFingerprint": 2131257114,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -44533,19 +44372,12 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472839,
-                "fileNameOnDisk": "game-phases-1.4.2+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "f7b90a2e9f8e6891d603554cb9738d750bbac358"
-                    },
-                    {
-                        "Value": "e473ab68dd09152a431e1d8781e632c6"
-                    }
-                ]
+                "fileNameOnDisk": "game-phases-1.4.3+1.18.2.jar",
+                "Hashes": []
             },
             "dateInstalled": "2023-01-19T15:31:21.9959599Z",
-            "dateUpdated": "2023-01-19T15:31:21.997955Z",
-            "dateLastUpdateAttempted": "2023-01-19T15:31:21.997955Z",
+            "dateUpdated": "2023-01-20T04:12:32.599944Z",
+            "dateLastUpdateAttempted": "2023-01-20T04:12:32.599944Z",
             "status": 4,
             "installSource": 0,
             "preferenceReleaseType": null,
@@ -44558,20 +44390,16 @@
             "manifestName": null,
             "installedTargets": [],
             "latestFile": {
-                "id": 4352669,
-                "fileName": "game-phases-1.4.2+1.18.2.jar",
-                "fileDate": "2023-01-18T22:41:12.18Z",
-                "fileLength": 57636,
+                "id": 4354086,
+                "fileName": "game-phases-1.4.3+1.18.2.jar",
+                "fileDate": "2023-01-19T21:22:11.477Z",
+                "fileLength": 57274,
                 "releaseType": 1,
                 "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/4352/669/game-phases-1.4.2+1.18.2.jar",
+                "downloadUrl": "https://edge.forgecdn.net/files/4354/86/game-phases-1.4.3+1.18.2.jar",
                 "isAlternate": false,
                 "alternateFileId": 0,
                 "dependencies": [
-                    {
-                        "addonId": 395864,
-                        "type": 3
-                    },
                     {
                         "addonId": 419697,
                         "type": 3
@@ -44583,6 +44411,10 @@
                     {
                         "addonId": 310111,
                         "type": 2
+                    },
+                    {
+                        "addonId": 395864,
+                        "type": 3
                     }
                 ],
                 "isAvailable": true,
@@ -44604,7 +44436,7 @@
                     },
                     {
                         "foldername": "fabric.mod.json",
-                        "fingerprint": 953534864,
+                        "fingerprint": 1197266597,
                         "invalidFingerprint": false
                     },
                     {
@@ -44619,11 +44451,11 @@
                     },
                     {
                         "foldername": "draylar",
-                        "fingerprint": 2204105870,
+                        "fingerprint": 4172618742,
                         "invalidFingerprint": false
                     }
                 ],
-                "packageFingerprint": 2634412678,
+                "packageFingerprint": 2131257114,
                 "gameVersion": [
                     "Fabric",
                     "1.18.2"
@@ -44645,15 +44477,8 @@
                 "restrictProjectFileAccess": 0,
                 "projectStatus": 4,
                 "projectId": 472839,
-                "fileNameOnDisk": "game-phases-1.4.2+1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "f7b90a2e9f8e6891d603554cb9738d750bbac358"
-                    },
-                    {
-                        "Value": "e473ab68dd09152a431e1d8781e632c6"
-                    }
-                ]
+                "fileNameOnDisk": "game-phases-1.4.3+1.18.2.jar",
+                "Hashes": []
             }
         },
         {
@@ -44661,7 +44486,7 @@
             "modSource": 0,
             "addonID": 411857,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Immortuos Calyx",
             "modFolderPath": null,
             "authors": [
@@ -44899,7 +44724,7 @@
             "modSource": 0,
             "addonID": 476788,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MC Dungeons Artifacts",
             "modFolderPath": null,
             "authors": [
@@ -45136,7 +44961,7 @@
             "modSource": 0,
             "addonID": 429371,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "KubeJS Create",
             "modFolderPath": null,
             "authors": [
@@ -45326,7 +45151,7 @@
             "modSource": 0,
             "addonID": 405388,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Modern Industrialization",
             "modFolderPath": null,
             "authors": [
@@ -45607,7 +45432,7 @@
             "modSource": 0,
             "addonID": 438116,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Paintings",
             "modFolderPath": null,
             "authors": [
@@ -45789,7 +45614,7 @@
             "modSource": 0,
             "addonID": 514468,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "The Graveyard (FABRIC)",
             "modFolderPath": null,
             "authors": [
@@ -45999,7 +45824,7 @@
             "modSource": 0,
             "addonID": 391943,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Origins (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -46225,7 +46050,7 @@
             "modSource": 0,
             "addonID": 377281,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Dark Paintings",
             "modFolderPath": null,
             "authors": [
@@ -46387,7 +46212,7 @@
             "modSource": 0,
             "addonID": 416294,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Rhino",
             "modFolderPath": null,
             "authors": [
@@ -46603,7 +46428,7 @@
             "modSource": 0,
             "addonID": 616602,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Extended Drawers",
             "modFolderPath": null,
             "authors": [
@@ -46724,19 +46549,12 @@
                 "projectStatus": 4,
                 "projectId": 616602,
                 "fileNameOnDisk": "ExtendedDrawers-1.3.6+mc.1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "cac121249d3df04fcfb9db39105fd55ce5cd5254"
-                    },
-                    {
-                        "Value": "4d2100ba93b04b6a5c51ff7a6c8fa364"
-                    }
-                ]
+                "Hashes": []
             },
             "dateInstalled": "2023-01-14T22:40:04.5541781Z",
             "dateUpdated": "2023-01-19T15:31:32.9307377Z",
             "dateLastUpdateAttempted": "2023-01-19T15:31:32.9307377Z",
-            "status": 4,
+            "status": 5,
             "installSource": 0,
             "preferenceReleaseType": null,
             "preferenceAutoInstallUpdates": false,
@@ -46854,14 +46672,7 @@
                 "projectStatus": 4,
                 "projectId": 616602,
                 "fileNameOnDisk": "ExtendedDrawers-1.3.6+mc.1.18.2.jar",
-                "Hashes": [
-                    {
-                        "Value": "cac121249d3df04fcfb9db39105fd55ce5cd5254"
-                    },
-                    {
-                        "Value": "4d2100ba93b04b6a5c51ff7a6c8fa364"
-                    }
-                ]
+                "Hashes": []
             }
         },
         {
@@ -46869,7 +46680,7 @@
             "modSource": 0,
             "addonID": 416796,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FancyMenu [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -47077,7 +46888,7 @@
             "modSource": 0,
             "addonID": 416797,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Konkrete [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -47283,7 +47094,7 @@
             "modSource": 0,
             "addonID": 314579,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Crawl (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -47468,7 +47279,7 @@
             "modSource": 0,
             "addonID": 341284,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Trinkets (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -47670,7 +47481,7 @@
             "modSource": 0,
             "addonID": 412621,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Custom Void [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -47878,7 +47689,7 @@
             "modSource": 0,
             "addonID": 315811,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "ShulkerBoxTooltip [Fabric/Forge]",
             "modFolderPath": null,
             "authors": [
@@ -48096,7 +47907,7 @@
             "modSource": 0,
             "addonID": 629153,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Paths and Pavings",
             "modFolderPath": null,
             "authors": [
@@ -48288,7 +48099,7 @@
             "modSource": 0,
             "addonID": 353928,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Botany Pots",
             "modFolderPath": null,
             "authors": [
@@ -48482,7 +48293,7 @@
             "modSource": 0,
             "addonID": 615351,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Better Villages - Fabric",
             "modFolderPath": null,
             "authors": [
@@ -48694,7 +48505,7 @@
             "modSource": 0,
             "addonID": 286328,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "RSWires",
             "modFolderPath": null,
             "authors": [
@@ -48884,7 +48695,7 @@
             "modSource": 0,
             "addonID": 308769,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Fabric Language Kotlin",
             "modFolderPath": null,
             "authors": [
@@ -49313,7 +49124,7 @@
             "modSource": 0,
             "addonID": 460336,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Stoneholm, Underground Villages (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -49523,7 +49334,7 @@
             "modSource": 0,
             "addonID": 415438,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Croptopia",
             "modFolderPath": null,
             "authors": [
@@ -49751,11 +49562,177 @@
             }
         },
         {
+            "instanceID": "e5847665-877d-4343-94bf-9651fb483a66",
+            "modSource": 0,
+            "addonID": 551890,
+            "gameID": 432,
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
+            "name": "Polymer",
+            "modFolderPath": null,
+            "authors": [
+                {
+                    "Name": "Patbox"
+                }
+            ],
+            "primaryAuthor": "Patbox",
+            "primaryCategoryId": 421,
+            "packageType": 6,
+            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/polymer",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/461/232/256/256/637740708510978283.png",
+            "tags": [],
+            "installedFile": {
+                "id": 4353195,
+                "fileName": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "fileDate": "2023-01-19T07:03:19.77Z",
+                "fileLength": 503250,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4353/195/polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1453233526,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_polymer-all",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 674303577,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2735965296,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4119167443,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 551890,
+                "fileNameOnDisk": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "4a9376fed6c866ffed7b472c69d138e2b29169c0"
+                    },
+                    {
+                        "Value": "1683271d81498a59328e2f9ecbfe29e6"
+                    }
+                ]
+            },
+            "dateInstalled": "2023-01-20T21:11:53.5327632Z",
+            "dateUpdated": "2023-01-20T21:11:53.5427374Z",
+            "dateLastUpdateAttempted": "2023-01-20T21:11:53.5427374Z",
+            "status": 4,
+            "installSource": 0,
+            "preferenceReleaseType": null,
+            "preferenceAutoInstallUpdates": false,
+            "preferenceAlternateFile": false,
+            "preferenceIsIgnored": false,
+            "isModified": false,
+            "isWorkingCopy": false,
+            "isFuzzyMatch": false,
+            "manifestName": null,
+            "installedTargets": [],
+            "latestFile": {
+                "id": 4353195,
+                "fileName": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "fileDate": "2023-01-19T07:03:19.77Z",
+                "fileLength": 503250,
+                "releaseType": 1,
+                "fileStatus": 4,
+                "downloadUrl": "https://edge.forgecdn.net/files/4353/195/polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "isAlternate": false,
+                "alternateFileId": 0,
+                "dependencies": [],
+                "isAvailable": true,
+                "modules": [
+                    {
+                        "foldername": "META-INF",
+                        "fingerprint": 1453233526,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "LICENSE_polymer-all",
+                        "fingerprint": 1136524626,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "assets",
+                        "fingerprint": 674303577,
+                        "invalidFingerprint": false
+                    },
+                    {
+                        "foldername": "fabric.mod.json",
+                        "fingerprint": 2735965296,
+                        "invalidFingerprint": false
+                    }
+                ],
+                "packageFingerprint": 4119167443,
+                "gameVersion": [
+                    "Fabric",
+                    "1.18.2"
+                ],
+                "sortableGameVersion": [
+                    {
+                        "gameVersion": "",
+                        "gameVersionName": "Fabric",
+                        "gameVersionTypeId": 68441
+                    },
+                    {
+                        "gameVersion": "1.18.2",
+                        "gameVersionName": "1.18.2",
+                        "gameVersionTypeId": 73250
+                    }
+                ],
+                "hasInstallScript": false,
+                "isCompatibleWithClient": false,
+                "restrictProjectFileAccess": 0,
+                "projectStatus": 4,
+                "projectId": 551890,
+                "fileNameOnDisk": "polymer-all-0.2.0-rc.4.6+1.18.2.jar",
+                "Hashes": [
+                    {
+                        "Value": "4a9376fed6c866ffed7b472c69d138e2b29169c0"
+                    },
+                    {
+                        "Value": "1683271d81498a59328e2f9ecbfe29e6"
+                    }
+                ]
+            }
+        },
+        {
             "instanceID": "a3e15e04-d671-4962-823b-404669048770",
             "modSource": 0,
             "addonID": 393149,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Runelic",
             "modFolderPath": null,
             "authors": [
@@ -49949,7 +49926,7 @@
             "modSource": 0,
             "addonID": 399309,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Dawn API",
             "modFolderPath": null,
             "authors": [
@@ -50167,7 +50144,7 @@
             "modSource": 0,
             "addonID": 373138,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Campanion",
             "modFolderPath": null,
             "authors": [
@@ -50375,7 +50352,7 @@
             "modSource": 0,
             "addonID": 439281,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "RelicEx",
             "modFolderPath": null,
             "authors": [
@@ -50609,7 +50586,7 @@
             "modSource": 0,
             "addonID": 547687,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Forgiving Void (Fabric Edition)",
             "modFolderPath": null,
             "authors": [
@@ -50823,7 +50800,7 @@
             "modSource": 0,
             "addonID": 635042,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Ad Astra!",
             "modFolderPath": null,
             "authors": [
@@ -51075,7 +51052,7 @@
             "modSource": 0,
             "addonID": 662722,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MineMenu Refabricated",
             "modFolderPath": null,
             "authors": [
@@ -51293,7 +51270,7 @@
             "modSource": 0,
             "addonID": 442282,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Styled Player List",
             "modFolderPath": null,
             "authors": [
@@ -51501,7 +51478,7 @@
             "modSource": 0,
             "addonID": 250419,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Enchantment Descriptions",
             "modFolderPath": null,
             "authors": [
@@ -51669,285 +51646,11 @@
             }
         },
         {
-            "instanceID": "5c76527b-e9a8-4d4d-9df5-ccbe9b9c250f",
-            "modSource": 0,
-            "addonID": 395864,
-            "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
-            "name": "KubeJS (Old)",
-            "modFolderPath": null,
-            "authors": [
-                {
-                    "Name": "shedaniel"
-                },
-                {
-                    "Name": "LatvianModder"
-                },
-                {
-                    "Name": "MaxNeedsSnacks"
-                }
-            ],
-            "primaryAuthor": "shedaniel",
-            "primaryCategoryId": 5314,
-            "packageType": 6,
-            "webSiteURL": "https://www.curseforge.com/minecraft/mc-mods/kubejs-fabric",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/345/642/256/256/637493440188807406.png",
-            "tags": [],
-            "installedFile": {
-                "id": 3764765,
-                "fileName": "kubejs-fabric-1802.5.1-build.353.jar",
-                "fileDate": "2022-04-23T12:01:27.267Z",
-                "fileLength": 945108,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3764/765/kubejs-fabric-1802.5.1-build.353.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 419697,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 416294,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 773020861,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs_logo.png",
-                        "fingerprint": 658118443,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-common.mixins.json",
-                        "fingerprint": 2150256993,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2083650698,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 3279136865,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-common-refmap.json",
-                        "fingerprint": 3864344365,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 483169433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-fabric.mixins.json",
-                        "fingerprint": 732513524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs.accesswidener",
-                        "fingerprint": 400697164,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs.plugins.txt",
-                        "fingerprint": 1891469756,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-fabric-refmap.json",
-                        "fingerprint": 3081024461,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 2795303524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_KubeJS118_common_05de54f2ee8d4e15be4addd4a8e5aee0_04c2184250087b141d40a243b6fc1de997a278a13d8a914dd74ecadd9a1ce7abkubejs180251build353devjar",
-                        "fingerprint": 466363512,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2180537013,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 395864,
-                "fileNameOnDisk": "kubejs-fabric-1802.5.1-build.353.jar",
-                "Hashes": []
-            },
-            "dateInstalled": "2023-01-18T03:13:00.5717892Z",
-            "dateUpdated": "2023-01-18T03:13:00.5783766Z",
-            "dateLastUpdateAttempted": "2023-01-18T03:13:00.5783766Z",
-            "status": 5,
-            "installSource": 0,
-            "preferenceReleaseType": null,
-            "preferenceAutoInstallUpdates": false,
-            "preferenceAlternateFile": false,
-            "preferenceIsIgnored": false,
-            "isModified": false,
-            "isWorkingCopy": false,
-            "isFuzzyMatch": false,
-            "manifestName": null,
-            "installedTargets": [],
-            "latestFile": {
-                "id": 3764765,
-                "fileName": "kubejs-fabric-1802.5.1-build.353.jar",
-                "fileDate": "2022-04-23T12:01:27.267Z",
-                "fileLength": 945108,
-                "releaseType": 2,
-                "fileStatus": 4,
-                "downloadUrl": "https://edge.forgecdn.net/files/3764/765/kubejs-fabric-1802.5.1-build.353.jar",
-                "isAlternate": false,
-                "alternateFileId": 0,
-                "dependencies": [
-                    {
-                        "addonId": 419697,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 416294,
-                        "type": 3
-                    },
-                    {
-                        "addonId": 306612,
-                        "type": 3
-                    }
-                ],
-                "isAvailable": true,
-                "modules": [
-                    {
-                        "foldername": "META-INF",
-                        "fingerprint": 773020861,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs_logo.png",
-                        "fingerprint": 658118443,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-common.mixins.json",
-                        "fingerprint": 2150256993,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "assets",
-                        "fingerprint": 2083650698,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "data",
-                        "fingerprint": 3279136865,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-common-refmap.json",
-                        "fingerprint": 3864344365,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "fabric.mod.json",
-                        "fingerprint": 483169433,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-fabric.mixins.json",
-                        "fingerprint": 732513524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs.accesswidener",
-                        "fingerprint": 400697164,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs.plugins.txt",
-                        "fingerprint": 1891469756,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "kubejs-fabric-refmap.json",
-                        "fingerprint": 3081024461,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "dev",
-                        "fingerprint": 2795303524,
-                        "invalidFingerprint": false
-                    },
-                    {
-                        "foldername": "architectury_inject_KubeJS118_common_05de54f2ee8d4e15be4addd4a8e5aee0_04c2184250087b141d40a243b6fc1de997a278a13d8a914dd74ecadd9a1ce7abkubejs180251build353devjar",
-                        "fingerprint": 466363512,
-                        "invalidFingerprint": false
-                    }
-                ],
-                "packageFingerprint": 2180537013,
-                "gameVersion": [
-                    "Fabric",
-                    "1.18.2"
-                ],
-                "sortableGameVersion": [
-                    {
-                        "gameVersion": "",
-                        "gameVersionName": "Fabric",
-                        "gameVersionTypeId": 68441
-                    },
-                    {
-                        "gameVersion": "1.18.2",
-                        "gameVersionName": "1.18.2",
-                        "gameVersionTypeId": 73250
-                    }
-                ],
-                "hasInstallScript": false,
-                "isCompatibleWithClient": false,
-                "restrictProjectFileAccess": 0,
-                "projectStatus": 4,
-                "projectId": 395864,
-                "fileNameOnDisk": "kubejs-fabric-1802.5.1-build.353.jar",
-                "Hashes": []
-            }
-        },
-        {
             "instanceID": "b66b1fde-2d5c-4887-9a1c-9fd9d86aae38",
             "modSource": 0,
             "addonID": 309674,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Item Filters",
             "modFolderPath": null,
             "authors": [
@@ -52157,7 +51860,7 @@
             "modSource": 0,
             "addonID": 541329,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Equipment Compare [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -52393,7 +52096,7 @@
             "modSource": 0,
             "addonID": 688418,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Tamago",
             "modFolderPath": null,
             "authors": [
@@ -52597,7 +52300,7 @@
             "modSource": 0,
             "addonID": 252848,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Nature's Compass",
             "modFolderPath": null,
             "authors": [
@@ -52779,7 +52482,7 @@
             "modSource": 0,
             "addonID": 623883,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Phantom Config",
             "modFolderPath": null,
             "authors": [
@@ -53023,7 +52726,7 @@
             "modSource": 0,
             "addonID": 459857,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "FerriteCore (Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -53275,7 +52978,7 @@
             "modSource": 0,
             "addonID": 439890,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Create Crafts & Additions",
             "modFolderPath": null,
             "authors": [
@@ -53493,7 +53196,7 @@
             "modSource": 0,
             "addonID": 615948,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "TieredZ",
             "modFolderPath": null,
             "authors": [
@@ -53719,7 +53422,7 @@
             "modSource": 0,
             "addonID": 351725,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Bridges",
             "modFolderPath": null,
             "authors": [
@@ -53911,7 +53614,7 @@
             "modSource": 0,
             "addonID": 374143,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Sandwichable",
             "modFolderPath": null,
             "authors": [
@@ -54159,7 +53862,7 @@
             "modSource": 0,
             "addonID": 378646,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Macaw's Doors",
             "modFolderPath": null,
             "authors": [
@@ -54351,7 +54054,7 @@
             "modSource": 0,
             "addonID": 521126,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Visuality",
             "modFolderPath": null,
             "authors": [
@@ -54555,7 +54258,7 @@
             "modSource": 0,
             "addonID": 392805,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "CleanCut",
             "modFolderPath": null,
             "authors": [
@@ -54737,7 +54440,7 @@
             "modSource": 0,
             "addonID": 428912,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Krypton",
             "modFolderPath": null,
             "authors": [
@@ -54941,7 +54644,7 @@
             "modSource": 0,
             "addonID": 374274,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Your Options Shall Be Respected (YOSBR)",
             "modFolderPath": null,
             "authors": [
@@ -55475,7 +55178,7 @@
             "modSource": 0,
             "addonID": 410224,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "EnvironmentZ",
             "modFolderPath": null,
             "authors": [
@@ -55703,7 +55406,7 @@
             "modSource": 0,
             "addonID": 445787,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Modular Loot Crates and Bundles",
             "modFolderPath": null,
             "authors": [
@@ -55949,7 +55652,7 @@
             "modSource": 0,
             "addonID": 566397,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Squirting syringe",
             "modFolderPath": null,
             "authors": [
@@ -56141,7 +55844,7 @@
             "modSource": 0,
             "addonID": 539382,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Iceberg [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -56333,7 +56036,7 @@
             "modSource": 0,
             "addonID": 363949,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "The Bumblezone (Quilt/Fabric)",
             "modFolderPath": null,
             "authors": [
@@ -56551,7 +56254,7 @@
             "modSource": 0,
             "addonID": 408480,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Chest Cavity [Fabric]",
             "modFolderPath": null,
             "authors": [
@@ -56767,7 +56470,7 @@
             "modSource": 0,
             "addonID": 526754,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Botany Pots Tiers",
             "modFolderPath": null,
             "authors": [
@@ -56965,7 +56668,7 @@
             "modSource": 0,
             "addonID": 656526,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Revelationary",
             "modFolderPath": null,
             "authors": [
@@ -57181,7 +56884,7 @@
             "modSource": 0,
             "addonID": 641059,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "No Shield Delay",
             "modFolderPath": null,
             "authors": [
@@ -57471,7 +57174,7 @@
             "modSource": 0,
             "addonID": 556967,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Spectrum",
             "modFolderPath": null,
             "authors": [
@@ -57743,7 +57446,7 @@
             "modSource": 0,
             "addonID": 303557,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Better Animals Plus",
             "modFolderPath": null,
             "authors": [
@@ -58098,7 +57801,7 @@
             "modSource": 0,
             "addonID": 473131,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Builtin Servers",
             "modFolderPath": null,
             "authors": [
@@ -58290,7 +57993,7 @@
             "modSource": 0,
             "addonID": 433447,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "MixinTrace",
             "modFolderPath": null,
             "authors": [
@@ -58616,7 +58319,7 @@
             "modSource": 0,
             "addonID": 393442,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "LambDynamicLights",
             "modFolderPath": null,
             "authors": [
@@ -58886,7 +58589,7 @@
             "modSource": 0,
             "addonID": 550916,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "TraderNPCs",
             "modFolderPath": null,
             "authors": [
@@ -59068,7 +58771,7 @@
             "modSource": 0,
             "addonID": 574404,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Artis-Recrafted",
             "modFolderPath": null,
             "authors": [
@@ -59230,7 +58933,7 @@
             "modSource": 0,
             "addonID": 410127,
             "gameID": 432,
-            "gameInstanceID": "60235b15-46e0-4ac6-968f-dec17c4c8c3f",
+            "gameInstanceID": "facf7d23-93fa-47c6-8f5c-58776338b0df",
             "name": "Mythic Metals",
             "modFolderPath": null,
             "authors": [

@@ -4,7 +4,11 @@
 	order_index: 1
 	filename: "space_travel"
 	title: "Space Travel"
-	always_invisible: true
+	icon: {
+		id: "ad_astra:tier_4_rocket"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -16,7 +20,7 @@
 			dependencies: ["0EB0B17A06209563"]
 			id: "4B0BD12E5FCC3241"
 			tasks: [{
-				id: "6088C9FC9FFE2EBA"
+				id: "339396BDAD84EBEE"
 				type: "checkmark"
 			}]
 		}
@@ -58,6 +62,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
+			subtitle: "Complete The Research In Medical"
 			dependencies: ["29F0244B5C5B1705"]
 			id: "368B3849F9F18741"
 			tasks: [{
@@ -73,6 +78,7 @@
 		{
 			x: -2.0d
 			y: -1.5d
+			subtitle: "Complete The Research In Engineering"
 			dependencies: ["4B0BD12E5FCC3241"]
 			id: "6B6AEF99F1436178"
 			tasks: [{
@@ -84,6 +90,7 @@
 		{
 			x: -2.0d
 			y: 0.5d
+			subtitle: "Complete The Research In Science"
 			dependencies: ["616DCDBCB0B75AE5"]
 			id: "24255EC1693E918B"
 			tasks: [{
@@ -131,6 +138,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
+			subtitle: "Complete The Research In Engineering"
 			dependencies: ["7F425AB3E4DA8AA8"]
 			id: "06C375E30E431DD9"
 			tasks: [{
@@ -142,6 +150,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
+			subtitle: "Complete The Research In Science"
 			dependencies: ["7F425AB3E4DA8AA8"]
 			id: "3BA3E909FFF61248"
 			tasks: [{
@@ -153,6 +162,7 @@
 		{
 			x: 2.0d
 			y: 2.5d
+			subtitle: "Complete The Research In Medical"
 			dependencies: ["7F425AB3E4DA8AA8"]
 			id: "34562011841C2D27"
 			tasks: [{
@@ -183,6 +193,12 @@
 			rewards: [{
 				id: "49811BA0B2E89CF5"
 				type: "command"
+				title: "Rocket 2 Research"
+				icon: {
+					id: "ad_astra:tier_2_rocket"
+					Count: 1b
+					tag: { }
+				}
 				command: "/phase grant @p rocket2"
 				player_command: false
 			}]
@@ -190,6 +206,7 @@
 		{
 			x: 7.0d
 			y: 2.5d
+			subtitle: "Complete The Research In Medical"
 			dependencies: ["68B1CEBBC7D77BB5"]
 			id: "7D43CE8FA9B9FD5D"
 			tasks: [{
@@ -201,6 +218,7 @@
 		{
 			x: 7.0d
 			y: 0.5d
+			subtitle: "Complete The Research In Science"
 			dependencies: ["68B1CEBBC7D77BB5"]
 			id: "49AD8049562A1CD4"
 			tasks: [{
@@ -212,6 +230,7 @@
 		{
 			x: 7.0d
 			y: -1.5d
+			subtitle: "Complete The Research In Engineering"
 			dependencies: ["68B1CEBBC7D77BB5"]
 			id: "346DC3C9C34B01EA"
 			tasks: [{
@@ -221,16 +240,82 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 10.5d
 			y: 0.5d
 			dependencies: [
-				"346DC3C9C34B01EA"
-				"49AD8049562A1CD4"
-				"7D43CE8FA9B9FD5D"
+				"6CBEF4C73F43653B"
+				"2243B9D83C57ECC8"
+				"0660DD7215E78F70"
+				"54DD77D8131B5419"
+				"7BB9EC3181656FE5"
+				"713BF404E65DB76B"
+				"4AB425CA883CCAC9"
+				"3B26F8C12F7B450D"
+				"7D168696116546F7"
+				"6C4CF61A1F2CB6E9"
+				"2A660A8C7D573CA9"
+				"21DACAF147898736"
+				"1CE209A0CC9578CF"
+				"05C76D7FA1A45D85"
+				"71693E8017A8EFDA"
+				"46A0A2A7B7D9ADC5"
+				"4AC26E52C49E2492"
+				"0C12A9019977CEFA"
+				"4F6C95F97EB1553A"
+				"3F98829574E4F648"
+				"216B5DCF3DF07175"
+				"5E6CAF1CBEB87A6D"
+				"4B5A70DA054378E6"
+				"1FF4C2DCDDFB87FB"
+				"098FAEE3563C0178"
+				"373C359FF887058F"
+				"244E4DDF90DA3767"
+				"068E461738B98892"
+				"23080E9D5030A516"
+				"26F25383D3438507"
+				"2F1FB2355E3B1729"
+				"0EEE3D596E8EA583"
+				"1FD7D8BC2ECF7F9F"
+				"2EB6AD19C18D571E"
+				"491790F5BC19363B"
+				"5322B870716FD97F"
+				"3A5D2EB9E74ED568"
+				"669B7396563C2977"
+				"42E40EB020BC7F2F"
+				"39EF97995589B1B4"
+				"559D52738F7A0ED8"
+				"3A5A9BA2E617F1A2"
+				"6A02A6529C33BA2E"
+				"0610C32A515C2329"
+				"5C569003BF01DA06"
+				"367E7B4546BD9A55"
+				"15B8DB212EF9DEB8"
+				"57E5F875F4734E3B"
+				"20F85BCF3C13FBFC"
+				"65A8F5D49F01D725"
+				"3BCA94EAFB802979"
+				"65A812478D76F940"
+				"3F926136BA60389D"
+				"3EC87265ABF87F8C"
+				"5793C54B17E34FE5"
+				"70B64AD3E1CE96CB"
+				"26D43C87C99C6DAC"
+				"05A47F5F2D3D612F"
+				"58C7ABED2C9BD85A"
+				"51B7E2872AB700EB"
+				"23D97A6D84AA06F3"
+				"39F26ABA3A65C75C"
+				"7D19BAD3435E4166"
+				"74F33CC6155A3C1C"
+				"5AF94016E92C34B6"
+				"3D2289CB63E85978"
+				"44D15907D15E8073"
+				"3EC034C27E154268"
+				"1C4EB47627533714"
 			]
 			id: "444F361CC86BB99A"
 			tasks: [{
-				id: "0888DEEB884373A2"
+				id: "2748085EA5B7CF5E"
 				type: "item"
 				item: {
 					id: "ad_astra:tier_3_rocket"
@@ -301,7 +386,7 @@
 		}
 		{
 			title: "Is time travel real?"
-			x: 18.5d
+			x: 20.0d
 			y: 0.5d
 			dependencies: ["35D0166FCCCAE06B"]
 			id: "032ECE4784A9BBC3"
@@ -329,7 +414,7 @@
 		{
 			x: 15.0d
 			y: 0.5d
-			dependencies: ["1089B87E8D32E8F1"]
+			dependencies: ["36C54FD30D514CFD"]
 			id: "0C86677FE5AB4391"
 			tasks: [{
 				id: "344D84B95854578B"
@@ -346,6 +431,60 @@
 				id: "55EBE695D0F91151"
 				type: "item"
 				item: "artis:nulla"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: [
+				"346DC3C9C34B01EA"
+				"7D43CE8FA9B9FD5D"
+				"49AD8049562A1CD4"
+			]
+			id: "373C359FF887058F"
+			tasks: [{
+				id: "7D740A17B7B0FF5A"
+				type: "questsadditions:playernbt"
+				title: "Reach Level 40"
+				icon: "artifacts:crystal_heart"
+				nbt: {
+					cardinal_components: {
+						"playerex:player_data": {
+							Modifiers: [{
+								Value: 40.0d
+								Key: "playerex:level"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0823213B5926CFBF"
+				type: "command"
+				title: "Rocket 3 Recipe"
+				icon: {
+					id: "ad_astra:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+				command: "/phase grant @p rocket3"
+				player_command: false
+			}]
+		}
+		{
+			title: "Complete \"Captain of Direction\" Quest"
+			icon: "kubejs:navigator"
+			x: 13.5d
+			y: 0.5d
+			dependencies: [
+				"1089B87E8D32E8F1"
+				"0B3ACA03E180AF01"
+			]
+			id: "36C54FD30D514CFD"
+			tasks: [{
+				id: "7BD6BEE046FF7359"
+				type: "checkmark"
+				title: "Complete Captain Quest"
 			}]
 		}
 	]

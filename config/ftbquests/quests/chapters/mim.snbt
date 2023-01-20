@@ -43,8 +43,8 @@
 			title: "Stack of Bullets"
 			icon: "hwg:bullets"
 			disable_toast: true
-			x: 27.0d
-			y: -17.0d
+			x: 29.5d
+			y: -19.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -62,6 +62,7 @@
 			rewards: [{
 				id: "5720227FE138FD9E"
 				type: "item"
+				team_reward: false
 				item: "hwg:bullets"
 				count: 64
 			}]
@@ -70,8 +71,8 @@
 			title: "Stack of Shotgun Shells"
 			icon: "hwg:shotgun_shell"
 			disable_toast: true
-			x: 25.5d
-			y: -17.0d
+			x: 28.5d
+			y: -19.5d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -89,6 +90,7 @@
 			rewards: [{
 				id: "44A3B3FA0499DF32"
 				type: "item"
+				team_reward: false
 				item: "hwg:shotgun_shell"
 				count: 64
 			}]
@@ -97,8 +99,8 @@
 			title: "Fuel Tank"
 			icon: "hwg:fuel_tank"
 			disable_toast: true
-			x: 24.0d
-			y: -17.0d
+			x: 27.0d
+			y: -20.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -116,6 +118,7 @@
 			rewards: [{
 				id: "2833A869C7A01911"
 				type: "item"
+				team_reward: false
 				item: "hwg:fuel_tank"
 			}]
 		}
@@ -123,8 +126,8 @@
 			title: "Stack of Arrows"
 			icon: "minecraft:arrow"
 			disable_toast: true
-			x: 24.0d
-			y: -15.5d
+			x: 25.5d
+			y: -20.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -150,8 +153,8 @@
 			title: "Cali Taco"
 			icon: "tacocraft:california_taco"
 			disable_toast: true
-			x: 27.0d
-			y: -15.5d
+			x: 30.0d
+			y: -14.5d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -170,6 +173,7 @@
 			rewards: [{
 				id: "1EA2A8BA569B906E"
 				type: "item"
+				team_reward: false
 				item: "tacocraft:california_taco"
 			}]
 		}
@@ -177,8 +181,8 @@
 			title: "12 Golden Carrots"
 			icon: "minecraft:golden_carrot"
 			disable_toast: true
-			x: 24.0d
-			y: -14.0d
+			x: 28.5d
+			y: -11.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -198,6 +202,7 @@
 				type: "item"
 				title: "12 Golden Carrots"
 				icon: "minecraft:golden_carrot"
+				team_reward: false
 				item: "minecraft:golden_carrot"
 				count: 12
 			}]
@@ -206,8 +211,8 @@
 			title: "MRE"
 			icon: "campanion:mre"
 			disable_toast: true
-			x: 25.5d
-			y: -14.0d
+			x: 29.5d
+			y: -12.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -226,6 +231,7 @@
 			rewards: [{
 				id: "4945444D9B417755"
 				type: "item"
+				team_reward: false
 				item: "campanion:mre"
 			}]
 		}
@@ -233,8 +239,8 @@
 			title: "Big Breakfast"
 			icon: "croptopia:the_big_breakfast"
 			disable_toast: true
-			x: 27.0d
-			y: -14.0d
+			x: 30.0d
+			y: -13.0d
 			dependencies: ["4F4F36A8F18CAE0A"]
 			optional: true
 			can_repeat: true
@@ -252,8 +258,98 @@
 			rewards: [{
 				id: "2534D379EC1D4883"
 				type: "item"
+				team_reward: false
 				item: "croptopia:the_big_breakfast"
 				count: 12
+			}]
+		}
+		{
+			title: "Small Health Potion"
+			icon: "relicex:small_health_potion"
+			x: 23.0d
+			y: -16.0d
+			dependencies: ["4F4F36A8F18CAE0A"]
+			repeatable: true
+			id: "14041806C8EF4032"
+			tasks: [{
+				id: "5E86EC9363F08AB5"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:bronze_coin"
+					Count: 1b
+					tag: { }
+				}
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62E16044DBA96AAE"
+				type: "item"
+				team_reward: false
+				item: "relicex:small_health_potion"
+			}]
+		}
+		{
+			title: "Medium Health Potion"
+			icon: "relicex:medium_health_potion"
+			x: 23.0d
+			y: -14.5d
+			dependencies: ["4F4F36A8F18CAE0A"]
+			repeatable: true
+			id: "1FF4CEF37500CC33"
+			tasks: [{
+				id: "5AAFADE077FAD5AF"
+				type: "item"
+				item: {
+					id: "numismatic-overhaul:silver_coin"
+					Count: 1b
+					tag: { }
+				}
+				consume_items: true
+			}]
+			rewards: [{
+				id: "624660FB342BF61E"
+				type: "item"
+				team_reward: false
+				item: "relicex:medium_health_potion"
+			}]
+		}
+		{
+			title: "Large Health Potion"
+			icon: "relicex:large_health_potion"
+			x: 23.0d
+			y: -13.0d
+			dependencies: ["4F4F36A8F18CAE0A"]
+			repeatable: true
+			id: "301AB7880A9F51CE"
+			tasks: [
+				{
+					id: "7567AFC05F02216E"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:silver_coin"
+						Count: 1b
+						tag: { }
+					}
+					consume_items: true
+				}
+				{
+					id: "70F6E1FFB23C8856"
+					type: "item"
+					item: {
+						id: "numismatic-overhaul:bronze_coin"
+						Count: 1b
+						tag: { }
+					}
+					count: 50L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "7A9CC9884A08B3A9"
+				type: "item"
+				team_reward: false
+				item: "relicex:large_health_potion"
 			}]
 		}
 	]

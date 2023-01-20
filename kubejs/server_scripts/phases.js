@@ -179,6 +179,24 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('oxysensor')
         .item('ad_astra:oxygen_sensor')
+
+    event.phase('ostrum_ingot')
+        .item('ad_astra:ostrum_ingot')
+
+    event.phase('cryo_freezer')
+        .item('ad_astra:cryo_freezer')
+
+    event.phase('rocket3')
+        .item('ad_astra:tier_3_rocket')
+    
+});
+
+// Ad Astra Gating phase 4
+
+onEvent('gamephases.initialize', event => {
+  event.phase('calorite_ingot')
+  .item('ad_astra:calorite_ingot')
+
 });
 
 //Conveyors

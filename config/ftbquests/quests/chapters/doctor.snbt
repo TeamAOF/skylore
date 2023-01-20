@@ -49,14 +49,6 @@
 				value: 30L
 				points: false
 			}]
-			rewards: [{
-				id: "47AE70EC7C6C4BE7"
-				type: "command"
-				title: "Gain Examination Table Access"
-				icon: "artis:examination_table"
-				command: "/phase grant @p medical"
-				player_command: false
-			}]
 		}
 		{
 			x: 1.5d
@@ -79,20 +71,25 @@
 			}]
 		}
 		{
+			title: "Useful Syringes Research"
+			icon: "squirtingsyringe:syringe"
 			x: 10.5d
 			y: -4.5d
 			dependencies: ["305035EE1DD3009E"]
 			id: "08CBDE18227CF305"
 			tasks: [{
-				id: "7415C9DB991BEB0E"
-				type: "item"
-				item: "squirtingsyringe:syringe"
+				id: "31C680688F17734D"
+				type: "xp"
+				value: 10L
+				points: false
 			}]
 			rewards: [{
-				id: "289FE63C8B4EE3D5"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6421114608467573967L
+				id: "3D61D64C13B27647"
+				type: "command"
+				title: "Unlock Recipe"
+				icon: "squirtingsyringe:syringe"
+				command: "/phase grant @p syringe"
+				player_command: false
 			}]
 		}
 		{

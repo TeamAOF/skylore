@@ -21,8 +21,8 @@
 	}]
 	quests: [
 		{
-			x: 7.0d
-			y: 10.0d
+			x: 7.5d
+			y: 9.5d
 			dependencies: ["186CB0917B42C66D"]
 			id: "1B2650377A0E5FF5"
 			tasks: [{
@@ -877,6 +877,8 @@
 				"Indrev technology is regarded to be some of the best in the universe. However, they are driven by profit, so on the very rare occasion, machines can malfunction due to not passing QA to meet deadlines."
 				""
 				"Notable traits are their not so subtle 1950’s like advertising and their insatiable urge to gain money."
+				""
+				"YOU WILL NEED TO UNLOCK \"RESEARCH NEW ORE\" IN SCIENCE FIRST."
 			]
 			dependencies: [
 				"5E79F564152B88C8"
@@ -987,8 +989,8 @@
 		{
 			title: "Desh Cable Research"
 			icon: "ad_astra:desh_cable"
-			x: 2.5d
-			y: 13.5d
+			x: 4.0d
+			y: 14.0d
 			dependencies: [
 				"023F74F1FF301B92"
 				"7F425AB3E4DA8AA8"
@@ -1246,8 +1248,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 11.5d
+			x: 9.5d
+			y: 10.5d
 			dependencies: ["1B2650377A0E5FF5"]
 			id: "1EAB97E3B0467FC3"
 			tasks: [{
@@ -1282,6 +1284,28 @@
 				title: "Solar Panel Research"
 				icon: "indrev:solar_generator_mk1"
 				command: "/phase grant @p indrev_solargen"
+				player_command: false
+			}]
+		}
+		{
+			title: "Cryo Freezer Research"
+			icon: "ad_astra:cryo_freezer"
+			x: -3.5d
+			y: 7.0d
+			dependencies: ["4913AF9565D2F063"]
+			id: "616AF19FA21EF09A"
+			tasks: [{
+				id: "28BE836ABF29E855"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "1AB6BD356D8D08F8"
+				type: "command"
+				title: "Recipe Unlock"
+				icon: "ad_astra:cryo_freezer"
+				command: "/phase grant @p cryo_freezer"
 				player_command: false
 			}]
 		}

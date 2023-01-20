@@ -104,8 +104,8 @@
 		}
 		{
 			title: "Slingshot Survival"
-			x: 10.0d
-			y: 1.0d
+			x: 9.0d
+			y: 0.0d
 			shape: "pentagon"
 			subtitle: "Crafting a Slingshot"
 			description: [
@@ -250,8 +250,8 @@
 		}
 		{
 			title: "Shield Up"
-			x: 9.557142857142864d
-			y: -0.19285714285714306d
+			x: 7.5d
+			y: 0.0d
 			shape: "pentagon"
 			subtitle: "Crafting a Shield"
 			description: ["Enemies on Atmos shoot arrows, making survival difficult. To increase your chances, craft a shield. It's essential for survival. Remember to equip it before facing enemies."]
@@ -316,28 +316,6 @@
 			}]
 			rewards: [{
 				id: "369DC8F1AAAEB495"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 8610730502767635143L
-			}]
-		}
-		{
-			title: "Effective mob proofing"
-			x: -1.5d
-			y: -4.0d
-			shape: "octagon"
-			subtitle: "The tool that allows you to light up an island without doubt."
-			description: ["This torch is the safest way to make sure when you are caving you wont experience deaths and probable loosing of items. Simply show chunk boundaries and place one of these in each chunk to make sure no mobs can even spawn on the island."]
-			dependencies: ["217DF3CFEFDC2CF8"]
-			id: "7CE60BC0A027E3E7"
-			tasks: [{
-				id: "5510BB9CED7B3EF7"
-				type: "item"
-				item: "kibe:big_torch"
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "52AE347B381705AF"
 				type: "loot"
 				exclude_from_claim_all: true
 				table_id: 8610730502767635143L
@@ -450,8 +428,8 @@
 		}
 		{
 			title: "Create a stockpile of resources"
-			x: -0.5d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 			subtitle: "The crash landing protocol necessitates the stockpiling of certain items."
 			description: [
 				""
@@ -496,20 +474,28 @@
 					only_from_crafting: false
 				}
 			]
-			rewards: [{
-				id: "6ABB6F81C385E2E3"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 6009508235035804685L
-			}]
+			rewards: [
+				{
+					id: "6ABB6F81C385E2E3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+				{
+					id: "1CEF7253D19684D6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6009508235035804685L
+				}
+			]
 		}
 		{
 			title: "Investigate the glow berry"
 			x: -3.5d
-			y: 1.0d
+			y: 0.0d
 			subtitle: "This strange berry may provide some answers to one of lifes most important questions."
 			description: ["Review Medical Officer Tasks to Learn More"]
-			dependencies: ["350E66C2C959C83E"]
+			dependencies: ["4DACB278D6F2F298"]
 			hide: true
 			hide_text_until_complete: true
 			id: "23CB8D088145F296"
@@ -517,6 +503,7 @@
 				id: "28FEFF7FF8046E17"
 				type: "item"
 				item: "minecraft:glow_berries"
+				count: 20L
 			}]
 			rewards: [
 				{
@@ -532,12 +519,18 @@
 					exclude_from_claim_all: true
 					table_id: 3534262378248187539L
 				}
+				{
+					id: "6D70D78B19FF98D6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3534262378248187539L
+				}
 			]
 		}
 		{
 			title: "Acquire more ingots"
-			x: 2.5d
-			y: -1.0d
+			x: 5.0d
+			y: -2.5d
 			subtitle: "Mass Melting"
 			dependencies: ["350E66C2C959C83E"]
 			hide: true
@@ -602,17 +595,54 @@
 		{
 			title: "And My Axe"
 			x: 1.5d
-			y: 1.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 6.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "60473FD387E9BFC8"
 			tasks: [{
-				id: "7400A3FA3E35F23F"
+				id: "1CD0D0FE0FEB39FE"
 				type: "item"
+				title: "Make an axe"
 				item: {
-					id: "itemfilters:tag"
+					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						value: "c:axes"
+						items: [
+							{
+								id: "additionaladditions:rose_gold_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:diamond_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:wooden_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:iron_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "minecraft:stone_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 			}]
@@ -626,8 +656,8 @@
 		{
 			title: "I Can Dig It"
 			x: 1.5d
-			y: 3.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 8.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "36138B79F67D54F4"
 			tasks: [{
 				id: "0AD63763A0A27066"
@@ -650,8 +680,8 @@
 		{
 			title: "Pick It Real Good"
 			x: 1.5d
-			y: 4.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 9.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "26F2E1857D7CA7A9"
 			tasks: [{
 				id: "115AF16B5E63B8AF"
@@ -674,8 +704,8 @@
 		{
 			title: "I Got Hoes"
 			x: 1.5d
-			y: 2.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 7.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "43440E28112A019C"
 			tasks: [{
 				id: "7EA4F205F01CAFE6"
@@ -698,8 +728,8 @@
 		{
 			title: "Chestplate"
 			x: -0.5d
-			y: 2.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 7.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "3A204DC8CA54E397"
 			tasks: [{
 				id: "5D1AB0197739553A"
@@ -716,8 +746,8 @@
 		{
 			title: "Leggings"
 			x: -0.5d
-			y: 3.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 8.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "7C390A0640799D1B"
 			tasks: [{
 				id: "7383C8B452B44665"
@@ -734,8 +764,8 @@
 		{
 			title: "Boots"
 			x: -0.5d
-			y: 4.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 9.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "16A23B7E46D2F79C"
 			tasks: [{
 				id: "4BA79FD279416E77"
@@ -752,8 +782,8 @@
 		{
 			title: "Helmet"
 			x: -0.5d
-			y: 1.0d
-			dependencies: ["350E66C2C959C83E"]
+			y: 6.5d
+			dependencies: ["7C16300239CA7718"]
 			id: "4681785E146D5413"
 			tasks: [{
 				id: "6515F66290F5B26F"
@@ -765,54 +795,6 @@
 						value: "c:helmets"
 					}
 				}
-			}]
-		}
-		{
-			x: 7.0d
-			y: 0.0d
-			subtitle: "It appears that the legends may have been accurate... perhaps you could eliminate the hordes of zombies?"
-			description: ["Your task is to eliminate 15 zombies in order to stop the endless spawn on Atmos. This will not be an easy feat, as the hordes may be stronger than you expect."]
-			dependencies: ["69AD5130633DDD7F"]
-			id: "36E54CEBEEDDEF72"
-			tasks: [{
-				id: "6545F4246A0C12AF"
-				type: "kill"
-				title: "Kill 15 Zombies"
-				icon: "minecraft:zombie_head"
-				entity: "minecraft:zombie"
-				value: 15L
-			}]
-			rewards: [{
-				id: "75BC0707407AF0B5"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 3534262378248187539L
-			}]
-		}
-		{
-			x: 8.12857142857144d
-			y: -0.30714285714285694d
-			subtitle: "Skeleton slaying."
-			description: [
-				"Skeletons spawn endlessly on Atmos, and their arrows make them dangerous. You want to try and stop them by killing 15. It won't be easy, but it's worth a try. You'll need to be careful, use your weapons and shield wisely."
-				""
-				"Even if you die, getting your items back won't be easy. You gotta be smart and weigh the risks. Maybe it'll work and the skeletons will stop spawning."
-			]
-			dependencies: ["69AD5130633DDD7F"]
-			id: "142B469D8437800C"
-			tasks: [{
-				id: "7BA837CA42CAF868"
-				type: "kill"
-				title: "Kill 15 Skeleton"
-				icon: "minecraft:skeleton_skull"
-				entity: "minecraft:skeleton"
-				value: 15L
-			}]
-			rewards: [{
-				id: "397BE3BD65A6A3EA"
-				type: "loot"
-				exclude_from_claim_all: true
-				table_id: 9015732949868242056L
 			}]
 		}
 		{
@@ -847,6 +829,7 @@
 			}]
 		}
 		{
+			title: "Unlock Spore Sword"
 			icon: {
 				id: "doodads:spore_sword"
 				Count: 1b
@@ -856,6 +839,7 @@
 			}
 			x: 5.0d
 			y: 6.5d
+			description: ["An unbreakable sword that poisons whatever you attack."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "50210B5F86D36139"
 			tasks: [{
@@ -872,9 +856,11 @@
 			}]
 		}
 		{
+			title: "Unlock Paintbrush"
 			icon: "doodads:paintbrush"
 			x: 5.0d
 			y: 5.5d
+			description: ["Lets you dye colorable blocks."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "0D3BF549A869B466"
 			tasks: [{
@@ -891,9 +877,11 @@
 			}]
 		}
 		{
+			title: "Unlock Beaver Teeth"
 			icon: "doodads:beaver_teeth"
 			x: 5.0d
 			y: 4.5d
+			description: ["Lets you instantly mine wood and strip wood without an axe when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "76696FADD9A62FFC"
 			tasks: [{
@@ -910,9 +898,11 @@
 			}]
 		}
 		{
+			title: "The superior kind of straw"
 			icon: "doodads:bendy_straw"
 			x: 5.0d
 			y: 7.5d
+			description: ["Gives potions double durations when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "72EEB05FFAF2EF79"
 			tasks: [{
@@ -929,9 +919,11 @@
 			}]
 		}
 		{
+			title: "Unlock Soggy Glove"
 			icon: "doodads:soggy_glove"
 			x: 11.0d
 			y: 6.5d
+			description: ["Converts concrete powder to concrete when placed."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "1D0C9880867B23B0"
 			tasks: [{
@@ -948,9 +940,11 @@
 			}]
 		}
 		{
+			title: "Unlock Loggers Glove"
 			icon: "doodads:loggers_glove"
 			x: 5.0d
 			y: 9.5d
+			description: ["Prevents you from stripping logs when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "2B843631BD80C679"
 			tasks: [{
@@ -967,9 +961,11 @@
 			}]
 		}
 		{
+			title: "Unlock Sun Stone"
 			icon: "doodads:sun_ring"
 			x: 11.0d
 			y: 3.5d
+			description: ["Gives strength during the day when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "7690417781949E39"
 			tasks: [{
@@ -986,9 +982,11 @@
 			}]
 		}
 		{
+			title: "Unlock Moon Stone Ring"
 			icon: "doodads:moon_ring"
 			x: 11.0d
 			y: 9.5d
+			description: ["Gives strength during the night when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "188B93C1E062D0DD"
 			tasks: [{
@@ -1005,9 +1003,11 @@
 			}]
 		}
 		{
+			title: "Celestian Powers Activate!"
 			icon: "doodads:celestial_ring"
 			x: 8.0d
 			y: 10.5d
+			description: ["Gives strength at all times when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "3DF508826DABB159"
 			tasks: [{
@@ -1024,9 +1024,11 @@
 			}]
 		}
 		{
+			title: "You're going to WEAR that?"
 			icon: "doodads:cactus_ring"
 			x: 5.0d
 			y: 8.5d
+			description: ["Gives thorns when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "04E3CC6101F9CC0B"
 			tasks: [{
@@ -1043,9 +1045,11 @@
 			}]
 		}
 		{
+			title: "The Beauty in the Dark"
 			icon: "doodads:midnights_eye"
 			x: 11.0d
 			y: 7.5d
+			description: ["Grants night vision when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "7E0C65EFAAF9B3F5"
 			tasks: [{
@@ -1062,9 +1066,11 @@
 			}]
 		}
 		{
+			title: "It may look at you funny..."
 			icon: "doodads:glare_plushie"
 			x: 5.0d
 			y: 3.5d
+			description: ["Whenever it gets dark, this places lights down."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "77BFA72A1F8CA990"
 			tasks: [{
@@ -1081,9 +1087,11 @@
 			}]
 		}
 		{
+			title: "Bounce all the way to the moon! (not really)"
 			icon: "doodads:slimey_shoes"
 			x: 11.0d
 			y: 10.5d
+			description: ["Grants bounciness, increased jump height, and immunity to fall damage when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "49061BF88DBAA839"
 			tasks: [{
@@ -1100,9 +1108,11 @@
 			}]
 		}
 		{
+			title: "Not for Lightning Boots"
 			icon: "doodads:shulker_aglet"
 			x: 11.0d
 			y: 8.5d
+			description: ["Grants immunity to levitation when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "5F82B270CAB04AA0"
 			tasks: [{
@@ -1119,9 +1129,11 @@
 			}]
 		}
 		{
+			title: "Unlock Blossom Belt"
 			icon: "doodads:blossom_belt"
 			x: 11.0d
 			y: 4.5d
+			description: ["Gives immunity to poison when worn."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "61306CB5732B42C4"
 			tasks: [{
@@ -1138,9 +1150,11 @@
 			}]
 		}
 		{
+			title: "Unlock Duct Tape"
 			icon: "doodads:duct_tape"
 			x: 5.0d
 			y: 10.5d
+			description: ["Makes mobs silent when used on them."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "7EBE1134EECE09C3"
 			tasks: [{
@@ -1157,9 +1171,11 @@
 			}]
 		}
 		{
+			title: "Unlock Magic Plum"
 			icon: "doodads:magic_plum"
 			x: 11.0d
 			y: 5.5d
+			description: ["Acts as a stackable totem of undying."]
 			dependencies: ["7403AEC549FCEA83"]
 			id: "48AAF253A78026B3"
 			tasks: [{
@@ -1189,9 +1205,11 @@
 			}]
 		}
 		{
+			title: "Unlock Everlasting Beef"
 			icon: "artifacts:everlasting_beef"
 			x: 8.0d
 			y: 13.0d
+			description: ["A steak that is never used up."]
 			dependencies: [
 				"3DF508826DABB159"
 				"5F82B270CAB04AA0"
@@ -1223,6 +1241,109 @@
 				type: "command"
 				command: "/phase grant @p everlasting_beef"
 				player_command: false
+			}]
+		}
+		{
+			title: "ill try to make these titles more witty later -bagel"
+			x: 7.5d
+			y: 7.0d
+			id: "6C1E4D58BC55F310"
+			tasks: [{
+				id: "1AACEAADF395C70D"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+		}
+		{
+			title: "Lesser orb of regret"
+			icon: "relicex:lesser_orb_of_regret"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "You will start finding these all over the world."
+			dependencies: ["23CB8D088145F296"]
+			id: "42BF223F120D0F68"
+			tasks: [{
+				id: "311D462C05C354BF"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "2DEE2BC267C9A09B"
+				type: "command"
+				title: "Atmos gifts you the gift of regret"
+				icon: "relicex:lesser_orb_of_regret"
+				command: "/phase grant @p lesser_orb_regret"
+				player_command: false
+			}]
+		}
+		{
+			title: "Greater orb of regret"
+			icon: "relicex:greater_orb_of_regret"
+			x: -3.5d
+			y: 3.0d
+			subtitle: "For that reroll"
+			dependencies: ["42BF223F120D0F68"]
+			id: "2161576265475FCF"
+			tasks: [{
+				id: "687FF78A17554B61"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "0F7FAC92EE63DB36"
+				type: "command"
+				icon: "relicex:greater_orb_of_regret"
+				command: "/phase grant @p greater_orb_regret"
+				player_command: false
+			}]
+		}
+		{
+			title: "Change your species"
+			icon: "origins:orb_of_origin"
+			x: -3.5d
+			y: 4.5d
+			subtitle: "You only get one."
+			dependencies: ["2161576265475FCF"]
+			repeatable: true
+			id: "70CC10A99FC0AE6D"
+			tasks: [{
+				id: "0997CC0A116ABFE3"
+				type: "xp"
+				value: 30L
+				points: false
+			}]
+			rewards: [{
+				id: "5F6895501591CF6B"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "Personal Protection Equipment"
+			description: [
+				"Standard Operating Proceedure:"
+				""
+				"All Officers must equip the appropriate gear when investigating a new planet."
+				""
+				"This includes, but is not limited to:"
+				""
+				"- Head Protection"
+				"- Chest/Torso Protection"
+				"- Leg Protection"
+				"- Feet Protection"
+				""
+				"Please abide by the guidelines."
+			]
+			dependencies: ["350E66C2C959C83E"]
+			id: "7C16300239CA7718"
+			tasks: [{
+				id: "7A208DA66CA6F35F"
+				type: "checkmark"
+				title: "PPE"
 			}]
 		}
 	]
