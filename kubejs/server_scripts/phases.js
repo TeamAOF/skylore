@@ -181,7 +181,29 @@ onEvent('gamephases.initialize', event => {
         .item('ad_astra:oxygen_sensor')
 });
 
+//Conveyors
+onEvent('gamephases.initialize', event => {
+    event.phase('vector_plate')
+        .item('darkutilities:vector_plate')
 
+    event.phase('vector_plate_fast')
+        .item('darkutilities:vector_plate_fast')
+
+    event.phase('vector_plate_extreme')
+        .item('darkutilities:vector_plate_extreme')
+        
+    event.phase('vector_plate_ultra')
+        .item('darkutilities:vector_plate_ultra')
+
+    event.phase('regular_conveyor_belt')
+        .item('kibe:regular_conveyor_belt')
+
+    event.phase('fast_conveyor_belt')
+        .item('kibe:fast_conveyor_belt')
+    
+    event.phase('express_conveyor_belt')
+        .item('kibe:express_conveyor_belt')
+});
 
 // inmis backpacks
 
@@ -223,9 +245,6 @@ onEvent('gamephases.initialize', event => {
 	 .entity('minecraft:zombie_villager')
 	 .entity('minecraft:stray')
 	 
-	 
-	 
-     
     event.phase('creeper')
      .entity('minecraft:creeper')
      
@@ -251,29 +270,19 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('ed_book')
 		.item('extended_drawers:guide_book')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('ed_drawer')
 		.item('extended_drawers:single_drawer')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('ed_ddrawer')
 		.item('extended_drawers:double_drawer')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('ed_qdrawer')
 		.item('extended_drawers:quad_drawer')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('ed_controller')
 		.item('extended_drawers:controller')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('ed_connector')
 		.item('extended_drawers:connector')
 });
@@ -300,9 +309,7 @@ onEvent('gamephases.initialize', event => {
         .item('chestcavity:inner_furnace')
         .item('chestcavity:golem_cable')
         .item('chestcavity:piston_muscle')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('syringe')
 		.item('squirtingsyringe:syringe')
 });
@@ -312,87 +319,69 @@ onEvent('gamephases.initialize', event => {
 onEvent('gamephases.initialize', event => {
     event.phase('spore_sword')
 		.item('doodads:spore_sword')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('paintbrush')
 		.item('doodads:paintbrush')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('beaver_teeth')
 		.item('doodads:beaver_teeth')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('bendy_straw')
 		.item('doodads:bendy_straw')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('soggy_glove')
 		.item('doodads:soggy_glove')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('loggers_glove')
 		.item('doodads:loggers_glove')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('sun_ring')
 		.item('doodads:sun_ring')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('moon_ring')
 		.item('doodads:moon_ring')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('celestial_ring')
 		.item('doodads:celestial_ring')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('cactus_ring')
 		.item('doodads:cactus_ring')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('midnights_eye')
 		.item('doodads:midnights_eye')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('glare_plushie')
 		.item('doodads:glare_plushie')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('slimey_shoes')
 		.item('doodads:slimey_shoes')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('shulker_aglet')
 		.item('doodads:shulker_aglet')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('blossom_belt')
 		.item('doodads:blossom_belt')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('duct_tape')
 		.item('doodads:duct_tape')
-});
 
-onEvent('gamephases.initialize', event => {
     event.phase('magic_plum')
 		.item('doodads:magic_plum')
 });
+
+//orbs
+
+onEvent('gamephases.initialize', event => {
+    event.phase('lesser_orb_regret')
+		.item('relicex:lesser_orb_of_regret')
+
+    event.phase('greater_orb_regret')
+		.item('relicex:greater_orb_of_regret')
+
+    event.phase('orb_of_origin')
+		.item('origins:orb_of_origin')
+});
+
 
 //Artifacts
 
@@ -416,6 +405,45 @@ onEvent('gamephases.initialize', event => {
 });
 
 
+//Spikes
+
+onEvent('gamephases.initialize', event => {
+    event.phase('iron_spikes')
+		.item('kibe:iron_spikes')
+
+    event.phase('gold_spikes')
+		.item('kibe:gold_spikes')
+
+
+    event.phase('diamond_spikes')
+		.item('kibe:diamond_spikes')
+});
+
+//Legendary Weapons
+
+onEvent('gamephases.initialize', event => {
+    event.phase('legendary')
+		.item('simplyswords:stormbringer')
+        .item('simplyswords:storms_edge')
+        .item('simplyswords:soulkeeper')
+        .item('simplyswords:soulpyre')
+        .item('simplyswords:soulrender')
+        .item('simplyswords:frostfall')
+        .item('simplyswords:bramblethorn')
+        .item('simplyswords:hearthflame')
+        .item('simplyswords:sword_on_a_stick')
+        .item('simplyswords:brimstone_claymore')
+        .item('simplyswords:watching_warglaive')
+        .item('simplyswords:watcher_claymore')
+        .item('simplyswords:molten_edge')
+        .item('simplyswords:mjolnir')
+        .item('simplyswords:toxic_longsword')
+        .item('simplyswords:soulstealer')
+        .item('simplyswords:emberblade')
+        .item('simplyswords:twisted_blade')
+
+});
+
 //Blocks -------------------------------------------------
 
 onEvent('gamephases.initialize', event => {
@@ -435,4 +463,8 @@ onEvent('gamephases.initialize', event => {
 
     event.phase('end')
         .block('minecraft:end_portal', 'minecraft:dirt')
+
+    event.phase('uraninite')
+        .block('powah:uraninite*', 'minecraft:stone')
+        .block('powah:deepslate_uraninite*', 'minecraft:stone')
 });
