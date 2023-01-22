@@ -1,3 +1,9 @@
+////////////////////////
+/// Made by Team AOF ///
+////////////////////////
+
+
+
 onEvent("rei.group", rei => {
     Ingredient.of("@chipped").stacks.stream()
     .flatMap(stack => stack.tags.stream())
