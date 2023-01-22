@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","loadmyresources.hiddenpack","resources/simplehats_hatdl.zip"]
+resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","loadmyresources.hiddenpack","resources/simplehats_hatdl.zip","file/Skylore.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
