@@ -62,7 +62,7 @@
           },
           "type": "keyselect",
           "data": {
-            "key": "key.voice_chat_gui",
+            "key": "key.voice_chat",
             "releaseDelay": 25001
           }
         },
