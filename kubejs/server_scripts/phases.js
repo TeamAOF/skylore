@@ -375,6 +375,7 @@ onEvent('gamephases.initialize', event => {
 
     event.phase('glare_plushie')
 		.item('doodads:glare_plushie')
+		.item('doodads:glare_staff')
 
     event.phase('slimey_shoes')
 		.item('doodads:slimey_shoes')
