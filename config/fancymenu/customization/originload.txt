@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/skymenu.png
+  path = kubejs/assets/skylore/textures/skymenu.png
   wideformat = true
   action = texturizebackground
 }
@@ -20,29 +20,18 @@ customization {
 }
 
 customization {
-  identifier = %id=450596%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\buttonhover.png
-  backgroundnormal = config\buttonnorm.png
-}
-
-customization {
-  identifier = %id=608490%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\buttonhover.png
-  backgroundnormal = config\buttonnorm.png
+  path = 
+  orientation = top-left
+  x = 0
+  width = -1
+  action = addtexture
+  actionid = 2eeca08d-e3d4-4731-a297-7d07173fdd6a1674417603224
+  y = 6
+  height = 100
 }
 
 customization {
   identifier = %id=372490%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config\buttonhover.png
-  backgroundnormal = config\buttonnorm.png
+  action = hidebutton
 }
 
