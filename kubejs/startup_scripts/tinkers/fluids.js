@@ -11,8 +11,6 @@ onEvent('fluid.registry', event => {
     0xCECEA5,
     // Tungsten
     0x665585,
-    // Nickel
-    0xC6C69E,
     // Mozanite
     0x8D2185,
     // Uranium
