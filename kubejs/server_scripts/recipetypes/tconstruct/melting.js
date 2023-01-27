@@ -13,6 +13,18 @@ onEvent('recipes', (event) => {
     'steel',
   ];
 
+  const ores = [
+    'tin',
+    'lead',
+    'silver',
+    'nickel',
+    'tungsten',
+    'mozanite',
+    'uranium',
+    'antimony',
+    'iridium',
+  ];
+
   const raw_materials = [
     'tin',
     'lead',
@@ -24,7 +36,7 @@ onEvent('recipes', (event) => {
     'iridium'
   ];
 
-  materials.forEach((item) => {
+  ores.forEach((item) => {
     event.custom({
       "type": "tconstruct:melting",
       "ingredient": {
@@ -37,7 +49,9 @@ onEvent('recipes', (event) => {
       "temperature": 500,
       "time": 50
     })
+  })
 
+    materials.forEach((item) => {
     event.custom({
         "type": "tconstruct:melting",
         "ingredient": {
