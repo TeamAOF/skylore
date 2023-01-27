@@ -198,7 +198,7 @@
 			rewards: [{
 				id: "6537C12DD792B02E"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 6009508235035804685L
 			}]
 		}
