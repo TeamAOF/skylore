@@ -19,7 +19,8 @@ onEvent('recipes', (event) => {
 		"inmis:endless_backpack",
 		"coxinhautilities:grannys_sink",
 		"twilightforest:uncrafting_table",
-		"doodads:doodad_bundle"
+		"doodads:doodad_bundle",
+		"ad_astra:recipes/steel_ingot_from_blasting_iron_ingot"
 		
     ];
 	
