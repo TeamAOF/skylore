@@ -1,6 +1,6 @@
 {
     "name": "§eCharge Block",
-    "description": "Start with 1 redstone block to help charge yourself",
+    "description": "Start with 1 redstone block to help charge yourself. Place a block of redstone under you, or a 3x3 amount to charge faster.",
     "type": "origins:starting_equipment",
     "stacks": [
         {

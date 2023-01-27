@@ -7,7 +7,10 @@ onEvent('recipes', (event) => {
 
     const id = [
 		"kibe:slime_boots",
-		"hwg:gun_table",
+		"kibe:stone_spikes",
+		"kibe:iron_spikes"
+		"kibe:gold_spikes",
+		"kibe:diamond_spikes"
 		"inmis:plated_backpack",
 		"inmis:gilded_backpack",
 		"inmis:bejeweled_backpack",
