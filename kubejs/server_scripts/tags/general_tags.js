@@ -15,11 +15,12 @@ onEvent('tags.items', event => {
 
     // Knives
 
-    event.add('c:knives', 'farmersdelight:flint_knife')
-    event.add('c:knives', 'farmersdelight:iron_knife')
-    event.add('c:knives', 'farmersdelight:golden_knife')
-    event.add('c:knives', 'farmersdelight:diamond_knife')
-    event.add('c:knives', 'farmersdelight:netherite_knife')
+    event.add('c:tools/knives', 'sandwichable:stone_kitchen_knife')
+    event.add('c:tools/knives', 'sandwichable:kitchen_knife')
+    event.add('c:tools/knives', 'sandwichable:golden_kitchen_knife')
+    event.add('c:tools/knives', 'sandwichable:diamond_kitchen_knife')
+    event.add('c:tools/knives', 'sandwichable:netherite_kitchen_knife')
+    event.add('c:tools/knives', 'sandwichable:glass_kitchen_knife')
 
   // Indrev
 
