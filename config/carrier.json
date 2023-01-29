@@ -37,6 +37,7 @@
 	"lootcrates:blaze_chest_loot_crate",
 	"lootcrates:blaze_shulker_loot_crate",
 	"lootcrates:blaze_loot_barrel",
-	"lootcrates:blaze_chest_loot_crate"
+	"lootcrates:blaze_chest_loot_crate",
+	"extractinator:extractinator"
   ]
 }

@@ -1,4 +1,5 @@
 {
+ "replace": true,
   "values": [
     "minecraft:raw_iron",
     "minecraft:raw_copper",
