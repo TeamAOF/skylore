@@ -49,7 +49,7 @@
 			rewards: [{
 				id: "12543B3BD8C52333"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -67,7 +67,7 @@
 			rewards: [{
 				id: "4A8076AD35B053A4"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -85,7 +85,7 @@
 			rewards: [{
 				id: "2EACA1F09ADD1E42"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -103,7 +103,7 @@
 			rewards: [{
 				id: "3724934BC93E816B"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -121,7 +121,7 @@
 			rewards: [{
 				id: "3A37F05DC690AC96"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -139,7 +139,7 @@
 			rewards: [{
 				id: "3DB5F3C777661542"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 3534262378248187539L
 			}]
 		}
@@ -156,7 +156,7 @@
 			rewards: [{
 				id: "52D3E1BE0B1E4F38"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 8610730502767635143L
 			}]
 		}
@@ -173,7 +173,7 @@
 			rewards: [{
 				id: "2F0DCE1DC86A21C8"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 8610730502767635143L
 			}]
 		}
@@ -190,7 +190,7 @@
 			rewards: [{
 				id: "44D9E007255716F2"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 8610730502767635143L
 			}]
 		}
@@ -207,7 +207,7 @@
 			rewards: [{
 				id: "226D20B02C318D31"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 8610730502767635143L
 			}]
 		}
@@ -224,7 +224,7 @@
 			rewards: [{
 				id: "44FC77F144971EB8"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -241,7 +241,7 @@
 			rewards: [{
 				id: "6E5D9112E32D9331"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -258,7 +258,7 @@
 			rewards: [{
 				id: "10CBB73C8E799FBE"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -275,7 +275,7 @@
 			rewards: [{
 				id: "0010789D649C5BCC"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -292,7 +292,7 @@
 			rewards: [{
 				id: "37BB7C5D8B28D698"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -309,7 +309,7 @@
 			rewards: [{
 				id: "6C4FB89A6FBDE144"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -326,7 +326,7 @@
 			rewards: [{
 				id: "275E324AAD46B10C"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -370,7 +370,7 @@
 			rewards: [{
 				id: "2C9A7C034E7529D3"
 				type: "choice"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 1990121793024525641L
 			}]
 		}
@@ -405,7 +405,7 @@
 				{
 					id: "6B112B59F5CFFE0B"
 					type: "loot"
-					exclude_from_claim_all: true
+					exclude_from_claim_all: false
 					table_id: 8610730502767635143L
 				}
 			]
@@ -830,7 +830,7 @@
 			rewards: [{
 				id: "6C7E641ED0B6EFDF"
 				type: "loot"
-				exclude_from_claim_all: true
+				exclude_from_claim_all: false
 				table_id: 6009508235035804685L
 			}]
 		}

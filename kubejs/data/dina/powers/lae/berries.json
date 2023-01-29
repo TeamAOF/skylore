@@ -1,6 +1,6 @@
 {
     "name": "§6§nGlowberries Addiction",
-    "description": "Regular food is fine, but you get Weakness 2 if you haven't eaten glowberries for too long.",
+    "description": "Regular food is fine, but you get Weakness 2 if you haven't eaten glowberries for too long. This means you will have no strength.. can not mine.. can not attack.",
     "type": "origins:multiple",
     "berry": {
         "type": "origins:resource",
