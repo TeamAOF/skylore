@@ -1,0 +1,210 @@
+{
+  "type": "professions:default",
+  "color": "#ed5247",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by working with the big machines."
+  ],
+  "displayName": "Engineering Officer",
+  "maxLevel": 100,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "crete:cogwheel",
+        "create:shaft",
+        "create:hand_crank",
+        "create:turntable",
+        "create:basin"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        },
+        {
+          "count": 5,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "minecraft:anvil",
+        "minecraft:jukebox",
+        "minecraft:tnt"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        },
+        {
+          "reward": "professions:payment",
+          "amount": 3.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "minecraft:dispenser",
+        "minecraft:blast_furnace",
+        "minecraft:piston"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 200.0
+        },
+        {
+          "reward": "professions:payment",
+          "amount": 200.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "minecraft:beacon"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        },
+        {
+          "reward": "professions:payment",
+          "amount": 10.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "minecraft:iron_door",
+        "minecraft:iron_bars",
+        "minecraft:hopper",
+        "minecraft:cauldron"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        },
+        {
+          "reward": "professions:payment",
+          "amount": 6.0,
+          "currency": "eights_economy:dollars"
+        }
+      ],
+      "items": [
+        "minecraft:comparator",
+        "minecraft:compass",
+        "minecraft:clock",
+        "minecraft:brewing_stand",
+        "#minecraft:beds"
+      ]
+    },
+	 {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 5,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk1",
+        "logicates:and_logicate",
+        "logicates:logicate_fabricator",
+        "logicates:nand_logicate",
+        "logicates:nor_logicate",
+        "logicates:not_logicate",
+        "logicates:or_logicate",
+        "logicates:timer_logicate",
+        "logicates:timer_logicate_pointer",
+        "logicates:weather_logicate",
+        "logicates:xnor_logicate",
+        "logicates:xor_logicate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 10,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk2"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 20,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20
+        }
+      ],
+      "items": [
+        "indrev:circuit_mk3",
+        "indrev:tier_upgrade_mk3"
+      ]
+    }
+  ],
+  "unlocks": [
+  ],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}
