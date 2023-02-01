@@ -46,13 +46,13 @@ onEvent('gamephases.initialize', event => {
     //level 10
 
     event.phase('basic_botany_pots')
-        .itemtag('botanypots:basic_botany_pots')
+        .itemTag('botanypots:basic_botany_pots')
 
     event.phase('desh_ingot')
         .item('ad_astra:desh_ingot')
 
     event.phase('magic_fungi')
-        .itemtag('magicfungi:mushrooms')
+        .itemTag('magicfungi:mushrooms')
 
     event.phase('glyph_carving_workbench')
         .item('magicfungi:glyph_carving_workbench')
@@ -73,13 +73,13 @@ onEvent('gamephases.initialize', event => {
         .item('ad_astra:ostrum_ingot')
 
     event.phase('hopper_botany_pots')
-        .itemtag('botanypots:hopper_botany_pots')
+        .itemTag('botanypots:hopper_botany_pots')
 
     event.phase('spell_discovery_workbench')
         .item('magicfungi:spell_discovery_workbench')
 
     event.phase('hex_wands')
-        .itemtag('hexcasting:wands')
+        .itemTag('hexcasting:wands')
 
     //level30
 
@@ -103,7 +103,7 @@ onEvent('gamephases.initialize', event => {
         .item('modern_industrialization:titanium_ingot')
 
     event.phase('mf_tools')
-        .itemtag('magicfungi:relics')
+        .itemTag('magicfungi:relics')
 
     event.phase('mf_armor')
         .item('magicfungi:magical_fungi_helmet')

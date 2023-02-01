@@ -5,15 +5,15 @@ console.log('Medical Reporting For Duty');
 
 onEvent('gamephases.initialize', event => {
     event.phase('human_research')
-        .itemtag('chestcavity:salvageable_human_organ_meat')
+        .itemTag('chestcavity:salvageable_human_organ_meat')
         .item('chestcavity:rib')
         .item('chestcavity:spine')
 
     event.phase('small_animal_research')
-        .itemtag('chestcavity:salvageable_mini_sausage_skin')
-        .itemtag('chestcavity:salvageable_small_animal_organ_meat')
-        .itemtag('chestcavity:salvageable_small_butchered_meat')
-        .itemtag('chestcavity:salvageable_small_animal_organs')
+        .itemTag('chestcavity:salvageable_mini_sausage_skin')
+        .itemTag('chestcavity:salvageable_small_animal_organ_meat')
+        .itemTag('chestcavity:salvageable_small_butchered_meat')
+        .itemTag('chestcavity:salvageable_small_animal_organs')
 
     event.phase('wooden_cleaver')
         .item('chestcavity:wooden_cleaver')
@@ -24,13 +24,13 @@ onEvent('gamephases.initialize', event => {
 
     //level 10
     event.phase('animal_research')
-        .itemtag('chestcavity:salvageable_animal_organ_meat')
-        .itemtag('chestcavity:salvageable_sausage_skin')
+        .itemTag('chestcavity:salvageable_animal_organ_meat')
+        .itemTag('chestcavity:salvageable_sausage_skin')
         .item('chestcavity:animal_rib')
         .item('chestcavity:animal_spine')
 
     event.phase('insect_research')
-        .itemtag('chestcavity:salvageable_toxic_organ_meat')
+        .itemTag('chestcavity:salvageable_toxic_organ_meat')
 
     event.phase('fish_research')
         .item('chestcavity:aquatic_muscle')
@@ -61,7 +61,7 @@ onEvent('gamephases.initialize', event => {
         .item('chestcavity:fireproof_*')
 
     event.phase('blaze_research')
-        .itemtag('chestcavity:salvageable_blaze_powder')
+        .itemTag('chestcavity:salvageable_blaze_powder')
 
     event.phase('muscle_research')
         .item('chestcavity:brutish_muscle')
@@ -84,7 +84,7 @@ onEvent('gamephases.initialize', event => {
     //level 30
 
     event.phase('ender_research')
-        .itemtag('chestcavity:salvageable_alien_organ_meat')
+        .itemTag('chestcavity:salvageable_alien_organ_meat')
         .item('chestcavity:ender_spine')
         .item('chestcavity:ender_rib')
 
@@ -108,12 +108,12 @@ onEvent('gamephases.initialize', event => {
     // level 40
 
     event.phase('dragon_research')
-        .itemtag('chestcavity:salvageable_dragon_organ_meat')
+        .itemTag('chestcavity:salvageable_dragon_organ_meat')
         .item('chestcavity:dragon_rib')
         .item('chestcavity:dragon_spine')
 
     event.phase('creeper_research')
-        .itemtag('chestcavity:salvageable_gunpowder')
+        .itemTag('chestcavity:salvageable_gunpowder')
         .item('chestcavity:shulker_spleen')
 
 
@@ -126,7 +126,7 @@ onEvent('gamephases.initialize', event => {
 
 
     event.phase('golem_research')
-        .itemtag('chestcavity:salvageable_iron_scrap')
+        .itemTag('chestcavity:salvageable_iron_scrap')
         .item('chestcavity:iron_repair_material')
 
     event.phase('netherite_cleaver')
