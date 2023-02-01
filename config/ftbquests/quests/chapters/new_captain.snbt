@@ -1,0 +1,1050 @@
+{
+	id: "3EC843761370069D"
+	group: "029670754D6B5281"
+	order_index: 0
+	filename: "new_captain"
+	title: "New Captain"
+	icon: "kubejs:captain"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -20.5d
+		y: -5.5d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "skylore:textures/captain.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Captain Level 3"
+			icon: "kubejs:captain_3"
+			x: -31.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.3d
+			id: "12A8A62CD376BB9B"
+			tasks: [{
+				id: "067C7E6A6E08808F"
+				type: "professions:profession"
+				title: "Level 3 Captain"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 3
+			}]
+		}
+		{
+			title: "Captain Level 20"
+			icon: "kubejs:captain_20"
+			x: -23.5d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["5B9E7CBD8C97C7BE"]
+			size: 1.3d
+			id: "45B43289B0F2B12B"
+			tasks: [{
+				id: "2F2E554229BDE176"
+				type: "professions:profession"
+				title: "Level 20 Captain"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			title: "Captain Level 30"
+			icon: "kubejs:captain_30"
+			x: -15.5d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["45B43289B0F2B12B"]
+			size: 1.3d
+			id: "051F5DF6FDBEFFFD"
+			tasks: [{
+				id: "7BDCCCEE42F5C953"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			title: "Captain Level 40"
+			icon: "kubejs:captain_40"
+			x: -12.5d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["051F5DF6FDBEFFFD"]
+			size: 1.3d
+			id: "363F568511828E6A"
+			tasks: [{
+				id: "76A74521C448F048"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 40
+			}]
+		}
+		{
+			title: "Captain Level 50"
+			icon: "kubejs:captain_50"
+			x: -10.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["363F568511828E6A"]
+			size: 1.3d
+			id: "7E6B1A2B14A4502F"
+			tasks: [{
+				id: "07B3879F9E25FA71"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			x: -31.5d
+			y: 2.5d
+			dependencies: ["12A8A62CD376BB9B"]
+			id: "5E14870E38C56A45"
+			tasks: [{
+				id: "540EB3D38CD3D8B2"
+				type: "checkmark"
+				title: "Challenges"
+			}]
+		}
+		{
+			x: -32.5d
+			y: 2.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "35D5CCA215D03111"
+			tasks: [{
+				id: "490D1F34FC8C5263"
+				type: "advancement"
+				advancement: "moreachievements:saveyourdogfromarrow"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "12543B3BD8C52333"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -31.5d
+			y: 4.0d
+			dependencies: ["5E14870E38C56A45"]
+			id: "6D350D870FCA445B"
+			tasks: [{
+				id: "7331F7518CCA5269"
+				type: "advancement"
+				advancement: "moreachievements:now_what"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3724934BC93E816B"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -30.5d
+			y: 2.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "1C6DC6600AEA6782"
+			tasks: [{
+				id: "36587DC20656EE36"
+				type: "advancement"
+				advancement: "moreachievements:burninhell"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A37F05DC690AC96"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -32.5d
+			y: 1.5d
+			dependencies: ["5E14870E38C56A45"]
+			id: "2829AC706C0C87F2"
+			tasks: [{
+				id: "787C7082F1B5BB13"
+				type: "advancement"
+				advancement: "moreachievements:bad_dreams"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2EACA1F09ADD1E42"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -32.5d
+			y: 4.0d
+			dependencies: ["5E14870E38C56A45"]
+			id: "02115E112F21CADA"
+			tasks: [{
+				id: "1F4A8E2D7D8F15F2"
+				type: "advancement"
+				advancement: "moreachievements:painful_fight"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A8076AD35B053A4"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			x: -30.5d
+			y: 4.0d
+			dependencies: ["5E14870E38C56A45"]
+			id: "0EAA69C0F9A3660B"
+			tasks: [{
+				id: "0051DB1263AACA89"
+				type: "advancement"
+				advancement: "moreachievements:exp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DB5F3C777661542"
+				type: "loot"
+				table_id: 3534262378248187539L
+			}]
+		}
+		{
+			title: "Satelite network"
+			icon: "kubejs:navigator"
+			disable_toast: true
+			x: -15.5d
+			y: 2.0d
+			description: ["Create a Satellite network in order to enable navigation."]
+			dependencies: ["051F5DF6FDBEFFFD"]
+			secret: true
+			id: "293B1AC85D41551F"
+			tasks: [
+				{
+					id: "3BA2EC67A552578E"
+					type: "item"
+					item: "minecraft:firework_rocket"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "0337152F2CEF362F"
+					type: "item"
+					item: "indrev:circuit_mk1"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "2847A8CA3724C2DD"
+					type: "item"
+					item: "modern_industrialization:electronic_circuit"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6C7E641ED0B6EFDF"
+				type: "loot"
+				table_id: 6009508235035804685L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "548FFCF67DCC58FB"
+			tasks: [{
+				id: "1E83230344DEB4DD"
+				type: "biome"
+				icon: "minecraft:sand"
+				biome: "minecraft:desert"
+			}]
+		}
+		{
+			icon: "byg:fir_sapling"
+			x: -12.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "546317199909BD41"
+			tasks: [{
+				id: "5BDE50ED4E870238"
+				type: "biome"
+				biome: "byg:coniferous_forest"
+			}]
+		}
+		{
+			icon: "minecraft:red_sand"
+			x: -13.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "2FE649E6E484FAF0"
+			tasks: [{
+				id: "43BDC162A8AE4640"
+				type: "biome"
+				biome: "minecraft:badlands"
+			}]
+		}
+		{
+			icon: "minecraft:jungle_sapling"
+			x: -14.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "762FB35668EB0A5A"
+			tasks: [{
+				id: "23AC7785EF0BE15F"
+				type: "biome"
+				biome: "minecraft:jungle"
+			}]
+		}
+		{
+			icon: "byg:aspen_sapling"
+			x: -15.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "04DDF3DC1B35B4B8"
+			tasks: [{
+				id: "75DD78F7232615CE"
+				type: "biome"
+				biome: "byg:aspen_forest"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 5.0d
+			dependencies: ["293B1AC85D41551F"]
+			id: "3D4EEA262A65D67D"
+			tasks: [{
+				id: "64165FAA352A4555"
+				type: "biome"
+				icon: "minecraft:oak_sapling"
+				biome: "minecraft:plains"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 5.0d
+			dependencies: ["3D4EEA262A65D67D"]
+			id: "2447B72D3667476F"
+			tasks: [{
+				id: "04DF46DBF79CBAE0"
+				type: "advancement"
+				advancement: "moreachievements:far_lands"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4AEF214DF418D046"
+				type: "item"
+				item: "relicex:tome"
+				count: 10
+			}]
+		}
+		{
+			x: -13.5d
+			y: 6.5d
+			subtitle: "Somebody needs to know where we are going"
+			dependencies: [
+				"3D4EEA262A65D67D"
+				"546317199909BD41"
+				"2FE649E6E484FAF0"
+				"762FB35668EB0A5A"
+				"04DDF3DC1B35B4B8"
+				"548FFCF67DCC58FB"
+			]
+			size: 1.3d
+			id: "0B3ACA03E180AF01"
+			tasks: [{
+				id: "5219A171BA1BD164"
+				type: "checkmark"
+				title: "Captain of direction"
+			}]
+			rewards: [{
+				id: "5383498DBFD9EF6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Extended Drawers Guide"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "extended_drawers:guide"
+				}
+			}
+			x: -28.0d
+			y: -2.0d
+			dependencies: ["5B9E7CBD8C97C7BE"]
+			id: "6D392B0EAE79566A"
+			tasks: [{
+				id: "24244511110ADEB1"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5DAC9B53F767E9BA"
+				type: "command"
+				title: "Extended Drawers Guide Recipe"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extended_drawers:guide"
+					}
+				}
+				command: "/phase grant @p ed_book"
+				player_command: false
+			}]
+		}
+		{
+			title: "Drawer Research"
+			icon: "extended_drawers:single_drawer"
+			x: -28.0d
+			y: -3.0d
+			dependencies: ["6D392B0EAE79566A"]
+			id: "5DF28B180C3F8AB6"
+			tasks: [{
+				id: "15EB1E8080C256D0"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "4A9788E1DDAC5327"
+				type: "command"
+				title: "Extended Drawer Research"
+				icon: "extended_drawers:single_drawer"
+				command: "/phase grant @p ed_drawer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Drawer Connector Research"
+			icon: "extended_drawers:connector"
+			x: -26.5d
+			y: -3.0d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "277816B706732D94"
+			tasks: [{
+				id: "094EE48C4A4330B7"
+				type: "xp"
+				value: 3L
+				points: false
+			}]
+			rewards: [{
+				id: "2C3F063D5755458A"
+				type: "command"
+				title: "Drawer Connector Recipe"
+				icon: "extended_drawers:connector"
+				command: "/phase grant @p ed_connector"
+				player_command: false
+			}]
+		}
+		{
+			title: "Access Point Research"
+			icon: "extended_drawers:controller"
+			x: -28.0d
+			y: -4.5d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "7B9EA216B276EA9A"
+			tasks: [{
+				id: "3A03A9E30E3818D8"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "5B59D35A1128E50F"
+				type: "command"
+				title: "Access Point Research"
+				icon: "extended_drawers:controller"
+				command: "/phase grant @p ed_controller"
+				player_command: false
+			}]
+		}
+		{
+			title: "Double Drawer Research"
+			icon: "extended_drawers:double_drawer"
+			x: -29.0d
+			y: -3.0d
+			dependencies: ["5DF28B180C3F8AB6"]
+			id: "73DC89077EABC0B7"
+			tasks: [{
+				id: "2039DE51387D0DB7"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "4B674A27C61B8407"
+				type: "command"
+				title: "Double Drawer Research"
+				icon: "extended_drawers:double_drawer"
+				command: "/phase grant @p ed_ddrawer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Quad Drawer Research"
+			icon: "extended_drawers:quad_drawer"
+			x: -30.0d
+			y: -3.0d
+			dependencies: ["73DC89077EABC0B7"]
+			id: "7ECB704C05BB4A50"
+			tasks: [{
+				id: "0C3F8BCB36C24012"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "53B3C816F1237BE8"
+				type: "command"
+				title: "Quad Drawer Research"
+				icon: "extended_drawers:quad_drawer"
+				command: "/phase grant @p ed_qdrawer"
+				player_command: false
+			}]
+		}
+		{
+			x: -25.0d
+			y: 1.5d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "2870E04277284B42"
+			tasks: [{
+				id: "17C5BD6688C3C366"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+			rewards: [{
+				id: "52D3E1BE0B1E4F38"
+				type: "choice"
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -24.0d
+			y: 1.5d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "052CC4BE30F1DE14"
+			tasks: [{
+				id: "1CA3B71871981FB8"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+			rewards: [{
+				id: "2F0DCE1DC86A21C8"
+				type: "choice"
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -23.0d
+			y: 1.5d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "592DFF68D94E3C3E"
+			tasks: [{
+				id: "7A1F1AE8FFD21AF7"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+			rewards: [{
+				id: "44D9E007255716F2"
+				type: "choice"
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -22.0d
+			y: 1.5d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "19DD171BEC1B4596"
+			tasks: [{
+				id: "60673BF98B004CE6"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+			rewards: [{
+				id: "226D20B02C318D31"
+				type: "choice"
+				table_id: 8610730502767635143L
+			}]
+		}
+		{
+			x: -25.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "76C89D85893A55C2"
+			tasks: [{
+				id: "392D4882A208527C"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "44FC77F144971EB8"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -24.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "3EB06FB739309394"
+			tasks: [{
+				id: "5FF58AD53F81D69C"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "6E5D9112E32D9331"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -27.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "6A5E8E4670C03392"
+			tasks: [{
+				id: "68AE1BFC12221DCA"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+			rewards: [{
+				id: "10CBB73C8E799FBE"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -23.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "690C5F6CE12899AB"
+			tasks: [{
+				id: "764155D61EBB9096"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "0010789D649C5BCC"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -26.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "431AEE657D830572"
+			tasks: [{
+				id: "02D6234E4CF73ED2"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "37BB7C5D8B28D698"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -22.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "33DA86D75577CA6C"
+			tasks: [{
+				id: "0C833135E5FE1A49"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+			rewards: [{
+				id: "6C4FB89A6FBDE144"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -20.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "1C46DC2829BD8400"
+			tasks: [{
+				id: "0DCF5DDAD39CA675"
+				type: "item"
+				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "275E324AAD46B10C"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			x: -21.0d
+			y: 5.0d
+			dependencies: ["016271CE91A69F28"]
+			id: "15CF52FB997DE067"
+			tasks: [{
+				id: "12AE544EBABAC09E"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "2C9A7C034E7529D3"
+				type: "choice"
+				table_id: 1990121793024525641L
+			}]
+		}
+		{
+			title: "Fluix unlock"
+			icon: "ae2:fluix_crystal_seed"
+			x: -23.5d
+			y: 3.0d
+			dependencies: [
+				"592DFF68D94E3C3E"
+				"052CC4BE30F1DE14"
+				"2870E04277284B42"
+				"19DD171BEC1B4596"
+			]
+			size: 1.3d
+			id: "016271CE91A69F28"
+			tasks: [{
+				id: "78602F796AA9C304"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "1853D22D043A16E5"
+					type: "command"
+					title: "Fluix Unlock"
+					icon: "ae2:fluix_crystal_seed"
+					auto: "enabled"
+					command: "/phase grant @p fluix"
+					player_command: false
+				}
+				{
+					id: "6B112B59F5CFFE0B"
+					type: "loot"
+					table_id: 8610730502767635143L
+				}
+			]
+		}
+		{
+			title: "Sacrifice to find"
+			icon: "ae2:sky_compass"
+			x: -28.0d
+			y: 1.5d
+			subtitle: "Sacrifice some xp to get a meteor compass"
+			dependencies: ["5B9E7CBD8C97C7BE"]
+			id: "3D28B79870D31477"
+			tasks: [{
+				id: "46C65416BA2D17AA"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "20AA40AFC922AE04"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			title: "Frayed Backpack Research"
+			icon: "inmis:frayed_backpack"
+			x: -32.5d
+			y: -1.0d
+			dependencies: ["12A8A62CD376BB9B"]
+			id: "719549F5D342A47F"
+			tasks: [{
+				id: "36134ABC0CC405A0"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "2B21E5A948106EB8"
+				type: "command"
+				title: "Frayed Backpack Recipe Unlock"
+				icon: "inmis:frayed_backpack"
+				auto: "enabled"
+				command: "/phase grant @p frayed_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Withered Backpack Research"
+			icon: "inmis:withered_backpack"
+			x: -13.5d
+			y: -1.0d
+			dependencies: ["363F568511828E6A"]
+			id: "045CEDC13CD77D06"
+			tasks: [{
+				id: "0F6CE092D817A8D2"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "5820799739F07EFE"
+				type: "command"
+				title: "Withered Backpack Recipe Unlock"
+				icon: "inmis:withered_backpack"
+				command: "/phase grant @p withered_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Plated Backpack Research"
+			icon: "inmis:plated_backpack"
+			x: -29.0d
+			y: -1.0d
+			dependencies: ["5B9E7CBD8C97C7BE"]
+			id: "6DDE688B0FF3603D"
+			tasks: [{
+				id: "1C449B915729F2B9"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "1F14AFA0985F5DEC"
+				type: "command"
+				title: "Plated Backpack Recipe Unlock"
+				icon: "inmis:plated_backpack"
+				command: "/phase grant @p plated_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Gilded Backpack Research"
+			icon: "inmis:gilded_backpack"
+			x: -24.5d
+			y: -1.0d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "20BE23C2006AA770"
+			tasks: [{
+				id: "0B3F0263ED705CD2"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "0BFF47174C736681"
+				type: "command"
+				title: "Gilded Backpack Recipe Unlock"
+				icon: "inmis:gilded_backpack"
+				command: "/phase grant @p gilded_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Bejeweled Backpack Research"
+			icon: "inmis:bejeweled_backpack"
+			x: -16.5d
+			y: -1.0d
+			dependencies: ["051F5DF6FDBEFFFD"]
+			id: "221C967EE3D181BD"
+			tasks: [{
+				id: "292F23BF94B67870"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "37AE08143DA2193B"
+				type: "command"
+				title: "Bejeweled Backack Recipe Unlock"
+				icon: "inmis:bejeweled_backpack"
+				command: "/phase grant @p bejeweled_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Blazing Backpack Recipe Unlock"
+			icon: "inmis:blazing_backpack"
+			x: -11.5d
+			y: -1.0d
+			dependencies: ["363F568511828E6A"]
+			id: "36BDDAE3405F6923"
+			tasks: [{
+				id: "2FAA05CC4222D13E"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "152CDC8CF2A6EFCB"
+				type: "command"
+				title: "Blazing Backpack Recipe Unlock"
+				icon: "inmis:blazing_backpack"
+				command: "/phase grant @p blazing_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Endless Backpack Research"
+			icon: "inmis:endless_backpack"
+			x: -9.0d
+			y: -1.0d
+			dependencies: ["7E6B1A2B14A4502F"]
+			id: "4DC6F30B86587817"
+			tasks: [{
+				id: "1F50E5C7E725D86D"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "2E60D290CF5F9A29"
+				type: "command"
+				title: "Endless Backpack Recipe Unlock"
+				icon: "inmis:endless_backpack"
+				command: "/phase grant @p endless_backpack"
+				player_command: false
+			}]
+		}
+		{
+			title: "Iron Chest"
+			icon: "expandedstorage:iron_chest"
+			x: -27.0d
+			y: -1.0d
+			dependencies: ["5B9E7CBD8C97C7BE"]
+			id: "529FC38FECDBE006"
+			rewards: [{
+				id: "4F0347FF4B5737BF"
+				type: "command"
+				title: "Iron Chest Recipe Unlock"
+				icon: "expandedstorage:iron_chest"
+				command: "/phase grant @p iron_chest"
+				player_command: false
+			}]
+		}
+		{
+			title: "Iron Barrel"
+			icon: "expandedstorage:iron_barrel"
+			x: -30.5d
+			y: -1.0d
+			dependencies: ["12A8A62CD376BB9B"]
+			id: "1729BE131EC63532"
+			tasks: [{
+				id: "6BEC56230B88B314"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "731506A8A1A22683"
+				type: "command"
+				title: "Iron Barrel Recipe Unlock"
+				icon: "expandedstorage:iron_barrel"
+				command: "/phase grant @p iron_barrel"
+				player_command: false
+			}]
+		}
+		{
+			title: "Gold Chest"
+			icon: "expandedstorage:gold_chest"
+			x: -22.5d
+			y: -1.0d
+			dependencies: ["45B43289B0F2B12B"]
+			id: "34B3B188662CFC80"
+			rewards: [{
+				id: "51AC6E9CF2E80449"
+				type: "command"
+				title: "Gold Chest Recipe Unlock"
+				icon: "expandedstorage:gold_chest"
+				command: "/phase grant @p gold_chest"
+				player_command: false
+			}]
+		}
+		{
+			title: "Diamond Chest"
+			icon: "expandedstorage:diamond_chest"
+			x: -14.5d
+			y: -1.0d
+			dependencies: ["051F5DF6FDBEFFFD"]
+			id: "6496A09044EEB335"
+			rewards: [{
+				id: "69DEF2BAA436347C"
+				type: "command"
+				title: "Diamond Chest Recipe Unlock"
+				icon: "expandedstorage:diamond_chest"
+				command: "/phase grant @p diamond_chest"
+				player_command: false
+			}]
+		}
+		{
+			title: "Captain Level 10"
+			icon: "kubejs:captain_10"
+			x: -28.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["12A8A62CD376BB9B"]
+			size: 1.3d
+			id: "5B9E7CBD8C97C7BE"
+			tasks: [{
+				id: "3FA4BB62BC413E43"
+				type: "professions:profession"
+				prof: "professions:captain"
+				action: "LEVEL"
+				level: 10
+			}]
+		}
+		{
+			title: "Obsidian Chest"
+			icon: "expandedstorage:obsidian_chest"
+			x: -12.5d
+			y: -1.5d
+			dependencies: ["363F568511828E6A"]
+			id: "7F5DE8530CF0CA7F"
+			tasks: [{
+				id: "1C66E1059DDDF50A"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3803B9D9E7BE4770"
+				type: "command"
+				title: "Obsidian Chest Recipe Unlock"
+				icon: "expandedstorage:obsidian_chest"
+				command: "/phase grant @p obsidian_chest"
+				player_command: false
+			}]
+		}
+		{
+			title: "Netherite Chest"
+			icon: "expandedstorage:netherite_chest"
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["7E6B1A2B14A4502F"]
+			id: "2BE79BE013114065"
+			tasks: [{
+				id: "712B5AA8B2E1791E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FDF07B4DB8BD994"
+				type: "command"
+				title: "Netherite Chest Recipe Unlock"
+				icon: "expandedstorage:netherite_chest"
+				command: "/phase grant @p netherite_chest"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

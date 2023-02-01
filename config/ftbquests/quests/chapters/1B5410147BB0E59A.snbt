@@ -12,6 +12,7 @@
 		y: 0.0d
 		dependencies: ["5CBC7C5782DDD486"]
 		hide: true
+		size: 8.0d
 		id: "4A03D92BFC39DE08"
 		tasks: [{
 			id: "19677E369ECC06DB"

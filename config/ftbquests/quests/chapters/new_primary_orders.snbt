@@ -1,0 +1,11 @@
+{
+	id: "405BD7B52A864467"
+	group: "029670754D6B5281"
+	order_index: 5
+	filename: "new_primary_orders"
+	title: "New Primary Orders"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

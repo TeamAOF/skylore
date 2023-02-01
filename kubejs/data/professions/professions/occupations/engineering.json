@@ -1,0 +1,996 @@
+{
+  "type": "professions:default",
+  "color": "#ed5247",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by working with the logical."
+  ],
+  "displayName": "Engineering",
+  "maxLevel": 50,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:analog_circuit_board",
+        "modern_industrialization:invar_rotary_blade",
+        "modern_industrialization:not_gate",
+        "modern_industrialization:wrench",
+        "logicates:and_logicate",
+        "logicates:or_logicate",
+        "logicates:xor_logicate",
+        "logicates:not_logicate",
+        "logicates:nand_logicate",
+        "logicates:nor_logicate",
+        "logicates:timer_logicate",
+        "logcates:weather_logicate",
+        "minecraft:repeater",
+        "minecraft:comparator",
+        "minecraft:observer",
+        "minecraft:dispenser",
+        "minecraft:dropper",
+        "minecraft:lecturn",
+        "minecraft:target",
+        "minecraft:lever",
+        "#minecraft:wooden_buttons",
+        "create:cogwheel",
+        "create:large_cogwheel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:steel_upgrade",
+        "modern_industrialization:resistor",
+        "modern_industrialization:capacitor",
+        "modern_industrialization:inductor",
+        "modern_industrialization:diode",
+        "modern_industrialization:transistor",
+        "modern_industrialization:and_gate",
+        "modern_industrialization:or_gate",
+        "modern_industrialization:air_intake",
+        "modern_industrialization:arithmetic_logic_unit",
+        "modern_industrialization:ultradense_metal_ball",
+        "minecraft:piston"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 2,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:motor",
+        "modern_industrialization:large_motor",
+        "modern_industrialization:pump",
+        "modern_industrialization:large_pump",
+        "modern_industrialization:piston",
+        "modern_industrialization:conveyor",
+        "modern_industrialization:robot_arm",
+        "modern_industrialization:op_amp",
+        "modern_industrialization:memory_management_unit",
+        "modern_industrialization:steam_mining_drill"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:advanced_motor",
+        "modern_industrialization:large_advanced_motor",
+        "modern_industrialization:advanced_pump",
+        "modern_industrialization:large_advanced_pump",
+        "modern_industrialization:analog_circuit",
+        "modern_industrialization:electronic_circuit_board",
+        "modern_industrialization:electronic_circuit",
+        "modern_industrialization:processing_unit",
+        "modern_industrialization:digital_circuit",
+        "modern_industrialization:quantum_circuit",
+        "modern_industrialization:steam_mining_drill",
+        "modern_industrialization:diesel_mining_drill",
+        "modern_industrialization:diesel_jetpack"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 10,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 60.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:gravichestplate"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        }
+      ],
+      "items": [
+        "modern_industrialization:bronze_barrel",
+        "modern_industrialization:steel_barrel",
+        "modern_industrialization:aluminum_barrel",
+        "modern_industrialization:stainless_steel_barrel",
+        "modern_industrialization:titanium_barrel",
+        "modern_industrialization:aluminum_tank",
+        "modern_industrialization:bronze_tank",
+        "modern_industrialization:stainless_steel_tank",
+        "modern_industrialization:steel_tank",
+        "modern_industrialization:titanium_tank",
+        "modern_industrialization:advanced_machine_casing",
+        "modern_industrialization:frostproof_machine_casing",
+        "modern_industrialization:blastproof_casing",
+        "modern_industrialization:bronze_machine_casing",
+        "modern_industrialization:bronze_machine_casing_pipe",
+        "modern_industrialization:bronze_plated_bricks",
+        "modern_industrialization:heatproof_machine_casing",
+        "modern_industrialization:quantum_machine_casing",
+        "modern_industrialization:iridium_machine_casing_pipe",
+        "modern_industrialization:plasma_handling_iridium_machine_casing",
+        "modern_industrialization:turbo_machine_casing",
+        "modern_industrialization:stainless_steel_machine_casing_pipe",
+        "modern_industrialization:clean_stainless_steel_machine_casing",
+        "modern_industrialization:steel_machine_casing",
+        "modern_industrialization:steel_machine_casing_pipe",
+        "modern_industrialization:highly_advanced_machine_casing",
+        "modern_industrialization:titanium_machine_casing_pipe",
+        "modern_industrialization:solid_titanium_machine_casing",
+        "modern_industrialization:advanced_machine_hull"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 10,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "blocks": [
+        "#mythicmetals:adamantite_ores",
+        "#mythicmetals:banglum_ores",
+        "#mythicmetals:carmot_ores",
+        "#mythicmetals:kyber_ores",
+        "#mythicmetals:orichalcum_ores",
+        "#mythicmetals:palladium_ores",
+        "#mythicmetals:unobtainium_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 4,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
+      "blocks": [
+        "#mythicmetals:aquarium_ores",
+        "#mythicmetals:manganese_ores",
+        "#mythicmetals:morkite_ores",
+        "#mythicmetals:midas_gold_ores",
+        "#mythicmetals:mythril_ores",
+        "#mythicmetals:osmium_ores",
+        "#mythicmetals:platinum_ores",
+        "#mythicmetals:prometheum_ores",
+        "#mythicmetals:quadrillum_ores",
+        "#mythicmetals:runite_ores",
+        "#mythicmetals:silver_ores",
+        "#mythicmetals:starrite_ores",
+        "#mythicmetals:stormyx_ores"
+      ]
+    },
+    {
+      "action": "professions:break_block",
+      "conditions": [
+        {
+          "condition": "professions:inverted",
+          "term": {
+            "condition": "professions:tool_matches",
+            "predicate": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:silk_touch"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 4,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        }
+      ],
+      "blocks": [
+        "#mythicmetals:tin_ores"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:adamantite_axe",
+        "mythicmetals:adamantite_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:adamantite_hoe",
+        "mythicmetals:adamantite_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:adamantite_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:banglum_axe",
+        "mythicmetals:banglum_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:banglum_hoe",
+        "mythicmetals:banglum_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:banglum_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:carmot_axe",
+        "mythicmetals:carmot_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:carmot_hoe",
+        "mythicmetals:carmot_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:carmot_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:kyber_axe",
+        "mythicmetals:kyber_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:kyber_hoe",
+        "mythicmetals:kyber_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:kyber_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:orichalcum_axe",
+        "mythicmetals:orichalcum_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:orichalcum_hoe",
+        "mythicmetals:orichalcum_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:orichalcum_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 18,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 30.0
+        }
+      ],
+      "items": [
+        "mythicmetals:palladium_axe",
+        "mythicmetals:palladium_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        }
+      ],
+      "items": [
+        "mythicmetals:palladium_hoe",
+        "mythicmetals:palladium_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        }
+      ],
+      "items": [
+        "mythicmetals:palladium_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:aquarium_axe",
+        "mythicmetals:aquarium_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:aquarium_hoe",
+        "mythicmetals:aquarium_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:aquarium_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:mythril_axe",
+        "mythicmetals:mythril_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:mythril_hoe",
+        "mythicmetals:mythril_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:mythril_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:osmium_axe",
+        "mythicmetals:osmium_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:osmium_hoe",
+        "mythicmetals:osmium_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:osmium_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:prometheum_axe",
+        "mythicmetals:prometheum_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:prometheum_hoe",
+        "mythicmetals:prometheum_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:prometheum_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:quadrillum_axe",
+        "mythicmetals:quadrillum_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:quadrillum_hoe",
+        "mythicmetals:quadrillum_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:quadrillum_shovel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 9,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 18.0
+        }
+      ],
+      "items": [
+        "mythicmetals:runite_axe",
+        "mythicmetals:runite_pickaxe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 6,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "items": [
+        "mythicmetals:runite_hoe",
+        "mythicmetals:runite_sword"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:item",
+          "count": 3,
+          "item": "numismatic-overhaul:bronze_coin"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        }
+      ],
+      "items": [
+        "mythicmetals:runite_shovel"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}

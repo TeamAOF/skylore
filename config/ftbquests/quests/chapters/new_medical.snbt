@@ -1,0 +1,803 @@
+{
+	id: "5E26FD880060721D"
+	group: "029670754D6B5281"
+	order_index: 2
+	filename: "new_medical"
+	title: "New Medical"
+	icon: "kubejs:doctor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -18.5d
+		y: -9.0d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "skylore:textures/medical.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Medical Level 3"
+			icon: "kubejs:doctor_3"
+			x: -25.5d
+			y: -1.5d
+			shape: "heart"
+			size: 1.3d
+			id: "05227513B4914400"
+			tasks: [{
+				id: "11060BC33D23D3AC"
+				type: "professions:profession"
+				prof: "professions:medical"
+				action: "LEVEL"
+				level: 3
+			}]
+		}
+		{
+			title: "Medical Level 10"
+			icon: "kubejs:doctor_10"
+			x: -21.0d
+			y: -1.5d
+			shape: "heart"
+			dependencies: ["05227513B4914400"]
+			size: 1.3d
+			id: "03F336A186E4EC2B"
+			tasks: [{
+				id: "08DCA83D3B15304C"
+				type: "professions:profession"
+				prof: "professions:unknown"
+				action: "LEVEL"
+				level: 10
+			}]
+		}
+		{
+			title: "Medical Level 20"
+			icon: "kubejs:doctor_20"
+			x: -16.5d
+			y: -1.5d
+			shape: "heart"
+			dependencies: ["03F336A186E4EC2B"]
+			size: 1.3d
+			id: "20D3203C77DEF623"
+			tasks: [{
+				id: "55637EBCCF31C4A8"
+				type: "professions:profession"
+				prof: "professions:medical"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			title: "Medical Level 30"
+			icon: "kubejs:doctor_30"
+			x: -12.5d
+			y: -1.5d
+			shape: "heart"
+			dependencies: ["20D3203C77DEF623"]
+			size: 1.3d
+			id: "4A7DC8A62446C1C8"
+			tasks: [{
+				id: "1D4AE4187513E2B8"
+				type: "professions:profession"
+				prof: "professions:medical"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			title: "Medical Level 40"
+			icon: "kubejs:doctor_40"
+			x: -9.0d
+			y: -1.5d
+			shape: "heart"
+			dependencies: ["4A7DC8A62446C1C8"]
+			size: 1.3d
+			id: "5A8914752A8A9BC4"
+			tasks: [{
+				id: "0EBC21C90C3096C6"
+				type: "professions:profession"
+				prof: "professions:medical"
+				action: "LEVEL"
+				level: 40
+			}]
+		}
+		{
+			title: "Medical Level 50"
+			icon: "kubejs:doctor_50"
+			x: -5.0d
+			y: -1.5d
+			shape: "heart"
+			dependencies: ["5A8914752A8A9BC4"]
+			size: 1.3d
+			id: "16B1D03B5692948D"
+			tasks: [{
+				id: "6D6C5A71651BBB5B"
+				type: "professions:profession"
+				prof: "professions:medical"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			title: "Syringe (Parasite)"
+			icon: "immortuoscalyx:syringe"
+			x: -22.0d
+			y: -0.5d
+			subtitle: "Parasite control requires a special syringe."
+			dependencies: ["03F336A186E4EC2B"]
+			hide: true
+			id: "556AC8A73B938089"
+			rewards: [{
+				id: "467196D271364047"
+				type: "command"
+				title: "Syringe Unlock"
+				icon: "immortuoscalyx:syringe"
+				command: "/phase grant @p immsyringe"
+				player_command: false
+			}]
+		}
+		{
+			title: "Useful Syringes Research"
+			icon: "squirtingsyringe:syringe"
+			x: -25.5d
+			y: -3.5d
+			dependencies: ["05227513B4914400"]
+			id: "08CBDE18227CF305"
+			tasks: [{
+				id: "6368EFF45D42C79E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3D61D64C13B27647"
+				type: "command"
+				title: "Syringe Recipe Unlock"
+				icon: "squirtingsyringe:syringe"
+				auto: "no_toast"
+				command: "/phase grant @p syringe"
+				player_command: false
+			}]
+		}
+		{
+			title: "Health Scanner"
+			icon: "immortuoscalyx:healthscanner"
+			x: -13.5d
+			y: 0.0d
+			dependencies: ["4A7DC8A62446C1C8"]
+			id: "4130995FD3610612"
+			rewards: [{
+				id: "6FC9D65079CE56D4"
+				type: "command"
+				title: "Health Scanner Recipe Unlock"
+				icon: "immortuoscalyx:healthscanner"
+				command: "/phase grant @p healthscanner"
+				player_command: false
+			}]
+		}
+		{
+			title: "Infection Scanner"
+			icon: "immortuoscalyx:infection_scanner"
+			x: -17.5d
+			y: 0.0d
+			dependencies: ["20D3203C77DEF623"]
+			id: "776CFC81987232B8"
+			rewards: [{
+				id: "342787AE7AC241AE"
+				type: "command"
+				title: "Infection Scanner Recipe Unlock"
+				icon: "immortuoscalyx:infection_scanner"
+				command: "/phase grant @p infection_scanner"
+				player_command: false
+			}]
+		}
+		{
+			title: "Like a Surgeon"
+			icon: {
+				id: "chestcavity:wooden_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -25.5d
+			y: 1.0d
+			dependencies: ["05227513B4914400"]
+			id: "1602909A2303CD5F"
+			tasks: [{
+				id: "75AC37CB91442CAF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1CFB82DEDD1D7F09"
+				type: "command"
+				title: "Wooden Cleaver Recipe Unlock"
+				icon: {
+					id: "chestcavity:wooden_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p wooden_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			title: "Cut for the very first time"
+			icon: "chestcavity:chest_opener"
+			x: -23.0d
+			y: -1.0d
+			dependencies: ["03F336A186E4EC2B"]
+			id: "7F06BB9156957A18"
+			tasks: [{
+				id: "073AE0FBEE9E5F5C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "32E8F3382B3A3AAC"
+				type: "command"
+				title: "Chest Opener Recipe Unlock"
+				icon: "chestcavity:chest_opener"
+				command: "/phase grant @p chest_opener"
+				player_command: false
+			}]
+		}
+		{
+			title: "Oxygen Tank"
+			icon: {
+				id: "ad_astra:oxygen_tank"
+				Count: 1b
+				tag: { }
+			}
+			x: -19.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["03F336A186E4EC2B"]
+			id: "2F068F2F28266C55"
+			tasks: [{
+				id: "722A5D676C09F765"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "0DCB6301BAF0DC78"
+				type: "command"
+				title: "Oxygen Tank Recipe Unlock"
+				icon: {
+					id: "ad_astra:oxygen_tank"
+					Count: 1b
+					tag: { }
+				}
+				command: "/phase grant @p oxygentank"
+				player_command: false
+			}]
+		}
+		{
+			title: "Oxygen Distributor"
+			icon: "ad_astra:oxygen_distributor"
+			x: -15.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["20D3203C77DEF623"]
+			id: "1BE0DB7FCBD558C2"
+			tasks: [{
+				id: "4FFEF29FB60DE864"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "3E263E20E9C6A4B8"
+				type: "command"
+				title: "Oxygen Distributor Recipe Unlock"
+				icon: "ad_astra:oxygen_distributor"
+				command: "/phase grant @p oxydis"
+				player_command: false
+			}]
+		}
+		{
+			title: "Oxygen Sensor"
+			icon: "ad_astra:oxygen_sensor"
+			x: -11.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["4A7DC8A62446C1C8"]
+			id: "3932F5437CE17418"
+			tasks: [{
+				id: "7D615D91A299307B"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "71A063E940A940BB"
+				type: "command"
+				title: "Oxygen Sensor Recipe Unlock"
+				icon: "ad_astra:oxygen_sensor"
+				command: "/phase grant @p oxysensor"
+				player_command: false
+			}]
+		}
+		{
+			icon: "minecraft:rabbit_hide"
+			x: -24.5d
+			y: -3.0d
+			dependencies: ["05227513B4914400"]
+			id: "139725B94CB7E8AB"
+			tasks: [{
+				id: "4FC9759A19E90B9F"
+				type: "checkmark"
+				title: "Small Animals"
+			}]
+			rewards: [{
+				id: "72822B567D457C5D"
+				type: "command"
+				title: "Small Animal Research Unlock"
+				icon: "minecraft:rabbit_hide"
+				auto: "no_toast"
+				command: "/phase grant @p small_animal_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fish Organs"
+			icon: "minecraft:tropical_fish_bucket"
+			x: -16.5d
+			y: -3.5d
+			dependencies: ["20D3203C77DEF623"]
+			id: "3DC53FF825F4C0B1"
+			tasks: [{
+				id: "23A63A3E714AD1CE"
+				type: "checkmark"
+				title: "Fish"
+			}]
+			rewards: [{
+				id: "032E8B191DFBE703"
+				type: "command"
+				title: "Fish Organs Unlock"
+				icon: "minecraft:tropical_fish_bucket"
+				command: "/phase grant @p fish_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Insect Organs"
+			icon: "biomemakeover:dragonfly_wings"
+			x: -20.0d
+			y: -3.0d
+			dependencies: ["03F336A186E4EC2B"]
+			id: "38CB723F0BC58F53"
+			tasks: [{
+				id: "0792CF81CCED7FAD"
+				type: "checkmark"
+				title: "Insects"
+			}]
+			rewards: [{
+				id: "61F0E376B4BDBC9A"
+				type: "command"
+				title: "Insect Organs Unlock"
+				icon: "biomemakeover:dragonfly_wings"
+				command: "/phase grant @p insect_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Animal Organs"
+			icon: "betteranimalsplus:advancement_icon_badger"
+			x: -22.0d
+			y: -3.0d
+			dependencies: ["03F336A186E4EC2B"]
+			id: "617755F7C7C3A8D5"
+			tasks: [{
+				id: "1382F57C543EF101"
+				type: "checkmark"
+				title: "Animals"
+			}]
+			rewards: [{
+				id: "6324D64CB45888D1"
+				type: "command"
+				title: "Animal Organs Unlock"
+				icon: "betteranimalsplus:advancement_icon_badger"
+				command: "/phase grant @p animal_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Fireproof Organs"
+			icon: "minecraft:campfire"
+			x: -18.0d
+			y: -3.0d
+			dependencies: ["20D3203C77DEF623"]
+			id: "61DCD679AC953DEC"
+			tasks: [{
+				id: "29782E1CED4B2474"
+				type: "checkmark"
+				title: "Fireproof"
+			}]
+			rewards: [{
+				id: "63B494C38E2F7423"
+				type: "command"
+				title: "Fireproof Organs Unlock"
+				icon: "minecraft:campfire"
+				command: "/phase grant @p fireproof_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Blaze Organs"
+			icon: "chestcavity:active_blaze_rod"
+			x: -14.0d
+			y: -4.0d
+			dependencies: ["4A7DC8A62446C1C8"]
+			id: "3B3A21BE8E3710D6"
+			tasks: [{
+				id: "1E797C02C9609923"
+				type: "checkmark"
+				title: "Blaze"
+			}]
+			rewards: [{
+				id: "1131AE94D84D209A"
+				type: "command"
+				title: "Blaze Organs Unlock"
+				icon: "chestcavity:active_blaze_rod"
+				command: "/phase grant @p blaze_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Advanced Muscles"
+			icon: "chestcavity:swift_muscle"
+			x: -15.0d
+			y: -3.0d
+			dependencies: ["20D3203C77DEF623"]
+			id: "4C436D3C5D871EEC"
+			tasks: [{
+				id: "1C4626A60E4900B9"
+				type: "checkmark"
+				title: "muscles"
+			}]
+			rewards: [{
+				id: "503915048B53B953"
+				type: "command"
+				title: "Advanced Muscle Unlock"
+				icon: "chestcavity:brutish_muscle"
+				command: "/phase grant @p muscle_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Advanced Fish Organs"
+			icon: "minecraft:pufferfish_bucket"
+			x: -12.5d
+			y: -4.5d
+			dependencies: ["4A7DC8A62446C1C8"]
+			id: "23C1F5EB7DB3EA1B"
+			tasks: [{
+				id: "38FFB12EF47AD6D8"
+				type: "checkmark"
+				title: "advanced fish"
+			}]
+			rewards: [{
+				id: "2073EFAB6EADF114"
+				type: "command"
+				title: "Advanced Fish Organs Unlock"
+				icon: "minecraft:pufferfish_bucket"
+				command: "/phase grant @p advanced_sea"
+				player_command: false
+			}]
+		}
+		{
+			title: "Wither Bones"
+			icon: "graveyard:wither_bone_remains"
+			x: -21.0d
+			y: 0.5d
+			dependencies: ["03F336A186E4EC2B"]
+			id: "16919CBE79AECA5E"
+			tasks: [{
+				id: "2D485AC0DA2C430A"
+				type: "checkmark"
+				title: "wither"
+			}]
+			rewards: [{
+				id: "719F72F86C4665BB"
+				type: "command"
+				title: "Wither Bones Unlock"
+				icon: "graveyard:wither_bone_remains"
+				command: "/phase grant @p wither_research"
+				player_command: false
+			}]
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			x: -11.0d
+			y: -4.0d
+			dependencies: ["4A7DC8A62446C1C8"]
+			id: "6645912AF0CAAEFF"
+			tasks: [{
+				id: "6CD385FF7568580E"
+				type: "checkmark"
+				title: "ender"
+			}]
+			rewards: [{
+				id: "105410075E2D6CDF"
+				type: "command"
+				title: "Ender Organs Unlock"
+				icon: "minecraft:ender_pearl"
+				command: "/phase grant @p ender_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Dragon Organs"
+			icon: "minecraft:dragon_head"
+			x: -8.0d
+			y: -3.0d
+			dependencies: ["5A8914752A8A9BC4"]
+			id: "4215A36EB1E8C762"
+			tasks: [{
+				id: "3CB87327CC628E3C"
+				type: "checkmark"
+				title: "dragon"
+			}]
+			rewards: [{
+				id: "2F485069BDF829E3"
+				type: "command"
+				title: "Dragon Organs Unlock"
+				icon: "minecraft:dragon_head"
+				command: "/phase grant @p dragon_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Creeper and Shulker Organs"
+			icon: "minecraft:creeper_head"
+			x: -10.0d
+			y: -3.0d
+			dependencies: ["5A8914752A8A9BC4"]
+			id: "51B4C2CFBB728397"
+			tasks: [{
+				id: "0BDADA61D8E052B0"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3FF8E0F33B936694"
+				type: "command"
+				title: "Creeper Organs Unlock"
+				icon: "minecraft:creeper_head"
+				command: "/phase grant @p creeper_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Golem Organs"
+			icon: "spectrum:iron_golem_head"
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["16B1D03B5692948D"]
+			id: "02376F5C219A52CC"
+			tasks: [{
+				id: "7140F59AF08C8637"
+				type: "checkmark"
+				title: "golem"
+			}]
+			rewards: [{
+				id: "6E51C300DDCA9215"
+				type: "command"
+				title: "Golem Organs Unlock"
+				icon: "spectrum:iron_golem_head"
+				command: "/phase grant @p golem_research"
+				player_command: false
+			}]
+		}
+		{
+			title: "Human Organs"
+			icon: "playdate:steve_plush"
+			x: -26.5d
+			y: -3.0d
+			dependencies: ["05227513B4914400"]
+			id: "0415B8C0BE2F7055"
+			tasks: [{
+				id: "663D487BCCC8D728"
+				type: "checkmark"
+				title: "Human Research"
+			}]
+			rewards: [{
+				id: "72A7756C7DE821F4"
+				type: "command"
+				title: "Human Research Unlock"
+				icon: "playdate:steve_plush"
+				auto: "no_toast"
+				command: "/phase grant @p human_research"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "chestcavity:stone_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -20.0d
+			y: -0.5d
+			dependencies: ["03F336A186E4EC2B"]
+			id: "0776228D698FBCE8"
+			tasks: [{
+				id: "57A3E715C496F16B"
+				type: "checkmark"
+				title: "Stone Cleaver"
+			}]
+			rewards: [{
+				id: "7F98896AF8A438D7"
+				type: "command"
+				title: "Stone Cleaver Recipe Unlock"
+				icon: {
+					id: "chestcavity:stone_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p stone_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "chestcavity:gold_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -16.5d
+			y: 1.0d
+			dependencies: ["20D3203C77DEF623"]
+			id: "6B3DC55E1D5C3962"
+			tasks: [{
+				id: "75AC960D62AA1CBA"
+				type: "checkmark"
+				title: "Gold Cleaver"
+			}]
+			rewards: [{
+				id: "35F716D8770B1480"
+				type: "command"
+				title: "Gold Cleaver Recipe Unlock"
+				icon: {
+					id: "chestcavity:gold_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p gold_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "chestcavity:iron_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -12.5d
+			y: 1.0d
+			dependencies: ["4A7DC8A62446C1C8"]
+			hide_text_until_complete: false
+			id: "0DF3B0B5AAE7601C"
+			tasks: [{
+				id: "25827D0AC09D95C2"
+				type: "checkmark"
+				title: "Iron Cleaver"
+			}]
+			rewards: [{
+				id: "583BA0FD27B5243B"
+				type: "command"
+				title: "Iron Cleaver Unlock"
+				icon: {
+					id: "chestcavity:iron_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p iron_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "chestcavity:diamond_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["5A8914752A8A9BC4"]
+			id: "4654BBBC3184174A"
+			tasks: [{
+				id: "48C1626C945B3FC3"
+				type: "checkmark"
+				title: "Diamond Cleaver"
+			}]
+			rewards: [{
+				id: "4C243BD4C7B0F2F2"
+				type: "command"
+				title: "Diamond Cleaver Recipe Unlock"
+				icon: {
+					id: "chestcavity:diamond_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p diamond_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			icon: {
+				id: "chestcavity:netherite_cleaver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["16B1D03B5692948D"]
+			id: "49BC7A809B1B7EA9"
+			tasks: [{
+				id: "5F0AEA41A7FD484F"
+				type: "checkmark"
+				title: "Netherite Cleaver"
+			}]
+			rewards: [{
+				id: "4874B733C1B6375D"
+				type: "command"
+				title: "Netherite Cleaver Recipe Unlock"
+				icon: {
+					id: "chestcavity:netherite_cleaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p netherite_cleaver"
+				player_command: false
+			}]
+		}
+		{
+			title: "Oxygen Loader"
+			icon: "ad_astra:oxygen_loader"
+			x: -19.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["2F068F2F28266C55"]
+			id: "009C2888CFD1F666"
+			tasks: [{
+				id: "6B6FDC1CC0463FAB"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "03A71884FCC37AE1"
+				type: "command"
+				title: "Oxygen Loader Recipe Unlock"
+				icon: "ad_astra:oxygen_loader"
+				command: "/phase grant @p oxyloader"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

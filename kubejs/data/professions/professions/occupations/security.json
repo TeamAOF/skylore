@@ -1,0 +1,146 @@
+{
+  "type": "professions:default",
+  "color": "#2c2b2e",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by practicing your fighting skills."
+  ],
+  "displayName": "Security",
+  "maxLevel": 50,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 8,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        }
+      ],
+      "entities": [
+        "minecraft:pig",
+        "minecraft:chicken",
+        "minecraft:sheep",
+        "minecraft:cow",
+        "minecraft:mooshroom",
+        "minecraft:rabbit",
+        "betteranimalsplus:coyote",
+        "betteranimalsplus:lammergeier",
+        "goodall:flamingo",
+        "goodall:manatee",
+        "goodall:white_tailed_deer",
+        "goodall:rhino",
+        "goodall:red_deer",
+        "goodall:fennec_fox",
+        "goodall:kiwi"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 12,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        }
+      ],
+      "entities": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:spider",
+        "minecraft:cave_spider",
+        "minecraft:shulker",
+        "minecraft:creeper"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 15,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 15.0
+        }
+      ],
+      "entities": [
+        "minecraft:blaze",
+        "minecraft:wither_skeleton",
+        "minecraft:piglin_brute",
+        "minecraft:hoglin",
+        "minecraft:phantom",
+        "minecraft:witch",
+        "minecraft:stray",
+        "minecraft:creeper",
+        "minecraft:enderman",
+        "graveyard:revenant",
+        "graveyard:ghoul",
+        "graveyard:skeleton_creeper",
+        "graveyard:nightmare",
+        "immortuoscalyx:infectedhuman",
+        "immortuoscalyx:infecteddiver",
+        "immortuoscalyx:infectedvillager",
+        "immortuoscalyx:infectedig",
+        "immortuoscalyx:infectedplayer"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 100,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 100.0
+        }
+      ],
+      "entities": [
+        "minecraft:wither"
+      ]
+    },
+    {
+      "action": "professions:kill_entity",
+      "conditions": [],
+      "rewards": [
+        {
+          "count": 600,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        },
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 600.0
+        }
+      ],
+      "entities": [
+        "minecraft:ender_dragon"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}

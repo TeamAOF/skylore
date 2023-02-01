@@ -1,0 +1,658 @@
+{
+	id: "513CFD131A488CC0"
+	group: "029670754D6B5281"
+	order_index: 1
+	filename: "new_engineering"
+	title: "New Engineering"
+	icon: "kubejs:engineer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: -8.0d
+		width: 10.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "skylore:textures/engineer.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Gliders"
+			icon: {
+				id: "kibe:white_glider"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -17.5d
+			y: -3.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "4882C8589F4C114D"
+			tasks: [{
+				id: "09B59976EEC53402"
+				type: "xp"
+				value: 10L
+				points: false
+			}]
+			rewards: [{
+				id: "35966A7F71428B80"
+				type: "command"
+				title: "Glider Recipe Unlock"
+				icon: {
+					id: "kibe:white_glider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				command: "/phase grant @p gilders"
+				player_command: false
+			}]
+		}
+		{
+			title: "Controller"
+			icon: "nyfsairships:ship_controller"
+			x: -10.5d
+			y: 0.0d
+			dependencies: ["1010FB4430426177"]
+			id: "009A42C4E1B4237E"
+			tasks: [{
+				id: "4D83260ACBEE2F1A"
+				type: "xp"
+				value: 3L
+				points: false
+			}]
+			rewards: [{
+				id: "22FDF4AFD2010147"
+				type: "command"
+				title: "Controller Recipe Unlock"
+				icon: "nyfsairships:ship_controller"
+				command: "/phase grant @p nyfcontroller"
+				player_command: false
+			}]
+		}
+		{
+			title: "Balloons"
+			icon: "nyfsairships:balloon_block"
+			x: -10.5d
+			y: -1.5d
+			dependencies: ["23B8DA8FE0A3A9AA"]
+			id: "1010FB4430426177"
+			tasks: [{
+				id: "673046EB1ECC659E"
+				type: "xp"
+				value: 3L
+				points: false
+			}]
+			rewards: [{
+				id: "515BFF66EA6E704F"
+				type: "command"
+				title: "Balloon Recipe Unlock"
+				icon: "nyfsairships:balloon_block"
+				command: "/phase grant @p nyfballoon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Control Key"
+			icon: "nyfsairships:control_key"
+			x: -10.5d
+			y: -3.0d
+			subtitle: "You will need this to drive your ship"
+			dependencies: ["1B1FB2CFE113637C"]
+			id: "23B8DA8FE0A3A9AA"
+			rewards: [{
+				id: "439F65714FEF414E"
+				type: "command"
+				title: "Control Key Recipe Unlock"
+				icon: "nyfsairships:control_key"
+				command: "/phase grant @p control_key"
+				player_command: false
+			}]
+		}
+		{
+			title: "Balloons"
+			icon: "vs_eureka:balloon"
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["412B5E46ABDF0230"]
+			id: "1398CBA59A77E6FE"
+			tasks: [{
+				id: "75366F3FC6A96C71"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			rewards: [{
+				id: "263DA83C00F3FDBA"
+				type: "command"
+				icon: "vs_eureka:balloon"
+				command: "/phase grant @p vsballoon"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ship Helm Research"
+			icon: "vs_eureka:oak_ship_helm"
+			x: -6.0d
+			y: -3.0d
+			subtitle: "You don't know much about flight"
+			dependencies: ["0C7204CB0D5E84B9"]
+			id: "412B5E46ABDF0230"
+			tasks: [{
+				id: "32EF8DA0BAB1404B"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "314BC3E30E8A6445"
+				type: "command"
+				title: "VS Helm Unlock"
+				icon: "vs_eureka:oak_ship_helm"
+				auto: "enabled"
+				command: "/phase grant @p vshelm"
+				player_command: false
+			}]
+		}
+		{
+			title: "Automobile Assembler"
+			icon: "automobility:automobile_assembler"
+			x: -17.5d
+			y: -6.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "7B1B4DF73D00861F"
+			rewards: [{
+				id: "58E2CD53F83FE98C"
+				type: "command"
+				title: "Automobile Assembler Recipe Unlock"
+				icon: "automobility:automobile_assembler"
+				command: "/phase grant @p automobile_assembler"
+				player_command: false
+			}]
+		}
+		{
+			title: "Logicate Fabricator"
+			icon: "logicates:logicate_fabricator"
+			x: -18.5d
+			y: -6.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "1B2650377A0E5FF5"
+			rewards: [{
+				id: "18E71880A6A4C3ED"
+				type: "command"
+				title: "Logicate Fabricator Recipe Unlock"
+				icon: "logicates:logicate_fabricator"
+				command: "/phase grant @p logicate_fabricator"
+				player_command: false
+			}]
+		}
+		{
+			title: "Building Gadget"
+			icon: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			x: -16.5d
+			y: -3.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "0D7C020BE7443D4A"
+			rewards: [{
+				id: "23470117A251A004"
+				type: "command"
+				title: "Building Gadget Recipe Unlock"
+				icon: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+				command: "/phase grant @p gadget_building"
+				player_command: false
+			}]
+		}
+		{
+			title: "Platforms"
+			icon: "platforms:platformer"
+			x: -18.5d
+			y: -3.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "334F1C13DFFC5DF9"
+			rewards: [{
+				id: "1A102803FC7089F1"
+				type: "command"
+				title: "Platformer Recipe Unlock"
+				icon: "platforms:platformer"
+				command: "/phase grant @p platformer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Circuit MK2"
+			icon: "indrev:circuit_mk2"
+			x: -12.0d
+			y: -6.0d
+			dependencies: ["1B1FB2CFE113637C"]
+			id: "06252A848CE80A1B"
+			rewards: [{
+				id: "08BF2E645C5C5531"
+				type: "command"
+				title: "Circuit MK2 Recipe Unlock"
+				icon: "indrev:circuit_mk2"
+				command: "/phase grant @p circuit_mk2"
+				player_command: false
+			}]
+		}
+		{
+			title: "Circuit MK3"
+			icon: "indrev:circuit_mk3"
+			x: -6.0d
+			y: -6.0d
+			dependencies: ["0C7204CB0D5E84B9"]
+			id: "775C346406100518"
+			rewards: [{
+				id: "46FF0C40A34F83C4"
+				type: "command"
+				title: "Circuit MK3 Recipe Unlock"
+				icon: "indrev:circuit_mk3"
+				command: "/phase grant @p circuit_mk3"
+				player_command: false
+			}]
+		}
+		{
+			title: "Circuit MK4"
+			icon: "indrev:circuit_mk4"
+			x: 3.5d
+			y: -6.0d
+			dependencies: ["3B254647DE79F389"]
+			id: "4913AF9565D2F063"
+			rewards: [{
+				id: "5E47D7A6DC5E6BFA"
+				type: "command"
+				title: "Circuit MK4 Recipe Unlock"
+				icon: "indrev:circuit_mk4"
+				command: "/phase grant @p circuit_mk4"
+				player_command: false
+			}]
+		}
+		{
+			title: "NASA Workbench"
+			icon: "ad_astra:nasa_workbench"
+			x: -5.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["0C7204CB0D5E84B9"]
+			id: "1273A4E0567699A6"
+			tasks: [{
+				id: "05108AB9D882AF32"
+				type: "xp"
+				value: 15L
+				points: false
+			}]
+			rewards: [{
+				id: "3B45924B490EB928"
+				type: "command"
+				title: "NASA Workbench Recipe"
+				icon: "ad_astra:nasa_workbench"
+				command: "/phase grant @p nasa"
+				player_command: false
+			}]
+		}
+		{
+			title: "MK2 Upgrade"
+			icon: "indrev:tier_upgrade_mk2"
+			x: -12.0d
+			y: -7.5d
+			dependencies: ["06252A848CE80A1B"]
+			id: "69AE4DD152FE40B2"
+			rewards: [{
+				id: "41EC0F7DF47198F5"
+				type: "command"
+				title: "MK2 Upgrade Recipe Unlock"
+				icon: "indrev:tier_upgrade_mk2"
+				command: "/phase grant @p tier_upgrade_mk2"
+				player_command: false
+			}]
+		}
+		{
+			title: "MK3 Upgrade"
+			icon: "indrev:tier_upgrade_mk3"
+			x: -6.0d
+			y: -7.5d
+			dependencies: ["775C346406100518"]
+			id: "6FBFE58A24280365"
+			rewards: [{
+				id: "5DE7376729736337"
+				type: "command"
+				title: "MK3 Upgrade Recipe Unlock"
+				icon: "indrev:tier_upgrade_mk3"
+				command: "/phase grant @p tier_upgrade_mk3"
+				player_command: false
+			}]
+		}
+		{
+			title: "MK4 Upgrade"
+			icon: "indrev:tier_upgrade_mk4"
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["4913AF9565D2F063"]
+			id: "7618F079AA6BB9A2"
+			rewards: [{
+				id: "1C150B93F38D2221"
+				type: "command"
+				title: "MK4 Upgrade Recipe Unlock"
+				icon: "indrev:tier_upgrade_mk4"
+				command: "/phase grant @p tier_upgrade_mk4"
+				player_command: false
+			}]
+		}
+		{
+			title: "Red Alloy Compound"
+			icon: "rswires:red_alloy_compound"
+			x: -19.5d
+			y: -4.5d
+			subtitle: "The path to rswires awaits"
+			description: ["Rswires allows redstone signals in all directions. This tool is essential to every engineer."]
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "1EAB97E3B0467FC3"
+			rewards: [{
+				id: "22C9A1F85CE5F553"
+				type: "command"
+				title: "Red Alloy Compound Recipe Unlock"
+				icon: "rswires:red_alloy_compound"
+				command: "/phase grant @p red_alloy_compound"
+				player_command: false
+			}]
+		}
+		{
+			title: "Cryo Freezer Research"
+			icon: "ad_astra:cryo_freezer"
+			x: 4.5d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["3B254647DE79F389"]
+			id: "616AF19FA21EF09A"
+			tasks: [{
+				id: "28BE836ABF29E855"
+				type: "xp"
+				value: 20L
+				points: false
+			}]
+			rewards: [{
+				id: "1AB6BD356D8D08F8"
+				type: "command"
+				title: "Recipe Unlock"
+				icon: "ad_astra:cryo_freezer"
+				command: "/phase grant @p cryo_freezer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Engineer Level 3"
+			icon: "kubejs:engineer_3"
+			x: -17.5d
+			y: -4.5d
+			shape: "gear"
+			size: 1.3d
+			id: "42F5AB568D5D0E3A"
+			tasks: [{
+				id: "6384C83FF5FDA32B"
+				type: "professions:profession"
+				prof: "professions:engineering"
+				action: "LEVEL"
+				level: 3
+			}]
+		}
+		{
+			title: "Engineer Level 20"
+			icon: "kubejs:engineer_20"
+			x: -6.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["1B1FB2CFE113637C"]
+			size: 1.3d
+			id: "0C7204CB0D5E84B9"
+			tasks: [{
+				id: "789769CAAAB8E3C9"
+				type: "professions:profession"
+				prof: "professions:engineering"
+				action: "LEVEL"
+				level: 20
+			}]
+		}
+		{
+			title: "Engineer Level 30"
+			icon: "kubejs:engineer_30"
+			x: 3.5d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["0C7204CB0D5E84B9"]
+			size: 1.3d
+			id: "3B254647DE79F389"
+			tasks: [{
+				id: "4E4F7A2D2B06A642"
+				type: "professions:profession"
+				prof: "professions:engineering"
+				action: "LEVEL"
+				level: 30
+			}]
+		}
+		{
+			title: "Engineer Level 40"
+			icon: "kubejs:engineer_40"
+			x: 8.5d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["3B254647DE79F389"]
+			size: 1.3d
+			id: "3E68D7962BB883C2"
+			tasks: [{
+				id: "3D6DE403C6FB0724"
+				type: "professions:profession"
+				prof: "professions:engineering"
+				action: "LEVEL"
+				level: 40
+			}]
+		}
+		{
+			title: "Engineer Level 50"
+			icon: "kubejs:engineer_50"
+			x: 12.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["3E68D7962BB883C2"]
+			size: 1.3d
+			id: "4A6C3FB12401A0B3"
+			tasks: [{
+				id: "4415CAF23C1A56F9"
+				type: "professions:profession"
+				prof: "professions:engineering"
+				action: "LEVEL"
+				level: 50
+			}]
+		}
+		{
+			title: "Analog Circuit"
+			icon: "modern_industrialization:analog_circuit"
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["0C7204CB0D5E84B9"]
+			id: "42750898562DFE67"
+			rewards: [{
+				id: "20C9700A6BD8EC10"
+				type: "command"
+				title: "Analog Circuit Recipe Unlock"
+				icon: "modern_industrialization:analog_circuit"
+				command: "/phase grant @p analog_circuit"
+				player_command: false
+			}]
+		}
+		{
+			title: "Electronic Circuit"
+			icon: "modern_industrialization:electronic_circuit"
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["3B254647DE79F389"]
+			id: "7520CCE9FEB4DD97"
+			rewards: [{
+				id: "4EBB534C4EC3A91C"
+				type: "command"
+				title: "Electronic Circuit Recipe Unlock"
+				icon: "modern_industrialization:electronic_circuit"
+				command: "/phase grant @p electronic_circuit"
+				player_command: false
+			}]
+		}
+		{
+			title: "Digital Circuit"
+			icon: "modern_industrialization:digital_circuit"
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["3E68D7962BB883C2"]
+			id: "7E4D928E626ED190"
+			rewards: [{
+				id: "24C20E9E1ECA13CF"
+				type: "command"
+				title: "Digital Circuit Recipe Unlock"
+				icon: "modern_industrialization:digital_circuit"
+				command: "/phase grant @p digital_circuit"
+				player_command: false
+			}]
+		}
+		{
+			title: "Quantum Circuit"
+			icon: "modern_industrialization:quantum_circuit"
+			x: 12.0d
+			y: -3.0d
+			dependencies: ["4A6C3FB12401A0B3"]
+			id: "2DC30E1B26EB32A9"
+			rewards: [{
+				id: "306EA3B6B0411A6E"
+				type: "command"
+				title: "Quantum Circuit Recipe Unlock"
+				icon: "modern_industrialization:quantum_circuit"
+				command: "/phase grant @p quantum_circuit"
+				player_command: false
+			}]
+		}
+		{
+			title: "Engineer Level 10"
+			icon: "kubejs:engineer_10"
+			x: -12.0d
+			y: -4.5d
+			shape: "gear"
+			dependencies: ["42F5AB568D5D0E3A"]
+			size: 1.3d
+			id: "1B1FB2CFE113637C"
+			tasks: [{
+				id: "3F194834856C5D16"
+				type: "professions:profession"
+				prof: "professions:engineer"
+				action: "LEVEL"
+				level: 10
+			}]
+		}
+		{
+			icon: "indrev:circuit_mk1"
+			x: -16.5d
+			y: -6.0d
+			dependencies: ["42F5AB568D5D0E3A"]
+			id: "5FE2567A8BC6C026"
+			tasks: [{
+				id: "23EC7DB066EA12EE"
+				type: "checkmark"
+				title: "Circuit mk1"
+			}]
+			rewards: [{
+				id: "79D0B1176BA8AF03"
+				type: "command"
+				title: "Circuit MK1 Recipe Unlock"
+				icon: "indrev:circuit_mk1"
+				command: "/say Hi, @p!"
+				player_command: false
+			}]
+		}
+		{
+			icon: "indrev:controller"
+			x: 12.0d
+			y: -6.0d
+			dependencies: ["4A6C3FB12401A0B3"]
+			id: "2DE42096D3643040"
+			tasks: [{
+				id: "4DAB4C7DE71234A5"
+				type: "checkmark"
+				title: "Controller"
+			}]
+			rewards: [{
+				id: "3A0E52913EAB2543"
+				type: "command"
+				title: "Controller Recipe Unlock"
+				icon: "indrev:controller"
+				command: "/phase grant @p indrev_controller"
+				player_command: false
+			}]
+		}
+		{
+			icon: "indrev:modular_core"
+			x: 8.5d
+			y: -6.0d
+			dependencies: ["3E68D7962BB883C2"]
+			id: "180F665344CC1F4C"
+			tasks: [{
+				id: "7BEF8FA149850764"
+				type: "checkmark"
+				title: "Core Of Modularity"
+			}]
+			rewards: [{
+				id: "47E309FFF5918AAB"
+				type: "command"
+				title: "Core Of Modularity Recipe Unlock"
+				icon: "indrev:modular_core"
+				command: "/phase grant @p modular_core"
+				player_command: false
+			}]
+		}
+		{
+			icon: "modern_industrialization:steel_ingot"
+			x: -12.0d
+			y: -3.0d
+			dependencies: ["1B1FB2CFE113637C"]
+			id: "64F4FFD33126A3DE"
+			tasks: [{
+				id: "6E8EEB43340700A9"
+				type: "checkmark"
+				title: "Steel Discovery"
+			}]
+			rewards: [{
+				id: "7DC0373FCD0DA529"
+				type: "command"
+				title: "Steel Ingot"
+				icon: "modern_industrialization:steel_ingot"
+				command: "/phase grant @p steel_ingot"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}

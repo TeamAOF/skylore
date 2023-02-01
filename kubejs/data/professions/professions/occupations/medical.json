@@ -1,0 +1,225 @@
+{
+  "type": "professions:default",
+  "color": "#07ada2",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by doing doctor stuff."
+  ],
+  "displayName": "Medical",
+  "maxLevel": 50,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "kubejs:dissected_organs"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:nether_wart"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:redstone",
+        "minecraft:glowstone_dust"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:fermented_spider_eye"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:gunpowder"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:dragon_breath"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 0.5
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:sugar"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 5,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:rabbit_foot",
+        "minecraft:turtle_helmet",
+        "minecraft:phantom_membrane"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 3.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:glistering_melon_slice"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:spider_eye",
+        "minecraft:magma_cream",
+        "minecraft:blaze_powder"
+      ]
+    },
+    {
+      "action": "professions:brew",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 5.0
+        },
+        {
+          "reward": "professions:item",
+          "count": 2,
+          "item": "numismatic-overhaul:bronze_coin"
+        }
+      ],
+      "items": [
+        "minecraft:pufferfish",
+        "minecraft:golden_carrot",
+        "minecraft:ghast_tear"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "type": "professions:default",
+  "color": "#a89928",
+  "descriptionColor": "#FFFFFF",
+  "description": [
+    "Earn money and experience",
+    "by crafting logistical items."
+  ],
+  "displayName": "Captain",
+  "maxLevel": 50,
+  "experienceSclEquation": "1000*1.064^(lvl-1)",
+  "incomeSclEquation": "base",
+  "actions": [
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 2.0
+        },
+        {
+          "count": 2,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "#minecraft:wooden_pressure_plates",
+        "#minecraft:banners",
+        "#minecraft:stairs",
+        "#minecraft:fences",
+        "#minecraft:wooden_doors",
+        "#minecraft:wooden_trapdoors",
+        "#c:wooden_barrels",
+        "#minecraft:rails",
+        "#chipped:ladder"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 4.0
+        },
+        {
+          "count": 4,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "#c:wooden_chests",
+        "minecraft:furnace",
+        "catwalksinc:catwalk",
+        "create:belt_connector",
+        "minecraft:hopper_minecart",
+        "indrev:item_pipe_mk1",
+        "indrev:fluid_pipe_mk1",
+        "modern_industrialization:item_pipe",
+        "modern_industrialization:white_item_pipe",
+        "modern_industrialization:orange_item_pipe",
+        "modern_industrialization:magenta_item_pipe",
+        "modern_industrialization:light_blue_item_pipe",
+        "modern_industrialization:yellow_item_pipe",
+        "modern_industrialization:lime_item_pipe",
+        "modern_industrialization:pink_item_pipe",
+        "modern_industrialization:gray_item_pipe",
+        "modern_industrialization:light_gray_item_pipe",
+        "modern_industrialization:cyan_item_pipe",
+        "modern_industrialization:purple_item_pipe",
+        "modern_industrialization:blue_item_pipe",
+        "modern_industrialization:brown_item_pipe",
+        "modern_industrialization:green_item_pipe",
+        "modern_industrialization:red_item_pipe",
+        "modern_industrialization:black_item_pipe",
+        "modern_industrialization:fluid_pipe",
+        "modern_industrialization:white_fluid_pipe",
+        "modern_industrialization:orange_fluid_pipe",
+        "modern_industrialization:magenta_fluid_pipe",
+        "modern_industrialization:light_blue_fluid_pipe",
+        "modern_industrialization:yellow_fluid_pipe",
+        "modern_industrialization:lime_fluid_pipe",
+        "modern_industrialization:pink_fluid_pipe",
+        "modern_industrialization:gray_fluid_pipe",
+        "modern_industrialization:light_gray_fluid_pipe",
+        "modern_industrialization:cyan_fluid_pipe",
+        "modern_industrialization:purple_fluid_pipe",
+        "modern_industrialization:blue_fluid_pipe",
+        "modern_industrialization:brown_fluid_pipe",
+        "modern_industrialization:green_fluid_pipe",
+        "modern_industrialization:red_fluid_pipe",
+        "modern_industrialization:black_fluid_pipe"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 6.0
+        },
+        {
+          "count": 1,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "minecraft:anvil",
+        "minecraft:jukebox",
+        "minecraft:tnt",
+        "expandedstorage:iron_chest",
+        "expandedstorage:iron_barrel",
+        "indrev:item_pipe_mk2",
+        "indrev:fluid_pipe_mk2"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 8.0
+        },
+        {
+          "count": 2,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "expandedstorage:gold_chest",
+        "expandedstorage:gold_barrel",
+        "kibe:fluid_hopper",
+        "indrev:item_pipe_mk3",
+        "indrev:fluid_pipe_mk3"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 12.0
+        },
+        {
+          "count": 4,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "expandedstorage:diamond_chest",
+        "expandedstorage:diamond_barrel",
+        "indrev:item_pipe_mk4",
+        "indrev:fluid_pipe_mk4"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 16.0
+        },
+        {
+          "count": 8,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "expandedstorage:obsidian_chest",
+        "expandedstorage:obsidian_barrel"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 20.0
+        },
+        {
+          "count": 16,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "expandedstorage:netherite_chest",
+        "expandedstorage:netherite_barrel",
+        "kibe:vacuum_hopper"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 200.0
+        },
+        {
+          "count": 200,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "minecraft:beacon"
+      ]
+    },
+    {
+      "action": "professions:craft_item",
+      "conditions": [],
+      "rewards": [
+        {
+          "reward": "professions:occupation_exp",
+          "amount": 10.0
+        },
+        {
+          "count": 10,
+          "item": "numismatic-overhaul:bronze_coin",
+          "reward": "professions:item"
+        }
+      ],
+      "items": [
+        "minecraft:iron_door",
+        "minecraft:iron_bars",
+        "minecraft:hopper",
+        "minecraft:cauldron"
+      ]
+    }
+  ],
+  "unlocks": [],
+  "modifiers": {
+    "milestones": [],
+    "perks": []
+  }
+}
