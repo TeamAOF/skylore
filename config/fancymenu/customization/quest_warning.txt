@@ -1,0 +1,98 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_490
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 2.0
+  source = Check the Quest book!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 12
+  width = 224
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4fea0241-521a-4d35-807d-33bc8ce167cf1675364809598
+  y = 72
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = toggle_layout
+  x = 70
+  width = 93
+  actionid = f9efacf5-7b5b-4203-ad33-b198f9bdf8081675364873956
+  action = addbutton
+  y = 94
+  label = OK
+  value = quest_warning
+  height = 20
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  action = addtexture
+  actionid = b2c30384-4892-4c4b-907e-595cfe90b9a71675365135008
+  y = 6
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 1.5
+  source = /\
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 33
+  width = 19
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 65168c0c-b788-4a88-af3d-1ccc89ca33481675365159156
+  y = 30
+  alignment = left
+  height = 18
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = false
+  scale = 3.0
+  source = |
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 39
+  width = 19
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = ba26cedf-22fa-4c10-a177-da6092a7a6581675365310880
+  y = 41
+  alignment = left
+  height = 18
+}
+
